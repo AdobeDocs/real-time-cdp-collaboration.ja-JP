@@ -58,10 +58,10 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 
 * **ユーザー ID**：アクションを実行したユーザーの識別子。
 * **アクション**：実行されるアクションのタイプ（作成、更新、削除など）。
-* **リソース**:変更または作成されたリソース。
-* **タイムスタンプ**:アクションが実行された時刻。
+* **リソース**：変更または作成されたリソース。
+* **タイムスタンプ**：アクションが実行された時刻。
 
-これらのログは、Real-時間 CDP コラボレーション インスタンス内のすべてのアクティビティの包括的な証跡を作成し、データ ガバナンスと規制コンプライアンスに役立ちます。 詳しくは、UIの [監査ログの管理](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)を参照してください。
+これらのログは、Real-Time CDP Collaboration インスタンス内のすべてのアクティビティの包括的な証跡を作成します。これは、データガバナンスと法令遵守に役立ちます。 詳しくは、[UI での監査ログの管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui) を参照してください。
 
 ### 監査ログのフィルタリング
 
@@ -87,7 +87,7 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 監査ログを使用する利点の一部を理解します。
 
 * **データガバナンス**：監査ログを使用して、プラットフォーム内のすべてのアクティビティが追跡され、監査可能であることを確認します。
-* **規制コンプライアンス**: この機能は、規制要件を満たすためのユーザーアクティビティの証跡を提供します。
+* **規制への準拠**：この機能は、規制要件を満たすためのユーザーアクティビティの証跡を提供します。
 * **トラブルシューティング**：監査ログは、ユーザーのアクションの詳細なログを提供することで、問題の特定と解決に役立ちます。
 
 ## カテゴリとアクションのリファレンス
@@ -101,8 +101,8 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 | **[!UICONTROL Collaboration インスタンス]** | 作成、更新、削除 | 組織アカウントの管理（組織の作成、更新、削除など）。 詳しくは、[ 組織の設定 ](/help/guide/setup/onboard-organization.md) を参照してください。 |
 | **[!UICONTROL Collaborationへの招待]** | 作成、更新、削除、承認、拒否 | 招待の作成、更新、削除、承認、却下など、接続の招待を管理します。 詳しくは、[ 接続招待 ](/help/guide/connect/establishing-connections.md) を参照してください。 |
 | **[!UICONTROL Collaboration接続]** | 作成、更新、削除、承認、却下、承認をリクエスト | 接続の作成、更新、削除、承認、却下、承認のリクエストなど、コラボレーション接続を管理します。 |
-| **[!UICONTROL Collaboration データ接続]** | 作成、更新、削除 | データ接続の作成、更新、削除など、オーディエンスをインポートおよび管理するための共同作業のためのデータ接続の管理。 詳しくは [データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。 |
-| **[!UICONTROL コラボレーションデータエンティティ]** | 作成、更新、削除 | データ エンティティの作成、更新、削除を含む、共同作業のためのデータ エンティティを管理します。 このコンテキストのデータエンティティはオーディエンスを指します。 詳しくは、[ オーディエンスのインポートと管理 ](/help/guide/setup/onboard-audiences.md) を参照してください。 |
+| **[!UICONTROL Collaboration データ接続]** | 作成、更新、削除 | データ接続の作成、更新、削除など、オーディエンスをインポートおよび管理するための共同作業のためのデータ接続の管理。 詳しくは、[ データ接続の管理 ](/help/guide/setup/manage-data-connection.md) を参照してください。 |
+| **[!UICONTROL Collaboration データエンティティ]** | 作成、更新、削除 | データ エンティティの作成、更新、削除を含む、共同作業のためのデータ エンティティを管理します。 このコンテキストのデータエンティティはオーディエンスを指します。 詳しくは、[ オーディエンスのインポートと管理 ](/help/guide/setup/onboard-audiences.md) を参照してください。 |
 | **[!UICONTROL Collaboration プロジェクト]** | 作成、更新、削除 | プロジェクトの作成、更新、削除を含め、コラボレーション内のプロジェクトを管理します。 詳しくは、[ プロジェクトの管理 ](/help/guide/collaborate/manage-projects.md) を参照してください。 |
 | **[!UICONTROL Collaboration モジュール]** | 作成、更新、削除 | UI での様々なモジュールの作成、更新、削除を含め、共同作業プロジェクト内の様々なモジュールを管理します。 例えば、[ オーディエンスを共有 ](/help/guide/collaborate/share.md) する機能などです。 |
 

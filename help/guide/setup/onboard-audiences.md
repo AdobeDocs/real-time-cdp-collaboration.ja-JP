@@ -11,11 +11,11 @@ ht-degree: 3%
 
 ---
 
-# オーディエンスインポート、管理
+# オーディエンスのインポートと管理
 
 {{limited-availability-release-note}}
 
-Audiencesは、さまざまな属性に基づいてセグメント化されたユーザーまたは顧客の特定のグループです。 これにより、広告主とパブリッシャーは、ターゲットを絞ったマーケティングとパーソナライズされたエクスペリエンスで協力して、より効果的な広告キャンペーンを行うことができます。
+オーディエンスは、様々な属性に基づいてセグメント化された、ユーザーまたは顧客の特定のグループです。 これにより、広告主とパブリッシャーは、ターゲットを絞ったマーケティングとパーソナライズされたエクスペリエンスで共同作業でき、より効果的な広告キャンペーンを実現できます。
 
 オーディエンスに関連して表示できるすべての関連指標や、オーディエンスをAdobe Real-Time CDP Collaborationに読み込むためのワークフロー手順を理解するための参考として、このページを使用してください。
 
@@ -60,13 +60,13 @@ Audiencesは、さまざまな属性に基づいてセグメント化された�
 
 データ接続は、オーディエンスをReal-Time CDP Collaborationに読み込む元のデータのソースです。 Real-Time CDP Collaborationの最初のリリースでサポートされているデータ接続はAdobe Experience Platformのみです。
 
-データ接続に対して構成した ID マッピングやスケジュール設定などの設定は、このデータ接続からインポートされたすべてのオーディエンスに適用されます。
+データ接続に対して設定した ID マッピングやスケジュールなどの設定は、このデータ接続から読み込まれたすべてのオーディエンスに適用されます。
 
 >[!TIP]
 >
->この手順で追加したすべてのデータ接続をいつでも表示および編集できる別のワークフローがあります。 詳しくは [データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
+>この手順で追加したすべてのデータ接続を常に表示および編集できる別のワークフローがあります。 詳しくは、[ データ接続の管理 ](/help/guide/setup/manage-data-connection.md) を参照してください。
 
-![AEP RTCDP、CSV ファイル、Amazon S3 および Snowflake のオプションを表示するソース画面を選択しますオーディエンス。](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
+![AEP RTCDP、CSV ファイル、Amazon S3 およびSnowflakeのオプションを示すオーディエンスソースを選択画面 ](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
 
 #### データソースを選択
 
@@ -89,16 +89,16 @@ Audiencesは、さまざまな属性に基づいてセグメント化された�
 
 次に、読み込んだデータに対して正しいマーケティングアクションが設定されていることを確認する必要があります。 また、データの共同作業に使用するために、Real-Time CDPからインポートされたデータに対して同意を得る必要があります。
 
-マーケティングアクションを使用して、Experience PlatformからReal-Time CDP Collaborationに読み込むオーディエンスデータを制御します。 **データコラボレーション**&#x200B;マーケティングアクションは、C4、C5、および C9 データ使用ラベルをサポートします。**データ Science** マーケティングアクションでは、C9 データ使用ラベルがサポートされています。
+マーケティングアクションを使用して、Experience PlatformからReal-Time CDP Collaborationに読み込むオーディエンスデータを制御します。 **データCollaboration** マーケティングアクションは、C4、C5 および C9 のデータ使用ラベルをサポートします。 **データサイエンス** マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、 [C4、C5、C9 データ使用ラベルを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックス *有効* を使用すると、上記でExperience Platformで呼び出されたラベルの付いたデータは除外され、Real-Time CDP Collaborationに *取り込まれません*。
 * チェックボックス *無効* をオンにした場合、Real-Time CDP Collaborationに読み込めるExperience Platformのデータに関する制限はありません。
 
 データ使用ラベルについて詳しくは、Experience Platform ドキュメントを参照してください。
 
-* [データ使用ラベルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [ データ使用ラベルの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![ データ共同作業に必要なマーケティングアクション ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
@@ -125,7 +125,7 @@ Audiencesは、さまざまな属性に基づいてセグメント化された�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="ターゲットフィールドは、会社のオンボーディング時に選択した一致キーに対応しています。 現在、サポートされている一致キーはハッシュ化された電子メールのみです。"
+>abstract="ターゲットフィールドは、会社にオンボーディングする際に選択した一致キーに対応しています。 現在、サポートされている一致キーは、ハッシュ化されたメールのみです。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -225,11 +225,11 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >オーディエンスの更新頻度を調整すると、オーディエンスメンバーシップの更新ごとに計算される [Audience Management クレジットアクティビティ ](/help/guide/setup/my-activity.md#types-of-activities) の管理に役立ちます。 この影響は、オーディエンス検出レポートやオーディエンスの共有およびアクティベーションに使用できる、より新しいデータではない可能性があります。
 
-![オーディエンスメンバーシップを更新するためのさまざまな頻度間隔を示すスケジュール画面。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
+![ オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
 
 >[!IMPORTANT]
 >
->日付範囲の終了日を過ぎると、このデータ接続からインポートされたすべてのオーディエンスの更新が停止します。 接続更新には、 [データ接続の管理](/help/guide/setup/manage-data-connection.md)に移動し、新しい終了日を設定します。
+>日付範囲の終了日の後、このデータ接続からインポートされたすべてのオーディエンスの更新が停止します。 接続を更新するには、[ データ接続の管理 ](/help/guide/setup/manage-data-connection.md) に移動して、新しい終了日を設定します。
 
 ### オーディエンスを選択 {#select-audience}
 
@@ -256,15 +256,16 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 | 項目 | 説明 |
 |----------|---------|
-| **[!UICONTROL ID]** | このオーディエンスに存在する ID の数を示します。 同じプロファイルに 2 つ以上の ID があり、これらの ID がプロジェクトで一致キーとして使用されている場合、プロファイルはカウントに 2 回表示されることに注意してください。 |
+| **[!UICONTROL ID]** | このオーディエンスに存在する ID の数を示します。 同じプロファイルに 2 つ以上の ID があり、これらの ID がプロジェクトで一致キーとして使用される場合、プロファイルはそのカウントに 2 回表示されます。 |
 | **[!UICONTROL ステータス]** | オーディエンスがアクティブであり、プロジェクトで使用できるかどうかを示します。 「保留中」ステータスは、オーディエンスが最近インポートされ、オーディエンスメンバーがまだ入力していないことを示します。 インポートされたオーディエンスは、通常、24 時間以内にプロファイルで入力されます。 |
 | **[!UICONTROL ソース]** | このオーディエンスのインポート元を示します。 Real-Time CDP Collaborationの現在のリリースでは、サポートされているソースはAdobe Experience Platformのみです。 |
 | **[!UICONTROL データ接続]** | このオーディエンスのインポート元に関する詳細なドリルダウン情報。 例えば、Experience Platform ソースからオーディエンスを読み込む場合、組織がアクセスできる個々のサンドボックスがデータ接続と見なされます。 |
 | **[!UICONTROL 接続アクセス]** | このオーディエンスがプライベートかパブリックかを定義します。 公開オーディエンスは、重複レポートで検出でき、共同作業者と共有できます。 |
-| **[!UICONTROL 作成日]** | このオーディエンスが Real-時間 CDP コラボレーションに読み込まれた日時を示します。 |
-| **[!UICONTROL 最終更新日]** | このオーディエンスのいずれかの側面が最後に更新された日時を示します。 |
+| **[!UICONTROL 作成日]** | このオーディエンスがReal-Time CDP Collaborationにいつ読み込まれたかを示します。 |
+| **[!UICONTROL 最終更新日]** | このオーディエンスのいずれかの側面が更新された最終日時を示します。 |
 
-**[!UICONTROL [データ接続の管理]** を選択して、設定したすべてのデータ接続表示および編集します。省略記号と **[!UICONTROL 削除]** を選択して、オーディエンスを削除します。
+**[!UICONTROL データ接続を管理]** を選択して、設定したすべてのデータ接続を表示および編集します。
+省略記号と **[!UICONTROL 削除]** を選択して、オーディエンスを削除します。
 省略記号を選択して **[!UICONTROL カテゴリを編集]** オーディエンスに別のカテゴリタグを追加します。 詳しくは、以下の [ カテゴリ ](/#categories) の節を参照してください。
 個々のオーディエンスを検査または編集するオーディエンス名を選択します。
 
@@ -326,7 +327,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="接続アクセス"
->abstract="<p>Audiencesには、パブリック、プライベート、カスタムの 3 種類があります。</p><p> 共同作業者とプロジェクトで使用できるかどうかは、接続アクセス設定に応じて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスが共同作業者と共有された後で設定を元に戻すことはできません。</p>"
+>abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者とプロジェクトで使用できるかどうかは、接続アクセス設定に応じて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスが共同作業者と共有された後で設定を元に戻すことはできません。</p>"
 
 オーディエンスを非公開にするか、接続で使用可能で検出可能にするかを選択します。 次の 3 つのオプションを使用できます。
 
@@ -338,7 +339,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >アクセスステータス（パブリック、プライベート、カスタム）に関係なく、任意のオーディエンスの母集団は、オーディエンス検出重複分析ビューの **[!UICONTROL すべてのオーディエンス]** 母集団に貢献します。<br> ![ オーディエンス検出重複分析のシステム生成 **すべてのオーディエンス** オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**オーディエンス検出**重複分析のシステム生成**すべてのオーディエンス**オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。"){width="100" zoomable="yes"}
 
-共同編集者がいるプロジェクトで使用できるオーディエンスは、接続アクセス設定によって異なります。 接続アクセスはいつでもプライベートからパブリックに変更できますが、オーディエンスを共同編集者と共有すると、その設定を元に戻すことはできません。
+共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスが共同作業者と共有された後で設定を元に戻すことはできません。
 
 ### メタデータの表示 {#metadata-visibility}
 
@@ -355,7 +356,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 **[!UICONTROL ID 数を表示]**：この設定は、[ 「検出」タブでの重複レポートの表示 ](/help/guide/collaborate/discover.md#discover-overlaps) の際に、パートナーがオーディエンスの ID 数を表示できるかどうかを制御します。
 
-![「ID 数を表示」オプションの選択を解除してから選択した画像を並べて表示します。](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+![ 「ID カウントを表示」オプションの選択を解除して選択した画像を並べて表示 ](/help/assets/setup/add-manage-audiences/show-identity-count.png)
 
 **[!UICONTROL オーディエンスの重複を表示 %]**:true に設定すると、共同作業者は、自分のオーディエンスと自分に属するオーディエンスの間で [ 重複率を検出 ](/help/guide/collaborate/discover.md#compare-audiences) できます。 例えば、以下の録画では、オーディエンス `agora-advertiser-aud3` はこの設定を true に設定しており、共同作業者はそのオーディエンスとの重複率を表示できます。 オーディエンス `agora-advertiser-aud1` では、この設定が false に設定されているので、共同作業者は重複率を表示できません。
 

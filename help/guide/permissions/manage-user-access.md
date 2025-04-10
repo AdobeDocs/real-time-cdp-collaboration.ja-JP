@@ -15,23 +15,23 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Experience Cloud [権限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} インターフェイスを使用して、Real-時間 CDP コラボレーション内の個人コンポーネントへの権限とユーザーアクセスを管理します。 権限を使用すると、システム管理者と製品管理者は [ロール](./manage-roles.md) を定義して、特定の機能やリソースへのユーザーアクセス管理ことができます。
+Experience Cloud [ 権限 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} インターフェイスを使用して、Real-Time CDP Collaboration内の個々のコンポーネントに対する権限とユーザーアクセスを管理します。 権限を使用すると、システム管理者と製品管理者は [ 役割 ](./manage-roles.md) を定義して、特定の機能とリソースへのユーザーアクセスを管理できます。
 
 ## 権限へのアクセスの設定 {#permissions-access}
 
-権限にアクセスするには、製品管理者と Adobe Experience Platform 製品に対する ユーザー アクセス権の両方が必要です。 製品管理者権限の設定にはシステム管理者が必要ですが、ユーザー権限の設定はシステム管理者または製品管理者が行うことができます。 管理ロールの詳細については、 [アクセス制御階層](./overview.md#hierarchy) ガイドを参照してください。
+権限にアクセスするには、Adobe Experience Platform製品への製品管理者とユーザーの両方のアクセス権が必要です。 製品管理者権限を設定するにはシステム管理者が必要ですが、ユーザー権限はシステム管理者または製品管理者が設定できます。 管理者ロールの詳細については、[ アクセス制御階層 ](./overview.md#hierarchy) ガイドを参照してください。
 
 >[!TIP]
 >
->このガイドでは、「管理者&#x200B;****&#x200B;は&#x200B;**システム管理者と製品管理者の両方**&#x200B;を指します。
+>このガイド全体を通して、**管理者** とは、システム管理者と製品管理者の両方 **を指し** います。
 
-### システム管理者:製品管理者アクセスの設定 {#admin-access}
+### システム管理者：製品管理者アクセスの設定 {#admin-access}
 
-以下のステップを使用して、ユーザー製品管理者にアクセス権を付与して、Experience Platform製品内の管理機能を付与します。
+次の手順でユーザーに製品管理者アクセス権を付与し、Experience Platform製品内の管理機能を付与します。
 
 >[!IMPORTANT]
 >
->システム管理者は、Adobe Admin Console などの特定の Experience Cloud 製品にすぐにアクセスできます。 ただし、権限を使用するには、自分自身にExperience Platform製品の製品管理者およびユーザーアクセス権を付与する必要があります。 システム管理者として自分自身にアクセス権を付与するには、以下のステップバイステップガイドに従います。
+>システム管理者はAdobe Admin Consoleなどの特定のExperience Cloud製品に標準でアクセスできます。 ただし、権限を使用するには、自分自身にExperience Platform製品の製品管理者およびユーザーアクセス権を付与する必要があります。 システム管理者として自分自身にアクセス権を付与するには、以下のステップバイステップガイドに従います。
 
 資格情報を使用して ](https://experience.adobe.com/){target="_blank"}0}Adobe Experience Cloud} にログインします。 [ホームビューは、「**[!UICONTROL クイックアクセス]**」セクションに使用可能な製品のリストと共に表示されます。 「**[!UICONTROL Admin Console]**」を選択します。
 
@@ -59,7 +59,7 @@ Adobe Experience Platform ダッシュボードが表示されます。 **[!UICO
 >
 >前の節の手順を実行している場合は、既にAdobe Experience Platform製品に含まれているため、最初の手順をスキップしてもかまいません。
 
-[Admin Console](https://adminconsole.adobe.com/){target="_blank"} に移動し、{ 製品 ]**リストから {2****Adobe Experience Platform**[!UICONTROL  を選択します ]****[!UICONTROL 
+[Admin Console](https://adminconsole.adobe.com/){target="_blank"} に移動し、{ 製品 ]**リストの**[!UICONTROL  製品とサービス **[!UICONTROL から]** 3}Adobe Experience Platform ]**を選択します。**[!UICONTROL 
 
 ![Admin Consoleがハイライト表示されたExperience Cloudのホームビュー ](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
@@ -75,7 +75,7 @@ Adobe Experience Platform ダッシュボードが表示されます。 **[!UICO
 
 ![AEP-Default-All-Users と Default Production All Access のオプションが選択され、「適用」がハイライト表示された製品プロファイルを選択ダイアログ ](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
-情報が正しい確認、[ **[!UICONTROL 保存]**] を選択します。
+情報が正しいことを確認し、「**[!UICONTROL 保存]**」を選択します。
 
 ![ ユーザー情報と製品プロファイルが表示され、「保存」がハイライト表示された製品にユーザーを追加ダイアログ ](../../assets/permissions/save-selections.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オ�
 
 ![ ユーザーワークスペースが表示され、ユーザーがハイライト表示された権限ダッシュボード。](../../assets/permissions/permissions-user.png){zoomable="yes"}
 
-「 **[!UICONTROL ロール]** タブを選択し、「 **[!UICONTROL ロール追加]**」を選択します。
+「**[!UICONTROL 役割]**」タブを選択し、「**[!UICONTROL 役割を追加]**」を選択します。
 
 ![ 「ロール」タブが表示され、「ロールを追加」がハイライト表示されたユーザーワークスペース。](../../assets/permissions/user-roles.png){zoomable="yes"}
 
@@ -111,21 +111,21 @@ Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オ�
 
 これで、Experience Platformと権限にアクセスできるようになりました。 最後の手順で、Real-Time CDP Collaborationへのアクセス権を付与します。
 
-### 管理者:Real-時間 CDP コラボレーションアクセスの設定 {#RTCDP-collaboration-access}
+### 管理者：Real-Time CDP Collaboration アクセスの設定 {#RTCDP-collaboration-access}
 
-Real-時間 CDP コラボレーションへのアクセス権をユーザに付与するには、ロールと呼ばれるアクセス制御概念を使用します。 役割は、組織内の [リソース](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) に対して管理者またはユーザーが持つアクセスのレベルを定義します。
+ユーザーにReal-Time CDP Collaborationへのアクセスを許可するには、roles というアクセス制御の概念を使用します。 役割は、管理者またはユーザーが組織内で [ リソース ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) に対して持つアクセスレベルを定義します。
 
-Real-時間 CDP コラボレーションへの個人アクセスを設定する場合は、コラボレーション リソースからのアクセス許可を含むユーザーのロールを割り当てます。 [管理 ロール](./manage-roles.md)ガイドを使用すると、次の情報を確認できます。
+Real-Time CDP Collaborationへの個々のアクセスを設定する場合は、共同作業リソースから権限を含むユーザーの役割を割り当てます。 [ 役割の管理 ](./manage-roles.md) ガイドを使用して、次の情報を確認できます。
 
-- [2 つの標準ロール](./manage-roles.md#standard-roles)と、それらが Real-時間 CDP コラボレーションに付与するアクセスレベル
-- コラボレーションリソースを使用した [カスタムロール](./manage-roles.md#specific-access-roles) の作成
-- コラボレーションリソースに含まれる権限リスト
+- [2 つの標準の役割 ](./manage-roles.md#standard-roles) と、それらの役割がReal-Time CDP Collaborationに付与するアクセスレベル
+- Collaboration リソースを使用した [ カスタムの役割 ](./manage-roles.md#specific-access-roles) の作成
+- 共同作業リソースに含まれる権限のリスト
 
 >[!NOTE]
 >
->さらに、**[!UICONTROL サンドボックス]**&#x200B;リソース内の&#x200B;**[!UICONTROL 製品]**&#x200B;権限を含む役割にユーザーを割り当てる必要があります。どちらの標準ロールにもこの権限が含まれています。 ユーザーに標準役割ではなくカスタム役割を割り当てる場合は、この権限を含むように割り当てられているロールの 1 つを確認する必要があります。
+>さらに、ユーザーは、**[!UICONTROL サンドボックス]** リソースの **[!UICONTROL Prod]** 権限を含む役割に割り当てられている必要があります。 両方の標準ロールにこの権限が含まれています。 ユーザーに標準の役割ではなくカスタムの役割を割り当てる場合は、ユーザーに割り当てられているいずれかの役割にこの権限が含まれていることを確認する必要があります。
 
-ユーザーが必要とするアクセス レベルを含む役割を選択または作成したら、その役割にユーザーを割り当てる必要があります。
+ユーザーが必要とするアクセスレベルを含む役割を選択または作成したら、その役割にユーザーを割り当てる必要があります。
 
 #### 役割の割り当て
 

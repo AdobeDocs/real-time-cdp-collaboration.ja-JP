@@ -6,7 +6,7 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 基本を学ぶ {#get-started}
 
-Real-Time CDP Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} ガイドを参照してください。
+Real-Time CDP Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target=_"blank"} ガイドを参照してください。
 
 アクセス権を取得したら、組織を設定し、データソースをAdobe Real-Time CDP Collaborationに接続してオーディエンスをインポートする準備が整います。 開始するには、[ 広告主とパブリッシャーのエンドツーエンドワークフロー ](/help/guide/end-to-end-workflow.md) を参照してください。
 

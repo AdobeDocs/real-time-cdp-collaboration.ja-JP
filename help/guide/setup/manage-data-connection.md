@@ -25,15 +25,15 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 >[!IMPORTANT]
 >
->データ接続の削除は、現在、Real-Time CDP Collaboration ユーザーインターフェイスではサポートされていません。 データ接続を削除する場合は、Adobe担当者に問い合わせるか、[ カスタマーサポートチケットを作成 ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support) してください。
+>データ接続の削除は、現在、Real-Time CDP Collaboration ユーザーインターフェイスではサポートされていません。 データ接続を削除する場合は、Adobe担当者に問い合わせるか、[ カスタマーサポートチケットを作成 ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} してください。
 
 既存のデータ接続を表示するには、**[!UICONTROL 設定]**/**[!UICONTROL マイオーディエンス]** に移動し、「**[!UICONTROL データ接続の管理]**」を選択します。
 
-![ 「データ接続の管理」がハイライト表示されたワークスペースを設定 ](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![ 「データ接続の管理」がハイライト表示されたワークスペースを設定 ](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
 これにより、現在設定されているすべてのデータ接続が表示され、それぞれのオーディエンスの数、データ接続のソースなどに関する情報が表示されます。 **[!UICONTROL データ接続を表示]** を選択して、このデータ接続の一部である一致キー、スケジュール、オーディエンスに関する情報を表示します。
 
-![ 接続がハイライト表示されたデータ接続を管理ワークスペース データ接続を表示。](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![ 接続がハイライト表示されたデータ接続を管理ワークスペース データ接続を表示。](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### 一致キー {#match-keys}
 
@@ -48,7 +48,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 このデータ接続で使用されている一致キーを編集することはできません。
 
-![ 「キーを一致させる」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![ 「キーを一致させる」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### スケジュール設定 {#scheduling}
 
@@ -59,13 +59,13 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 データ接続に最初に選択したスケジュール オプションは編集できません。 スケジュールオプションについて詳しくは、オーディエンスの読み込みワークフロードキュメントの [ スケジュールセクション ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
 
-![ 「スケジュール」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+![ 「スケジュール」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## オーディエンス管理 {#manage-audiences}
 
 データ接続からオーディエンスのリストを表示する際に、オーディエンスを表示、カテゴリを編集、データ接続から削除するように選択できます。
 
-![ オーディエンスがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![ オーディエンスがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## 次の手順
 
