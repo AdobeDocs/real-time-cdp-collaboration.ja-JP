@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaborationを使用すると、�
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 20%
 * 概要 {#overview}
    * [使用例とメリット](./use-cases-benefits.md)
    * [エンドツーエンドのワークフロー](./end-to-end-workflow.md)
-* {#setup} の設定
+* 設定 {#setup}
    * [「設定」セクションの概要](./setup/setup-overview.md)
    * [組織のオンボードと管理](./setup/onboard-organization.md)
    * [オーディエンスのインポートと管理](./setup/onboard-audiences.md)
@@ -25,11 +25,11 @@ ht-degree: 20%
    * [ID クロスウォーク](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [監査ログ](./setup/audit-logs.md)
-* パブリッシャーまたは広告主 {#connect} ールとの接続
+* 発行者または広告主と接続する {#connect}
    * [パブリッシャーを検出](./connect/discover-publishers.md)
    * [Discover advertisers](./connect/discover-advertisers.md)
    * [広告主またはパブリッシャーとの接続](./connect/establishing-connections.md)
-* Collaborate {#collaborate}
+* 共同作業 {#collaborate}
    * [プロジェクトの管理](./collaborate/manage-projects.md)
    * [検出](./collaborate/discover.md)
    * [共有](./collaborate/share.md)
@@ -39,7 +39,7 @@ ht-degree: 20%
    * [概要](/help/guide/permissions/overview.md)
    * [ユーザーアクセスの管理](/help/guide/permissions/manage-user-access.md)
    * [役割の管理](/help/guide/permissions/manage-roles.md)
-* のユースケース {#use-cases} 例
+* サンプルユースケース {#use-cases}
    * [キャンペーンの測定](./use-cases/campaign-measurement.md)
    * [予測](./use-cases/prospecting.md)
    * [リターゲティング](./use-cases/retargeting.md)
