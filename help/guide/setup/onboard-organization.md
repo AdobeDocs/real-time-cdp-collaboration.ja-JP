@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationで組織の様々な側面をオンボ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ![ キーの一致の選択ステップ ](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-使用する予定の一致キーを最大 5 つ選択します。 後で接続を設定するときに、不要なマッチ キーを削除することはできますが、新しいマッチ キーを追加することはできません。 選択した各一致キーの ID カウントしきい値（最小カウント）を設定します。 最小値より少ない一致キーは、一部のユースケースの ID 分類に表示されません。
+使用する予定の一致キーを最大 5 つ選択します。 後で接続を設定するときに、不要なマッチ キーを削除することはできますが、新しいマッチ キーを追加することはできません。
 
 Real-Time CDP Collaborationで使用できる一致キーは、次の 3 つのタイプです。
 
