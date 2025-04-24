@@ -4,10 +4,10 @@ description: 組織のクレジット消費アクティビティをReal-Time CDP
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 1e8c2fdb3294111562f206ac141cfa39d5193c6c
+source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 1%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >**[!UICONTROL マイアクティビティ]** ビューには、Real-Time Collaboration CDP ユーザーインターフェイスの様々な部分におけるユーザーアクションに関する情報は含まれません。 [ 監査ログ ](/help/guide/setup/audit-logs.md) 機能を使用して、その情報を取得します。
 
-## アクティビティダッシュボードについて
+## アクティビティダッシュボードについて {#understand-dashboard}
 
 アクティビティダッシュボードには、組織内のすべてのクレジットを消費する操作の包括的なリストが表示されます。 各行は個別のアクティビティを表し、クレジット使用状況に関する主要な情報を提供します。
 
@@ -38,11 +38,12 @@ ht-degree: 1%
 >**[!UICONTROL Audience Management]** アクティビティは別の共同作業者に関連付けられていないので、これらのアクティビティタイプの **[!UICONTROL 接続 ID]** と **[!UICONTROL 接続名]** の列は、**[!UICONTROL N/A]** 値を示します。
 
 | 列 | 説明 |
-|--------|-------------|
+|------------|--------------|
 | **[!UICONTROL 日付]** | アクティビティが発生した日付（MM/DD/YYYY 形式で表示）。 |
 | **[!UICONTROL 接続 ID]** | クレジットを消費するアクティビティに関連付けられた各接続の一意の ID。英数字の文字列で表されます。 |
 | **[!UICONTROL 接続名]** | 接続とクレジットを消費するアクティビティに関連付けられた共同作業者の名前。 |
 | **[!UICONTROL アクティビティ]** | 実行されたアクティビティのタイプ（**アクティベーション – 共有**、**アクティベーション – 出力**、**Audience Management** など）。 |
+| **[!UICONTROL 処理済みの入力]** | アクティビティに対して処理された入力（ID や行など）の合計数（百万単位で測定）。 これにより、アクティビティのコストをCPM（1,000 単位のコスト）と関連付けて概算コストを計算し、アクティビティのコストを理解できます。 |
 | **[!UICONTROL 使用したクレジットの合計]** | アクティビティによって消費されたクレジットの合計数。 |
 | **[!UICONTROL マイクレジットシェア]** | アクティビティに使用されるクレジットのうち、組織の部分。 |
 
@@ -55,6 +56,8 @@ ht-degree: 1%
 * **[!UICONTROL Audience Management]**：クレジットは、オーディエンスがReal-Time CDP Collaborationに読み込まれる際に使用されます。 クレジットは、すべてのオーディエンスにわたってReal-Time CDP Collaboration内でインデックス作成された ID の数（百万単位）と、請求期間中のそのインデックス作成の頻度（毎日、3 日ごと、または毎週）の関数として使用されます。 詳しくは、[ オーディエンスのインポートと管理 ](/help/guide/setup/onboard-audiences.md) を参照してください。
 * **[!UICONTROL 有効化 – 共有]** - クレジットは、請求期間中にReal-Time CDP Collaborationから有効化された ID の数の関数として消費されます。 詳しくは、Real-Time CDP Collaborationでの [ 共有 ](/help/guide/collaborate/share.md) および [ オーディエンスのアクティブ化 ](/help/guide/collaborate/activate.md) を参照してください。
 * **[!UICONTROL 有効化 – 出力]** - クレジットは、請求期間中にReal-Time CDP Collaborationから有効化された ID の数の関数として消費されます。 詳しくは、Real-Time CDP Collaborationでの [ 共有 ](/help/guide/collaborate/share.md) および [ オーディエンスのアクティブ化 ](/help/guide/collaborate/activate.md) を参照してください。
+* **[!UICONTROL オーディエンスの重複]** - クレジットは、データのスケッチを使用してオーディエンスの重複を分析する際に使用されます。 データスケッチは、オーディエンスデータの要約を簡略化したもので、データのプライバシーを維持しながら 2 つのオーディエンスの類似度を判断するのに役立ちます。 詳しくは、[ 「検出」タブでのオーディエンスの重複 ](/help/guide/collaborate/discover.md) を参照してください。
+* **[!UICONTROL Audience Measurement]** - Real-Time CDP Collaborationでアクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。 クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（日別、3 日別または週別）に基づいて消費されます。
 
 
 <!--
