@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationで組織の様々な側面をオンボ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,11 @@ ht-degree: 1%
 >組織レベルで選択した *一致キー* は、広告主とパブリッシャーの共同作業により、[ プロジェクトレベル ](/help/guide/collaborate/manage-projects.md) に流れ落ちます。 その後、プロジェクトレベルで一致するキーを削除できますが、この画面で組織レベルで選択されていないキーを追加 *追加することはできません*。
 
 ### 詳細を設定 {#set-up-details}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="連絡先メール"
+>abstract="チームまたは役割ベースの電子メール （`collaboration@yourcompany.com` など）を指定してください。 個人または個人のメールアドレスは使用しないでください。"
 
 ![ 組織を設定するための詳細とユースケースの手順 ](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
