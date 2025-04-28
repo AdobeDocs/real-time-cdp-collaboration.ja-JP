@@ -4,9 +4,9 @@ description: 組織のクレジット消費アクティビティをReal-Time CDP
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | **[!UICONTROL 接続 ID]** | クレジットを消費するアクティビティに関連付けられた各接続の一意の ID。英数字の文字列で表されます。 |
 | **[!UICONTROL 接続名]** | 接続とクレジットを消費するアクティビティに関連付けられた共同作業者の名前。 |
 | **[!UICONTROL アクティビティ]** | 実行されたアクティビティのタイプ（**アクティベーション – 共有**、**アクティベーション – 出力**、**Audience Management** など）。 |
-| **[!UICONTROL 処理済みの入力]** | アクティビティに対して処理された入力（ID や行など）の合計数（百万単位で測定）。 これにより、アクティビティのコストをCPM（1,000 単位のコスト）と関連付けて概算コストを計算し、アクティビティのコストを理解できます。 |
+| **[!UICONTROL 処理済みの入力]** | アクティビティに対して処理された入力（ID や行など）の合計数。 |
 | **[!UICONTROL 使用したクレジットの合計]** | アクティビティによって消費されたクレジットの合計数。 |
 | **[!UICONTROL マイクレジットシェア]** | アクティビティに使用されるクレジットのうち、組織の部分。 |
 
