@@ -4,7 +4,7 @@ description: 広告主またはパブリッシャーとしてReal-Time CDP Colla
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると、広告主やパブリッシャーはプライバシーファーストの方法でキャンペーンに関する共同作業を行うことができます。 このページでは、広告主やパブリッシャーとして製品を最大限に活用するワークフローについて説明します。
+Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると、広告主やパブリッシャーは、プライバシーを中心とした方法でキャンペーンに関する共同作業を行うことができます。 このページでは、広告主やパブリッシャーとして製品を最大限に活用するワークフローについて説明します。
 
 ## 広告主のエンドツーエンドワークフロー {#advertiser}
 

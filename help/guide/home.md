@@ -4,9 +4,9 @@ description: Adobe Real-Time Customer Data Platform（CDP）Collaborationを使�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## 概要
 
-Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると、サードパーティの Cookie に依存せずに、価値の高いオーディエンスを検出、アクティブ化および測定できます。 このソリューションは、広告主とパブリッシャーの高度なデータコラボレーションを可能にし、プライバシーに配慮した一元化された環境で、パーソナライズされた効果的な顧客体験を作成するのに役立ちます。
+Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると、サードパーティの Cookie に依存せずに、価値の高いオーディエンスを検出、アクティブ化および測定できます。 このソリューションは、広告主とパブリッシャーの高度なデータコラボレーションを可能にし、プライバシーを中心とした一元化された環境で、パーソナライズされた効果的な顧客エクスペリエンスを作成するのに役立ちます。
 
 ![Real-Time CDP Collaboration ホームページ ](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## 信頼できるパートナーを通じてオーディエンスを特定
 
-パブリッシャーと広告主は、プライバシーが保護された環境で共同作業を行うことで、オーディエンスをマッチングし、潜在的な新規顧客を見つけ、利用可能な在庫の広告費用対効果を最大化することができます。 この使いやすいインターフェイスを使用すると、これらのオーディエンスをノーコード環境で表示し、データ共同作業の機会を得るためにプレミアムのパブリッシャーと広告主を接続できます。
+パブリッシャーと広告主は、プライバシーを中心とした環境で共同作業を行い、オーディエンスをマッチさせ、潜在的な新規顧客を見つけ、利用可能な在庫の広告費用対効果を最大化することができます。 この使いやすいインターフェイスを使用すると、これらのオーディエンスをノーコード環境で表示し、データ共同作業の機会を得るためにプレミアムのパブリッシャーと広告主を接続できます。
 
 ## リーチの拡大とクロスチャネルキャンペーンの配信
 
@@ -31,9 +31,9 @@ Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると�
 
 ## キャンペーンの全体的なパフォーマンスについて
 
-共同測定ツールを使用して、キャンペーンの影響をトラッキングします。 パブリッシャーは、キャンペーンのパフォーマンスをブランドに報告し、現在および将来の広告の改善と広告費用の調整を支援できます。 広告主は、プライバシーに配慮したエンゲージメントおよびコンバージョンインサイトを共有し、露出、チャネルおよびコンバージョンデータを統合し、好ましい測定パートナーを使用して完全なインサイトを得ることができます。 一部の測定の自動化は、最初のリリースでは利用できないことに注意してください。
+共同測定ツールを使用して、キャンペーンの影響をトラッキングします。 パブリッシャーは、キャンペーンのパフォーマンスをブランドに報告し、現在および将来の広告の改善と広告費用の調整を支援できます。 広告主は、プライバシーを中心としたエンゲージメントおよびコンバージョンインサイトを共有し、露出、チャネルおよびコンバージョンデータを統合し、好ましい測定パートナーを使用して完全なインサイトを得ることができます。 一部の測定の自動化は、最初のリリースでは利用できないことに注意してください。
 
-## プライバシーに焦点を当てた
+## プライバシー中心
 
 組み込みのコントロールは、ガバナンスとプライバシーの要件が満たされることを保証し、ワークフローの各ステップでオーディエンスデータの責任ある使用をガイドします。
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 基本を学ぶ {#get-started}
 
-Real-Time CDP Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target=_"blank"} ガイドを参照してください。
+Real-Time CDP Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} ガイドを参照してください。
 
 アクセス権を取得したら、組織を設定し、データソースをAdobe Real-Time CDP Collaborationに接続してオーディエンスをインポートする準備が整います。 開始するには、[ 広告主とパブリッシャーのエンドツーエンドワークフロー ](/help/guide/end-to-end-workflow.md) を参照してください。
 

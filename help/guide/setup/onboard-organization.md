@@ -4,7 +4,7 @@ description: Real-Time CDP Collaborationで組織の様々な側面をオンボ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
@@ -81,7 +81,7 @@ ht-degree: 1%
 >title="サポートされるパートナー ID"
 >abstract="プロファイルに関連付けられたパートナー ID は、特定のプロファイルにまでリーチを拡大します。"
 
-一致キー（メールアドレス、デバイス ID、顧客 ID など）は、広告主とパブリッシャーが正確でプライバシーに準拠したデータ同期を有効にして連携するのに役立ち、より正確なオーディエンスのターゲティングと測定が可能になります。
+一致キー（メールアドレス、デバイス ID、顧客 ID など）は、広告主とパブリッシャーが正確でプライバシーを中心としたデータ同期を可能にすることで連携するのに役立ち、より正確なオーディエンスのターゲティングと測定が可能になります。
 
 ![Real-Time CDP Collaborationの最初のリリースで使用可能な識別子を示すスライド ](/help/assets/setup/manage-organization/available-identifiers.png)
 
