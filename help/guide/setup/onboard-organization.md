@@ -4,10 +4,10 @@ description: Real-Time CDP Collaborationで組織の様々な側面をオンボ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 2%
 
 ---
 
@@ -52,10 +52,11 @@ ht-degree: 1%
 3. **[!UICONTROL 会社の役割]** を選択します。 **[!UICONTROL 広告主]** と **[!UICONTROL 公開者]** の中から選択できます。 2 つの組織の役割タイプのワークフローの類似点とわずかな違いについて詳しくは、[ エンドツーエンドのワークフロードキュメント ](/help/guide/end-to-end-workflow.md) を参照してください。
 4. 組織の **[!UICONTROL 業界]** を選択します。 例として、**[!UICONTROL 小売]**、**[!UICONTROL 電気通信]**、または **[!UICONTROL 金融サービス]** があります。
 5. 組織の **[!UICONTROL 地域]** を選択します。 製品の現在のバージョンでは、**[!UICONTROL 北米]** がプリセットのデフォルトの選択です。
-6. <span class="preview"> パブリッシャーのみ </span>：パブリッシャー組織を設定する場合、パブリッシャーカタログの広告主によって検出可能であることを読み、確認する必要があります。
+6. 組織の **[!UICONTROL 連絡先メール]** を追加します。 チームまたは役割ベースのメールアドレスを指定してください。 個人のメールアドレスは指定しないでください。
+7. <span class="preview"> パブリッシャーのみ </span>：パブリッシャー組織を設定する場合、パブリッシャーカタログの広告主によって検出可能であることを読み、確認する必要があります。
    ![ 発行者固有のオプトインメッセージ。](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. 会社の **[!UICONTROL ロゴ]** をアップロードします。 現在、SVGタイプの画像がサポートされています。
-8. 会社のヘッダー画像の画像を選択します。
+8. 会社の **[!UICONTROL ロゴ]** をアップロードします。 現在、SVGタイプの画像がサポートされています。
+9. 会社のヘッダー画像の画像を選択します。
 
 選択内容に問題がなければ、「**[!UICONTROL 次へ]**」を使用して次のページに進み、組織で使用する必要のある一致キーを選択します。
 
