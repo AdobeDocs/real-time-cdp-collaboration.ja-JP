@@ -4,7 +4,7 @@ description: Real-Time CDP Collaborationの最新リリースに従ってくだ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: c71e63df166a061b1585cff4b5eac4605f741eb4
+source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 5%
@@ -17,9 +17,19 @@ ht-degree: 5%
 
 **最終更新日**:2025 年 3 月。
 
+<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+
 これらのリリースノートは、Real-Time Customer Data Platform Collaborationでリリースされた機能について説明しています。 Real-Time CDP Collaboration リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
 
-## 2025年3月
+<!--
+
+## April 2025 {#april-2025}
+
+* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
+
+-->
+
+## 2025年3月 {#march-2025}
 
 * Real-Time CDP Collaborationに [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) 際に、オーディエンスの更新頻度を **1～6 日ごと** に設定して、[Audience Management クレジットアクティビティ ](/help/guide/setup/my-activity.md#types-of-activities) をより適切に管理できるようになりました。 [ 詳細情報 ](/help/guide/setup/onboard-audiences.md#schedule). <br> ![ オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png " オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。"){width="250" align="center" zoomable="yes"}
 * コラボレータとの接続を確立する際に、事前定義された **ユースケース** から選択できるようになりました。 選択したユースケースによって、使用可能になるプロジェクトセクションと製品機能が決まります。 [詳細情報](/help/guide/collaborate/manage-projects.md#project-use-cases)。
@@ -29,7 +39,7 @@ ht-degree: 5%
 * 共同作業を希望しない共同作業者との接続を削除できるようになりました。 [詳細情報](/help/guide/connect/establishing-connections.md#delete-connections)。
 
 
-## 2025 年 2 月 – 米国のお客様向けの一般公開
+## 2025 年 2 月 – 米国のお客様向けの一般公開 {#february-2025-ga}
 
 Real-Time CDP Collaborationは、広告主やパブリッシャーがサードパーティ cookie を使用せずに高価値オーディエンスを検出、アクティブ化および測定できるようにすることを目的に構築されたもので、米国で一般公開されるようになりました。
 
