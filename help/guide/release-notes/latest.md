@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationの最新リリースに従ってくだ�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**最終更新日**:2025 年 3 月。
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**最終更新日**:2025 年 4 月。
 
 これらのリリースノートは、Real-Time Customer Data Platform Collaborationでリリースされた機能について説明しています。 Real-Time CDP Collaboration リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
 
-<!--
+## 2025年4月 {#april-2025}
 
-## April 2025 {#april-2025}
-
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* 新しい **処理済みの入力** 列がクレジット消費アクティビティテーブルに追加されました。 この列には、各アクティビティで処理された入力（ID や行など）の合計数が表示されます。 [ 詳細情報 ](/help/guide/setup/my-activity.md#inputs-processed). <br> ![ マイアクティビティビューでハイライト表示された処理済み列を入力。](/help/assets/release-notes/2025/inputs-processed-column.png " マイアクティビティビューでハイライト表示された処理済み列の入力。"){width="250" align="center" zoomable="yes"}
+* 新しい連絡先メールオプションがアカウントの作成に追加されました。 これは、パートナーの共同作業者が接続プロセス中に必要に応じて連絡するのに役立ちます。 [詳細情報](../setup/onboard-organization.md)。
 
 ## 2025年3月 {#march-2025}
 
