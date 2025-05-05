@@ -2,7 +2,7 @@
 title: オーディエンスのインポートと管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをインポートおよび管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
@@ -91,15 +91,15 @@ ht-degree: 24%
 
 マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。**データ共同作業**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**データサイエンス**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスを&#x200B;*有効*&#x200B;にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ&#x200B;*ません*。
 * チェックボックスを&#x200B;*無効*&#x200B;にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。
 
 データ使用ラベルについて詳しくは、Experience Platform ドキュメントを参照してください。
 
-* [データ使用ラベルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![ データ共同作業に必要なマーケティングアクション ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 

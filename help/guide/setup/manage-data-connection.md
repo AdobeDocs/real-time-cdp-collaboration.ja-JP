@@ -2,7 +2,7 @@
 title: データ接続を管理
 description: Real-Time CDP Collaborationでの一致キー、スケジュール、ユースケース、オーディエンスフィルタリングなど、データ接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 >[!IMPORTANT]
 >
->データ接続の削除は、現在、Real-Time CDP Collaboration ユーザーインターフェイスではサポートされていません。 データ接続を削除する場合は、Adobe担当者に問い合わせるか、[ カスタマーサポートチケットを作成 ](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} してください。
+>データ接続の削除は、現在、Real-Time CDP Collaboration ユーザーインターフェイスではサポートされていません。 データ接続を削除する場合は、Adobe担当者に問い合わせるか、[ カスタマーサポートチケットを作成 ](https://experienceleague.adobe.com/home?lang=ja&amp;support-tab=open-ticket#support){target="_blank"} してください。
 
 既存のデータ接続を表示するには、**[!UICONTROL 設定]**/**[!UICONTROL マイオーディエンス]** に移動し、「**[!UICONTROL データ接続の管理]**」を選択します。
 

@@ -2,7 +2,7 @@
 title: 重複数と重複率の計算
 description: Adobe Real-Time CDP Collaborationの様々な領域における重複数と割合の計算方法を説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '869'
