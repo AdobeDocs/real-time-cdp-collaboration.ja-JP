@@ -4,9 +4,9 @@ description: 潜在的な共同作業者を見つけた後、連携を確立し�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="オーディエンス共有"
 >abstract="オーディエンス共有は、一致したデータを共同作業パートナーにアクティブ化するようにリクエストする際にパーティが実行するアクティビティです。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="測定"
+>abstract="この使用例では、Real-Time CDP Collaborationでアクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
