@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 このドキュメントページの内容は次のとおりです。
 
 * [Real-Time CDP Collaborationへのオーディエンスの読み込み](#import-audiences)
-* [オーディエンスを表示ダッシュボード](#view-audiences-dashboard)
+* [オーディエンスダッシュボードの表示](#view-audiences-dashboard)
 * [個々のオーディエンスの表示](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -45,12 +45,12 @@ ht-degree: 3%
 
 「**[!UICONTROL マイオーディエンス]**」タブで、プラス **+** 記号を選択し、「**オーディエンス**」を選択します。
 
-### データ接続を選択 {#select-data-connection}
+### データ接続の選択 {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="マーケティングアクション"
->abstract="<p>マーケティングアクションを使用して、Experience PlatformからReal-Time CDP Collaborationに読み込むオーディエンスデータを制御します。 <strong> データCollaboration</strong> マーケティングアクションは、C4、C5 および C9 のデータ使用ラベルをサポートします。 <strong> データサイエンス </strong> マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックス <em> 有効 </em> を使用すると、上記でExperience Platformで呼び出されたラベルの付いたデータは除外され、Real-Time CDP Collaborationに <strong> 取り込まれません </strong>。</li><li> チェックボックス <em> 無効 </em> をオンにした場合、Real-Time CDP Collaborationに読み込めるExperience Platformのデータに関する制限はありません。</li></ul></p>"
+>abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。<strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。<strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックスを<em>無効</em>にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja" text="データ使用ラベルの概要"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja" text="データ使用ラベルの用語集"
 
@@ -89,16 +89,16 @@ ht-degree: 3%
 
 次に、読み込んだデータに対して正しいマーケティングアクションが設定されていることを確認する必要があります。 また、データの共同作業に使用するために、Real-Time CDPからインポートされたデータに対して同意を得る必要があります。
 
-マーケティングアクションを使用して、Experience PlatformからReal-Time CDP Collaborationに読み込むオーディエンスデータを制御します。 **データCollaboration** マーケティングアクションは、C4、C5 および C9 のデータ使用ラベルをサポートします。 **データサイエンス** マーケティングアクションは、C9 データ使用ラベルをサポートしています。
+マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。**データ共同作業**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**データサイエンス**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
 詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
-* チェックボックス *有効* を使用すると、上記でExperience Platformで呼び出されたラベルの付いたデータは除外され、Real-Time CDP Collaborationに *取り込まれません*。
-* チェックボックス *無効* をオンにした場合、Real-Time CDP Collaborationに読み込めるExperience Platformのデータに関する制限はありません。
+* チェックボックスを&#x200B;*有効*&#x200B;にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ&#x200B;*ません*。
+* チェックボックスを&#x200B;*無効*&#x200B;にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。
 
 データ使用ラベルについて詳しくは、Experience Platform ドキュメントを参照してください。
 
-* [ データ使用ラベルの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [データ使用ラベルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![ データ共同作業に必要なマーケティングアクション ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
@@ -115,34 +115,34 @@ ht-degree: 3%
 
 -->
 
-### フィールドをマッピング {#map-fields}
+### フィールドのマッピング {#map-fields}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="ソースフィールド"
->abstract="Source フィールドは、Real-Time CDPの既存の実装から得られる ID 名前空間および属性です。 これらを、Real-Time CDP Collaborationで定義されたターゲットフィールドにマッピングできます。"
+>abstract="ソースフィールドは、Real-Time CDP の既存の実装からの ID 名前空間と属性です。Real-Time CDP 共同作業で定義したターゲットフィールドにこれらをマッピングできます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="ターゲットフィールドは、会社にオンボーディングする際に選択した一致キーに対応しています。 現在、サポートされている一致キーは、ハッシュ化されたメールのみです。"
+>abstract="ターゲットフィールドは、会社のオンボーディング時に選択した一致キーに対応しています。 現在、ハッシュ化されたメールのみがサポートされている一致キーです。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="変換を適用"
->abstract="ソースから *ハッシュ化されていない* フィールドを読み込む場合、このオプションを使用して、Real-Time CDP Collaborationにハッシュを適用させ、プレーンフィールドをハッシュ化されたフィールドに変換させます。"
+>abstract="ソースから&#x200B;*ハッシュ化されていない*&#x200B;フィールドを読み込む場合は、このオプションを使用して、Real-Time CDP Collaboration でハッシュを適用し、プレーンフィールドをハッシュ化されたフィールドに変換します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="ID 名前空間"
->abstract="Experience Platformで使用可能な標準 ID 名前空間とカスタム ID 名前空間から ID 名前空間を選択します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platformの標準名前空間と ID 名前空間"
+>abstract="Experience Platform 組織で使用可能な標準およびカスタムの ID 名前空間から ID 名前空間を選択します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard" text="Experience Platform の標準および ID 名前空間"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="プロファイル属性"
->abstract="Experience Platformのプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM Individual Profile クラスに属する属性が表示されます。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platformの結合スキーマ"
+>abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
 ![ ターゲットフィールドにマッピングされたソースフィールドを示すフィールドをマッピング画面。](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 オーディエンスの追加を最終決定する前に、すべての設定を確認してください。 すべての詳細が正しいことを確認し、「**[!UICONTROL 完了]**」を選択してプロセスを完了します。
 
-## オーディエンスを表示ダッシュボード {#view-audiences-dashboard}
+## オーディエンスダッシュボードの表示 {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
->title="ID がありません"
->abstract="ID 数は、オーディエンスがReal-Time CDP Collaborationにインポートされてから約 24 時間の `-` を表示します。 この期間が経過すると、ID 数が、オーディエンスに存在するプロファイルの数に合わせて更新されます。"
+>title="ID の欠落"
+>abstract="オーディエンスを Real-Time CDP 共同作業に読み込んでから最初の約 24 時間は、ID 数に `-`が表示されます。この期間が過ぎると、オーディエンスに存在するプロファイルの数に応じて ID 数が更新されます。"
 
 オーディエンスをReal-Time CDP Collaborationに読み込むと、それらに関する情報をダッシュボードビューで取得できます。 **[!UICONTROL マイオーディエンス]** ページのデフォルトビューには、組織によってReal-Time CDP Collaborationに現在インポートされているすべてのオーディエンスが表示されます。
 
@@ -318,7 +318,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="カテゴリ"
->abstract="オーディエンスにタグ付けして、整理、フィルタリングおよび取得を容易にします。 オーディエンスに複数のカテゴリのタグを付けた後、これらのカテゴリタグを使用して、製品の他の領域で目的のオーディエンスをフィルタリングできます。"
+>abstract="整理、フィルタリング、検索を簡単にするために、オーディエンスにタグを付けます。 複数のカテゴリでオーディエンスをタグ付けし、これらのカテゴリタグを使用して、製品の他の領域で目的のオーディエンスをフィルタリングできます。"
 
 オーディエンスの整理、フィルタリングおよび取得を簡単にするために、オーディエンスにタグを付けることができます。 オーディエンスに複数のカテゴリのタグを付けた後、オーディエンスの重複レポートを実行する際に、これらのカテゴリタグを使用して [ 検出 ](/help/guide/collaborate/discover.md) 製品領域で目的のオーディエンスをフィルタリングできます。
 
@@ -327,7 +327,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="接続アクセス"
->abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者とプロジェクトで使用できるかどうかは、接続アクセス設定に応じて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスが共同作業者と共有された後で設定を元に戻すことはできません。</p>"
+>abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者がいるプロジェクトでの使用の可用性は、接続アクセス設定に基づいて異なります。接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスを共同作業者と共有すると、その設定を元に戻すことはできません。</p>"
 
 オーディエンスを非公開にするか、接続で使用可能で検出可能にするかを選択します。 次の 3 つのオプションを使用できます。
 
@@ -339,14 +339,14 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >アクセスステータス（パブリック、プライベート、カスタム）に関係なく、任意のオーディエンスの母集団は、オーディエンス検出重複分析ビューの **[!UICONTROL すべてのオーディエンス]** 母集団に貢献します。<br> ![ オーディエンス検出重複分析のシステム生成 **すべてのオーディエンス** オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**オーディエンス検出**重複分析のシステム生成**すべてのオーディエンス**オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。"){width="100" zoomable="yes"}
 
-共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスが共同作業者と共有された後で設定を元に戻すことはできません。
+共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスを共同作業者と共有すると、その設定を元に戻すことはできません。
 
 ### メタデータの表示 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="メタデータの表示"
->abstract="<p>他の組織が組織に接続する前に、その組織に表示するオーディエンスメタデータ情報を示します。 </p> <p> **ID 数** 「検出」タブで重複レポートを表示するときに、パートナーがオーディエンスの ID 数を表示できるかどうかを制御します。 **オーディエンスの重複 %** は、共同作業者が自分のオーディエンスと自分のオーディエンスの重複率を検出できるかどうかを制御します。"
+>abstract="<p>他の組織がユーザーの組織に接続する前に、他の組織に表示されるオーディエンスメタデータ情報を示します。 </p> <p> **ID 数**&#x200B;は、検出タブで重複レポートを表示する際に、パートナーがオーディエンスの ID 数を表示できるかどうかを制御します。**オーディエンスの重複％**&#x200B;は、共同編集者が自分のオーディエンスとユーザーのオーディエンスの重複の割合を検出できるかどうかを制御します。"
 
 >[!NOTE]
 >

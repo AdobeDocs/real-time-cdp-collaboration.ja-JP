@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 1%
 
 上記の前提条件が満たされたら、自分のオーディエンスと共同作業者のオーディエンスの重複を調査し、比較することができます。
 
-## オーディエンスを比較 {#compare-audiences}
+## オーディエンスの比較 {#compare-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
->title="オーディエンスを比較"
->abstract="自分と共同作業者のオーディエンスの重複を見つけます。 ドロップダウンセレクターの設定を調整すると、共同作業者の 1 つ以上のオーディエンスに対する 1 つ以上のオーディエンスの重複を検出できます。"
+>title="オーディエンスの比較"
+>abstract="ユーザーと共同作業者のオーディエンスの重複を検出します。ドロップダウンセレクターの設定を調整すると、共同作業者の 1 つ以上のオーディエンスに対する 1 つ以上のオーディエンスの重複を検出できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
@@ -56,17 +56,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="共同作業者 ID 数"
->abstract="コラボレーターが選択したオーディエンスに含まれる、選択した ID を持つプロファイルの数"
+>abstract="共同作業者の選択したオーディエンスに含まれる、選択した ID を持つプロファイルの数"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="重複 ID 数"
->abstract="と共同作業者のオーディエンスの両方に存在する、選択した ID を持つプロファイルの数"
+>abstract="ユーザーと共同作業者のオーディエンスの両方に存在する、選択した ID を持つプロファイルの数"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="重複 ID の割合"
->abstract="ユーザーと共同作業者が選択したオーディエンスの間でプロファイルが重複している割合。"
+>abstract="ユーザーと共同作業者の選択したオーディエンス間でプロファイルが重複している割合。"
 
 オーディエンスの比較カードを使用して、と共同作業者のオーディエンスの重複に関する豊富な情報を取得します。 次のオーディエンスの組み合わせのいずれかを選択して比較できます。
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 | **[!UICONTROL ID 数]** （自分の ID） | 選択したオーディエンスに含まれる、選択した ID を持つプロファイルの数。 |
 | **[!UICONTROL ID 数]** （共同作業者） | 共同作業者が選択したオーディエンスに含まれる、選択した ID を持つプロファイルの数。 |
 | **[!UICONTROL 重複する ID]** | ユーザーと共同作業者のオーディエンスの両方に存在する、選択した ID を持つプロファイルの数。 |
-| **[!UICONTROL 重複率]** | ユーザーと共同作業者が選択したオーディエンスの間でプロファイルが重複している割合。 |
+| **[!UICONTROL 重複率]** | ユーザーと共同作業者の選択したオーディエンス間でプロファイルが重複している割合。 |
 | **[!UICONTROL 一致キーによる ID の分類]** | ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、個々の一致キーによる重複計算で ID の構成を表示します。 |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="関連するオーディエンス"
->abstract="これらの公開者オーディエンスは、重複率に基づいて、キャンペーンに適している場合があります。 <br><br> <b>ID 数 </b> は、パブリッシャーのオーディエンスサイズです。<br><br> <b> 重複する ID</b> は、推奨される公開者オーディエンスとすべての広告主オーディエンスの重複を表します。 <br><br> <b> 重複 %</b> は、重複する ID の数を <i> すべて </i> 広告主オーディエンスのサイズで割った値を表します。"
+>abstract="重複の割合に基づくと、これらの媒体社オーディエンスがキャンペーンに適している可能性があります。<br><br><b>ID 数</b>は、媒体社のオーディエンスサイズです。<br><br> <b>重複 ID</b> は、推奨される媒体社オーディエンスとすべての広告主オーディエンス間の重複を表します。<br><br><b>重複％</b>は、重複する ID の数を<i>すべて</i>の広告主オーディエンスのサイズで割った値を表します。"
 
 **[!UICONTROL 検出]** モジュールの **[!UICONTROL 関連オーディエンス]** ビューには、重複率に基づいて、上位 5 つのオーディエンスのキュレートされたリストが表示されます。 この機能を使用すると、現在のデータと最も重複しているオーディエンスをすばやく特定できるので、キャンペーンをより効果的にターゲット設定できます。
 
@@ -106,12 +106,12 @@ ht-degree: 1%
 
 ![ 関連オーディエンス表示 ](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## 重複を検出 {#discover-overlaps}
+## 重複の検出 {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="個々のオーディエンスとの重複を検出"
->abstract="このオーディエンスの母集団とその ID の共同作業者のユニバースとの重複に関するインサイトを取得します。"
+>title="個々のオーディエンスとの重複の検出"
+>abstract="このオーディエンスの母集団と、その共同作業者の ID の集合体との重複に関するインサイトを取得します。"
 
 ![ 異なるオーディエンスビューとの重複を検出 ](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

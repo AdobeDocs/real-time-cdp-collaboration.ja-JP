@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -40,9 +40,9 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="一致キー"
->abstract="一致キーは、様々なソースのデータの照合方法を決定します。 ユースケースやプライバシーガイドラインに最も関連する一致キーを選択します。"
+>abstract=" 一致キーは、様々なソースのデータの一致方法を決定します。ユースケースとプライバシーガイドラインに最も関連性の高い一致キーを選択します。"
 
-一致キーは、異なるデータソースのオーディエンス間でメンバーを紐付けするために使用される識別子です。 使用可能な一致キーは次のとおりです。
+一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。使用可能な一致キーは次のとおりです。
 
 - **ハッシュ化されたメール**
 
@@ -55,7 +55,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="スケジュール設定"
->abstract="このビューには、データ接続に対して最初に選択したスケジュール オプションが表示されます。"
+>abstract="このビューには、データ接続に対して最初に選択したスケジュール設定オプションが表示されます。"
 
 データ接続に最初に選択したスケジュール オプションは編集できません。 スケジュールオプションについて詳しくは、オーディエンスの読み込みワークフロードキュメントの [ スケジュールセクション ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
 

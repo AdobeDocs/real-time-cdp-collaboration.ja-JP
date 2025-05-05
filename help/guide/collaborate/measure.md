@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -55,9 +55,9 @@ Real-Time CDP Collaborationの測定レポートにアクセスする前に、�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="指標の推移"
->abstract="指標の推移ビューを使用すると、キャンペーンの期間中にクリエイティブに表示されたインプレッションの合計数を把握できます。 レポートに表示するディメンションを最大 2 つ選択できます。"
+>abstract="指標の推移ビューを使用すると、キャンペーンの期間中にクリエイティブに表示されたインプレッションの合計数を把握できます。レポートに表示するディメンションは、最大 2 つまで選択できます。"
 
-指標の推移ビューを使用すると、キャンペーンの期間中にクリエイティブに表示されたインプレッションの合計数を把握できます。 レポートに表示して分析する指標は、最大 2 つまで選択できます。
+指標の推移ビューを使用すると、キャンペーンの期間中にクリエイティブに表示されたインプレッションの合計数を把握できます。レポートに表示して分析する指標は、最大 2 つまで選択できます。
 
 ![ 指標の推移ビュー ](/help/assets/collaborate/measure/metrics-over-time.png)
 

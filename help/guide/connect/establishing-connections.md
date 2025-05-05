@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -52,27 +52,27 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="ユースケース"
->abstract="ユースケースには、すべてのオプションが事前入力されています。 接続設定を送信する前に、ユースケースを編集できます。"
+>abstract="ユースケースには、すべてのオプションが事前入力されています。接続設定を送信する前に、ユースケースを編集できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
->abstract="一致キーには、組織レベルで選択したキーが事前入力されます。 この接続で使用しない一致キーをオフにすることができます。"
+>abstract="一致キーには、組織レベルで選択したキーが事前入力されています。この接続で使用しない一致キーは、オフに切り替えることができます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="クレジット分割"
->abstract="この節では、Real-Time CDP Collaboration内の対応するアクティビティの支払い先を決定します。 現在、設定できるのは、オーディエンス共有のユースケースのみです。"
+>abstract="このセクションでは、Real-Time CDP 共同作業内の対応するアクティビティに対して支払いを行うユーザーを決定します。現在、オーディエンス共有のユースケースのみが設定可能です。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="オーディエンスの共有"
->abstract="オーディエンス共有は、一致したデータをコラボレーションパートナーによってアクティブ化することをリクエストする際に、パーティがおこなうアクティビティです。"
+>title="オーディエンス共有"
+>abstract="オーディエンス共有は、一致したデータを共同作業パートナーにアクティブ化するようにリクエストする際にパーティが実行するアクティビティです。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
->title="法的合意"
->abstract="2 者間のデータ共有契約が存在することを確認します。"
+>title="法的契約"
+>abstract="2 つのパーティ間にデータ共有契約が存在することを確認します。"
 
 招待状が送信されると、接続設定をプレビューできます。 接続の設定を完了するには、招待を承諾する必要があります。
 

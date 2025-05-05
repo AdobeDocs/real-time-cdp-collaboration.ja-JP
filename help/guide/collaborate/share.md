@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -98,12 +98,12 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 また、このページには、**[!UICONTROL 共有を一時停止]** および **[!UICONTROL オーディエンスを編集]** するためのコントロールもあります。
 
-## オーディエンスを編集 {#edit-audiences}
+## オーディエンスの編集 {#edit-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
 >title="ターゲットまたは抑制のユースケース"
->abstract="<p>オーディエンス内のプロファイルをキャンペーンに広告として表示する場合は、「**ターゲット**」を選択します。</p> <p>オーディエンスのプロファイルをキャンペーンメッセージから除外する場合は、「**抑制**」を選択します。</p>"
+>abstract="<p>オーディエンス内のプロファイルにキャンペーンの広告を表示する場合は、「**ターゲット**」を選択します。</p> <p>オーディエンス内のプロファイルをキャンペーンメッセージから除外する場合は、「**抑制**」を選択します。</p>"
 
 **[!UICONTROL オーディエンスを編集]** を選択すると、オーディエンス共有モジュールで共有するオーディエンスを変更できるほか、オーディエンスの共有方法に関する複数の設定を変更できます。
 

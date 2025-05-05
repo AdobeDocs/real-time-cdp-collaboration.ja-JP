@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -60,27 +60,27 @@ ht-degree: 2%
 
 選択内容に問題がなければ、「**[!UICONTROL 次へ]**」を使用して次のページに進み、組織で使用する必要のある一致キーを選択します。
 
-### 一致キーを設定 {#set-up-match-keys}
+### 一致キーの設定 {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
->abstract="一致キーは、異なるデータソースのオーディエンス間でメンバーを紐付けするために使用される識別子です。 会社が使用できる一致キーを含めます。"
+>abstract="一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。会社で使用できる一致キーを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ファーストパーティ People ID"
->abstract="ハッシュ化されたメールアドレスや電話番号などのファーストパーティの人物 ID は、個々のプロファイルに直接接続されます。 現在サポートされている ID は、ハッシュ化されたメールと電話番号です。"
+>title="ファーストパーティ人物 ID"
+>abstract="ハッシュ化されたメールアドレスや電話番号などのファーストパーティ人物 ID は、個々のプロファイルに直接接続されます。現在サポートされている ID は、ハッシュ化されたメールと電話番号です。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ファーストパーティデバイス ID"
->abstract="ECID や IP アドレスなどのファーストパーティデバイス ID はデバイスに直接接続され、複数の個人で共有される場合があります。 現在サポートされているファーストパーティデバイス ID は IPv4 のみです。"
+>abstract="ECID や IP アドレスなどのファーストパーティデバイス ID はデバイスに直接接続され、複数の個人間で共有される場合があります。現在サポートされているファーストパーティデバイス ID は IPv4 のみです。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="サポートされるパートナー ID"
->abstract="プロファイルに関連付けられたパートナー ID は、特定のプロファイルにまでリーチを拡大します。"
+>abstract="プロファイルに関連付けられたパートナー ID により、特定のプロファイルへのリーチが拡張されます。"
 
 一致キー（メールアドレス、デバイス ID、顧客 ID など）は、広告主とパブリッシャーが正確でプライバシーを中心としたデータ同期を可能にすることで連携するのに役立ち、より正確なオーディエンスのターゲティングと測定が可能になります。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 Real-Time CDP Collaborationで使用できる一致キーは、次の 3 つのタイプです。
 
-* ファーストパーティ People ID
+* ファーストパーティ人物 ID
 * ファーストパーティデバイス ID
 * パートナー ID
 
