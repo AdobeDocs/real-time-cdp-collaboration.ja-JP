@@ -2,7 +2,7 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
@@ -90,7 +90,7 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 
 共同作業者が接続を承認したら、接続の接続設定のセットアップを開始できます。 接続設定は、共同作業の条件（一緒に行うユースケース、プロジェクトで使用する一致キーなど）を定義します。
 
-接続設定を設定して共同作業者と共有するには、&lbrack; マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
+接続設定を設定して共同作業者と共有するには、[ マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
 
 ![ 保留中の接続と「接続を設定」オプションがハイライト表示されたマイ接続ビュー ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
