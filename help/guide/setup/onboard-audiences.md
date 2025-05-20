@@ -2,12 +2,12 @@
 title: オーディエンスのインポートと管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをインポートおよび管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
 source-wordcount: '2685'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -91,15 +91,15 @@ ht-degree: 22%
 
 マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。**データ共同作業**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**データサイエンス**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスを&#x200B;*有効*&#x200B;にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ&#x200B;*ません*。
 * チェックボックスを&#x200B;*無効*&#x200B;にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。
 
 データ使用ラベルについて詳しくは、Experience Platform ドキュメントを参照してください。
 
-* [データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [データ使用ラベルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![ データ共同作業に必要なマーケティングアクション ](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -223,7 +223,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="オーディエンスの有効期限"
->abstract="オーディエンスの有効期限に関して今後提供する詳細。"
+>abstract="オーディエンスの有効期限に関する詳細は今後発表します。"
 
 オーディエンスの入力と更新を開始および終了するタイミングをスケジュールします。 オーディエンスメンバーシップは、このスケジュールに従って更新されます。
 
@@ -256,7 +256,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="ID の欠落"
->abstract="ID 数は、設定されたスケジュールに従って次回データ接続を更新した後に使用できます。 最初の更新は、通常、データ接続が設定されてから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。 "
+>abstract="ID 数は、設定されたスケジュールに従って次回データ接続を更新した後に使用できます。最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。継続的な更新は、設定されたスケジュールに従います。 "
 
 オーディエンスをReal-Time CDP Collaborationに読み込むと、それらに関する情報をダッシュボードビューで取得できます。 **[!UICONTROL マイオーディエンス]** ページのデフォルトビューには、組織によってReal-Time CDP Collaborationに現在インポートされているすべてのオーディエンスが表示されます。
 
@@ -347,7 +347,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!IMPORTANT]
 >
->アクセスステータス（パブリック、プライベート、カスタム）に関係なく、任意のオーディエンスの母集団は、オーディエンス検出重複分析ビューの **[!UICONTROL すべてのオーディエンス]** 母集団に貢献します。<br> ![ オーディエンス検出重複分析のシステム生成 **すべてのオーディエンス** オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**オーディエンス検出**&#x200B;重複分析のシステム生成&#x200B;**すべてのオーディエンス**&#x200B;オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。"){width="100" zoomable="yes"}
+>アクセスステータス（パブリック、プライベート、カスタム）に関係なく、任意のオーディエンスの母集団は、オーディエンス検出重複分析ビューの **[!UICONTROL すべてのオーディエンス]** 母集団に貢献します。<br> ![ オーディエンス検出重複分析のシステム生成 **すべてのオーディエンス** オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "**オーディエンス検出**重複分析のシステム生成**すべてのオーディエンス**オーディエンスには、すべての接続アクセスステータス（パブリック、プライベート、カスタム）を持つオーディエンスが含まれます。"){width="100" zoomable="yes"}
 
 共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスを共同作業者と共有すると、その設定を元に戻すことはできません。
 
