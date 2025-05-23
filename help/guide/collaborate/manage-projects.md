@@ -2,12 +2,12 @@
 title: プロジェクトの作成と管理
 description: Adobe Real-Time CDP Collaborationでプロジェクトを作成および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 10%
+source-wordcount: '452'
+ht-degree: 9%
 
 ---
 
@@ -32,13 +32,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="広告主名"
->abstract="ドロップダウンメニューから広告主名を選択します。オプションは、発行者システムとの互換性を確保するために、広告主によって接続設定で事前設定されています。"
+>abstract="ドロップダウンメニューから広告主名を選択します。オプションは、システムとの互換性を確保するために、発行者によって接続設定で事前設定されています。"
 
 プロジェクトを作成するには、右上隅のプラス **+** 記号を選択します。 または、初めてのプロジェクトの場合は **[!UICONTROL 共同作業]**/**[!UICONTROL マイプロジェクト]** に移動し、「**[!UICONTROL プロジェクトを作成]**」を選択します。
 
 ![ プラス記号を選択するか、プロジェクトを作成して新しいプロジェクトを設定します。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-次に、プロジェクトを作成する共同作業者を選択します。 プロジェクトの **[!UICONTROL プロジェクト名]** と **[!UICONTROL 説明]** を指定し、プロジェクトを簡単に区別するための画像ヘッダーを選択し、選択を確認します。
+次に、次の設定を選択します。
+
+* プロジェクトを作成する共同作業者
+* パブリッシャーが接続設定で複数の広告主名を設定した場合は、広告主名を選択します。 それ以外の場合は、広告主名が広告主名として事前に選択されます。 または、パブリッシャーが接続設定で 1 つの広告主名を設定した場合、その名前はこの選択で事前入力されます。 広告主名について ](/help/guide/connect/establishing-connections.md#connection-settings) 詳しくは、[ こちら」を参照してください。
+* プロジェクトの **[!UICONTROL プロジェクト名]** と **[!UICONTROL 説明]** を指定します
+* プロジェクトを簡単に区別するための画像ヘッダーを選択し、選択内容を確認します。
 
 ![ 新しいプロジェクトを設定するために必要なオプション ](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 

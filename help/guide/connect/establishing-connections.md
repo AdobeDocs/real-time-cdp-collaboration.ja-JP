@@ -2,12 +2,12 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 16%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
->abstract="発行者が認識している広告主のエイリアスを示します。 "
+>abstract="<p>オプション設定。 広告主がパブリッシャーに認識される名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>パブリッシャーが複数の名前を設定した場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Real-Time CDP Collaborationの広告主アカウント名が事前入力されます。</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトを作成"
 
 招待状が送信されると、接続設定をプレビューできます。 接続の設定を完了するには、招待を承諾する必要があります。
 
@@ -90,7 +91,7 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 
 共同作業者が接続を承認したら、接続の接続設定のセットアップを開始できます。 接続設定は、共同作業の条件（一緒に行うユースケース、プロジェクトで使用する一致キーなど）を定義します。
 
-接続設定を設定して共同作業者と共有するには、&lbrack; マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
+接続設定を設定して共同作業者と共有するには、[ マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
 
 ![ 保留中の接続と「接続を設定」オプションがハイライト表示されたマイ接続ビュー ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
@@ -127,6 +128,22 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 この接続を続行する前に、2 者間のデータ共有契約が存在することを確認する必要があります。
 
 ![ 法的合意 ](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++広告主名
+
+接続設定に取り組むパブリッシャーとして、システム内で広告主が知られている広告主名を追加することを選択できます。 パブリッシャーは、複数の地域に所属する広告主がいる場合など、複数の広告主名を接続に追加できます。 プロセスの後半で、共同作業を行う [ プロジェクトを作成する ](/help/guide/collaborate/manage-projects.md#create-project) 際に、自分または共同作業者が、プロジェクトに関連付ける広告主名を選択できるようになります。
+
+![ 広告主名モーダルを追加 ](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)。
+
+プロジェクト作成時の広告主名の選択の仕組みを次に示します。
+
+1. **広告主名を設定しない**：広告主名を追加しない場合、Real-Time CDP Collaborationではデフォルトで広告主名が使用されます。
+2. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Real-Time CDP Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
+3. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
+
+![ 広告主名 ](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
