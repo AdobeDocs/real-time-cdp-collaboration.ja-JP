@@ -2,7 +2,7 @@
 title: プロジェクトの作成と管理
 description: Adobe Real-Time CDP Collaborationでプロジェクトを作成および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
@@ -41,7 +41,7 @@ ht-degree: 9%
 次に、次の設定を選択します。
 
 * プロジェクトを作成する共同作業者
-* パブリッシャーが接続設定で複数の広告主名を設定した場合は、広告主名を選択します。 それ以外の場合は、広告主名が広告主名として事前に選択されます。 または、パブリッシャーが接続設定で 1 つの広告主名を設定した場合、その名前はこの選択で事前入力されます。 広告主名について [&#128279;](/help/guide/connect/establishing-connections.md#connection-settings) 詳しくは、 こちら」を参照してください。
+* パブリッシャーが接続設定で複数の広告主名を設定した場合は、広告主名を選択します。 それ以外の場合は、広告主名が広告主名として事前に選択されます。 または、パブリッシャーが接続設定で 1 つの広告主名を設定した場合、その名前はこの選択で事前入力されます。 広告主名について ](/help/guide/connect/establishing-connections.md#connection-settings) 詳しくは、[ こちら」を参照してください。
 * プロジェクトの **[!UICONTROL プロジェクト名]** と **[!UICONTROL 説明]** を指定します
 * プロジェクトを簡単に区別するための画像ヘッダーを選択し、選択内容を確認します。
 
