@@ -2,7 +2,7 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
@@ -83,7 +83,7 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
 >abstract="<p>オプション設定。 広告主がパブリッシャーに認識される名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>パブリッシャーが複数の名前を設定した場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Real-Time CDP Collaborationの広告主アカウント名が事前入力されます。</li></ul>"
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトを作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトを作成"
 
 招待状が送信されると、接続設定をプレビューできます。 接続の設定を完了するには、招待を承諾する必要があります。
 
