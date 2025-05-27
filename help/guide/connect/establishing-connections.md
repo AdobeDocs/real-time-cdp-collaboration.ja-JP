@@ -2,12 +2,12 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
 >abstract="<p>オプション設定。 広告主がパブリッシャーに認識される名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>パブリッシャーが複数の名前を設定した場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Real-Time CDP Collaborationの広告主アカウント名が事前入力されます。</li></ul>"
->additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトを作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトを作成"
 
 招待状が送信されると、接続設定をプレビューできます。 接続の設定を完了するには、招待を承諾する必要があります。
 
@@ -91,7 +91,7 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 
 共同作業者が接続を承認したら、接続の接続設定のセットアップを開始できます。 接続設定は、共同作業の条件（一緒に行うユースケース、プロジェクトで使用する一致キーなど）を定義します。
 
-接続設定を設定して共同作業者と共有するには、&lbrack; マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
+接続設定を設定して共同作業者と共有するには、[ マイ接続 **[!UICONTROL に移動し]** す。 ステータスが **[!UICONTROL 保留中]** の接続については、「**[!UICONTROL 接続を設定]**」を選択して接続設定を構成できます。
 
 ![ 保留中の接続と「接続を設定」オプションがハイライト表示されたマイ接続ビュー ](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
@@ -111,23 +111,26 @@ Real-Time CDP Collaborationでは、キャンペーンに取り組む企業に�
 
 一致キーには、（組織レベルで選択した [ ユーザーが事前入力され ](/help/guide/setup/onboard-organization.md#set-up-match-keys) す。 この接続で使用しない一致キーをオフに切り替えることができますが、組織の設定時に選択されなかった一致キーは追加できません。
 
-![ 一致キー ](/help/assets/connect/establish-connection/match-keys.png)
+![ 一致キー ](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++与信分割
 
-「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。
+「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースでは、費用をカバーするために一方のパーティが必要ですが、**[!UICONTROL オーディエンスアクティベーション]** のユースケースでは、追加のオプションとして各パーティに独自の費用をカバーさせることができます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
-![ 与信分割 ](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>オーディエンス – 出力は、常にオーディエンスを受け取る共同作業者によってカバーされるので、選択は必要ありません。
 
+![ 接続ワークスペースにオプションが表示されたクレジット分割ダイアログ ](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++協定
 
 この接続を続行する前に、2 者間のデータ共有契約が存在することを確認する必要があります。
 
-![ 法的合意 ](/help/assets/connect/establish-connection/legal-agreement.png)
+![ 法的合意 ](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
