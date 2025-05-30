@@ -1,8 +1,8 @@
 ---
-source-git-commit: a5df7cef7cd022ea705bdde3cee76de4c69e9aa4
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '42'
+ht-degree: 2%
 
 ---
 # スニペット
@@ -11,6 +11,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->米国のお客様は、現時点ではAdobe Real-Time Customer Data Platform（CDP）Collaborationを利用でき、近日中にグローバルにも利用できるようになります。 Real-Time CDP Collaborationは現在、（正常性データのユースケース [ のお客様は利用でき ](https://business.adobe.com/industries/healthcare.html) せん。 詳しくは、Adobe担当者にお問い合わせください。 詳細情報 [ 使用の手引き ](/help/guide/home.md#get-started)。
+>Adobe Real-Time Customer Data Platform（CDP）Collaborationは、現時点では米国、オーストラリア、ニュージーランドのお客様が利用でき、近日中にグローバルで利用できるようになります。 詳しくは、Adobe担当者にお問い合わせください。 詳細情報 [ 使用の手引き ](/help/guide/home.md#get-started)。
+
 
 

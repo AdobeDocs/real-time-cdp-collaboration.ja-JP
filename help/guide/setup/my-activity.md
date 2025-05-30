@@ -2,11 +2,11 @@
 title: クレジット消費アクティビティの追跡
 description: 組織のクレジット消費アクティビティをReal-Time CDP Collaborationでトラッキングする方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
+source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-**[!UICONTROL マイアクティビティ]** タブを使用して、すべてのコラボレーションアクティビティにわたる組織の推定クレジット消費を監視および追跡します。 この機能は、様々な接続やアクティビティでクレジットがどのように使用されているかに関する詳細なインサイトを提供し、リソースの効果的な管理を支援します。
+>[!BEGINSHADEBOX]
+
+**90 日間の超過期間**：適格な地域のお客様は、その地域で利用可能な日から始まる 90 日間の超過期間の対象外となります。 この間、顧客は、クレジットの使用権限を超過した場合に超過手数料を負担しません。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -62,7 +66,7 @@ ht-degree: 1%
 
 クレジット消費を効果的に管理する手順は、次のとおりです。
 
-1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては [&#128279;](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0&rbrace;Real-Time CDP Collaborationの製品説明 &rbrace; を確認してください。
+1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては ](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0}Real-Time CDP Collaborationの製品説明 } を確認してください。[
 2. **定期的な監視**：アクティビティダッシュボードを頻繁に確認して、使用パターンを把握します。
 3. **接続別に追跡**：接続名を使用して、最もクレジットを消費しているパートナーシップを特定します。
 
