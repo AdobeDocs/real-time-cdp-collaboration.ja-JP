@@ -66,7 +66,7 @@ ht-degree: 1%
 
 クレジット消費を効果的に管理する手順は、次のとおりです。
 
-1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては ](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0}Real-Time CDP Collaborationの製品説明 } を確認してください。[
+1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては [&#128279;](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0&rbrace;Real-Time CDP Collaborationの製品説明 &rbrace; を確認してください。
 2. **定期的な監視**：アクティビティダッシュボードを頻繁に確認して、使用パターンを把握します。
 3. **接続別に追跡**：接続名を使用して、最もクレジットを消費しているパートナーシップを特定します。
 
