@@ -2,7 +2,7 @@
 title: 監査ログ
 description: Real-Time CDP Collaborationの監査ログ機能を使用して、ユーザーのアクティビティと変更をトラッキングする方法について説明します。
 audience: admin
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 
 ![ 監査ログ機能の概要画面 ](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-監査ログについて詳しくは、[Adobe Experience Platform監査ログのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"} を参照してください。
+監査ログについて詳しくは、[Adobe Experience Platform監査ログのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"} を参照してください。
 
 ## 監査ログへのアクセス
 
@@ -61,7 +61,7 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 * **リソース**：変更または作成されたリソース。
 * **タイムスタンプ**：アクションが実行された時刻。
 
-これらのログは、Real-Time CDP Collaboration インスタンス内のすべてのアクティビティの包括的な証跡を作成します。これは、データガバナンスと法令遵守に役立ちます。 詳しくは、[UI での監査ログの管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui) を参照してください。
+これらのログは、Real-Time CDP Collaboration インスタンス内のすべてのアクティビティの包括的な証跡を作成します。これは、データガバナンスと法令遵守に役立ちます。 詳しくは、[UI での監査ログの管理 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui) を参照してください。
 
 ### 監査ログのフィルタリング
 
@@ -74,7 +74,7 @@ Real-Time CDP Collaborationの監査ログ機能を使用して、プラット�
 * **ステータス**：アクションのステータス（例：許可、拒否）。
 * **日付範囲**：ログを表示する日付の範囲。
 
-詳しくは、[ 監査ログのフィルタリング ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs) を参照してください。
+詳しくは、[ 監査ログのフィルタリング ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs) を参照してください。
 
 ### 使用例
 
