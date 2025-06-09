@@ -2,7 +2,7 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platformを宛先として設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '766'
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
