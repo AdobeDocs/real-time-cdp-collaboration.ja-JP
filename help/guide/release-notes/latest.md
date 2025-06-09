@@ -2,12 +2,12 @@
 title: 最新のReal-Time CDP Collaboration リリースノート
 description: Real-Time CDP Collaborationの最新リリースに従ってください
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 6b945c78202ca7ad6366baa265a08381953adc2e
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 5%
+source-wordcount: '684'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,18 @@ ht-degree: 5%
 
 これらのリリースノートは、Real-Time Customer Data Platform Collaborationでリリースされた機能について説明しています。 Real-Time CDP Collaboration リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
 
+## 2025年5月 {#may-2025}
+
+* Real-Time CDP Collaborationは、**オーストラリア** および **ニュージーランド** のお客様が利用できるようになりました。 これらの地域のReal-Time CDP PrimeおよびUltimateのお客様は、自動で利用できます。
+* Real-Time CDP Collaborationは、「設定」セクションの「自分の宛先」タブから [ セルフサービスの宛先 ](../setup/manage-destinations.md) を提供するようになりました。 宛先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化して、様々なチャネルをまたいで顧客にリーチできます。 現在、Adobe Experience Platformの宛先のみがサポートされています。 別の宛先の設定に興味がある場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
+   * 宛先では、[Adobe Experience Platform オーディエンスポータル ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.) でReal-Time CDP Collaboration オーディエンスを表示することもできます。
+* Real-Time CDP Collaborationの既存のデータ接続のオーディエンスの更新頻度を編集できるようになりました。 現在、オーディエンスを毎日または 2～6 日ごとに更新するように選択できます。 オーディエンスの更新頻度を編集する方法について詳しくは、[ データ接続の管理 ](../setup/manage-data-connection.md#scheduling) ガイドを参照してください。
+* コラボレーター間のクレジット分割が、接続内で選択された各ユースケースに対して設定されるようになりました。 ユースケースごとに異なるクレジット消費ルールを設定して、クレジットの使用方法をより詳細に制御できます。 クレジット分割機能について詳しくは、[ 接続設定 ](../connect/establishing-connections.md#connection-settings) ガイドを参照してください。 クレジットの消費方法について詳しくは、[ クレジットアクティビティタイプ ](../setup/my-activity.md#types-of-activities) ガイドを参照してください。<br> ![ クレジット分割機能を示す接続設定画面 ](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
+* パブリッシャーは、広告主から接続設定を受け入れる前に広告主名と ID を設定できるようになりました。 パブリッシャーは、内部システムに合った名前と ID を設定できます。これは、広告主の名前と ID とは異なる場合があります。 広告主名と ID の追加について詳しくは、[ 接続設定 ](../connect/establishing-connections.md#connection-settings.md) ガイドを参照してください。<br> ![ 広告主名と ID を設定しているパブリッシャーを示す接続設定画面 ](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
+
 ## 2025年4月 {#april-2025}
 
-* 新しい **処理済みの入力** 列がクレジット消費アクティビティテーブルに追加されました。 この列には、各アクティビティで処理された入力（ID や行など）の合計数が表示されます。 [ 詳細情報 ](/help/guide/setup/my-activity.md#inputs-processed). <br> ![ マイアクティビティビューでハイライト表示された処理済み列を入力。](/help/assets/release-notes/2025/inputs-processed-column.png " マイアクティビティビューでハイライト表示された処理済み列の入力。"){width="250" align="center" zoomable="yes"}
+* 新しい **[!UICONTROL 処理済みの入力]** 列がクレジット消費アクティビティテーブルに追加されました。 この列には、各アクティビティで処理された入力（ID や行など）の合計数が表示されます。 [ 詳細情報 ](/help/guide/setup/my-activity.md#inputs-processed). <br> ![ マイアクティビティビューでハイライト表示された処理済み列の入力。](/help/assets/release-notes/2025/inputs-processed-column.png){zoomable="yes"}
 * 新しい連絡先メールオプションがアカウントの作成に追加されました。 これは、パートナーの共同作業者が接続プロセス中に必要に応じて連絡するのに役立ちます。 [詳細情報](../setup/onboard-organization.md)。
 
 ## 2025年3月 {#march-2025}
