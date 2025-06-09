@@ -2,11 +2,11 @@
 title: エンドツーエンドのワークフロー
 description: 広告主またはパブリッシャーとしてReal-Time CDP Collaborationを使用するエンドツーエンドのワークフローを理解する
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると�
 
 広告主は、まずReal-Time CDP Collaborationに [ 会社をオンボーディング ](/help/guide/setup/onboard-organization.md) します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、会社設定を送信して編集し、使用する優先一致キーを追加し、取り込むデータを決定します。 最初のリリースでは、Adobe Experience Platformのみから [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) ことができます。
 
-![ 広告主を検出、共有、測定します。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![ 広告主を検出、アクティブ化、測定します。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 [ 検出タブを使用して、キャンペーンで使用するパブリッシャーを検索 ](/help/guide/connect/discover-publishers.md) します。 パブリッシャーに問い合わせて、製品外のコラボレーション用語について話し合います。 条件のセットに同意したら、[ 接続の招待を送信 ](/help/guide/connect/establishing-connections.md) し、パブリッシャーと接続するためのコラボレーション設定を提案できます。
 
 パブリッシャーが接続リクエストを受け入れたら、組織と組織の間で重複するオーディエンスを調査する時間です。 キャンペーンのプロジェクトを設定し [ 重複レポートを実行 ](/help/guide/collaborate/discover.md)、コラボレーションのユースケース（ターゲティング、抑制など）に応じて、次の広告キャンペーンに最適なオーディエンスを見つけます。
 
-理想的なオーディエンスを見つけたら、[ パブリッシャーと共有 ](/help/guide/collaborate/share.md) してオーディエンスをアクティブ化し、キャンペーンを開始します。
+理想的なオーディエンスを見つけたら、次は [ アクティブ化 ](/help/guide/collaborate/activate.md) します。
 
 コラボレーションループの最後のステップは [ 測定 ](/help/guide/collaborate/measure.md) です。 ビジネス結果を測定したり、把握したりするには、広告ログなどの測定データをアップロードし、プログラムに用意されているレポートを実行して、オーディエンスのパフォーマンスを把握します。
 
 ## パブリッシャーのエンドツーエンドワークフロー {#publisher}
 
-パブリッシャーとして、まず [ 会社のオンボーディング ](/help/guide/setup/onboard-organization.md) をReal-Time CDP Collaborationに配置します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、様々なカンパニー設定を編集します。 例えば、会社が連携する ID を必ず含めてください。
+パブリッシャーとして、まず [ 会社のオンボーディング ](/help/guide/setup/onboard-organization.md) をReal-Time CDP Collaborationに配置します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、様々なカンパニー設定を編集します。
 
 読み込むオーディエンスデータと、製品の **[!UICONTROL 接続]** エリアで接続を検討している広告主に対して検出可能および表示可能にするオーディエンスを決定します。
 
@@ -43,7 +43,7 @@ Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると�
 
 接続リクエストを承認したら、自分と共同作業者の間で重複するオーディエンスを調査する時間です。 広告主は、キャンペーンのプロジェクトを設定し、オーディエンスの目的（予測、抑制など）に基づいて、オーディエンスとユーザーのオーディエンスの間で重複レポートを実行します。
 
-広告主がキャンペーンのターゲットとする理想的なオーディエンスを見つけて、それらを共有したら、それらをアクティブ化してキャンペーンを開始できます。
+広告主がキャンペーンのターゲットにすべき理想的なオーディエンスを見つけて、それらを送信したら、それらをアクティブ化してキャンペーンを開始できます。
 
 コラボレーションループの最後のステップは測定です。 キャンペーンの最後の手順として、広告ログなどの測定データをアップロードし、プログラムに表示されるレポートを実行してオーディエンスのパフォーマンスを把握することで、キャンペーンがどのように行われたかを把握します。
 

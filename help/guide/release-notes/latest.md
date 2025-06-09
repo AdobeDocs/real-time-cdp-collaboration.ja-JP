@@ -2,11 +2,11 @@
 title: 最新のReal-Time CDP Collaboration リリースノート
 description: Real-Time CDP Collaborationの最新リリースに従ってください
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 5%
 
 ## 2025年3月 {#march-2025}
 
-* Real-Time CDP Collaborationに [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) 際に、オーディエンスの更新頻度を **1～6 日ごと** に設定して、[Audience Management クレジットアクティビティ ](/help/guide/setup/my-activity.md#types-of-activities) をより適切に管理できるようになりました。 [ 詳細情報 ](/help/guide/setup/onboard-audiences.md#schedule). <br> ![ オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png " オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。"){width="250" align="center" zoomable="yes"}
+* Real-Time CDP Collaborationに [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) 際に、オーディエンスの更新頻度を **1 ～ 6 日ごと** に設定して、[Audience Management クレジットアクティビティ ](/help/guide/setup/my-activity.md#types-of-activities) をより適切に管理できるようになりました。 [ 詳細情報 ](/help/guide/setup/onboard-audiences.md#schedule). <br> ![ オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png " オーディエンスメンバーシップを更新するための様々な頻度インターバルを示すスケジュール画面。"){width="250" align="center" zoomable="yes"}
 * コラボレータとの接続を確立する際に、事前定義された **ユースケース** から選択できるようになりました。 選択したユースケースによって、使用可能になるプロジェクトセクションと製品機能が決まります。 [詳細情報](/help/guide/collaborate/manage-projects.md#project-use-cases)。
    * *キャンペーン測定* は、「**測定** プロジェクトセクションを有効にします。
    * *オーディエンス検出* により、**検出** プロジェクトセクションが有効になります。
-   * *オーディエンスの共有とアクティベート* により、「**共有**」および「**アクティベート***（パブリッシャーのみ）* プロジェクトセクションが有効になります。<br> ![ 接続ビューでハイライト表示されているユースケース。](/help/assets/release-notes/2025/use-cases.png " 接続ビューでハイライト表示されているユースケース "){width="250" align="center" zoomable="yes"}
+   * *Audience Activation* で **アクティベート** プロジェクトセクションを有効にする <br>
 * 共同作業を希望しない共同作業者との接続を削除できるようになりました。 [詳細情報](/help/guide/connect/establishing-connections.md#delete-connections)。
 
 

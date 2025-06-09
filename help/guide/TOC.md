@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data PlatformCollaboration
 breadcrumb-title: Real-Time Customer Data PlatformCollaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを使用すると、広告主とパブリッシャーの間でシームレスで安全なデータ共有および共同作業が可能になり、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略が促進されます。
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 21%
+source-wordcount: '130'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 21%
    * [組織のオンボードと管理](./setup/onboard-organization.md)
    * [オーディエンスのインポートと管理](./setup/onboard-audiences.md)
    * [データ接続を管理](./setup/manage-data-connection.md)
+   * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
    * [ID クロスウォーク](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
@@ -32,9 +33,11 @@ ht-degree: 21%
 * 共同作業 {#collaborate}
    * [プロジェクトの管理](./collaborate/manage-projects.md)
    * [検出](./collaborate/discover.md)
-   * [共有](./collaborate/share.md)
    * [アクティブ化](./collaborate/activate.md)
    * [測定](./collaborate/measure.md)
+* 宛先 {#destinations}
+   * [概要](./destinations/overview.md)
+   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 権限 {#permissions}
    * [概要](/help/guide/permissions/overview.md)
    * [ユーザーアクセスの管理](/help/guide/permissions/manage-user-access.md)

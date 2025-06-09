@@ -2,11 +2,11 @@
 title: パブリッシャーを検出
 description: 広告主として、Adobe Real-Time CDP Collaborationを使用して共同作業を行う潜在的なパブリッシャーを見つける方法を説明します
 audience: admin, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Adobe Real-Time CDP Collaborationを使用して共同作業を行う潜在的�
 
 ![ パブリッシャーの検出ページ ](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-パブリッシャーの詳細を確認するには、「**[!UICONTROL パブリッシャーを表示]**」を選択します。 また、公開者が共有することを決定した公開オーディエンスを表示および検査することもできます。
+パブリッシャーの詳細を確認するには、「**[!UICONTROL パブリッシャーを表示]**」を選択します。 また、パブリッシャーが [ 公開として設定 ](/help/guide/setup/onboard-audiences.md#metadata-visibility) したオーディエンスを表示および検査することもできます。
 
 ![ 発行者のプロファイルを表示 ](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

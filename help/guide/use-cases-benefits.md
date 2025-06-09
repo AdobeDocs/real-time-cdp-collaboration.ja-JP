@@ -2,9 +2,9 @@
 title: Adobe Real-Time CDP Collaborationの主なメリットとユースケース
 description: Adobe Real-Time CDP Collaborationの主なメリットとユースケースについて
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaborationは、オーディエンスを効果的に検�
 
 ## 検出 {#discover}
 
-ダッシュボードとレポートを使用して、ブランド間のコラボレーションのオーディエンスを検出します。
-Real-Time CDP Collaborationと連携する広告主は、オーディエンスの重複にアクセスして理解し、幅広いパブリッシャーのインベントリからリターゲティング、抑制、可能性のある見込み客の獲得を可能にします。
+ダッシュボードとレポートを使用して、ブランド間のコラボレーションのオーディエンスを検出します。 Real-Time CDP Collaborationと連携する広告主は、オーディエンスの重複にアクセスして理解し、幅広いパブリッシャーのインベントリからリターゲティング、抑制、可能性のある見込み客の獲得を可能にします。
 
 ## アクティブ化 {#activate}
 
@@ -31,5 +30,4 @@ Real-Time CDP Collaborationと連携する広告主は、オーディエンス�
 
 ## 測定 {#measure}
 
-様々なソース（web インプレッションなど）から得られた既知の顧客エンゲージメントを組み合わせて、調査します。
-シンプルでカスタマイズ可能なレポートで、キャンペーンのパフォーマンスを表示します。
+様々なソース（web インプレッションなど）から得られた既知の顧客エンゲージメントを組み合わせて、調査します。 シンプルでカスタマイズ可能なレポートで、キャンペーンのパフォーマンスを表示します。

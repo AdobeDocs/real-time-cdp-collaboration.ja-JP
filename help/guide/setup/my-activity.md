@@ -2,9 +2,9 @@
 title: クレジット消費アクティビティの追跡
 description: 組織のクレジット消費アクティビティをReal-Time CDP Collaborationでトラッキングする方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
@@ -46,7 +46,7 @@ ht-degree: 1%
 | **[!UICONTROL 日付]** | アクティビティが発生した日付（MM/DD/YYYY 形式で表示）。 |
 | **[!UICONTROL 接続 ID]** | クレジットを消費するアクティビティに関連付けられた各接続の一意の ID。英数字の文字列で表されます。 |
 | **[!UICONTROL 接続名]** | 接続とクレジットを消費するアクティビティに関連付けられた共同作業者の名前。 |
-| **[!UICONTROL アクティビティ]** | 実行されたアクティビティのタイプ（**アクティベーション – 共有**、**アクティベーション – 出力**、**Audience Management** など）。 |
+| **[!UICONTROL アクティビティ]** | 実行されたアクティビティのタイプ。例えば、**アクティベーション – マッチング**、**アクティベーション – エグレス**、**Audience Management** などです。 |
 | **[!UICONTROL 処理済みの入力]** | アクティビティに対して処理された入力（ID や行など）の合計数。 |
 | **[!UICONTROL 使用したクレジットの合計]** | アクティビティによって消費されたクレジットの合計数。 |
 | **[!UICONTROL マイクレジットシェア]** | アクティビティに使用されるクレジットのうち、組織の部分。 |
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 クレジット消費を効果的に管理する手順は、次のとおりです。
 
-1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては [&#128279;](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0&rbrace;Real-Time CDP Collaborationの製品説明 &rbrace; を確認してください。
+1. **理解** 各アクティビティに関連付けられたクレジット消費。 アクティビティごとに使用されるコラボレーションクレジットのテーブルについては ](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}0}Real-Time CDP Collaborationの製品説明 } を確認してください。[
 2. **定期的な監視**：アクティビティダッシュボードを頻繁に確認して、使用パターンを把握します。
 3. **接続別に追跡**：接続名を使用して、最もクレジットを消費しているパートナーシップを特定します。
 
