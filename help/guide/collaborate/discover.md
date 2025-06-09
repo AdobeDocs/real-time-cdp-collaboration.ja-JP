@@ -55,7 +55,7 @@ ht-degree: 11%
 >title="ID 数"
 >abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、選択したオーディエンス内の一意の ID の数。"
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="共同作業者 ID 数"
 >abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、共同作業者のオーディエンス内の一意の ID の数。"
