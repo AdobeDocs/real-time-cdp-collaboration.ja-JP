@@ -2,7 +2,7 @@
 title: 最新のReal-Time CDP Collaboration リリースノート
 description: Real-Time CDP Collaborationの最新リリースに従ってください
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
