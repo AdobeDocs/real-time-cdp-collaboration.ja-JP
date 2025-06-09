@@ -35,7 +35,7 @@ Real-Time CDP Collaboration UI の様々なコンポーネントへのユーザ�
 追加の役割を作成して、様々なユーザーに様々なレベルのアクセスを提供する必要が生じる場合があります。 役割を作成する際は、**[!UICONTROL 共同作業]** リソース内で特定の権限を選択することで、様々なアクセスレベルを管理できます。 役割の作成および管理方法については、[roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"} ガイドを参照してください。
 
 >[!NOTE]
-> Real-Time CDP Collaborationにアクセスするには、Experience Platformの **[!UICONTROL Prod]** サンドボックスへのアクセス権が必要です。 このサンドボックスへのアクセス権をユーザーに付与するには、「サンドボックス **[!UICONTROL リソースの**[!UICONTROL  Prod ]**権限を含む役割にユーザーを割り当てる必要が]** ります。
+> Real-Time CDP Collaborationにアクセスするには、Experience Platformの **[!UICONTROL Prod]** サンドボックスへのアクセス権が必要です。 このサンドボックスへのアクセス権をユーザーに付与するには、「サンドボックス **[!UICONTROL リソースの**&#x200B;[!UICONTROL &#x200B; Prod &#x200B;]&#x200B;**権限を含む役割にユーザーを割り当てる必要が]** ります。
 
 Collaborations リソース内で使用可能な権限のリストを以下に示します。
 

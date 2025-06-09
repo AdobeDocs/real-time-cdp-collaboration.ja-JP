@@ -42,7 +42,7 @@ ht-degree: 1%
 
 宛先を削除すると、組織から宛先が削除され、以前に送信されたオーディエンスが宛先から削除され、今後その宛先に送信されるオーディエンスが防止されます。
 
-宛先を削除するには、「設定 **[!UICONTROL セクションの「**[!UICONTROL  宛先 ]**タブに移動]** ます。 削除する宛先の **[!UICONTROL 削除]** オプションを選択します。
+宛先を削除するには、「設定 **[!UICONTROL セクションの「**&#x200B;[!UICONTROL &#x200B; 宛先 &#x200B;]&#x200B;**タブに移動]** ます。 削除する宛先の **[!UICONTROL 削除]** オプションを選択します。
 
 ![Adobe Experience Platformの宛先について、「削除」オプションがハイライト表示された宛先ワークスペース ](/help/assets/setup/manage-destinations/delete-destination.png)
 
