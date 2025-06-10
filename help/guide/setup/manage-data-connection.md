@@ -2,12 +2,12 @@
 title: データ接続を管理
 description: Real-Time CDP Collaborationでの一致キー、スケジュール、ユースケース、オーディエンスフィルタリングなど、データ接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 18%
+source-wordcount: '598'
+ht-degree: 11%
 
 ---
 
@@ -34,6 +34,10 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。データ接続用に最初に選択した一致キーは編集できません。
 
+>[!IMPORTANT]
+> 
+>データ接続が作成された後は、一致キーを編集できません。 一致キーを更新するには、新しいデータ接続を作成する必要があります。
+
 使用可能な一致キーは次のとおりです。
 
 - **ハッシュ化されたメール**
@@ -45,11 +49,27 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="スケジュール設定"
->abstract="このビューには、データ接続に対して最初に選択したスケジュール設定オプションが表示されます。"
+>abstract="データ接続のスケジュールの詳細を表示し、必要に応じて更新頻度を編集します。"
 
-データ接続に最初に選択したスケジュール オプションは編集できません。 スケジュールオプションについて詳しくは、オーディエンスの読み込みワークフロードキュメントの [ スケジュールセクション ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
+データ接続のスケジュール設定を表示および管理します。 スケジュールによって、オーディエンスの更新頻度が決定されます。
 
-![ 「スケジュール」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+データ接続が作成されたら、データ接続ワークスペースの **[!UICONTROL スケジュール]** セクションから直接更新頻度を更新できます。
+
+>[!NOTE]
+>
+>Adobe Experience Platformからオーディエンスを取得する場合、オーディエンスは、データ接続が確立されてから 24 時間以内に使用可能になります。 最初の読み込み後、オーディエンスデータは、定義された頻度に従って更新されます。
+
+スケジュールについて詳しくは、オーディエンスのオンボーディングのガイドの [ スケジュールの節 ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
+
+![ スケジュールセクションがハイライト表示されたデータ接続のワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### スケジュールの編集 {#edit-scheduling}
+
+既存のデータ接続の頻度を編集して、オーディエンスの更新頻度をより詳細に制御できます。 スケジュールを編集するには、スケジュールカードのデータ接続内から **[!UICONTROL 編集]** を選択します。
+
+**[!UICONTROL スケジュール]** ダイアログで、ドロップダウンメニューを選択して **[!UICONTROL 頻度]** を更新します。 更新頻度を、毎日または 2 ～ 6 日ごとに実行するように設定します。 完了したら、「**[!UICONTROL 保存]** を選択して変更を適用します。
+
+![ 頻度と日付範囲を設定するオプションが表示されているスケジュールダイアログ ](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## データ接続を削除
 
