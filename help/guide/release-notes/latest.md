@@ -22,7 +22,7 @@ ht-degree: 3%
 ## 2025年5月 {#may-2025}
 
 * Real-Time CDP Collaborationは、**オーストラリア** および **ニュージーランド** のお客様が利用できるようになりました。 これらの地域のReal-Time CDP PrimeおよびUltimateのお客様は、自動で利用できます。
-* Real-Time CDP Collaborationは、「設定 [ セクションの「**** 宛先 ](../setup/manage-destinations.md) タブを使用して **[!UICONTROL セルフサービスの宛先]** を提供するようになりました。 宛先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化して、様々なチャネルをまたいで顧客にリーチできます。 現在、Adobe Experience Platformの宛先のみがサポートされています。 別の宛先の設定に興味がある場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
+* Real-Time CDP Collaborationは、「設定 [ セクションの「**&#x200B;** 宛先 ](../setup/manage-destinations.md) タブを使用して **[!UICONTROL セルフサービスの宛先]** を提供するようになりました。 宛先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化して、様々なチャネルをまたいで顧客にリーチできます。 現在、Adobe Experience Platformの宛先のみがサポートされています。 別の宛先の設定に興味がある場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
 
    * 宛先では、[Adobe Experience Platform オーディエンスポータル ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.) でReal-Time CDP Collaboration オーディエンスを表示することもできます。
 
