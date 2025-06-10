@@ -2,9 +2,9 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 11%
@@ -119,7 +119,7 @@ ht-degree: 11%
 
 +++与信分割
 
-「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースでは、費用をカバーするために一方のパーティが必要ですが、**[!UICONTROL オーディエンスアクティベーション]** のユースケースでは、追加のオプションとして各パーティに独自の費用をカバーさせることができます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
+「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースではコストをカバーするために一方のパーティが必要ですが、**[!UICONTROL アクティベーション – マッチング]** のユースケースでは、追加のオプションとして各パーティに独自のコストをカバーさせることができます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
 >[!NOTE]
 >
