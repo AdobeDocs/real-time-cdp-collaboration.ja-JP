@@ -110,7 +110,7 @@ Real-Time CDP Collaborationの最初のリリースで使用できる一致キ�
 
 ## 組織を編集 {#edit-organization}
 
-組織を最初に設定した後、組織の特定の側面や詳細をいつでも編集できます。 **[!UICONTROL 組織を編集するには、「設定]** ワークスペースの **[!UICONTROL 自分の組織]** セクションで ** 編集** を選択します。
+組織を最初に設定した後、組織の特定の側面や詳細をいつでも編集できます。 **[!UICONTROL 組織を編集するには、「設定]** ワークスペースの **[!UICONTROL 自分の組織]** セクションで **&#x200B; 編集** を選択します。
 
 ![ 「自分の組織」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
