@@ -25,7 +25,7 @@ Real-Time CDP Collaborationで使用可能なレポートについて説明し�
 
 Real-Time CDP Collaborationの測定レポートにアクセスする前に、次の操作を完了しています。
 
-* **測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして、[ プロジェクトとの共同作業を開始した** Connected[ を目的の広告主またはパブリッシャーと連携 ](/help/guide/collaborate/manage-projects.md)
+* **測定 [&#128279;](/help/guide/connect/establishing-connections.md) ユースケースを有効にして、 プロジェクトとの共同作業を開始した** Connected[ を目的の広告主またはパブリッシャーと連携 ](/help/guide/collaborate/manage-projects.md)
 * キャンペーンを実行し [ アップロードされた測定データ ](/help/guide/setup/onboard-measurement-data.md) をReal-Time CDP Collaborationに送信します。
 
 <!--
