@@ -2,13 +2,13 @@
 title: 用語集
 description: Real-Time CDP Collaborationの主な用語の理解
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
@@ -128,4 +128,4 @@ Adobe Real-Time CDP Collaborationでは、データのスケッチは次のよ�
 
 ### ユースケース
 
-ユースケースは、Adobe Real-Time CDP Collaborationを使用して対処できる具体的なビジネスシナリオや問題を定義します。 Real-Time CDP Collaboration内では、オーディエンス検出やキャンペーン測定などのサンプルユースケースは、特定の目標を達成するために役立ちます。
+ユースケースは、Adobe Real-Time CDP Collaborationを使用して対処できる具体的なビジネスシナリオや問題を定義します。 Real-Time CDP Collaborationでは、オーディエンス検出や測定などのサンプルユースケースを、特定の目標の達成に役立てることができます。

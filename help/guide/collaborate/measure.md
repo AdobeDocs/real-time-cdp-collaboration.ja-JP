@@ -2,11 +2,11 @@
 title: パフォーマンスの測定
 description: 様々なチャネルでのキャンペーンのパフォーマンスを測定します。 様々なレポートの使用方法と解釈方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 測定]** ワークスペースは、**Campaign 測定** ユースケースが [ 接続処理中に ](../connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL 測定]** ワークスペースは、**測定** ユースケースが [ 接続処理中に ](../connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Real-Time CDP Collaborationで使用可能なレポートについて説明し、様々なチャネルをまたいでマーケティングキャンペーンのパフォーマンスを測定および分析する方法を説明します。
 
@@ -25,7 +25,7 @@ Real-Time CDP Collaborationで使用可能なレポートについて説明し�
 
 Real-Time CDP Collaborationの測定レポートにアクセスする前に、次の操作を完了しています。
 
-* [Campaign 測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして、**プロジェクト** の共同作業を開始した [Connected](/help/guide/collaborate/manage-projects.md)
+* **測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして、[ プロジェクトとの共同作業を開始した** Connected[ を目的の広告主またはパブリッシャーと連携 ](/help/guide/collaborate/manage-projects.md)
 * キャンペーンを実行し [ アップロードされた測定データ ](/help/guide/setup/onboard-measurement-data.md) をReal-Time CDP Collaborationに送信します。
 
 <!--
