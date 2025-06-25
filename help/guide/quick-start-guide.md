@@ -134,7 +134,7 @@ Collaboration UI を使用してオーディエンスを参照する方法の完
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
+または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
 
 ## 手順 4：オーディエンスをアクティブ化（Experience Platformまたはクラウドの宛先に対して） {#activate-audiences}
 
@@ -146,7 +146,7 @@ Collaboration UI を使用して、Experience Platform インスタンスまた�
 
 ### オプション A:Experience Platformに対してアクティブ化
 
-[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
+[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
 
 - **宛先の作成** - UI を使用して、Experience Platformの宛先（サンドボックスレベル）を設定します。
 - **一致キーをマッピング** – 識別子を選択します（例：`hashedEmail`）。
