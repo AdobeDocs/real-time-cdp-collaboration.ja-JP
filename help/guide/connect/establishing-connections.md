@@ -2,12 +2,12 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="クレジット分割"
->abstract="この節では、Real-Time CDP Collaboration内の対応するアクティビティの支払い先を決定します。"
+>abstract="このセクションでは、Real-Time CDP 共同作業内の対応するアクティビティに対して支払いを行うユーザーを決定します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="オーディエンス共有"
->abstract="Audience Activation のクレジットは、アクティベーション用に準備された、一致した ID の数に基づいて消費されます。"
+>abstract="Audience Activation のクレジットは、アクティベーションのために準備された一致する ID の数に基づいて消費されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測定"
->abstract="アクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。 クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（日別、3 日別または週別）に基づいて消費されます。"
+>abstract="アクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（毎日、3 日ごと、または週ごと）に基づいて消費されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -88,7 +88,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
 >title="Audience Activation"
->abstract="Audience Activation を使用すると、オーディエンスのアクティベーションを開始できる共同作業者を選択できます。"
+>abstract="Audience Activation を使用すると、Audience Activation を開始できる共同作業者を選択できます。"
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

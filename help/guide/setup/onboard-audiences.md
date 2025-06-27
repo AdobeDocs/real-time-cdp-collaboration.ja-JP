@@ -2,12 +2,12 @@
 title: オーディエンスのインポートと管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをインポートおよび管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 共同作業者とオーディエンスをアクティブ化し、重複計算を実行する前に、オーディエンスをReal-Time CDP Collaborationに読み込む必要があります。 オーディエンスをインポートするには、以下の節で示すワークフロー手順に従います。
 
-**[!UICONTROL Stetup]** ワークスペース内の「**[!UICONTROL マイオーディエンス]**」タブから、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）または **[!UICONTROL 追加 &#x200B;] オプションを選択し** から **オーディエンス** を選択します。
+**[!UICONTROL Stetup]** ワークスペース内の「**[!UICONTROL マイオーディエンス]**」タブから、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）または **[!UICONTROL 追加 ] オプションを選択し** から **オーディエンス** を選択します。
 
 ![ 「追加」オプションと「オーディエンス」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
@@ -95,7 +95,7 @@ ht-degree: 18%
 
 マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。**データ共同作業**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**データサイエンス**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスを&#x200B;*有効*&#x200B;にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ&#x200B;*ません*。
 * チェックボックスを&#x200B;*無効*&#x200B;にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。
@@ -103,7 +103,7 @@ ht-degree: 18%
 データ使用ラベルについて詳しくは、Experience Platform ドキュメントを参照してください。
 
 * [データ使用ラベルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [ データ使用ラベルの用語集 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 さらに、Real-Time CDP Collaborationに読み込むデータに適用する同意ルールを選択する必要があります。
 
@@ -280,7 +280,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="ID"
->abstract="このオーディエンスを構成する ID の分類ビュー、および各 ID を持つプロファイルの合計数。"
+>abstract="このオーディエンスを構成する ID の分類ビューと、それぞれの ID を持つプロファイルの合計数。"
 
 「**[!UICONTROL ID]**」セクションには、オーディエンスのインポート時に選択した ID のいずれかでオーディエンスに存在するプロファイルの数が示されます。 また、セクションには ID の分類も含まれているので、オーディエンス母集団を最大限に活用している ID を特定できます。
 
@@ -308,7 +308,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="接続アクセス"
->abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者がいるプロジェクトでの使用の可用性は、接続アクセス設定に基づいて異なります。接続アクセスは、常にプライベートからパブリックに変更できますが、共同作業者とオーディエンスをアクティブ化した後で設定を元に戻すことはできません。</p>"
+>abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者がいるプロジェクトでの使用の可用性は、接続アクセス設定に基づいて異なります。接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスを共同作業者とアクティベートすると、その設定を元に戻すことはできません。</p>"
 
 共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 「**[!UICONTROL 接続アクセス]**」セクションでは、オーディエンスをプライベートにするか、接続で使用可能で検出可能にするかを選択できます。
 
@@ -318,9 +318,9 @@ ht-degree: 18%
 
 **[!UICONTROL 接続アクセス]** ダイアログが表示され、使用可能な 3 つの接続アクセスオプションが示されます。
 
-* **[!UICONTROL 非公開オーディエンス]**. これらのオーディエンスは、重複レポートや共同作業者との接続でのアクティブ化には *使用できません*。 共同作業者がオーディエンスを表示または使用することはできませんが、**[[!UICONTROL オーディエンスの比較 [ セクションの]** すべてのオーディエンス &#x200B;]](/help/guide/collaborate/discover.md#compare-audiences) ビューでは、オーディエンスの母集団が合計母集団に貢献します。 共同作業者と連携してオーディエンスを使用するには、設定をパブリックまたはカスタムに変更します。
+* **[!UICONTROL 非公開オーディエンス]**. これらのオーディエンスは、重複レポートや共同作業者との接続でのアクティブ化には *使用できません*。 共同作業者がオーディエンスを表示または使用することはできませんが、**[!UICONTROL オーディエンスの比較 [ セクションの]** すべてのオーディエンス ](/help/guide/collaborate/discover.md#compare-audiences) ビューでは、オーディエンスの母集団が合計母集団に貢献します。 共同作業者と連携してオーディエンスを使用するには、設定をパブリックまたはカスタムに変更します。
 * **[!UICONTROL 一般向け]** これらのオーディエンスは、重複レポートや共同作業者との連携でアクティブ化するために使用できます。
-* **[!UICONTROL カスタムオーディエンス]**。 これらのオーディエンスは、重複レポートや、指定された接続でのみアクティブ化するために使用できます。 共同作業者がオーディエンスを表示または使用することはできませんが、**[[!UICONTROL オーディエンスの比較 [ セクションの]** すべてのオーディエンス &#x200B;]](/help/guide/collaborate/discover.md#compare-audiences) ビューでは、オーディエンスの母集団が合計母集団に貢献します。
+* **[!UICONTROL カスタムオーディエンス]**。 これらのオーディエンスは、重複レポートや、指定された接続でのみアクティブ化するために使用できます。 共同作業者がオーディエンスを表示または使用することはできませんが、**[!UICONTROL オーディエンスの比較 [ セクションの]** すべてのオーディエンス ](/help/guide/collaborate/discover.md#compare-audiences) ビューでは、オーディエンスの母集団が合計母集団に貢献します。
 
 目的の接続アクセスオプションを選択し、「**[!UICONTROL 保存]**」を選択して変更を適用します。
 
@@ -337,7 +337,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="メタデータの表示"
->abstract="<p>組織に接続する前に、他の組織に表示するオーディエンスのメタデータを示します。 </p> <p> **ID 数**&#x200B;は、検出タブで重複レポートを表示する際に、パートナーがオーディエンスの ID 数を表示できるかどうかを制御します。**オーディエンスの重複％**&#x200B;は、共同編集者が自分のオーディエンスとユーザーのオーディエンスの重複の割合を検出できるかどうかを制御します。"
+>abstract="<p>他の組織がユーザーの組織に接続する前に、他の組織に表示されるオーディエンスのメタデータを示します。 </p> <p> **ID 数**&#x200B;は、検出タブで重複レポートを表示する際に、パートナーがオーディエンスの ID 数を表示できるかどうかを制御します。**オーディエンスの重複％**&#x200B;は、共同編集者が自分のオーディエンスとユーザーのオーディエンスの重複の割合を検出できるかどうかを制御します。"
 
 >[!NOTE]
 >

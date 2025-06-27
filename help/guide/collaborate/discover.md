@@ -2,12 +2,12 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -53,22 +53,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="ID 数"
->abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、選択したオーディエンス内の一意の ID の数。"
+>abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づく選択したオーディエンス内の一意の ID の数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="共同作業者 ID 数"
->abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、共同作業者のオーディエンス内の一意の ID の数。"
+>abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づく共同作業者のオーディエンス内の一意の ID の数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="重複 ID 数"
->abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づいて、ユーザーと共同作業者のオーディエンスの両方に存在する一意の ID の数。"
+>abstract="ユーザーと共同作業者がプロジェクトで合意した一致キーに基づくユーザーと共同作業者のオーディエンスの両方に存在する一意の ID の数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="重複 ID の割合"
->abstract="自分と共同作業者が選択したオーディエンスの間で重複する ID の割合。"
+>abstract="ユーザーと共同作業者の選択したオーディエンスとの間で ID が重複している割合。"
 
 「オーディエンスを比較」セクションを使用すると、と共同作業者のオーディエンスの重複に関する豊富な情報を取得できます。 オーディエンスの選択を変更するには、「**[!UICONTROL オーディエンスを比較]** セクションの上部にあるドロップダウンセレクターを使用します。 オーディエンスの 1 つまたはすべてを選択し、共同作業者のオーディエンスの 1 つまたはすべてを選択して、相互に比較できます。
 
@@ -126,7 +126,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="個々のオーディエンスとの重複の検出"
->abstract="オーディエンスと共同作業者のオーディエンスの重複に関するインサイトを取得します。"
+>abstract="オーディエンスと共同作業者のオーディエンスとの間の重複に関するインサイトを取得します。"
 
 重複を検出して、オーディエンスを共同作業者のオーディエンスと比較する方法に関するインサイトを得ます。 デフォルトでは、このセクションは、すべてのオーディエンスを共同作業者の各オーディエンスと比較します。 セクションの下部にあるページネーションコントロールを使用して、使用可能なオーディエンス間を移動します。
 

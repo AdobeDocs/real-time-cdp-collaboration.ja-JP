@@ -2,12 +2,12 @@
 title: 組織のオンボードと管理
 description: Real-Time CDP Collaborationで組織の様々な側面をオンボーディングおよび管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="接続コード"
->abstract="接続コードは組織の一意の ID です。 Real-Time CDP Collaboration内の他の組織との接続を確立するために使用されます。"
+>abstract="接続コードは、組織の一意の ID です。これを使用すると、Real-Time CDP 共同作業内の他の組織との接続を確立できます。"
 
 <!-- Move the above to new section for invite on this page when its created -->
 
@@ -110,7 +110,7 @@ Real-Time CDP Collaborationの最初のリリースで使用できる一致キ�
 
 ## 組織を編集 {#edit-organization}
 
-組織を最初に設定した後、組織の特定の側面や詳細をいつでも編集できます。 **[!UICONTROL 組織を編集するには、「設定]** ワークスペースの **[!UICONTROL 自分の組織]** セクションで **&#x200B; 編集** を選択します。
+組織を最初に設定した後、組織の特定の側面や詳細をいつでも編集できます。 **[!UICONTROL 組織を編集するには、「設定]** ワークスペースの **[!UICONTROL 自分の組織]** セクションで ** 編集** を選択します。
 
 ![ 「自分の組織」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
