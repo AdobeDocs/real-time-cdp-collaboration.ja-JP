@@ -1,17 +1,18 @@
 ---
 title: Real-Time CDP Collaboration オンボーディングのクイックスタート
-description: 役割と組織の設定、オーディエンスプロビジョニング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、広告主とパブリッシャーが共同作業の設定を行い、共有オーディエンスを安全かつ効率的に使用し始めるのに役立ちます。
+description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、広告主とパブリッシャーが共同作業の設定を行い、共有オーディエンスを安全かつ効率的に使用し始めるのに役立ちます。
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaborationのオンボーディングのクイックスタート
 
-組織を設定し、オーディエンスをプロビジョニングし、プライバシーに焦点を当てたアクティベーションと測定を有効にすることで、Real-Time Customer Data Platform（CDP）Collaborationの基本を学びます。
+Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オーディエンスをソーシングし、プライバシーに焦点を当てたアクティベーションと測定を有効にします。
 
 ## 前提条件
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 Admin ConsoleとExperience Platform UI を使用して、Collaborationの製品アクセスおよび権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順 2:Real-Time CDP Collaboration組織を設定する {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Collaborationにおける組織の役割を定義し、ブランディングア�
 
 - **一致キーを設定** - オーディエンスマッチングに使用する識別子を選択します（現在、サポートされている一致キーはハッシュ化されたメールのみです）。
 
-組織を作成し、ブランディングと一致キーを設定したら、オーディエンスのプロビジョニングとデータのアクティブ化を開始する準備が整います。
+組織を作成し、ブランディングと一致キーを設定したら、オーディエンスのソーシングとデータのアクティブ化を開始する準備が整います。
 
 役割の定義、ブランディングアセットのアップロード、一致キーの設定の方法など、組織の初期設定について詳しくは、[ 組織の初期設定のドキュメント ](./setup/onboard-organization.md#initial-organization-setup){target="_blank"} を参照してください。
 
@@ -83,7 +84,7 @@ Collaborationにおける組織の役割を定義し、ブランディングア�
 
 ## 手順 3:Source オーディエンス（Experience Platformまたはクラウドソースから） {#source-audiences}
 
-ソースオーディエンスに対して、次のデータストアの一方または両方を選択します。 Collaboration UI を使用するか、Adobeと連携して、プライバシーを保持する形式でオーディエンスをプロビジョニングします。
+ソースオーディエンスに対して、次のデータストアの一方または両方を選択します。 Collaboration UI を使用するか、Adobeと連携して、プライバシーを保持する形式でオーディエンスをソース化します。
 
 ### オプション A:Experience PlatformのSource
 
@@ -99,7 +100,7 @@ Collaborationにおける組織の役割を定義し、ブランディングア�
 >
 >アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 特定のパートナー組織へのアクセスは、Collaboration UI を通じて個別にプロビジョニングされます。
 
-### オーディエンスのプロビジョニング
+### オーディエンスの設定
 
 接続で使用するオーディエンスの準備、マッチ、管理方法を設定します。
 
@@ -117,8 +118,8 @@ Collaborationにおける組織の役割を定義し、ブランディングア�
 >
 >**共同作業者の役割ごとの最大オーディエンス数：**
 >
->- **広告主** は、最大 25 人のオーディエンスをプロビジョニングできます。
->- **パブリッシャー** は、最大 250 個のオーディエンスをプロビジョニングできます（各オーディエンスには最小 5,000 個の ID を割り当てることができます）。
+>- **広告主** は、最大 25 個のオーディエンスをソースにすることができます。
+>- **パブリッシャー** は、最大 250 個のオーディエンス（それぞれが最小 5,000 個の ID を持つ）をソースできます。
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Collaboration UI を使用してオーディエンスを参照する方法の完
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
+または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
 
 ## 手順 4：オーディエンスをアクティブ化（Experience Platformまたはクラウドの宛先に対して） {#activate-audiences}
 
@@ -146,7 +147,7 @@ Collaboration UI を使用して、Experience Platform インスタンスまた�
 
 ### オプション A:Experience Platformに対してアクティブ化
 
-[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
+[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
 
 - **宛先の作成** - UI を使用して、Experience Platformの宛先（サンドボックスレベル）を設定します。
 - **一致キーをマッピング** – 識別子を選択します（例：`hashedEmail`）。
@@ -237,11 +238,17 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定とデータプロビジョニングが完了し、組織は、招待を送信または受け入れ、承認のためにプロジェクト設定を送信することで、共同作業者と接続する準備が整いました。 この接続プロセスには、招待状の送信または受信、接続設定（ユースケースやクレジット消費など）の確認と送信、関係の確認が含まれます。
 
-Collaboration UI の左側のナビゲーションメニューにある **[!UICONTROL 接続]** ワークスペースを使用して、使用可能なパブリッシャーを参照します（広告主は現在参照できません）。 このフローの概要については、[ 広告主またはパブリッシャーとの接続ガイド ](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[ 広告主アカウントの設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
+広告主は、Collaboration UI の左側のナビゲーションメニューから **[!UICONTROL 接続]** ワークスペースを使用して、使用可能な公開者を参照できます。
+
+>[!NOTE]
+>
+>現在、パブリッシャーを参照できるのは広告主のみです。 パブリッシャーは、広告主との接続を参照または開始できません。
+
+このフローの概要については、[ 広告主またはパブリッシャーとの接続ガイド ](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[ 広告主アカウントの設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
 
 ## 次の手順
 
-これで、オンボーディングが完了し、安全な共同作業のための組織が設定されました。 次に、アクティベーション、測定、データガバナンスに関する理解を深めるために、次のリソースを探索します。
+これで、初期設定が完了し、共同作業を保護するために組織が設定されました。 次に、アクティベーション、測定、データガバナンスに関する理解を深めるために、次のリソースを探索します。
 
 - [Audience Activation ワークフロードキュメント ](./collaborate/activate.md)
 - [ 測定の使用例 ](./collaborate/measure.md)
