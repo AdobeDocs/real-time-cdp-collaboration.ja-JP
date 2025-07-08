@@ -3,9 +3,9 @@ title: Real-Time CDP Collaboration オンボーディングのクイックスタ
 description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、広告主とパブリッシャーが共同作業の設定を行い、共有オーディエンスを安全かつ効率的に使用し始めるのに役立ちます。
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 - [ 組織用に作成され、ユーザーに割り当てられた役割 ](./permissions/manage-roles.md)。
 - 組織の名前、ロゴ、バナーなど、ブランディングアセットへのアクセス。
 - [ 定義済みの一致キー戦略 ](./setup/onboard-organization.md#set-up-match-keys) （現在、サポートされている一致キーはハッシュ化されたメールのみです）。
-- （任意）Experience Platformを宛先として使用していない場合は、サポートされているクラウドソース（Amazon S3 またはSnowflake）にアクセスします。
+- （任意）Experience Platform for audience management を使用していない場合は、サポートされているクラウドソース（Amazon S3 またはSnowflake）にアクセスします。
 
 ## 手順 1：役割ベースの設定の完了 {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 Admin ConsoleとExperience Platform UI を使用して、Collaborationの製品アクセスおよび権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順 2:Real-Time CDP Collaboration組織を設定する {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ Admin ConsoleとExperience Platform UI を使用して、Collaborationの製品�
 
 オーディエンスを追加する前に、Collaborationで組織を設定する必要があります。 これは、インターフェイス内での組織の表示と動作を制御します。
 
-Experience Platformへの管理者アクセス権がない場合は、組織の管理者に問い合わせて、この設定を完了してもらってください。
+必要なアクセス権がない場合は、手順 1 に戻るか、組織の管理者に問い合わせて、この設定を完了してください。
 
-Collaborationにおける組織の役割を定義し、ブランディングアセットを提供し、一致キーを設定して、接続全体でオーディエンスを調整します。 次に、以下の手順を完了してセットアップを完了し、組織が接続に関与できるようにする準備をします。
+Collaborationにおける組織の役割を定義し、ブランディングアセットを提供し、一致キーを設定して、接続全体でオーディエンスを調整します。
 
 >[!NOTE]
 >
->セットアップ時に 1 人以上の共同作業者（広告主や発行者のプロファイルなど）を作成できます。 ブランディングアセットや連絡先のメールなど、特定のフィールドは、後で **[!UICONTROL 設定]** ワークスペースで更新できます。 一致キーは、プロジェクトレベルで削除できますが追加はできないので、慎重に計画します。
+>セットアップ時に 1 人以上の共同作業者（広告主や発行者のプロファイルなど）を作成できます。 ブランディングアセットや連絡先のメールなど、特定のフィールドは、後で **[!UICONTROL 設定]** ワークスペースで更新できます。
 
 - **役割を割り当て** – 組織が広告主、パブリッシャー、またはその両方として機能するかどうかを決定します。 自分の役割によって、オーディエンス共有の開始（広告主）やオーディエンスを使用可能にする（公開者）など、所有しているコラボレーション機能が定義されます。 役割がコラボレーションワークフローに与える影響について詳しくは、[ エンドツーエンドのワークフローガイド ](./end-to-end-workflow.md) を参照してください。
 - **ブランディングアセット** - アカウントに以下を追加します。
    - ブランド名（最大 100 文字）
    - ブランド説明（最大 1,000 文字）
    - ブランドロゴ （SVG&lt;20KB、理想的には正方形）
-   - ブランドバナー（JPG 2688 x 1536 または同等）
-- **お問い合わせメール** – 接続が確立された後に共同作業者が使用するビジネスメールを指定します。
 
   >[!NOTE]
   >
   >公開者アカウントを作成していて、Collaboration Connections カタログに公開したい場合は、Adobe アカウント担当者にお問い合わせください。 発行者アカウントにはカスタムブランドバナー（JPG 2688 x 1536）が必要です。このファイルは、の担当者に直接共有できます。
 
+- **お問い合わせメール** – 接続が確立された後に共同作業者が使用するビジネスメールを指定します。
 - **一致キーを設定** - オーディエンスマッチングに使用する識別子を選択します（現在、サポートされている一致キーはハッシュ化されたメールのみです）。
-
-組織を作成し、ブランディングと一致キーを設定したら、オーディエンスのソーシングとデータのアクティブ化を開始する準備が整います。
 
 役割の定義、ブランディングアセットのアップロード、一致キーの設定の方法など、組織の初期設定について詳しくは、[ 組織の初期設定のドキュメント ](./setup/onboard-organization.md#initial-organization-setup){target="_blank"} を参照してください。
 
@@ -84,23 +81,13 @@ Collaborationにおける組織の役割を定義し、ブランディングア�
 
 ## 手順 3:Source オーディエンス（Experience Platformまたはクラウドソースから） {#source-audiences}
 
-ソースオーディエンスに対して、次のデータストアの一方または両方を選択します。 Collaboration UI を使用するか、Adobeと連携して、プライバシーを保持する形式でオーディエンスをソース化します。
+組織を作成し、ブランディングと一致キーを設定したら、オーディエンスのソーシングを開始する準備が整います。 データストアとビジネスニーズに基づいて、次のいずれかのソーシング方法を選択します。
 
 ### オプション A:Experience PlatformのSource
 
-[Collaborationの宛先 UI を使用して、オーディエンスを含んだサンドボックスをリンクします ](./setup/onboard-audiences.md)。 このセルフサービス方式を使用して、Experience Platform インスタンス内から既存のオーディエンスセグメントを参照します。
+[Collaboration UI を使用して、オーディエンスを含んだサンドボックスをリンクする ](./setup/onboard-audiences.md)。 このセルフサービス方式を使用して、Experience Platform インスタンス内から既存のオーディエンスセグメントを参照します。
 
-### オプション B:SnowflakeのSourceまたはAmazon S3
-
-クラウドソース（[!DNL AWS S3] や [!DNL Snowflake] など）を設定するには、次の [ オーディエンス仕様PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf) を使用してオーディエンスデータを準備します。 設定が完了したら、または質問がある場合は、Adobe アカウント担当者に連絡して設定を完了してください。 この方法はセルフサービスではないので、Adobeのサポートが必要です。
-
->[!IMPORTANT]
->
->クラウドベースのオーディエンスファイルは、オーディエンス仕様PDFで説明されている必要なスキーマに従う必要があります。 ファイルには、ハッシュ化された識別子（小文字の SHA256）、必須のメタデータフィールド（`segment_name` や `activation_id` など）を含め、CSV や Parquet などのサポートされている形式を使用する必要があります。 Adobeは、アクティブ化の前にデータを正規化しません。 TTL は、オーディエンスの存続期間に基づいて適用されます。
->
->アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 特定のパートナー組織へのアクセスは、Collaboration UI を通じて個別にプロビジョニングされます。
-
-### オーディエンスの設定
+#### オーディエンスの設定
 
 接続で使用するオーディエンスの準備、マッチ、管理方法を設定します。
 
@@ -135,7 +122,17 @@ Collaboration UI を使用してオーディエンスを参照する方法の完
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
+または、[Real-Time CDP Collaborationでオーディエンスを使用可能にする ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
+
+### オプション B:SnowflakeのSourceまたはAmazon S3
+
+クラウドソース（[!DNL AWS S3] や [!DNL Snowflake] など）を設定するには、次の [ オーディエンス仕様PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf) を使用してオーディエンスデータを準備します。 設定が完了したら、または質問がある場合は、Adobe アカウント担当者に連絡して設定を完了してください。 この方法はセルフサービスではないので、Adobeのサポートが必要です。
+
+>[!IMPORTANT]
+>
+>クラウドベースのオーディエンスファイルは、オーディエンス仕様PDFで説明されている必要なスキーマに従う必要があります。 ファイルには、ハッシュ化された識別子（小文字の SHA256）、必須のメタデータフィールド（`segment_name` や `activation_id` など）を含め、CSV や Parquet などのサポートされている形式を使用する必要があります。 Adobeは、アクティブ化の前にデータを正規化しません。 TTL は、オーディエンスの存続期間に基づいて適用されます。
+>
+>アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 特定のパートナー組織へのアクセスは、Collaboration UI を通じて個別にプロビジョニングされます。
 
 ## 手順 4：オーディエンスをアクティブ化（Experience Platformまたはクラウドの宛先に対して） {#activate-audiences}
 
@@ -147,7 +144,7 @@ Collaboration UI を使用して、Experience Platform インスタンスまた�
 
 ### オプション A:Experience Platformに対してアクティブ化
 
-[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
+[Adobe Experience Platformを宛先として設定 ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) ガイドで説明されている次の手順を実行します。
 
 - **宛先の作成** - UI を使用して、Experience Platformの宛先（サンドボックスレベル）を設定します。
 - **一致キーをマッピング** – 識別子を選択します（例：`hashedEmail`）。
@@ -156,16 +153,9 @@ Collaboration UI を使用して、Experience Platform インスタンスまた�
 
 ### オプション B：クラウドに対してアクティブ化
 
-クラウドの宛先（[!DNL AWS S3] や [!DNL Snowflake] など）に対してオーディエンスをアクティブ化するには、Adobe アカウント担当者に連絡して設定プロセスを開始します。 宛先の詳細（ファイルパス、資格情報、想定されるファイル形式など）を指定する必要があります。 設定時には、一致キー（`hashedEmail` など）を指定し、目的の TTL と更新ケイデンスを定義する必要もあります。 設定が完了すると、Adobeが宛先をプロビジョニングし、データが正しく配信されるようにします。
+クラウドの宛先（[!DNL AWS S3] や [!DNL Snowflake] など）を設定するには、Adobe アカウント担当者に連絡して設定プロセスを開始します。 クラウドの宛先に応じて、ファイルパス、資格情報、アカウントロケーターなど、クラウドの宛先の詳細を指定する必要があります。 必要な情報が入力されると、Adobeによってクラウドの宛先の設定が行われます。
 
 クラウドの宛先に送信されるオーディエンスデータは、事前に定義されたスキーマに従います。 必須フィールドと形式について詳しくは、[Collaboration Audience Activation ガイド ](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf) をダウンロードしてください。
-
-### 主な違い
-
-次のリストは、Experience Platformと Cloud Activation オプションの違いを示しています。
-
-- Experience Platformに対するアクティベーションは完全にセルフサービスであり、オーディエンスポータルに表示されます。
-- クラウドの宛先にはAdobeの調整が必要であり、UI には表示されません。
 
 ## 手順 5：測定の設定（オプション） {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## 検証
-
-アクティベーション後、オーディエンスが正常に配信されたか、適切な宛先で使用できるようになったことを確認します。
-
-- オーディエンスがオーディエンスポータルに表示されていることを確認します（Experience Platformをアクティブ化する場合）。
-- 外部の宛先ログまたは確認で、クラウドが正常に配信されたことを確認します。
 
 ## 手順 6：共同作業者と接続する {#connect-with-collaborators}
 
