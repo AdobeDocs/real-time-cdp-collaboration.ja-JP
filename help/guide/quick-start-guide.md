@@ -42,7 +42,7 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 Admin ConsoleとExperience Platform UI を使用して、Collaborationの製品アクセスおよび権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452231/?learn=on&enablevpops&captions=jpn)
 
 ## 手順 2:Real-Time CDP Collaboration組織を設定する {#set-up-your-organization}
 
