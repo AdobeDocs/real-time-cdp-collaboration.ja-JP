@@ -33,11 +33,11 @@ Experience Cloud [ 権限 ](https://experienceleague.adobe.com/en/docs/experienc
 >
 >システム管理者はAdobe Admin Consoleなどの特定のExperience Cloud製品に標準でアクセスできます。 ただし、権限を使用するには、自分自身にExperience Platform製品の製品管理者およびユーザーアクセス権を付与する必要があります。 システム管理者として自分自身にアクセス権を付与するには、以下のステップバイステップガイドに従います。
 
-資格情報を使用して [0}Adobe Experience Cloud} にログインします。 ](https://experience.adobe.com/){target="_blank"}ホームビューは、「**[!UICONTROL クイックアクセス]**」セクションに使用可能な製品のリストと共に表示されます。 「**[!UICONTROL Admin Console]**」を選択します。
+資格情報を使用して [0&rbrace;Adobe Experience Cloud&rbrace; にログインします。 ](https://experience.adobe.com/){target="_blank"}ホームビューは、「**[!UICONTROL クイックアクセス]**」セクションに使用可能な製品のリストと共に表示されます。 「**[!UICONTROL Admin Console]**」を選択します。
 
 ![Admin Consoleがハイライト表示されたExperience Cloudのホームビュー ](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-[Adobe Admin Console](https://adminconsole.adobe.com/) 概要ダッシュボードが表示されます。 **[!UICONTROL 製品とサービス]** の下にある **[!UICONTROL 製品]** リストから **[!UICONTROL 0}Adobe Experience Platform} を選択します。]**
+[Adobe Admin Console](https://adminconsole.adobe.com/) 概要ダッシュボードが表示されます。 **[!UICONTROL 製品とサービス]** の下にある **[!UICONTROL 製品]** リストから **[!UICONTROL 0&rbrace;Adobe Experience Platform&rbrace; を選択します。]**
 
 ![Adobe Experience Platform製品がハイライト表示されたAdmin Consoleの概要ダッシュボード。](../../assets/permissions/admin-console.png){zoomable="yes"}
 
@@ -59,7 +59,7 @@ Adobe Experience Platform ダッシュボードが表示されます。 **[!UICO
 >
 >前の節の手順を実行している場合は、既にAdobe Experience Platform製品に含まれているため、最初の手順をスキップしてもかまいません。
 
-[Admin Console](https://adminconsole.adobe.com/){target="_blank"} に移動し、{ 製品 **[!UICONTROL リストから {2]****[!UICONTROL Adobe Experience Platform]** を選択します ****
+[Admin Console](https://adminconsole.adobe.com/){target="_blank"} に移動し、&lbrace; 製品 **[!UICONTROL リストから &lbrace;2]**&#x200B;**[!UICONTROL Adobe Experience Platform]** を選択します **&#x200B;**
 
 ![Admin Consoleがハイライト表示されたExperience Cloudのホームビュー ](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
@@ -85,7 +85,7 @@ Adobe Experience Platform ダッシュボードが表示されます。 **[!UICO
 
 Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オーディエンスや監査ログなど、Experience Platformのデータを操作します。 このデータは、サンドボックスと呼ばれるExperience Platformのインスタンス内に保持されます。 ユーザーがこのデータを確実に操作できるようにするには、ユーザーに [ デフォルトの役割 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} を割り当てる必要があります。
 
-開始するには、[Adobe Experience Cloud](https://experience.adobe.com/) に移動します。 **[!UICONTROL クイックアクセス]** 内に **[!UICONTROL 0}Experience Platform} と]** 権限 **[!UICONTROL が表示されます。]**
+開始するには、[Adobe Experience Cloud](https://experience.adobe.com/) に移動します。 **[!UICONTROL クイックアクセス]** 内に **[!UICONTROL 0&rbrace;Experience Platform&rbrace; と]** 権限 **[!UICONTROL が表示されます。]**
 
 ![Experience Platformと権限がハイライト表示されたExperience Cloudのホームビュー ](../../assets/permissions/experience-cloud-products.png){zoomable="yes"}
 
