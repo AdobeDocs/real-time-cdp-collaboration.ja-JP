@@ -2,7 +2,7 @@
 title: 権限によるユーザーアクセスの管理
 description: Real-Time CDP Collaboration UI の様々なコンポーネントに対する権限とユーザーのアクセスを管理します。
 audience: admin
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Experience Cloud [ 権限 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} インターフェイスを使用して、Adobe Real-Time CDP Collaboration内の個々のコンポーネントに対する権限とユーザーアクセスを管理します。 権限を使用すると、システム管理者と製品管理者は [ 役割 ](./manage-roles.md) を定義して、特定の機能とリソースへのユーザーアクセスを管理できます。
+Experience Cloud [ 権限 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} インターフェイスを使用して、Adobe Real-Time CDP Collaboration内の個々のコンポーネントに対する権限とユーザーアクセスを管理します。 権限を使用すると、システム管理者と製品管理者は [ 役割 ](./manage-roles.md) を定義して、特定の機能とリソースへのユーザーアクセスを管理できます。
 
 ## 権限へのアクセスの設定 {#permissions-access}
 
@@ -83,7 +83,7 @@ Adobe Experience Platform ダッシュボードが表示されます。 **[!UICO
 
 ### 管理者：Experience Platform UI アクセスの設定 {#product-access}
 
-Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オーディエンスや監査ログなど、Experience Platformのデータを操作します。 このデータは、サンドボックスと呼ばれるExperience Platformのインスタンス内に保持されます。 ユーザーがこのデータを確実に操作できるようにするには、ユーザーに [ デフォルトの役割 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} を割り当てる必要があります。
+Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オーディエンスや監査ログなど、Experience Platformのデータを操作します。 このデータは、サンドボックスと呼ばれるExperience Platformのインスタンス内に保持されます。 ユーザーがこのデータを確実に操作できるようにするには、ユーザーに [ デフォルトの役割 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#default-roles){target="_blank"} を割り当てる必要があります。
 
 開始するには、[Adobe Experience Cloud](https://experience.adobe.com/) に移動します。 **[!UICONTROL クイックアクセス]** 内に **[!UICONTROL 0&rbrace;Experience Platform&rbrace; と]** 権限 **[!UICONTROL が表示されます。]**
 
@@ -113,7 +113,7 @@ Real-Time CDP Collaborationでは、管理者とエンドユーザーは、オ�
 
 ### 管理者：Real-Time CDP Collaboration アクセスの設定 {#RTCDP-collaboration-access}
 
-ユーザーにCollaborationへのアクセスを許可するには、roles というアクセス制御の概念を使用します。 役割は、管理者またはユーザーが組織内で [ リソース ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) に対して持つアクセスレベルを定義します。
+ユーザーにCollaborationへのアクセスを許可するには、roles というアクセス制御の概念を使用します。 役割は、管理者またはユーザーが組織内で [ リソース ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#permissions) に対して持つアクセスレベルを定義します。
 
 Collaborationへの個々のアクセスを設定する場合は、共同作業リソースから権限を含むユーザーの役割を割り当てます。 [ 役割の管理 ](./manage-roles.md) ガイドを使用して、次の情報を確認できます。
 
