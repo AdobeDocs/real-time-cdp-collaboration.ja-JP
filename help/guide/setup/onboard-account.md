@@ -2,7 +2,7 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
@@ -111,7 +111,7 @@ ht-degree: 13%
 
 ## アカウントを編集 {#edit-account}
 
-アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで **&#x200B; 編集** を選択します。
+アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで ** 編集** を選択します。
 
 ![ 「マイアカウント」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
