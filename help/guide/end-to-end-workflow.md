@@ -2,9 +2,9 @@
 title: エンドツーエンドのワークフロー
 description: 広告主またはパブリッシャーとしてReal-Time CDP Collaborationを使用するエンドツーエンドのワークフローを理解する
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると�
 
 ## 広告主のエンドツーエンドワークフロー {#advertiser}
 
-広告主は、まずReal-Time CDP Collaborationに [ 会社をオンボーディング ](/help/guide/setup/onboard-organization.md) します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、会社設定を送信して編集し、使用する優先一致キーを追加し、取り込むデータを決定します。 最初のリリースでは、Adobe Experience Platformのみから [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) ことができます。
+広告主は、まずReal-Time CDP Collaborationに [ 会社をオンボーディング ](/help/guide/setup/onboard-account.md) します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、会社設定を送信して編集し、使用する優先一致キーを追加し、取り込むデータを決定します。 最初のリリースでは、Adobe Experience Platformのみから [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) ことができます。
 
 ![ 広告主を検出、アクティブ化、測定します。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると�
 
 ## パブリッシャーのエンドツーエンドワークフロー {#publisher}
 
-パブリッシャーとして、まず [ 会社のオンボーディング ](/help/guide/setup/onboard-organization.md) をReal-Time CDP Collaborationに配置します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、様々なカンパニー設定を編集します。
+パブリッシャーとして、まず [ 会社のオンボーディング ](/help/guide/setup/onboard-account.md) をReal-Time CDP Collaborationに配置します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、様々なカンパニー設定を編集します。
 
 読み込むオーディエンスデータと、製品の **[!UICONTROL 接続]** エリアで接続を検討している広告主に対して検出可能および表示可能にするオーディエンスを決定します。
 

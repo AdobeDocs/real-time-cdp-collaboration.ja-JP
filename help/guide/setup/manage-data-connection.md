@@ -2,12 +2,12 @@
 title: データ接続を管理
 description: Real-Time CDP Collaborationでの一致キー、スケジュール、ユースケース、オーディエンスフィルタリングなど、データ接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 11%
+source-wordcount: '597'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 ## 概要
 
-Real-Time CDP Collaborationのデータ接続を使用して、様々なソースからオーディエンスを読み込みます。 既存のデータ接続の一致キーを管理し、データの読み込みをスケジュールする方法を説明します。 さらに、様々な属性でオーディエンスをフィルタリングして、より詳細なインサイトを得ることができます。
+Real-Time CDP Collaborationのデータ接続を使用して、様々なプラットフォームからオーディエンスをソース化します。 一致キーを管理し、既存のデータ接続のデータ更新をスケジュールする方法を説明します。 さらに、様々な属性でオーディエンスをフィルタリングして、より詳細なインサイトを得ることができます。
 
 ## データ接続の表示
 
@@ -59,7 +59,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 >
 >Adobe Experience Platformからオーディエンスを取得する場合、オーディエンスは、データ接続が確立されてから 24 時間以内に使用可能になります。 最初の読み込み後、オーディエンスデータは、定義された頻度に従って更新されます。
 
-スケジュールについて詳しくは、オーディエンスのオンボーディングのガイドの [ スケジュールの節 ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
+スケジュールについて詳しくは、オーディエンスの設定ガイドの [ スケジュールの節 ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
 
 ![ スケジュールセクションがハイライト表示されたデータ接続のワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なソー�
 
 **[!UICONTROL スケジュール]** ダイアログで、ドロップダウンメニューを選択して **[!UICONTROL 頻度]** を更新します。 更新頻度を、毎日または 2 ～ 6 日ごとに実行するように設定します。 完了したら、「**[!UICONTROL 保存]** を選択して変更を適用します。
 
-![ 頻度と日付範囲を設定するオプションが表示されているスケジュールダイアログ ](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![ 頻度と日付範囲を設定するオプションが表示されているスケジュールダイアログ ](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## データ接続を削除
 
-データ接続を削除すると、基になるオーディエンス、関連する設定およびプラットフォーム全体での使用状況がすべて削除されます。 このアクションは取り消せません。
+データ接続を削除すると、Collaboration全体で、基になるすべてのオーディエンス、関連する設定および使用状況が削除されます。 このアクションは取り消せません。
 
 既存のデータ接続を削除するには、個々のデータ接続のワークスペース内にある削除アイコン（![ 削除アイコン ](/help/assets/common/delete.svg)）を選択します。
 

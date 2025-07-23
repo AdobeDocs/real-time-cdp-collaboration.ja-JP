@@ -2,11 +2,11 @@
 title: プロジェクトの作成と管理
 description: Adobe Real-Time CDP Collaborationでプロジェクトを作成および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-プロジェクトは、Real-Time CDP Collaborationのワークフローの中核です。 共同作業者と接続した後、プロジェクトを作成して、オーディエンスの重複計算を実行し、キャンペーンに関連するオーディエンスを見つけます。
+プロジェクトは、Adobe Real-Time CDP Collaborationのワークフローの中核です。 共同作業者と接続した後、プロジェクトを作成して、オーディエンスの重複計算を実行し、キャンペーンに関連するオーディエンスを見つけます。
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ ht-degree: 9%
 ![1 人の共同作業者がいるプロジェクトのフィルター済みビュー ](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## プロジェクトを作成 {#create-project}
+
+プロジェクトを作成するには、まず共同作業者と [ 接続を確立 ](/help/guide/connect/establishing-connections.md) する必要があります。 接続が確立されたら、その共同作業者とプロジェクトを作成できます。
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"

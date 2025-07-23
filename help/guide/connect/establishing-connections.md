@@ -2,12 +2,12 @@
 title: 広告主またはパブリッシャーとの接続
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-コラボレーター（通常、広告主とパブリッシャー）がキャンペーンで連携する前に、連携を確立する必要があります。 この接続を使用すると、オーディエンスのアクティブ化、プロジェクトの作成およびキャンペーンのパフォーマンスに関するレポートの実行を行うことができます。
+コラボレーターがキャンペーンで連携する前に、連携を確立する必要があります。 この接続を使用すると、オーディエンスのアクティブ化、プロジェクトの作成およびキャンペーンのパフォーマンスに関するレポートの実行を行うことができます。
 
 ## ワークフローの概要
 
@@ -33,15 +33,15 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->2 人の共同作業者の間の接続が確立されると、接続設定は変更できなくなります。
+>2 人の共同作業者の間の接続が確立されると、接続設定は変更できません。
 
 ## 招待状を送信 {#send-invite}
 
-接続を設定するには、パブリッシャーの検出画面でパブリッシャーインベントリを参照する際に「**[!UICONTROL 接続]**」を選択します。
+接続を設定するには、「**[!UICONTROL パブリッシャーを検出]** ワークスペースでパブリッシャーインベントリを参照する際に **[!UICONTROL 接続]** を選択します。
 
 ![ 特定のパブリッシャーで「接続」オプションがハイライト表示された接続ダッシュボード。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-招待状を送信すると、接続設定をプレビューできます（編集はできません）。 保留中の招待を **[!UICONTROL マイ接続]** タブに表示します。 接続ステータスは **[!UICONTROL 招待状が送信されました]** と表示されます。
+招待状を送信すると、接続設定をプレビューできます（編集はできません）。 保留中の招待を表示は、「**[!UICONTROL マイ接続]** タブに表示されます。 接続ステータスは **[!UICONTROL 招待状が送信されました]** と表示されます。
 
 ![ 公開者に送信された保留中の招待状がマイ接続ビューに表示されます。](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="クレジット分割"
->abstract="このセクションでは、Real-Time CDP 共同作業内の対応するアクティビティに対して支払いを行うユーザーを決定します。"
+>abstract="この節では、Collaboration内の対応するアクティビティの支払い先を決定します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
->abstract="<p>オプションの設定。発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Real-Time CDP Collaboration の広告主アカウント名が事前入力されます。</li></ul>"
+>abstract="<p>オプションの設定。発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Collaborationの広告主アカウント名が事前入力されます。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトの作成"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ ht-degree: 16%
 招待状が送信されると、接続設定をプレビューできます。 接続の設定を完了するには、招待を承諾する必要があります。
 
 ![ プレビュー状態の接続設定ビュー ](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### 広告主接続設定 {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ ht-degree: 16%
 
 +++一致キー
 
-一致キーには、（組織の設定 [ 時に選択したキーが事前に入力されて ](/help/guide/setup/onboard-organization.md#set-up-match-keys) ます。 使用しない一致キーはオフにできますが、組織の設定時に選択されなかった一致キーは追加できません。
+一致キーには、（組織の設定 [ 時に選択したキーが事前に入力されて ](/help/guide/setup/onboard-account.md#set-up-match-keys) ます。 使用しない一致キーはオフにできますが、組織の設定時に選択されなかった一致キーは追加できません。
 
 ![ 接続設定ワークスペースの「キーを一致」設定 ](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ ht-degree: 16%
 
 提案された接続設定に問題がない場合は、「**[!UICONTROL 確定]**」を選択して接続を確立します。 接続設定の変更を要求する場合は、「**[!UICONTROL 拒否]**」を選択します。 その後、共同作業者は接続設定を修正し、レビュー用に再送信できます。
 
+<!-- The end of the sections needing updates still. -->
+
 ## 接続の削除 {#delete-connections}
 
-引き続き使用しない、共同作業者との接続を削除できます。 既存の接続を削除するには、**[!UICONTROL 接続]** に移動します。 広告主は、次に移動する必要があります **[!UICONTROL マイコネクション]**。 接続カードで **[!UICONTROL 接続を表示]**」を選択して、削除する接続を開きます。
+引き続き使用しない、共同作業者との接続を削除できます。 既存の接続を削除するには、**[!UICONTROL 接続]** に移動します。 パブリッシャーには、既存の接続が表示されます。 広告主の場合は、「マイ連携 **[!UICONTROL に移動する必要があ]** ます。
+
+削除する接続カードで「**[!UICONTROL 接続を表示]**」を選択します。
 
 ![ マイ接続ビューでハイライト表示された「接続を表示」オプション ](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

@@ -2,9 +2,9 @@
 title: よくある質問
 description: Adobe Real-Time CDP Collaborationに関するよくある質問への回答を示します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
-source-git-commit: c61af18aafe1bcf7f59159cff6d765349e1ac7f9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -25,8 +25,8 @@ Real-Time CDP Collaborationにアクセスしようとすると、この画面�
 
 +++選択して回答を表示
 
-エンドユーザーの場合は、会社のシステム管理者または製品管理者に問い合わせる必要があります。
+エンドユーザーの場合は、組織のシステム管理者または製品管理者に問い合わせる必要があります。
 
-システム管理者または製品管理者の場合は、権限ガイドを参照して、Real-Time CDP Collaborationを使用する適切な権限を自分自身や同僚に付与する方法を確認してください。 [ アクセス制御の概要 ](/help/guide/permissions/overview.md) から始めます。
+システム管理者または製品管理者の場合は、権限ガイドを参照して、Collaborationを使用する適切な権限を自分自身や同僚に付与する方法を確認してください。 詳しくは、アクセス制御の概要 [ を参照してください ](/help/guide/permissions/overview.md)。
 
 +++

@@ -2,9 +2,9 @@
 user-guide-title: Real-Time Customer Data PlatformCollaboration
 breadcrumb-title: Real-Time Customer Data PlatformCollaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを使用すると、広告主とパブリッシャーの間でシームレスで安全なデータ共有および共同作業が可能になり、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略が促進されます。
-source-git-commit: 98d70b0069a8bc9e5d032fd2dd090afa5010ea2a
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 22%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 22%
 * [オンボーディングのクイックスタート](./quick-start-guide.md)
 * 設定 {#setup}
    * [「設定」セクションの概要](./setup/setup-overview.md)
-   * [組織のオンボードと管理](./setup/onboard-organization.md)
-   * [オーディエンスのインポートと管理](./setup/onboard-audiences.md)
+   * [アカウントのオンボードと管理](./setup/onboard-account.md)
+   * [Sourceとオーディエンスの管理](./setup/onboard-audiences.md)
    * [データ接続を管理](./setup/manage-data-connection.md)
    * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)

@@ -2,11 +2,11 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platformを宛先として設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: b79fad9257cfe2aafd27b81346ca45a00fcfdf76
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '877'
 ht-degree: 11%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->現在、Real-Time CDP Collaborationの宛先を設定できるのはパブリッシャーのみです。
+>現在、Adobe Real-Time CDP Collaborationの宛先を設定できるのはパブリッシャーのみです。
 
 ## 宛先の設定 {#configure-destination}
 
@@ -40,9 +40,9 @@ Adobe Experience Platformを宛先として設定するには、**[!UICONTROL �
 
 まず、オーディエンスデータを送信するサンドボックスを選択する必要があります。
 
+>[!IMPORTANT]
 >
->
->ユーザーがアクセスできるサンドボックスのみを選択できます。 デフォルトでは、すべてのReal-Time CDP Collaboration ユーザーが **Prod** サンドボックスにアクセスできます。 追加のサンドボックスにアクセスできるようにするには、管理者がユーザーに割り当てられた役割に追加のサンドボックスを追加する必要があります。 役割の管理について詳しくは、[ 役割の管理 ](../permissions/manage-roles.md) ガイドを参照してください。
+>ユーザーがアクセスできるサンドボックスのみを選択できます。 デフォルトでは、すべてのCollaboration ユーザーが **Prod** サンドボックスにアクセスできます。 追加のサンドボックスにアクセスできるようにするには、管理者がユーザーに割り当てられた役割に追加のサンドボックスを追加する必要があります。 役割の管理について詳しくは、[ 役割の管理 ](../permissions/manage-roles.md) ガイドを参照してください。
 
 「**[!UICONTROL サンドボックスを設定]**」セクションで、「**[!UICONTROL サンドボックス]**」ドロップダウンを選択するか、サンドボックスの名前を入力します。
 
@@ -66,9 +66,9 @@ Adobe Experience Platformを宛先として設定するには、**[!UICONTROL �
 >title="ターゲット名前空間"
 >abstract="ターゲット名前空間は、一致キーが Adobe Experience Platform でマッピングされる ID 名前空間を指定します。ハッシュ化された一致キーは、ハッシュ化された値をサポートするターゲット名前空間にマッピングする必要があります。"
 
-次に、アクティベーションマッピングを作成して、オーディエンスデータをAdobe Experience Platformに送信する方法を定義する必要があります。 組織の作成時に選択した各 [ 一致するキー ](../setup/onboard-organization.md#set-up-match-keys) をターゲット名前空間にマッピングできます。 Target 名前空間は、Adobe Experience Platformで一致キーのマッピング先となる [ID 名前空間 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} を指定します。
+次に、アクティベーションマッピングを作成して、オーディエンスデータをAdobe Experience Platformに送信する方法を定義する必要があります。 組織の作成時に選択した各 [ 一致するキー ](../setup/onboard-account.md#set-up-match-keys) をターゲット名前空間にマッピングできます。 Target 名前空間は、Adobe Experience Platformで一致キーのマッピング先となる [ID 名前空間 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} を指定します。
 
->
+>[!IMPORTANT]
 >
 >ハッシュ化された一致キーは、ハッシュ化された値をサポートするターゲット名前空間にマッピングする必要があります。 例えば、**[!UICONTROL ハッシュ化されたメール]** 一致キーは、Adobe Experience Platformの **[!UICONTROL メール（SHA256、小文字）]** ID 名前空間にマッピングする必要があります。 **[!UICONTROL ハッシュ化されたメール]** 一致キーを **[!UICONTROL メール]** ID 名前空間にマッピングすることはできません。この名前空間は、ハッシュ化された値をサポートしていないからです。
 
@@ -84,7 +84,7 @@ Adobe Experience Platformを宛先として設定したら、プロジェクト�
 
 >[!IMPORTANT]
 >
->共同作業者がオーディエンスをアクティベートするには、Adobe Experience Platformを宛先として設定する **&#x200B;**&#x200B;必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Adobe Experience Platformにはアクティベートされません。
+>共同作業者がオーディエンスをアクティベートするには、Adobe Experience Platformを宛先として設定する **** 必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Adobe Experience Platformにはアクティベートされません。
 
 オーディエンスがアクティブ化されると、Real-Time CDP Collaborationをオリジンとして、Experience Platformの [ オーディエンスポータル ](#audience-portal) で使用できるようになります。  これらのオーディエンスは、キャンペーンや顧客エンゲージメントで使用できます。
 
@@ -98,4 +98,4 @@ Adobe Experience Platformを宛先として設定したら、プロジェクト�
 
 ![ フィルターオプションでReal-Time CDP Collaborationをオリジンとして使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
