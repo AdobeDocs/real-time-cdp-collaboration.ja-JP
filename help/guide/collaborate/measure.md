@@ -2,12 +2,12 @@
 title: パフォーマンスの測定
 description: 様々なチャネルでのキャンペーンのパフォーマンスを測定します。 様々なレポートの使用方法と解釈方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Real-Time CDP Collaborationで使用可能なレポートについて説�
 
 Collaborationの測定レポートにアクセスする前に、次の操作を完了しています。
 
-* [ 測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして、**プロジェクトとの共同作業を開始した** Connected[ を目的の広告主またはパブリッシャーと連携 ](/help/guide/collaborate/manage-projects.md)
+* [ 測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして **プロジェクト** の共同作業を開始した共同作業者と [ 連携 ](/help/guide/collaborate/manage-projects.md)
 * キャンペーンを実行し [ アップロードされた測定データ ](/help/guide/setup/onboard-measurement-data.md) をCollaborationに送信します。
 
 <!--
@@ -104,9 +104,3 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 クリエイティブのインプレッションを促進しているメディアを理解します。 これは、今後のキャンペーンで広告費用をどこに投資するかを決定するのに役立ちます。
 
 ![ プレースメントによるインプレッション数 ](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## 次の手順
-
-![ 広告主を検出、アクティブ化、測定します。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-上の画像の循環性の精神に従って、レポートの表示から得たインサイトを次のキャンペーンの計画に使用します。 必要に応じて、広告主は前に戻って様々なパブリッシャーを検出し、重複を実行して次のキャンペーン用に異なるオーディエンスを検出します。

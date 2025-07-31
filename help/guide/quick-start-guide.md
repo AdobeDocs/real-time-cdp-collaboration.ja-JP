@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration クイックスタートガイド
-description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、広告主とパブリッシャーが共同作業の設定を行い、共有オーディエンスを安全かつ効率的に使用し始めるのに役立ちます。
+description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、共同作業者がオーディエンスを安全かつ効率的に使用し始めるために接続設定を設定するのに役立ちます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration クイックスタートガイド
 
-
+{{limited-availability-release-note}}
 
 Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オーディエンスをソーシングし、プライバシーに焦点を当てたアクティベーションと測定を有効にします。
 
@@ -31,10 +31,6 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 ## 手順 1：役割ベースの設定の完了 {#complete-role-based-setup}
 
->[!NOTE]
->
->この手順は、広告主とパブリッシャーの両方に適用されます。
-
 組織のアクセス権限によって、Collaborationでユーザーが表示および実行できる操作が決まります。 先に進む前に、プラットフォームでの適切なアクセスと表示を確保するために、役割ベースの権限が正しく設定されていることを確認してください。
 
 **リソース：**
@@ -45,13 +41,9 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 Admin ConsoleとExperience Platformを使用して、Collaborationの製品アクセスと権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順 2:Collaboration アカウントの設定 {#set-up-your-account}
-
->[!NOTE]
->
->この手順は、広告主とパブリッシャーの両方に適用されます。
 
 オーディエンスをソーシングする前に、Collaborationでアカウントを設定する必要があります。 これは、インターフェイスでの表示方法とアクセス権の内容を管理します。
 
@@ -63,7 +55,7 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 >
 >セットアップ中に 1 つ以上のアカウント（広告主や公開者など）を作成できます。 ブランディングアセットや連絡先のメールなど、特定のフィールドは、後で **[!UICONTROL 設定]** ワークスペースで更新できます。
 
-- **役割を割り当て** - アカウントが広告主かパブリッシャーかを決定します。 自分の役割によって、Collaborationに含める機能が定義されます。 役割がコラボレーションワークフローに与える影響について詳しくは、[ エンドツーエンドのワークフローガイド ](./end-to-end-workflow.md) を参照してください。
+- **役割を割り当て** - アカウントが広告主かパブリッシャーかを決定します。 自分の役割によって、Collaborationに含める機能が定義されます。 役割がコラボレーションワークフローに与える影響について詳しくは、[roles](./overview/roles.md) ガイドを参照してください。
 - **ブランディングアセット** - アカウントに以下を追加します。
    - アカウント名（最大 100 文字）
    - 説明（最大 1,000 文字）
@@ -125,7 +117,7 @@ Collaborationを使用してオーディエンスをソース化する方法の�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Collaborationでのオーディエンスのソーシング ](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences) のドキュメントを参照してください。
+または、[Collaborationでのオーディエンスのソーシング ](./setup/onboard-audiences.md#source-and-manage-audiences) のドキュメントを参照してください。
 
 ### オプション B:SnowflakeのSourceまたはAmazon S3
 
@@ -138,10 +130,6 @@ Collaborationを使用してオーディエンスをソース化する方法の�
 >アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 [ オーディエンス表示設定 ](/help/guide/setup/onboard-audiences.md#metadata-visibility) は、共同作業者がオーディエンスを表示できるかどうかを決定し、Collaboration UI を使用して管理されます。
 
 ## 手順 4：オーディエンスをアクティブ化（Experience Platformまたはクラウドの宛先に対して） {#activate-audiences}
-
->[!NOTE]
->
->この手順は、広告主とパブリッシャーの両方に適用されます。
 
 次に、Experience Platform インスタンスまたはクラウドの宛先に対してオーディエンスをアクティブ化します。
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定が完了したので、組織は招待を送信または受け入れ、承認のためにプロジェクト設定を送信することで、共同作業者と接続する準備が整いました。 この接続プロセスには、招待状の送信または受信、接続設定（ユースケースやクレジット消費など）の確認と送信、接続の確認が含まれます。
 
-広告主は、左側のナビゲーションメニューの **[!UICONTROL 接続]** ワークスペースを使用して、使用可能な公開者を参照します。
+広告主は、左側のナビゲーションメニューの **[!UICONTROL 接続]** ワークスペースを使用して、使用可能な公開者を参照します。 または、共同作業者は、[ プライベート接続の招待状 ](./connect/establishing-connections.md#private-connection-invite){target="_blank"} を介して直接相互に接続できます。
 
 >[!NOTE]
 >
 >現在、パブリッシャーを参照できるのは広告主のみです。 パブリッシャーは、広告主との接続を参照または開始できません。
 
-このフローの概要については、[ 広告主またはパブリッシャーとの接続ガイド ](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[ 広告主アカウントの設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
+このフローの概要については、[ 接続の確立ガイド ](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[ 広告主アカウントの設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
 
 ## 次の手順
 

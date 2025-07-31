@@ -2,11 +2,11 @@
 title: パブリッシャーを検出
 description: 広告主として、Adobe Real-Time CDP Collaborationを使用して共同作業を行う潜在的なパブリッシャーを見つける方法を説明します
 audience: admin, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 Adobe Real-Time CDP Collaborationの潜在的なパブリッシャーを見つけて接続します。 このガイドでは、理想的な共同作業者を特定し、そのオーディエンスを使用してマーケティングキャンペーンを強化する方法に関するインサイトを提供します。
+
+>[!NOTE]
+>
+>現在、**[!UICONTROL パブリッシャーの検出]** ワークスペースは、広告主のみが使用できます。
 
 パブリッシャーを検出するには、**[!UICONTROL Connect]** > **[!UICONTROL パブリッシャーの検出]** タブに移動します。
 

@@ -2,11 +2,11 @@
 title: 宛先の設定と管理
 description: Real-Time CDP Collaborationの宛先を設定および管理する方法について説明します。
 audience: admin, publisher
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 宛先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合です。 これらの統合により、キャンペーンや顧客エンゲージメントで使用するために、様々なマーケティングチャネルやプラットフォームにわたってオーディエンスをアクティブ化できます。
 
-現在、宛先を使用できるのはReal-Time CDP Collaborationのパブリッシャーのみです。 パブリッシャーは、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に対してアクティブ化するように、宛先を設定できます。 次に、広告主は [ プロジェクト内のオーディエンスを送信 ](../collaborate/activate.md) し、パブリッシャーが設定した宛先に送信できます。
+共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [ プロジェクト内のオーディエンスをアクティブ化 ](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
 
 ![ アクティブなAdobe Experience Platformの宛先を表示する、設定ワークスペースの「マイ宛先」タブ ](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 宛先の削除 {#delete-destinations}
 
-宛先を削除すると、組織から宛先が削除され、以前に送信されたオーディエンスが宛先から削除され、今後その宛先に送信されるオーディエンスが防止されます。
+宛先を削除すると、アカウントから宛先が削除され、以前に送信されたオーディエンスが宛先から削除され、今後その宛先に送信されるオーディエンスが防止されます。
 
 宛先を削除するには、「設定 **[!UICONTROL セクションの「]** 宛先 **[!UICONTROL タブに移動]** ます。 削除する宛先の **[!UICONTROL 削除]** オプションを選択します。
 
@@ -53,4 +53,4 @@ ht-degree: 1%
 
 ## 次の手順
 
-宛先を設定したら、広告主と共同作業を開始して、プロジェクト内で [ ターゲットオーディエンスをアクティブ化 ](../collaborate/activate.md) できます。
+宛先を設定したら、接続内で共同作業を開始し、プロジェクト内で [ ターゲットオーディエンスをアクティブ化 ](../collaborate/activate.md) できます。

@@ -2,11 +2,11 @@
 title: ID クロスウォーク
 description: 様々なソースから ID クロスウォークを取り込む方法や ID クロスウォークを管理する方法など、Real-Time CDP Collaborationの ID クロスウォークについてのすべてを説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 様々なソースから ID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP Collaborationの ID クロスウォークについてすべてを説明します。
 
 ID クロスウォークは、複数のデータセットやプラットフォーム間で、顧客 ID の安全でプライバシーに準拠したリンクを容易にします。 Real-Time CDP Collaborationでは、ハッシュ化された識別子を使用することで、個人情報（PII）を公開せずに ID の同期と紐付けを行うことができます。 これにより、顧客の統一されたビューが可能になり、共同作業の質が向上し、ターゲットを絞ったマーケティング活動が可能になります。
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 まず、ID クロスウォークをReal-Time CDP Collaborationに読み込む必要があります。 ID クロスウォークをReal-Time CDP Collaborationに読み込むには、以下の節を参照してください。
 
@@ -46,7 +41,7 @@ ID クロスウォークを読み込むソースを選択してください。 R
 >
 >Platform から読み込むクロスウォークは、Experience Platformでは *データセット* と呼ばれます。
 
-Experience Platformをクロスウォークのソースとして選択した後、ID クロスウォークを読み込む [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)0&rbrace;Experience Platform サンドボックス &rbrace; を選択します。
+Experience Platformをクロスウォークのソースとして選択した後、ID クロスウォークを読み込む [0}Experience Platform サンドボックス } を選択します。](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
 
 ![ 横断歩道等の採択方法の記録 ](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 

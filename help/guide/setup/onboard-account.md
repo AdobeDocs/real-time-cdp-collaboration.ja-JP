@@ -2,11 +2,11 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 18%
 
 ---
@@ -39,13 +39,11 @@ ht-degree: 18%
 >title="接続コード"
 >abstract="接続コードは、アカウントの一意の ID です。これを使用すると、Real-Time CDP Collaboration で他の共同作業者との接続を確立できます。"
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 アカウントの設定を開始するには、まずアカウントの詳細を設定する必要があります。 これには、次の情報を追加する必要があります。
 
 * ブランドを明確に表す **[!UICONTROL アカウント名]** を追加します。
 * ブランドについて **[!UICONTROL 説明]** を追加します。 これはオプションですが、他の共同作業者がブランドをより深く理解するのに役立ちます。
-* **[!UICONTROL 役割]** を選択します。 **[!UICONTROL 広告主]** と **[!UICONTROL 公開者]** の中から選択できます。 2 つの組織の役割タイプのワークフローの類似点とわずかな違いについて詳しくは、[ エンドツーエンドのワークフロードキュメント ](/help/guide/end-to-end-workflow.md) を参照してください。
+* **[!UICONTROL 役割]** を選択します。 **[!UICONTROL 広告主]** と **[!UICONTROL 公開者]** の中から選択できます。 2 つのアカウントロールタイプのワークフローの類似点とわずかな違いについては、[roles](/help/guide/overview/roles.md) ガイドを参照してください。
 <!-- The above will need to be updated when I update things for B2B -->
 * アカウントの **[!UICONTROL 業界]** を選択します。 例として、**[!UICONTROL 小売]**、**[!UICONTROL 電気通信]**、または **[!UICONTROL 金融サービス]** があります。
 * **[!UICONTROL 地域]** は、Adobe Experience Cloud アカウントに基づいて自動的に設定されます。 これはいつでも変更できません。
@@ -111,7 +109,7 @@ ht-degree: 18%
 
 ## アカウントを編集 {#edit-account}
 
-アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで **&#x200B; 編集** を選択します。
+アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで ** 編集** を選択します。
 
 ![ 「マイアカウント」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 

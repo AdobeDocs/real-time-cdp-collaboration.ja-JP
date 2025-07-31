@@ -2,11 +2,11 @@
 title: 権限を使用した役割の管理
 description: Real-Time CDP Collaboration UI 内の様々なコンポーネントへのアクセスを提供する、使用可能なすべてのロールリソースを理解します。
 audience: admin
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration UI の様々なコンポーネントへのユーザーアクセスを管理するには、[ 管理者 ](./manage-user-access.md#system-admin-gain-access) が役割を定義して割り当てることができます。 役割は、管理者またはユーザーが組織内で [ リソース ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#permissions){target="_blank"} に持つアクセスを定義します。 このガイドでは、Real-Time CDP Collaborationで提供される標準のロールに関する情報と、カスタムロールに割り当てることができる個々の権限に関する情報を提供します。
+Adobe Real-Time CDP Collaboration UI の様々なコンポーネントへのユーザーアクセスを管理するには、[ 管理者 ](./manage-user-access.md#system-admin-gain-access) が役割を定義して割り当てることができます。 役割は、管理者またはユーザーが組織内で [ リソース ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} に持つアクセスを定義します。 このガイドでは、Real-Time CDP Collaborationで提供される標準のロールに関する情報と、カスタムロールに割り当てることができる個々の権限に関する情報を提供します。
 
 ロールの管理を開始するには、管理者がExperience Platform製品にアクセスできる必要があります。 管理者アクセス権またはExperience Platformへのアクセス権の取得について詳しくは、[ ユーザーアクセスの管理 ](./manage-user-access.md#manage-user-access-through-permissions) ガイドを参照してください。
 
@@ -32,7 +32,7 @@ Adobe Real-Time CDP Collaboration UI の様々なコンポーネントへのユ�
 
 ## 特定のアクセス役割の作成 {#specific-access-roles}
 
-追加の役割を作成して、様々なユーザーに様々なレベルのアクセスを提供する必要が生じる場合があります。 役割を作成する際は、**[!UICONTROL 共同作業]** リソース内で特定の権限を選択することで、様々なアクセスレベルを管理できます。 役割の作成および管理方法については、[roles](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"} ガイドを参照してください。
+追加の役割を作成して、様々なユーザーに様々なレベルのアクセスを提供する必要が生じる場合があります。 役割を作成する際は、**[!UICONTROL 共同作業]** リソース内で特定の権限を選択することで、様々なアクセスレベルを管理できます。 役割の作成および管理方法については、[roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"} ガイドを参照してください。
 
 >[!NOTE]
 > Collaborationにアクセスするには、Adobe Experience Platformの **[!UICONTROL Prod]** サンドボックスへのアクセス権が必要です。 このサンドボックスへのアクセス権をユーザーに付与するには、「サンドボックス **[!UICONTROL リソースの]** Prod **[!UICONTROL 権限を含む役割にユーザーを割り当てる必要が]** ります。
@@ -45,7 +45,7 @@ Collaborations リソース内で使用可能な権限のリストを以下に�
 | Collaboration インスタンスの読み取り | 組織のコラボレーションインスタンスを読み取り、他の組織のコラボレーションインスタンスを検出します。 |
 | 接続招待の管理 | 組織が開始した接続招待を表示、作成および削除します。 他の組織によって開始された接続招待を承認または拒否します。 |
 | 接続招待を読み取る | 接続の招待を表示します。 |
-| Collaboration接続の管理 | 広告主は、設定の表示、作成、更新のほか、接続の送信と削除を行うことができます。 パブリッシャーは、接続を表示、許可、拒否できます。 |
+| Collaboration接続の管理 | 共同作業者は、設定の表示、作成、更新のほか、接続の送信および削除を行うことができます。 |
 | Collaboration連携の読み取り | 接続を表示します。 |
 | オーディエンスデータの管理 | オーディエンスのオンボーディングと検出。 パブリック、プライベートおよびカスタムオーディエンスを更新し、オーディエンスインベントリメタデータ設定を管理します。 |
 | オーディエンスデータの読み取り | オーディエンスの読み取り、検出。 |
@@ -61,4 +61,4 @@ Collaborations リソース内で使用可能な権限のリストを以下に�
 
 ## 次の手順
 
-Collaborationへのアクセスを定義する役割を作成したら、管理者とユーザーに [ 役割を割り当て ](./manage-user-access.md#assign-a-role) 必要があります。 役割の管理の概要については、[ 役割の権限の管理 ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイドを参照してください。
+Collaborationへのアクセスを定義する役割を作成したら、管理者とユーザーに [ 役割を割り当て ](./manage-user-access.md#assign-a-role) 必要があります。 役割の管理の概要については、[ 役割の権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイドを参照してください。

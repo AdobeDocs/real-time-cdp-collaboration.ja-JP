@@ -2,11 +2,11 @@
 title: 注釈の概要
 description: Real-Time CDP Collaborationの宛先について説明します。
 audience: admin, publisher
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 宛先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合です。 これらの統合により、キャンペーンや顧客エンゲージメントで使用するために、様々なマーケティングチャネルやプラットフォームにわたってオーディエンスをアクティブ化できます。
 
-現在、宛先を使用できるのはAdobe Real-Time CDP Collaborationのパブリッシャーのみです。 パブリッシャーは、キャンペーンで使用するオーディエンスをAdobe Experience Platformなどの外部プラットフォームに送信する宛先を設定できます。 次に、広告主は [ プロジェクト内のオーディエンスをアクティブ化 ](../collaborate/activate.md) し、パブリッシャーが設定した宛先に送信できます。
+共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [ プロジェクト内のオーディエンスをアクティブ化 ](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
 
 >[!IMPORTANT]
 >
->現在、広告主がプロジェクト内でオーディエンスをアクティブ化すると、パブリッシャーが設定した宛先に自動的に送信されます。 パブリッシャーは、共同作業者がオーディエンスをアクティベートする **前に** 宛先を設定する *必要* があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、アクティベートされません。
+>現在、共同作業者がプロジェクト内のオーディエンスをアクティブ化すると、接続の設定された宛先に自動的に送信されます。 共同作業者がプロジェクト内のオーディエンスをアクティブ化する前に、宛先を設定する **必要があります**。
 
 ## 宛先の設定 {#configure-destinations}
 

@@ -2,9 +2,9 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 >
 >**[!UICONTROL 検出]** ワークスペースは、**オーディエンス検出** ユースケースが [ 接続処理中に ](../connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
-[ プロジェクトの作成 ](/help/guide/collaborate/manage-projects.md) 後、オーディエンスを共同作業者と比較できます。 これは、キャンペーンに関連するオーディエンスを特定し、アクティベーション用にパブリッシャーに送信するオーディエンスを決定するのに役立ちます。
+[ プロジェクトの作成 ](/help/guide/collaborate/manage-projects.md) 後、オーディエンスを共同作業者と比較できます。 これは、キャンペーンに関連するオーディエンスを特定し、アクティベーション用に共同作業者に送信するオーディエンスを決定するのに役立ちます。
 
 >[!IMPORTANT]
 >
