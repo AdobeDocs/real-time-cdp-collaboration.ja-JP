@@ -2,12 +2,12 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="連絡先メール"
->abstract="チームまたは役割ベースの電子メール （**collaboration@yourcompany.com** など）を指定してください。 個人のメールアドレスは使用しないでください。"
+>abstract="チームまたは役割ベースのメール（**collaboration@yourcompany.com** など）を指定してください。個人のメールアドレスは使用しないでください。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="接続コード"
->abstract="接続コードは、アカウントの一意の ID です。 Real-Time CDP Collaboration内の他の共同作業者との接続を確立するために使用します。"
+>abstract="接続コードは、アカウントの一意の ID です。これを使用すると、Real-Time CDP Collaboration で他の共同作業者との接続を確立できます。"
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 
@@ -64,7 +64,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
->abstract="一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。ブランドが使用できる一致キーを含めます。"
+>abstract="一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。ブランドで使用できる一致キーを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
@@ -111,7 +111,7 @@ ht-degree: 13%
 
 ## アカウントを編集 {#edit-account}
 
-アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで **&#x200B; 編集** を選択します。
+アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで ** 編集** を選択します。
 
 ![ 「マイアカウント」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 

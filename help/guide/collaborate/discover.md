@@ -2,12 +2,12 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="関連するオーディエンス"
->abstract="これらのオーディエンスは重複率に基づいて、キャンペーンに適している場合があります。 <br><br> <b>ID 数 </b> は、共同作業者のオーディエンスサイズです。<br><br> <b> 重複する ID</b> は、推奨オーディエンスとすべてのオーディエンスの重複を表します。 <br><br> <b> 重複 %</b> は、重複する ID の数をオーディエンスの <i> すべて </i> サイズで割った値を表します。"
+>abstract="重複割合に基づくと、これらのオーディエンスがキャンペーンに適している可能性があります。<br><br><b>ID 数</b>は、共同作業者のオーディエンスサイズです。<br><br> <b>重複 ID</b> は、推奨されるオーディエンスとすべてのオーディエンス間の重複を表します。<br><br><b>重複％</b>は、重複 ID の数を<i>すべて</i>のオーディエンスのサイズで割った値を表します。"
 
 **[!UICONTROL 検出]** タブの **[!UICONTROL 関連オーディエンス]** セクションには、共同作業者のオーディエンスとすべてのオーディエンスの重複率に基づいて、上位 5 つのオーディエンスのキュレートされたリストが表示されます。 この機能を使用すると、重複度が最も高いオーディエンスをすばやく特定でき、キャンペーンをより効果的にターゲット設定できるようになります。 セクションの右上にあるページセレクターを使用して、関連するオーディエンスを切り替えます。
 
