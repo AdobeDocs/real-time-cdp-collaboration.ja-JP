@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL アクティブ化]** ワークスペースは、（接続プロセス中に **** Audience Activation[ ユースケースが有効になっている場合にのみ使用でき ](../connect/establishing-connections.md#connection-settings) す。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL アクティブ化]** ワークスペースは、（接続プロセス中に **&#x200B;**&#x200B;Audience Activation[ ユースケースが有効になっている場合にのみ使用でき ](../connect/establishing-connections.md#connection-settings) す。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Audience Activation を使用すると、キャンペーンで使用するオーディエンスをアクティブ化できます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。 [ キャンペーンに最適なオーディエンスを見つけた ](./discover.md) 後、オーディエンスをアクティブ化して使用可能にします。 オーディエンスをアクティブ化すると、そのオーディエンスは共同作業者の事前設定済みの宛先（Adobe Experience Platformなど）に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
 

@@ -41,7 +41,7 @@ ID クロスウォークを読み込むソースを選択してください。 R
 >
 >Platform から読み込むクロスウォークは、Experience Platformでは *データセット* と呼ばれます。
 
-Experience Platformをクロスウォークのソースとして選択した後、ID クロスウォークを読み込む [0}Experience Platform サンドボックス } を選択します。](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
+Experience Platformをクロスウォークのソースとして選択した後、ID クロスウォークを読み込む [0&rbrace;Experience Platform サンドボックス &rbrace; を選択します。](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
 
 ![ 横断歩道等の採択方法の記録 ](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
