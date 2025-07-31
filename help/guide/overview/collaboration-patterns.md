@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaborationの共同作業パターン。
 description: Adobe Real-Time CDP Collaborationの 2 つのコラボレーションパターンについて
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
 workflow-type: tm+mt
 source-wordcount: '287'
