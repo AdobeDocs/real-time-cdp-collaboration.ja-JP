@@ -2,9 +2,9 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ ht-degree: 7%
 広告主とパブリッシャーの間の接続を確立するには、次の手順が必要です。
 
 1. [ パブリッシャーの検出 ](#discover-publishers)：広告主は、共同作業を行う潜在的なパブリッシャーを特定します。
-2. [ 招待を送信 ](#send-invite)：広告主は、選択したパブリッシャーに接続招待を送信します。
-3. [ 招待を受け入れる ](#accept-invite)：パブリッシャーが招待をレビューし、承認します。
-4. [ 接続設定の指定 ](#configure-connection-settings)：広告主は接続設定を指定し、レビュー用にパブリッシャーに送信します。
-5. [ 接続設定の確認 ](#establish-connection)：パブリッシャーは接続設定を確認し、受け入れるか拒否します。 許可された場合、接続が確立されます。 拒否された場合、公開者は製品外のリビジョンに関するフィードバックを提供できます。 その後、広告主は設定を修正し、レビュー用に再送信できます。
+1. [ 招待を送信 ](#send-invite)：広告主は、選択したパブリッシャーに接続招待を送信します。
+1. [ 招待を受け入れる ](#accept-invite)：パブリッシャーが招待をレビューし、承認します。
+1. [ 接続設定の指定 ](#configure-connection-settings)：広告主は接続設定を指定し、レビュー用にパブリッシャーに送信します。
+1. [ 接続設定の確認 ](#establish-connection)：パブリッシャーは接続設定を確認し、受け入れるか拒否します。 許可された場合、接続が確立されます。 拒否された場合、公開者は製品外のリビジョンに関するフィードバックを提供できます。 その後、広告主は設定を修正し、レビュー用に再送信できます。
 
 接続設定を受け入れると、接続が確立され、共同作業者は [ プロジェクトを作成 ](/help/guide/collaborate/manage-projects.md#create-project) してキャンペーンでの共同作業を開始する準備が整います。
 
@@ -65,14 +65,14 @@ ht-degree: 7%
 2 つのブランド間の接続プロセスには、いくつかの手順が必要です。 接続プロセスを開始する前に、次の前提条件を満たす必要があります。
 
 1. 2 つのブランドが製品外でコミュニケーションを取り、潜在的な接続について話し合っています。
-2. Collaborationのブランド [ アカウントの作成 ](/help/guide/setup/onboard-account.md) をまだ行っていない場合は、適切なロールタイプ（広告主またはパブリッシャー）を必ず選択します。
+1. Collaborationのブランド [ アカウントの作成 ](/help/guide/setup/onboard-account.md) をまだ行っていない場合は、適切なロールタイプ（広告主またはパブリッシャー）を必ず選択します。
 
-前提条件が満たされたら、接続プロセスを開始できます。 次の手順でプロセスの概要を説明します。
+   前提条件が満たされたら、接続プロセスを開始できます。 次の手順でプロセスの概要を説明します。
 
 1. [ プライベート接続の招待を送信 ](#send-private-connection-invite):1 人の共同作業者が別の共同作業者にプライベート接続の招待を送信します。
-2. [ プライベート接続への招待を受け入れる ](#accept-private-connection-invite)：受信者がプライベート接続への招待を確認して承諾します。
-3. [ 接続設定の指定 ](#configure-connection-settings)：所有者が接続設定を指定し、レビューと承認を受けるために受信者に送信します。
-4. [ 接続設定の確認 ](#establish-connection)：受信者は接続設定を確認し、受け入れるか拒否します。
+1. [ プライベート接続への招待を受け入れる ](#accept-private-connection-invite)：受信者がプライベート接続への招待を確認して承諾します。
+1. [ 接続設定の指定 ](#configure-connection-settings)：所有者が接続設定を指定し、レビューと承認を受けるために受信者に送信します。
+1. [ 接続設定の確認 ](#establish-connection)：受信者は接続設定を確認し、受け入れるか拒否します。
 
 接続設定を受け入れると、接続が確立され、共同作業者は [ プロジェクトを作成 ](/help/guide/collaborate/manage-projects.md#create-project) してキャンペーンでの共同作業を開始する準備が整います。
 
@@ -310,8 +310,8 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 プロジェクトを作成する際には、接続時に設定された以下の設定に基づいて広告主名が事前入力されます    :
 
 1. **広告主名を設定しない**：広告主名を追加しない場合、Collaborationではデフォルトで広告主名が使用されます。
-2. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
-3. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
+1. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
+1. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
 
 >[!NOTE]
 >
