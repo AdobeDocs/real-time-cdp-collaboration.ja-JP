@@ -1,12 +1,12 @@
 ---
 title: エンドツーエンドのワークフロー
-description: 広告主またはパブリッシャーとしてReal-Time CDP Collaborationを使用するエンドツーエンドのワークフローを理解する
+description: 共同作業パターンに基づいて、Real-Time CDP Collaborationのエンドツーエンドでの使用ワークフローを理解します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,48 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用すると、広告主やパブリッシャーは、プライバシーを中心とした方法でキャンペーンに関する共同作業を行うことができます。 このページでは、広告主やパブリッシャーとして製品を最大限に活用するワークフローについて説明します。
+Adobe Real-Time CDP Collaborationのエンドツーエンドワークフローは、選択した共同作業パターンによって異なります。 このワークフローでは、アカウントの作成とオーディエンスの取得から、接続の形成とプロジェクトの作成に至るまで、共同作業プロジェクトの設定と実行に関する手順の概要を説明します。 このワークフローを理解することは、マーケティング目標を達成するためにプラットフォームの機能を効果的に活用するために不可欠です。
 
-## 広告主のエンドツーエンドワークフロー {#advertiser}
+## はじめに
 
-広告主は、まずReal-Time CDP Collaborationに [ 会社をオンボーディング ](/help/guide/setup/onboard-account.md) します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、会社設定を送信して編集し、使用する優先一致キーを追加し、取り込むデータを決定します。 最初のリリースでは、Adobe Experience Platformのみから [ オーディエンスを読み込む ](/help/guide/setup/onboard-audiences.md) ことができます。
+開始する前に、次の主要な概念を十分に理解しておく必要があります。
 
-![ 広告主を検出、アクティブ化、測定します。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **Collaboration パターン**：これらのパターンは、共同作業者の共同作業の方法を定義します。 2 つの異なるパターン、[ 広告主から媒体社へ ](./collaboration-patterns.md#advertiser-to-publisher) と [ ブランドからブランドへ ](./collaboration-patterns.md#brand-to-brand) があります。
+- **アカウントロール**：アカウントロールは、プラットフォーム内の機能を決定します。 組織の目標、ブランド、目標に合わせる必要があります。 アカウントの役割には、[ 広告主 ](./roles.md#advertiser) と [ 発行者 ](./roles.md#publisher) の 2 つがあります。
+- **ユースケース**：ユースケースでは、Collaborationを活用してマーケティング目標を達成する方法を定義します。 コラボレーションの使用例には、[Discover](./use-cases.md#discover)、[Activate](./use-cases.md#activate)、および [Measure](./use-cases.md#measure) の 3 つがあります。
 
-[ 検出タブを使用して、キャンペーンで使用するパブリッシャーを検索 ](/help/guide/connect/discover-publishers.md) します。 パブリッシャーに問い合わせて、製品外のコラボレーション用語について話し合います。 条件のセットに同意したら、[ 接続の招待を送信 ](/help/guide/connect/establishing-connections.md) し、パブリッシャーと接続するためのコラボレーション設定を提案できます。
+このガイドでは、3 つのモック共同作業者を使用して、エンドツーエンドのワークフローを説明します。
 
-パブリッシャーが接続リクエストを受け入れたら、組織と組織の間で重複するオーディエンスを調査する時間です。 キャンペーンのプロジェクトを設定し [ 重複レポートを実行 ](/help/guide/collaborate/discover.md)、コラボレーションのユースケース（ターゲティング、抑制など）に応じて、次の広告キャンペーンに最適なオーディエンスを見つけます。
+- **[!UICONTROL Luma]**：アスレチックアパレルブランド。 ターゲットマーケティングキャンペーンを通じて特定のオーディエンスにリーチしたいと考えている広告主です。
+- **[!UICONTROL TV Tube]**：デジタルストリーミングプロバイダー。 広告主が使用するオーディエンスデータを提供するパブリッシャーです。
+- **[!UICONTROL フィットアパレル]**：別のアスレチックアパレルブランド。 同社は、マーケティング活動を強化するためにオーディエンスデータとインサイトを共有するために共同作業を行う 2 番目の広告主です。
 
-理想的なオーディエンスを見つけたら、次は [ アクティブ化 ](/help/guide/collaborate/activate.md) します。
+## 広告主からパブリッシャーへのワークフロー {#advertiser-to-publisher-workflow}
 
-コラボレーションループの最後のステップは [ 測定 ](/help/guide/collaborate/measure.md) です。 ビジネス結果を測定したり、把握したりするには、広告ログなどの測定データをアップロードし、プログラムに用意されているレポートを実行して、オーディエンスのパフォーマンスを把握します。
+スポーツ小売会社の [!UICONTROL Luma] は、ターゲットマーケティングキャンペーンを通じて特定のオーディエンスにリーチするために、デジタルストリーミングプロバイダーの [!UICONTROL TV Tube] との接続を確立したいと考えています。
 
-## パブリッシャーのエンドツーエンドワークフロー {#publisher}
+まず、[!UICONTROL Luma] は広告主の役割を持つ [ アカウントを作成 ](../setup/onboard-account.md) する必要がありますが、[!UICONTROL TV Tube] は発行者の役割を持つアカウントを作成します。
 
-パブリッシャーとして、まず [ 会社のオンボーディング ](/help/guide/setup/onboard-account.md) をReal-Time CDP Collaborationに配置します。 [ 設定ページ ](/help/guide/setup/setup-overview.md) を使用して、様々なカンパニー設定を編集します。
+アカウントを確立したら、[!UICONTROL Luma] と [!UICONTROL TV Tube] の両方で [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) が必要です。 マーケティングキャンペーンのオーディエンスをアクティブ化するのは [!UICONTROL TV Tube] のみなので、[ 宛先の設定 ](../setup/manage-destinations.md) が必要です。
 
-読み込むオーディエンスデータと、製品の **[!UICONTROL 接続]** エリアで接続を検討している広告主に対して検出可能および表示可能にするオーディエンスを決定します。
+両方の共同作業者がアカウントを設定すると、プラットフォーム内で [ 接続を作成 ](../connect/establishing-connections.md) する準備が整います。 [!UICONTROL Luma] は、[ パブリッシャーの検出 ](../connect/discover-publishers.md) 機能を使用して [!UICONTROL TV チューブ ] を検索し、接続要求を開始します。 [!UICONTROL TV Tube] が接続リクエストを受け入れると、[!UICONTROL Luma] が接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL TV Tube] は、2 つのブランド間に安全なリンクを確立するための接続要求を受け入れます。
 
-オーディエンスをReal-Time CDP Collaborationに読み込む場合は、オーディエンスにタグ付けおよび分類を行ってください。 Real-Time CDP Collaborationは、オーディエンスの分類については、確立された [IAB 分類 ](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} に従います。
+接続が確立されると、[!UICONTROL Luma] は [TV Tube](../collaborate/manage-projects.md) との共同作業を開始するために [!UICONTROL  プロジェクトを作成 ] します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
 
-連携する広告主を決定し、広告主に連絡して製品外の協力条件について話し合います。 条件のセットに同意したら、広告主が正式な接続の招待を延長してあなたと接続するのを待ちます。 通常、キャンペーンでの共同作業を検討している広告主ブランドからの、保留中の接続リクエストも監視する必要があります。 共同作業者の候補によって提案された接続設定を確認し、共同作業を開始する前に同意または修正します。
+[!UICONTROL Luma] は、[Discover](../collaborate/discover.md) のユースケースを活用して、[!UICONTROL TV Tube] のオーディエンスデータに関するインサイトを得ます。 [!UICONTROL Luma] がターゲットオーディエンスセグメントを識別したら、これらのオーディエンスは [ アクティブ化 ](../collaborate/activate.md) されます。
 
-接続リクエストを承認したら、自分と共同作業者の間で重複するオーディエンスを調査する時間です。 広告主は、キャンペーンのプロジェクトを設定し、オーディエンスの目的（予測、抑制など）に基づいて、オーディエンスとユーザーのオーディエンスの間で重複レポートを実行します。
+オーディエンスをアクティブ化した後、[!UICONTROL TV Tube] はターゲットを絞ったマーケティングキャンペーンを実行し、結果を [ 測定 ](../collaborate/measure.md) にアップロードして、キャンペーンの有効性を評価します。
 
-広告主がキャンペーンのターゲットにすべき理想的なオーディエンスを見つけて、それらを送信したら、それらをアクティブ化してキャンペーンを開始できます。
+## ブランド間ワークフロー {#brand-to-brand-workflow}
 
-コラボレーションループの最後のステップは測定です。 キャンペーンの最後の手順として、広告ログなどの測定データをアップロードし、プログラムに表示されるレポートを実行してオーディエンスのパフォーマンスを把握することで、キャンペーンがどのように行われたかを把握します。
+アスレチックアパレルブランドの [!UICONTROL Fit Apparel] は、別のアスレチックアパレルブランドである [!UICONTROL Luma] と連携して、オーディエンスデータとインサイトを共有し、マーケティング活動を強化したいと考えています。
 
-## 次の手順
+アカウントを確立した後、[!UICONTROL  アパレルに適合 ] と [!UICONTROL Luma] の両方で [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) が必要になります。 [!UICONTROL  アパレルに適合 ] と [!UICONTROL Luma] の両方がマーケティングキャンペーンのオーディエンスをアクティブ化するので、両方とも [ 宛先を設定 ](../setup/manage-destinations.md) する必要があります。
 
-会社の役割に基づいたエンドツーエンドの高いワークフローを理解したら、製品でサポートされている [ サンプルユースケース ](/help/guide/overview/use-cases.md) をお読みください。
+オーディエンスをソーシングした後は、プラットフォーム内で [!UICONTROL  アパレルに適合 ] および [!UICONTROL Luma] [ 接続を形成 ](../connect/establishing-connections.md) し、オーディエンスデータを安全に共有します。 これを行うには、[ プライベート接続の招待 ](../connect/establishing-connections.md#private-connection-invite) 機能を利用する必要があります。 [!UICONTROL Luma] は接続コードを [!UICONTROL Fit Apparel] と共有し、そのコードを使用して接続リクエストを開始します。 [!UICONTROL Luma] が接続リクエストを受け入れると、[!UICONTROL Fit Apparel] が接続設定を設定し、共同作業の方法を定義します。 設定の [!UICONTROL  アパレルに合わせる ] は、両方の共同作業者がマーケティングキャンペーンのオーディエンスをアクティブ化できることを指定します。 接続を完了するために、[!UICONTROL Luma] は、2 つのブランド間に安全なリンクを確立するリクエストを受け入れます。
+
+接続が確立されると、[!UICONTROL  アパレルにフィット ][ プロジェクトを作成 ](../collaborate/manage-projects.md) して、[!UICONTROL Luma] とのコラボレーションを開始します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
+
+[!UICONTROL  アパレルにフィット ] と [!UICONTROL Luma] の両方が [ 検出 ](../collaborate/discover.md) のユースケースを使用して、お互いのオーディエンスデータに関するインサイトを得ることができます。 貴重なオーディエンスセグメントを特定したら、マーケティングキャンペーン用に選択したオーディエンスを [ アクティブ化 ](../collaborate/activate.md) します。
+
+最後に、キャンペーンを実行した後、両方のブランドが結果にデータをアップロードし [ 測定 ](../collaborate/measure.md)、共同作業の有効性を評価します。

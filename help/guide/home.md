@@ -2,11 +2,11 @@
 title: 概要
 description: Adobe Real-Time Customer Data Platform（CDP）Collaborationを使用して、サードパーティの Cookie に依存せずに高価値オーディエンスを検出、アクティブ化および測定する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,11 @@ Adobe Real-Time CDP Collaborationを使用すると、サードパーティ cook
 
 Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target="_blank"} ガイドを参照してください。
 
-アクセス権を取得したら、アカウントを設定し、オーディエンスのソーシングへのデータ接続を作成する準備が整います。 開始するには、[ 広告主とパブリッシャーのエンドツーエンドワークフロー ](/help/guide/overview/end-to-end-workflow.md) を参照してください。
+アクセス権を取得したら、アカウントを設定し、オーディエンスのソーシングへのデータ接続を作成する準備が整います。 開始するには、[ エンドツーエンドのワークフロー ](/help/guide/overview/end-to-end-workflow.md) を参照してください。
 
 ## リソース
 
-製品で使用されている用語について詳しくは、[ 用語集 ](/help/guide/glossary.md) を参照してください。 サポートについては、Adobe[ カスタマーサポート ](https://experienceleague.adobe.com/home?lang=ja&support-tab=open-ticket#support){target="_blank"} ページを参照してください。
+製品で使用されている用語について詳しくは、[ 用語集 ](/help/guide/glossary.md) を参照してください。 サポートについては、Adobe[ カスタマーサポート ](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページを参照してください。
 
 ## お問い合わせ
 
