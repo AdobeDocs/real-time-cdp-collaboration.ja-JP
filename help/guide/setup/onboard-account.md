@@ -2,7 +2,7 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -66,7 +66,7 @@ ht-degree: 18%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ファーストパーティ人物 ID"
+>title="ファーストパーティユーザー ID"
 >abstract="ハッシュ化されたメールアドレスや電話番号などのファーストパーティ人物 ID は、個々のプロファイルに直接接続されます。現在サポートされている ID は、ハッシュ化されたメールと電話番号です。"
 
 >[!CONTEXTUALHELP]
@@ -95,7 +95,7 @@ ht-degree: 18%
 
 使用できる一致キーには 3 つのタイプがあります。
 
-* ファーストパーティ人物 ID
+* ファーストパーティユーザー ID
 * ファーストパーティデバイス ID
 * パートナー ID
 
@@ -109,7 +109,7 @@ ht-degree: 18%
 
 ## アカウントを編集 {#edit-account}
 
-アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで **&#x200B; 編集** を選択します。
+アカウントを設定した後、いつでもアカウントの特定の側面や詳細を編集します。 **[!UICONTROL アカウントを編集するには、「設定]** ワークスペースの **[!UICONTROL マイアカウント]** セクションで ** 編集** を選択します。
 
 ![ 「マイアカウント」タブと「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
