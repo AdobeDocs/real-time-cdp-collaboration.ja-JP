@@ -2,9 +2,9 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ ht-degree: 12%
 | 男性 25～34 | （（70 万/130 万）/（12 万/50 分））* 100 | 224 | このオーディエンスをターゲットにすることで、ベースラインと比較して SUV 所有者に到達する可能性が 124% 高くなります。 |
 | 技術ファン | （（500K/130M） / （8M/50M）） * 100 | 240 | このオーディエンスをターゲットにすることで、ベースラインと比較して SUV 所有者に到達する可能性が 140% 高くなります。 |
 
+{style="table-layout:auto"}
+
 インデックススコアがキャンペーンにどのように影響するかを理解しやすくするために、スコアと共に関連度バンドが提供されています。
 
 ### 関連度バンド {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ ht-degree: 12%
 | 80 &lt; i &lt; 120 | メディア | 重複は、オーディエンスと同様にターゲットオーディエンスで一般的であり、典型的な関係を示しています。 このオーディエンスを使用する顧客は、ターゲットオーディエンスに到達する可能性が平均的にあります。 |
 | 120 &lt; i &lt; 140 | 高 | オーディエンスに比べてターゲットオーディエンスで重複が多く、強い関係を示しています。 このオーディエンスを使用しているお客様は、ターゲットオーディエンスにリーチする可能性が高くなります。 |
 | i > 140 | 非常に高い | 重複は、非常に強い関係を反映して、オーディエンスと比較してターゲットオーディエンスではるかに一般的です。 このオーディエンスを使用しているお客様は、ターゲットオーディエンスにリーチする可能性がはるかに高くなります。 |
+
+{style="table-layout:auto"}
 
 「重複を検出」セクション内で、オーディエンスインデックススコアには、スコアと共に関連度バンドが表示されます。 スコアは関連性バンドを示すように色分けされ、関係の強さを一目で簡単に識別できます。 非常に関連性の低いバンドはオレンジ色、中程度の関連性のバンドは黒、高と非常に関連性の高いバンドは緑で表示されます。
 
