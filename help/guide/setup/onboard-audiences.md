@@ -2,7 +2,7 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをソース化および管理する方法を学ぶ
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
@@ -90,7 +90,7 @@ ht-degree: 17%
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスが ***有効*** になっている場合、上記のようにExperience Platformでラベル付けされたデータは除外され、Collaborationに取り込まれます **無効**。
 * チェックボックス ***無効*** をオンにした場合、Experience Platformをソースとするデータに関する制限はありません。
