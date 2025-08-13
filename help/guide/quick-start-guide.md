@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration クイックスタートガイド
 description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、共同作業者がオーディエンスを安全かつ効率的に使用し始めるために接続設定を設定するのに役立ちます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 Admin ConsoleとExperience Platformを使用して、Collaborationの製品アクセスと権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順 2:Collaboration アカウントの設定 {#set-up-your-account}
 
@@ -101,7 +101,7 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 >**共同作業者の役割ごとの最大オーディエンス数：**
 >
 >- **広告主** は、最大 25 個のオーディエンスをソースにすることができます。
->- **パブリッシャー** は、最大 250 個のオーディエンス（それぞれが最小 5,000 個の ID を持つ）をソースできます。
+>- **パブリッシャー** は、最大 250 個のオーディエンス（それぞれが最小 1,000 個の ID を持つ）をソースできます。
 
 >[!IMPORTANT]
 >
