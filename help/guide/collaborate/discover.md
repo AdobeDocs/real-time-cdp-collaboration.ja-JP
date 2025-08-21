@@ -2,12 +2,12 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -166,9 +166,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="オーディエンスインデックススコア"
->abstract="オーディエンスインデックススコアは、基になるオーディエンスの数と重複に基づいて、あるオーディエンスと別のオーディエンスの関係の強さを示す微妙な指標です。 生のインデックススコアは関連度バンドに変換され、オーディエンスインデックススコアを非常に低いものから非常に高いものへと分類します。 これにより、オーディエンスと共同作業者のオーディエンスの関係の強さをすばやく評価できます。"
+>abstract="オーディエンスインデックススコアは、基になるオーディエンスの数と重複に基づいて、あるオーディエンスと別のオーディエンスの関係の強さを示す微妙な指標です。生のインデックススコアは関連度バンドに変換され、オーディエンスインデックススコアを非常に低いものから非常に高いものへと分類します。これにより、オーディエンスと共同作業者のオーディエンスの関係の強さをすばやく評価できます。"
 
-オーディエンスインデックススコアは、基になるオーディエンスの数と重複に基づいて、あるオーディエンスと別のオーディエンスの関係の強さを示す微妙な指標です。 これにより、オーディエンスのインサイトにコンテキストを設定し、見込み客やキャンペーンターゲティングの可能性の高いオーディエンスを特定できます。
+オーディエンスインデックススコアは、基になるオーディエンスの数と重複に基づいて、あるオーディエンスと別のオーディエンスの関係の強さを示す微妙な指標です。これにより、オーディエンスのインサイトにコンテキストを設定し、見込み客やキャンペーンターゲティングの可能性の高いオーディエンスを特定できます。
 
 インデックススコアは、次の式を使用して計算されます。
 
