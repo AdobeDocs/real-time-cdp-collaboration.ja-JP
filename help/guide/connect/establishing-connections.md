@@ -2,11 +2,11 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ ht-degree: 7%
 
 ![ 接続設定ワークスペース ](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### 接続設定 {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -212,11 +210,6 @@ ht-degree: 7%
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測定"
 >abstract="アクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（毎日、3 日ごと、または週ごと）に基づいて消費されます。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="法的契約"
->abstract="2 つのパーティ間にデータ共有契約が存在することを確認します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -269,7 +262,7 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 
 +++
 
-+++与信分割
++++クレジット分割
 
 「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースではコストをカバーするために一方のパーティが必要ですが、**[!UICONTROL アクティベーション – マッチング]** のユースケースでは、追加のオプションとして各パーティに独自のコストをカバーさせることができます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
@@ -280,14 +273,6 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 与信分割を設定するには、「**[!UICONTROL 与信分割]** セクションで **[!UICONTROL 編集]** を選択します。 その後、ユースケースごとに適切なオプションを選択できます。 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
 
 ![ 接続設定ワークスペースにオプションが表示されたクレジット分割ダイアログ ](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
-
-+++
-
-+++協定
-
-お客様と共同作業者の間に法的合意が存在することを認める必要があります。 この契約では、データの共有と共同作業の条件について説明します。 「**[!UICONTROL 確認して確定]**」チェックボックスを選択すると、そのような免除承諾が存在することを確認できます。
-
-![ 法的契約セクションがハイライト表示され、接続ワークスペースで確認されています。](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
@@ -310,8 +295,8 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 プロジェクトを作成する際には、接続時に設定された以下の設定に基づいて広告主名が事前入力されます    :
 
 1. **広告主名を設定しない**：広告主名を追加しない場合、Collaborationではデフォルトで広告主名が使用されます。
-1. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
-1. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
+2. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
+3. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 
 共同作業者が提案した設定を確認します。 接続設定は、承認または拒否できます。 接続設定を拒否する場合は、製品外で行う変更について共同作業者と連絡を取る必要があります。 共同作業者の連絡先情報は、接続設定ワークスペースの **[!UICONTROL 連絡先]** セクションに表示されます。 その後、所有者は接続設定を変更し、レビュー用に再送信できます。
 
-提案された接続設定に満足している場合は、共同作業者との間に法的合意が締結されていることを確認する必要があります。 「**[!UICONTROL 確認して確認]**」チェックボックスを選択して、そのような免除承諾が存在することを確認します。
-
-![ 接続設定ワークスペースでハイライト表示された法的契約セクション。](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![ 「確定」および「却下」オプションがハイライト表示された接続設定ワークスペース ](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 さらに、広告主と接続するパブリッシャーの場合、接続設定に広告主名を追加できるようになりました。 このプロセスについて詳しくは、[ 接続設定 ](#connection-settings) の節を参照してください。
 
