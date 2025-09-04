@@ -2,12 +2,12 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをソース化および管理する方法を学ぶ
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 20%
+source-wordcount: '3277'
+ht-degree: 16%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 20%
 
 オーディエンスは、様々な属性に基づいてセグメント化された、ユーザーまたは顧客の特定のグループです。 これにより、共同作業者は、ターゲットを絞ったマーケティングとパーソナライズされたエクスペリエンスで連携して、より効果的な広告キャンペーンを行うことができます。 このガイドでは、オーディエンスをReal-Time CDP Collaborationにソース化する方法、オーディエンスダッシュボードを表示する方法、個々のオーディエンスを管理する方法について説明します。
 
->[!BEGINSHADEBOX]
-
-このドキュメントページの内容は次のとおりです。
-
-* [CollaborationへのSource オーディエンス](#source-audiences)
-* [オーディエンスダッシュボードの表示](#view-audiences-dashboard)
-* [個々のオーディエンスの表示](#view-individual-audiences)
-
->[!ENDSHADEBOX]
-
 ## CollaborationへのSource オーディエンス {#source-audiences}
 
 >[!IMPORTANT]
@@ -35,7 +25,7 @@ ht-degree: 20%
 
 共同作業者とオーディエンスをアクティブ化し、重複計算を実行する前に、オーディエンスをCollaborationにソーシングする必要があります。 オーディエンスをソース化するには、以下の節で示すワークフロー手順に従います。
 
-**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 &#x200B;]」オプションを選択することもでき** す。
+**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 ]」オプションを選択することもでき** す。
 
 ![ 「追加」オプションと「オーディエンス」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
@@ -90,7 +80,7 @@ ht-degree: 20%
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスが ***有効*** になっている場合、上記のようにExperience Platformでラベル付けされたデータは除外され、Collaborationに取り込まれます **無効**。
 * チェックボックス ***無効*** をオンにした場合、Experience Platformをソースとするデータに関する制限はありません。
@@ -214,10 +204,13 @@ ht-degree: 20%
 
 オーディエンスをソーシングすると、**[!UICONTROL マイオーディエンス]** ワークスペースに、現在Collaborationをソースとしているすべてのオーディエンスが表示されます。
 
+![ ソースとなるすべてのオーディエンスを表示するマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 各オーディエンスには、次の情報の概要が含まれます。
 
 | 項目 | 説明 |
 |----------|---------|
+| **[!UICONTROL 名前]** | オーディエンスの名前。 |
 | **[!UICONTROL ID]** | このオーディエンスに存在する ID の数を示します。 同じプロファイルに 2 つ以上の ID があり、これらの ID がプロジェクトで一致キーとして使用される場合、プロファイルはそのカウントに 2 回表示されます。 |
 | **[!UICONTROL ステータス]** | オーディエンスがアクティブであり、プロジェクトで使用できるかどうかを示します。 **[!UICONTROL 保留中]** ステータスは、オーディエンスが最近ソースされ、ID がまだ入力されていないことを示します。 ソースオーディエンスは、最初の更新後にプロファイルを入力します。これは、通常、データ接続が設定されてから 24 時間以内に発生します。 |
 | **[!UICONTROL ソース]** | オーディエンスのソースを示します。 Collaborationの現在のリリースでは、サポートされているソースはExperience Platformのみです。 |
@@ -225,8 +218,6 @@ ht-degree: 20%
 | **[!UICONTROL 接続アクセス]** | オーディエンスがプライベートかパブリックかを定義します。 公開オーディエンスは、重複レポートで検出でき、プロジェクト内でアクティブ化できます。 |
 | **[!UICONTROL 作成日]** | オーディエンスが最初にCollaborationをソースにしたタイミングを示します。 |
 | **[!UICONTROL 最終更新日]** | Collaborationでオーディエンスが最後に更新された日時を示します。 これは、オーディエンスが最後に更新された日時ではなく、オーディエンスの設定またはメタデータが最後に変更された日時を指します。 |
-
-![ すべてのオーディエンスがソースとなっているマイオーディエンスワークスペース ](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 オーディエンスに対してクイックアクションを実行するには、オーディエンス名の横にある省略記号 **...** を選択します。 次のオプションがあります。
 
@@ -237,7 +228,7 @@ ht-degree: 20%
 
 ## 個々のオーディエンスの表示 {#view-individual-audiences}
 
-個々のオーディエンスの詳細を表示し設定を編集するには、**[!UICONTROL マイオーディエンス]** ワークスペースからオーディエンスを選択します。 オーディエンスワークスペースには、選択したオーディエンスに関する詳細情報（詳細、ID、カテゴリ、接続アクセス、メタデータの表示設定など）が表示されます。
+個々のオーディエンスの情報を表示および更新するには、**[!UICONTROL マイオーディエンス]** ワークスペースからオーディエンスを選択します。 オーディエンスワークスペースには、選択したオーディエンスに関する詳細情報（詳細、ID、カテゴリ、接続アクセス、メタデータの表示設定など）が表示されます。
 
 ### オーディエンスの詳細
 
@@ -255,32 +246,22 @@ ht-degree: 20%
 
 ![ 個々のオーディエンスのワークスペース ](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-さらに、オーディエンスワークスペースでは次のコントロールを使用できます。
-
-* **[!UICONTROL 削除]**：データ接続からオーディエンスを削除します。
-* **[!UICONTROL 編集]**：オーディエンスの名前または説明を編集します。
-
-![ 「編集と削除」オプションがハイライト表示された個々のオーディエンスのワークスペース。](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-次に、オーディエンスのワークスペース内の次のセクションを更新できます。
-
-* [ID](#identities)
-* [カテゴリ](#categories)
-* [接続アクセス](#connection-access)
-* [メタデータの表示](#metadata-visibility)
-
-### ID {#identities}
+#### ID {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="ID"
->abstract="このオーディエンスを構成する ID の分類ビューと、それぞれの ID を持つプロファイルの合計数。"
+>abstract="マッチキーで区切られた、このオーディエンスを構成する ID の分類ビュー。"
 
-「**[!UICONTROL ID]**」セクションには、オーディエンスのソーシング時に選択した ID のいずれかでオーディエンスに存在するプロファイルの数が示されます。 また、セクションには ID の分類も含まれているので、オーディエンス母集団を最大限に活用している ID を特定できます。
+「**[!UICONTROL ID]**」セクションは、オーディエンスに存在する ID の数を示します。 この節には、オーディエンスの構成を理解するのに役立つ、一致キーによる ID の分類も含まれています。
 
 ![ 個々のオーディエンスのワークスペースの ID セクション。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### カテゴリ {#categories}
+一致キーの分類の個々のセクションにマウスポインターを置くと、関連するキーの正確な ID 数が表示されます。
+
+![ 一致キーの分類が表示された、個々のオーディエンスのワークスペースの ID セクション。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### カテゴリ {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ ht-degree: 20%
 
 ![ 使用可能なカテゴリが表示されたカテゴリダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### 接続アクセス {#connection-access}
+#### 接続アクセス {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="接続アクセス"
->abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者がいるプロジェクトでの使用の可用性は、接続アクセス設定に基づいて異なります。接続アクセスは、常にプライベートからパブリックに変更できますが、オーディエンスを共同作業者とアクティベートすると、その設定を元に戻すことはできません。</p>"
+>abstract="<p>オーディエンスには、パブリック、プライベート、カスタムの 3 つのタイプがあります。</p><p> 共同作業者とプロジェクトで使用できるかどうかは、接続アクセス設定に応じて異なります。</p>"
 
-共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 「**[!UICONTROL 接続アクセス]**」セクションでは、オーディエンスをプライベートにするかパブリックにするかを選択できます。 公開オーディエンスは、接続で使用したり検出したりできます。
+共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 「**[!UICONTROL 接続アクセス]**」セクションでは、オーディエンスをプライベート、パブリックまたは特定の接続でのみ使用できるかどうかを選択できます。 公開オーディエンスは、接続で使用したり検出したりできます。
 
 オーディエンスの接続アクセスを更新するには、「**[!UICONTROL 接続アクセス]**」セクション内の **[!UICONTROL 編集]** オプションを選択します。
 
@@ -324,9 +305,9 @@ ht-degree: 20%
 >
 >アクセスステータス（パブリック、プライベート、カスタム）に関係なく、任意のオーディエンスの母集団は、プロジェクト内の **[!UICONTROL オーディエンスを比較]** セクションの **[!UICONTROL すべてのオーディエンス]** 母集団に貢献します。
 
-共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。 接続アクセスは、いつでもプライベートからパブリックに変更できますが、オーディエンスがアクティブ化された後にその設定を元に戻すことはできません。
+共同作業者と共にプロジェクトで使用するオーディエンスの可用性は、接続アクセス設定に基づいて異なります。
 
-### メタデータの表示 {#metadata-visibility}
+#### メタデータの表示 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ ht-degree: 20%
 
 メタデータの表示は、他の共同作業者が接続する前や、異なるプロジェクトビュー内でオーディエンスのメタデータを表示することを示します。 オーディエンスのメタデータの表示を更新するには、「**[!UICONTROL メタデータの表示]** セクション内の **[!UICONTROL 編集]** オプションを選択します。
 
-![ 個々のオーディエンスのワークスペースのメタデータ表示セクション ](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![ 個々のオーディエンスのワークスペースのメタデータ表示セクション ](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 **[!UICONTROL メタデータの表示]** ダイアログが表示され、オーディエンスの表示設定を指定できます。 各オーディエンスに対して設定できるメタデータの表示設定は 2 つあります。
 
@@ -354,6 +335,52 @@ ht-degree: 20%
 >メタデータの表示設定を有効にするには、オーディエンスをパブリックまたはカスタムに設定する必要があります。
 
 ![ 使用可能なオプションが表示されたメタデータの表示ダイアログ ](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## 複数オーディエンスの編集 {#edit-audiences}
+
+オーディエンスダッシュボードから、複数のオーディエンスを一度に編集できます。 そのためには、名前の横にあるボックスを選択して、編集するオーディエンスを選択します。 オーディエンスを選択したら、編集メニューで使用可能なオプションを使用してアクションを実行できます。
+
+![2 つのオーディエンスが選択され、編集メニューがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### メタデータの表示を一括編集 {#bulk-edit-metadata-visibility}
+
+オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL メタデータの表示を編集]** を選択します。
+
+![ 「メタデータの表示を編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+**[!UICONTROL メタデータの表示]** ダイアログが表示され、選択したオーディエンスの表示設定を指定できます。 デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、「**[!UICONTROL 保存]**」を選択します。
+
+![ 使用可能なオプションが表示されたメタデータの表示ダイアログ ](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### 接続アクセスの一括編集 {#bulk-edit-connection-access}
+
+オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL 接続アクセスを編集]** を選択します。
+
+![ 「接続アクセスを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+**[!UICONTROL 接続アクセス]** ダイアログが表示され、選択したオーディエンスのアクセス設定を指定できます。 デフォルトでは、「**[!UICONTROL 非公開オーディエンス]** オプションが選択されています。 選択したすべてのオーディエンスに適用するオプションを選択し、「**[!UICONTROL 保存]**」を選択します。
+
+![ 使用可能なオプションが表示された接続アクセスダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### オーディエンスの名前と説明の一括編集 {#bulk-edit-audience-names-descriptions}
+
+オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL 名前と説明を編集]** を選択します。
+
+![ 「名前と説明を編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+**[!UICONTROL 名前と説明]** ダイアログが表示され、選択した各オーディエンスの名前と説明を設定できます。 デフォルトでは、各オーディエンスに現在の名前と説明が表示されます。 変更を加え、「**[!UICONTROL 保存]**」を選択します。
+
+![ 使用可能なオプションが表示された名前と説明ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### カテゴリの一括編集 {#bulk-edit-categories}
+
+オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL カテゴリを編集]** を選択します。
+
+![ 「カテゴリを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+**[!UICONTROL カテゴリ]** ダイアログが表示され、選択した各オーディエンスのカテゴリを設定できます。 デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメイン カテゴリを選択してから、含めるサブカテゴリを選択します。 変更を加え、「**[!UICONTROL 保存]**」を選択します。
+
+![ 使用可能なオプションが表示されたカテゴリダイアログ ](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## 次の手順
 
