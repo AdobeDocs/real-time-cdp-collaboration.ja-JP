@@ -2,7 +2,7 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platformを宛先として設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: f13b0996c35bcb6060c583ca328c2c04daaf8abc
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"} を参照してください。
 
 ## 宛先の設定 {#configure-destination}
 
@@ -85,7 +85,7 @@ Adobe Experience Platformを宛先として設定したら、プロジェクト�
 
 >[!IMPORTANT]
 >
->共同作業者がオーディエンスをアクティベートするには、Adobe Experience Platformを宛先として設定する **&#x200B;**&#x200B;必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Adobe Experience Platformにはアクティベートされません。
+>共同作業者がオーディエンスをアクティベートするには、Adobe Experience Platformを宛先として設定する **** 必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Adobe Experience Platformにはアクティベートされません。
 
 オーディエンスがアクティブ化されると、Real-Time CDP Collaborationをオリジンとして、Experience Platformの [ オーディエンスポータル ](#audience-portal) で使用できるようになります。  これらのオーディエンスは、キャンペーンや顧客エンゲージメントで使用できます。
 
@@ -99,4 +99,4 @@ Adobe Experience Platformを宛先として設定したら、プロジェクト�
 
 ![ フィルターオプションでReal-Time CDP Collaborationをオリジンとして使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
