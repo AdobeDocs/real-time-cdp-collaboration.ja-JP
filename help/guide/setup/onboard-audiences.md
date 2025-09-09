@@ -2,12 +2,12 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをソース化および管理する方法を学ぶ
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
+source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
-source-wordcount: '3277'
-ht-degree: 16%
+source-wordcount: '3508'
+ht-degree: 13%
 
 ---
 
@@ -25,26 +25,26 @@ ht-degree: 16%
 
 共同作業者とオーディエンスをアクティブ化し、重複計算を実行する前に、オーディエンスをCollaborationにソーシングする必要があります。 オーディエンスをソース化するには、以下の節で示すワークフロー手順に従います。
 
-**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 &#x200B;]」オプションを選択することもでき** す。
+**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 ]」オプションを選択することもでき** す。
 
-![ 「追加」オプションと「オーディエンス」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![ 「追加」オプションと「オーディエンス」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### データ接続の選択 {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="マーケティングアクション"
->abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。<strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。<strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックスを<em>無効</em>にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータが読み込まれます。</li></ul></p>"
+>abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。<strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。<strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックス <em> 無効 </em> をオンにした場合、Real-Time CDP CollaborationをソースにできるExperience Platformのデータに関する制限はありません。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja" text="データ使用ラベルの概要"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja" text="データ使用ラベルの用語集"
 
 >[!IMPORTANT]
 >
->最初のデータ接続を確立し、最初のオーディエンスをインポートしたら、既存のデータ接続から複数のオーディエンスをインポートできます。 追加のオーディエンスを追加する場合は、データ接続が既に確立されているので、[ オーディエンスを選択 ](#select-audiences) の手順から開始します。
+>最初のデータ接続を確立し、最初のオーディエンスをソーシングしたら、既存のデータ接続から複数のオーディエンスをソーシングできます。 追加のオーディエンスを追加する場合は、データ接続が既に確立されているので、[ オーディエンスを選択 ](#select-audiences) の手順から開始します。
 
 データ接続は、オーディエンスのソースとなるデータのソースです。 現在、サポートされているデータ接続はAdobe Experience Platformのみです。
 
-データ接続に対して設定したスケジュールなどの設定は、このデータ接続をソースとするすべてのオーディエンスに適用されます。
+データ接続に対して設定した設定は、このデータ接続をソースとするすべてのオーディエンスに適用されます。
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ ht-degree: 16%
 
 データ接続の追加を開始するには、「**[!UICONTROL 新しいデータ接続を追加]**」を選択し、「**[!UICONTROL 次へ]**」を選択します。
 
-![ 「新しいデータ接続を追加」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![ 「新しいデータ接続を追加」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### データソースを選択
 
@@ -66,13 +66,13 @@ ht-degree: 16%
 
 データソースを選択してから、「**[!UICONTROL 次へ]**」を選択します。
 
-![ 「Adobe Experience Platform」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![ 「Adobe Experience Platform」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### サンドボックスを選択
 
-データソースを選択したら、Collaborationを使用するオーディエンスが含まれるサンドボックスを選択する必要があります。 使用可能なサンドボックスのリストからサンドボックスを選択して、「次へ **[!UICONTROL を選択します]**
+データソースを選択したら、Collaborationに使用するオーディエンスを含むサンドボックスを選択する必要があります。 使用可能なサンドボックスのリストからサンドボックスを選択して、「次へ **[!UICONTROL を選択します]**
 
-![ サンドボックスが選択されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![ サンドボックスが選択されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### ガバナンスポリシーと適用アクション {#governance-policy-and-enforcement-actions}
 
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスが ***有効*** になっている場合、上記のようにExperience Platformでラベル付けされたデータは除外され、Collaborationに取り込まれます **無効**。
 * チェックボックス ***無効*** をオンにした場合、Experience Platformをソースとするデータに関する制限はありません。
@@ -92,17 +92,17 @@ ht-degree: 16%
 
 さらに、同意ルールを選択して、Collaborationに取り込まれるデータに適用します。
 
-![ ガバナンスポリシーとエンフォームアクションの節にあるオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![ ガバナンスポリシーとエンフォームアクションの節にあるオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 マーケティングアクションと同意ルールを選択したら、「**[!UICONTROL 次へ]**」を選択して次の手順に進みます。 確認ダイアログが表示され、条件に同意するように求められます。 チェックボックスを選択し、「**[!UICONTROL OK]**」を選択して確定します。
 
-![ チェックボックスと「OK」オプションがハイライト表示されたガバナンスポリシーとエンフォームアクションのダイアログ。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![ チェックボックスと「OK」オプションがハイライト表示されたガバナンスポリシーとエンフォームアクションのダイアログ。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### 詳細を入力
 
 次に、データ接続の名前と説明を入力します。 この情報は、後でデータ接続を識別するのに役立ちます。
 
-![ 名前と説明を入力するオプションを含んだオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![ 名前と説明を入力するオプションを含んだオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### フィールドのマッピング {#map-fields}
 
@@ -114,7 +114,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="現在、ハッシュ化されたメールのみがサポートされている一致キーです。"
+>abstract="ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -130,42 +130,54 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="プロファイル属性"
->abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
+>abstract="Experience Platformのプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM Individual Profile クラスに属する属性が表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
-次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。
+次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、アカウント設定時に選択した一致キーに基づきます
 
-![ ソースフィールドをターゲットフィールドにマッピングするオプションを使用したオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>現在、データ接続を編集して新しいマップ フィールドを含めることはできません。 データ接続を作成した後に新しい一致キーをアカウントに追加する場合は、新しいデータ接続を作成してマッピングする必要があります。
+
+![ ソースフィールドをターゲットフィールドにマッピングするオプションを使用したオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->複数のソースフィールドを同じターゲットフィールドにマッピングできます。 例えば、Experience Platformの 2 つの異なるフィールドにメールアドレスがある場合、それぞれを 2 つの異なる行として **[!UICONTROL ハッシュ化されたメール]** ターゲットフィールドにマッピングできます。
+>複数のソースフィールドを同じターゲットフィールドにマッピングできます。 例えば、Experience Platformの 2 つの異なるフィールドにメールアドレスがある場合、それぞれを 2 つの異なる行として **[!UICONTROL ハッシュ化されたメール]** ターゲットフィールドにマッピングできます。 **[!UICONTROL フィールドを追加]** オプションを使用して、マッピング行を追加します。
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source フィールド]** は、Experience Platformの id 名前空間および属性です。 データのソースとなるプラットフォームに ID が存在する仕組みは次のとおりです。 Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
+**[!UICONTROL Source フィールド]** は、Experience Platformの id 名前空間および属性です。 これには、[ 標準 ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}ID 名前空間と [ カスタム ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} ID 名前空間の両方が含まれます。 また、[ 和集合スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"} に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
 
-**[!UICONTROL ターゲットフィールド]** は、Collaborationでの ID の参照方法を示します。 現在、ハッシュ化されたメールのみがサポートされている一致キーです。
+Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
 
-ソースから **[!UICONTROL ハッシュ化されていない]** フィールドを読み込む場合は、「*変換を適用* オプションを使用します。 この場合、Collaborationはハッシュを適用し、フィールドを変換します。 Adobeで使用されるハッシュアルゴリズムは SHA256 です。
+**[!UICONTROL ターゲットフィールド]** は、Collaborationでの ID の参照方法を示します。 ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
+
+**[!UICONTROL ハッシュ化されていない]** フィールドをハッシュ化されたフィールドにソーシングしている場合は、*変換を適用* オプションを使用します。 Collaborationはハッシュを適用し、フィールドを変換します。 Adobeで使用されるハッシュアルゴリズムは SHA256 です。
 
 >[!ENDSHADEBOX]
 
-ターゲットフィールドの横にある空のソースフィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示されます。 **[!UICONTROL ID 名前空間]** オプションと **[!UICONTROL プロファイル属性]** オプションの中から選択して、目的のソースフィールドを見つけ、リストからフィールドを選択します。 また、検索オプションを使用して、目的のフィールドを見つけることもできます。
+マッピングフィールドを開始するには、ターゲットフィールドの横にある空のソースフィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示されます。 **[!UICONTROL ID 名前空間]** オプションと **[!UICONTROL プロファイル属性]** オプションの中から選択して、目的のソースフィールドを見つけ、リストからフィールドを選択します。 また、検索オプションを使用して、目的のフィールドを見つけることもできます。
 
-![ メールオプションが表示されたソースフィールドを選択ダイアログ。](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![ メールオプションが表示されたソースフィールドを選択ダイアログ。](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-複数のメールフィールドを処理するには、**[!UICONTROL 変換を適用]** を使用して、ハッシュ化されていないメールソースフィールドをマッピングします。
+ハッシュ化されていないフィールドをハッシュ化されたターゲットフィールドにソーシングするには、「**[!UICONTROL 変換を適用]** オプションを使用します。 例えば、2 つ目のメールフィールドを追加するには、「**[!UICONTROL フィールドの追加]**」オプションを選択して新しい行を追加し、ターゲットフィールドで「**[!UICONTROL ハッシュ化されたメール]**」を選択します。 ハッシュ化されていないメールソースフィールドを選択し、「**[!UICONTROL 変換を適用]**」を選択します。
 
-![ メールソースフィールドがターゲットフィールドにマッピングされ、変換の適用がオンになっているオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![ メールソースフィールドがターゲットフィールドにマッピングされ、変換の適用がオンになっているオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-必要に応じてマッピングペアの追加を続行し、「**[!UICONTROL 次へ]**」を選択します。
+引き続き、各ターゲットフィールドにマッピングペアを追加します。 一致キーを使用しない場合は、フィールドの横にある削除（![ 削除アイコン ](/help/assets/icons/delete.png)）アイコンを使用して削除できます。 一致キーが削除されると、接続からオーディエンスをソーシングする際に使用できなくなります。
+
+![ ターゲットフィールドの横にある「削除」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+フィールドのマッピングが完了したら、「**[!UICONTROL 次へ]**」を選択して続行します。
+
+![ マップフィールドが入力され、「次へ」オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### スケジュール {#schedule}
 
 次に、オーディエンスへの入力を開始および終了するタイミングをスケジュールします。 オーディエンスは、このスケジュールに従って更新されます。
 
-![ スケジュールオプションが表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![ スケジュールオプションが表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -173,11 +185,11 @@ ht-degree: 16%
 
 **[!UICONTROL 頻度]** ドロップダウンからオーディエンスの更新の頻度を選択します。
 
-![ 頻度ドロップダウンが開いたオーディエンスを追加スケジュールワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![ 頻度ドロップダウンが開いたオーディエンスを追加スケジュールワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 次に、「**[!UICONTROL 日付範囲]**」を選択します。 開始日は、オーディエンスがプロファイルの入力を開始する日付で、終了日はオーディエンスが更新を停止する日付です。
 
-![ 「日付範囲」オプションが表示されたオーディエンスの追加スケジュールワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![ 「日付範囲」オプションが表示されたオーディエンスの追加スケジュールワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -185,15 +197,15 @@ ht-degree: 16%
 
 ### オーディエンスを選択 {#select-audiences}
 
-オーディエンスソースを選択したら、含める特定のオーディエンスを選択します。 検索およびフィルターオプションを使用して、データソースから関連するオーディエンスを見つけます。 目的のオーディエンスを選択し、「**[!UICONTROL 次へ]**」を選択します。
+オーディエンスソースを選択したら、含める特定のオーディエンスを選択します。 検索およびフィルターオプションを使用して、データ接続から関連するオーディエンスを見つけます。 目的のオーディエンスを選択し、「**[!UICONTROL 次へ]**」を選択します。
 
-![ 使用可能なオーディエンスのリストを含むオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-audience.png)
+![ 使用可能なオーディエンスのリストを含むオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### レビュー
 
 オーディエンスの追加を最終決定する前に、すべての設定を確認してください。 すべての詳細が正しいことを確認してから、「**[!UICONTROL 完了]**」を選択してデータ接続の作成を完了します。
 
-![ すべての選択設定が表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/review-connection.png)
+![ すべての選択設定が表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## オーディエンスダッシュボードの表示 {#view-audiences-dashboard}
 
@@ -219,12 +231,14 @@ ht-degree: 16%
 | **[!UICONTROL 作成日]** | オーディエンスが最初にCollaborationをソースにしたタイミングを示します。 |
 | **[!UICONTROL 最終更新日]** | Collaborationでオーディエンスが最後に更新された日時を示します。 これは、オーディエンスが最後に更新された日時ではなく、オーディエンスの設定またはメタデータが最後に変更された日時を指します。 |
 
+![ すべてのオーディエンスがソースとなっているマイオーディエンスワークスペース ](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 オーディエンスに対してクイックアクションを実行するには、オーディエンス名の横にある省略記号 **...** を選択します。 次のオプションがあります。
 
 * **[!UICONTROL カテゴリを編集]** を使用すると、オーディエンスに様々なカテゴリタグを追加できます。 詳しくは、以下の [ カテゴリ ](#categories) の節を参照してください。
 * **[!UICONTROL 削除]** は、データ接続からオーディエンスを削除します。
 
-![ 省略記号メニューが開き、「カテゴリを編集」オプションと「削除」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![ 省略記号メニューが開き、「カテゴリを編集」オプションと「削除」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## 個々のオーディエンスの表示 {#view-individual-audiences}
 
@@ -244,7 +258,7 @@ ht-degree: 16%
 | **[!UICONTROL 作成日]** | オーディエンスが最初にCollaborationをソースにしたタイミングを示します。 |
 | **[!UICONTROL 作成者]** | オーディエンスをCollaborationにソーシングしたユーザーを示します。 |
 
-![ 個々のオーディエンスのワークスペース ](/help/assets/setup/add-manage-audiences/audience-details.png)
+![ 個々のオーディエンスのワークスペース ](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### ID {#identities}
 
@@ -255,7 +269,7 @@ ht-degree: 16%
 
 「**[!UICONTROL ID]**」セクションは、オーディエンスに存在する ID の数を示します。 この節には、オーディエンスの構成を理解するのに役立つ、一致キーによる ID の分類も含まれています。
 
-![ 個々のオーディエンスのワークスペースの ID セクション。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![ 個々のオーディエンスのワークスペースの ID セクション。](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 一致キーの分類の個々のセクションにマウスポインターを置くと、関連するキーの正確な ID 数が表示されます。
 
@@ -272,11 +286,11 @@ ht-degree: 16%
 
 カテゴリを追加するには、「**[!UICONTROL カテゴリ]**」セクション内の「**[!UICONTROL 編集]**」オプションを選択します。
 
-![ 個々のオーディエンスのワークスペースのカテゴリセクション。](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![ 個々のオーディエンスのワークスペースのカテゴリセクション。](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 **[!UICONTROL カテゴリ]** ダイアログが表示され、オーディエンスに追加するカテゴリを選択できます。 個々のカテゴリを選択するには、カテゴリ名の横にあるチェックボックスをオンにします。
 
-![ 使用可能なカテゴリが表示されたカテゴリダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![ 使用可能なカテゴリが表示されたカテゴリダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### 接続アクセス {#connection-access}
 
@@ -289,7 +303,7 @@ ht-degree: 16%
 
 オーディエンスの接続アクセスを更新するには、「**[!UICONTROL 接続アクセス]**」セクション内の **[!UICONTROL 編集]** オプションを選択します。
 
-![ 個々のオーディエンスのワークスペースの「接続アクセス」セクション ](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![ 個々のオーディエンスのワークスペースの「接続アクセス」セクション ](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 **[!UICONTROL 接続アクセス]** ダイアログが表示され、使用可能な 3 つの接続アクセスオプションが示されます。
 
@@ -299,7 +313,7 @@ ht-degree: 16%
 
 目的の接続アクセスオプションを選択し、「**[!UICONTROL 保存]**」を選択して変更を適用します。
 
-![ 使用可能なオプションが表示された接続アクセスダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![ 使用可能なオプションが表示された接続アクセスダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -320,7 +334,7 @@ ht-degree: 16%
 
 メタデータの表示は、他の共同作業者が接続する前や、異なるプロジェクトビュー内でオーディエンスのメタデータを表示することを示します。 オーディエンスのメタデータの表示を更新するには、「**[!UICONTROL メタデータの表示]** セクション内の **[!UICONTROL 編集]** オプションを選択します。
 
-![ 個々のオーディエンスのワークスペースのメタデータ表示セクション ](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![ 個々のオーディエンスのワークスペースのメタデータ表示セクション ](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 **[!UICONTROL メタデータの表示]** ダイアログが表示され、オーディエンスの表示設定を指定できます。 各オーディエンスに対して設定できるメタデータの表示設定は 2 つあります。
 
@@ -334,7 +348,7 @@ ht-degree: 16%
 >
 >メタデータの表示設定を有効にするには、オーディエンスをパブリックまたはカスタムに設定する必要があります。
 
-![ 使用可能なオプションが表示されたメタデータの表示ダイアログ ](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![ 使用可能なオプションが表示されたメタデータの表示ダイアログ ](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## 複数オーディエンスの編集 {#edit-audiences}
 

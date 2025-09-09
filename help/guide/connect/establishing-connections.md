@@ -2,12 +2,12 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
->abstract="一致キーには、組織レベルで選択したキーが事前入力されています。この接続で使用しない一致キーは、オフに切り替えることができます。"
+>abstract="一致キーには、自分と共同作業者がアカウントレベルで選択した共通の一致キーが事前入力されます。 この接続で使用しない一致キーは、オフに切り替えることができます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ ht-degree: 7%
 
 次の接続設定を指定できます。
 
-+++Audience Activation
+##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 
 ![ 接続設定ワークスペースに「保存」オプションが表示された Audience Activation ダイアログ ](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++ユースケース
+##### ユースケース {#use-cases}
 
 ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューやオプションが決まります。 詳しくは、[ プロジェクトのユースケース ](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
@@ -250,19 +249,23 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 
 ![ 接続設定ワークスペースのユースケース設定 ](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### 一致キー {#match-keys}
 
-+++一致キー
+一致キーは、ユーザーと共同作業者が [ アカウントの設定 ](/help/guide/setup/onboard-account.md#set-up-match-keys) 時に選択した共通の一致キーで自動的に入力されます。 自分と共同作業者の両方が選択した **および** 共通している一致するキーのみが表示されます。
 
-一致キーは、[ アカウントの設定 ](/help/guide/setup/onboard-account.md#set-up-match-keys) 時に選択したキーで自動的に入力されます。 使用しない一致キーはオフにできますが、アカウント設定時に選択されなかった一致キーは追加できません。
+![ 共通の一致キーを示す「キーを一致」セクションがハイライト表示された接続設定ワークスペース。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+接続所有者が接続設定を設定する際に、追加の一致キーを含めるために [ アカウント一致キーを編集 ](../setup/onboard-account.md#edit-match-keys) できます。 アカウント設定で一致キーをさらに切り替えると、共同作業者も選択している場合、それらの一致キーを接続設定でオンに切り替えることができます。 接続プロセスを開始した後に追加された一致キーは自動的には入力されず、手動で切り替える必要があります。
 
 一致キーをカスタマイズするには、「**[!UICONTROL 一致キー]**」セクションで **[!UICONTROL 編集]** を選択し、この接続で使用しない一致キーをオフに切り替えます。 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
 
-![ 接続設定ワークスペースの「キーを一致」設定 ](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![ キーの一致セクション ダイアログが開き、キーの一致がオフに切り替えられた接続設定ワークスペース ](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>共同作業者が接続設定を承認すると、一致キーはロックされ、変更できなくなります。
 
-+++クレジット分割
+##### クレジット分割 {#credit-split}
 
 「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースではコストをカバーするために一方のパーティが必要ですが、**[!UICONTROL アクティベーション – マッチング]** のユースケースでは、追加のオプションとして各パーティに独自のコストをカバーさせることができます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
@@ -274,9 +277,7 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 
 ![ 接続設定ワークスペースにオプションが表示されたクレジット分割ダイアログ ](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++広告主名
+##### 広告主名 {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 > 接続設定を送信すると、広告主名を追加または編集できなくなります。
 
 ![ 「広告主名」セクションに値が入力された接続設定ワークスペース ](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 選択が完了したら、「**[!UICONTROL 送信]**」を選択して、提案された設定をレビュー用に受信者に送信します。
 

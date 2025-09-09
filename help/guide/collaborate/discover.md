@@ -2,9 +2,9 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ ht-degree: 17%
 様々なオーディエンスやキャンペーン間で簡単に比較できるように、Collaborationではインデックススコアを関連度バンド（非常に低いものから非常に高いもの）に変換します。 これにより、オーディエンスと共同作業者のオーディエンスの関係の強さをすばやく評価できます。
 
 | インデックススコア （i） | 関連帯 | 説明 |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | 非常に低い | オーディエンスに比べて、ターゲットオーディエンスでは重複がはるかに少ないことから、関係が非常に脆弱であることを示しています。 このオーディエンスを使用しているお客様は、ターゲットオーディエンスに到達する可能性がはるかに低くなります。 |
 | 60 &lt; i &lt; 80 | 低 | オーディエンスと比較して、ターゲットオーディエンスでは重複が少し少ないことから、関係が脆弱であることが示唆されます。 このオーディエンスを使用しているお客様は、ターゲットオーディエンスにリーチする可能性が低くなります。 |
 | 80 &lt; i &lt; 120 | メディア | 重複は、オーディエンスと同様にターゲットオーディエンスで一般的であり、典型的な関係を示しています。 このオーディエンスを使用する顧客は、ターゲットオーディエンスに到達する可能性が平均的にあります。 |

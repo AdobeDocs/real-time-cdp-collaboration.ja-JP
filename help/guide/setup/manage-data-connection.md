@@ -2,12 +2,12 @@
 title: データ接続を管理
 description: Real-Time CDP Collaborationでの一致キー、スケジュール、ユースケース、オーディエンスフィルタリングなど、データ接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 13%
+source-wordcount: '602'
+ht-degree: 8%
 
 ---
 
@@ -30,17 +30,9 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="一致キー"
->abstract=" 一致キーは、様々なソースのデータの一致方法を決定します。ユースケースとプライバシーガイドラインに最も関連性の高い一致キーを選択します。"
+>abstract=" 一致キーは、様々なソースのデータの一致方法を決定します。以下に示す一致キーは、ソースフィールドにマッピングしたターゲットフィールドです。"
 
-一致キーは、様々なデータソースのオーディエンス間でメンバーを紐付けるために使用される識別子です。データ接続用に最初に選択した一致キーは編集できません。
-
->[!IMPORTANT]
-> 
->データ接続が作成された後は、一致キーを編集できません。 一致キーを更新するには、新しいデータ接続を作成する必要があります。
-
-使用可能な一致キーは次のとおりです。
-
-- **ハッシュ化されたメール**
+一致キーは、[ ソースフィールドをマッピング ](./onboard-audiences.md#map-fields) したターゲットフィールドです。 データ接続用に最初に選択した一致キーは編集できません。 一致キーを更新するには、新しいデータ接続を作成する必要があります。 マッチ キーの仕組みについては、[ マッチ キー ](./onboard-account.md#set-up-match-keys) ガイドを参照してください。
 
 ![ 「キーを一致させる」セクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 >[!NOTE]
 >
->Adobe Experience Platformからオーディエンスを取得する場合、オーディエンスは、データ接続が確立されてから 24 時間以内に使用可能になります。 最初の読み込み後、オーディエンスデータは、定義された頻度に従って更新されます。
+>Adobe Experience Platformからオーディエンスを取得する場合、オーディエンスは、データ接続が確立されてから 24 時間以内に使用可能になります。 初期ソーシング後、定義した頻度に従って、オーディエンスデータが更新されます。
 
 スケジュールについて詳しくは、オーディエンスの設定ガイドの [ スケジュールの節 ](/help/guide/setup/onboard-audiences.md#schedule) を参照してください。
 
@@ -66,6 +58,8 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 #### スケジュールの編集 {#edit-scheduling}
 
 既存のデータ接続の頻度を編集して、オーディエンスの更新頻度をより詳細に制御できます。 スケジュールを編集するには、スケジュールカードのデータ接続内から **[!UICONTROL 編集]** を選択します。
+
+スケジュールは、データ接続をソースとするすべてのオーディエンスに影響します。
 
 **[!UICONTROL スケジュール]** ダイアログで、ドロップダウンメニューを選択して **[!UICONTROL 頻度]** を更新します。 更新頻度を、毎日または 2 ～ 6 日ごとに実行するように設定します。 完了したら、「**[!UICONTROL 保存]** を選択して変更を適用します。
 

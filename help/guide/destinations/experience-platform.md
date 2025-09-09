@@ -2,12 +2,12 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platformを宛先として設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: f13b0996c35bcb6060c583ca328c2c04daaf8abc
+source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 11%
+source-wordcount: '1487'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+
+>[!WARNING]
+>
+>作成した後で宛先を更新することはできません。 設定を変更する必要がある場合は、既存の宛先を削除し、新しい宛先を作成する必要があります。
 
 ## 宛先の設定 {#configure-destination}
 
@@ -62,30 +66,72 @@ Adobe Experience Platformを宛先として設定するには、**[!UICONTROL �
 >title="ターゲット名前空間"
 >abstract="ターゲット名前空間は、一致キーが Adobe Experience Platform でマッピングされる ID 名前空間を指定します。ハッシュ化された一致キーは、ハッシュ化された値をサポートするターゲット名前空間にマッピングする必要があります。"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_linked_key"
->title="リンクされたキー"
->abstract="リンクされたキーのコンテキストヘルプのプレースホルダー。"
+アカウントで有効になっているすべての一致キーは、デフォルトでアクティベーションマッピングに含まれます。 一致キーをターゲット名前空間に直接マッピングしない場合は、「リンクされたキー」オプションを使用して、別の一致キーに置き換えることができます。 リンク キーの詳細については、[ 以下のセクション ](#linked-keys) を参照してください。
 
-次に、アクティベーションマッピングを作成して、オーディエンスデータをAdobe Experience Platformに送信する方法を定義する必要があります。 組織の作成時に選択した各 [ 一致するキー ](../setup/onboard-account.md#set-up-match-keys) をターゲット名前空間にマッピングできます。 Target 名前空間は、Adobe Experience Platformで一致キーのマッピング先となる [ID 名前空間 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} を指定します。
+#### ターゲット名前空間のマッピング {#map-target-namespaces}
+
+各一致キーをターゲット名前空間にマッピングするには、一致キーの横にある **[!UICONTROL ターゲット名前空間]** フィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示されます。 リストでターゲット名前空間を検索するか、特定の名前空間を検索します。 一致キーに使用するターゲット名前空間を選択し、「**[!UICONTROL 選択]**」を選択します。
 
 >[!IMPORTANT]
 >
 >ハッシュ化された一致キーは、ハッシュ化された値をサポートするターゲット名前空間にマッピングする必要があります。 例えば、**[!UICONTROL ハッシュ化されたメール]** 一致キーは、Adobe Experience Platformの **[!UICONTROL メール（SHA256、小文字）]** ID 名前空間にマッピングする必要があります。 **[!UICONTROL ハッシュ化されたメール]** 一致キーを **[!UICONTROL メール]** ID 名前空間にマッピングすることはできません。この名前空間は、ハッシュ化された値をサポートしていないからです。
 
-各一致キーの横にある **[!UICONTROL ターゲット名前空間]** フィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示されます。 リストでターゲット名前空間を検索するか、特定の名前空間を検索します。 一致キーに使用するターゲット名前空間を選択し、「**[!UICONTROL 選択]**」を選択します。
-
 ![ 「選択」オプションがハイライト表示されたソースフィールドを選択ダイアログ…](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
-すべての一致キーのマッピングが完了したら、設定を確認してから「**[!UICONTROL 作成]**」を選択し、宛先の作成を完了します。
+アクティベーションマッピングに含める一致キーごとに、このプロセスを繰り返します。 一致キーを含めない場合は、そのキーを削除するか、「リンクされたキー」オプションを使用して別の一致キーに置き換えることができます。
 
-## Adobe Experience Platformを宛先として使用
+#### リンクされたキー {#linked-keys}
 
-Adobe Experience Platformを宛先として設定したら、プロジェクトを通じて、プラットフォームへの [ オーディエンスのアクティブ化 ](../collaborate/activate.md) を開始できます。 現在、アクティベーションプロセスは、広告主によって開始される単一ステップのプロセスです。 広告主がオーディエンスをアクティブ化すると、そのオーディエンスはパブリッシャーの事前設定済み宛先（この場合はAdobe Experience Platform）に送信されます。 パブリッシャーは、オーディエンスを宛先に送信するために、追加の手順を実行する必要はありません。
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_linked_key"
+>title="リンクされたキー"
+>abstract="リンク キーを使用すると、アクティベーション時に元の一致キーの代わりに別の一致キーを使用するように指定できます。 プロファイルをアクティブ化するには、元の一致キーとリンクされた一致キーの両方に値が必要です。"
+
+リンク キーを使用すると、アクティベーション時に元の一致キーの代わりに別の一致キーを使用するように指定できます。 リンクされたキーの動作をより深く理解するために、次の例を考えてみましょう。
+
+retailerは、アクティブ化するデータをExperience Platformに CRM システムに送信します。 retailerでは、オーディエンスをアクティブ化する際に一致率を高めるために、ハッシュ化された IP を自分のアカウントの一致キーとして有効にしました。 ただし、retailerの CRM システムでは、ハッシュ化された IP を ID 名前空間としてサポートしていないので、Experience Platformに対してオーディエンスをアクティブ化する際に、代わりに CRM ID 一致キーを使用します。 retailerでは、「リンクされたキー」オプションを使用すると、ハッシュ化された IP の代わりに CRM ID を使用して、オーディエンスをExperience Platformに対してアクティブ化できます。
+
+>[!NOTE]
+>
+>プロファイルをアクティブ化するには、元の一致キーとリンクされた一致キーの両方に値が必要です。 例えば、ハッシュ化された ID が CRM ID にリンクされている場合、アクティブ化するには、プロファイルにハッシュ化された ID と CRM ID の両方の値が必要です。 いずれかの値が指定されていない場合、プロファイルはアクティブ化されません。
+
+リンクキーを使用するには、代わりに使用する一致キーの横にある **[!UICONTROL リンクキー]** オプションをオンにします。 「**[!UICONTROL リンクされたキー]** セクションが表示され、マッピングを作成するように求められます。
+
+![ 宛先を作成ワークフローでハイライト表示された「リンクされたキー」オプションとセクション。](/help/assets/destinations/adobe-experience-platform/linked-key.png)
+
+使用する **[!UICONTROL リンクキー]** をドロップダウンメニューから選択します。 上記の例では、retailerは **[!UICONTROL CRM ID]** をリンクキーとして選択します。
+
+![ 宛先を作成ワークフローでハイライト表示されたリンクされたキー ](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
+
+次に、リンクされたキーのターゲット名前空間をまだ指定していない場合は、指定します。 **[!UICONTROL アクティベーションマッピングを作成]** セクションで一致キーのターゲット名前空間を既に選択している場合、これが自動入力されます。 リンクされたキーのターゲット名前空間をまだ選択していない場合は、ここで選択できます。
+
+リンクされたキーの横にある **[!UICONTROL ターゲット名前空間]** フィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示されます。 リストでターゲット名前空間を検索するか、特定の名前空間を検索します。 リンクされたキーに使用するターゲット名前空間を選択し、「**[!UICONTROL 選択]**」を選択します。
+
+![ ソースフィールドを選択ダイアログ ](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
+
+これで、リンクされたキーが設定されました。
+
+>[!NOTE]
+>
+>アクティブ化マッピングごとに使用できるリンクされたキーターゲット名前空間は 1 つだけです。 例えば、ハッシュ化された ID を CRM ID にリンクした場合、別のフィールドのリンクされたキーオプションを切り替えると、CRM ID にもリンクされます。
+
+すべての一致キーのマッピングが完了したら、設定を確認します。 「**[!UICONTROL プレビュー]**」セクションには、設定の概要が表示されます。
+
+![ 宛先を作成ワークフローの「プレビュー」セクション ](/help/assets/destinations/adobe-experience-platform/preview.png)
 
 >[!IMPORTANT]
 >
->共同作業者がオーディエンスをアクティベートするには、Adobe Experience Platformを宛先として設定する **&#x200B;**&#x200B;必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Adobe Experience Platformにはアクティベートされません。
+>現在、各一致キーは、個別のオーディエンスとしてExperience Platformに対してアクティブ化されます。 例えば、一致キーとして [!UICONTROL  ハッシュ化されたメール ] と [!UICONTROL  ハッシュ化された電話 ] がある場合、オーディエンスがアクティブ化されると、Audience Portal で 2 つの異なるオーディエンスが作成されます。
+
+設定に問題がなければ、「**[!UICONTROL 宛先を作成]**」を選択します。 宛先が正常に作成されたことを示す確認メッセージが表示されます。
+
+## Adobe Experience Platformを宛先として使用
+
+Experience Platformを宛先として設定したら、プロジェクトを通じて、プラットフォームへの [ オーディエンスのアクティブ化 ](../collaborate/activate.md) を開始できます。 現在、アクティベーションプロセスは、共同作業者によって開始される単一ステップのプロセスです。 例えば、広告主がオーディエンスをアクティブ化すると、そのオーディエンスはパブリッシャーの事前設定済み宛先（Experience Platform）に送信されます。 パブリッシャーは、オーディエンスを宛先に送信するために、追加の手順を実行する必要はありません。 同じことがブランド間のコラボレーションパターンにも当てはまります。
+
+>[!IMPORTANT]
+>
+>共同作業者がオーディエンスをアクティベートするには、Experience Platformを宛先として設定する **** 必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Experience Platformにはアクティベートされません。
 
 オーディエンスがアクティブ化されると、Real-Time CDP Collaborationをオリジンとして、Experience Platformの [ オーディエンスポータル ](#audience-portal) で使用できるようになります。  これらのオーディエンスは、キャンペーンや顧客エンゲージメントで使用できます。
 
@@ -99,4 +145,4 @@ Adobe Experience Platformを宛先として設定したら、プロジェクト�
 
 ![ フィルターオプションでReal-Time CDP Collaborationをオリジンとして使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
