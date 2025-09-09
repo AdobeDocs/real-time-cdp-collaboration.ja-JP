@@ -2,7 +2,7 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platformを宛先として設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"} を参照してください。
+プロジェクトからAdobe Experience Platformに対してオーディエンスをアクティブ化するには、この宛先を設定します。 Adobe Experience Platformに対してオーディエンスをアクティブ化すると、様々なマーケティングチャネルでのオーディエンスのセグメント化、分析およびアクティブ化にプラットフォームの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"} を参照してください。
 
 >[!WARNING]
 >
@@ -121,7 +121,7 @@ retailerは、アクティブ化するデータをExperience Platformに CRM シ
 
 >[!IMPORTANT]
 >
->現在、各一致キーは、個別のオーディエンスとしてExperience Platformに対してアクティブ化されます。 例えば、一致キーとして [!UICONTROL &#x200B; ハッシュ化されたメール &#x200B;] と [!UICONTROL &#x200B; ハッシュ化された電話 &#x200B;] がある場合、オーディエンスがアクティブ化されると、Audience Portal で 2 つの異なるオーディエンスが作成されます。
+>現在、各一致キーは、個別のオーディエンスとしてExperience Platformに対してアクティブ化されます。 例えば、一致キーとして [!UICONTROL  ハッシュ化されたメール ] と [!UICONTROL  ハッシュ化された電話 ] がある場合、オーディエンスがアクティブ化されると、Audience Portal で 2 つの異なるオーディエンスが作成されます。
 
 設定に問題がなければ、「**[!UICONTROL 宛先を作成]**」を選択します。 宛先が正常に作成されたことを示す確認メッセージが表示されます。
 
@@ -131,7 +131,7 @@ Experience Platformを宛先として設定したら、プロジェクトを通�
 
 >[!IMPORTANT]
 >
->共同作業者がオーディエンスをアクティベートするには、Experience Platformを宛先として設定する **&#x200B;**&#x200B;必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Experience Platformにはアクティベートされません。
+>共同作業者がオーディエンスをアクティベートするには、Experience Platformを宛先として設定する **** 必要があります *前* 必要があります。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティベート]** タブに表示されますが、Experience Platformにはアクティベートされません。
 
 オーディエンスがアクティブ化されると、Real-Time CDP Collaborationをオリジンとして、Experience Platformの [ オーディエンスポータル ](#audience-portal) で使用できるようになります。  これらのオーディエンスは、キャンペーンや顧客エンゲージメントで使用できます。
 
@@ -145,4 +145,4 @@ Experience Platformを宛先として設定したら、プロジェクトを通�
 
 ![ フィルターオプションでReal-Time CDP Collaborationをオリジンとして使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+Audience Portal について詳しくは、[Audience Portal の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
