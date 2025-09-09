@@ -2,11 +2,11 @@
 title: オーディエンスをアクティベート
 description: Adobe Real-Time CDP Collaborationでオーディエンスをアクティブ化する方法について説明します。
 audience: admin, publisher
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL アクティブ化]** ワークスペースは、（接続プロセス中に **&#x200B;**&#x200B;Audience Activation[ ユースケースが有効になっている場合にのみ使用でき ](../connect/establishing-connections.md#connection-settings) す。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL アクティブ化]** ワークスペースは、（接続プロセス中に **** Audience Activation[ ユースケースが有効になっている場合にのみ使用でき ](../connect/establishing-connections.md#connection-settings) す。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Audience Activation を使用すると、キャンペーンで使用するオーディエンスをアクティブ化できます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。 [ キャンペーンに最適なオーディエンスを見つけた ](./discover.md) 後、オーディエンスをアクティブ化して使用可能にします。 オーディエンスをアクティブ化すると、そのオーディエンスは共同作業者の事前設定済みの宛先（Adobe Experience Platformなど）に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
 
@@ -42,6 +42,10 @@ Audience Activation を使用すると、キャンペーンで使用するオー
 **[!UICONTROL オーディエンスを参照]** で、各オーディエンスの **[!UICONTROL ID 数]**、**[!UICONTROL 重複する ID]** および **[!UICONTROL 重複 %]** を確認できます。
 
 ![ 使用可能なオーディエンスを表示するオーディエンスを参照ダイアログ ](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>複数の一致キーが使用されているオーディエンスをアクティブ化する場合、1 つ（または複数）の一致キーの重複がない、オーディエンス数がない、またはしきい値を下回る場合、アクティベーション全体が失敗します。 オーディエンスに十分な重複があり、アクティブ化する前にすべての一致キーで 1000 個の ID の最小しきい値を満たしていることを確認します。
 
 キャンペーンでアクティブ化するオーディエンスを選択し、「**[!UICONTROL 保存]**」を選択します。 オーディエンスが表示され、選択したオーディエンスの **[!UICONTROL ID 数]**、**[!UICONTROL 重複 ID]** および **[!UICONTROL 重複 %]** を確認できます。
 

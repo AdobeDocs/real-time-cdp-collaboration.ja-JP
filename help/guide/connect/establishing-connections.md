@@ -2,11 +2,11 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
 >abstract="一致キーには、自分と共同作業者がアカウントレベルで選択した共通の一致キーが事前入力されます。 この接続で使用しない一致キーは、オフに切り替えることができます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ Audience Activation を設定するには、「**[!UICONTROL Audience Activation
 ![ 接続設定ワークスペースのユースケース設定 ](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 一致キー {#match-keys}
+
+>[!IMPORTANT]
+>
+>複数の一致キーが使用されているオーディエンスをアクティブ化する場合、1 つ（または複数）の一致キーの重複がない、オーディエンス数がない、またはしきい値を下回る場合、アクティベーション全体が失敗します。 オーディエンスに十分な重複があり、アクティブ化する前にすべての一致キーで 1000 個の ID の最小しきい値を満たしていることを確認します。
 
 一致キーは、ユーザーと共同作業者が [ アカウントの設定 ](/help/guide/setup/onboard-account.md#set-up-match-keys) 時に選択した共通の一致キーで自動的に入力されます。 自分と共同作業者の両方が選択した **および** 共通している一致するキーのみが表示されます。
 
