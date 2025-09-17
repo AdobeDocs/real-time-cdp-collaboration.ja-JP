@@ -2,18 +2,33 @@
 title: 測定データの追加と管理
 description: Adobe Real-Time CDP Collaborationに測定データを追加する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 9%
 
 ---
 
-# 測定データの追加と管理
+# 測定データの追加と管理 {#add-and-manage-measurement-data}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_onboard_measurement_data"
+>title="詳細情報"
+>abstract=""
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_data_target_fields"
+>title="ターゲットフィールド"
+>abstract="測定ターゲットフィールドのプレースホルダー。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_data_source_fields"
+>title="ソースフィールド"
+>abstract="測定ソースフィールドのプレースホルダー。"
 
 {{limited-availability-release-note}}
 
