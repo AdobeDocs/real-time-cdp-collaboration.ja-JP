@@ -2,24 +2,52 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 6%
 
 ---
 
-# 連携の確立
+# 連携の確立 {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="オーディエンスの比較"
+>abstract="オーディエンスを、Amazon広告で到達したすべてのコンシューマーと比較します。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="関連するオーディエンス"
+>abstract="Amazonのインプレッションのみを考慮して、オーディエンスの重複が最も大きいDSP ターゲティングセグメント（これらのセグメントはDSPでのみターゲット設定できます）。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="解決された ID"
+>abstract="Amazonの ID 解決が、オーディエンスデータを使用して解決できた ID の数です。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="重複する公開済み ID"
+>abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも公開された「解決済み ID」の数を表します。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="重複 %"
+>abstract="Amazon Ads 経由で広告に公開された「解決済み ID」の割合。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Amazon広告商品ごとの分類"
+>abstract="Amazon Ads スポンサー商品またはAmazon Ads DSPが到達した「重複広告公開 ID」の分類。"
 
 {{limited-availability-release-note}}
 
 コラボレーターがキャンペーンで連携する前に、連携を確立する必要があります。 この接続を使用すると、オーディエンスのアクティブ化、プロジェクトの作成およびキャンペーンのパフォーマンスに関するレポートの実行を行うことができます。
 
 選択したコラボレーションパターンに基づいて接続が確立されます。 Collaborationは、広告主からパブリッシャーおよびブランドからブランドという 2 つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、「[ 使用例 ](/help/guide/overview/use-cases.md) ガイドを参照してください。
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 接続を確立する方法については、コラボレーションパターンに対応する以下の節を参照してください。
 
@@ -195,7 +223,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
 >abstract="一致キーには、自分と共同作業者がアカウントレベルで選択した共通の一致キーが事前入力されます。 この接続で使用しない一致キーは、オフに切り替えることができます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
