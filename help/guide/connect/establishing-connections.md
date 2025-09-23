@@ -2,12 +2,12 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="重複する公開済み ID"
+>title="重複する広告の公開 ID"
 >abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも公開された「解決済み ID」の数を表します。"
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Amazon広告商品ごとの分類"
+>title="Amazon 広告製品別に分類"
 >abstract="Amazon Ads スポンサー商品またはAmazon Ads DSPが到達した「重複広告公開 ID」の分類。"
 
 {{limited-availability-release-note}}
@@ -222,7 +222,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
->abstract="一致キーには、自分と共同作業者がアカウントレベルで選択した共通の一致キーが事前入力されます。 この接続で使用しない一致キーは、オフに切り替えることができます。"
+>abstract="一致キーには、自身と共同作業者がアカウントレベルで選択した、共通の一致キーが事前入力されています。この接続で使用しない一致キーは、オフに切り替えることができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
 
 >[!CONTEXTUALHELP]

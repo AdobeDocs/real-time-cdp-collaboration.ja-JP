@@ -2,12 +2,12 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
->abstract="一致キーは、様々なデータソースからのオーディエンスプロファイルを紐付けするために使用される識別子です。 ブランドで使用できる一致キーを含めます。"
+>abstract="一致キーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。ブランドで使用できる一致キーを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ファーストパーティユーザー ID"
->abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM ID などのファーストパーティの人物 ID は、個々のプロファイルに直接接続されます。"
+>title="ファーストパーティ人物 ID"
+>abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM ID などのファーストパーティ人物 ID は、個々のプロファイルに直接接続されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ファーストパーティデバイス ID"
->abstract="ECID や IP アドレスなどのファーストパーティデバイス ID はデバイスに直接接続され、複数の個人で共有される場合があります。 現在サポートされているファーストパーティデバイス ID は IPv4 のみです。"
+>abstract="ECID や IP アドレスなどのファーストパーティデバイス ID はデバイスに直接接続され、複数の個人間で共有される場合があります。現在サポートされているファーストパーティデバイス ID は IPv4 のみです。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="サポートされるパートナー ID"
->abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーから提供される識別子です。 パートナー ID は、個々のプロファイルに直接接続されていません。"
+>abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。パートナー ID は、個々のプロファイルに直接接続されません。"
 
 ![ サポートされる一致キー。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ Collaborationでは、ファーストパーティの人物 ID、ファースト�
 * 大文字を使用するハッシュ値を指定すると、Collaborationによって自動的に小文字に変換されます。
 * ソースに **プレーンテキスト識別子** が含まれている場合は、**[!UICONTROL データ接続の設定]** 中に [ 変換を適用 ](./manage-data-connection.md#match-keys) オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスを取得する場合にのみ使用でき、クラウドベースのソースではサポートされません。
 
-##### ファーストパーティユーザー ID
+##### ファーストパーティ人物 ID
 
 ファーストパーティの人物 ID は個人プロファイルに直接接続されます。 現在サポートされている ID は次のとおりです。
 
@@ -115,7 +115,7 @@ Collaborationでは、ファーストパーティの人物 ID、ファースト�
 
 ##### パートナー ID
 
-パートナー ID は、オーディエンスの紐付けのために外部パートナーから提供される識別子です。 現在サポートされている ID は次のとおりです。
+パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。現在サポートされている ID は次のとおりです。
 
 * **[!UICONTROL Adfixus ID]**
 
@@ -159,11 +159,11 @@ Collaborationでは、ファーストパーティの人物 ID、ファースト�
 
 ![ アカウントの「一致キー」セクション内で「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL &#x200B; アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
+**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL  アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
 
 >[!IMPORTANT]
 >
->[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL &#x200B; データ接続スケジュール &#x200B;] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
+>[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL  データ接続スケジュール ] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
 
 ![ 「保存」オプションがハイライト表示されたキーを一致させるダイアログ ](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 

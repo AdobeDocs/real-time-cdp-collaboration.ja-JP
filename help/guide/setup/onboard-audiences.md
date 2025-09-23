@@ -2,12 +2,12 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでオーディエンスをソース化および管理する方法を学ぶ
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
 source-wordcount: '3508'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 14%
 
 共同作業者とオーディエンスをアクティブ化し、重複計算を実行する前に、オーディエンスをCollaborationにソーシングする必要があります。 オーディエンスをソース化するには、以下の節で示すワークフロー手順に従います。
 
-**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 &#x200B;]」オプションを選択することもでき** す。
+**[!UICONTROL 設定]** ワークスペース内の **[!UICONTROL マイオーディエンス]** タブで、追加アイコン（![ 追加アイコン](/help/assets/icons/plus.png)）を選択してから、**[!UICONTROL オーディエンス]** を選択します。 初めてのオーディエンスの場合は、「**[!UICONTROL 追加 ]」オプションを選択することもでき** す。
 
 ![ 「追加」オプションと「オーディエンス」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
@@ -34,7 +34,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="マーケティングアクション"
->abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。<strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。<strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックス <em> 無効 </em> をオンにした場合、Real-Time CDP CollaborationをソースにできるExperience Platformのデータに関する制限はありません。</li></ul></p>"
+>abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。<strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。<strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックスを<em>無効</em>にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータがソースとされます。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja" text="データ使用ラベルの概要"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja" text="データ使用ラベルの用語集"
 
@@ -80,7 +80,7 @@ ht-degree: 14%
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。**[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
+詳しくは、[C4、C5 および C9 データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"} を参照してください。
 
 * チェックボックスが ***有効*** になっている場合、上記のようにExperience Platformでラベル付けされたデータは除外され、Collaborationに取り込まれます **無効**。
 * チェックボックス ***無効*** をオンにした場合、Experience Platformをソースとするデータに関する制限はありません。
@@ -114,7 +114,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。"
+>abstract="ターゲットフィールドは、アカウント設定時に選択した一致キーです。デフォルトでは、選択したすべての一致キーを使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -130,7 +130,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="プロファイル属性"
->abstract="Experience Platformのプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM Individual Profile クラスに属する属性が表示されます。"
+>abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
 次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、アカウント設定時に選択した一致キーに基づきます
@@ -147,11 +147,11 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source フィールド]** は、Experience Platformの id 名前空間および属性です。 これには、[ 標準 ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}ID 名前空間と [ カスタム ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#create-namespaces){target="_blank"} ID 名前空間の両方が含まれます。 また、[ 和集合スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"} に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
+**[!UICONTROL Source フィールド]** は、Experience Platformの id 名前空間および属性です。 これには、[ 標準 ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}ID 名前空間と [ カスタム ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} ID 名前空間の両方が含まれます。 また、[ 和集合スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"} に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
 
 Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
 
-**[!UICONTROL ターゲットフィールド]** は、Collaborationでの ID の参照方法を示します。 ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
+**[!UICONTROL ターゲットフィールド]** は、Collaborationでの ID の参照方法を示します。 ターゲットフィールドは、アカウント設定時に選択した一致キーです。デフォルトでは、選択したすべての一致キーを使用できます。
 
 **[!UICONTROL ハッシュ化されていない]** フィールドをハッシュ化されたフィールドにソーシングしている場合は、*変換を適用* オプションを使用します。 Collaborationはハッシュを適用し、フィールドを変換します。 Adobeで使用されるハッシュアルゴリズムは SHA256 です。
 

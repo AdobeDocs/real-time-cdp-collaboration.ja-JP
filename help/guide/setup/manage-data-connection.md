@@ -2,12 +2,12 @@
 title: データ接続を管理
 description: Real-Time CDP Collaborationでの一致キー、スケジュール、ユースケース、オーディエンスフィルタリングなど、データ接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="一致キー"
->abstract=" 一致キーは、様々なソースのデータの一致方法を決定します。以下に示す一致キーは、ソースフィールドにマッピングしたターゲットフィールドです。"
+>abstract=" 一致キーは、様々なソースのデータの一致方法を決定します。以下に示す一致キーは、ソースフィールドをマッピングしたターゲットフィールドです。"
 
 一致キーは、[ ソースフィールドをマッピング ](./onboard-audiences.md#map-fields) したターゲットフィールドです。 データ接続用に最初に選択した一致キーは編集できません。 一致キーを更新するには、新しいデータ接続を作成する必要があります。 マッチ キーの仕組みについては、[ マッチ キー ](./onboard-account.md#set-up-match-keys) ガイドを参照してください。
 
