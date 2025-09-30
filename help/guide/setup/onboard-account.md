@@ -2,12 +2,12 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントの様々な側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,11 @@ ht-degree: 13%
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
 >abstract="一致キーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。ブランドで使用できる一致キーを含めます。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="一致キー"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
@@ -159,11 +164,11 @@ Collaborationでは、ファーストパーティの人物 ID、ファースト�
 
 ![ アカウントの「一致キー」セクション内で「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL &#x200B; アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
+**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL  アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
 
 >[!IMPORTANT]
 >
->[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL &#x200B; データ接続スケジュール &#x200B;] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
+>[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL  データ接続スケジュール ] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
 
 ![ 「保存」オプションがハイライト表示されたキーを一致させるダイアログ ](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
