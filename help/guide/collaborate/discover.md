@@ -2,11 +2,11 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 | **[!UICONTROL 重複する ID]** | ユーザーと共同作業者のオーディエンスの両方に存在する一意の ID の数。 |
 | **[!UICONTROL 重複 %]** | ユーザーと共同作業者の選択したオーディエンス間でプロファイルが重複している割合。 |
 | **[!UICONTROL オーディエンスインデックス]** | 基になるオーディエンスの数と重複に基づいて、あるオーディエンスと別のオーディエンスの関係の強さを示すスコア。 スコアの意味について詳しくは、[ オーディエンスインデックススコア ](#audience-index-score) の節を参照してください。 共同作業者のベースライン（すべてのオーディエンス）と比較する場合、オーディエンスインデックススコアは使用できません。 |
-| **[!UICONTROL 一致キーによる ID の分類]** | プロジェクトで選択した各一致キーの ID の分類。各共同作業者の選択オーディエンスに基づきます。 |
+| **[!UICONTROL 一致キーによる ID の分類]** | プロジェクトで選択した各一致キーに一致する ID の分類。各共同作業者の選択オーディエンスに基づきます。 |
 
 {style="table-layout:auto"}
 

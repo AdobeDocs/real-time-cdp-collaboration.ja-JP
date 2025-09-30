@@ -2,9 +2,9 @@
 title: 連携の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ ht-degree: 7%
 
 ![ 広告主とパブリッシャーの接続プロセスの概要図。](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-広告主からパブリッシャーへのパターンでは、広告主は **[!UICONTROL パブリッシャーの検出]** ワークスペースを通じて、連携するパブリッシャーを検出し、接続の招待を送信します。 次に、パブリッシャーは招待を確認して受け入れ、広告主が接続設定を提案できるようにします。 パブリッシャーが接続設定を受け入れると、接続が確立され、両方の共同作業者がプロジェクトでの作業を開始できます。
+広告主からパブリッシャーへのパターンでは、広告主は **[!UICONTROL 共同作業者を見つける]** ワークスペースを通じて、連携したいパブリッシャーを見つけ、接続の招待を送信します。 次に、パブリッシャーは招待を確認して受け入れ、広告主が接続設定を提案できるようにします。 パブリッシャーが接続設定を受け入れると、接続が確立され、両方の共同作業者がプロジェクトでの作業を開始できます。
 
 ### の概要
 
 広告主とパブリッシャーの間の接続を確立するには、次の手順が必要です。
 
-1. [ パブリッシャーの検出 ](#discover-publishers)：広告主は、共同作業を行う潜在的なパブリッシャーを特定します。
+1. [ パブリッシャーを見つける ](#discover-collaborators)：広告主は、連携する潜在的な共同作業者を特定します。
 1. [ 招待を送信 ](#send-invite)：広告主は、選択したパブリッシャーに接続招待を送信します。
 1. [ 招待を受け入れる ](#accept-invite)：パブリッシャーが招待をレビューし、承認します。
 1. [ 接続設定の指定 ](#configure-connection-settings)：広告主は接続設定を指定し、レビュー用にパブリッシャーに送信します。
@@ -108,25 +108,25 @@ ht-degree: 7%
 
 **[!UICONTROL 接続]** ワークスペースでは、共同作業者との接続を管理したり、接続招待状を送信したり、広告主が発行者ディレクトリを参照したりできます。 ワークスペースは、次の 2 つのメインタブに分かれています。
 
-### パブリッシャーを検出 {#discover-publishers}
+### 共同作業者を見つける {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->**[!UICONTROL パブリッシャーの検出]** ワークスペースを使用してパブリッシャーを検出できるのは広告主のみです。 役割に関係なく共同作業者と接続する方法については、[ ブランド間接続 ](#brand-to-brand-connection) の節を参照してください。
+>**[!UICONTROL 共同作業者を検出]** ワークスペースを使用してパブリッシャーを検出できるのは広告主のみです。 役割に関係なく共同作業者と接続する方法については、[ ブランド間接続 ](#brand-to-brand-connection) の節を参照してください。
 
-パブリッシャーを検出するには、「**[!UICONTROL 接続]**」タブの **[!UICONTROL パブリッシャーを検出]** ワークスペースに移動します。 ここでは、ワークスペースの下部にあるページネーションコントロールを使用して、使用可能な公開者のリストを参照できます。 **[!UICONTROL Discover パブリッシャー]** ワークスペースについて詳しくは、[Discover パブリッシャー ](/help/guide/connect/discover-publishers.md) ガイドを参照してください。
+パブリッシャーを検出するには、「**[!UICONTROL 接続]** タブの **[!UICONTROL 共同作業者を検出]** ワークスペースに移動します。 ここでは、ワークスペースの下部にあるページネーションコントロールを使用して、使用可能な公開者のリストを参照できます。 **[!UICONTROL 共同作業者を検出]** ワークスペースについて詳しくは、[ 共同作業者を検出 ](/help/guide/connect/discover-collaborators.md) ガイドを参照してください。
 
-![ 使用可能なパブリッシャーのリストを表示する Discover パブリッシャーワークスペース。](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![ 使用可能な公開者のリストが表示されている共同作業者を見つけるワークスペース。](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### 招待状を送信 {#send-invite}
 
 >[!IMPORTANT]
 >
->ここでは、広告主が **[!UICONTROL Discover パブリッシャー]** ワークスペースを通じて接続招待をパブリッシャーに送信するプロセスについて説明します。 ブランドの役割に関係なく、ブランド間の接続を形成する方法については、[ ブランド間接続 ](#brand-to-brand-connection) の節を参照するか、[ プライベート接続の招待 ](#private-connection-invite) の節を参照してください。
+>ここでは、広告主が **[!UICONTROL 共同作業者を検出]** ワークスペースを通じて接続招待をパブリッシャーに送信するプロセスについて説明します。 ブランドの役割に関係なく、ブランド間の接続を形成する方法については、[ ブランド間接続 ](#brand-to-brand-connection) の節を参照するか、[ プライベート接続の招待 ](#private-connection-invite) の節を参照してください。
 
 共同作業するパブリッシャーを特定したら、パブリッシャーカードの **[!UICONTROL 接続]** オプションを選択します。 接続プロセスを開始します。
 
-![Discover パブリッシャーワークスペースで特定のパブリッシャーでハイライト表示された「接続」オプション。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![ 共同作業者を検出ワークスペースの特定のパブリッシャーでハイライト表示された「接続」オプション。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 接続招待をパブリッシャーに送信するよう促すダイアログが表示されます。 「**[!UICONTROL 招待を送信]**」を選択して続行します。
 
