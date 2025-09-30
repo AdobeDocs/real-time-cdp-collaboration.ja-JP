@@ -23,7 +23,7 @@ Adobe Real-Time CDP Collaborationの潜在的な共同作業者を見つけて�
 
 共同作業者を検出するには、**[!UICONTROL Connect]**/**[!UICONTROL 共同作業者を検出]** タブに移動します。
 
-![[!UICONTROL  接続 ] ワークスペースの [!UICONTROL  共同作業者を検出 ] ダッシュボード。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
+![[!UICONTROL &#x200B; 接続 &#x200B;] ワークスペースの [!UICONTROL &#x200B; 共同作業者を検出 &#x200B;] ダッシュボード。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
 パブリッシャーの詳細を確認するには、「**[!UICONTROL パブリッシャーを表示]**」を選択します。 また、パブリッシャーが [ 公開として設定 ](/help/guide/setup/onboard-audiences.md#metadata-visibility) したオーディエンスを表示および検査することもできます。
 
