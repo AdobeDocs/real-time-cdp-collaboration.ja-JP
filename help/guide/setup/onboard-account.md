@@ -164,11 +164,11 @@ Collaborationでは、ファーストパーティの人物 ID、ファースト�
 
 ![ アカウントの「一致キー」セクション内で「編集」オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL  アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
+**[!UICONTROL キーを一致]** ダイアログが表示されます。 任意の一致キーのオン/オフを切り替えるか、**[!UICONTROL Adfixus ID]** の [!UICONTROL &#x200B; アカウント ID] を更新してから、「**[!UICONTROL 保存]**」を選択して変更を確定します。
 
 >[!IMPORTANT]
 >
->[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL  データ接続スケジュール ] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
+>[!UICONTROL Adfixus ID] を変更しても、マッチ キーを使用して既存のデータ接続の [ データ スケッチ ](../glossary.md#sketches) 更新がトリガーされることはありません。 データをスケッチすると、[!UICONTROL &#x200B; データ接続スケジュール &#x200B;] 設定に従って次回オーディエンスを更新するまで、[Adfixus ID](./manage-data-connection.md#scheduling) に対する変更は反映されません。 次回の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
 
 ![ 「保存」オプションがハイライト表示されたキーを一致させるダイアログ ](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
