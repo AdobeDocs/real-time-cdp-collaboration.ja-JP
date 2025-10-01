@@ -1,47 +1,47 @@
 ---
-title: 連携の確立
+title: 接続の確立
 description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# 連携の確立 {#establishing-connections}
+# 接続の確立 {#establishing-connections}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
 >title="オーディエンスの比較"
->abstract="オーディエンスを、Amazon広告で到達したすべてのコンシューマーと比較します。"
+>abstract="オーディエンスを Amazon Ads がリーチしたすべての消費者と比較します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_relevant_audiences"
 >title="関連するオーディエンス"
->abstract="Amazonのインプレッションのみを考慮して、オーディエンスの重複が最も大きいDSP ターゲティングセグメント（これらのセグメントはDSPでのみターゲット設定できます）。"
+>abstract="DSP インプレッションのみを考慮して、オーディエンスの重複が最も高い Amazon ターゲティング セグメント（これらのセグメントは DSP でのみターゲット設定できます）。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="解決された ID"
->abstract="Amazonの ID 解決が、オーディエンスデータを使用して解決できた ID の数です。"
+>title="解決済み ID"
+>abstract="Amazon の ID 解決がオーディエンスデータを使用して解決できた ID の数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="重複する広告の公開 ID"
->abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも公開された「解決済み ID」の数を表します。"
+>title="重複する広告表示 ID"
+>abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも表示された「解決済み ID」の数を表します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="重複 %"
->abstract="Amazon Ads 経由で広告に公開された「解決済み ID」の割合。"
+>title="重複率"
+>abstract="Amazon Ads 経由で広告に表示された「解決済み ID」の割合。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Amazon 広告製品別に分類"
->abstract="Amazon Ads スポンサー商品またはAmazon Ads DSPが到達した「重複広告公開 ID」の分類。"
+>title="Amazon 広告商品ごとの分類"
+>abstract="Amazon Ads スポンサー商品または Amazon Ads DSP がリーチした「重複広告表示 ID」の分類。"
 
 {{limited-availability-release-note}}
 
