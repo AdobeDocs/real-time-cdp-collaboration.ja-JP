@@ -14,7 +14,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-[!DNL Amazon Marketing Cloud] （[!DNL AMC]）との接続を形成した後、広告主は [ プロジェクトを作成 ](../manage-projects.md#create-project) して [!DNL AMC] との共同作業を行い、高度な分析機能を活用できます。 プロジェクトを作成した後、「**[!UICONTROL 検出]**」セクションを使用して、オーディエンスインサイトを比較し、キャンペーンに関連するオーディエンスを検出できます。
+[!DNL Amazon Marketing Cloud] （[!DNL AMC]）との接続を形成した後、広告主は [&#x200B; プロジェクトを作成 &#x200B;](../manage-projects.md#create-project) して [!DNL AMC] との共同作業を行い、高度な分析機能を活用できます。 プロジェクトを作成した後、「**[!UICONTROL 検出]**」セクションを使用して、オーディエンスインサイトを比較し、キャンペーンに関連するオーディエンスを検出できます。
 
 >[!IMPORTANT]
 >
@@ -66,10 +66,10 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL  解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
-| [!UICONTROL  重複する公開済み ID] | [!UICONTROL  経由で広告にも公開された、アップロードされたオーディエンスの ] 解決済み ID[!DNL Amazon Ads] の数。 |
-| [!UICONTROL  重複 %] | [!UICONTROL  を介して広告に公開された ] 解決済み ID[!DNL Amazon Ads] の割合。 |
-| [!UICONTROL Amazon広告商品ごとの内訳 ] | [!UICONTROL  スポンサー付き商品 ] または [!UICONTROL DSP] のいずれかによって到達した [!UICONTROL  重複する広告公開済み ID] の分類。 各は、広告に公開された ID の合計数に対する個々の割合として表されます。 ID は [!UICONTROL  スポンサー商品 ] と [!UICONTROL DSP] の両方に属している可能性があるので、割合は合計で 100% にならない場合があります。 |
+| [!UICONTROL &#x200B; 解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
+| [!UICONTROL &#x200B; 重複する公開済み ID] | [!UICONTROL &#x200B; 経由で広告にも公開された、アップロードされたオーディエンスの &#x200B;] 解決済み ID[!DNL Amazon Ads] の数。 |
+| [!UICONTROL &#x200B; 重複 %] | [!UICONTROL &#x200B; を介して広告に公開された &#x200B;] 解決済み ID[!DNL Amazon Ads] の割合。 |
+| [!UICONTROL Amazon広告商品ごとの内訳 &#x200B;] | [!UICONTROL &#x200B; スポンサー付き商品 &#x200B;] または [!UICONTROL DSP] のいずれかによって到達した [!UICONTROL &#x200B; 重複する広告公開済み ID] の分類。 各は、広告に公開された ID の合計数に対する個々の割合として表されます。 ID は [!UICONTROL &#x200B; スポンサー商品 &#x200B;] と [!UICONTROL DSP] の両方に属している可能性があるので、割合は合計で 100% にならない場合があります。 |
 
 
 ### 関連するオーディエンス {#relevant-audiences}
@@ -78,10 +78,10 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL  解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
-| [!UICONTROL  重複する公開済み ID] | これは、アップロードされたオーディエンスのうち、[!UICONTROL  経由で広告にも公開された ] 解決済み ID[!DNL Amazon Ads] の数を表します。 これは、DSPのインプレッションのみを考慮します。 |
-| [!UICONTROL  重複 %] | [!UICONTROL  を介して広告に公開された ] 解決済み ID[!DNL Amazon Ads] の割合。 |
-| [!UICONTROL  カテゴリ ] | オーディエンスが属するカテゴリ（複数可）。 オーディエンスは複数のカテゴリに属することができます。 |
+| [!UICONTROL &#x200B; 解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
+| [!UICONTROL &#x200B; 重複する公開済み ID] | これは、アップロードされたオーディエンスのうち、[!UICONTROL &#x200B; 経由で広告にも公開された &#x200B;] 解決済み ID[!DNL Amazon Ads] の数を表します。 これは、DSPのインプレッションのみを考慮します。 |
+| [!UICONTROL &#x200B; 重複 %] | [!UICONTROL &#x200B; を介して広告に公開された &#x200B;] 解決済み ID[!DNL Amazon Ads] の割合。 |
+| [!UICONTROL &#x200B; カテゴリ &#x200B;] | オーディエンスが属するカテゴリ（複数可）。 オーディエンスは複数のカテゴリに属することができます。 |
 
 ### Discover と [!DNL Amazon Marketing Cloud] の重複 {#discover-overlaps}
 
@@ -89,6 +89,6 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL  解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
-| [!UICONTROL  重複する公開済み ID] | これは、アップロードされたオーディエンスのうち、[!UICONTROL  経由で広告にも公開された ] 解決済み ID[!DNL Amazon Ads] の数を表します。 これは、DSPのインプレッションのみを考慮します。 |
-| [!UICONTROL  重複 %] | [!UICONTROL  を介して広告に公開された ] 解決済み ID[!DNL Amazon Ads] の割合。 |
+| [!UICONTROL &#x200B; 解決された ID] | [!DNL Amazon’s Identity Resolution] がオーディエンスデータを使用して解決できた ID の数。 |
+| [!UICONTROL &#x200B; 重複する公開済み ID] | これは、アップロードされたオーディエンスのうち、[!UICONTROL &#x200B; 経由で広告にも公開された &#x200B;] 解決済み ID[!DNL Amazon Ads] の数を表します。 これは、DSPのインプレッションのみを考慮します。 |
+| [!UICONTROL &#x200B; 重複 %] | [!UICONTROL &#x200B; を介して広告に公開された &#x200B;] 解決済み ID[!DNL Amazon Ads] の割合。 |
