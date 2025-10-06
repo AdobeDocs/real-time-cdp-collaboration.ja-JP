@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを使用すると、広告主とパブリッシャーの間でシームレスで安全なデータ共有および共同作業が可能になり、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略が促進されます。
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 36%
+source-wordcount: '139'
+ht-degree: 39%
 
 ---
 
@@ -29,14 +29,23 @@ ht-degree: 36%
    * [ID クロスウォーク](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [監査ログ](./setup/audit-logs.md)
-* 連携の確立 {#connect}
+* 接続の確立 {#connect}
+   * [Overview.md](./connect/overview.md)
    * [共同作業者を見つける](./connect/discover-collaborators.md)
-   * [連携の確立](./connect/establishing-connections.md)
+   * [コラボレータ接続の確立](./connect/establishing-connections.md)
+   * [接続の管理](./connect/manage-connections.md)
+   * Advertising platform connections {#ad-platform-connections}
+      * [概要](./connect/advertising-platforms/overview.md)
+      * [AmazonMarketing Cloud](./connect/advertising-platforms/amc.md)
 * 共同作業 {#collaborate}
+   * [概要](./collaborate/overview.md)
    * [プロジェクトの管理](./collaborate/manage-projects.md)
-   * [検出](./collaborate/discover.md)
-   * [アクティブ化](./collaborate/activate.md)
-   * [測定](./collaborate/measure.md)
+   * コラボレータ接続 {#collaborator-connections}
+      * [検出](./collaborate/discover.md)
+      * [アクティブ化](./collaborate/activate.md)
+      * [測定](./collaborate/measure.md)
+   * Advertising platform connections {#ad-platform-connections}
+      * [AmazonMarketing Cloud](./collaborate/advertising-platforms/amc.md)
 * 宛先 {#destinations}
    * [概要](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

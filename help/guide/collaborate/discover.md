@@ -2,11 +2,11 @@
 title: 重複の検出とオーディエンスの比較
 description: 自分と共同作業者のオーディエンスの重複を見つけます。 キャンペーンで使用する最適なオーディエンスを見つける方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 17%
 * 自分と共同作業者の間で [ プロジェクトが作成されました ](/help/guide/collaborate/manage-projects.md)
 
 これらの前提条件が満たされたら、自分と共同作業者のオーディエンスの重複を調査し、比較することができます。
+
+>[!NOTE]
+>
+>この **[!UICONTROL 検出]** ワークスペースは、広告プラットフォームとのコラボレーションには関係ありません。 現在、Real-Time CDP Collaborationで利用可能な広告プラットフォームは、Amazon Marketing Cloudのみです。 [!DNL AMC] **[!UICONTROL Discover]** ワークスペースについて詳しくは、[Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) ガイドを参照してください。
 
 ## オーディエンスの比較 {#compare-audiences}
 

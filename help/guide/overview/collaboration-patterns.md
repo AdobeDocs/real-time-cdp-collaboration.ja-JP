@@ -2,10 +2,11 @@
 title: Adobe Real-Time CDP Collaborationの共同作業パターン。
 description: Adobe Real-Time CDP Collaborationの 2 つのコラボレーションパターンについて
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
+source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Real-Time CDP CollaborationのCollaboration パターンは、共同作業
 
 広告主とパブリッシャーの違いについて詳しくは、[roles](/help/guide/overview/roles.md) ガイドを参照してください。
 
-## 広告主から発行者へ
+## 広告主から発行者へ {#advertiser-to-publisher}
 
 広告主とパブリッシャーのコラボレーションパターンでは、広告主はパブリッシャーと連携してオーディエンスをターゲットにし、測定することを目指します。 このパターンにより、広告主はパブリッシャーオーディエンスを活用してターゲティング機能を強化できます。一方、パブリッシャーはオーディエンスの行動や好みに関する貴重なインサイトを提供できます。 広告主は、適切なオーディエンスに適切なタイミングで到達することでキャンペーンを最適化できますが、パブリッシャーは広告主のデータにアクセスできます。これにより、オーディエンスをよりよく理解し、コンテンツオファーを改善できます。
 
@@ -26,7 +27,7 @@ Adobe Real-Time CDP CollaborationのCollaboration パターンは、共同作業
 
 このパターンにおける広告主とパブリッシャーの共同作業の方法について詳しくは、[ エンドツーエンドのワークフロー ](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
 
-## ブランド間
+## ブランド間 {#brand-to-brand}
 
 >[!NOTE]
 >
@@ -37,3 +38,11 @@ Adobe Real-Time CDP CollaborationのCollaboration パターンは、共同作業
 ![ ブランド間コラボレーションの例 ](/help/assets/overview/brand-to-brand.png)
 
 ブランドがこのパターンで共同作業する方法について詳しくは、[ エンドツーエンドのワークフロー ](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
+
+## 広告主から広告へのプラットフォーム {#advertiser-to-advertising-platform}
+
+広告主から広告プラットフォームへのコラボレーションパターンにより、広告主は [!DNL Amazon Marketing Cloud] （[!DNL AMC]）などのサードパーティの広告プラットフォームと接続して、マーケティング機能を強化できます。 このパターンにより、広告主はプラットフォームの ID 解決およびターゲティングツールを活用して、データの影響を拡張することができます。 広告プラットフォームと統合することで、広告主はオーディエンス全体で正確なパフォーマンスインサイトを提供し、費用の最適化、関連性の向上、測定可能なビジネス成果の促進を可能にします。
+
+![ 広告主と広告プラットフォームのコラボレーションの例 ](/help/assets/overview/advertiser-to-advertising-platform.png)
+
+このパターンにおける広告プラットフォームとのコラボレーション方法について詳しくは、[ エンドツーエンドのワークフロー ](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。

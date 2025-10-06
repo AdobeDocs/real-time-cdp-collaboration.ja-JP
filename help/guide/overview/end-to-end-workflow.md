@@ -2,11 +2,11 @@
 title: エンドツーエンドのワークフロー
 description: 共同作業パターンに基づいて、Real-Time CDP Collaborationのエンドツーエンドでの使用ワークフローを理解します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Adobe Real-Time CDP Collaborationのエンドツーエンドワークフロー�
 
 アカウントを確立したら、[!UICONTROL Luma] と [!UICONTROL TV Tube] の両方で [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) が必要です。 マーケティングキャンペーンのオーディエンスをアクティブ化するのは [!UICONTROL TV Tube] のみなので、[ 宛先の設定 ](../setup/manage-destinations.md) が必要です。
 
-両方の共同作業者がアカウントを設定すると、プラットフォーム内で [ 接続を作成 ](../connect/establishing-connections.md) する準備が整います。 [!UICONTROL Luma] は、[ 共同作業者を検出 ](../connect/discover-collaborators.md) 機能を使用して [!UICONTROL TV チューブ &#x200B;] を検索し、接続リクエストを開始します。 [!UICONTROL TV Tube] が接続リクエストを受け入れると、[!UICONTROL Luma] が接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL TV Tube] は、2 つのブランド間に安全なリンクを確立するための接続要求を受け入れます。
+両方の共同作業者がアカウントを設定すると、プラットフォーム内で [ 接続を作成 ](../connect/establishing-connections.md) する準備が整います。 [!UICONTROL Luma] は、[ 共同作業者を検出 ](../connect/discover-collaborators.md) 機能を使用して [!UICONTROL TV チューブ ] を検索し、接続リクエストを開始します。 [!UICONTROL TV Tube] が接続リクエストを受け入れると、[!UICONTROL Luma] が接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL TV Tube] は、2 つのブランド間に安全なリンクを確立するための接続要求を受け入れます。
 
-接続が確立されると、[!UICONTROL Luma] は [TV Tube](../collaborate/manage-projects.md) との共同作業を開始するために [!UICONTROL &#x200B; プロジェクトを作成 &#x200B;] します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
+接続が確立されると、[!UICONTROL Luma] は [TV Tube](../collaborate/manage-projects.md) との共同作業を開始するために [!UICONTROL  プロジェクトを作成 ] します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
 
 [!UICONTROL Luma] は、[Discover](../collaborate/discover.md) のユースケースを活用して、[!UICONTROL TV Tube] のオーディエンスデータに関するインサイトを得ます。 [!UICONTROL Luma] がターゲットオーディエンスセグメントを識別したら、これらのオーディエンスは [ アクティブ化 ](../collaborate/activate.md) されます。
 
@@ -51,12 +51,24 @@ Adobe Real-Time CDP Collaborationのエンドツーエンドワークフロー�
 
 アスレチックアパレルブランドの [!UICONTROL Fit Apparel] は、別のアスレチックアパレルブランドである [!UICONTROL Luma] と連携して、オーディエンスデータとインサイトを共有し、マーケティング活動を強化したいと考えています。
 
-アカウントを確立した後、[!UICONTROL &#x200B; アパレルに適合 &#x200B;] と [!UICONTROL Luma] の両方で [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) が必要になります。 [!UICONTROL &#x200B; アパレルに適合 &#x200B;] と [!UICONTROL Luma] の両方がマーケティングキャンペーンのオーディエンスをアクティブ化するので、両方とも [ 宛先を設定 ](../setup/manage-destinations.md) する必要があります。
+アカウントを確立した後、[!UICONTROL  アパレルに適合 ] と [!UICONTROL Luma] の両方で [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) が必要になります。 [!UICONTROL  アパレルに適合 ] と [!UICONTROL Luma] の両方がマーケティングキャンペーンのオーディエンスをアクティブ化するので、両方とも [ 宛先を設定 ](../setup/manage-destinations.md) する必要があります。
 
-オーディエンスをソーシングした後は、プラットフォーム内で [!UICONTROL &#x200B; アパレルに適合 &#x200B;] および [!UICONTROL Luma] [ 接続を形成 ](../connect/establishing-connections.md) し、オーディエンスデータを安全に共有します。 これを行うには、[ プライベート接続の招待 ](../connect/establishing-connections.md#private-connection-invite) 機能を利用する必要があります。 [!UICONTROL Luma] は接続コードを [!UICONTROL Fit Apparel] と共有し、そのコードを使用して接続リクエストを開始します。 [!UICONTROL Luma] が接続リクエストを受け入れると、[!UICONTROL Fit Apparel] が接続設定を設定し、共同作業の方法を定義します。 設定の [!UICONTROL &#x200B; アパレルに合わせる &#x200B;] は、両方の共同作業者がマーケティングキャンペーンのオーディエンスをアクティブ化できることを指定します。 接続を完了するために、[!UICONTROL Luma] は、2 つのブランド間に安全なリンクを確立するリクエストを受け入れます。
+オーディエンスをソーシングした後は、プラットフォーム内で [!UICONTROL  アパレルに適合 ] および [!UICONTROL Luma] [ 接続を形成 ](../connect/establishing-connections.md) し、オーディエンスデータを安全に共有します。 これを行うには、[ プライベート接続の招待 ](../connect/establishing-connections.md#private-connection-invite) 機能を利用する必要があります。 [!UICONTROL Luma] は接続コードを [!UICONTROL Fit Apparel] と共有し、そのコードを使用して接続リクエストを開始します。 [!UICONTROL Luma] が接続リクエストを受け入れると、[!UICONTROL Fit Apparel] が接続設定を設定し、共同作業の方法を定義します。 設定の [!UICONTROL  アパレルに合わせる ] は、両方の共同作業者がマーケティングキャンペーンのオーディエンスをアクティブ化できることを指定します。 接続を完了するために、[!UICONTROL Luma] は、2 つのブランド間に安全なリンクを確立するリクエストを受け入れます。
 
-接続が確立されると、[!UICONTROL &#x200B; アパレルにフィット &#x200B;][ プロジェクトを作成 ](../collaborate/manage-projects.md) して、[!UICONTROL Luma] とのコラボレーションを開始します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
+接続が確立されると、[!UICONTROL  アパレルにフィット ][ プロジェクトを作成 ](../collaborate/manage-projects.md) して、[!UICONTROL Luma] とのコラボレーションを開始します。 プロジェクトの設定時に、目標に最適なコラボレーションのユースケース（[ 検出 ](../collaborate/discover.md)、[ アクティブ化 ](../collaborate/activate.md)、[ 測定 ](../collaborate/measure.md) を選択します。
 
-[!UICONTROL &#x200B; アパレルにフィット &#x200B;] と [!UICONTROL Luma] の両方が [ 検出 ](../collaborate/discover.md) のユースケースを使用して、お互いのオーディエンスデータに関するインサイトを得ることができます。 貴重なオーディエンスセグメントを特定したら、マーケティングキャンペーン用に選択したオーディエンスを [ アクティブ化 ](../collaborate/activate.md) します。
+[!UICONTROL  アパレルにフィット ] と [!UICONTROL Luma] の両方が [ 検出 ](../collaborate/discover.md) のユースケースを使用して、お互いのオーディエンスデータに関するインサイトを得ることができます。 貴重なオーディエンスセグメントを特定したら、マーケティングキャンペーン用に選択したオーディエンスを [ アクティブ化 ](../collaborate/activate.md) します。
 
 最後に、キャンペーンを実行した後、両方のブランドが結果にデータをアップロードし [ 測定 ](../collaborate/measure.md)、共同作業の有効性を評価します。
+
+## 広告主から広告プラットフォームへのワークフロー {#advertiser-to-advertising-platform-workflow}
+
+アスレチックリテール会社の [!UICONTROL Luma] は、[!DNL Amazon Marketing Cloud] （[!DNL AMC]）と連携し、[!DNL AMC] の ID 解決およびターゲティングツールを活用してマーケティング機能を強化したいと考えています。 Luma は既にアクティブな [!DNL Amazon Advertising] アカウントを持っており、[!DNL AMC] の使用を承認されています。
+
+まず、[!UICONTROL Luma] は広告主の役割を持つ [ アカウントを作成 ](../setup/onboard-account.md) する必要があります。 アカウントを確立したら、[!UICONTROL Luma] は [ データ接続とソースオーディエンスの作成 ](../setup/onboard-audiences.md) を行う必要があります。 [!UICONTROL Luma] はマーケティングキャンペーンのオーディエンスをアクティブ化するので、[ 宛先を設定 ](../setup/manage-destinations.md) する必要があります。
+
+[!UICONTROL Luma] がアカウントを設定すると、プラットフォーム内の [ と ](../connect/establishing-connections.md) 接続を形成 [!DNL AMC] する準備が整います。 [!UICONTROL Luma] は、[ 共同作業者を検出 ](../connect/discover-collaborators.md) 機能を使用して [!UICONTROL Amazon Marketing Cloudを検索し ][ 接続リクエストを開始 ](../connect/advertising-platforms/amc.md) します。 [!DNL Amazon] のログインページから接続を認証および承認すると、[!DNL AMC] との接続が確立されます。
+
+接続が確立されると、[!UICONTROL Luma] はプロジェクトを [ 作成 ](../collaborate/manage-projects.md) して、[!DNL AMC] との共同作業を開始します。 ユースケースを含む接続設定は、広告プラットフォームに応じて事前設定されています。 [!DNL AMC] えば、利用可能なユースケースは [Discover](../collaborate/advertising-platforms/amc.md#discover) です。
+
+[!UICONTROL Luma] は、[Discover](../collaborate/advertising-platforms/amc.md#discover) のユースケースを活用して、[!DNL AMC] からインサイトとオーディエンスデータを得ます。 これらのインサイトを使用して、[!UICONTROL Luma] はマーケティング戦略を最適化し、キャンペーンの有効性を向上させることができます。
