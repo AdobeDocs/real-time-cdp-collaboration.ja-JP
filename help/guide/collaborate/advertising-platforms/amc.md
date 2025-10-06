@@ -2,7 +2,7 @@
 title: AmazonMarketing Cloud
 description: Real-Time CDP CollaborationでのAmazon Marketing Cloudとの共同作業について説明します。
 audience: publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
 workflow-type: tm+mt
 source-wordcount: '644'
@@ -56,7 +56,7 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->オーディエンスデータは、[!DNL Amazon Ads] アカウントにアップロードされたオーディエンスから処理されます。 送信方法Experience Platform Ads 宛先機能を使用してオーディエンスを [!DNL Amazon Ads] アカウントに送信する方法については、[Amazon Ads connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads) ガイドを参照してください。
+>オーディエンスデータは、[!DNL Amazon Ads] アカウントにアップロードされたオーディエンスから処理されます。 送信方法Experience Platform Ads 宛先機能を使用してオーディエンスを [!DNL Amazon Ads] アカウントに送信する方法については、[Amazon Ads connection](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/advertising/amazon-ads) ガイドを参照してください。
 
 ![Amazon Marketing Cloudを使用したプロジェクトの Discover セクション。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
