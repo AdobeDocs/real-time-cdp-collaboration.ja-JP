@@ -20,25 +20,25 @@ ht-degree: 3%
 
 既存の接続を表示するには、**[!UICONTROL 接続]** ワークスペースに移動します。 パブリッシャーには、既存の接続が表示されます。 広告主の場合は、「マイ連携 **[!UICONTROL に移動する必要があ]** ます。
 
-![ マイ接続ワークスペースの接続でハイライト表示された「接続を表示」オプション ](/help/assets/connect/manage-connections/view-connection.png){zoomable="yes"}
+![&#x200B; マイ接続ワークスペースの接続でハイライト表示された「接続を表示」オプション &#x200B;](/help/assets/connect/manage-connections/view-connection.png){zoomable="yes"}
 
 接続の概要ワークスペースが表示され、接続とそのアクティブなプロジェクトに関する詳細が表示されます。 **[!UICONTROL 接続設定]** を選択して、接続設定を表示します。
 
-![ 接続の概要ワークスペースでハイライト表示された「接続設定」オプション ](/help/assets/connect/manage-connections/connection-overview.png){zoomable="yes"}
+![&#x200B; 接続の概要ワークスペースでハイライト表示された「接続設定」オプション &#x200B;](/help/assets/connect/manage-connections/connection-overview.png){zoomable="yes"}
 
-接続設定ワークスペースが表示され、ユーザーと共同作業者の間の接続の詳細が表示されます。 ここでは、接続プロセス中に選択したすべての設定、接続の現在のステータス、接続所有者、共同作業者の連絡先情報を表示できます。 特定の接続設定について詳しくは、[ 接続設定 ](/help/guide/connect/establishing-connections.md#connection-settings) ガイドを参照してください。
+接続設定ワークスペースが表示され、ユーザーと共同作業者の間の接続の詳細が表示されます。 ここでは、接続プロセス中に選択したすべての設定、接続の現在のステータス、接続所有者、共同作業者の連絡先情報を表示できます。 特定の接続設定について詳しくは、[&#x200B; 接続設定 &#x200B;](/help/guide/connect/establishing-connections.md#connection-settings) ガイドを参照してください。
 
-![ 接続の詳細が表示されている接続設定ワークスペース。](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+![&#x200B; 接続の詳細が表示されている接続設定ワークスペース。](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
 
 ## 接続を削除 {#delete-connection}
 
-引き続き使用しない、共同作業者との接続を削除できます。 接続を削除するには、削除する接続に移動し、接続ワークスペースで削除アイコン ![ 削除アイコン ](/help/assets/common/delete.svg) を選択します。
+引き続き使用しない、共同作業者との接続を削除できます。 接続を削除するには、削除する接続に移動し、接続ワークスペースで削除アイコン ![&#x200B; 削除アイコン &#x200B;](/help/assets/common/delete.svg) を選択します。
 
-![ 接続ワークスペースでハイライト表示された削除アイコン。](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
+![&#x200B; 接続ワークスペースでハイライト表示された削除アイコン。](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 
 接続の削除を確認する確認ダイアログが表示されます。 「**[!UICONTROL 削除]**」を選択して、削除を確定します。
 
-![ 接続を削除するための確認ダイアログ。](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
+![&#x200B; 接続を削除するための確認ダイアログ。](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >
