@@ -2,7 +2,7 @@
 title: AmazonMarketing Cloud
 description: Real-Time CDP Collaborationでのとの接続  [!DNL Amazon Marketing Cloud]  ついて説明します。
 audience: publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
 source-wordcount: '243'
