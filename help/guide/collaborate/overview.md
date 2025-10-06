@@ -22,9 +22,9 @@ ht-degree: 5%
 
 | ユースケース | プロジェクト セクション |
 | --- | --- |
-| キャンペーンの測定 | このユースケースでは、「[ 測定 ](/help/guide/collaborate/measure.md)」セクションと使用可能なすべての機能へのアクセス権が付与されます。 |
+| キャンペーンの測定 | このユースケースでは、「[&#x200B; 測定 &#x200B;](/help/guide/collaborate/measure.md)」セクションと使用可能なすべての機能へのアクセス権が付与されます。 |
 | オーディエンスの検出 | このユースケースでは、「[Discover](/help/guide/collaborate/discover.md)」セクションと使用可能なすべての機能へのアクセス権が付与されます。 |
-| Audience Activation | このユースケースでは、「[ アクティブ化 ](/help/guide/collaborate/activate.md) セクションと使用可能なすべての機能へのアクセス権が付与されます。 |
+| Audience Activation | このユースケースでは、「[&#x200B; アクティブ化 &#x200B;](/help/guide/collaborate/activate.md) セクションと使用可能なすべての機能へのアクセス権が付与されます。 |
 
 ## 広告プラットフォームとの共同作業 {#collaborating-with-advertising-platforms}
 
