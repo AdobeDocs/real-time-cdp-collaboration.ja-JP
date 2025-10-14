@@ -17,7 +17,7 @@ ht-degree: 6%
 
 宛先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合です。 これらの統合により、キャンペーンや顧客エンゲージメントで使用するために、様々なマーケティングチャネルやプラットフォームにわたってオーディエンスをアクティブ化できます。
 
-共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [ プロジェクト内のオーディエンスをアクティブ化 ](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
+共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [&#x200B; プロジェクト内のオーディエンスをアクティブ化 &#x200B;](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [&#x200B; 接続で設定 &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
 
 >[!IMPORTANT]
 >
@@ -31,11 +31,11 @@ ht-degree: 6%
 >
 > 現在、Collaboration内でセルフサービスの宛先として使用できるのはAdobe Experience Platformのみです。 Amazon S3 やSnowflakeなどの宛先の設定に興味がある場合は、Adobe担当者にお問い合わせください。
 
-![ 使用可能な宛先を表示する、設定ワークスペースの「自分の宛先」タブ ](/help/assets/destinations/overview/my-destinations-overview.png)
+![&#x200B; 使用可能な宛先を表示する、設定ワークスペースの「自分の宛先」タブ &#x200B;](/help/assets/destinations/overview/my-destinations-overview.png)
 
-宛先の設定を開始するには、選択した宛先内で **[!UICONTROL 設定]** オプションを選択します。 特定の宛先の設定について詳しくは、[ 使用可能な宛先 ](#available-destinations) 表のガイドを参照してください。
+宛先の設定を開始するには、選択した宛先内で **[!UICONTROL 設定]** オプションを選択します。 特定の宛先の設定について詳しくは、[&#x200B; 使用可能な宛先 &#x200B;](#available-destinations) 表のガイドを参照してください。
 
-![Adobe Experience Platformの宛先用に「設定」オプションがハイライト表示された宛先ワークスペース ](/help/assets/destinations/overview/my-destinations-set-up.png)
+![Adobe Experience Platformの宛先用に「設定」オプションがハイライト表示された宛先ワークスペース &#x200B;](/help/assets/destinations/overview/my-destinations-set-up.png)
 
 ### 使用可能な宛先 {#available-destinations}
 
@@ -51,4 +51,4 @@ Collaborationで設定を行う場合は、以下の宛先を使用できます�
 
 ## 次の手順
 
-宛先を設定したら、プロジェクト内で [ ターゲットオーディエンスのアクティブ化 ](../collaborate/activate.md) を開始できます。
+宛先を設定したら、プロジェクト内で [&#x200B; ターゲットオーディエンスのアクティブ化 &#x200B;](../collaborate/activate.md) を開始できます。

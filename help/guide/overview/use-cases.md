@@ -17,19 +17,19 @@ ht-degree: 1%
 
 Adobe Real-Time CDP Collaborationを使用すると、広告主やパブリッシャーとのコラボレーションが可能になり、オーディエンスの検出、アクティベーション、測定の新しい機会が広がります。 これらの連携は、プライバシーとセキュリティを維持しながら共有データを活用することで、マーケティング戦略を強化します。
 
-Collaborationでは、他の共同作業者とのつながりで、検出、アクティブ化、測定の 3 つの主なユースケースを提供します。 各ユースケースは、マーケティング活動を強化するための独自のメリットと機能を提供します。 これらのユースケースは、共同作業者と共に [ プロジェクトの作成時に選択 ](../collaborate/manage-projects.md#project-use-cases) してキャンペーンを開始し、そのプロジェクトで使用できる機能と特徴を決定します。
+Collaborationでは、他の共同作業者とのつながりで、検出、アクティブ化、測定の 3 つの主なユースケースを提供します。 各ユースケースは、マーケティング活動を強化するための独自のメリットと機能を提供します。 これらのユースケースは、共同作業者と共に [&#x200B; プロジェクトの作成時に選択 &#x200B;](../collaborate/manage-projects.md#project-use-cases) してキャンペーンを開始し、そのプロジェクトで使用できる機能と特徴を決定します。
 
 ## 検出 {#discover}
 
-![ オーディエンスインサイトダッシュボードモジュールを見つける。](/help/assets/use-cases/discover.png)
+![&#x200B; オーディエンスインサイトダッシュボードモジュールを見つける。](/help/assets/use-cases/discover.png)
 
 プロジェクト内の **[!UICONTROL オーディエンスインサイト]** ダッシュボードを活用して、キャンペーンのターゲットオーディエンスを見つけます。 insightを重複率と、オーディエンスと共同作業者のオーディエンスで重複している ID の数に設定します。 これにより、キャンペーンの新しい潜在的なオーディエンスを特定できます。 Discover のユースケースの特長について詳しくは、[discover](../collaborate/discover.md) ガイドを参照してください。
 
 ## アクティブ化 {#activate}
 
-![ オーディエンスダッシュボードモジュールのアクティブ化 ](/help/assets/use-cases/activate.png)
+![&#x200B; オーディエンスダッシュボードモジュールのアクティブ化 &#x200B;](/help/assets/use-cases/activate.png)
 
-共同作業者は、キャンペーンで使用するセルフサービス [ 宛先 ](/help/guide/destinations/experience-platform.md) またはクラウドデータウェアハウス（[!DNL Amazon S3] や [!DNL Snowflake] など）を使用して、Experience Platformに対するオーディエンスをアクティブ化できます。 オーディエンスのアクティブ化について詳しくは、[ アクティブ化 ](../collaborate/activate.md) ガイドを参照してください。
+共同作業者は、キャンペーンで使用するセルフサービス [&#x200B; 宛先 &#x200B;](/help/guide/destinations/experience-platform.md) またはクラウドデータウェアハウス（[!DNL Amazon S3] や [!DNL Snowflake] など）を使用して、Experience Platformに対するオーディエンスをアクティブ化できます。 オーディエンスのアクティブ化について詳しくは、[&#x200B; アクティブ化 &#x200B;](../collaborate/activate.md) ガイドを参照してください。
 
 >[!NOTE]
 >

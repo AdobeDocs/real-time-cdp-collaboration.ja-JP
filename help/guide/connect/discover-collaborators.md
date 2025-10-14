@@ -19,15 +19,15 @@ Adobe Real-Time CDP Collaborationの潜在的な共同作業者を見つけて�
 
 >[!NOTE]
 >
->現在、**[!UICONTROL 共同作業者を検出]** ワークスペースは、広告主のみが使用できます。 パブリッシャーは、プラットフォームを通じて広告主を検出できません。 代わりに、パブリッシャーは、接続を容易にするために、接続コードを広告主と共有できます。 詳しくは、[ プライベート接続の招待 ](./establishing-connections.md#private-connection-invite) の節を参照してください。
+>現在、**[!UICONTROL 共同作業者を検出]** ワークスペースは、広告主のみが使用できます。 パブリッシャーは、プラットフォームを通じて広告主を検出できません。 代わりに、パブリッシャーは、接続を容易にするために、接続コードを広告主と共有できます。 詳しくは、[&#x200B; プライベート接続の招待 &#x200B;](./establishing-connections.md#private-connection-invite) の節を参照してください。
 
 共同作業者を検出するには、**[!UICONTROL Connect]**/**[!UICONTROL 共同作業者を検出]** タブに移動します。
 
 ![[!UICONTROL &#x200B; 接続 &#x200B;] ワークスペースの [!UICONTROL &#x200B; 共同作業者を検出 &#x200B;] ダッシュボード。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
-パブリッシャーの詳細を確認するには、「**[!UICONTROL パブリッシャーを表示]**」を選択します。 また、パブリッシャーが [ 公開として設定 ](/help/guide/setup/onboard-audiences.md#metadata-visibility) したオーディエンスを表示および検査することもできます。
+パブリッシャーの詳細を確認するには、「**[!UICONTROL パブリッシャーを表示]**」を選択します。 また、パブリッシャーが [&#x200B; 公開として設定 &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility) したオーディエンスを表示および検査することもできます。
 
-![ 個々のパブリッシャーの詳細 ](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
+![&#x200B; 個々のパブリッシャーの詳細 &#x200B;](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 
 ## マイ接続
 
@@ -35,15 +35,15 @@ Adobe Real-Time CDP Collaborationの潜在的な共同作業者を見つけて�
 
 **[!UICONTROL 必要なアクション]** の下に、招待が送信されたにもかかわらず接続がまだ確立されていないすべての接続のリストが表示されます。 ユーザーまたは共同作業者のアクションが必要になる場合があります。
 
-![ アクションが必要です：マイ接続画面のビュー ](/help/assets/connect/discover-collaborators/action-required-view.png){zoomable="yes"}
+![&#x200B; アクションが必要です：マイ接続画面のビュー &#x200B;](/help/assets/connect/discover-collaborators/action-required-view.png){zoomable="yes"}
 
 接続が **[!UICONTROL アクションが必要]** ビューに表示される理由は、次のとおりです。
 
-* あなたのアカウントから共同作業者に接続招待が送信されました。共同作業者が承諾するのを待っています。 この時点で、後で共同作業者に送信できる [ 接続設定 ](/help/guide/glossary.md#connection-settings) をプレビューできます。
+* あなたのアカウントから共同作業者に接続招待が送信されました。共同作業者が承諾するのを待っています。 この時点で、後で共同作業者に送信できる [&#x200B; 接続設定 &#x200B;](/help/guide/glossary.md#connection-settings) をプレビューできます。
 * あなたのアカウントが共同作業者に接続の招待を送信し、共同作業者はそれを承諾しました。 この時点で、続行して接続設定を設定し、承認を得るために共同作業者に送信できます。
 * あなたのアカウントは共同作業者に接続設定を送信しており、提案された接続設定を承認または拒否するために共同作業者に待機しています。
 * あなたのアカウントは共同作業者に接続設定を送信し、共同作業者はあなたの提案を拒否しました。 これで、接続設定を変更して再送信できます。
 
 **[!UICONTROL 既存の接続]** ビューでは、共同作業者との既存の接続を確認し、プロジェクトの作成に進んで、キャンペーンの共同作業を開始できます。
 
-![ マイ接続画面の既存の接続ビュー ](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}
+![&#x200B; マイ接続画面の既存の接続ビュー &#x200B;](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}

@@ -21,12 +21,12 @@ ht-degree: 4%
 
 Real-Time CDP Collaborationにアクセスしようとすると、この画面が表示されます。 製品を使用するために必要な権限を取得するにはどうすればよいですか？
 
-![Real-Time CDP Collaborationへのアクセス時に権限を使用できない画面 ](/help/assets/reference/common-questions/permissions-missing-screen.png)
+![Real-Time CDP Collaborationへのアクセス時に権限を使用できない画面 &#x200B;](/help/assets/reference/common-questions/permissions-missing-screen.png)
 
 +++選択して回答を表示
 
 エンドユーザーの場合は、組織のシステム管理者または製品管理者に問い合わせる必要があります。
 
-システム管理者または製品管理者の場合は、権限ガイドを参照して、Collaborationを使用する適切な権限を自分自身や同僚に付与する方法を確認してください。 詳しくは、アクセス制御の概要 [ を参照してください ](/help/guide/permissions/overview.md)。
+システム管理者または製品管理者の場合は、権限ガイドを参照して、Collaborationを使用する適切な権限を自分自身や同僚に付与する方法を確認してください。 詳しくは、アクセス制御の概要 [&#x200B; を参照してください &#x200B;](/help/guide/permissions/overview.md)。
 
 +++

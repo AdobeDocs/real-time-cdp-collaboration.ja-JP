@@ -17,11 +17,11 @@ ht-degree: 1%
 
 宛先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合です。 これらの統合により、キャンペーンや顧客エンゲージメントで使用するために、様々なマーケティングチャネルやプラットフォームにわたってオーディエンスをアクティブ化できます。
 
-共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [ プロジェクト内のオーディエンスをアクティブ化 ](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [ 接続で設定 ](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
+共同作業者は、キャンペーンで使用するオーディエンスを外部プラットフォーム（Adobe Experience Platformなど）に送信するように宛先を設定できます。 コラボレーターは次に [&#x200B; プロジェクト内のオーディエンスをアクティブ化 &#x200B;](../collaborate/activate.md) でき、それが接続の設定された宛先に送信されます。 アクティベーションは、オーディエンスアクティベーションの設定 [&#x200B; 接続で設定 &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。
 
-![ アクティブなAdobe Experience Platformの宛先を表示する、設定ワークスペースの「マイ宛先」タブ ](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![&#x200B; アクティブなAdobe Experience Platformの宛先を表示する、設定ワークスペースの「マイ宛先」タブ &#x200B;](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
-宛先について詳しくは、[ 宛先の概要 ](../destinations/overview.md) ガイドを参照してください。
+宛先について詳しくは、[&#x200B; 宛先の概要 &#x200B;](../destinations/overview.md) ガイドを参照してください。
 
 ## 宛先の設定 {#configure-destinations}
 
@@ -29,11 +29,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->宛先を設定および管理するには、ユーザーに **オーディエンスデータの管理** 権限が割り当てられている必要があります。 役割の管理について詳しくは、[ 役割の管理 ](../permissions/manage-roles.md) ガイドを参照してください。
+>宛先を設定および管理するには、ユーザーに **オーディエンスデータの管理** 権限が割り当てられている必要があります。 役割の管理について詳しくは、[&#x200B; 役割の管理 &#x200B;](../permissions/manage-roles.md) ガイドを参照してください。
 
-![ 使用可能な宛先を表示する、設定ワークスペースの「自分の宛先」タブ ](/help/assets/setup/manage-destinations/my-destinations.png)
+![&#x200B; 使用可能な宛先を表示する、設定ワークスペースの「自分の宛先」タブ &#x200B;](/help/assets/setup/manage-destinations/my-destinations.png)
 
-宛先の設定プロセスは、設定している宛先によって異なります。 使用可能な宛先とその設定ガイドを表示するには、[ 使用可能な宛先 ](../destinations/overview.md#available-destinations) カタログを参照してください。
+宛先の設定プロセスは、設定している宛先によって異なります。 使用可能な宛先とその設定ガイドを表示するには、[&#x200B; 使用可能な宛先 &#x200B;](../destinations/overview.md#available-destinations) カタログを参照してください。
 
 >[!NOTE]
 >
@@ -45,12 +45,12 @@ ht-degree: 1%
 
 宛先を削除するには、「設定 **[!UICONTROL セクションの「]** 宛先 **[!UICONTROL タブに移動]** ます。 削除する宛先の **[!UICONTROL 削除]** オプションを選択します。
 
-![Adobe Experience Platformの宛先について、「削除」オプションがハイライト表示された宛先ワークスペース ](/help/assets/setup/manage-destinations/delete-destination.png)
+![Adobe Experience Platformの宛先について、「削除」オプションがハイライト表示された宛先ワークスペース &#x200B;](/help/assets/setup/manage-destinations/delete-destination.png)
 
 確認ダイアログが表示され、宛先の削除を確認できます。 「**[!UICONTROL 削除]**」を選択して、宛先を削除します。
 
-![ 「削除」オプションがハイライト表示された宛先を削除ダイアログ ](/help/assets/setup/manage-destinations/delete-destination-confirmation.png)
+![&#x200B; 「削除」オプションがハイライト表示された宛先を削除ダイアログ &#x200B;](/help/assets/setup/manage-destinations/delete-destination-confirmation.png)
 
 ## 次の手順
 
-宛先を設定したら、接続内で共同作業を開始し、プロジェクト内で [ ターゲットオーディエンスをアクティブ化 ](../collaborate/activate.md) できます。
+宛先を設定したら、接続内で共同作業を開始し、プロジェクト内で [&#x200B; ターゲットオーディエンスをアクティブ化 &#x200B;](../collaborate/activate.md) できます。
