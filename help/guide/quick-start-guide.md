@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration クイックスタートガイド
 description: 役割と組織の設定、オーディエンスソーシング、アクティベーション、測定など、Real-Time CDP Collaborationで組織をオンボーディングする方法について説明します。 このガイドは、共同作業者がオーディエンスを安全かつ効率的に使用し始めるために接続設定を設定するのに役立ちます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
+source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 開始する前に、次の点を確認してください。
 
 - 有効なReal-Time CDP Collaboration ライセンス。
-- [Adobe Experience Platformへのシステム管理者または製品管理者のアクセス &#x200B;](./permissions/overview.md)。
-- [&#x200B; エンドユーザーにプロビジョニングされたアクセス &#x200B;](./permissions/manage-user-access.md)。
-- [&#x200B; 組織用に作成され、ユーザーに割り当てられた役割 &#x200B;](./permissions/manage-roles.md)。
+- [Adobe Experience Platformへのシステム管理者または製品管理者のアクセス ](./permissions/overview.md)。
+- [ エンドユーザーにプロビジョニングされたアクセス ](./permissions/manage-user-access.md)。
+- [ 組織用に作成され、ユーザーに割り当てられた役割 ](./permissions/manage-roles.md)。
 - 組織の名前、ロゴ、バナーなど、ブランディングアセットへのアクセス。
-- [&#x200B; 定義済みの一致キー戦略 &#x200B;](./setup/onboard-account.md#set-up-match-keys)
+- [ 定義済みの一致キー戦略 ](./setup/onboard-account.md#set-up-match-keys)
 - （任意）Experience Platform for audience management を使用していない場合は、サポートされているクラウドソース（Amazon S3 またはSnowflake）にアクセスします。
 
 ## 手順 1：役割ベースの設定の完了 {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Real-Time CDP Collaborationの基本を学ぶには、組織を設定し、オ�
 
 Admin ConsoleとExperience Platformを使用して、Collaborationの製品アクセスと権限を割り当てる方法については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順 2:Collaboration アカウントの設定 {#set-up-your-account}
 
@@ -68,7 +68,7 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 - **お問い合わせメール** – 接続が確立された後に共同作業者が使用するビジネスメールを指定します。
 - **マッチキーを設定** - オーディエンスマッチングに使用する識別子を選択します。
 
-役割の定義、ブランディングアセットのアップロード、一致キーの設定の方法など、アカウントの初期設定について詳しくは、[&#x200B; アカウントの初期設定 &#x200B;](./setup/onboard-account.md#initial-account-setup){target="_blank"} ガイドを参照してください。
+役割の定義、ブランディングアセットのアップロード、一致キーの設定の方法など、アカウントの初期設定について詳しくは、[ アカウントの初期設定 ](./setup/onboard-account.md#initial-account-setup){target="_blank"} ガイドを参照してください。
 
 アカウントの作成、ブランディング、一致キーの設定など、広告主の設定に関する詳しい手順については、このビデオをご覧ください。
 
@@ -80,7 +80,7 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 
 ### オプション A:Experience PlatformのSource
 
-[Collaborationを使用して、オーディエンスを含んだサンドボックスをリンクする &#x200B;](./setup/onboard-audiences.md) このセルフサービス方式を使用して、Experience Platform インスタンス内から既存のオーディエンスセグメントを参照します。
+[Collaborationを使用して、オーディエンスを含んだサンドボックスをリンクする ](./setup/onboard-audiences.md) このセルフサービス方式を使用して、Experience Platform インスタンス内から既存のオーディエンスセグメントを参照します。
 
 #### オーディエンスの設定
 
@@ -108,35 +108,31 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 >**キー要件に一致：**
 >
 >一致するキーはすべて **トリム**、**小文字** にする必要があります
->&#x200B;>ハッシュ化された一致キーは、**SHA256 ハッシュ化** されている必要があります。\
+>ハッシュ化された一致キーは、**SHA256 ハッシュ化** されている必要があります。\
 >大文字を使用するハッシュ値を指定すると、Collaborationによって自動的に小文字に変換されます。\
 >ソースに **プレーンテキスト識別子** が含まれている場合は、「**[!UICONTROL 変換を適用]**」オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスを取得する場合にのみ使用でき、クラウドベースのソースではサポートされません。
 >
->詳しくは、ソースおよびオーディエンス管理ガイドの [&#x200B; フィールドのマッピング &#x200B;](./setup/onboard-audiences.md#map-fields) の節を参照してください。
+>詳しくは、ソースおよびオーディエンス管理ガイドの [ フィールドのマッピング ](./setup/onboard-audiences.md#map-fields) の節を参照してください。
 
 Collaborationを使用してオーディエンスをソース化する方法の完全なチュートリアルを確認するには、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Collaborationでのオーディエンスのソーシング &#x200B;](./setup/onboard-audiences.md#source-and-manage-audiences) のドキュメントを参照してください。
+または、[Collaborationでのオーディエンスのソーシング ](./setup/onboard-audiences.md#source-and-manage-audiences) のドキュメントを参照してください。
 
 ### オプション B:SnowflakeのSourceまたはAmazon S3
 
-クラウドソース（[!DNL AWS S3] や [!DNL Snowflake] など）を設定するには、次の [&#x200B; オーディエンス仕様PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf) を使用してオーディエンスデータを準備します。 設定が完了したら、または質問がある場合は、Adobe アカウント担当者に連絡して設定を完了してください。 この方法はセルフサービスではないので、Adobeのサポートが必要です。
+[!DNL Snowflake] や [!DNL Amazon S3] などのクラウドソースを設定するには、[ オーディエンス仕様PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf) を使用してオーディエンスデータを準備します
 
-<!-- Add in the below in final draft: 
+[!DNL Amazon S3] をセルフサービスのデータソースとして設定できます。 設定手順については、[Amazon S3 ソーシングガイドを参照してください ](./setup/configure-aws-s3-audience-sourcing.md)
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
-
-[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
-
-If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
+[!DNL Snowflake] またはその他のクラウドサービスプロバイダーを使用している場合は、Adobe アカウント担当者に連絡して設定を完了してください。
 
 >[!IMPORTANT]
 >
 >クラウドベースのオーディエンスファイルは、オーディエンス仕様PDFで説明されている必要なスキーマに従う必要があります。 ファイルには、ハッシュ化された識別子（小文字の SHA256）、必須のメタデータフィールド（`segment_name` や `activation_id` など）を含め、CSV や Parquet などのサポートされている形式を使用する必要があります。 Adobeは、アクティブ化の前にデータを正規化しません。 TTL は、オーディエンスの存続期間に基づいて適用されます。
 >
->アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 [&#x200B; オーディエンス表示設定 &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility) は、共同作業者がオーディエンスを表示できるかどうかを決定し、Collaboration UI を使用して管理されます。
+>アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 [ オーディエンス表示設定 ](/help/guide/setup/onboard-audiences.md#metadata-visibility) は、共同作業者がオーディエンスを表示できるかどうかを決定し、Collaboration UI を使用して管理されます。
 
 ## 手順 4：オーディエンスをアクティブ化（Experience Platformまたはクラウドの宛先に対して） {#activate-audiences}
 
@@ -144,7 +140,7 @@ If you are using [!DNL Snowflake], or other cloud service provider, contact your
 
 ### オプション A:Experience Platformに対してアクティブ化
 
-[Adobe Experience Platformを宛先として設定 &#x200B;](/help/guide/destinations/experience-platform.md) ガイドで説明されている次の手順を実行します。
+[Adobe Experience Platformを宛先として設定 ](/help/guide/destinations/experience-platform.md) ガイドで説明されている次の手順を実行します。
 
 - **宛先の作成** - UI を使用して、Experience Platformの宛先（サンドボックスレベル）を設定します。
 - **一致キーをマッピング** – 識別子を選択します（例：`hashedEmail`）。
@@ -155,7 +151,7 @@ If you are using [!DNL Snowflake], or other cloud service provider, contact your
 
 クラウドの宛先（[!DNL AWS S3] や [!DNL Snowflake] など）を設定するには、Adobe アカウント担当者に連絡して設定プロセスを開始します。 クラウドの宛先に応じて、ファイルパス、資格情報、アカウントロケーターなど、クラウドの宛先の詳細を指定する必要があります。 必要な情報が入力されると、Adobeによってクラウドの宛先の設定が行われます。
 
-クラウドの宛先に送信されるオーディエンスデータは、事前に定義されたスキーマに従います。 必須フィールドと形式について詳しくは、[Collaboration Audience Activation ガイド &#x200B;](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf) をダウンロードしてください。
+クラウドの宛先に送信されるオーディエンスデータは、事前に定義されたスキーマに従います。 必須フィールドと形式について詳しくは、[Collaboration Audience Activation ガイド ](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf) をダウンロードしてください。
 
 ## 手順 5：測定の設定（オプション） {#set-up-measurement}
 
@@ -165,11 +161,11 @@ If you are using [!DNL Snowflake], or other cloud service provider, contact your
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 測定]** ワークスペースは、**[!UICONTROL 測定]** ユースケースが [&#x200B; 接続プロセス中に &#x200B;](./connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[&#x200B; プロジェクトの管理 &#x200B;](./collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL 測定]** ワークスペースは、**[!UICONTROL 測定]** ユースケースが [ 接続プロセス中に ](./connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[ プロジェクトの管理 ](./collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Collaborationには、キャンペーンのリーチ、頻度および効果を分析するための様々なレポートが用意されています。 **[!UICONTROL 測定]** ワークスペースは UI で使用できますが、完全なレポート機能ではバックエンドの有効化が必要になる場合があります。
 
-測定レポートの表示および解釈方法については、[&#x200B; 測定ガイド &#x200B;](./collaborate/measure.md) を参照してください。 アトリビューション、キャンペーンの概要指標、ダッシュボード（リーチカーブや頻度分布など）について説明します。
+測定レポートの表示および解釈方法については、[ 測定ガイド ](./collaborate/measure.md) を参照してください。 アトリビューション、キャンペーンの概要指標、ダッシュボード（リーチカーブや頻度分布など）について説明します。
 
 <!-- 
 Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
@@ -224,18 +220,18 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定が完了したので、組織は招待を送信または受け入れ、承認のためにプロジェクト設定を送信することで、共同作業者と接続する準備が整いました。 この接続プロセスには、招待状の送信または受信、接続設定（ユースケースやクレジット消費など）の確認と送信、接続の確認が含まれます。
 
-広告主は、左側のナビゲーションメニューの **[!UICONTROL 接続]** ワークスペースを使用して、使用可能な公開者を参照します。 または、共同作業者は、[&#x200B; プライベート接続の招待状 &#x200B;](./connect/establishing-connections.md#private-connection-invite){target="_blank"} を介して直接相互に接続できます。
+広告主は、左側のナビゲーションメニューの **[!UICONTROL 接続]** ワークスペースを使用して、使用可能な公開者を参照します。 または、共同作業者は、[ プライベート接続の招待状 ](./connect/establishing-connections.md#private-connection-invite){target="_blank"} を介して直接相互に接続できます。
 
 >[!NOTE]
 >
 >現在、パブリッシャーを参照できるのは広告主のみです。 パブリッシャーは、広告主との接続を参照または開始できません。
 
-このフローの概要については、[&#x200B; 接続の確立ガイド &#x200B;](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[&#x200B; 広告主アカウントの設定ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
+このフローの概要については、[ 接続の確立ガイド ](./connect/establishing-connections.md){target="_blank"} を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的な手順については、[ 広告主アカウントの設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} をご覧ください。
 
 ## 次の手順
 
 これで、初期設定が完了し、共同作業を保護するために組織が設定されました。 次に、アクティベーション、測定、データガバナンスに関する理解を深めるために、次のリソースを探索します。
 
-- [Audience Activation ワークフロードキュメント &#x200B;](./collaborate/activate.md)
-- [&#x200B; 測定の使用例 &#x200B;](./collaborate/measure.md)
+- [Audience Activation ワークフロードキュメント ](./collaborate/activate.md)
+- [ 測定の使用例 ](./collaborate/measure.md)
 - [Collaboration ガバナンスのベストプラクティス](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)
