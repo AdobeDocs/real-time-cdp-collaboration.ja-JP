@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Adobe Real-Time CDP Collaborationを使用すると、サードパーティ cookie に依存せずに、価値の高いオーディエンスを検出、アクティブ化および測定できます。 このソリューションは、高度なデータ共同作業を可能にし、プライバシーを中心とした一元化された環境で、パーソナライズされた効果的な顧客エクスペリエンスを作成するのに役立ちます。
 
-![Real-Time CDP Collaborationの設定ページ、組織の表示 ](/help/assets/overview/home.png){zoomable="yes"}
+![Real-Time CDP Collaborationの設定ページ、組織の表示 &#x200B;](/help/assets/overview/home.png){zoomable="yes"}
 
 ## 信頼できるパートナーを通じてオーディエンスを特定
 
@@ -39,13 +39,13 @@ Adobe Real-Time CDP Collaborationを使用すると、サードパーティ cook
 
 ## 基本を学ぶ {#get-started}
 
-Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[ アクセス制御の概要 ](/help/guide/permissions/overview.md){target="_blank"} ガイドを参照してください。
+Collaborationの使用を開始するには、システム管理者は、自分自身、製品管理者およびエンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスレベルに応じて、必要な手順は複数あります。 開始するには、[&#x200B; アクセス制御の概要 &#x200B;](/help/guide/permissions/overview.md){target="_blank"} ガイドを参照してください。
 
-アクセス権を取得したら、アカウントを設定し、データ接続を作成してオーディエンスのソーシングを開始する準備が整います。 開始するには、[ エンドツーエンドのワークフロー ](/help/guide/overview/end-to-end-workflow.md) を参照してください。
+アクセス権を取得したら、アカウントを設定し、データ接続を作成してオーディエンスのソーシングを開始する準備が整います。 開始するには、[&#x200B; エンドツーエンドのワークフロー &#x200B;](/help/guide/overview/end-to-end-workflow.md) を参照してください。
 
 ## リソース
 
-製品で使用されている用語について詳しくは、[ 用語集 ](/help/guide/glossary.md) を参照してください。 サポートについては、Adobe[ カスタマーサポート ](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページを参照してください。
+製品で使用されている用語について詳しくは、[&#x200B; 用語集 &#x200B;](/help/guide/glossary.md) を参照してください。 サポートについては、Adobe[&#x200B; カスタマーサポート &#x200B;](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページを参照してください。
 
 ## お問い合わせ
 
