@@ -197,7 +197,7 @@ S3 オーディエンスがソーシングされると、使用可能なオー�
 
 共同作業プロジェクトでオーディエンスを使用する前に、このビューを使用してオーディエンスの設定と表示設定を確認します。
 
-詳しくは、[&#x200B; オーディエンスダッシュボードのドキュメントを表示 &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) を参照してください。
+詳しくは、[&#x200B; オーディエンスダッシュボードのドキュメントを表示 &#x200B;](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) を参照してください。
 
 ## S3 データ接続の表示 {#view-s3-connection}
 
