@@ -11,7 +11,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform（CDP）Collaborationは現在、米国、カナダ、オーストラリア、ニュージーランドおよびヨーロッパ、中東、アフリカで利用でき、近日中にグローバルで利用できるようになります。 詳しくは、アドビ担当者にお問い合わせください。詳細情報 [ 使用の手引き ](/help/guide/home.md#get-started)。
+>Adobe Real-Time Customer Data Platform（CDP）Collaborationは現在、米国、カナダ、オーストラリア、ニュージーランドおよびヨーロッパ、中東、アフリカで利用でき、近日中にグローバルで利用できるようになります。 詳しくは、アドビ担当者にお問い合わせください。詳細情報 [&#x200B; 使用の手引き &#x200B;](/help/guide/home.md#get-started)。
 
 
 
