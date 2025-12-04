@@ -2,9 +2,9 @@
 title: アクセス制御の概要
 description: Adobe Real-Time Customer Data Platform（CDP）Collaborationへのアクセス権を取得する方法を説明します。
 audience: admin
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Collaborationへのアクセス制御を設定するには、システム管理�
 これらのガイドでは、システム管理者、製品管理者およびエンドユーザーのアクセスの設定について説明します。 各ロールの主な違いを理解するには、以下の表を参照してください。
 
 | 役割 | 説明 |
-| --- | --- | 
+| --- | --- |
 | システム管理者 | 組織のスーパーユーザー。 管理者は、Admin Consoleですべての管理タスクを実行でき、他のユーザーに管理機能を委任する権限を持っています。 |
 | 製品管理者 | ユーザーに割り当てられた製品と、組織へのユーザーの追加、製品プロファイルへのユーザーの追加または削除、製品への他の製品管理者の追加または削除など、関連するすべての管理機能を管理します。 |
 | エンドユーザー | 製品を使用する組織内のユーザー。 |
 
 {style="table-layout:auto"}
 
-管理者の役割について詳しくは、[&#x200B; アドビヘルプセンター &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html) を参照してください。
+管理者の役割について詳しくは、[ アドビヘルプセンター ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html) を参照してください。
 
 >[!TIP]
 >
@@ -43,7 +43,7 @@ Collaborationへのアクセス制御を設定するには、システム管理�
 
 ## その他の製品 {#products}
 
-Collaborationへのアクセス権を付与する前に、（ユースケース [&#x200B; に応じて、複数の製品へのアクセス権を付与する必要があ &#x200B;](#use-cases) ます。 アクセス制御ガイドは、進行に応じて複数のユーザーインターフェイスを処理する場合があり、それぞれがアクセス設定プロセス内の特定の目的を果たします。 各製品の使用目的について詳しくは、次の表を参照してください。
+Collaborationへのアクセス権を付与する前に、（ユースケース [ に応じて、複数の製品へのアクセス権を付与する必要があ ](#use-cases) ます。 アクセス制御ガイドは、進行に応じて複数のユーザーインターフェイスを処理する場合があり、それぞれがアクセス設定プロセス内の特定の目的を果たします。 各製品の使用目的について詳しくは、次の表を参照してください。
 
 | 製品 | 使用 |
 | --- | --- |
@@ -65,15 +65,15 @@ Collaborationへのアクセス権を付与する前に、（ユースケース 
 > スーパーユーザーとは、システム管理者が取得する最高レベルのアクセスを指します。 スーパーユーザーは、すべての管理タスクおよびユーザー機能を実行できます。 システム管理者は、製品の機能を標準で備えていないため、次のチャートに示すように、適切なアクセス権を自分自身に付与する必要があります。
 
 | ユースケース | 必要な役割 | どこから始めるか |
-| --- | --- | --- | 
-| 既存のExperience Platform製品へのアクセス権を持たないスーパーユーザー。 | システム管理者。 | [&#x200B; 製品管理者アクセスの設定 &#x200B;](./manage-user-access.md#admin-access) |
-| 既存のExperience Platform システム管理者 **Experience Platform UI アクセスを持つ** のスーパーユーザー。 | システム管理者。 | [Collaboration アクセスの設定 &#x200B;](./manage-user-access.md#RTCDP-collab-access) |
-| Experience Platform UI アクセス権を持たない既存のExperience Platform システム管理者 **のスーパーユーザー** | システム管理者。 | [&#x200B; 製品管理者アクセスの設定 &#x200B;](./manage-user-access.md#admin-access) |
-| 新しい製品管理者用の製品管理者権限およびCollaborationアクセス。 | システム管理者。 | [&#x200B; 製品管理者アクセスの設定 &#x200B;](./manage-user-access.md#admin-access) |
-| Experience Platform UI アクセスを使用して **既存のExperience Platform製品管理者** Collaborationアクセス。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定 &#x200B;](./manage-user-access.md#RTCDP-collab-access) |
-| 既存のExperience Platform製品管理者のCollaboration アクセス **Experience Platform UI アクセスなし**。 | システム管理者または製品管理者。 | [&#x200B; ユーザーアクセスの設定 &#x200B;](./manage-user-access.md#user-access) |
-| 新しいエンドユーザーのCollaboration アクセス。 | システム管理者または製品管理者。 | [&#x200B; ユーザーアクセスの設定 &#x200B;](./manage-user-access.md#user-access) |
-| Collaborationアクセス権を持つ既存のユーザーがExperience Platformにアクセスする場合。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定 &#x200B;](./manage-user-access.md#RTCDP-collab-access) |
+| --- | --- | --- |
+| 既存のExperience Platform製品へのアクセス権を持たないスーパーユーザー。 | システム管理者。 | [ 製品管理者アクセスの設定 ](./manage-user-access.md#admin-access) |
+| 既存のExperience Platform システム管理者 **Experience Platform UI アクセスを持つ** のスーパーユーザー。 | システム管理者。 | [Collaboration アクセスの設定 ](./manage-user-access.md#RTCDP-collab-access) |
+| Experience Platform UI アクセス権を持たない既存のExperience Platform システム管理者 **のスーパーユーザー** | システム管理者。 | [ 製品管理者アクセスの設定 ](./manage-user-access.md#admin-access) |
+| 新しい製品管理者用の製品管理者権限およびCollaborationアクセス。 | システム管理者。 | [ 製品管理者アクセスの設定 ](./manage-user-access.md#admin-access) |
+| Experience Platform UI アクセスを使用して **既存のExperience Platform製品管理者** Collaborationアクセス。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定 ](./manage-user-access.md#RTCDP-collab-access) |
+| 既存のExperience Platform製品管理者のCollaboration アクセス **Experience Platform UI アクセスなし**。 | システム管理者または製品管理者。 | [ ユーザーアクセスの設定 ](./manage-user-access.md#user-access) |
+| 新しいエンドユーザーのCollaboration アクセス。 | システム管理者または製品管理者。 | [ ユーザーアクセスの設定 ](./manage-user-access.md#user-access) |
+| Collaborationアクセス権を持つ既存のユーザーがExperience Platformにアクセスする場合。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定 ](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,7 @@ Collaborationへのアクセス権を取得したら、特定の機能に対す�
 | [!UICONTROL セグメントの表示] | サンドボックス内で使用可能なオーディエンスのリストを表示できるようにします。 |
 | [!UICONTROL プロファイルの表示] | コラボレーションフィールドへのマッピングに使用できるフィールドの表示をユーザーに許可します。 |
 
-以下に、上記の権限が追加された役割の例を示します。 役割の作成または割り当てについて詳しくは、[&#x200B; 役割の管理 &#x200B;](./manage-roles.md) ガイドを参照してください。
+以下に、上記の権限が追加された役割の例を示します。 役割の作成または割り当てについて詳しくは、[ 役割の管理 ](./manage-roles.md) ガイドを参照してください。
 
 ![Profile Management リソースに追加された「セグメントの表示」権限と「プロファイルの表示」権限を持つ権限のリソースワークスペース。](../../assets/permissions/sample-audience-role.png)
 
@@ -100,4 +100,4 @@ Collaborationへのアクセス権を取得したら、特定の機能に対す�
 
 ## 次の手順
 
-どこから始めるかを決定したら、ユースケースのリンクに従ってアクセスの設定を開始します。 管理者としてのCollaborationへのアクセス設定をこれらのユースケース以外でも行う方法については、[&#x200B; ユーザーアクセスの管理 &#x200B;](manage-user-access.md) ガイドを参照してください。 Collaborationの様々なコンポーネントへのアクセスを設定する際の役割とその役割についての詳細は、[&#x200B; 役割の管理 &#x200B;](manage-roles.md) ガイドを参照してください。
+どこから始めるかを決定したら、ユースケースのリンクに従ってアクセスの設定を開始します。 管理者としてのCollaborationへのアクセス設定をこれらのユースケース以外でも行う方法については、[ ユーザーアクセスの管理 ](manage-user-access.md) ガイドを参照してください。 Collaborationの様々なコンポーネントへのアクセスを設定する際の役割とその役割についての詳細は、[ 役割の管理 ](manage-roles.md) ガイドを参照してください。
