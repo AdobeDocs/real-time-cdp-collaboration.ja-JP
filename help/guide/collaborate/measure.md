@@ -17,7 +17,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 測定]** ワークスペースは、**測定** ユースケースが [ 接続処理中に ](../connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[ プロジェクトの管理 ](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL 測定]** ワークスペースは、**測定** ユースケースが [&#x200B; 接続処理中に &#x200B;](../connect/establishing-connections.md#connection-settings) 有効になっている場合にのみ使用できます。 使用例の詳細については、[&#x200B; プロジェクトの管理 &#x200B;](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Adobe Real-Time CDP Collaborationで使用可能なレポートについて説明し、様々なチャネルをまたいでマーケティングキャンペーンのパフォーマンスを測定および分析する方法を説明します。
 
@@ -25,8 +25,8 @@ Adobe Real-Time CDP Collaborationで使用可能なレポートについて説�
 
 Collaborationの測定レポートにアクセスする前に、次の操作を完了しています。
 
-* [ 測定 ](/help/guide/connect/establishing-connections.md) ユースケースを有効にして **プロジェクト** の共同作業を開始した共同作業者と [ 連携 ](/help/guide/collaborate/manage-projects.md)
-* キャンペーンを実行し [ アップロードされた測定データ ](/help/guide/setup/onboard-measurement-data.md) をCollaborationに送信します。
+* [&#x200B; 測定 &#x200B;](/help/guide/connect/establishing-connections.md) ユースケースを有効にして **プロジェクト** の共同作業を開始した共同作業者と [&#x200B; 連携 &#x200B;](/help/guide/collaborate/manage-projects.md)
+* キャンペーンを実行し [&#x200B; アップロードされた測定データ &#x200B;](/help/guide/setup/onboard-measurement-data.md) をCollaborationに送信します。
 
 <!--
 
@@ -58,7 +58,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 **[!UICONTROL 完全なレポートを表示]** を選択すると、使用可能な様々なレポートにアクセスできます。詳しくは、以下を参照してください。
 
-![ プロジェクトの「測定」タブへのアクセス方法 ](/help/assets/collaborate/measure/measurement.gif)
+![&#x200B; プロジェクトの「測定」タブへのアクセス方法 &#x200B;](/help/assets/collaborate/measure/measurement.gif)
 
 ### 概要ビュー
 
@@ -68,7 +68,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 **[!UICONTROL ユニークリーチ]**：クリエイティブを閲覧した個人 ID の数。
 **[!UICONTROL 合計平均頻度]**：インプレッション数を、到達したユニーク ID で割った値です。 この図は、すべての ID がクリエイティブに表示された頻度を示しています。
 
-![ キャンペーンの概要ビュー ](/help/assets/collaborate/measure/campaign-summary.png)
+![&#x200B; キャンペーンの概要ビュー &#x200B;](/help/assets/collaborate/measure/campaign-summary.png)
 
 ### 指標の推移 {#metrics-over-time}
 
@@ -79,28 +79,28 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 指標の推移ビューを使用すると、キャンペーンの期間中にクリエイティブに表示されたインプレッションの合計数を把握できます。レポートに表示して分析する指標は、最大 2 つまで選択できます。
 
-![ 指標の推移ビュー ](/help/assets/collaborate/measure/metrics-over-time.png)
+![&#x200B; 指標の推移ビュー &#x200B;](/help/assets/collaborate/measure/metrics-over-time.png)
 
 ### 頻度配分 {#frequency-distribution}
 
 頻度分布ビューを使用して、一意の各ユーザーに表示されたインプレッション数の分類を理解します。 このビューは、今後のキャンペーンでオーディエンスを抑制する時期を決定するのに役立ちます。 例えば、既に 1 つのクリエイティブを 3 回表示しているプロファイルを抑制できます。
 
-![ 頻度分布ビュー ](/help/assets/collaborate/measure/frequency-distribution.gif)
+![&#x200B; 頻度分布ビュー &#x200B;](/help/assets/collaborate/measure/frequency-distribution.gif)
 
 ### ディメンション別の指標 {#metric-by-dimension}
 
 インプレッション数、ビューアブルインプレッション数、ユニークリーチ、コストなど、プレースメント媒体のコンテキストの様々な指標を分析します。 キャンペーンに最適な結果をもたらすメディア（モバイルストリーミング、プログラムによる CTV など）を分析します。
 
-![ ディメンション別指標。](/help/assets/collaborate/measure/metric-by-dimension.png)
+![&#x200B; ディメンション別指標。](/help/assets/collaborate/measure/metric-by-dimension.png)
 
 ### 累積リーチカーブ {#cumulative-reach-curve}
 
 キャンペーンが進行し、インプレッション数が増えたので、リーチできるユーザー数も増えたかどうかを把握します。 ある一定の時点を過ぎると、同じ人物に何度も繰り返しクリエイティビティが表示される高原に到達するのがキャンペーンの一般的なパターンです。 このビューを使用すると、新しいユーザーにリーチされなくなった瞬間に応じて、今後のキャンペーンの期間を調整できます。
 
-![ 累積リーチカーブ ](/help/assets/collaborate/measure/cumulative-reach-curve.png)
+![&#x200B; 累積リーチカーブ &#x200B;](/help/assets/collaborate/measure/cumulative-reach-curve.png)
 
 ### プレースメント別インプレッション数 {#impressions-by-placement}
 
 クリエイティブのインプレッションを促進しているメディアを理解します。 これは、今後のキャンペーンで広告費用をどこに投資するかを決定するのに役立ちます。
 
-![ プレースメントによるインプレッション数 ](/help/assets/collaborate/measure/impressions-by-placement.png)
+![&#x200B; プレースメントによるインプレッション数 &#x200B;](/help/assets/collaborate/measure/impressions-by-placement.png)
