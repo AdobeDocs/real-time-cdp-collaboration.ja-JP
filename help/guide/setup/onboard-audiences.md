@@ -21,11 +21,11 @@ Audiences are specific groups of users or customers segmented based on various a
 
 >[!IMPORTANT]
 >
->********[](../permissions/overview.md#audience-sourcing)
+>**&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](../permissions/overview.md#audience-sourcing)
 
 Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be sourced into Collaboration. To source audiences, follow the workflow steps in the section below.
 
-********![](/help/assets/icons/plus.png)********
+**&#x200B;**&#x200B;**&#x200B;**![](/help/assets/icons/plus.png)**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ Before you can activate audiences with collaborators and run overlap calculation
 
 >[!IMPORTANT]
 >
->[](#select-audiences)
+>[&#128279;](#select-audiences)
 
 A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
 
@@ -48,9 +48,9 @@ Any settings that you configure for your data connection are applied to all the 
 
 >[!TIP]
 >
->[](/help/guide/setup/manage-data-connection.md)
+>[&#128279;](/help/guide/setup/manage-data-connection.md)
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -58,19 +58,19 @@ Any settings that you configure for your data connection are applied to all the 
 
 Next, you&#39;ll choose the source for your data connection. The available sources include:
 
-* ****
-* ****[](./upload-csv-audience-sourcing.md)
-* ****[](./configure-aws-s3-audience-sourcing.md)
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**&#x200B;[&#128279;](./upload-csv-audience-sourcing.md)
+* **&#x200B;**&#x200B;[&#128279;](./configure-aws-s3-audience-sourcing.md)
+* **&#x200B;**
+* **&#x200B;**
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### サンドボックスを選択
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
@@ -80,10 +80,10 @@ Next, you must make sure that the correct marketing actions are set on the sourc
 
 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-[](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}
+[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}
 
-* **********
-* ******
+* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+* **&#x200B;**&#x200B;**
 
 Read more about data usage labels in the Experience Platform documentation:
 
@@ -94,7 +94,7 @@ Additionally, you&#39;ll want to select your consent rules to apply to data bein
 
 ![](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
@@ -143,25 +143,25 @@ Next you&#39;ll select source fields to map to target fields in Collaboration. A
 
 >[!TIP]
 >
->********
+>**&#x200B;**&#x200B;**&#x200B;**
 
 >[!BEGINSHADEBOX]
 
-****[](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}[](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}[](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}
+**&#x200B;**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}
 
 Source fields get mapped to the target fields defined in Collaboration.
 
-****&#x200B;ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
+**&#x200B;**&#x200B;ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
 
-******
+**&#x200B;**&#x200B;**
 
 >[!ENDSHADEBOX]
 
-************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-****************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
@@ -169,7 +169,7 @@ Source fields get mapped to the target fields defined in Collaboration.
 
 ![](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
@@ -181,29 +181,29 @@ Next, schedule when to start and end populating the audiences. The audience will
 
 >[!IMPORTANT]
 >
->[](/help/guide/setup/my-activity.md#types-of-activities)
+>[&#128279;](/help/guide/setup/my-activity.md#types-of-activities)
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->[](/help/guide/setup/manage-data-connection.md)
+>[&#128279;](/help/guide/setup/manage-data-connection.md)
 
 ### オーディエンスを選択 {#select-audiences}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### レビュー
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
@@ -214,7 +214,7 @@ Next, schedule when to start and end populating the audiences. The audience will
 >title="ID の欠落"
 >abstract="ID 数は、設定されたスケジュールに従って次回データ接続を更新した後に使用できます。 最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。"
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
@@ -223,26 +223,26 @@ Each audience contains an overview of the following information:
 | 項目 | 説明 |
 |----------|---------|
 | **[!UICONTROL 名前]** | The name of the audience. |
-| **** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL ステータス]** | **** |
+| **&#x200B;**&#x200B;| Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
+| **[!UICONTROL ステータス]** | **&#x200B;**&#x200B;|
 | **[!UICONTROL ソース]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
-| **** | The data connection the audience is sourced from. You can select the name to view the data connection. |
-| **** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
+| **&#x200B;**&#x200B;| The data connection the audience is sourced from. You can select the name to view the data connection. |
+| **&#x200B;**&#x200B;| Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL 作成日]** | Indicates when the audience was initially sourced into Collaboration. |
 | **[!UICONTROL 最終更新日]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience&#39;s configuration or metadata was last changed. |
 
 ![](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
 
-****&#x200B;次のオプションがあります。
+**&#x200B;**&#x200B;次のオプションがあります。
 
-* ****[](#categories)
-* ****
+* **&#x200B;**&#x200B;[&#128279;](#categories)
+* **&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## View individual audiences {#view-individual-audiences}
 
-****
+**&#x200B;**
 
 ### オーディエンスの詳細
 
@@ -252,7 +252,7 @@ The following information is displayed for each individual audience:
 |----------|---------|
 | **[!UICONTROL ステータス]** | Indicates if the audience is active and can be used in projects. |
 | **[!UICONTROL ソース]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
-| **** | The data connection the audience is sourced from. |
+| **&#x200B;**&#x200B;| The data connection the audience is sourced from. |
 | **[!UICONTROL 最終更新日]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience&#39;s configuration or metadata was last changed |
 | **[!UICONTROL 最終更新者]** | Indicates the user who last updated the audience. |
 | **[!UICONTROL 作成日]** | Indicates when the audience was initially sourced into Collaboration. |
@@ -267,7 +267,7 @@ The following information is displayed for each individual audience:
 >title="ID"
 >abstract="一致キーで区切られた、このオーディエンスを構成する ID の分類ビュー。"
 
-**** The section also contains an identity breakdown of identities by match key to help you understand the composition of the audience.
+**&#x200B;**&#x200B;The section also contains an identity breakdown of identities by match key to help you understand the composition of the audience.
 
 ![The Identities section of an individual audience&#39;s workspace.](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
@@ -315,13 +315,13 @@ The **[!UICONTROL Connection access]** dialog appears, with three available conn
 * **[!UICONTROL Public audience]**. These audiences are available for use in overlap reports and for activation in connections with any collaborators.
 * **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for activation in specified connections only. While the audiences are not available for collaborators to view or use, the population of the audiences still contributes to the total population in the **[!UICONTROL All audiences]** view in the [compare audiences section](/help/guide/collaborate/discover.md#compare-audiences).
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->********
+>**&#x200B;**&#x200B;**&#x200B;**
 
 Audience availability for use in projects with collaborators differs based on the connection access setting.
 
@@ -334,19 +334,19 @@ Audience availability for use in projects with collaborators differs based on th
 
 >[!NOTE]
 >
->********[](/help/guide/collaborate/discover.md#relevant-audiences)
+>**&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](/help/guide/collaborate/discover.md#relevant-audiences)
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
-****
+**&#x200B;**
 
-****[](/help/guide/collaborate/discover.md#discover-overlaps)
+**&#x200B;**&#x200B;[&#128279;](/help/guide/collaborate/discover.md#discover-overlaps)
 
-****[](/help/guide/collaborate/discover.md#compare-audiences)
+**&#x200B;**&#x200B;[&#128279;](/help/guide/collaborate/discover.md#compare-audiences)
 
-****[](/help/guide/collaborate/discover.md#audience-index-score)この機能は、3 つ以上のアクティブオーディエンスがある場合にのみ使用できます。
+**&#x200B;**&#x200B;[&#128279;](/help/guide/collaborate/discover.md#audience-index-score)この機能は、3 つ以上のアクティブオーディエンスがある場合にのみ使用できます。
 
 >[!NOTE]
 >
@@ -362,11 +362,11 @@ From the audience dashboard, you can edit multiple audiences at once. To do this
 
 ### Bulk edit metadata visibility {#bulk-edit-metadata-visibility}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-****&#x200B;デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、「**[!UICONTROL 保存]**」を選択します。
+**&#x200B;**&#x200B;デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、「**[!UICONTROL 保存]**」を選択します。
 
 ![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
@@ -374,32 +374,32 @@ From the audience dashboard, you can edit multiple audiences at once. To do this
 
 オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL 接続アクセスを編集]** を選択します。
 
-![ 「接続アクセスを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![&#x200B; 「接続アクセスを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
 **[!UICONTROL 接続アクセス]** ダイアログが表示され、選択したオーディエンスのアクセス設定を指定できます。 デフォルトでは、「**[!UICONTROL 非公開オーディエンス]** オプションが選択されています。 選択したすべてのオーディエンスに適用するオプションを選択し、「**[!UICONTROL 保存]**」を選択します。
 
-![ 使用可能なオプションが表示された接続アクセスダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![&#x200B; 使用可能なオプションが表示された接続アクセスダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
 ### オーディエンスの名前と説明の一括編集 {#bulk-edit-audience-names-descriptions}
 
 オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL 名前と説明を編集]** を選択します。
 
-![ 「名前と説明を編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+![&#x200B; 「名前と説明を編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
 **[!UICONTROL 名前と説明]** ダイアログが表示され、選択した各オーディエンスの名前と説明を設定できます。 デフォルトでは、各オーディエンスに現在の名前と説明が表示されます。 Make your changes and then select **[!UICONTROL Save]**.
 
-![ 使用可能なオプションが表示された名前と説明ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![&#x200B; 使用可能なオプションが表示された名前と説明ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
 ### カテゴリの一括編集 {#bulk-edit-categories}
 
 オーディエンスダッシュボードでオーディエンスを選択し、編集メニューから **[!UICONTROL カテゴリを編集]** を選択します。
 
-![ 「カテゴリを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![&#x200B; 「カテゴリを編集」オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
 **[!UICONTROL カテゴリ]** ダイアログが表示され、選択した各オーディエンスのカテゴリを設定できます。 デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメイン カテゴリを選択してから、含めるサブカテゴリを選択します。 Make your changes and then select **[!UICONTROL Save]**.
 
-![ 使用可能なオプションが表示されたカテゴリダイアログ ](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![&#x200B; 使用可能なオプションが表示されたカテゴリダイアログ &#x200B;](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## 次の手順
 
-オーディエンスをソーシングしたら、[ 接続 ](/help/guide/connect/establishing-connections.md) してプロジェクトで共同作業する共同作業者を見つけます。
+オーディエンスをソーシングしたら、[&#x200B; 接続 &#x200B;](/help/guide/connect/establishing-connections.md) してプロジェクトで共同作業する共同作業者を見つけます。

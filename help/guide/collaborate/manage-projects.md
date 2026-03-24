@@ -41,9 +41,9 @@ ht-degree: 19%
 >title="広告主名"
 >abstract="ドロップダウンメニューから広告主名を選択します。 オプションは、システムとの互換性を確保するために、発行者によって接続設定で事前設定されています。"
 
-**[!UICONTROL コラボレーション]**&#x200B;に移動し、**[!UICONTROL マイプロジェクト]**&#x200B;に移動します。 初めてのプロジェクトの場合は、**[!UICONTROL プロジェクトを作成]**&#x200B;を選択できます。 それ以外の場合は、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択できます 新しいプロジェクトをいつでも作成できます。
+**[!UICONTROL コラボレーション]**&#x200B;に移動し、**[!UICONTROL マイプロジェクト]**&#x200B;に移動します。 初めてのプロジェクトの場合は、**[!UICONTROL プロジェクトを作成]**&#x200B;を選択できます。 それ以外の場合は、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択できます 新しいプロジェクトをいつでも作成できます。
 
-![ プラス記号を選択するか、プロジェクトを作成して新しいプロジェクトを設定します。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
+![&#x200B; プラス記号を選択するか、プロジェクトを作成して新しいプロジェクトを設定します。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
 **[!UICONTROL プロジェクトを作成]** ダイアログが表示されます。 ドロップダウンから、プロジェクトを作成する&#x200B;**[!UICONTROL 共同作業者]**&#x200B;を選択します。 パブリッシャーで、接続設定中に広告主名を設定した場合は、**[!UICONTROL 広告主名]**&#x200B;を選択できます。
 
@@ -55,8 +55,8 @@ ht-degree: 19%
 
 次に、プロジェクトに&#x200B;**[!UICONTROL プロジェクト名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。 次に、プロジェクトを表す画像を選択します。 この画像は、プロジェクト概要ページでプロジェクトを区別するのに役立ちます。 完了したら、**[!UICONTROL 作成]**&#x200B;を選択してプロジェクトを作成します。
 
-![新しいプロジェクトを設定するために必要なオプション ](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
+![新しいプロジェクトを設定するために必要なオプション &#x200B;](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
 接続設定時に選択したユースケースに基づいて、新しいプロジェクト、その詳細、および使用可能なセクションを表示できるようになりました。
 
-![ プロジェクト概要ワークスペース。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
+![&#x200B; プロジェクト概要ワークスペース。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}

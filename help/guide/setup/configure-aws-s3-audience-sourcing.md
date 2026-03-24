@@ -47,7 +47,7 @@ S3 データ接続を設定する前に、次の点を確認してください�
 
 ## [!DNL Amazon S3]接続の設定 {#configure-aws-s3-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の「**[!UICONTROL 自分のオーディエンス]**」タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の「**[!UICONTROL 自分のオーディエンス]**」タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 初めてのオーディエンスの場合は、**[!UICONTROL 追加]** オプションを選択することもできます。
 
@@ -169,7 +169,7 @@ S3 データ接続のわかりやすい名前とオプションの説明を入�
 
 セクションを編集する必要がある場合は、鉛筆アイコンを選択します。 **[!UICONTROL 完了]**&#x200B;を選択して、すべてのセクションを確認します。
 
-![ データ接続、詳細、マッピング、スケジュールのセクションを表示するレビューの概要画面。](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
+![&#x200B; データ接続、詳細、マッピング、スケジュールのセクションを表示するレビューの概要画面。](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
 データ接続が正常に作成され、オーディエンスのソーシングが進行中であることを示すダイアログ確認が表示されます。
 
@@ -179,7 +179,7 @@ S3 データ接続のわかりやすい名前とオプションの説明を入�
 
 オーディエンスのソーシングが進行中の場合は、画面の上部にバナーが表示されます。 個々のオーディエンスは、ソーシング完了後にのみ表示されます。
 
-![ 「オーディエンス」タブには、[!DNL Amazon S3] オーディエンスのソーシングが進行中であることが表示されます。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
+![&#x200B; 「オーディエンス」タブには、[!DNL Amazon S3] オーディエンスのソーシングが進行中であることが表示されます。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
 S3 オーディエンスがソースされると、利用可能なオーディエンスのリストが表形式またはカードビューで提供されます。
 
@@ -187,7 +187,7 @@ S3 オーディエンスがソースされると、利用可能なオーディ�
 >
 >オーディエンスのソーシング時間は、S3 データのサイズと設定した更新頻度によって異なります。 データセットが大きい場合や更新スケジュールの頻度が低い場合は、**[!UICONTROL 自分のオーディエンス]** ワークスペースに表示されるまでに時間がかかる場合があります。
 
-![ ソース別オーディエンスの表形式のリストが表示されている「オーディエンス」タブ。](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
+![&#x200B; ソース別オーディエンスの表形式のリストが表示されている「オーディエンス」タブ。](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
 グリッド表示またはテーブル表示で、行アイテムまたは&#x200B;**[!UICONTROL オーディエンスを表示]**&#x200B;を選択すると、特定のオーディエンスの概要が表示されます。 オーディエンスのステータス、ソース、データ接続名が表示され、次の詳細パネルが表示されます。
 
@@ -198,7 +198,7 @@ S3 オーディエンスがソースされると、利用可能なオーディ�
 
 このビューを使用して、コラボレーションプロジェクトでオーディエンスを使用する前に、オーディエンスの設定と表示設定を確認します。
 
-詳しくは、「[ オーディエンスダッシュボードを表示」のドキュメント「](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)」を参照してください。
+詳しくは、「[&#x200B; オーディエンスダッシュボードを表示」のドキュメント「](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)」を参照してください。
 
 ## S3 データ接続の表示 {#view-s3-connection}
 
@@ -210,10 +210,10 @@ S3 データ接続には、他のオーディエンスデータ接続と同じ�
 >
 >[!DNL Amazon S3]個のデータ接続は編集できません。 接続が作成されると、更新頻度などの設定を変更することはできません。 設定を更新するには、既存の接続を削除し、新しい接続を作成する必要があります。
 
-![ ソーシングステータス情報を含む[!DNL Amazon S3] データ接続を示す「マイデータ接続」タブ。](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
+![&#x200B; ソーシングステータス情報を含む[!DNL Amazon S3] データ接続を示す「マイデータ接続」タブ。](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## 次の手順 {#next-steps}
 
 これで、[!DNL Amazon S3] ストレージをデータソースとしてCollaborationに正常に設定し、接続できました。 このワークフローを完了することで、アクティベーションや重複分析のために、ファーストパーティのオーディエンスデータを安全にソーシングすることが可能になりました。
 
-ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示され、コラボレーションとアクティベーションの準備が整います。 管理オプションについて詳しくは、「[ オーディエンスのソースと管理」ドキュメント ](./onboard-audiences.md)を参照してください。
+ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示され、コラボレーションとアクティベーションの準備が整います。 管理オプションについて詳しくは、「[&#x200B; オーディエンスのソースと管理」ドキュメント &#x200B;](./onboard-audiences.md)を参照してください。

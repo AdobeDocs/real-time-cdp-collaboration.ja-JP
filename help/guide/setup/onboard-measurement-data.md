@@ -42,4 +42,4 @@ ht-degree: 40%
 
 {{limited-availability-release-note}}
 
-このドキュメントでは、Adobe Real-Time CDP Collaborationにキャンペーン測定データを追加する手順の概要を説明します。 パブリッシャーは、Adobeチームと協力して、キャンペーン測定データをアップロードできます。 そのデータがアップロードされ、処理された後、パブリッシャーと広告主の両方が広範な[ キャンペーン測定レポート ](/help/guide/collaborate/measure.md)を表示できるようになります。
+このドキュメントでは、Adobe Real-Time CDP Collaborationにキャンペーン測定データを追加する手順の概要を説明します。 パブリッシャーは、Adobeチームと協力して、キャンペーン測定データをアップロードできます。 そのデータがアップロードされ、処理された後、パブリッシャーと広告主の両方が広範な[&#x200B; キャンペーン測定レポート &#x200B;](/help/guide/collaborate/measure.md)を表示できるようになります。
