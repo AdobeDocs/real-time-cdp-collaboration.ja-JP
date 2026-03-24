@@ -4,16 +4,16 @@ description: Real-Time CDP CollaborationでAmazon Marketing Cloud キャンペ�
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud，測定レポート，キャンペーン概要，アトリビューション，Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
-source-git-commit: 9f1dc87ae312961244ee8f48553d367a977cc20d
+exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
+source-git-commit: a1fee426f5181888fc900a354a54ed0665f111a5
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
 
 ---
-
 
 # 測定レポート [!DNL Amazon Marketing Cloud] 作成 {#amc-measurement-reports}
 

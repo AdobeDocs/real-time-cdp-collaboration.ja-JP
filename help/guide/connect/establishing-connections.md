@@ -1,174 +1,174 @@
 ---
-title: コラボレータとの接続の確立
-description: 潜在的な共同作業者を見つけた後、連携を確立し、プロジェクトでの共同作業を開始する方法を説明します。
+title: 共同作業者との関係の確立
+description: 潜在的な共同作業者を見つけた後、つながりを確立し、プロジェクトでの共同作業を開始する方法を学びます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
-# コラボレータとの接続の確立 {#establishing-connections}
+# 共同作業者との関係の確立 {#establishing-connections}
 
 {{limited-availability-release-note}}
 
-コラボレーターがキャンペーンで連携する前に、連携を確立する必要があります。 この接続を使用すると、オーディエンスのアクティブ化、プロジェクトの作成およびキャンペーンのパフォーマンスに関するレポートの実行を行うことができます。
+共同作業者がキャンペーンで一緒に作業する前に、接続を確立する必要があります。 この連携により、オーディエンスのアクティベーション、プロジェクトの作成、キャンペーンのパフォーマンスに関するレポートの実行が可能になります。
 
-選択したコラボレーションパターンに基づいて接続が確立されます。 Collaborationは、広告主からパブリッシャーおよびブランドからブランドという 2 つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、「[&#x200B; 使用例 &#x200B;](/help/guide/overview/use-cases.md) ガイドを参照してください。
+選択したコラボレーションパターンに基づいて、接続が確立されます。 Collaborationでは、広告主とパブリッシャー間およびブランドとブランド間の2つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、[ ユースケース ](/help/guide/overview/use-cases.md) ガイドを参照してください。
 
 接続を確立する方法については、コラボレーションパターンに対応する以下の節を参照してください。
 
 - [広告主とパブリッシャーの接続](#advertiser-to-publisher-connection)
-- [ブランド間の接続](#brand-to-brand-connection)
+- [ブランドとのつながり](#brand-to-brand-connection)
 
 ## 広告主とパブリッシャーの接続 {#advertiser-to-publisher-connection}
 
-![&#x200B; 広告主とパブリッシャーの接続プロセスの概要図。](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
+![広告主とパブリッシャーの接続プロセスの概要ダイアグラム。](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-広告主からパブリッシャーへのパターンでは、広告主は **[!UICONTROL 共同作業者を見つける]** ワークスペースを通じて、連携したいパブリッシャーを見つけ、接続の招待を送信します。 次に、パブリッシャーは招待を確認して受け入れ、広告主が接続設定を提案できるようにします。 パブリッシャーが接続設定を受け入れると、接続が確立され、両方の共同作業者がプロジェクトでの作業を開始できます。
+広告主とパブリッシャー間のパターンでは、広告主は&#x200B;**[!UICONTROL 共同作業者を見つける]** ワークスペースを通じて使用するパブリッシャーを見つけ、接続招待を送信します。 その後、パブリッシャーは招待を確認して受け入れ、広告主が接続設定を提案できるようにします。 パブリッシャーが接続設定を受け入れると、接続が確立され、両方の共同作業者がプロジェクトで共同作業を開始できます。
 
-### の概要
+### 概要
 
-広告主とパブリッシャーの間の接続を確立するには、次の手順が必要です。
+広告主とパブリッシャー間の接続を確立するには、次の手順を実行します。
 
-1. [&#x200B; パブリッシャーを見つける &#x200B;](#discover-collaborators)：広告主は、連携する潜在的な共同作業者を特定します。
-1. [&#x200B; 招待を送信 &#x200B;](#send-invite)：広告主は、選択したパブリッシャーに接続招待を送信します。
-1. [&#x200B; 招待を受け入れる &#x200B;](#accept-invite)：パブリッシャーが招待をレビューし、承認します。
-1. [&#x200B; 接続設定の指定 &#x200B;](#configure-connection-settings)：広告主は接続設定を指定し、レビュー用にパブリッシャーに送信します。
-1. [&#x200B; 接続設定の確認 &#x200B;](#establish-connection)：パブリッシャーは接続設定を確認し、受け入れるか拒否します。 許可された場合、接続が確立されます。 拒否された場合、公開者は製品外のリビジョンに関するフィードバックを提供できます。 その後、広告主は設定を修正し、レビュー用に再送信できます。
+1. [ パブリッシャーを見つける](#discover-collaborators)：広告主は、協力する可能性のある共同作業者を特定します。
+1. [招待を送信](#send-invite)：広告主は、選択した発行者に接続招待を送信します。
+1. [招待に同意](#accept-invite)：発行者が招待をレビューし、承認します。
+1. [接続設定の設定](#configure-connection-settings)：広告主は接続設定を設定し、レビューのためにパブリッシャーに送信します。
+1. [接続設定を確認](#establish-connection)：発行者は接続設定を確認し、それを承認または拒否します。 受け入れたら、接続が確立されます。 拒否された場合、パブリッシャーは製品外のリビジョンに対するフィードバックを提供できます。 その後、広告主は設定を変更し、レビューのために再送信できます。
 
-接続設定を受け入れると、接続が確立され、共同作業者は [&#x200B; プロジェクトを作成 &#x200B;](/help/guide/collaborate/manage-projects.md#create-project) してキャンペーンでの共同作業を開始する準備が整います。
+接続設定が承認されると、接続が確立され、共同作業者はキャンペーンでの共同作業を開始するためにプロジェクトを[作成](/help/guide/collaborate/manage-projects.md#create-project)する準備が整います。
 
-## ブランド間の接続 {#brand-to-brand-connection}
+## ブランドとのつながり {#brand-to-brand-connection}
 
-![&#x200B; ブランド間接続プロセスの概要図。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
+![ ブランド間の接続プロセスの概要ダイアグラム。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
 >[!TIP]
 >
->このガイドでは、広告主間およびブランド間のコラボレーションパターンの接続プロセスについて説明します。 広告プラットフォームとの接続について詳しくは、[&#x200B; 接続の概要 &#x200B;](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) ガイドの [&#x200B; 広告主から広告プラットフォームへの接続 &#x200B;](/help/guide/connect/overview.md) の節を参照してください。
+>このガイドでは、広告主とパブリッシャー間およびブランドとブランド間のコラボレーション パターンの接続プロセスについて説明します。 広告プラットフォームとの接続について詳しくは、[接続の概要](/help/guide/connect/overview.md) ガイドの「[広告主と広告プラットフォームの接続](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)」セクションを参照してください。
 
 ## 接続 {#connect}
 
-**[!UICONTROL 接続]** ワークスペースでは、共同作業者との接続を管理したり、接続招待状を送信したり、広告主が発行者ディレクトリを参照したりできます。 ワークスペースは、次の 2 つのメインタブに分かれています。
+**[!UICONTROL Connect]** ワークスペースでは、共同作業者との接続を管理したり、接続招待を送信したり、広告主がパブリッシャーディレクトリを参照したりできます。 ワークスペースは、次の2つのメインタブに分かれています。
 
 ### 共同作業者を見つける {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 共同作業者を検出]** ワークスペースを使用してパブリッシャーを検出できるのは広告主のみです。 役割に関係なく共同作業者と接続する方法については、[&#x200B; ブランド間接続 &#x200B;](#brand-to-brand-connection) の節を参照してください。
+>広告主のみが、**[!UICONTROL 共同作業者を見つける]** ワークスペースを使用してパブリッシャーを見つけることができます。 役割に関係なく共同作業者とつながる方法については、「[ ブランド間の接続](#brand-to-brand-connection)」の節を参照してください。
 
-パブリッシャーを検出するには、「**[!UICONTROL 接続]** タブの **[!UICONTROL 共同作業者を検出]** ワークスペースに移動します。 ここでは、ワークスペースの下部にあるページネーションコントロールを使用して、使用可能な公開者のリストを参照できます。 **[!UICONTROL 共同作業者を検出]** ワークスペースについて詳しくは、[&#x200B; 共同作業者を検出 &#x200B;](/help/guide/connect/discover-collaborators.md) ガイドを参照してください。
+パブリッシャーを見つけるには、「**[!UICONTROL Connect]**」タブの「**[!UICONTROL 共同作業者を見つける]**」ワークスペースに移動します。 ここでは、ワークスペースの下部にあるページネーション コントロールを使用して、使用可能なパブリッシャーのリストを参照できます。 **[!UICONTROL 共同作業者を見つける]** ワークスペースについて詳しくは、[共同作業者を見つける](/help/guide/connect/discover-collaborators.md) ガイドを参照してください。
 
-![&#x200B; 使用可能な公開者のリストが表示されている共同作業者を見つけるワークスペース。](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
+![使用可能な発行者のリストを表示する「共同作業者を見つける」ワークスペース。](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### 招待状を送信 {#send-invite}
 
 >[!IMPORTANT]
 >
->ここでは、広告主が **[!UICONTROL 共同作業者を検出]** ワークスペースを通じて接続招待をパブリッシャーに送信するプロセスについて説明します。 ブランドの役割に関係なく、ブランド間の接続を形成する方法については、[&#x200B; ブランド間接続 &#x200B;](#brand-to-brand-connection) の節を参照するか、[&#x200B; プライベート接続の招待 &#x200B;](#private-connection-invite) の節を参照してください。
+>この節では、**[!UICONTROL 共同作業者を見つける]** ワークスペースを介して広告主がパブリッシャーに接続招待を送信するプロセスについて説明します。 ブランド間の関係を役割に関係なく形成する方法については、「[ ブランド間の接続](#brand-to-brand-connection)」セクションを参照するか、「[ プライベート接続の招待](#private-connection-invite)」セクションにアクセスしてください。
 
-共同作業するパブリッシャーを特定したら、パブリッシャーカードの **[!UICONTROL 接続]** オプションを選択します。 接続プロセスを開始します。
+共同作業を行うパブリッシャーを特定したら、パブリッシャーカードで「**[!UICONTROL 接続]**」オプションを選択します。 このアクションにより、接続プロセスが開始されます。
 
-![&#x200B; 共同作業者を検出ワークスペースの特定のパブリッシャーでハイライト表示された「接続」オプション。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![共同作業者を検索ワークスペースの特定の発行者でハイライト表示された接続オプション。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-接続招待をパブリッシャーに送信するよう促すダイアログが表示されます。 「**[!UICONTROL 招待を送信]**」を選択して続行します。
+ダイアログが表示され、パブリッシャーに接続招待を送信するよう求められます。 「**[!UICONTROL 招待を送信]**」を選択して続行します。
 
-![&#x200B; 「招待を送信」ボタンがハイライト表示された接続の招待を送信ダイアログ &#x200B;](/help/assets/connect/establish-connection/send-connection-invite-dialog.png){zoomable="yes"}
+![送信招待ボタンがハイライト表示された送信接続招待ダイアログ。](/help/assets/connect/establish-connection/send-connection-invite-dialog.png){zoomable="yes"}
 
 >[!NOTE]
 >
->製品外とやり取りしたパブリッシャーと接続する場合は、プライベート接続の招待オプションを利用できます。 詳しくは、[&#x200B; プライベート接続の招待 &#x200B;](#private-connection-invite) の節を参照してください。
+>製品外でコミュニケーションしたパブリッシャーと接続したい場合は、プライベート接続の招待オプションを利用できます。 詳しくは、「[ プライベート接続への招待](#private-connection-invite)」の節を参照してください。
 
-保留中の招待は、[**[!UICONTROL 必要な操作]**] セクションの [**[!UICONTROL マイ接続]**] タブに表示されます。 接続ステータスは **[!UICONTROL 招待状が送信されました]** と表示されます。 **[!UICONTROL 接続のプレビュー]** を選択すると、接続設定をプレビューできますが、パブリッシャーが招待を受け入れるまで編集できません。
+保留中の招待は、「**[!UICONTROL 必要なアクション]**」セクションの「**[!UICONTROL 自分の接続]**」タブに表示されます。 接続ステータスは&#x200B;**[!UICONTROL 招待状が送信]**&#x200B;として表示されます。 接続の設定をプレビューするには、**[!UICONTROL 接続のプレビュー]**&#x200B;を選択します。ただし、パブリッシャーが招待に同意するまで編集することはできません。
 
-![&#x200B; 保留中の接続は、[ マイ接続 ] ワークスペースの [ 操作が必要 ] セクションに表示されます。](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
+![保留中の接続は、「アクションが必要」セクションの「自分の接続」ワークスペースに表示されます。](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
 
-### プライベート接続への招待 {#private-connection-invite}
+### プライベート接続の招待 {#private-connection-invite}
 
-プライベート接続の招待を使用すると、**[!UICONTROL Connect コード]** を使用して、製品外と通信した共同作業者と接続できます。 プライベート接続を形成するには、製品外で接続する共同作業者から **[!UICONTROL Connect コード]** を取得する必要があります。 その後、このコードを使用して、**[!UICONTROL 接続]** ワークスペースの共同作業者にプライベート接続の招待を送信できます。
+プライベート接続招待を使用すると、**[!UICONTROL Connect コード]**&#x200B;を使用して、製品外でコミュニケーションを行った共同作業者と接続できます。 プライベート接続を確立するには、製品外で接続する共同作業者から&#x200B;**[!UICONTROL 接続コード]**&#x200B;を取得する必要があります。 次に、このコードを使用して、**[!UICONTROL Connect]** ワークスペースの共同作業者にプライベート接続招待を送信できます。
 
 #### 接続コード {#connect-code}
 
-プライベート接続の招待状を送信する前に、目的の共同作業者が一意の **[!UICONTROL Connect コード]** を提供する必要があります。 **[!UICONTROL Connect コード]** を探してコピーするには、「設定 **[!UICONTROL ワークスペース内の]** マイアカウント **[!UICONTROL タブに移動し]** す。 **[!UICONTROL Connect コード]** がアカウントの詳細内に表示されます。
+プライベート接続の招待を送信する前に、目的の共同作業者が一意の&#x200B;**[!UICONTROL 接続コード]**&#x200B;を提供する必要があります。 **[!UICONTROL Connect コード]**&#x200B;を検索してコピーするには、**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL 自分のアカウント]** タブに移動します。 アカウントの詳細に「**[!UICONTROL 接続コード]**」が表示されます。
 
-![&#x200B; 接続コードがハイライト表示された設定ワークスペース内の「マイアカウント」タブ。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
+![接続コードがハイライト表示された設定ワークスペース内の「自分のアカウント」タブ。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-![&#x200B; コードを接続 &#x200B;](/help/assets/icons/copy.png) の横にあるコピーアイコン（**[!UICONTROL コピーアイコン]**）を選択して、クリップボードにコピーします。 このコードを製品外の共同作業者と共有できます。
+「**[!UICONTROL コードを接続]**」の横にあるコピーアイコン（![ コピーアイコン ](/help/assets/icons/copy.png)を選択して、クリップボードにコピーします。 その後、このコードを製品外の共同作業者と共有できます。
 
-![&#x200B; 「コピー」アイコンがハイライト表示された「コードを接続」 &#x200B;](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
+![ コピーアイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
 ##### 接続コードの更新 {#refresh-connect-code}
 
-**[!UICONTROL Connect コード]** はいつでも更新できます。 コードを更新すると、共同作業者と共有できる新しい一意のコードが生成されます。 これは、セキュリティ上の理由から以前のコードを無効にする場合に便利です。 古いコードを使用して確立された接続は引き続きアクティブですが、新しい共同作業者は、新しいコードを使用して接続する必要があります。
+**[!UICONTROL Connect コード]**&#x200B;はいつでも更新できます。 コードを更新すると、共同作業者と共有できる新しい一意のコードが生成されます。 これは、セキュリティ上の理由から以前のコードを無効にする場合に便利です。 古いコードを使用して確立された接続は引き続きアクティブですが、新しい共同作業者は新しいコードを使用して接続する必要があります。
 
 >[!IMPORTANT]
 >
->保留中の招待中に **[!UICONTROL 接続コード]** を更新すると、招待が受け入れられない可能性があります。 コードを更新すると、共同作業者は、新しいコードを使用してプライベート接続の招待を再送信する必要がある場合があります。
+>保留中の招待で&#x200B;**[!UICONTROL Connect コード]**&#x200B;を更新すると、招待が承認されない場合があります。 コードを更新した場合、共同作業者は新しいコードを使用してプライベート接続招待を再送信する必要がある場合があります。
 
-**[!UICONTROL Connect コード]** を更新するには、![Connect コード &#x200B;](/help/assets/icons/refresh.png) の横にある更新アイコン（**[!UICONTROL 更新アイコン]**）を選択します。
+**[!UICONTROL Connect コード]**&#x200B;を更新するには、**[!UICONTROL Connect コード]**&#x200B;の横にある更新アイコン（![更新アイコン ](/help/assets/icons/refresh.png)を選択します。
 
-![&#x200B; 更新アイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+![更新アイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 接続コード]** 機能が導入される前に作成されたアカウントには、生成された接続コードがなく、接続フィールドには **[!UICONTROL 使用不可]** と表示されます。 「更新」オプションを使用して、新しい接続コードを生成します。
+>**[!UICONTROL 接続コード]**&#x200B;機能が導入される前に作成されたアカウントには、生成された接続コードはなく、接続フィールドには&#x200B;**[!UICONTROL 使用できません]**&#x200B;と表示されます。 更新オプションを使用して、新しい接続コードを生成します。
 
-#### プライベート接続への招待の送信 {#send-private-connection-invite}
+#### プライベート接続の招待を送信 {#send-private-connection-invite}
 
-共同作業者から **[!UICONTROL 接続コード]** を取得したら、プライベート接続の招待を送信できます。 これを行うには、**[!UICONTROL 接続]** ワークスペースに移動し、右上隅のプラスアイコン（![&#x200B; プラスアイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。
+共同作業者から&#x200B;**[!UICONTROL Connect コード]**&#x200B;を取得したら、プライベート接続の招待を送信できます。 これを行うには、**[!UICONTROL Connect]** ワークスペースに移動し、右上隅のプラスアイコン（![ プラスアイコン ](/help/assets/icons/plus.png)を選択します。
 
-![&#x200B; 接続ワークスペースでハイライト表示されたプラスアイコン。](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+![Connect ワークスペースで強調表示されたプラス アイコン。](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
-**[!UICONTROL 接続]** ダイアログが表示され、接続する共同作業者の **[!UICONTROL 接続コード]** を入力するように求められます。 コードをテキストフィールドに貼り付け、「**[!UICONTROL 続行]** を選択して続行します。
+**[!UICONTROL Connect]** ダイアログが表示され、接続する共同作業者の&#x200B;**[!UICONTROL Connect コード]**&#x200B;を入力するよう求められます。 コードをテキストフィールドに貼り付け、**[!UICONTROL 続行]**&#x200B;を選択して続行します。
 
-![&#x200B; 「接続コード」フィールドが入力され、「続行」オプションがハイライト表示された接続ダイアログ &#x200B;](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+![接続コード フィールドが入力され、続行オプションがハイライト表示された接続ダイアログ。](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
 
-**[!UICONTROL 接続]** ダイアログに、コードが関連付けられている共同作業者が表示され、正しい共同作業者で接続していることを確認できます。 共同作業者が正しい場合は、[**[!UICONTROL 接続]**] を選択して、プライベート接続の招待を送信します。
+**[!UICONTROL Connect]** ダイアログには、コードが関連付けられている共同作業者が表示され、正しい共同作業者と接続していることを確認できます。 共同作業者が正しい場合は、**[!UICONTROL Connect]**&#x200B;を選択して、プライベート接続の招待を送信します。
 
-![&#x200B; 共同作業者の詳細が表示され、「接続」オプションがハイライト表示された接続ダイアログ &#x200B;](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+![共同作業者の詳細が表示され、接続オプションが強調表示された接続ダイアログ。](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
 
 ### 招待状を承認 {#accept-invite}
 
 >[!TIP]
 >
->接続プロセスについて話し合う際には、**owner** と **recipient** が区別されます。 所有者は、招待を送信して接続を開始する共同作業者であり、受信者は、招待を受信してレビューする共同作業者です。
+>接続プロセスについて説明する際、**所有者**&#x200B;と&#x200B;**受信者**&#x200B;の区別があります。 所有者は、招待を送信して接続を開始する共同作業者で、受信者は、招待を受信してレビューする共同作業者です。
 
-所有者が接続設定を指定する前に、受信者は接続への招待を受け入れる必要があります。 これを行うには、「**[!UICONTROL 接続]**」ワークスペースに移動し、「**[!UICONTROL アクションが必要]**」セクションで保留中の接続を見つけます。 接続ステータスは **[!UICONTROL 招待状を受信]** と表示されます。 「**[!UICONTROL 同意する]**」を選択して、招待を承認します。
+所有者が接続設定を設定する前に、受信者が接続招待を受け入れる必要があります。 これを行うには、**[!UICONTROL Connect]** ワークスペースに移動し、「**[!UICONTROL 必要なアクション]**」セクションで保留中の接続を見つけます。 接続ステータスは&#x200B;**[!UICONTROL 招待を受信]**&#x200B;と表示されます。 **[!UICONTROL 承諾]**&#x200B;を選択して、招待を承諾します。
 
-![&#x200B; 保留中の接続は、「同意」オプションがハイライト表示された「接続」ワークスペースの「アクションが必要」セクションに表示されます。](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+![保留中の接続は、「同意」オプションが強調表示された状態で、ワークスペースを接続するアクションが必要なセクションに表示されます。](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
 
-招待を受け入れるよう促すダイアログが表示されます。 **[!UICONTROL 招待を受け入れる]** を選択して続行します。
+招待を受け入れるよう促すダイアログが表示されます。 「**[!UICONTROL 招待を承諾]**」を選択して続行します。
 
-![&#x200B; 「招待を承認」オプションがハイライト表示された接続の招待を承認ダイアログ &#x200B;](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![同意の招待オプションがハイライト表示された接続招待ダイアログ ](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
-接続のステータスが「**[!UICONTROL 保留中]** に変わります。 これで、所有者が接続設定を指定できるようになります。
+接続のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;に変更されます。 所有者は、接続設定を設定できるようになりました。
 
-### 接続設定の指定 {#configure-connection-settings}
+### 接続設定の設定 {#configure-connection-settings}
 
-接続設定は、2 人の共同作業者の間の用語を定義します。 これらの設定には、ユースケース、一致キー、クレジット分割、法的契約が含まれます。 広告主と接続する共同作業者は、接続設定に広告主名を追加することもできます。この設定は、プロジェクトを作成する際に使用されます。
+接続設定は、2人の共同作業者の条件を定義します。 これらの設定には、ユースケース、照合キー、クレジットの分割、法的契約書などが含まれます。 広告主と連携する共同作業者は、プロジェクトの作成時に使用する接続設定に広告主名を追加することもできます。
 
-受信者が招待を受け入れると、所有者が接続設定を指定できます。 これを行うには、**[!UICONTROL マイ接続]** に移動し、**[!UICONTROL 必要なアクション]** セクションで保留中の接続を見つけます。 **[!UICONTROL 接続を設定]** を選択して、接続設定を指定します。
+受信者が招待を受け入れた後、所有者は接続設定を設定できます。 これを行うには、**[!UICONTROL 自分の接続]**&#x200B;に移動し、「**[!UICONTROL 必要なアクション]**」セクションで保留中の接続を見つけます。 **[!UICONTROL 接続を設定]**&#x200B;を選択して、接続設定を構成します。
 
-![&#x200B; 「必要なアクション」セクションで「接続を設定」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![接続を設定オプションを含む接続ワークスペースは、「アクションが必要」セクションでハイライト表示されています。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
-接続設定ワークスペースが表示され、接続の様々な設定を指定できます。
+接続設定ワークスペースが表示され、接続の様々な設定を行うことができます。
 
-![&#x200B; 接続設定ワークスペース &#x200B;](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
+![接続設定ワークスペース。](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
 #### 接続設定 {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="ユースケース"
->abstract="ユースケースには、すべてのオプションが事前入力されています。接続設定を送信する前に、ユースケースを編集できます。"
+>abstract="ユースケースには、すべてのオプションが事前入力されています。 接続設定を送信する前に、ユースケースを編集できます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="一致キー"
->abstract="一致キーには、自身と共同作業者がアカウントレベルで選択した、共通の一致キーが事前入力されています。この接続で使用しない一致キーは、オフに切り替えることができます。"
+>abstract="一致キーには、自身と共同作業者がアカウントレベルで選択した、共通の一致キーが事前入力されています。 この接続で使用しない一致キーは、オフに切り替えることができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="アカウント一致キー"
 
 >[!CONTEXTUALHELP]
@@ -184,12 +184,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="測定"
->abstract="アクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（毎日、3 日ごと、または週ごと）に基づいて消費されます。"
+>abstract="アクティビティを実行して、キャンペーンのパフォーマンスレポートとインサイトを生成します。 クレジットは、すべてのキャンペーンのキャンペーンレポートの行数とレポートの頻度（毎日、3 日ごと、または週ごと）に基づいて消費されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
->abstract="<p>オプションの設定。発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Collaboration の広告主アカウント名が事前入力されます。</li></ul>"
+>abstract="<p>オプションの設定。 発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成の手順で事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Collaboration の広告主アカウント名が事前入力されます。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトの作成"
 
 >[!CONTEXTUALHELP]
@@ -197,112 +197,112 @@ ht-degree: 8%
 >title="Audience Activation"
 >abstract="Audience Activation を使用すると、Audience Activation を開始できる共同作業者を選択できます。"
 
-次の接続設定を指定できます。
+次の接続設定を設定できます。
 
 ##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Audience Activation]** 機能が導入される前に作成した接続では、自動的に接続所有者に対する Audience Activation 設定が設定されます。 両方の共同作業者がオーディエンスをアクティブ化できるようにする場合は、[&#x200B; 現在の接続を削除 &#x200B;](#delete-connections) し、更新された設定で新しい接続を作成する必要があります。
+>**[!UICONTROL オーディエンスアクティベーション]**&#x200B;機能が導入される前に作成された接続では、オーディエンスアクティベーション設定が自動的に接続所有者に設定されます。 両方の共同作業者がオーディエンスをアクティブ化できるようにするには、[現在の接続を削除](#delete-connections)し、更新された設定で新しい接続を作成する必要があります。
 
-Audience Activation を使用すると、接続内でオーディエンスをアクティブ化できる共同作業者を選択できます。 Audience Activation は、「**[!UICONTROL Audience Activation]** のユースケースが選択されている場合にのみ、オプションになります。 接続プロセスの実行中にユースケースを削除することを選択した場合、Audience Activation 設定は接続設定から削除されます。 Audience Activation について詳しくは、[&#x200B; アクティベート &#x200B;](/help/guide/collaborate/activate.md) ガイドを参照してください。
+オーディエンスアクティベーションを使用すると、接続内でオーディエンスをアクティベートできる共同作業者を選択できます。 オーディエンスアクティベーションは、**[!UICONTROL オーディエンスアクティベーション]**&#x200B;のユースケースが選択されている場合にのみオプションになります。 接続プロセス中にユースケースを削除することを選択した場合、オーディエンスアクティベーション設定は接続設定から削除されます。 オーディエンスのアクティベーションについて詳しくは、[ アクティベート ](/help/guide/collaborate/activate.md) ガイドを参照してください。
 
-Audience Activation を設定するには、「**[!UICONTROL Audience Activation]** セクションの **[!UICONTROL 設定]** を選択します。 ドロップダウンメニューを使用して、オーディエンスをアクティブ化できる共同作業者を指定します。 1 人の共同作業者を選択することも、両方の共同作業者がオーディエンスをアクティブ化できるようにすることもできます。
+オーディエンスのアクティブ化を設定するには、「**[!UICONTROL オーディエンスのアクティブ化]**」セクションで「**[!UICONTROL セットアップ]**」を選択します。 ドロップダウンメニューを使用して、オーディエンスをアクティベートできる共同作業者を指定します。 1人の共同作業者を選択するか、両方の共同作業者がオーディエンスをアクティブ化できるようにします。
 
-![&#x200B; 接続設定ワークスペースのオプションを含む Audience Activation ダイアログ。](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含むオーディエンスアクティベーションダイアログ。](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
-完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
+完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![&#x200B; 接続設定ワークスペースに「保存」オプションが表示された Audience Activation ダイアログ &#x200B;](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
+![接続設定ワークスペースの「保存」オプションを使用したオーディエンスアクティベーションダイアログ。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
 ##### ユースケース {#use-cases}
 
-ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューやオプションが決まります。 詳しくは、[&#x200B; プロジェクトのユースケース &#x200B;](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
+ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューとオプションが決まります。 詳しくは、[ プロジェクトのユースケース ](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
-ユースケースをカスタマイズするには、「**[!UICONTROL ユースケース]**」セクションで **[!UICONTROL 編集]** を選択し、共同作業者とのプロジェクトに含めたくないプロジェクトをオフにします。 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
+ユースケースをカスタマイズするには、「**[!UICONTROL ユースケース]**」セクションで「**[!UICONTROL 編集]**」を選択し、共同作業者とのプロジェクトに含めたくないプロジェクトをオフにします。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![&#x200B; 接続設定ワークスペースのユースケース設定 &#x200B;](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![接続設定ワークスペースのユースケース設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 一致キー {#match-keys}
 
 >[!IMPORTANT]
 >
->複数の一致キーが使用されているオーディエンスをアクティブ化する場合、1 つ（または複数）の一致キーに重複がない、オーディエンスサイズがない、またはしきい値を下回る場合、アクティベーション全体が失敗します。 オーディエンスに十分な重複があり、アクティブ化する前にすべての一致キーで 1000 個の ID の最小しきい値を満たしていることを確認します。
+>複数の照合キーを使用するオーディエンスをアクティブ化する場合、1つ（または複数）の照合キーに重複がないか、オーディエンスサイズがないか、しきい値を下回ると、アクティブ化全体が失敗します。 オーディエンスが十分に重複しており、すべてのマッチキーで最低1,000 IDのしきい値を満たしていることを確認してからアクティベートします。
 
-一致キーは、ユーザーと共同作業者が [&#x200B; アカウントの設定 &#x200B;](/help/guide/setup/onboard-account.md#set-up-match-keys) 時に選択した共通の一致キーで自動的に入力されます。 自分と共同作業者の両方が選択した **および** 共通している一致するキーのみが表示されます。
+一致キーには、アカウントの設定中に[自分と共同作業者が選択した共通の一致キーが自動的に入力されます](/help/guide/setup/onboard-account.md#set-up-match-keys)。 自分と共同作業者が選択した&#x200B;**と**&#x200B;の両方に共通する一致するキーのみが表示されます。
 
-![&#x200B; 共通の一致キーを示す「キーを一致」セクションがハイライト表示された接続設定ワークスペース。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![一致キーのセクションがハイライト表示された接続設定ワークスペースには、共通の一致キーが表示されます。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-接続所有者が接続設定を設定する際に、追加の一致キーを含めるために [&#x200B; アカウント一致キーを編集 &#x200B;](../setup/onboard-account.md#edit-match-keys) できます。 アカウント設定で一致キーをさらに切り替えると、共同作業者も選択している場合、それらの一致キーを接続設定でオンに切り替えることができます。 接続プロセスを開始した後に追加された一致キーは自動的には入力されず、手動で切り替える必要があります。
+接続所有者が接続設定を設定している場合、アカウント一致キーを[編集して](../setup/onboard-account.md#edit-match-keys)追加の一致キーを含めることができます。 アカウント設定でさらに一致するキーを切り替えた後、それらの一致するキーは、共同作業者が選択している場合は、接続設定で切り替え可能になります。 接続プロセスが開始された後に追加された照合キーは自動的に入力されないため、手動でオンに切り替える必要があります。
 
-一致キーをカスタマイズするには、「**[!UICONTROL 一致キー]**」セクションで **[!UICONTROL 編集]** を選択し、この接続で使用しない一致キーをオフに切り替えます。 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
+照合キーをカスタマイズするには、**[!UICONTROL 照合キー]** セクションで&#x200B;**[!UICONTROL 編集]**&#x200B;を選択し、この接続で使用しない照合キーをすべてオフにします。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![&#x200B; キーの一致セクション ダイアログが開き、キーの一致がオフに切り替えられた接続設定ワークスペース &#x200B;](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![一致キーのセクション ダイアログが開いている接続設定ワークスペースで、一致キーがオフに切り替えられていることが表示されます。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->共同作業者が接続設定を承認すると、一致キーはロックされ、変更できなくなります。
+>共同作業者が接続設定を受け入れると、一致キーがロックされ、変更できません。
 
 ##### クレジット分割 {#credit-split}
 
-「クレジット分割」セクションを使用して、共同作業している 2 つの関係者のうち、アクティビティのコストを負担するのはどれかを決定します。 クレジット分割オプションは、接続に対して選択したユースケースによって決定されます。 **[!UICONTROL 測定]** のユースケースではコストをカバーするために一方のパーティが必要ですが、**[!UICONTROL アクティベーション – マッチング]** のユースケースでは、追加のオプションとして各パーティに独自のコストをカバーさせることができます。 コストの内訳について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
+「クレジットの分割」セクションを使用して、2つの共同作業当事者のうち、活動のコストをカバーする当事者を決定します。 クレジット分割オプションは、接続で選択したユースケースによって決まります。 **[!UICONTROL 測定]**&#x200B;のユースケースでは、コストをカバーするには1つの関係者が必要ですが、**[!UICONTROL アクティベーション – マッチング]**&#x200B;のユースケースでは、各関係者が独自のコストをカバーするように追加オプションが提供されます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
 >[!NOTE]
 >
->オーディエンス – 出力は、常にオーディエンスを受け取る共同作業者によってカバーされるので、選択は必要ありません。
+>オーディエンス – エグレスは、オーディエンスを受信する共同作業者によって常にカバーされるため、選択は必要ありません。
 
-与信分割を設定するには、「**[!UICONTROL 与信分割]** セクションで **[!UICONTROL 編集]** を選択します。 その後、ユースケースごとに適切なオプションを選択できます。 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
+クレジット分割を設定するには、「**[!UICONTROL クレジット分割]**」セクションで「**[!UICONTROL 編集]**」を選択します。 その後、各ユースケースに適切なオプションを選択できます。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![&#x200B; 接続設定ワークスペースにオプションが表示されたクレジット分割ダイアログ &#x200B;](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含むクレジット分割ダイアログ。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### 広告主名 {#advertiser-names}
 
 >[!NOTE]
 >
->このオプションは、接続を開始したユーザーに応じて、接続設定の設定中や接続設定の確認中に表示される場合があります。
+>このオプションは、接続を開始するユーザーに応じて、接続設定の設定または接続設定のレビュー中に表示される場合があります。
 
-広告主との接続を形成するパブリッシャーの場合は、接続設定で広告主名を追加することを選択できます。 これにより、システム内で広告主が自分に知られている複数の名前を追加できます。 これは、広告主が複数の地域に存在する場合や、様々なコンテキストで異なる名前で知られている場合に特に便利です。 後でプロジェクトを作成する際に、接続設定で設定された名前のリストから適切な広告主名を選択できます。
+広告主との接続を形成するパブリッシャーの場合は、接続設定に広告主名を追加することを選択できます。 これにより、システムで広告主が認識される複数の名前を追加できます。 これは、広告主が複数の地域で事業を展開している場合や、異なるコンテクストで名称が異なる場合に特に役立ちます。 その後、プロジェクトを作成する際に、接続設定で設定した名前のリストから適切な広告主名を選択できます。
 
-![&#x200B; 接続設定ワークスペースの広告主名。](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
+![接続設定ワークスペースの広告主名。](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-広告主名を追加するには、「**[!UICONTROL 広告主名]** セクションの **[!UICONTROL 編集]** を選択します。 その後、システム内で広告主が認識できる **[!UICONTROL 広告主 ID]** と、Collaboration内でその ID に関連付ける **[!UICONTROL 広告主名]** を入力できます。 「**[!UICONTROL 追加]** オプションを選択して、複数の広告主名を追加できます。
+広告主名を追加するには、「**[!UICONTROL 広告主名]**」セクションで「**[!UICONTROL 編集]**」を選択します。 次に、広告主がシステム内で認識されている&#x200B;**[!UICONTROL 広告主ID]**&#x200B;と、そのIDに関連付ける&#x200B;**[!UICONTROL 広告主名]**&#x200B;をCollaboration内で入力できます。 **[!UICONTROL 追加]** オプションを選択して、複数の広告主名を追加できます。
 
-![&#x200B; 接続設定ワークスペースにオプションが表示された広告主名ダイアログ &#x200B;](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含む広告主名ダイアログ。](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
 
-完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。
+完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-プロジェクトを作成する際には、接続時に設定された以下の設定に基づいて広告主名が事前入力されます    :
+プロジェクトを作成する際には、接続中に設定された次の設定に基づいて広告主名が事前入力されます    :
 
-1. **広告主名を設定しない**：広告主名を追加しない場合、Collaborationではデフォルトで広告主名が使用されます。
-2. **1 つの広告主名セット**:1 つの広告主名が追加された場合、Collaborationはその名前をプロジェクトの広告主名として自動的に使用します。
-3. **複数の広告主名を設定**：複数の広告主名を追加した場合、ユーザーまたは共同作業者は、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
+1. **広告主名が設定されていません**：広告主名が追加されていない場合、Collaborationはデフォルトで広告主名を広告主名として使用します。
+2. **1つの広告主名セット**:1つの広告主名が追加された場合、Collaborationはその名前を自動的にプロジェクトの広告主名として使用します。
+3. **複数の広告主名が設定されています**：複数の広告主名が追加されている場合、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
 
 >[!NOTE]
 >
 > 接続設定を送信すると、広告主名を追加または編集できなくなります。
 
-![&#x200B; 「広告主名」セクションに値が入力された接続設定ワークスペース &#x200B;](/help/assets/connect/establish-connection/add-advertiser-names.png)
+![広告主名セクションが入力された接続設定ワークスペース。](/help/assets/connect/establish-connection/add-advertiser-names.png)
 
-選択が完了したら、「**[!UICONTROL 送信]**」を選択して、提案された設定をレビュー用に受信者に送信します。
+選択した後、**[!UICONTROL 送信]**&#x200B;を選択して、レビュー用に提案された設定を受信者に送信します。
 
 ### 接続設定を確認 {#review-connection-settings}
 
-次に、受信者は、所有者によって提案された接続設定を確認する必要があります。 受信者は、「接続 **[!UICONTROL ワークスペースの]** マイ接続 **[!UICONTROL タブに移動することでこれを実行でき]** す。 「**[!UICONTROL 必要なアクション]**」セクションに接続が表示されます。 **[!UICONTROL 接続設定を確認]**」を選択して、提案された接続設定を確認します。
+次に、受信者は所有者が提案した接続設定を確認する必要があります。 受信者は、**[!UICONTROL Connect]** ワークスペースの「**[!UICONTROL 自分の接続]**」タブに移動して、これを行うことができます。 接続は、**[!UICONTROL 必要なアクション]** セクションに表示されます。 **[!UICONTROL 接続設定を確認]**&#x200B;を選択して、提案された接続設定を確認します。
 
-![&#x200B; 「接続設定を確認」オプションがハイライト表示されたマイ接続ワークスペース。](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+![接続設定を確認オプションがハイライト表示された自分の接続ワークスペース。](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
 
-共同作業者が提案した設定を確認します。 接続設定は、承認または拒否できます。 接続設定を拒否する場合は、製品外で行う変更について共同作業者と連絡を取る必要があります。 共同作業者の連絡先情報は、接続設定ワークスペースの **[!UICONTROL 連絡先]** セクションに表示されます。 その後、所有者は接続設定を変更し、レビュー用に再送信できます。
+共同作業者が提案した設定を確認します。 接続設定を承認または拒否できます。 接続設定を拒否する場合は、製品外で行う変更について共同作業者に連絡する必要があります。 共同作業者の連絡先情報は、接続設定ワークスペースの「**[!UICONTROL 連絡先]**」セクションに表示されます。 その後、所有者は接続設定を変更し、レビュー用に再送信できます。
 
-![&#x200B; 「確定」および「却下」オプションがハイライト表示された接続設定ワークスペース &#x200B;](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
+![同意と拒否オプションがハイライト表示された接続設定ワークスペース。](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-さらに、広告主と接続するパブリッシャーの場合、接続設定に広告主名を追加できるようになりました。 このプロセスについて詳しくは、[&#x200B; 接続設定 &#x200B;](#connection-settings) の節を参照してください。
+さらに、広告主と接続するパブリッシャーの場合は、接続設定に広告主名を追加できるようになりました。 このプロセスについて詳しくは、「[接続設定](#connection-settings)」の節を参照してください。
 
 >[!NOTE]
 >
-> 接続設定を承認すると、広告主名を追加または編集できなくなります。
+> 接続設定を受け入れると、広告主名を追加または編集できなくなります。
 
-次に、「**[!UICONTROL 同意する]** を選択して、接続を続行します。 接続ステータスが **[!UICONTROL アクティブ]** に変わり、プロジェクトの共同作業を開始できるようになります。
+次に、**[!UICONTROL 同意]**&#x200B;を選択して、接続を続行します。 接続ステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;に変更され、プロジェクトの共同作業を開始できるようになります。
 
 ## 次の手順
 
-共同作業者との接続を確立すると、共同作業者と [&#x200B; プロジェクトを作成 &#x200B;](/help/guide/collaborate/manage-projects.md#create-project) できるようになります。
+共同作業者との接続を確立すると、共同作業者と共同作業者はプロジェクトを[作成](/help/guide/collaborate/manage-projects.md#create-project)できるようになります。
