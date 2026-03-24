@@ -2,7 +2,7 @@
 title: Source and manage audiences
 description: Learn how to source and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
 workflow-type: tm+mt
@@ -80,7 +80,7 @@ Next, you must make sure that the correct marketing actions are set on the sourc
 
 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}
+[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}
 
 * **&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 * **&#x200B;**&#x200B;**
@@ -147,7 +147,7 @@ Next you&#39;ll select source fields to map to target fields in Collaboration. A
 
 >[!BEGINSHADEBOX]
 
-**&#x200B;**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}
+**&#x200B;**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#create-namespaces){target="_blank"}[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}
 
 Source fields get mapped to the target fields defined in Collaboration.
 
