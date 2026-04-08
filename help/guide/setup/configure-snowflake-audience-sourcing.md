@@ -2,11 +2,12 @@
 title: オーディエンスソーシング用に [!DNL Snowflake] を設定
 description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Snowflake Secure Data Share] を設定して接続する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 1%
+source-wordcount: '1229'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +17,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 ## 概要 {#overview}
 
-[!DNL Snowflake]は、1st パーティオーディエンスデータをCollaborationにソーシングするためにサポートされているオプションの1つです。 その他の使用可能な方法には、[Experience Platform](./onboard-audiences.md)からのオーディエンスのソーシング、[[!DNL AWS S3]  バケット &#x200B;](./configure-aws-s3-audience-sourcing.md)の接続、または[CSV ファイル &#x200B;](./upload-csv-audience-sourcing.md)のアップロードがあります。
+[!DNL Snowflake]は、1st パーティオーディエンスデータをCollaborationにソーシングするためにサポートされているオプションの1つです。 その他の使用可能な方法には、[Experience Platform](./onboard-audiences.md)からのオーディエンスのソーシング、[[!DNL AWS S3]  バケット ](./configure-aws-s3-audience-sourcing.md)の接続、または[CSV ファイル ](./upload-csv-audience-sourcing.md)のアップロードがあります。
 
 次の手順に従って[!DNL Snowflake Secure Data Share]を接続し、オーディエンスデータをCollaborationにソースします。 設定が完了したら、コラボレーションプロジェクト用にソースされたオーディエンスをレビュー、アクティブ化、管理できます。
 
@@ -32,12 +33,12 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
    * **スキーマ**
    * **ビュー**
 
-* [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[&#x200B; オーディエンスソーシング仕様（v1.2） &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
+* [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[ オーディエンスソーシング仕様（v1.2） ](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
 * [!DNL Snowflake] オーディエンスファイルのすべての一致キーを、Collaboration アカウントに対しても有効にする必要があります。 [一致キーを有効にする](./onboard-account.md#set-up-match-keys)または[新しい一致キー](./onboard-account.md#edit-match-keys)をアカウントに追加する方法について説明します。
 
 ## [!DNL Snowflake]接続の設定 {#configure-snowflake-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL オーディエンスを追加]** オプションを選択することもできます。
 
@@ -55,11 +56,17 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 ### オーディエンスファイルを確認 {#review-audience-file}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="オンボーディング用にデータを準備"
+>abstract="Snowflake for Collaborationからオーディエンスデータをフォーマットおよび構造化する方法については、オーディエンスソーシング仕様ガイドを参照してください。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="詳しくは、ガイドを参照してください。"
+
 ソーシングを開始する前に、[!DNL Snowflake Share]と[!DNL Snowflake] オーディエンスファイルの要件を説明するダイアログが表示されます。 [!DNL Snowflake Share]が正しい共有名、アカウント ID、スキーマ、ビューで作成されていることを確認してください。 Collaborationで使用するためにオーディエンスデータが正しくフォーマットおよび構造化されていることを確認するには、**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** ガイドを参照してください。
 
 完了したら、**[!UICONTROL オンボーディングの開始]**&#x200B;を選択します。
 
-![&#x200B; オーディエンスソーシング仕様へのリンクを含むオンボーディングダイアログ用に[!DNL Snowflake Share]を準備します。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
+![ オーディエンスソーシング仕様へのリンクを含むオンボーディングダイアログ用に[!DNL Snowflake Share]を準備します。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### [!DNL Snowflake Share]接続を認証 {#authenticate-snowflake-share-connection}
 
@@ -94,7 +101,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 マッピングされたフィールドを視覚的に確認し、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。 **[!UICONTROL ソースデータをプレビュー]** オプションを使用して、[!DNL Snowflake Share]からサンプルデータをプレビューすることもできます。
 
-![&#x200B; フィールドをマップ画面に表示すると、自動マッピングされたソースフィールドとターゲットフィールドが表示され、「ソースデータをプレビュー」オプションと「次へ」オプションがハイライト表示されます。](../../assets/setup/snowflake-audience-sourcing/map-fields-screen.png)
+![ フィールドをマップ画面に表示すると、自動マッピングされたソースフィールドとターゲットフィールドが表示され、「ソースデータをプレビュー」オプションと「次へ」オプションがハイライト表示されます。](../../assets/setup/snowflake-audience-sourcing/map-fields-screen.png)
 
 プレビューを選択すると、**[!UICONTROL [!DNL Snowflake Share]データのプレビュー]** ダイアログが表示され、サンプルデータが表形式で表示されます。 これを確認し、**[!UICONTROL 閉じる]**&#x200B;を選択します。
 
@@ -113,7 +120,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 >
 >Collaboration クレジットを効果的に管理するには、更新の頻度を、基になる[!DNL Snowflake] データの更新頻度と一致するか、それを超えないように設定します。 サポートされる最小の更新間隔は、6日ごとに1回です。
 
-![&#x200B; スケジュール画面では、更新頻度と日付範囲の設定、および次のオプションがハイライト表示されます。](../../assets/setup/snowflake-audience-sourcing/refresh-frequency-date-range.png)
+![ スケジュール画面では、更新頻度と日付範囲の設定、および次のオプションがハイライト表示されます。](../../assets/setup/snowflake-audience-sourcing/refresh-frequency-date-range.png)
 
 ### 接続を確認して完了 {#review-and-complete}
 
@@ -124,9 +131,9 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 * **[!UICONTROL マッピング]**: オーディエンスファイルのソースフィールドが、Collaborationで使用されるターゲットフィールドにどのようにマッピングされるかを表示します。
 * **[!UICONTROL スケジュール]**：接続がオーディエンスデータを更新する頻度と、ソーシング用にアクティブな日付範囲を表示します。
 
-セクションを編集する必要がある場合は、鉛筆アイコン（![編集アイコン &#x200B;](/help/assets/icons/edit.png)）を選択します。 すべてのセクションを確認するには、**[!UICONTROL 完了]**&#x200B;を選択します。
+セクションを編集する必要がある場合は、鉛筆アイコン（![編集アイコン ](/help/assets/icons/edit.png)）を選択します。 すべてのセクションを確認するには、**[!UICONTROL 完了]**&#x200B;を選択します。
 
-![&#x200B; レビュー画面に、データ接続、詳細、マッピングおよびスケジュール設定の概要が表示され、「完了」オプションが強調表示されます。](../../assets/setup/snowflake-audience-sourcing/review-settings.png)
+![ レビュー画面に、データ接続、詳細、マッピングおよびスケジュール設定の概要が表示され、「完了」オプションが強調表示されます。](../../assets/setup/snowflake-audience-sourcing/review-settings.png)
 
 確認ダイアログは、データ接続が正常に作成され、オーディエンスのソーシングが進行中であることを確認します。
 
@@ -152,13 +159,13 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 新しく追加された[!DNL Snowflake]接続は、**[!UICONTROL データ接続]** タブですぐに利用できます。 オーディエンスソースは[!UICONTROL [!DNL Snowflake]]として表示されます。
 
-[!DNL Snowflake] データ接続には、他のオーディエンスデータ接続と同じ機能と詳細が含まれます。 [&#x200B; データ接続を表示および管理する方法](../setup/manage-data-connection.md)の詳細をご覧ください。
+[!DNL Snowflake] データ接続には、他のオーディエンスデータ接続と同じ機能と詳細が含まれます。 [ データ接続を表示および管理する方法](../setup/manage-data-connection.md)の詳細をご覧ください。
 
-![&#x200B; データ接続タブには、ソーシングステータス情報を含む[!DNL Snowflake] データ接続が表示されます。](../../assets/setup/snowflake-audience-sourcing/data-connection-tab-snowflake.png)
+![ データ接続タブには、ソーシングステータス情報を含む[!DNL Snowflake] データ接続が表示されます。](../../assets/setup/snowflake-audience-sourcing/data-connection-tab-snowflake.png)
 
 ## 次の手順 {#next-steps}
 
-これで、Collaborationのデータソースとして[!DNL Snowflake]を正常に設定および接続しました。 ソーシング完了後、[&#x200B; コラボレーションプロジェクトを作成](../collaborate/manage-projects.md)、[&#x200B; オーディエンスをアクティブ化](../collaborate/activate.md)、[重複とインサイトのレビュー](../collaborate/measure.md)、[&#x200B; オーディエンス設定と表示の管理](./onboard-audiences.md)ができます。
+これで、Collaborationのデータソースとして[!DNL Snowflake]を正常に設定および接続しました。 ソーシング完了後、[ コラボレーションプロジェクトを作成](../collaborate/manage-projects.md)、[ オーディエンスをアクティブ化](../collaborate/activate.md)、[重複とインサイトのレビュー](../collaborate/measure.md)、[ オーディエンス設定と表示の管理](./onboard-audiences.md)ができます。
 
 その他のオーディエンスのソーシング方法について詳しくは、次のドキュメントを参照してください。
 
