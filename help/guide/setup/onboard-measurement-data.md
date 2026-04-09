@@ -40,7 +40,7 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-このドキュメントでは、Adobe Real-Time CDP Collaborationにキャンペーン測定データを追加する手順の概要を説明します。 パブリッシャーは、Adobeチームと協力して、キャンペーン測定データをアップロードできます。 そのデータがアップロードされ、処理されると、パブリッシャーと広告主の両方が広範な[ キャンペーン測定レポート ](/help/guide/collaborate/measure.md)を表示できるようになります。
+このドキュメントでは、Adobe Real-Time CDP Collaborationにキャンペーン測定データを追加する手順の概要を説明します。 パブリッシャーは、Adobeチームと協力して、キャンペーン測定データをアップロードできます。 そのデータがアップロードされ、処理されると、パブリッシャーと広告主の両方が広範な[&#x200B; キャンペーン測定レポート &#x200B;](/help/guide/collaborate/measure.md)を表示できるようになります。
 
 ## 測定データを追加 {#add-measurement-data}
 
@@ -136,11 +136,11 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 
 ![選択したソースフィールドとマッピングするために使用可能なすべてのターゲットフィールドを表示するドロップダウンメニュー。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
-必要に応じて、マッピング行を追加または削除できます。 ハッシュ化されていないソースフィールドをハッシュ化されたターゲットフィールドにマッピングする必要がある場合（例えば、プレーンテキストメールを[!UICONTROL  ハッシュ化されたメール ]にマッピングする場合）、**[!UICONTROL 変換を適用]** オプションを使用して、必要なハッシュ化を適用します。
+必要に応じて、マッピング行を追加または削除できます。 ハッシュ化されていないソースフィールドをハッシュ化されたターゲットフィールドにマッピングする必要がある場合（例えば、プレーンテキストメールを[!UICONTROL &#x200B; ハッシュ化されたメール &#x200B;]にマッピングする場合）、**[!UICONTROL 変換を適用]** オプションを使用して、必要なハッシュ化を適用します。
 
 完了したら、エンリッチメントが有効になっている場合は、マッピングされたフィールドと結合キーを確認します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ マッピングされたフィールド、結合キー（エンリッチメントが有効になっている場合）、強調表示された「次へ」オプションを表示するマッピング画面。](../../assets/setup/add-manage-measurement-data/review-mapping.png){zoomable="yes"}
+![&#x200B; マッピングされたフィールド、結合キー（エンリッチメントが有効になっている場合）、強調表示された「次へ」オプションを表示するマッピング画面。](../../assets/setup/add-manage-measurement-data/review-mapping.png){zoomable="yes"}
 
 ### 同意を管理 {#manage-consent}
 
@@ -150,7 +150,7 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 
 ![次のオプションがハイライト表示された確認を必要とする同意管理画面。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-マッピング手順](#enrich-event-data)中にプロファイルのエンリッチメントを[有効にする場合は、事前定義されたオプションのリストから同意ポリシーを設定できます。 これには以下が含まれます。
+マッピング手順[&#128279;](#enrich-event-data)中にプロファイルのエンリッチメントを有効にする場合は、事前定義されたオプションのリストから同意ポリシーを設定できます。 これには以下が含まれます。
 
 * **マーケティングアクション**：これらのマーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。
 * **同意ルール**: Collaborationに送信するデータに適用する同意ルールを選択します。
@@ -166,11 +166,11 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 
 必要な設定を選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ プロファイルのエンリッチメントが有効になっている場合、同意設定オプションが表示され、次のオプションがハイライト表示される同意管理画面](../../assets/setup/add-manage-measurement-data/manage-consent-configuration-options.png){zoomable="yes"}
+![&#x200B; プロファイルのエンリッチメントが有効になっている場合、同意設定オプションが表示され、次のオプションがハイライト表示される同意管理画面](../../assets/setup/add-manage-measurement-data/manage-consent-configuration-options.png){zoomable="yes"}
 
 続行する前に、**[!UICONTROL ガバナンスポリシーと実行アクション]** ダイアログで条件を確認して同意する必要があります。 チェックボックスを選択し、その後に&#x200B;**[!UICONTROL OK]**&#x200B;を選択します。
 
-![ チェックボックスと「OK」オプションが強調表示されたガバナンスポリシーと実行アクションのダイアログ。](../../assets/setup/add-manage-measurement-data/governance-policy-enforcement-actions-dialog.png){zoomable="yes"}
+![&#x200B; チェックボックスと「OK」オプションが強調表示されたガバナンスポリシーと実行アクションのダイアログ。](../../assets/setup/add-manage-measurement-data/governance-policy-enforcement-actions-dialog.png){zoomable="yes"}
 
 #### オーディエンスフィルター {#audience-filter}
 
@@ -192,11 +192,11 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 
 コンバージョンイベントの名前を入力し、ドロップダウンメニューを使用してコンバージョンタイプを選択します。
 
-![ コンバージョンタイプのドロップダウンメニューが表示されたコンバージョンイベントの追加画面が展開されました。](../../assets/setup/add-manage-measurement-data/conversion-type-dropdown.png){zoomable="yes"}
+![&#x200B; コンバージョンタイプのドロップダウンメニューが表示されたコンバージョンイベントの追加画面が展開されました。](../../assets/setup/add-manage-measurement-data/conversion-type-dropdown.png){zoomable="yes"}
 
 この時点で値を割り当てたくない場合は、コンバージョンの値を入力するか、空のままにすることができます。
 
-![ コンバージョン値オプションを強調表示するコンバージョンイベントの追加画面。](../../assets/setup/add-manage-measurement-data/conversion-value.png){zoomable="yes"}
+![&#x200B; コンバージョン値オプションを強調表示するコンバージョンイベントの追加画面。](../../assets/setup/add-manage-measurement-data/conversion-value.png){zoomable="yes"}
 
 次に、イベントデータセット内のどの行が同じ基になるコンバージョンイベントに属しているかを示すために、複製キーを指定する必要があります（例えば、サインアッププロセス中に同じタイムスタンプ）。 これにより、測定レポートで同じコンバージョンを複数回カウントするのを防ぐことができます。 これを行うには、**[!UICONTROL 複製キー]**&#x200B;を選択します。 **[!UICONTROL 複製キー]** ダイアログで、キーを検索して選択し、続いて&#x200B;**[!UICONTROL 選択]**&#x200B;します。
 
@@ -210,15 +210,15 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 
 **[!UICONTROL ソースフィールドを選択]** ダイアログで、条件ルールのソースフィールドを検索して選択し、次に&#x200B;**[!UICONTROL Select]**&#x200B;を選択します。
 
-![ イベントタイプフィールドと選択オプションを強調表示するソースフィールドを選択ダイアログ。](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
+![&#x200B; イベントタイプフィールドと選択オプションを強調表示するソースフィールドを選択ダイアログ。](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
 
 ドロップダウンメニューを使用してロジック演算子を選択し、設定ルールの値を入力します。
 
-![ ロジック演算子のドロップダウンと「値」オプションを強調表示するコンバージョンイベントの追加画面。](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
+![&#x200B; ロジック演算子のドロップダウンと「値」オプションを強調表示するコンバージョンイベントの追加画面。](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
 別のコンバージョンイベントを追加するには、**[!UICONTROL コンバージョンを追加]**&#x200B;を選択します。 合計&#x200B;**3**&#x200B;個のコンバージョンイベントを含めることができます。 完了したら、コンバージョン設定を確認し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ コンバージョンイベント設定と「次へ」オプションがハイライト表示されたコンバージョンイベント追加画面。](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
+![&#x200B; コンバージョンイベント設定と「次へ」オプションがハイライト表示されたコンバージョンイベント追加画面。](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
 
 ### レビュー {#review}
 
@@ -237,8 +237,8 @@ Collaboration Campaignの測定レポートに使用する測定データが含�
 * **[!UICONTROL コンバージョンの詳細]**：コンバージョンに関する重要な情報を表示します。その情報には、種類、一意のイベントの識別に使用される複製キー、割り当てられたコンバージョン値（指定されている場合）が含まれます。
 * **[!UICONTROL 条件]**：このコンバージョンイベントに適用された条件ルールを表示します。
 
-![ コンバージョンイベントの詳細を表示する概要画面。](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+![&#x200B; コンバージョンイベントの詳細を表示する概要画面。](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
 
 ## 次の手順 {#next-steps}
 
-Collaborationでの測定データのソーシングが完了しました。 広告主は、アトリビューションレポートを作成して、キャンペーンがどのようにコンバージョンを促進しているかを調査し、全体的な影響を測定できるようになりました。 パブリッシャーの場合は、キャンペーンのアトリビューションレポートを共同作業者に生成するように依頼します。 詳細な手順については、[ アトリビューションレポートの作成](../collaborate/measure.md#create-attribution-report) ガイドを参照してください。
+Collaborationでの測定データのソーシングが完了しました。 広告主は、アトリビューションレポートを作成して、キャンペーンがどのようにコンバージョンを促進しているかを調査し、全体的な影響を測定できるようになりました。 パブリッシャーの場合は、キャンペーンのアトリビューションレポートを共同作業者に生成するように依頼します。 詳細な手順については、[&#x200B; アトリビューションレポートの作成](../collaborate/measure.md#create-attribution-report) ガイドを参照してください。

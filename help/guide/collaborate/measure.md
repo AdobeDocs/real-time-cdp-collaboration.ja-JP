@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** ワークスペースは、接続プロセス ](../connect/establishing-connections.md#connection-settings)中に&#x200B;**Measurement** ユースケースが[有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[ プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Measure]** ワークスペースは、接続プロセス [&#128279;](../connect/establishing-connections.md#connection-settings)中に&#x200B;**Measurement** ユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Adobe Adobe Real-Time CDP Collaborationのレポートでは、さまざまなチャネルをまたいでマーケティング施策のパフォーマンスを測定および分析する方法を解説します。
 
@@ -26,11 +26,11 @@ Adobe Adobe Real-Time CDP Collaborationのレポートでは、さまざまな�
 Collaborationの測定レポートにアクセスする前に、次の操作を行う必要があります。
 
 * [Measurement **のユースケースが有効になっている共同作業者と](/help/guide/connect/establishing-connections.md)を接続する**
-* 共同作業者と少なくとも1つのプロジェクトで共同作業を行います。 [ プロジェクトの作成方法](/help/guide/collaborate/manage-projects.md#create-project)について説明します。
-* キャンペーンを実行し、キャンペーン ](../collaborate/manage-projects.md#manage-campaign-id)に[ キャンペーン IDが指定されていることを確認します。
+* 共同作業者と少なくとも1つのプロジェクトで共同作業を行います。 [&#x200B; プロジェクトの作成方法](/help/guide/collaborate/manage-projects.md#create-project)について説明します。
+* キャンペーンを実行し、キャンペーン [&#128279;](../collaborate/manage-projects.md#manage-campaign-id)に キャンペーン IDが指定されていることを確認します。
    * パブリッシャーの場合は、広告主のキャンペーンにリンクされたキャンペーン IDを入力します。
-   * 広告主の場合は、共同作業者（パブリッシャー）にキャンペーン IDの提供を依頼します。 これは、[Measure ワークスペース ](#create-measurement-report)でレポートを生成するために必要です。
-* [ アトリビューションレポート ](#create-attribution-report)を[作成する場合は、測定データ ](/help/guide/setup/onboard-measurement-data.md)をCollaborationにアップロードします。
+   * 広告主の場合は、共同作業者（パブリッシャー）にキャンペーン IDの提供を依頼します。 これは、[Measure ワークスペース &#x200B;](#create-measurement-report)でレポートを生成するために必要です。
+* [&#x200B; アトリビューションレポート &#x200B;](#create-attribution-report)を[作成する場合は、測定データ &#x200B;](/help/guide/setup/onboard-measurement-data.md)をCollaborationにアップロードします。
 
 ## レポートを表示 {#view-reports}
 
@@ -52,7 +52,7 @@ Collaborationの測定レポートにアクセスする前に、次の操作を�
 
 「**[!UICONTROL レポート全体を表示]**」を選択して、利用可能な様々なレポートにアクセスします（詳細は以下を参照）。
 
-![ プロジェクトの測定タブにアクセスする方法。](/help/assets/collaborate/measure/measurement.gif)
+![&#x200B; プロジェクトの測定タブにアクセスする方法。](/help/assets/collaborate/measure/measurement.gif)
 
 ### 概要ビュー
 
@@ -62,7 +62,7 @@ Collaborationの測定レポートにアクセスする前に、次の操作を�
 **[!UICONTROL ユニーク リーチ]**: クリエイティブを見た個人IDの数。
 **[!UICONTROL 合計平均頻度]**: インプレッション数を一意のIDで割った値に達しました。 この図は、すべてのIDがクリエイティブに表示された頻度を示しています。
 
-![ キャンペーンの概要ビュー](/help/assets/collaborate/measure/campaign-summary.png)
+![&#x200B; キャンペーンの概要ビュー](/help/assets/collaborate/measure/campaign-summary.png)
 
 ### 指標の推移 {#metrics-over-time}
 
@@ -97,7 +97,7 @@ Collaborationの測定レポートにアクセスする前に、次の操作を�
 
 クリエイティブのインプレッションを促進するメディアを把握。 これは、今後の施策に広告費をどこに投入すべきかを判断するのに役立ちます。
 
-![ プレースメント別インプレッション。](/help/assets/collaborate/measure/impressions-by-placement.png)
+![&#x200B; プレースメント別インプレッション。](/help/assets/collaborate/measure/impressions-by-placement.png)
 
 ### 累積コンバージョン数 {#cumulative-conversions}
 
@@ -115,7 +115,7 @@ Collaborationの測定レポートにアクセスする前に、次の操作を�
 
 このグラフは、アトリビューションレポートを作成する際に設定された各イベントについて、コンバージョンの日々の内訳を示しています。 このビューを使用して日々のパターンを明らかにし、コンバージョンの高いアクティビティと低いアクティビティの期間を特定し、キャンペーンのタイムライン全体で様々なコンバージョンイベントがどのように機能するかを比較します。
 
-日別![ コンバージョン数。](/help/assets/collaborate/measure/conversions-by-day.gif)
+日別![&#x200B; コンバージョン数。](/help/assets/collaborate/measure/conversions-by-day.gif)
 
 ## 測定レポートを作成 {#create-measurement-report}
 
@@ -128,13 +128,13 @@ Collaborationでは、主に2種類の測定レポートを作成できます。
 
 ### キャンペーン概要レポートの作成 {#create-campaign-summary-report}
 
-パブリッシャーと広告主の両方が、**キャンペーン概要** レポートを生成して、キャンペーンのパフォーマンスを評価できます。 これらのレポートを使用して、[reach](#cumulative-reach-curve)、[頻度](#frequency-distribution)、[ インプレッション ](#impressions-by-placement)などの主要指標に関するインサイトを得て、キャンペーンがどのように配信され、その全体的な影響を把握します。
+パブリッシャーと広告主の両方が、**キャンペーン概要** レポートを生成して、キャンペーンのパフォーマンスを評価できます。 これらのレポートを使用して、[reach](#cumulative-reach-curve)、[頻度](#frequency-distribution)、[&#x200B; インプレッション &#x200B;](#impressions-by-placement)などの主要指標に関するインサイトを得て、キャンペーンがどのように配信され、その全体的な影響を把握します。
 
 **キャンペーン概要** レポートを生成するには、**[!UICONTROL コラボレーター]** ワークスペースからプロジェクト ワークスペースに移動します。 「**[!UICONTROL Measure]**」タブから、追加アイコン（![追加アイコン（](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Measure]**&#x200B;を選択します。
 
 これが最初のレポートの場合は、**[!UICONTROL レポートを実行]** オプションを選択することもできます。
 
-![ レポートの実行オプションと測定オプションを強調表示する「測定」タブ。](/help/assets/collaborate/measure/run-measure-report.png)
+![&#x200B; レポートの実行オプションと測定オプションを強調表示する「測定」タブ。](/help/assets/collaborate/measure/run-measure-report.png)
 
 **[!UICONTROL 測定レポートを作成]**&#x200B;画面が表示され、**[!UICONTROL 請求の詳細]**、**[!UICONTROL キャンペーンの詳細]**、および&#x200B;**[!UICONTROL レポートの詳細]**&#x200B;のセクションにグループ化された情報と入力フィールドが表示されます。
 
@@ -154,7 +154,7 @@ Collaborationでは、主に2種類の測定レポートを作成できます。
 
 続いて、レポートでカバーする期間を指定します。 **[!UICONTROL レポートの日付範囲]**&#x200B;を選択し、カレンダーを使用して開始日と終了日を選択します。
 
-![ レポート日付範囲カレンダーを表示する測定レポートの作成画面。](/help/assets/collaborate/measure/report-date-range.png)
+![&#x200B; レポート日付範囲カレンダーを表示する測定レポートの作成画面。](/help/assets/collaborate/measure/report-date-range.png)
 
 #### レポートの詳細 {#report-details}
 
@@ -165,7 +165,7 @@ Collaborationでは、主に2種類の測定レポートを作成できます。
 * 今日の日付または過去の日付を選択すると、**キャンペーン概要** レポートがすぐに実行されます。
 * 今後の日付を選択した場合、**キャンペーンの概要** レポートはその日に実行される予定です。
 
-![ レポート実行日カレンダーを表示する測定レポートの作成画面。](/help/assets/collaborate/measure/report-run-date.png)
+![&#x200B; レポート実行日カレンダーを表示する測定レポートの作成画面。](/help/assets/collaborate/measure/report-run-date.png)
 
 **レポートタイプ**
 
@@ -186,18 +186,18 @@ Collaborationでは、主に2種類の測定レポートを作成できます。
 
 >[!IMPORTANT]
 >
-> アトリビューションレポートを作成する前に、[測定データ ](../setup/onboard-measurement-data.md#add-measurement-data)をCollaborationに取り込む必要があります。
+> アトリビューションレポートを作成する前に、[測定データ &#x200B;](../setup/onboard-measurement-data.md#add-measurement-data)をCollaborationに取り込む必要があります。
 >![測定データの要件と無効な測定オプションを含む「測定」タブ。](/help/assets/collaborate/measure/require-measurement-data.png)
 
 **属性** レポートを生成するには、**[!UICONTROL 共同作業者]** ワークスペースからプロジェクト ワークスペースに移動します。 「**[!UICONTROL Measure]**」タブから、追加アイコン（![追加アイコン（](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Measure]**&#x200B;を選択します。
 
 これが最初のレポートの場合は、**[!UICONTROL レポートを実行]** オプションを選択することもできます。
 
-![ レポートの実行オプションと測定オプションを強調表示する「測定」タブ。](/help/assets/collaborate/measure/run-measure-report-attribution.png)
+![&#x200B; レポートの実行オプションと測定オプションを強調表示する「測定」タブ。](/help/assets/collaborate/measure/run-measure-report-attribution.png)
 
 **[!UICONTROL 測定レポートを作成]**&#x200B;画面が表示され、**[!UICONTROL 請求の詳細]**、**[!UICONTROL キャンペーンの詳細]**、および&#x200B;**[!UICONTROL レポートの詳細]**&#x200B;のセクションにグループ化された情報と入力フィールドが表示されます。
 
-「[ キャンペーン概要レポートの作成](#create-campaign-summary-report)」セクションの手順を読み、次の設定を行います。
+「[&#x200B; キャンペーン概要レポートの作成](#create-campaign-summary-report)」セクションの手順を読み、次の設定を行います。
 
 * [請求の詳細](#billing-details)
 * [キャンペーンの詳細](#campaign-details)
