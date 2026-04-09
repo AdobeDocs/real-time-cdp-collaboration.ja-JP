@@ -51,9 +51,9 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 ### コンバージョンイベント {#conversion-events}
 
-データ接続に添付されたコンバージョンイベントのリストがワークスペースの下部に表示されます。 このリストには、ステータス、コンバージョンタイプ、ソースなど、各イベントの概要が表示されます。 イベント名を選択して設定を表示および編集するか、削除オプション（![削除アイコン ](/help/assets/common/delete.svg)）を使用してコンバージョンイベントを削除できます。 コンバージョンイベントの管理に関する完全なガイドについては、[測定データの追加と管理](./onboard-measurement-data.md) ガイドを参照してください。
+データ接続に添付されたコンバージョンイベントのリストがワークスペースの下部に表示されます。 このリストには、ステータス、コンバージョンタイプ、ソースなど、各イベントの概要が表示されます。 イベント名を選択して設定を表示および編集するか、削除オプション（![削除アイコン &#x200B;](/help/assets/common/delete.svg)）を使用してコンバージョンイベントを削除できます。 コンバージョンイベントの管理に関する完全なガイドについては、[測定データの追加と管理](./onboard-measurement-data.md) ガイドを参照してください。
 
-![ コンバージョンイベントのセクションがハイライト表示された測定データ接続ワークスペース。](/help/assets/setup/manage-measurement-data-connection/view-conversion-events.png){zoomable="yes"}
+![&#x200B; コンバージョンイベントのセクションがハイライト表示された測定データ接続ワークスペース。](/help/assets/setup/manage-measurement-data-connection/view-conversion-events.png){zoomable="yes"}
 
 ## 測定データ接続の編集 {#edit-measurement-data-connection}
 
@@ -61,9 +61,9 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 ### 名前と説明を編集 {#edit-name-and-description}
 
-データ接続の名前と説明を更新するには、現在の接続名の横にある編集アイコン（![編集アイコン ](/help/assets/icons/edit.png)）を選択します。
+データ接続の名前と説明を更新するには、現在の接続名の横にある編集アイコン（![編集アイコン &#x200B;](/help/assets/icons/edit.png)）を選択します。
 
-![ データ接続名の横にある編集アイコンを強調表示する測定データ接続ワークスペース。](/help/assets/setup/manage-measurement-data-connection/edit-name-description.png){zoomable="yes"}
+![&#x200B; データ接続名の横にある編集アイコンを強調表示する測定データ接続ワークスペース。](/help/assets/setup/manage-measurement-data-connection/edit-name-description.png){zoomable="yes"}
 
 **[!UICONTROL データ接続を編集]** ダイアログで、目的の値でフィールドを更新し、**[!UICONTROL 保存]**&#x200B;を選択して変更を適用します。
 
@@ -86,15 +86,15 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 確認ダイアログが表示され、データ接続に対する変更が、関連するすべてのコンバージョンに適用されることを説明します。 確認するには、**[!UICONTROL OK]**&#x200B;を選択してください。 この確認は後でスキップできます。
 
-![ データ接続の変更が、関連するすべてのコンバージョンに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-measurement-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![&#x200B; データ接続の変更が、関連するすべてのコンバージョンに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-measurement-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
 **[!UICONTROL キーの照合]** ダイアログで、エンリッチメント設定を確認し、ソースフィールドとターゲットフィールド（照合キー）間の現在のマッピングを確認できます。
 
-![ ソースフィールドと対応するターゲットフィールドの間のエンリッチメント設定と既存のマッピングを表示するキーマッチダイアログ。](/help/assets/setup/manage-measurement-data-connection/edit-match-keys-dialog.png){zoomable="yes"}
+![&#x200B; ソースフィールドと対応するターゲットフィールドの間のエンリッチメント設定と既存のマッピングを表示するキーマッチダイアログ。](/help/assets/setup/manage-measurement-data-connection/edit-match-keys-dialog.png){zoomable="yes"}
 
 #### エンリッチメント {#enrichment}
 
-測定データ ](./onboard-measurement-data.md)を[送信したときにエンリッチメントが有効になっていない場合は、リアルタイム顧客プロファイルの属性を使用してイベントデータセットをエンリッチメントするオプションがあります。 測定データのエンリッチメントをオンにすると、無効にできなくなります。 必要に応じて、エンリッチメント結合キーを更新することもできます。
+測定データ [&#128279;](./onboard-measurement-data.md)を送信したときにエンリッチメントが有効になっていない場合は、リアルタイム顧客プロファイルの属性を使用してイベントデータセットをエンリッチメントするオプションがあります。 測定データのエンリッチメントをオンにすると、無効にできなくなります。 必要に応じて、エンリッチメント結合キーを更新することもできます。
 
 **[!UICONTROL キーの照合]** ダイアログでエンリッチメントを有効にすると、UIが拡張され、**[!UICONTROL プロファイルのIDでイベントデータをエンリッチメント]** セクションの下に追加の設定オプションが表示されます。
 
@@ -114,7 +114,7 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 既存の一致キーを編集するには、**[!UICONTROL 一致キー]** ダイアログ内で、関連するソースフィールドとターゲットフィールドを更新します。 新しい一致キーを含める場合は、**[!UICONTROL フィールドを追加]**&#x200B;を選択します。 これにより、ソースフィールドとターゲットフィールド間の追加マッピングを定義できる空の行が作成されます。
 
-![ フィールドを追加を選択すると、一致キーダイアログに、入力の準備ができた空の新しいマッピング行が表示されます。](/help/assets/setup/manage-measurement-data-connection/add-new-field.png){zoomable="yes"}
+![&#x200B; フィールドを追加を選択すると、一致キーダイアログに、入力の準備ができた空の新しいマッピング行が表示されます。](/help/assets/setup/manage-measurement-data-connection/add-new-field.png){zoomable="yes"}
 
 次に、空のソースフィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示され、**[!UICONTROL ID名前空間]**&#x200B;や&#x200B;**[!UICONTROL プロファイル属性]**&#x200B;などのオプションにグループ化された、利用可能なソースフィールドのリストが表示されます。 リストをフィルタリングし、検索オプションを使用して目的のソースフィールドを見つけることができます。
 
@@ -122,7 +122,7 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 ![検索オプション、電話ソースフィールド、選択オプションを強調表示するソース フィールドを選択ダイアログ。](/help/assets/setup/manage-measurement-data-connection/select-source-field.png){zoomable="yes"}
 
-**[!UICONTROL キーを一致]** ダイアログで、ドロップダウンメニューを使用して、新しいソースフィールドをターゲットフィールドにマッピングします。 使用可能なすべてのターゲットフィールドは、共同作業者アカウントに設定された一致キーです。 必要なターゲットフィールドが表示されない場合は、[ アカウントの照合キー](./onboard-account.md#edit-match-keys)を編集して追加します。
+**[!UICONTROL キーを一致]** ダイアログで、ドロップダウンメニューを使用して、新しいソースフィールドをターゲットフィールドにマッピングします。 使用可能なすべてのターゲットフィールドは、共同作業者アカウントに設定された一致キーです。 必要なターゲットフィールドが表示されない場合は、[&#x200B; アカウントの照合キー](./onboard-account.md#edit-match-keys)を編集して追加します。
 
 ハッシュ化されていないフィールドをハッシュ化されたターゲットフィールドにソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。例えば、プレーンテキストの電話元フィールドを&#x200B;**[!UICONTROL ハッシュ化された電話元フィールドにマッピングする場合などです。]** ターゲットフィールド。
 
@@ -138,7 +138,7 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 
 データ接続を削除すると、Collaboration全体で基になるすべてのコンバージョン、関連する設定、使用が削除されます。 このアクションは取り消せません。
 
-既存のデータ接続を削除するには、個々のデータ接続のワークスペース内の削除アイコン（![削除アイコン ](/help/assets/common/delete.svg)）を選択します。
+既存のデータ接続を削除するには、個々のデータ接続のワークスペース内の削除アイコン（![削除アイコン &#x200B;](/help/assets/common/delete.svg)）を選択します。
 
 ![削除オプションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-measurement-data-connection/delete-measurement-data-connection.png){zoomable="yes"}
 
@@ -153,4 +153,4 @@ Real-Time CDP Collaborationの測定データ接続を使用して、様々な�
 測定データ接続を管理すると、次のことが可能になります。
 
 * 必要に応じて、データ接続にリンクされているその他のコンバージョンイベントを追加します。 詳細な手順については、[測定データの追加と管理](./onboard-measurement-data.md) ドキュメントを参照してください。
-* 測定レポートを生成して、キャンペーンのパフォーマンスと影響に関するインサイトを得ることができます。 使用可能なレポートタイプとその作成方法について詳しくは、[ パフォーマンスを測定](/help/guide/collaborate/measure.md) ガイドを参照してください。
+* 測定レポートを生成して、キャンペーンのパフォーマンスと影響に関するインサイトを得ることができます。 使用可能なレポートタイプとその作成方法について詳しくは、[&#x200B; パフォーマンスを測定](/help/guide/collaborate/measure.md) ガイドを参照してください。
