@@ -1,33 +1,33 @@
 ---
-title: RTCDP Collaboration Starter の概要
-description: Adobe Real-Time CDP Collaboration Starter が、独自の完全なReal-Time CDP ライセンスを必要とせずに、ライセンスを取得したパートナーとのプライバシー中心のコラボレーションを拡大および強化する方法について説明します。
+title: RTCDP Collaboration スターターの概要
+description: Adobe Real-Time CDP Collaboration Starterを利用して、Real-Time CDPの完全なライセンスを取得することなく、ライセンスを取得したパートナーとのプライバシー重視のコラボレーションを促進できます。その方法をご確認ください。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
-source-git-commit: 17550a71c473cde2970294ef1b83632f5c8d943c
+exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '285'
 ht-degree: 2%
 
 ---
 
-# Adobe Real-Time CDP Collaboration スターターの概要
+# Adobe Real-Time CDP Collaboration Starter Overview
 
-Adobe Real-Time CDP Collaboration Starter を使用すると、独自のCollaboration ライセンスを必要とせずに、プライバシーを中心とするデータ共同作業について、ライセンスを取得したパートナーと結合して作業できます。
+Adobe Real-Time CDP Collaboration Starterを利用すれば、Collaborationのライセンスを取得しなくても、プライバシー保護を重視したデータコラボレーションについて、ライセンスを取得したパートナーと連携できます。
 
-ライセンスを取得したパートナーがあなたをCollaborationに招待し、そのクレジットを使用して、広告主からパブリッシャーへ、およびブランドからブランドへの両方のパターンにわたる共同ワークフローに資金を提供します。 これらのパターンとその動作について詳しくは、[&#x200B; コラボレーションパターン &#x200B;](./collaboration-patterns.md) および [&#x200B; エンドツーエンドのワークフロー &#x200B;](./end-to-end-workflow.md) ガイドを参照してください。
+ライセンスを取得したパートナーがAdobe Collaborationにユーザーを招待し、そのクレジットを広告主とパブリッシャー間、ブランドとブランド間の両方のパターンで共同ワークフローに活用します。 これらのパターンとその仕組みについて詳しくは、[ コラボレーションパターン ](./collaboration-patterns.md)および[ エンドツーエンドのワークフロー](./end-to-end-workflow.md)のガイドを参照してください。
 
-招待スターターのお客様は、次のことができます。
+招待されたStarterのお客様は、次の操作を実行できます。
 
 * スターターアカウントでのコラボレーションデータのオンボーディングと管理
-* 共同プロジェクトで使用するオーディエンスをSourceおよび管理
-* パートナーとのオーディエンスの重複に関するインサイトを得て、効果的なターゲティングとキャンペーン測定をサポートします
-* オーディエンスをアクティブ化し、共同のキャンペーンのアクティブ化とエンゲージメントのためにパートナーと共有します
+* Sourceを使用して、共同プロジェクトで使用するオーディエンスを管理する
+* 効果的なターゲティングとキャンペーン測定を実施するために、パートナーとのオーディエンスの重複に関するインサイトを得ることができます
+* オーディエンスをアクティベートし、パートナーと共有して、共同キャンペーンを活用したり、エンゲージメントしたりできます
 
 ## 前提条件 {#prerequisites}
 
-Collaboration Starter を使い始めるには、組織とライセンスを取得したパートナーの両方が同じリージョンにあることを確認します。 Real-Time CDP Prime、UltimateまたはCollaborationのライセンスを持つパートナーから招待される必要があります。
+Collaboration Starterを使い始めるには、お客様の組織とライセンス済みのパートナーの両方が同じ地域に存在することを確認します。 Real-Time CDP Prime、Ultimate、またはCollaboration ライセンスを持つパートナーが招待する必要があります。
 
 招待を開始するには、ライセンスを取得したパートナーに次の情報を提供します。
 
@@ -37,6 +37,6 @@ Collaboration Starter を使い始めるには、組織とライセンスを取�
 * 役割（広告主/発行者）：広告主
 * 業界
 * 管理者名（連絡先名と異なる場合）
-* 管理者の連絡先のメール （連絡先のメールと異なる場合）
+* 管理者連絡先メール （連絡先メールと異なる場合）
 
-招待を受け取って同意したら、Collaboration Starter にアクセスするために、Adobeとの間で無償の販売注文を確認して署名する必要があります。
+招待状を受け取り、承認した後、Collaboration Starterにアクセスするには、Adobeで無償の受注書を確認して署名する必要があります。
