@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを利用すれば、広告主とパブリッシャーの間でシームレスかつ安全にデータを共有およびコラボレーションし、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略を促進できます。
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 30%
    * [アカウントの役割](./overview/roles.md)
    * [Collaboration パターン](./overview/collaboration-patterns.md)
    * [エンドツーエンドのワークフロー](./overview/end-to-end-workflow.md)
-   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * 設定 {#setup}
    * [設定セクションの概要](./setup/setup-overview.md)
    * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
@@ -32,14 +32,14 @@ ht-degree: 30%
    * [データ接続を管理](./setup/manage-data-connection.md)
    * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-   * [ID クロスウォーク](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
    * [監査ログ](./setup/audit-logs.md)
    * Real-Time CDP Collaboration Starterの設定 {#starter-setup}
-      * [管理者アクセス権の設定](./setup/starter-admin-access.md)
-      * [権限コントロールの設定](./setup/starter-permission-controls.md)
-      * [クレジットの使用と消費](./setup/starter-credit-usage.md)
+      * {hide-from-toc}[管理者アクセスの設定](./setup/starter-admin-access.md)
+      * {hide-from-toc}[権限コントロールの設定](./setup/starter-permission-controls.md)
+      * {hide-from-toc}[&#x200B; クレジットの使用状況と使用状況](./setup/starter-credit-usage.md)
 * 接続の確立 {#connect}
    * [Overview.md](./connect/overview.md)
    * [共同作業者を見つける](./connect/discover-collaborators.md)
@@ -57,7 +57,7 @@ ht-degree: 30%
       * [測定](./collaborate/measure.md)
    * Advertising platformとの連携 {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-      * [AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
+      * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
    * [概要](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
@@ -67,5 +67,5 @@ ht-degree: 30%
    * [役割の管理](./permissions/manage-roles.md)
 * リファレンス {#reference}
    * [よくある質問とトラブルシューティングのヒント](./faqs/common-questions.md)
-   * [用語集](./glossary.md)
+   * {hide-from-toc}[用語集](./glossary.md)
 * [最新のリリースノート](./release-notes/latest.md)

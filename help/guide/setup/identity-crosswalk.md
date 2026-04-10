@@ -1,14 +1,13 @@
 ---
 title: ID クロスウォーク
-description: 様々なソースから ID クロスウォークを取り込む方法や ID クロスウォークを管理する方法など、Real-Time CDP Collaborationの ID クロスウォークについてのすべてを説明します
+description: 様々なソースからID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP CollaborationのID クロスウォークについて説明します
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '546'
 ht-degree: 22%
 
 ---
@@ -17,59 +16,59 @@ ht-degree: 22%
 
 {{limited-availability-release-note}}
 
-様々なソースから ID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP Collaborationの ID クロスウォークについてすべてを説明します。
+様々なソースからID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP CollaborationのID クロスウォークについて説明します。
 
-ID クロスウォークは、複数のデータセットやプラットフォーム間で、顧客 ID の安全でプライバシーに準拠したリンクを容易にします。 Real-Time CDP Collaborationでは、ハッシュ化された識別子を使用することで、個人情報（PII）を公開せずに ID の同期と紐付けを行うことができます。 これにより、顧客の統一されたビューが可能になり、共同作業の質が向上し、ターゲットを絞ったマーケティング活動が可能になります。
+IDのクロスウォークにより、複数のデータセットやプラットフォームをまたいで、顧客IDの安全でプライバシーに準拠したリンクを容易に実現できます。 Real-Time CDP Collaborationでは、ハッシュ化されたIDを利用することで、個人情報（PII）を公開することなく、IDを同期して照合できるようになります。 これにより、顧客の全体像を把握して、より優れたコラボレーションとターゲットを絞ったマーケティング活動を実現できます。
 
-まず、ID クロスウォークをReal-Time CDP Collaborationに読み込む必要があります。 ID クロスウォークをReal-Time CDP Collaborationに読み込むには、以下の節を参照してください。
+最初の手順として、ID クロスウォークをReal-Time CDP Collaborationに読み込む必要があります。 Real-Time CDP CollaborationにID クロスウォークを読み込むには、以下の節を参照してください。
 
 >[!NOTE]
 >
->Real-Time CDP Collaborationのベータ版リリースでは、Real-Time CDPのデータセットから ID クロスウォークを読み込むことができます。 今後のリリースで、さらに多くのオプションが利用可能になる予定です。
+>Real-Time CDP Collaborationのベータ版リリースでは、Real-Time CDPのデータセットからID クロスウォークを読み込むことができます。 その後のリリースでは、さらにオプションが用意されています。
 
-## ID クロスウォークのReal-Time CDP Collaborationへの読み込み {#import-crosswalk}
+## Real-Time CDP CollaborationへのID クロスウォークの読み込み {#import-crosswalk}
 
-**[!UICONTROL 設定]**/**[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![&#x200B; 追加アイコン](/help/assets/icons/plus.png)）を選択し、**[!UICONTROL ID クロスウォーク]** を選択します。
+**[!UICONTROL 設定]** > **[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択して、**[!UICONTROL ID クロスウォーク]**&#x200B;を選択します
 
-![ID クロスウォークを追加するための画面へのアクセス方法の記録 &#x200B;](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
+![画面にアクセスしてIDのクロスウォークを追加する方法の記録](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
 ### クロスウォークソースを選択
 
-ID クロスウォークを読み込むソースを選択してください。 Real-Time CDP Collaborationの最初のリリースでは、Experience Platformがクロスウォークの読み込みでサポートされている唯一のソースです。
+ID クロスウォークを読み込むソースを選択します。 Real-Time CDP Collaborationの最初のリリースでは、Experience Platformがクロスウォークの読み込みをサポートする唯一のソースです。
 
 >[!TIP]
 >
->Platform から読み込むクロスウォークは、Experience Platformでは *データセット* と呼ばれます。
+>Experience Platformから読み込むクロスウォークは、Platformでは&#x200B;*データセット*&#x200B;と呼ばれます。
 
-Experience Platformをクロスウォークのソースとして選択した後、ID クロスウォークを読み込む [0&rbrace;Experience Platform サンドボックス &rbrace; を選択します。](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)
+Experience Platformをクロスウォークのソースとして選択したら、ID クロスウォークの読み込み元となる[Experience Platform サンドボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)を選択します。
 
-![&#x200B; 横断歩道等の採択方法の記録 &#x200B;](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
+![&#x200B; クロスウォーク ソースの選択方法の記録](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
 ### クロスウォークを選択
 
-Experience Platformをクロスウォークのソースとして選択した後、
+Experience Platformをクロスウォークのソースとして選択すると，
 
 ### 詳細を入力
 
-製品に読み込む ID クロスウォークの名前と説明を入力します。
+製品に読み込むID クロスウォークの名前と説明を入力します。
 
 ### 結合キーの選択 {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="結合キー"
->abstract="結合キーは、異なるデータセット間でレコードを一致させてリンクするために使用される一意の ID です。これにより、様々なソースからのデータを同じ個人またはエンティティに正確に関連付けることができます。選択したクロスウォークの任意の列ヘッダーを結合キーとして使用できます。"
+>abstract="結合キーは、異なるデータセット間でレコードを一致させてリンクするために使用される一意の ID です。 これにより、様々なソースからのデータを同じ個人またはエンティティに正確に関連付けることができます。 選択したクロスウォークの任意の列ヘッダーを結合キーとして使用できます。"
 
-結合キーは、異なるデータセット間でレコードを一致させてリンクするために使用される一意の ID です。これにより、様々なソースからのデータを同じ個人またはエンティティに正確に関連付けることができます。適切な結合キーを選択すると、データを効果的に結合および調整でき、キャンペーンの精度と完全性が向上します。
+結合キーは、異なるデータセット間でレコードを一致させてリンクするために使用される一意の ID です。 これにより、様々なソースからのデータを同じ個人またはエンティティに正確に関連付けることができます。 適切な結合キーを選択することで、データを効果的に結合して紐付けし、キャンペーンの精度と完全性を向上させることができます。
 
 選択したクロスウォークの任意の列ヘッダーを結合キーとして使用できます。
 
-横断歩道テーブルに必要な結合キーを選択し、[**[!UICONTROL 次へ]**] を選択して次の手順に進みます。
+クロスウォーク テーブルの目的の結合キーを選択し、**[!UICONTROL 次]**&#x200B;を選択して次の手順に進みます。
 
 ### レビュー
 
-前の画面で選択した内容を確認します。 選択に問題がなければ、「**[!UICONTROL 次へ]**」を選択してワークフローを完了します。
+前の画面の選択内容を確認します。 選択内容に満足したら、**[!UICONTROL 次へ]**&#x200B;を選択してワークフローを完了します。
 
 ## 次の手順
 
-ID クロスウォークをReal-Time CDPに読み込む方法を理解したら、これまでにReal-Time CDP Collaborationに追加したすべての ID クロスウォークを表示できます。 また、オーディエンスをReal-Time CDP Collaborationに読み込む際に読み込んだ ID クロスウォークを使用できるようになりました。
+Real-Time CDPにID クロスウォークを読み込む方法を理解すると、これまでReal-Time CDP Collaborationに追加したすべてのID クロスウォークを表示できます。 また、Real-Time CDP Collaborationにオーディエンスを読み込む際に読み込んだID クロスウォークを使用できるようになりました。

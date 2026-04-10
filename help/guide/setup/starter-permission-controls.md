@@ -3,9 +3,9 @@ title: Collaboration スターターオンボーディングの権限管理の�
 description: Adobe Experience Cloudの権限を使用して、Adobe Real-Time CDP Collaboration Starterの権限を設定する方法を説明します。
 audience: users invited to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
-source-git-commit: 6d2691e8024a8f4c1a91e5fa4e6d00d322dde13a
+exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 4%
