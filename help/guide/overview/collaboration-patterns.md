@@ -25,7 +25,7 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ![広告主とパブリッシャー間のコラボレーションの例。](/help/assets/overview/advertiser-to-publisher.png)
 
-このパターンで広告主とパブリッシャーが共同作業する方法について詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
+このパターンで広告主とパブリッシャーが共同作業する方法について詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
 
 ## ブランド間 {#brand-to-brand}
 
@@ -35,9 +35,9 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ブランドとブランドのコラボレーション パターンにより、ブランドは互いに直接協力して、共同マーケティング活動のオーディエンスを特定し、ターゲットにすることができます。 このパターンは、リーチを拡大し、ブランドとのパートナーシップを通じて新しいオーディエンスとエンゲージしたいブランドにとって有用です。 企業は、協力してオーディエンスのインサイトを活用し、協力者と顧客の両方に利益をもたらす共同マーケティング施策やロイヤルティ施策を構築できます。
 
-![ ブランド間コラボレーションの例。](/help/assets/overview/brand-to-brand.png)
+![&#x200B; ブランド間コラボレーションの例。](/help/assets/overview/brand-to-brand.png)
 
-このパターンで企業がどのように共同作業を行うかについて詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
+このパターンで企業がどのように共同作業を行うかについて詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
 
 ## 広告主間広告プラットフォーム {#advertiser-to-advertising-platform}
 
@@ -45,7 +45,7 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ![広告主と広告プラットフォーム間のコラボレーションの例。](/help/assets/overview/advertiser-to-advertising-platform.png)
 
-このパターンで広告主が広告プラットフォームとコラボレーションする方法について詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
+このパターンで広告主が広告プラットフォームとコラボレーションする方法について詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md) ガイドを参照してください。
 
 ## 広告主とデータのパートナー {#advertiser-to-data-partner}
 
@@ -53,7 +53,7 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ![広告主とデータ パートナーのコラボレーションの例。](/help/assets/overview/advertiser-to-data-partner.png)
 
-このパターンで広告主とデータパートナーがどのように共同作業を行うかについて詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow) ガイドを参照してください。
+このパターンで広告主とデータパートナーがどのように共同作業を行うかについて詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow) ガイドを参照してください。
 
 ## 代理店からパブリッシャーへ {#agency-to-publisher}
 
@@ -61,7 +61,7 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ![代理店とパブリッシャー間のコラボレーションの例。](/help/assets/overview/agency-to-publisher.png)
 
-このパターンで代理店とパブリッシャーがどのようにコラボレーションしているかについて詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow) ガイドを参照してください。
+このパターンで代理店とパブリッシャーがどのようにコラボレーションしているかについて詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow) ガイドを参照してください。
 
 ## 広告主と代理店のプラットフォーム {#advertiser-to-agency-platform}
 
@@ -69,4 +69,4 @@ Adobe Real-Time CDP CollaborationのCollaborationパターンは、マーケテ�
 
 ![広告主と代理店のプラットフォーム間のコラボレーションの例。](/help/assets/overview/advertiser-to-agency-platform.png)
 
-このパターンで広告主と代理店のプラットフォームがどのように連携しているかについて詳しくは、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow) ガイドを参照してください。
+このパターンで広告主と代理店のプラットフォームがどのように連携しているかについて詳しくは、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow) ガイドを参照してください。

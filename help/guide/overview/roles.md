@@ -37,4 +37,4 @@ Adobe Real-Time CDP Collaborationには、アカウントに関連付けられ�
 
 Adobe Real-Time CDP Collaborationでアカウントを作成する際は、組織の目的に最も適した役割を選択することが重要です。 ブランドはオンラインプラットフォーム（パブリッシャー）を運営し、マーケティングキャンペーン（広告主）も運営しているため、ブランドが両方の役割に適合する場合があります。 Collaborationは、コラボレーションパターンに柔軟性をもたらします。ただし、主な目標に合わせて適切な役割を選択することをお勧めします。
 
-役割、様々なコラボレーションパターン、およびそれらの使用方法について詳しくは、[ コラボレーションパターン ](/help/guide/overview/collaboration-patterns.md) ガイドを参照してください。 各コラボレーションパターンについて説明し、Collaborationの概要を企業の視点から解説します。[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)に関するガイドです。
+役割、様々なコラボレーションパターン、およびそれらの使用方法について詳しくは、[&#x200B; コラボレーションパターン &#x200B;](/help/guide/overview/collaboration-patterns.md) ガイドを参照してください。 各コラボレーションパターンについて説明し、Collaborationの概要を企業の視点から解説します。[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)に関するガイドです。
