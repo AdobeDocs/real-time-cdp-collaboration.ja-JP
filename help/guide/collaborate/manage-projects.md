@@ -2,7 +2,7 @@
 title: プロジェクトの作成と管理
 description: Adobe Real-Time CDP Collaborationでのプロジェクトの作成および管理方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
