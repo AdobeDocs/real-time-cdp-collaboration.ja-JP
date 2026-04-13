@@ -2,7 +2,7 @@
 title: ID クロスウォーク
 description: 様々なソースからID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP CollaborationのID クロスウォークについて説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
@@ -28,7 +28,7 @@ IDのクロスウォークにより、複数のデータセットやプラット
 
 ## Real-Time CDP CollaborationへのID クロスウォークの読み込み {#import-crosswalk}
 
-**[!UICONTROL 設定]** > **[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択して、**[!UICONTROL ID クロスウォーク]**&#x200B;を選択します
+**[!UICONTROL 設定]** > **[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択して、**[!UICONTROL ID クロスウォーク]**&#x200B;を選択します
 
 ![画面にアクセスしてIDのクロスウォークを追加する方法の記録](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -40,9 +40,9 @@ ID クロスウォークを読み込むソースを選択します。 Real-Time 
 >
 >Experience Platformから読み込むクロスウォークは、Platformでは&#x200B;*データセット*&#x200B;と呼ばれます。
 
-Experience Platformをクロスウォークのソースとして選択したら、ID クロスウォークの読み込み元となる[Experience Platform サンドボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)を選択します。
+Experience Platformをクロスウォークのソースとして選択したら、ID クロスウォークの読み込み元となる[Experience Platform サンドボックス ](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)を選択します。
 
-![&#x200B; クロスウォーク ソースの選択方法の記録](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
+![ クロスウォーク ソースの選択方法の記録](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
 ### クロスウォークを選択
 
