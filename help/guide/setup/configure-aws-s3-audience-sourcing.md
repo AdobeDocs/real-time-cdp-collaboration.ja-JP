@@ -2,9 +2,9 @@
 title: オーディエンスソーシング用に [!DNL Amazon S3] を設定
 description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Amazon S3]  ストレージを設定して接続する方法について説明します。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1622'
 ht-degree: 8%
 
 ---
@@ -215,5 +215,7 @@ S3 データ接続には、他のオーディエンスデータ接続と同じ�
 ## 次の手順 {#next-steps}
 
 これで、Collaborationのデータソースとして[!DNL Amazon S3] ストレージを正常に設定および接続しました。 このワークフローを完了することで、アクティベーションや重複分析のために、ファーストパーティのオーディエンスデータを安全にソーシングすることが可能になりました。
+
+代わりに[!DNL Google Cloud Storage]を使用するには、[&#x200B; オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md)を参照してください。
 
 ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示され、コラボレーションとアクティベーションの準備が整います。 管理オプションについて詳しくは、[&#x200B; オーディエンスのソースと管理に関するドキュメント &#x200B;](./onboard-audiences.md)を参照してください。

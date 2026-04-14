@@ -4,9 +4,9 @@ description: Real-Time CDP Collaboration のセットアップ、役割とアカ
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Real-Time CDP Collaborationの利用を開始するには、組織の設定、�
 - 組織用に作成され、ユーザーに割り当てられた[役割](./permissions/manage-roles.md)。
 - 組織名、ロゴ、バナーなどのブランドアセットにアクセスできます。
 - [定義された一致キー戦略](./setup/onboard-account.md#set-up-match-keys)
-- （オプション）Experience Platformをオーディエンス管理に使用していない場合は、サポートされているクラウドソース（Amazon S3またはSnowflake）にアクセスします。
+- （オプション）Experience Platformをオーディエンス管理に使用していない場合は、サポートされているクラウドソース（Amazon S3、Google Cloud Storage、またはSnowflake）へのアクセス権を取得します。
 
 ## 手順1：ロールベースの設定の完了 {#complete-role-based-setup}
 
@@ -120,13 +120,13 @@ Collaborationを使用してオーディエンスを調達する方法の詳細�
 
 または、[Collaborationでのオーディエンスのソーシングに関するドキュメント &#x200B;](./setup/onboard-audiences.md#source-and-manage-audiences)を参照してください。
 
-### 選択肢B:SnowflakeまたはAmazon S3からのSource
+### 選択肢B:Snowflake、Amazon S3、またはGoogle Cloud StorageからのSource
 
-[!DNL Snowflake]や[!DNL Amazon S3]などのクラウドソースを設定するには、[Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)を使用してオーディエンスデータを準備します
+[!DNL Snowflake]、[!DNL Amazon S3]、[!DNL Google Cloud Storage]などのクラウドソースを設定するには、[Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)を使用してオーディエンスデータを準備します
 
-[!DNL Amazon S3]をセルフサービスのデータソースとして設定できます。 セットアップ手順については、[Amazon S3 ソーシングガイド &#x200B;](./setup/configure-aws-s3-audience-sourcing.md)を参照してください
+[!DNL Amazon S3]、[!DNL Google Cloud Storage]または[!DNL Snowflake]をセルフサービスのデータソースとして設定できます。 設定手順については、[Amazon S3 ソーシングガイド &#x200B;](./setup/configure-aws-s3-audience-sourcing.md)、[GCS ソーシングガイド &#x200B;](./setup/configure-gcs-audience-sourcing.md)、または[Snowflake ソーシングガイド &#x200B;](./setup/configure-snowflake-audience-sourcing.md)を参照してください。
 
-[!DNL Snowflake]またはその他のクラウドサービスプロバイダーを使用している場合は、Adobe アカウント担当者にお問い合わせください。
+その他のクラウドサービスプロバイダーについては、Adobeのアカウント担当者にお問い合わせください。
 
 >[!IMPORTANT]
 >

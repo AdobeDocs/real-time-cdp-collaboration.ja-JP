@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationで一致キー、スケジューリン�
 audience: administrator, data engineer
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 5%
 ## 概要
 
 Real-Time CDP Collaborationのデータ接続を使用して、様々なプラットフォームからオーディエンスを獲得できます。 既存のデータ接続の一致キーを管理し、データの更新をスケジュールする方法について説明します。 さらに、異なる属性によってオーディエンスをフィルタリングし、より詳細なインサイトを得ることができます。
+
+>[!NOTE]
+>
+>新しいデータ接続を作成するには、[&#x200B; オーディエンスの追加と管理](./onboard-audiences.md)を参照してください。
 
 ## データ接続の表示
 

@@ -4,9 +4,9 @@ description: Adobe Real-Time CDP Collaborationでのオーディエンスの調�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
+source-wordcount: '3680'
 ht-degree: 18%
 
 ---
@@ -42,9 +42,11 @@ ht-degree: 18%
 >
 >最初のデータ接続を確立し、最初のオーディエンスをソーシングしたら、既存のデータ接続から複数のオーディエンスをソーシングできます。 追加オーディエンスを追加する場合は、データ接続が既に確立されているため、[&#x200B; オーディエンスの選択](#select-audiences)の手順から開始します。
 
-データ接続は、オーディエンスのソースとなるデータソースです。 現在、サポートされているデータ接続はAdobe Experience Platformのみです。
+データ接続は、オーディエンスをCollaborationに取り込むソースです。 サポートされているソースには、Adobe Experience Platform、CSV ファイルのアップロード、[!DNL Amazon S3]、[!DNL Snowflake]および[!DNL Google Cloud Storage]があり、それぞれ独自のワークフローを使用します。
 
-データ接続用に設定した設定は、このデータ接続から取得したすべてのオーディエンスに適用されます。
+以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]または[!DNL Google Cloud Storage]を選択した場合は、そのオプションの[&#x200B; データソースを選択](#select-data-source)の下にリンクされているガイドを使用します。
+
+Experience Platform データ接続に対して設定した設定は、その接続からソースされたすべてのオーディエンスに適用されます。
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ ht-degree: 18%
 * **CSV ファイル**: オーディエンスデータを含むCSV ファイルをアップロードして、すばやく簡単にデータを取り込みます。 開始するには、「[&#x200B; オーディエンスソーシング用CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md)」ガイドを参照してください。
 * **Amazon Web Services**: Amazon S3 ストレージに接続して、S3 バケットから直接オーディエンスデータを取得します。 詳しい手順については、「[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ガイド」を参照してください。
 * **Snowflake**: Snowflake データウェアハウスを使用して、オーディエンスデータをシームレスに取り込みます。 オーディエンスのソーシング [&#128279;](./configure-snowflake-audience-sourcing.md)については、設定 [!DNL Snowflake]  ガイドを参照してください。
-* **Google Cloud Platform** （今後のリリース）: Google Cloud Storageに接続して、GCS バケットから直接オーディエンスデータを取得します。
+* **Google Cloud Storage**:GCS バケットに接続してソースオーディエンスデータを取得します。 詳しい手順については、[&#x200B; オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md) ガイドを参照してください。
 
 データソースを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
