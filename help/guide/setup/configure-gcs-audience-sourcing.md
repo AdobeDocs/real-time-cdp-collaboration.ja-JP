@@ -3,9 +3,9 @@ title: オーディエンスソーシング用に [!DNL Google Cloud Storage] �
 description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+source-git-commit: 37297042942a65573a6020bfe39549b26dfdd001
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2501'
 ht-degree: 1%
 
 ---
@@ -80,6 +80,12 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 ![新しいデータ接続を追加オプションがハイライト表示されたオーディエンスを追加ワークスペース。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### データソースとして[!DNL Google Cloud Storage]を選択 {#select-gcs}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
+>title="オンボーディング用にデータを準備"
+>abstract="Google Cloud Storage for Collaborationからオーディエンスデータをフォーマットおよび構造化する方法については、オーディエンスソーシングの仕様ガイドを参照してください。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="詳しくは、ガイドを参照してください。"
 
 データソース選択画面には、使用可能なすべての接続タイプが一覧表示されます。 「**[!UICONTROL Google Cloud Storage]**」を選択し、「**[!UICONTROL 次へ]**」を選択します。
 
