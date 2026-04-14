@@ -21,11 +21,11 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 [!DNL Google Cloud Storage]から取得したオーディエンスは、Adobe Experience Platformから取得したオーディエンスと同じガバナンスとデータ処理ルールに従います。
 
-その他の使用可能なソーシング方法には、[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)、および[CSV ファイルのアップロード ](./upload-csv-audience-sourcing.md)があります。
+その他の使用可能なソーシング方法には、[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)、および[CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md)があります。
 
 ## 前提条件 {#prerequisites}
 
-設定ワークフローを開始する前に、このセクションのすべての項目を完了してください。 不完全な前提条件は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする最も一般的な理由です。 このガイドに従う前に、[ アカウントのオンボーディングと設定](./onboard-account.md)を完了している必要があります。
+設定ワークフローを開始する前に、このセクションのすべての項目を完了してください。 不完全な前提条件は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする最も一般的な理由です。 このガイドに従う前に、[&#x200B; アカウントのオンボーディングと設定](./onboard-account.md)を完了している必要があります。
 
 このセクションの一部の手順では、[!DNL Google Cloud]管理者による操作が必要です。 組織の[!DNL Google Cloud]管理者でない場合は、開始する前に適切なユーザーを特定してください。
 
@@ -69,7 +69,7 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ### 新しいデータ接続を追加 {#add-data-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加]** オプションを選択することもできます。
 
@@ -98,11 +98,11 @@ Collaborationによる[!DNL Google Cloud Storage] バケットへのアクセス
 | **[!UICONTROL バケット]** | [!DNL Google Cloud Storage] バケットの名前。 開始する前に必要な[値](#required-values)を参照してください。 |
 | **[!UICONTROL パス]** | オーディエンスファイルが保存されるバケット内のパス接頭辞。 |
 
-![ バケット名とフォルダーパスのフィールドを含むGoogle Cloud Storage認証フォームと、使用可能な「次へ」ボタンを表示する「オーディエンスを追加」ワークフロー。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
+![&#x200B; バケット名とフォルダーパスのフィールドを含むGoogle Cloud Storage認証フォームと、使用可能な「次へ」ボタンを表示する「オーディエンスを追加」ワークフロー。](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
 
 ### 同意とデータ使用の確認 {#confirm-consent}
 
-Collaborationで処理する前に、オーディエンスデータから同意オプトアウトが削除されていることを確認する必要があります。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[ ガバナンスポリシーと施行アクション ](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
+Collaborationで処理する前に、オーディエンスデータから同意オプトアウトが削除されていることを確認する必要があります。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[&#x200B; ガバナンスポリシーと施行アクション &#x200B;](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
 
 ### 接続の詳細を提供 {#provide-connection-details}
 
@@ -113,7 +113,7 @@ Collaborationで処理する前に、オーディエンスデータから同意�
 
 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
-![ データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/gcs-audience-sourcing/gcs-provide-details.png)
+![&#x200B; データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/gcs-audience-sourcing/gcs-provide-details.png)
 
 ### 自動マッピングされたID フィールドの確認 {#auto-mapped-fields}
 
@@ -123,9 +123,9 @@ Collaborationで処理する前に、オーディエンスデータから同意�
 >
 >「**[!UICONTROL ソースデータをプレビュー]**」を選択してオーディエンスデータのサンプルを表形式で確認し、「**[!UICONTROL 閉じる]**」を選択してマッピング画面に戻ります。
 
-![AUDIENCE_IDおよびHASHED_EMAIL_SHA_256などの列を持つオーディエンスデータのサンプルテーブルと、右下隅にある「閉じる」ボタンを表示する「GCS データプレビュー」ダイアログ ](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
+![AUDIENCE_IDおよびHASHED_EMAIL_SHA_256などの列を持つオーディエンスデータのサンプルテーブルと、右下隅にある「閉じる」ボタンを表示する「GCS データプレビュー」ダイアログ &#x200B;](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-表示されるマッピングが、オーディエンスファイルのフィールドを反映していることを確認します。 そうでない場合は、続行する前にファイルを停止して修正し、[ オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)に準拠させます。 「**[!UICONTROL 次へ]**」をクリックして続行します。
+表示されるマッピングが、オーディエンスファイルのフィールドを反映していることを確認します。 そうでない場合は、続行する前にファイルを停止して修正し、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)に準拠させます。 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
 ![自動マッピングされたソースフィールド（AUDIENCE\_IDおよびHASHED\_EMAIL\_SHA\_256）をターゲット ID フィールドに表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加し、「ソースデータをプレビュー」オプションを表示して、右上隅に「次へ」ボタンを表示します。](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -139,7 +139,7 @@ Collaborationで処理する前に、オーディエンスデータから同意�
 
 >[!IMPORTANT]
 >
->更新の頻度は、基になるGCS オーディエンスデータが更新される頻度と一致するか、それを超えないように設定します。 サポートされる最小の更新間隔は、6日ごとに1回です。 データの変更よりも頻繁に更新すると、更新された結果を生成せずにCollaboration クレジットが使用されます。 クレジットの使用状況を監視するには、[ クレジットの使用状況を追跡](./my-activity.md)を参照してください。
+>更新の頻度は、基になるGCS オーディエンスデータが更新される頻度と一致するか、それを超えないように設定します。 サポートされる最小の更新間隔は、6日ごとに1回です。 データの変更よりも頻繁に更新すると、更新された結果を生成せずにCollaboration クレジットが使用されます。 クレジットの使用状況を監視するには、[&#x200B; クレジットの使用状況を追跡](./my-activity.md)を参照してください。
 
 ![定期的な間隔に設定された頻度ドロップダウンと、開始日と終了日がハイライト表示されたカレンダー日付範囲セレクターを表示する「スケジュール」ステップで、オーディエンスワークフローを追加します。 「次へ」が右上隅に表示されます。](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
 
@@ -187,7 +187,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 * **[!UICONTROL 接続アクセス]**: オーディエンスがプライベート、パブリック、または特定の共同作業者と共有されているかどうか。
 * **[!UICONTROL メタデータの可視化]**：どのオーディエンス情報（ID数、重複率、インデックスなど）が共同作業者に表示されるか。
 
-![ ステータスを示す個々のオーディエンスの詳細ビュー：アクティブ、ソースシステム、およびデータ接続名が上部に表示され、以下の4つのパネルが表示されています。ID数と分類を示すID、適用されたタグを示すカテゴリ、オーディエンスのタイプと可視性を示す接続アクセス、ID数、重複率、オーディエンスインデックスの設定を示すメタデータの可視性](../../assets/setup/gcs-audience-sourcing/gcs-audience-details.png)
+![&#x200B; ステータスを示す個々のオーディエンスの詳細ビュー：アクティブ、ソースシステム、およびデータ接続名が上部に表示され、以下の4つのパネルが表示されています。ID数と分類を示すID、適用されたタグを示すカテゴリ、オーディエンスのタイプと可視性を示す接続アクセス、ID数、重複率、オーディエンスインデックスの設定を示すメタデータの可視性](../../assets/setup/gcs-audience-sourcing/gcs-audience-details.png)
 
 コラボレーションプロジェクトでオーディエンスを使用する前に、これらの設定を確認してください。 カテゴリ、接続アクセス、またはメタデータの表示を更新するには、[個々のオーディエンスの表示と管理](./onboard-audiences.md#view-individual-audiences)を参照してください。
 
@@ -195,7 +195,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 詳細ビューを開かずに、**[!UICONTROL 自分のオーディエンス]**&#x200B;のリストビューからオーディエンスメタデータを直接編集できます。 オーディエンスのチェックボックスを選択してアクションツールバーを表示し、アクションを選択します。**[!UICONTROL メタデータ表示を編集]**、**[!UICONTROL 接続アクセスを編集]**、**[!UICONTROL 名前と説明を編集]**、**[!UICONTROL カテゴリを編集]**、または&#x200B;**[!UICONTROL 削除]**。
 
-![ マイオーディエンスのリストビューに、2つのオーディエンス（1つはAdobe Experience Platformから、1つはGoogle Cloud Storageから取得したもの）が表示され、1つの行がチェックボックスを使用して選択され、下部のツールバーに、メタデータの表示の編集、接続アクセスの編集、名前と説明の編集、カテゴリの編集、および削除のオプションが表示されます。](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view-edit-options.png)
+![&#x200B; マイオーディエンスのリストビューに、2つのオーディエンス（1つはAdobe Experience Platformから、1つはGoogle Cloud Storageから取得したもの）が表示され、1つの行がチェックボックスを使用して選択され、下部のツールバーに、メタデータの表示の編集、接続アクセスの編集、名前と説明の編集、カテゴリの編集、および削除のオプションが表示されます。](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view-edit-options.png)
 
 ### GCS データ接続の表示 {#view-gcs-connection}
 
@@ -205,7 +205,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 [!DNL Google Cloud Storage] オーディエンスソーシングを設定して使用する場合は、次の制約に注意してください。
 
-* **一致キーの制約：** データ接続で一致キーが有効になると、削除できません。 既存の接続に一致するキーを追加することはできますが、無効にしたり削除したりすることはできません。 アクティブな一致キーを変更するには、[ データ接続](./manage-data-connection.md#delete-data-connection)を削除して新しい接続を作成する必要があります。
+* **一致キーの制約：** データ接続で一致キーが有効になると、削除できません。 既存の接続に一致するキーを追加することはできますが、無効にしたり削除したりすることはできません。 アクティブな一致キーを変更するには、[&#x200B; データ接続](./manage-data-connection.md#delete-data-connection)を削除して新しい接続を作成する必要があります。
 * **ソースごとに1つのアクティブなデータ接続：** アクティブな[!DNL Google Cloud Storage] データ接続は一度に1つしかサポートされていません。 別のバケットからオーディエンスを調達する必要がある場合は、[既存の接続](./manage-data-connection.md#delete-data-connection)を削除し、新しいバケットを指す新しい接続を作成します。
 * **サブフォルダーのサポート：** オーディエンスファイルは、指定されたフォルダーパス内に直接配置する必要があります。 Collaborationは、そのパス内のサブフォルダーをトラバースしません。
 
@@ -228,7 +228,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 スケジュールされた更新中に&#x200B;**オーディエンスファイル形式エラーが発生する**
 
-* バケット内の更新されたファイルが、[ オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)の列構造とフィールド要件に準拠していることを確認します。
+* バケット内の更新されたファイルが、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)の列構造とフィールド要件に準拠していることを確認します。
 * 設定されたフォルダーパス内のすべてのファイルで、同じ列構造が使用されていることを確認します。 同じパス内の混在フォーマットのファイルは、部分的なソーシング失敗を引き起こす可能性があります。
 
 ## 次の手順 {#next-steps}

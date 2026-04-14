@@ -21,7 +21,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 >[!NOTE]
 >
->新しいデータ接続を作成するには、[ オーディエンスの追加と管理](./onboard-audiences.md)を参照してください。
+>新しいデータ接続を作成するには、[&#x200B; オーディエンスの追加と管理](./onboard-audiences.md)を参照してください。
 
 ## データ接続の表示
 
@@ -36,7 +36,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 >title="一致キー"
 >abstract="一致キーは、様々なソースのデータの一致方法を決定します。 以下に示す一致キーは、ソースフィールドをマッピングしたターゲットフィールドです。"
 
-一致キーは、ソースフィールドを[ マッピングしたターゲットフィールドです。](./onboard-audiences.md#map-fields) 一致キーの仕組みについて詳しくは、[一致キー](./onboard-account.md#set-up-match-keys) ガイドを参照してください。
+一致キーは、ソースフィールドを[&#x200B; マッピングしたターゲットフィールドです。](./onboard-audiences.md#map-fields) 一致キーの仕組みについて詳しくは、[一致キー](./onboard-account.md#set-up-match-keys) ガイドを参照してください。
 
 ![一致キーセクションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -55,9 +55,9 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 >
 >Adobe Experience Platformからオーディエンスを取得する場合、データ接続が確立されてから24時間以内にオーディエンスを利用できるようになります。 最初のソーシング後、オーディエンスデータは、定義された頻度に従って更新されます。
 
-スケジュール設定について詳しくは、オーディエンスの設定に関するガイドの「[ スケジュール設定」セクション ](/help/guide/setup/onboard-audiences.md#schedule)を参照してください。
+スケジュール設定について詳しくは、オーディエンスの設定に関するガイドの「[&#x200B; スケジュール設定」セクション &#x200B;](/help/guide/setup/onboard-audiences.md#schedule)を参照してください。
 
-![ スケジュール セクションがハイライト表示されたデータ接続のワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+![&#x200B; スケジュール セクションがハイライト表示されたデータ接続のワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## データ接続を編集 {#edit-data-connection}
 
@@ -84,17 +84,17 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 データ接続に対する変更が、関連するすべてのオーディエンスに適用されることを示す確認ダイアログが表示されます。 確認するには、**[!UICONTROL OK]**&#x200B;を選択してください。 この確認は後でスキップできます。
 
-![ データ接続の変更がすべての関連オーディエンスに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![&#x200B; データ接続の変更がすべての関連オーディエンスに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
 **[!UICONTROL キーの一致]** ダイアログで、ソースフィールドと対応するターゲットフィールド（キーの一致）の間の既存のマッピングを表示できます。 マッピングソースフィールドを更新して一致キーを編集したり、マッピングフィールドの行を追加して新しい一致キーを入力したりできます。
 
-![ ソースフィールドと対応するターゲットフィールドの間の既存のマッピングを表示するキーマッチダイアログ。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+![&#x200B; ソースフィールドと対応するターゲットフィールドの間の既存のマッピングを表示するキーマッチダイアログ。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
 
 #### 一致キーを追加 {#add-match-keys}
 
 「**[!UICONTROL フィールドを追加]**」を選択して、新しいフィールド行を追加します。
 
-![ フィールドを追加を選択すると、一致キーダイアログに、入力の準備ができた空の新しいマッピングフィールドが表示されます。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+![&#x200B; フィールドを追加を選択すると、一致キーダイアログに、入力の準備ができた空の新しいマッピングフィールドが表示されます。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
 
 次に、空のソースフィールドを選択します。 **[!UICONTROL ソースフィールドを選択]** ダイアログが表示され、**[!UICONTROL ID名前空間]**&#x200B;および&#x200B;**[!UICONTROL プロファイル属性]** オプションが表示されます。 リストをフィルタリングし、検索オプションを使用して目的のソースフィールドを見つけることができます。
 
@@ -102,7 +102,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 ![GAID オプションを選択したソースフィールドを選択ダイアログ。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-**[!UICONTROL キーを一致]** ダイアログで、ドロップダウンメニューを使用して、新しいソースフィールドをターゲットフィールドにマッピングします。 使用可能なすべてのターゲットフィールドは、共同作業者アカウントに設定された一致キーです。 必要なターゲットフィールドが表示されない場合は、[ アカウントの照合キー](./onboard-account.md#edit-match-keys)を編集して追加します。
+**[!UICONTROL キーを一致]** ダイアログで、ドロップダウンメニューを使用して、新しいソースフィールドをターゲットフィールドにマッピングします。 使用可能なすべてのターゲットフィールドは、共同作業者アカウントに設定された一致キーです。 必要なターゲットフィールドが表示されない場合は、[&#x200B; アカウントの照合キー](./onboard-account.md#edit-match-keys)を編集して追加します。
 
 例えば、プレーンテキストメールのソースフィールドを&#x200B;**[!UICONTROL ハッシュ化されたメール]**&#x200B;のターゲットフィールドにマッピングする場合に、ハッシュ化されていないフィールドをハッシュ化されたターゲットフィールドにソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。
 
@@ -124,7 +124,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 データ接続に対する変更が、関連するすべてのオーディエンスに適用されることを示す確認ダイアログが表示されます。 確認するには、**[!UICONTROL OK]**&#x200B;を選択してください。 この確認は後でスキップできます。
 
-![ データ接続の変更がすべての関連オーディエンスに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![&#x200B; データ接続の変更がすべての関連オーディエンスに適用されることを示す確認ダイアログ。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
 **[!UICONTROL スケジュール]** ダイアログで、ドロップダウンメニューを選択して&#x200B;**[!UICONTROL 頻度]**&#x200B;を更新します。 毎日、または2～6日ごとに実行するように更新頻度を設定します。
 
@@ -142,7 +142,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 データ接続を削除すると、Collaboration全体で、基盤となるオーディエンス、関連する設定、使用がすべて削除されます。 このアクションは取り消せません。
 
-既存のデータ接続を削除するには、個々のデータ接続のワークスペース内の削除アイコン（![削除アイコン ](/help/assets/common/delete.svg)）を選択します。
+既存のデータ接続を削除するには、個々のデータ接続のワークスペース内の削除アイコン（![削除アイコン &#x200B;](/help/assets/common/delete.svg)）を選択します。
 
 ![削除オプションがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
@@ -154,7 +154,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 データ接続に接続されたオーディエンスのリストがワークスペースの下部に表示されます。 このリストには、ステータス、ソース、接続アクセスなど、各オーディエンスの概要が表示されます。 オーディエンスのカテゴリ、接続アクセス、メタデータの表示を編集するには、オーディエンス名を選択します。 オーディエンスの管理に関する完全なガイドについては、[個々のオーディエンスの表示](./onboard-audiences.md#view-individual-audiences) ガイドを参照してください。
 
-![ オーディエンスがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
+![&#x200B; オーディエンスがハイライト表示されたデータ接続ワークスペース。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## 次の手順
 

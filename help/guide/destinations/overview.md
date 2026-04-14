@@ -17,7 +17,7 @@ ht-degree: 3%
 
 配信先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合機能です。 これらの統合により、様々なマーケティングチャネルやプラットフォームでオーディエンスをアクティベートし、キャンペーンや顧客エンゲージメントで使用できます。
 
-共同作業者は、キャンペーンで使用するために、Adobe Experience Platformなどの外部プラットフォームにオーディエンスを送信する宛先を設定できます。 共同作業者は、接続の設定済み宛先に送信されるプロジェクト ](../collaborate/activate.md)内のオーディエンスを[ アクティブ化できます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定[に応じて、いずれかの共同作業者によって実行できます。
+共同作業者は、キャンペーンで使用するために、Adobe Experience Platformなどの外部プラットフォームにオーディエンスを送信する宛先を設定できます。 共同作業者は、接続の設定済み宛先に送信されるプロジェクト [&#128279;](../collaborate/activate.md)内のオーディエンスを[&#x200B; アクティブ化できます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定に応じて、いずれかの共同作業者によって実行できます。
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 3%
 >
 > 現在、Collaboration内のセルフサービスの宛先として利用できるのはAdobe Experience Platformのみです。 Amazon S3やSnowflakeなどの配信先の設定をご希望の場合は、Adobe担当者にお問い合わせください。
 
-![ セットアップ ワークスペースの「My destinations」タブに、使用可能な宛先が表示されます。](/help/assets/destinations/overview/my-destinations-overview.png)
+![&#x200B; セットアップ ワークスペースの「My destinations」タブに、使用可能な宛先が表示されます。](/help/assets/destinations/overview/my-destinations-overview.png)
 
 宛先の設定を開始するには、選択した宛先内の「**[!UICONTROL セットアップ]**」オプションを選択します。 特定の宛先の設定について詳しくは、[使用可能な宛先](#available-destinations)の表のガイドを参照してください。
 
@@ -51,8 +51,8 @@ Collaborationで設定するには、次の宛先を使用できます。 その
 
 >[!NOTE]
 >
->このテーブルの&#x200B;**[!DNL Google Cloud Storage]**&#x200B;は、**宛先** （Collaborationがアクティベーション中にオーディエンスを送信する場所）を指します。 **[!UICONTROL セットアップ]** ワークスペースのGCS バケットを&#x200B;**から** ソースオーディエンスするには、[ オーディエンスソーシング用GCSの設定](../setup/configure-gcs-audience-sourcing.md)を参照してください。
+>このテーブルの&#x200B;**[!DNL Google Cloud Storage]**&#x200B;は、**宛先** （Collaborationがアクティベーション中にオーディエンスを送信する場所）を指します。 **[!UICONTROL セットアップ]** ワークスペースのGCS バケットを&#x200B;**から** ソースオーディエンスするには、[&#x200B; オーディエンスソーシング用GCSの設定](../setup/configure-gcs-audience-sourcing.md)を参照してください。
 
 ## 次の手順
 
-宛先を設定したら、プロジェクト内で[ ターゲットオーディエンスのアクティブ化](../collaborate/activate.md)を開始できます。
+宛先を設定したら、プロジェクト内で[&#x200B; ターゲットオーディエンスのアクティブ化](../collaborate/activate.md)を開始できます。
