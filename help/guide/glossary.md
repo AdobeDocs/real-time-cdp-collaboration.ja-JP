@@ -2,10 +2,10 @@
 title: 用語集
 description: Real-Time CDP Collaborationの主要用語
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
+source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
@@ -58,7 +58,7 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 ### データ接続
 
-データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
+データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[ データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
 
 ### データ共有契約
 

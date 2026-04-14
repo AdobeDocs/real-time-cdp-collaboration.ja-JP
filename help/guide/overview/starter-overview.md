@@ -2,10 +2,10 @@
 title: RTCDP Collaboration スターターの概要
 description: Adobe Real-Time CDP Collaboration Starterを利用して、Real-Time CDPの完全なライセンスを取得することなく、ライセンスを取得したパートナーとのプライバシー重視のコラボレーションを促進できます。その方法をご確認ください。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
+source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Adobe Real-Time CDP Collaboration Starterを利用すれば、Collaborationのライセンスを取得しなくても、プライバシー保護を重視したデータコラボレーションについて、ライセンスを取得したパートナーと連携できます。
 
-ライセンスを取得したパートナーがAdobe Collaborationにユーザーを招待し、そのクレジットを広告主とパブリッシャー間、ブランドとブランド間の両方のパターンで共同ワークフローに活用します。 これらのパターンとその仕組みについて詳しくは、[&#x200B; コラボレーションパターン &#x200B;](./collaboration-patterns.md)および[&#x200B; エンドツーエンドのワークフロー](./end-to-end-workflow.md)のガイドを参照してください。
+ライセンスを取得したパートナーがAdobe Collaborationにユーザーを招待し、そのクレジットを広告主とパブリッシャー間、ブランドとブランド間の両方のパターンで共同ワークフローに活用します。 これらのパターンとその仕組みについて詳しくは、[ コラボレーションパターン ](./collaboration-patterns.md)および[ エンドツーエンドのワークフロー](./end-to-end-workflow.md)のガイドを参照してください。
 
 招待されたStarterのお客様は、次の操作を実行できます。
 
