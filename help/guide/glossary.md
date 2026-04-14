@@ -58,7 +58,7 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 ### データ接続
 
-データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[ データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
+データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
 
 ### データ共有契約
 
