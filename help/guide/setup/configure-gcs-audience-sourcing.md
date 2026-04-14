@@ -2,7 +2,7 @@
 title: オーディエンスソーシング用に [!DNL Google Cloud Storage] を設定
 description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
 source-wordcount: '2465'

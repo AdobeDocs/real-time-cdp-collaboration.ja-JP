@@ -2,7 +2,7 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでのオーディエンスの調達方法と管理方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
@@ -82,7 +82,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-[C4、C5、およびC9 データ使用ラベル &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご確認ください。
+[C4、C5、およびC9 データ使用ラベル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご確認ください。
 
 * チェックボックスが&#x200B;***enabled***&#x200B;の場合、上記のようにExperience Platformでラベル付けされたデータは除外され、**not**&#x200B;がCollaborationに取り込まれます。
 * チェックボックス ***disabled***&#x200B;を使用すると、Experience Platformから取得したデータに制限はありません。
@@ -149,7 +149,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source フィールド]**&#x200B;は、Experience PlatformのID名前空間と属性です。 これには、[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}と[&#x200B; カスタム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}の両方のID名前空間が含まれます。 また、[union スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
+**[!UICONTROL Source フィールド]**&#x200B;は、Experience PlatformのID名前空間と属性です。 これには、[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}と[&#x200B; カスタム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#create-namespaces){target="_blank"}の両方のID名前空間が含まれます。 また、[union スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
 
 Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
 
