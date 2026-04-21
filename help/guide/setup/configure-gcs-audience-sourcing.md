@@ -3,10 +3,10 @@ title: オーディエンスソーシング用に [!DNL Google Cloud Storage] �
 description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
+source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 1%
+source-wordcount: '2855'
+ht-degree: 2%
 
 ---
 
@@ -31,15 +31,9 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ### GCSのアクセスと権限 {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->この統合に必要な特定の[!DNL Google Cloud] IAM役割、サービスアカウント設定、およびバケットレベルの権限について説明する専用ガイドは、公開が保留中です。 そのガイドが利用可能になるまで、[!DNL Google Cloud]管理者と協力して、Adobeがバケットに対する認証とオーディエンスファイルの読み取りに必要な権限を持っていることを確認します。
-
 続行する前に、次の点を[!DNL Google Cloud]管理者に確認してください。
 
-* Adobeには、GCS バケットに対する認証とオーディエンスファイルの読み取りに必要な権限が付与されています。
+* Adobeには、GCS バケットに対する認証とオーディエンスファイルの読み取りに必要な権限が付与されています。 詳細な手順については、[権限の設定の節](#setup-gcs-permissions)を参照してください。
 * [!DNL Google Cloud Storage] オーディエンスのソーシングは、お住まいの地域で利用できます。 ご利用いただけるかどうかは、地域（NA、EMEA、ANZ）によって異なります。 お住まいの地域でGCSのソーシングがまだ利用できない場合は、Adobeのアカウント担当者にお問い合わせください。
 
 ### オーディエンスデータの準備 {#prepare-audience-data}
@@ -236,6 +230,69 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 * バケット内の更新されたファイルが、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)の列構造とフィールド要件に準拠していることを確認します。
 * 設定されたフォルダーパス内のすべてのファイルで、同じ列構造が使用されていることを確認します。 同じパス内の混在フォーマットのファイルは、部分的なソーシング失敗を引き起こす可能性があります。
+
+## [!DNL Google Cloud Storage]権限の設定 {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage]は、クラウド内のデータを安全かつスケーラブルな方法で保存し、アクセスできるようにします。 AdobeがGCS バケットから読み取れるようにするには、[!DNL Google Cloud] アカウントで適切なIdentity and Access Management （IAM）権限とサービスアカウントへのアクセス権を設定する必要があります。
+
+### Adobeの[!DNL Google Service Account]情報を収集 {#collect-account-information}
+
+開始するには、お住まいの地域に一致するAdobeの[!DNL Google Service Account]に注意してください。 後の手順でAdobeへのアクセス権を付与するには、この情報が必要です。
+
+| 領域 | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| 北米 | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| オーストラリア | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### IAMの役割を設定 {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>この設定を完了するには、[!DNL Google Cloud] アカウントの&#x200B;**アカウント管理者**&#x200B;権限が必要です。 これらの権限がない場合は、続行する前に管理者に連絡してください。
+
+必要な権限を持つカスタム IAM ロールを作成し、Adobe サービスアカウントに割り当てるには、次の手順に従います。 これにより、AdobeがGCS オーディエンスデータに安全にアクセスできるようになります。
+
+#### IAM ロールの作成 {#create-iam-role}
+
+まず、Adobeに割り当てるために必要な権限を持つカスタム IAM ロールを[!DNL Google Cloud] プロジェクトに作成します。
+
+[[!DNL Google Cloud]  コンソール &#x200B;](https://console.cloud.google.com)の&#x200B;**[!DNL IAM & Admin]** ページで、**[!DNL Roles]**&#x200B;に移動し、**[!DNL Create role]**&#x200B;を選択します。 新しい役割のタイトルやIDなど、必要な情報を入力します。
+
+次に、役割に次の権限を追加します。
+
+| 権限 | 目的 |
+| ------------- | --------------- |
+| `storage.buckets.get` | バケットのメタデータの読み取り： |
+| `storage.objects.get` | オブジェクトデータとメタデータの読み取り： |
+| `storage.objects.list` | バケット内のオブジェクトのリストを表示します。 |
+
+{style="table-layout:auto"}
+
+権限について詳しくは、[GCS IAM権限](https://cloud.google.com/storage/docs/access-control/iam-permissions)を参照してください。 詳細な手順については、[&#x200B; カスタムロールの作成方法](https://docs.cloud.google.com/iam/docs/creating-custom-roles)を参照してください。
+
+#### AdobeへのIAM ロールの割り当て {#assign-role}
+
+次に、[!DNL Google Cloud Console]で&#x200B;[**[!DNL Buckets]**&#x200B;ページ &#x200B;](https://console.cloud.google.com/storage/browser)を開き、オーディエンスデータを含むバケットを選択します。
+
+「**[!DNL Permissions]**」タブに移動し、**[!DNL View by principals]**&#x200B;を選択してから「**[!DNL Grant access]**」を選択します。
+
+**[!DNL Add principals]** ダイアログで、[Adobe Google Service Account](#collect-account-information)をプリンシパルとして追加し、以前に作成したカスタム IAM ロールを割り当てます。 **[!DNL Save]**&#x200B;を選択して、設定を確認します。
+
+Adobeは、選択したGCS バケット内のオーディエンスデータに安全にアクセスできるようになりました。 必要に応じて追加の[前提条件](#prerequisites)を確認するか、[GCSからCollaborationへのオーディエンスのソーシングを開始](#configure-gcs-connection)します。
+
+#### [!DNL Google Cloud Storage]件の詳細を収集 {#collect-gcs-details}
+
+最後に、次の表に示すように、GCS バケットの詳細を収集します。 GCSとCollaboration間の接続を設定するには、この情報が必要です。
+
+| フィールド | 説明 | 例 |
+|------ |------------ |-------- |
+| [!DNL Bucket] | オーディエンスファイルを含む[!DNL Google Cloud Storage] バケットの正確な名前。 | `customer-data-bucket` |
+| [!DNL Path] | オーディエンスファイルが保存されるバケット内のパス接頭辞。 すべてのファイルを読み取るには`/`で終わる必要があります。 | `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## 次の手順 {#next-steps}
 

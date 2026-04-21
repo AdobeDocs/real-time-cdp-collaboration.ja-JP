@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationにオーディエンスデータを取�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
+source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1550'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 [!DNL Snowflake]接続を設定する前に、次の前提条件を満たしていることを確認してください。
 
-* [!DNL Snowflake Share]を作成し、[!DNL Snowflake] アカウントで必要な権限を設定して、Adobeに[!DNL Snowflake Secure Data Share]へのアクセス権を付与しました。
+* [!DNL Snowflake Share]を作成し、[!DNL Snowflake] アカウントで必要な権限を設定して、Adobeに[!DNL Snowflake Secure Data Share]へのアクセス権を付与しました。 [権限の設定方法 [!DNL Snowflake] について説明します](#set-up-snowflake-permissions)。
 * 次の[!DNL Snowflake Share]個の値を準備しています：
 
    * **共有名**
@@ -36,7 +36,91 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 * [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[&#x200B; オーディエンスソーシング仕様（v1.2） &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
 * [!DNL Snowflake] オーディエンスファイルのすべての一致キーを、Collaboration アカウントに対しても有効にする必要があります。 [一致キーを有効にする](./onboard-account.md#set-up-match-keys)または[新しい一致キー](./onboard-account.md#edit-match-keys)をアカウントに追加する方法について説明します。
 
+## [!DNL Snowflake]権限の設定 {#setup-snowflake-permissions}
+
+[!DNL Snowflake Secure Data Share]は、データをコピーまたは移動することなく、[!DNL Snowflake] アカウント間でライブの読み取り専用データを安全に共有する方法を提供します。 Adobeに[!DNL Secure Data Share]へのアクセス権を付与するには、[!DNL Snowflake] アカウントで適切な権限を設定してください。
+
+先に進む前に、次の点を確認してください。
+
+* [!DNL Snowflake] アカウントにアクセスできます。
+* お客様の[!DNL Snowflake] アカウントはプライベートリストに登録されています。 必要な権限を設定するには、Snowflakeの管理者権限が必要です。
+* [!DNL Snowflake] アカウントのクラウドプロバイダーと地域を知っています。
+
+必要な権限について詳しくは、[[!DNL Snowflake]  ドキュメント &#x200B;](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing)を参照してください。
+
+### Adobeの[!DNL Snowflake]のアカウント情報を収集 {#collect-account-information}
+
+開始するには、お住まいの地域に一致するAdobe [!DNL Snowflake] アカウント IDを見つけてメモしてください。 後の手順でAdobeへのアクセス権を付与するには、このIDが必要です。
+
+| 領域 | [!DNL Snowflake]実稼動アカウントの完全識別子 |
+| ------------- | --------------- |
+| 北米 | ADOBE.AGORA_SF_02 |
+| EMEA | ADOBE.RTCDP_COLLABORATION_DEU1_EXTERNAL |
+| オーストラリア | ADOBE.RTCDP_COLLABORATION_AUS3_EXTERNAL |
+
+{style="table-layout:auto"}
+
+### 作成して[!DNL Snowflake Share]へのアクセス権を付与する {#create-grant-access-to-share}
+
+次に、次の手順に従って、[!DNL Snowflake] アカウントに[!DNL Secure Data Share]を作成し、Adobeにオーディエンスデータへの読み取り専用アクセス権を付与します。
+
+1. ソーステーブルから必要な列のみにアクセスできる制限のある、安全なビューを作成します。
+
+   ```sql
+   CREATE OR REPLACE SECURE VIEW my_database.my_schema.secure_view_for_adobe AS
+   SELECT 
+       column1,
+       column2,
+       column3
+   FROM my_database.my_schema.source_table;
+   ```
+
+2. 新しい[!DNL Snowflake Secure Data Share]を作成します。
+
+   ```sql
+   CREATE OR REPLACE SHARE adobe_data_share;
+   ```
+
+3. データベースのUSAGE権限を[!DNL Snowflake Secure Data Share]に付与して、データベース内のオブジェクトにアクセスできるようにします。
+
+   ```sql
+   GRANT USAGE ON DATABASE my_database TO SHARE adobe_data_share;
+   ```
+
+4. スキーマにUSAGEを付与して、スキーマ内のオブジェクトにアクセスできるようにします。[!DNL Snowflake Secure Data Share]
+
+   ```sql
+   GRANT USAGE ON SCHEMA my_database.my_schema TO SHARE adobe_data_share;
+   ```
+
+5. Adobeがオーディエンスデータを読み取れるように、セキュアビューに対するSELECT権限を[!DNL Snowflake Secure Data Share]に付与します。
+
+   ```sql
+   GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
+   ```
+
+6. お住まいの地域の正しいIDを使用して、Adobeの[!DNL Snowflake] アカウントを[!DNL Snowflake Secure Data Share]に追加します。 [上の地域/アカウントマッピングテーブル &#x200B;](#collect-account-information)を参照してください。
+
+   ```sql
+   ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
+   ```
+
+### [!DNL Snowflake Share]件の詳細を収集 {#collect-share-details}
+
+最後に、次の表に示すように、[!DNL Snowflake Share]の詳細を収集します。 [!DNL Snowflake Share]とCollaborationの間の接続を設定するには、この情報が必要です。
+
+| フィールド | 例 |
+| -------------------------- | --------------- |
+| アカウント Id | CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT |
+| [!DNL Share]名 | adobe_data_share |
+| スキーマ名 | customer_schema |
+| ビュー名 | secure_view_for_adobe |
+
+{style="table-layout:auto"}
+
 ## [!DNL Snowflake]接続の設定 {#configure-snowflake-connection}
+
+[Snowflake権限設定](#set-up-snowflake-permissions)を完了し、すべての[前提条件](#prerequisites)を満たしていることを確認したら、次に[!DNL Snowflake Secure Data Share]をCollaborationに接続してオーディエンスのソーシングを開始できます。
 
 **[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
