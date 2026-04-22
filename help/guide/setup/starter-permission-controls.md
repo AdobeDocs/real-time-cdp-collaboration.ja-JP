@@ -15,11 +15,11 @@ ht-degree: 2%
 
 Adobe Experience Platform製品への管理者およびユーザーアクセス権を設定したら、Real-Time CDP Collaborationの適切な権限を自分に割り当てる必要があります。 このガイドでは、Collaborationの権限インターフェイスを使用して適切なロールをアカウントに追加し、Experience Cloud機能へのユーザーアクセスにアクセスして管理する方法について説明します。
 
-Collaboration リソースに含まれる標準ロールと使用可能な権限について詳しくは、[役割の管理方法ガイド ](../permissions/manage-roles.md)を参照してください。
+Collaboration リソースに含まれる標準ロールと使用可能な権限について詳しくは、[役割の管理方法ガイド &#x200B;](../permissions/manage-roles.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
-Adobe Experience Platform製品への&#x200B;**管理者権限**&#x200B;と&#x200B;**ユーザーアクセス**&#x200B;の両方があることを確認してください。 これらのアクセス レベルをまだ設定していない場合は、手順を説明する手順については、[管理者アクセス ガイド ](./starter-admin-access.md)を参照してください。
+Adobe Experience Platform製品への&#x200B;**管理者権限**&#x200B;と&#x200B;**ユーザーアクセス**&#x200B;の両方があることを確認してください。 これらのアクセス レベルをまだ設定していない場合は、手順を説明する手順については、[管理者アクセス ガイド &#x200B;](./starter-admin-access.md)を参照してください。
 
 ## 権限の設定 {#setup-permissions}
 
@@ -37,7 +37,7 @@ Collaborationに必要な権限を設定するには、次の手順に従いま�
 
 >[!NOTE]
 >
-> 組織の最初のユーザーがExperience Platformにアクセスする場合は、**Users** テーブルにリストされている唯一のユーザーである可能性があります。 追加のチームメンバーを招待するには、[ ユーザーアクセス設定ガイド ](../permissions/manage-user-access.md#administrators-configure-user-access-to-experience-platform)の手順に従います。
+> 組織の最初のユーザーがExperience Platformにアクセスする場合は、**Users** テーブルにリストされている唯一のユーザーである可能性があります。 追加のチームメンバーを招待するには、[&#x200B; ユーザーアクセス設定ガイド &#x200B;](../permissions/manage-user-access.md#administrators-configure-user-access-to-experience-platform)の手順に従います。
 
 ![権限ダッシュボードには、ユーザーアカウントがハイライト表示されたユーザーテーブルが表示されます。](../../assets/setup/starter/select-user.png){zoomable="yes"}
 
