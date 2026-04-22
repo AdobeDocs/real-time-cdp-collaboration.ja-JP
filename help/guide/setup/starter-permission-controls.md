@@ -2,7 +2,7 @@
 title: Collaboration [!DNL Starter]  オンボーディングの権限コントロールの設定
 description: Adobe Experience Cloudの権限を使用して、Adobe Real-Time CDP Collaboration [!DNL Starter] の権限を設定する方法を説明します。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
 workflow-type: tm+mt
@@ -58,7 +58,7 @@ The **[!UICONTROL Add Roles]** dialog appears with a table of available roles. E
 
 {style="table-layout:auto"}
 
-For an in-depth overview of a specific role and its permissions, see the [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide.
+For an in-depth overview of a specific role and its permissions, see the [Manage permissions for a role](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide.
 
 Review the information and select the roles you want to assign to your account. When finished, select **[!UICONTROL Save]**.
 
