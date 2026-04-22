@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを利用すれば、広告主とパブリッシャーの間でシームレスかつ安全にデータを共有およびコラボレーションし、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略を促進できます。
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 29%
+source-wordcount: '270'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 29%
    * [アカウントの役割](./overview/roles.md)
    * [Collaboration パターン](./overview/collaboration-patterns.md)
    * [エンドツーエンドのワークフロー](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * 設定 {#setup}
    * [設定セクションの概要](./setup/setup-overview.md)
    * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
@@ -33,37 +33,37 @@ ht-degree: 29%
    * [データ接続を管理](./setup/manage-data-connection.md)
    * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
    * [監査ログ](./setup/audit-logs.md)
    * Real-Time CDP Collaboration Starterの設定 {#starter-setup}
-      * {hide-from-toc}[管理者アクセスの設定](./setup/starter-admin-access.md)
-      * {hide-from-toc}[権限コントロールの設定](./setup/starter-permission-controls.md)
-      * {hide-from-toc}[&#x200B; クレジットの使用状況と使用状況](./setup/starter-credit-usage.md)
+      * [管理者アクセス権の設定](./setup/starter-admin-access.md)
+      * [権限コントロールの設定](./setup/starter-permission-controls.md)
+      * [クレジットの使用と消費](./setup/starter-credit-usage.md)
 * 接続の確立 {#connect}
-   * [Overview.md](./connect/overview.md)
+   * [概要](/help/guide/connect/overview.md)
    * [共同作業者を見つける](./connect/discover-collaborators.md)
    * [共同作業者とのつながりを確立](./connect/establishing-connections.md)
    * [接続の管理](./connect/manage-connections.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [概要](./connect/advertising-platforms/overview.md)
+      * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 共同作業 {#collaborate}
-   * [概要](./collaborate/overview.md)
+   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [プロジェクトの管理](./collaborate/manage-projects.md)
    * 共同作業者の接続 {#collaborator-connections}
       * [最新情報](./collaborate/discover.md)
       * [アクティブ化](./collaborate/activate.md)
       * [測定](./collaborate/measure.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
-   * [概要](./destinations/overview.md)
+   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 権限 {#permissions}
-   * [概要](./permissions/overview.md)
+   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [ユーザーアクセスの管理](./permissions/manage-user-access.md)
    * [役割の管理](./permissions/manage-roles.md)
 * リファレンス {#reference}
