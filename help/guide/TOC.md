@@ -47,23 +47,23 @@ ht-degree: 22%
    * [共同作業者とのつながりを確立](./connect/establishing-connections.md)
    * [接続の管理](./connect/manage-connections.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 共同作業 {#collaborate}
-   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [プロジェクトの管理](./collaborate/manage-projects.md)
    * 共同作業者の接続 {#collaborator-connections}
       * [最新情報](./collaborate/discover.md)
       * [アクティブ化](./collaborate/activate.md)
       * [測定](./collaborate/measure.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
-   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 権限 {#permissions}
-   * [概要](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [ユーザーアクセスの管理](./permissions/manage-user-access.md)
    * [役割の管理](./permissions/manage-roles.md)
 * リファレンス {#reference}
