@@ -2,7 +2,7 @@
 title: 共同作業者との関係の確立
 description: 潜在的な共同作業者を見つけた後、つながりを確立し、プロジェクトでの共同作業を開始する方法を学びます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
@@ -330,7 +330,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="共同作業者を招待"
 >abstract="このフォームに記入して、パートナー組織をCollaboration Starterに招待してください。 招待者には招待メールが届きます。登録を完了するには、指定したメールアドレスを使用する必要があります。"
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starterについて詳しく見る"
+>additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starterについて詳しく見る"
 
 ユーザーインターフェイスを使用して、パートナー組織をCollaboration [!DNL Starter]に直接参加するように招待します。
 
