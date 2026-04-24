@@ -4,7 +4,7 @@ description: Adobe Real-Time CDP Collaboration Starterを利用して、Real-Tim
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 * 役割（広告主/発行者）：広告主
 * 業界
 
-招待状を受け取り、承認した後、Collaboration [!DNL Starter]にアクセスするには、Adobeで無償の販売注文を確認し、署名する必要があります。 招待プロセスについて詳しくは、[Collaborationへの共同作業者の招待 [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter) ガイドを参照してください。
+招待状を受け取り、承認した後、Collaboration [!DNL Starter]にアクセスするには、Adobeで無償の販売注文を確認し、署名する必要があります。 招待プロセスについて詳しくは、[Collaborationへの共同作業者の招待 [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator) ガイドを参照してください。
 
 ## ガードレール {#guardrails}
 

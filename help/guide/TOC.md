@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを利用すれば、広告主とパブリッシャーの間でシームレスかつ安全にデータを共有およびコラボレーションし、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略を促進できます。
-source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
+source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 22%
+source-wordcount: '209'
+ht-degree: 29%
 
 ---
 
@@ -47,23 +47,23 @@ ht-degree: 22%
    * [共同作業者とのつながりを確立](./connect/establishing-connections.md)
    * [接続の管理](./connect/manage-connections.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [概要](/help/guide/connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 共同作業 {#collaborate}
-   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [概要](/help/guide/collaborate/overview.md)
    * [プロジェクトの管理](./collaborate/manage-projects.md)
    * 共同作業者の接続 {#collaborator-connections}
       * [最新情報](./collaborate/discover.md)
       * [アクティブ化](./collaborate/activate.md)
       * [測定](./collaborate/measure.md)
    * Advertising platformとの連携 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
       * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
-   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [概要](/help/guide/destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 権限 {#permissions}
-   * [概要](https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [概要](/help/guide/permissions/overview.md)
    * [ユーザーアクセスの管理](./permissions/manage-user-access.md)
    * [役割の管理](./permissions/manage-roles.md)
 * リファレンス {#reference}

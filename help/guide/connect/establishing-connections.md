@@ -4,9 +4,9 @@ description: 潜在的な共同作業者を見つけた後、つながりを確�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3398'
 ht-degree: 8%
 
 ---
@@ -82,39 +82,39 @@ ht-degree: 8%
 >
 >製品外でコミュニケーションしたパブリッシャーと接続したい場合は、プライベート接続の招待オプションを利用できます。 詳しくは、「[&#x200B; プライベート接続への招待](#private-connection-invite)」の節を参照してください。
 
-The pending invite is displayed in the **[!UICONTROL My connections]** tab in the **[!UICONTROL Action required]** section. The connection status appears as **[!UICONTROL Invite sent]**. You can preview the connection settings by selecting **[!UICONTROL Preview connection]**, but you cannot edit them until the publisher accepts the invite.
+保留中の招待は、**[!UICONTROL 必要なアクション]** セクションの&#x200B;**[!UICONTROL 自分の接続]** タブに表示されます。 接続ステータスは&#x200B;**[!UICONTROL 招待状が送信されました]**&#x200B;と表示されます。 **[!UICONTROL 接続のプレビュー]**&#x200B;を選択して接続設定をプレビューできますが、パブリッシャーが招待を受け入れるまで編集することはできません。
 
-![The pending connection is displayed in the My connections workspace in the Action required section.](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
+![保留中の接続は、「アクションが必要」セクションの「自分の接続」ワークスペースに表示されます。](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
 
-### Private connection invite {#private-connection-invite}
+### プライベート接続の招待 {#private-connection-invite}
 
-Private connection invites allow you to connect with collaborators you&#39;ve communicated with outside of the product using a **[!UICONTROL Connect code]**. To form a private connection, you need to obtain the **[!UICONTROL Connect code]** from the collaborator you want to connect with outside of the product. You can then use this code to send a private connection invite to the collaborator in the **[!UICONTROL Connect]** workspace.
+プライベート接続の招待を使用すると、**[!UICONTROL Connect コード]**&#x200B;を使用して、製品外でコミュニケーションを行った共同作業者と接続できます。 プライベート接続を確立するには、製品外で接続する共同作業者から&#x200B;**[!UICONTROL 接続コード]**&#x200B;を取得する必要があります。 次に、このコードを使用して、**[!UICONTROL Connect]** ワークスペースの共同作業者にプライベート接続招待を送信できます。
 
 #### 接続コード {#connect-code}
 
-Before you can send a private connection invite, your desired collaborator must provide you their unique **[!UICONTROL Connect code]**. To find and copy your **[!UICONTROL Connect code]**, navigate to the **[!UICONTROL My account]** tab within in the **[!UICONTROL Setup]** workspace. The **[!UICONTROL Connect code]** is displayed within your account details.
+プライベート接続の招待を送信する前に、目的の共同作業者が一意の&#x200B;**[!UICONTROL 接続コード]**&#x200B;を提供する必要があります。 **[!UICONTROL Connect コード]**&#x200B;を検索してコピーするには、**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイアカウント]** タブに移動します。 **[!UICONTROL 接続コード]**&#x200B;は、アカウントの詳細に表示されます。
 
-![The My account tab within the Setup workspace with the Connect code highlighted.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
+![接続コードがハイライト表示された設定ワークスペース内の「自分のアカウント」タブ。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-Select the copy icon (![copy icon](/help/assets/icons/copy.png)) next to the **[!UICONTROL Connect code]** to copy it to your clipboard. You can then share this code with your collaborator outside of the product.
+コード **[!UICONTROL 接続]**&#x200B;の横にあるコピーアイコン（![&#x200B; コピーアイコン &#x200B;](/help/assets/icons/copy.png)）を選択して、クリップボードにコピーします。 その後、このコードを製品外の共同作業者と共有できます。
 
-![The Connect code with the copy icon highlighted.](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
+![&#x200B; コピーアイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
-##### Refreshing the connect code {#refresh-connect-code}
+##### 接続コードの更新 {#refresh-connect-code}
 
-You can refresh your **[!UICONTROL Connect code]** at any time. Refreshing the code generates a new unique code that you can share with collaborators. This is useful if you want to invalidate the previous code for security reasons. Any connections established using the old code will remain active, but new collaborators will need to use the new code to connect with you.
-
->[!IMPORTANT]
->
->Refreshing your **[!UICONTROL Connect code]** during a pending invite may prevent the invite from being accepted. If you refresh your code, your collaborator may need to resend the private connection invite using the new code.
-
-To refresh your **[!UICONTROL Connect code]**, select the refresh icon (![refresh icon](/help/assets/icons/refresh.png)) next to the **[!UICONTROL Connect code]**.
-
-![The Connect code with the refresh icon highlighted.](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+**[!UICONTROL Connect コード]**&#x200B;はいつでも更新できます。 コードを更新すると、共同作業者と共有できる新しい一意のコードが生成されます。 これは、セキュリティ上の理由から以前のコードを無効にする場合に便利です。 古いコードを使用して確立された接続は引き続きアクティブですが、新しい共同作業者は新しいコードを使用して接続する必要があります。
 
 >[!IMPORTANT]
 >
->Any accounts created before the **[!UICONTROL Connect code]** feature was introduced will not have a generated connect code, and the connect field will show as **[!UICONTROL Unavailable]**. 更新オプションを使用して、新しい接続コードを生成します。
+>保留中の招待中に&#x200B;**[!UICONTROL 接続コード]**&#x200B;を更新すると、招待が承認されない可能性があります。 コードを更新した場合、共同作業者は新しいコードを使用してプライベート接続招待を再送信する必要がある場合があります。
+
+**[!UICONTROL Connect コード]**&#x200B;を更新するには、**[!UICONTROL Connect コード]**&#x200B;の横にある更新アイコン（![更新アイコン &#x200B;](/help/assets/icons/refresh.png)）を選択します。
+
+![更新アイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL 接続コード]**&#x200B;機能が導入される前に作成されたアカウントには、生成された接続コードはなく、接続フィールドには&#x200B;**[!UICONTROL 使用できません]**&#x200B;と表示されます。 更新オプションを使用して、新しい接続コードを生成します。
 
 #### プライベート接続の招待を送信 {#send-private-connection-invite}
 
@@ -150,15 +150,15 @@ To refresh your **[!UICONTROL Connect code]**, select the refresh icon (![refres
 
 ### 接続設定の設定 {#configure-connection-settings}
 
-The connection settings define the terms between two collaborators. These settings include use cases, match keys, credit split, and legal agreements. Collaborators connecting with advertisers can also add advertiser names to the connection settings, which will be used when creating projects.
+接続設定は、2人の共同作業者の条件を定義します。 これらの設定には、ユースケース、照合キー、クレジットの分割、法的契約書などが含まれます。 広告主と連携する共同作業者は、プロジェクトの作成時に使用する接続設定に広告主名を追加することもできます。
 
-After the recipient accepts the invite, the owner can configure the connection settings. To do this, navigate to **[!UICONTROL My connections]** and find the pending connection in the **[!UICONTROL Action required]** section. Select **[!UICONTROL Set up connection]** to configure the connection settings.
+受信者が招待を受け入れた後、所有者は接続設定を設定できます。 これを行うには、**[!UICONTROL My connections]**&#x200B;に移動し、**[!UICONTROL Action required]** セクションで保留中の接続を見つけます。 **[!UICONTROL 接続を設定]**&#x200B;を選択して、接続設定を構成します。
 
-![The Connect workspace with the Set up connection option highlighted in the Action required section.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![&#x200B; アクションが必要なセクションで「接続を設定」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
-The connection settings workspace appears, allowing you to configure the various settings for the connection.
+接続設定ワークスペースが表示され、接続の様々な設定を行うことができます。
 
-![The connection settings workspace.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
+![接続設定ワークスペース。](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
 #### 接続設定 {#connection-settings}
 
@@ -199,101 +199,101 @@ The connection settings workspace appears, allowing you to configure the various
 >title="Audience Activation"
 >abstract="Audience Activation を使用すると、Audience Activation を開始できる共同作業者を選択できます。"
 
-You can configure the following connection settings:
+次の接続設定を設定できます。
 
 ##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
->Any connections created before the **[!UICONTROL Audience activation]** feature was introduced will automatically have the audience activation setting set to the connection owner. If you want to allow both collaborators to activate audiences, you will need [delete your current connection](#delete-connections) and create a new one with the updated settings.
+>**[!UICONTROL オーディエンスアクティベーション]**&#x200B;機能が導入される前に作成された接続では、オーディエンスアクティベーション設定が自動的に接続所有者に設定されます。 両方の共同作業者がオーディエンスをアクティブ化できるようにするには、[現在の接続を削除し](#delete-connections)更新された設定で新しい接続を作成する必要があります。
 
-Audience activation allows you to select which collaborator can activate audiences within the connection. Audience activation will only be an option if the **[!UICONTROL Audience activation]** use case is selected. If you choose to remove the use case during the connection process, the audience activation setting will be removed from the connection settings. To learn more about audience activation, see the [activate](/help/guide/collaborate/activate.md) guide.
+オーディエンスアクティベーションを使用すると、接続内でオーディエンスをアクティベートできる共同作業者を選択できます。 オーディエンスアクティベーションは、**[!UICONTROL オーディエンスアクティベーション]**&#x200B;のユースケースが選択されている場合にのみオプションになります。 接続プロセス中にユースケースを削除することを選択した場合、オーディエンスアクティベーション設定は接続設定から削除されます。 オーディエンスのアクティベーションについて詳しくは、[activate](/help/guide/collaborate/activate.md) ガイドを参照してください。
 
-To set up audience activation, select **[!UICONTROL Set up]** in the **[!UICONTROL Audience activation]** section. Use the dropdown menu to specify which collaborator can activate audiences. You can choose a single collaborator or allow both collaborators to activate audiences.
+オーディエンスのアクティブ化を設定するには、「**[!UICONTROL オーディエンスのアクティブ化]**」セクションで「**[!UICONTROL セットアップ]**」を選択します。 ドロップダウンメニューを使用して、オーディエンスをアクティベートできる共同作業者を指定します。 1人の共同作業者を選択するか、両方の共同作業者がオーディエンスをアクティブ化できるようにします。
 
-![The Audience activation dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含むオーディエンスアクティベーションダイアログ。](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
-When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![The Audience activation dialog with the Save option in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
+![接続設定ワークスペースの「保存」オプションを使用したオーディエンスのアクティブ化ダイアログ。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
 ##### ユースケース {#use-cases}
 
-Use cases are automatically populated with all available options. Selected use cases determine which views and options are available within your projects. To learn more, read the [project use cases](/help/guide/collaborate/manage-projects.md#project-use-cases) guide.
+ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューとオプションが決まります。 詳しくは、[&#x200B; プロジェクトのユースケース &#x200B;](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
-To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don&#39;t wish to include in any projects with your collaborator. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+ユースケースをカスタマイズするには、「**[!UICONTROL ユースケース]**」セクションで「**[!UICONTROL 編集]**」を選択し、共同作業者とのプロジェクトに含めたくない場合はオフにします。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![接続設定ワークスペースのユースケース設定。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 一致キー {#match-keys}
 
 >[!IMPORTANT]
 >
->When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+>複数の照合キーを使用するオーディエンスをアクティブ化する場合、1つ（または複数）の照合キーに重複がないか、オーディエンスサイズがないか、しきい値を下回ると、アクティブ化全体が失敗します。 オーディエンスが十分に重複しており、すべてのマッチキーで最低1,000 IDのしきい値を満たしていることを確認してからアクティベートします。
 
-Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear.
+[&#x200B; アカウントの設定](/help/guide/setup/onboard-account.md#set-up-match-keys)中に、あなたと共同作業者が選択した共通の照合キーが照合キーに自動的に入力されます。 自分と共同作業者が選択した&#x200B;**と**&#x200B;の両方に共通する一致するキーのみが表示されます。
 
-![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![一致キーのセクションがハイライト表示された接続設定ワークスペースで、共通の一致キーが表示されます。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
+接続所有者が接続設定を設定している場合、アカウント一致キーを[編集して](../setup/onboard-account.md#edit-match-keys)追加の一致キーを含めることができます。 アカウント設定でさらに一致するキーを切り替えた後、それらの一致するキーは、共同作業者が選択している場合は、接続設定で切り替え可能になります。 接続プロセスが開始された後に追加された照合キーは自動的に入力されないため、手動でオンに切り替える必要があります。
 
-To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don&#39;t want to use in this connection. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+照合キーをカスタマイズするには、**[!UICONTROL 照合キー]** セクションの&#x200B;**[!UICONTROL 編集]**&#x200B;を選択し、この接続で使用しない照合キーをすべてオフにします。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![一致キーのセクション ダイアログが開き、一致キーがオフになっている接続設定ワークスペースが表示されます。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
+>共同作業者が接続設定を受け入れると、一致キーがロックされ、変更できません。
 
 ##### クレジット分割 {#credit-split}
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
+「クレジットの分割」セクションを使用して、2つの共同作業当事者のうち、活動のコストをカバーする当事者を決定します。 クレジット分割オプションは、接続で選択したユースケースによって決まります。 **[!UICONTROL Measurement]**&#x200B;のユースケースでは、コストをカバーするには1つの関係者が必要ですが、**[!UICONTROL Activation - Matching]**&#x200B;のユースケースでは、各関係者が独自のコストをカバーするように追加オプションが提供されます。 コストの内訳について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
 >[!NOTE]
 >
->Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
+>オーディエンス – エグレスは、オーディエンスを受信する共同作業者によって常にカバーされるため、選択は必要ありません。
 
-To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+クレジット分割を設定するには、「**[!UICONTROL クレジット分割]**」セクションの「**[!UICONTROL 編集]**」を選択します。 その後、各ユースケースに適切なオプションを選択できます。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含むクレジット分割ダイアログ。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### 広告主名 {#advertiser-names}
 
 >[!NOTE]
 >
->This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
+>このオプションは、接続を開始するユーザーに応じて、接続設定の設定または接続設定のレビュー中に表示される場合があります。
 
-If you are a publisher forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. This is particularly useful if the advertiser has a presence in multiple geographies or if they are known by different names in different contexts. Later, when you create a project, you can select the appropriate advertiser name from the list of names configured in the connection settings.
+広告主との接続を形成するパブリッシャーの場合は、接続設定に広告主名を追加することを選択できます。 これにより、システムで広告主が認識される複数の名前を追加できます。 これは、広告主が複数の地域で事業を展開している場合や、異なるコンテクストで名称が異なる場合に特に役立ちます。 その後、プロジェクトを作成する際に、接続設定で設定した名前のリストから適切な広告主名を選択できます。
 
-![The Advertiser names in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
+![接続設定ワークスペースの広告主名。](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-To add advertiser names, select **[!UICONTROL Edit]** in the **[!UICONTROL Advertiser names]** section. You can then enter the **[!UICONTROL Advertiser ID]** that the advertiser is known to you as in your system, and an **[!UICONTROL Advertiser name]** to associate with that ID within Collaboration. You can add multiple advertiser names by selecting **[!UICONTROL Add]** option.
+広告主名を追加するには、「**[!UICONTROL 広告主名]**」セクションで「**[!UICONTROL 編集]**」を選択します。 次に、広告主がシステム内で認識されている&#x200B;**[!UICONTROL 広告主ID]**&#x200B;と、Collaboration内でそのIDに関連付ける&#x200B;**[!UICONTROL 広告主名]**&#x200B;を入力できます。 **[!UICONTROL 追加]** オプションを選択して、複数の広告主名を追加できます。
 
-![The Advertiser names dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
+![接続設定ワークスペースのオプションを含む広告主名ダイアログ。](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
 
-When you&#39;re done, select **[!UICONTROL Save]** to save your changes.
+完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-When creating a project, the advertiser name will be prefilled based on the following settings established during the connection    :
+プロジェクトを作成する際には、接続中に設定された次の設定に基づいて広告主名が事前入力されます    :
 
-1. **No advertiser name set**: If no advertiser names are added, Collaboration defaults to using the advertiser&#39;s name as the advertiser name.
-2. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
-3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+1. **広告主名セットなし**：広告主名が追加されない場合、Collaborationはデフォルトで広告主名を広告主名として使用します。
+2. **1つの広告主名セット**:1つの広告主名が追加された場合、Collaborationはその名前を自動的にプロジェクトの広告主名として使用します。
+3. **複数の広告主名セット**：複数の広告主名が追加された場合、プロジェクトの作成時に、指定された名前のいずれかを選択できます。
 
 >[!NOTE]
 >
-> Once you&#39;ve sent the connection settings, you are no longer able to add or edit advertiser names.
+> 接続設定を送信すると、広告主名を追加または編集できなくなります。
 
-![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/add-advertiser-names.png)
+![広告主名セクションが入力された接続設定ワークスペース。](/help/assets/connect/establish-connection/add-advertiser-names.png)
 
-After you have made your selections, select **[!UICONTROL Submit]** to send the suggested settings to the recipient for review.
+選択した後、**[!UICONTROL 送信]**&#x200B;を選択して、レビュー用に提案された設定を受信者に送信します。
 
 ### 接続設定を確認 {#review-connection-settings}
 
-Next, the recipient needs to review the connection settings proposed by the owner. The recipient can do this by navigating to the **[!UICONTROL My connections]** tab in the **[!UICONTROL Connect]** workspace. The connection will be displayed in the **[!UICONTROL Action required]** section. Select **[!UICONTROL Review connection settings]** to review the proposed connection settings.
+次に、受信者は所有者が提案した接続設定を確認する必要があります。 受信者は、**[!UICONTROL Connect]** ワークスペースの「**[!UICONTROL 自分の接続]**」タブに移動して、これを行うことができます。 接続は、**[!UICONTROL アクションが必要]** セクションに表示されます。 **[!UICONTROL 接続設定を確認]**&#x200B;を選択して、提案された接続設定を確認します。
 
-![The My connections workspace with the Review connection settings option highlighted.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+![接続設定を確認オプションがハイライト表示された自分の接続ワークスペース。](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
 
-Review the settings the collaborator has proposed. You can either accept or reject the connection settings. If you reject the connection settings, you&#39;ll need to communicate with the collaborator about the changes you want made outside the product. 共同作業者の連絡先情報は、接続設定ワークスペースの&#x200B;**[!UICONTROL 連絡先]** セクションに表示されます。 その後、所有者は接続設定を変更し、レビュー用に再送信できます。
+共同作業者が提案した設定を確認します。 接続設定を承認または拒否できます。 接続設定を拒否する場合は、製品外で行う変更について共同作業者に連絡する必要があります。 共同作業者の連絡先情報は、接続設定ワークスペースの&#x200B;**[!UICONTROL 連絡先]** セクションに表示されます。 その後、所有者は接続設定を変更し、レビュー用に再送信できます。
 
 ![同意と拒否オプションがハイライト表示された接続設定ワークスペース。](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
@@ -325,6 +325,12 @@ Review the settings the collaborator has proposed. You can either accept or reje
 >別の共同作業者を招待することで、その活動を通じて発生した料金に対して責任を負うことを認めます。 Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)での クレジットの使用状況と使用状況について詳しく見る
 
 ### 招待状を送る {#send-invitation}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_starter_invite_collaborator"
+>title="共同作業者を招待"
+>abstract="このフォームに記入して、パートナー組織をCollaboration Starterに招待してください。 招待者には招待メールが届きます。登録を完了するには、指定したメールアドレスを使用する必要があります。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starterについて詳しく見る"
 
 ユーザーインターフェイスを使用して、パートナー組織をCollaboration [!DNL Starter]に直接参加するように招待します。
 
