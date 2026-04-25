@@ -5,8 +5,14 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 TQID: https://experienceleague.adobe.com/fPHinK-IJUQ0LNel3NRf8wFKFPUejZgeTIXugcDKAOY
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 390
@@ -42,13 +48,13 @@ Adobe Real-Time CDP Collaborationなら、サードパーティ Cookieに依存�
 
 ## 基本を学ぶ {#get-started}
 
-Collaborationの使用を開始するには、システム管理者が自分自身、製品管理者、エンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスのレベルに応じて、複数の必要な手順があります。 開始するには、[ アクセス制御の概要](/help/guide/permissions/overview.md){target="_blank"} ガイドを参照してください。
+Collaborationの使用を開始するには、システム管理者が自分自身、製品管理者、エンドユーザーにアクセス権を付与する必要があります。 必要なユーザーとアクセスのレベルに応じて、複数の必要な手順があります。 開始するには、[&#x200B; アクセス制御の概要](/help/guide/permissions/overview.md){target="_blank"} ガイドを参照してください。
 
-アクセスできたら、アカウントを設定し、データ接続を作成してオーディエンスの調達を開始する準備が整います。 開始するには、[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)をお読みください。
+アクセスできたら、アカウントを設定し、データ接続を作成してオーディエンスの調達を開始する準備が整います。 開始するには、[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)をお読みください。
 
 ## リソース
 
-製品で使用される用語の詳細については、[用語集](/help/guide/glossary.md)を参照してください。 サポートについては、Adobe [ カスタマーサポート ](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページにアクセスしてください。
+製品で使用される用語の詳細については、[用語集](/help/guide/glossary.md)を参照してください。 サポートについては、Adobe [&#x200B; カスタマーサポート &#x200B;](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページにアクセスしてください。
 
 ## さらに詳しく
 

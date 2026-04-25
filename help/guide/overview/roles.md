@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
 TQID: https://experienceleague.adobe.com/D8m64HZegO-pTNnx-nhlSUraxdIDgZeesT7mzepKZbc
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 423
@@ -41,4 +45,4 @@ Adobe Real-Time CDP Collaborationには、アカウントに関連付けられ�
 
 Adobe Real-Time CDP Collaborationでアカウントを作成する際は、組織の目的に最も適した役割を選択することが重要です。 ブランドはオンラインプラットフォーム（パブリッシャー）を運営し、マーケティングキャンペーン（広告主）も運営しているため、ブランドが両方の役割に適合する場合があります。 Collaborationは、コラボレーションパターンに柔軟性をもたらします。ただし、主な目標に合わせて適切な役割を選択することをお勧めします。
 
-役割、様々なコラボレーションパターン、およびそれらの使用方法について詳しくは、[ コラボレーションパターン ](/help/guide/overview/collaboration-patterns.md) ガイドを参照してください。 各コラボレーションパターンについて説明し、Collaborationの概要を企業の視点から解説します。[ エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)に関するガイドです。
+役割、様々なコラボレーションパターン、およびそれらの使用方法について詳しくは、[&#x200B; コラボレーションパターン &#x200B;](/help/guide/overview/collaboration-patterns.md) ガイドを参照してください。 各コラボレーションパターンについて説明し、Collaborationの概要を企業の視点から解説します。[&#x200B; エンドツーエンドのワークフロー](/help/guide/overview/end-to-end-workflow.md)に関するガイドです。

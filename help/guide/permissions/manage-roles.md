@@ -5,9 +5,15 @@ audience: admin
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
 TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 623
@@ -19,9 +25,9 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration UIの様々なコンポーネントへのユーザーアクセスを管理するには、[管理者](./manage-user-access.md#system-admin-gain-access)が役割を定義して割り当てることができます。 役割は、組織内の管理者またはユーザーが[ リソース ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"}に対して持つアクセス権を定義します。 このガイドでは、Real-Time CDP Collaborationで提供される標準の役割に関する情報と、カスタムロールに割り当てることができる個々の権限について説明します。
+Adobe Real-Time CDP Collaboration UIの様々なコンポーネントへのユーザーアクセスを管理するには、[管理者](./manage-user-access.md#system-admin-gain-access)が役割を定義して割り当てることができます。 役割は、組織内の管理者またはユーザーが[&#x200B; リソース &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"}に対して持つアクセス権を定義します。 このガイドでは、Real-Time CDP Collaborationで提供される標準の役割に関する情報と、カスタムロールに割り当てることができる個々の権限について説明します。
 
-ロールの管理を開始するには、管理者がExperience Platform製品にアクセスする必要があります。 管理アクセスの取得またはExperience Platformへのアクセスの取得について詳しくは、[ ユーザーアクセスの管理](./manage-user-access.md#manage-user-access-through-permissions) ガイドを参照してください。
+ロールの管理を開始するには、管理者がExperience Platform製品にアクセスする必要があります。 管理アクセスの取得またはExperience Platformへのアクセスの取得について詳しくは、[&#x200B; ユーザーアクセスの管理](./manage-user-access.md#manage-user-access-through-permissions) ガイドを参照してください。
 
 ## 標準ロール {#standard-roles}
 
@@ -65,4 +71,4 @@ Adobe Real-Time CDP Collaboration UIの様々なコンポーネントへのユ�
 
 ## 次の手順
 
-Collaborationへのアクセスを定義する役割を作成したら、管理者とユーザーに役割](./manage-user-access.md#assign-a-role)を[割り当てる必要があります。 役割の管理の詳細については、「[役割の権限の管理](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイド」を参照してください。
+Collaborationへのアクセスを定義する役割を作成したら、管理者とユーザーに役割[&#128279;](./manage-user-access.md#assign-a-role)を割り当てる必要があります。 役割の管理の詳細については、「[役割の権限の管理](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイド」を参照してください。

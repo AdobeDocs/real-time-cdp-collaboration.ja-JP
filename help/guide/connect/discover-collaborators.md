@@ -5,8 +5,11 @@ audience: admin, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 TQID: https://experienceleague.adobe.com/ac9-jiDgLNaXcO49M9DB9xHHWExYf9ocdwTMddU5CQs
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 375
@@ -22,13 +25,13 @@ Adobe Real-Time CDP Collaborationで潜在的な共同作業者を見つけて�
 
 >[!NOTE]
 >
->現在、**[!UICONTROL 共同作業者を見つける]** ワークスペースは、広告主のみが利用できます。 パブリッシャーは、プラットフォームを通じて広告主を発見することはできません。 パブリッシャーは、コネクションを促進するために、コネクトコードを広告主と共有できます。 詳しくは、「[ プライベート接続への招待](./establishing-connections.md#private-connection-invite)」の節を参照してください。
+>現在、**[!UICONTROL 共同作業者を見つける]** ワークスペースは、広告主のみが利用できます。 パブリッシャーは、プラットフォームを通じて広告主を発見することはできません。 パブリッシャーは、コネクションを促進するために、コネクトコードを広告主と共有できます。 詳しくは、「[&#x200B; プライベート接続への招待](./establishing-connections.md#private-connection-invite)」の節を参照してください。
 
 共同作業者を見つけるには、「**[!UICONTROL Connect]** > **[!UICONTROL 共同作業者を見つける]**」タブに移動します。
 
 ![[!UICONTROL Connect] ワークスペースの[!UICONTROL 共同作業者の検索] ダッシュボード。](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
-「**[!UICONTROL パブリッシャーを表示]**」を選択して、パブリッシャーの詳細を確認します。 また、パブリッシャー[がパブリック ](/help/guide/setup/onboard-audiences.md#metadata-visibility)として設定したオーディエンスを表示および調査することもできます。
+「**[!UICONTROL パブリッシャーを表示]**」を選択して、パブリッシャーの詳細を確認します。 また、パブリッシャー[がパブリック &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility)として設定したオーディエンスを表示および調査することもできます。
 
 ![個々のパブリッシャーの詳細](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 

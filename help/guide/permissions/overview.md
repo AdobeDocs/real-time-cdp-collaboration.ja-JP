@@ -5,9 +5,12 @@ audience: admin
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 TQID: https://experienceleague.adobe.com/EIm85EKC4-YUePO5CTHQ4hi4KvawwhKXfiQEa7lw-P4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 980
@@ -39,7 +42,7 @@ Collaborationへのアクセス制御を設定するには、**システム管�
 
 {style="table-layout:auto"}
 
-管理者の役割について詳しくは、[ アドビヘルプセンター](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
+管理者の役割について詳しくは、[&#x200B; アドビヘルプセンター](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
 
 >[!TIP]
 >
@@ -47,7 +50,7 @@ Collaborationへのアクセス制御を設定するには、**システム管�
 
 ## 関連製品 {#products}
 
-Collaborationへのアクセス権を付与する前に、[ ユースケース ](#use-cases)に応じて、複数の商品にアクセスする必要があります。 アクセス制御ガイドは、進行状況に応じて複数のユーザーインターフェイスを介して機能し、アクセス設定プロセス内で特定の目的を果たします。 各製品の用途について詳しくは、次の表を参照してください。
+Collaborationへのアクセス権を付与する前に、[&#x200B; ユースケース &#x200B;](#use-cases)に応じて、複数の商品にアクセスする必要があります。 アクセス制御ガイドは、進行状況に応じて複数のユーザーインターフェイスを介して機能し、アクセス設定プロセス内で特定の目的を果たします。 各製品の用途について詳しくは、次の表を参照してください。
 
 | 製品 | 用途 |
 | --- | --- |
@@ -75,8 +78,8 @@ Collaborationへのアクセス権を付与する前に、[ ユースケース ]
 | 既存のExperience Platform システム管理者&#x200B;**に対するスーパーユーザー（Experience Platform UI アクセスなし）。** | システム管理者。 | [製品管理者のアクセス権の設定](./manage-user-access.md#admin-access) |
 | 新しい製品管理者の製品管理者権限とCollaboration アクセス。 | システム管理者。 | [製品管理者のアクセス権の設定](./manage-user-access.md#admin-access) |
 | 既存のExperience Platform製品管理者&#x200B;**と** Experience Platform UI アクセスに対するCollaboration アクセス。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定](./manage-user-access.md#RTCDP-collab-access) |
-| 既存のExperience Platform製品管理者&#x200B;**に対するCollaboration アクセス （Experience Platform UI アクセスなし）:** | システム管理者または製品管理者。 | [ ユーザーアクセスの設定](./manage-user-access.md#user-access) |
-| 新しいエンドユーザーのCollaboration アクセス。 | システム管理者または製品管理者。 | [ ユーザーアクセスの設定](./manage-user-access.md#user-access) |
+| 既存のExperience Platform製品管理者&#x200B;**に対するCollaboration アクセス （Experience Platform UI アクセスなし）:** | システム管理者または製品管理者。 | [&#x200B; ユーザーアクセスの設定](./manage-user-access.md#user-access) |
+| 新しいエンドユーザーのCollaboration アクセス。 | システム管理者または製品管理者。 | [&#x200B; ユーザーアクセスの設定](./manage-user-access.md#user-access) |
 | Experience Platform アクセス権を持つ既存ユーザーのCollaboration アクセス。 | システム管理者または製品管理者。 | [Collaboration アクセスの設定](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}

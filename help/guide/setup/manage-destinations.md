@@ -5,8 +5,11 @@ audience: admin, publisher
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
 TQID: https://experienceleague.adobe.com/3JoqIEJ0ilX3NHYOVersSkaa98kgPzOhqk94UP6Xc50
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 401
@@ -20,9 +23,9 @@ ht-degree: 1%
 
 配信先は、ターゲットオーディエンスを外部プラットフォームに送信するために使用される統合機能です。 これらの統合により、様々なマーケティングチャネルやプラットフォームでオーディエンスをアクティベートし、キャンペーンや顧客エンゲージメントで使用できます。
 
-共同作業者は、キャンペーンで使用するために、Adobe Experience Platformなどの外部プラットフォームにオーディエンスを送信する宛先を設定できます。 共同作業者は、接続の設定済み宛先に送信されるプロジェクト ](../collaborate/activate.md)内のオーディエンスを[ アクティブ化できます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定[に応じて、いずれかの共同作業者によって実行できます。
+共同作業者は、キャンペーンで使用するために、Adobe Experience Platformなどの外部プラットフォームにオーディエンスを送信する宛先を設定できます。 共同作業者は、接続の設定済み宛先に送信されるプロジェクト [&#128279;](../collaborate/activate.md)内のオーディエンスを[&#x200B; アクティブ化できます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定に応じて、いずれかの共同作業者によって実行できます。
 
-![ アクティブなAdobe Experience Platformの宛先が表示されている設定ワークスペースの「My destinations」タブ。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![&#x200B; アクティブなAdobe Experience Platformの宛先が表示されている設定ワークスペースの「My destinations」タブ。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
 宛先について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
 
@@ -34,7 +37,7 @@ ht-degree: 1%
 >
 >宛先を設定および管理するには、ユーザーに&#x200B;**オーディエンスデータの管理**&#x200B;権限が割り当てられている役割が必要です。 役割の管理について詳しくは、[役割の管理](../permissions/manage-roles.md) ガイドを参照してください。
 
-![ セットアップ ワークスペースの「My destinations」タブに、使用可能な宛先が表示されます。](/help/assets/setup/manage-destinations/my-destinations.png)
+![&#x200B; セットアップ ワークスペースの「My destinations」タブに、使用可能な宛先が表示されます。](/help/assets/setup/manage-destinations/my-destinations.png)
 
 宛先の設定プロセスは、設定する宛先によって異なります。 使用可能な宛先とその設定ガイドについては、[使用可能な宛先](../destinations/overview.md#available-destinations) カタログを参照してください。
 
@@ -56,4 +59,4 @@ ht-degree: 1%
 
 ## 次の手順
 
-宛先を設定したら、プロジェクト内で[ ターゲットオーディエンスをアクティブ化](../collaborate/activate.md)するために、接続内で共同作業を開始できます。
+宛先を設定したら、プロジェクト内で[&#x200B; ターゲットオーディエンスをアクティブ化](../collaborate/activate.md)するために、接続内で共同作業を開始できます。

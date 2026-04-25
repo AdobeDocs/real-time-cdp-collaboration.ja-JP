@@ -6,8 +6,11 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 TQID: https://experienceleague.adobe.com/0vUk3-vtaZvCoBmzkbrfMQF1NFaFg2NqsjJIje1sVcg
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 546
@@ -31,7 +34,7 @@ IDのクロスウォークにより、複数のデータセットやプラット
 
 ## Real-Time CDP CollaborationへのID クロスウォークの読み込み {#import-crosswalk}
 
-**[!UICONTROL 設定]** > **[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択して、**[!UICONTROL ID クロスウォーク]**&#x200B;を選択します
+**[!UICONTROL 設定]** > **[!UICONTROL ID クロスウォーク]** タブに移動し、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択して、**[!UICONTROL ID クロスウォーク]**&#x200B;を選択します
 
 ![画面にアクセスしてIDのクロスウォークを追加する方法の記録](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -43,9 +46,9 @@ ID クロスウォークを読み込むソースを選択します。 Real-Time 
 >
 >Experience Platformから読み込むクロスウォークは、Platformでは&#x200B;*データセット*&#x200B;と呼ばれます。
 
-Experience Platformをクロスウォークのソースとして選択したら、ID クロスウォークの読み込み元となる[Experience Platform サンドボックス ](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)を選択します。
+Experience Platformをクロスウォークのソースとして選択したら、ID クロスウォークの読み込み元となる[Experience Platform サンドボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sandbox/home)を選択します。
 
-![ クロスウォーク ソースの選択方法の記録](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
+![&#x200B; クロスウォーク ソースの選択方法の記録](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
 ### クロスウォークを選択
 

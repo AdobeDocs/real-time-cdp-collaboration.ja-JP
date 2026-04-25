@@ -5,8 +5,10 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1092
@@ -36,7 +38,7 @@ ht-degree: 1%
 
 ## 接続を削除 {#delete-connection}
 
-共同作業者との関係を削除して、作業を続行しないようにすることができます。 接続を削除するには、削除する接続に移動し、接続ワークスペースで削除アイコン ![削除アイコン ](/help/assets/common/delete.svg)を選択します。
+共同作業者との関係を削除して、作業を続行しないようにすることができます。 接続を削除するには、削除する接続に移動し、接続ワークスペースで削除アイコン ![削除アイコン &#x200B;](/help/assets/common/delete.svg)を選択します。
 
 ![接続ワークスペースで削除アイコンが強調表示されます。](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 
@@ -63,7 +65,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->**所有者**&#x200B;は、招待を&#x200B;**受信者**&#x200B;に送信して接続を開始する共同作業者です。 詳しくは、[共同作業者との接続の確立に関するドキュメント ](./establishing-connections.md)を参照してください。
+>**所有者**&#x200B;は、招待を&#x200B;**受信者**&#x200B;に送信して接続を開始する共同作業者です。 詳しくは、[共同作業者との接続の確立に関するドキュメント &#x200B;](./establishing-connections.md)を参照してください。
 
 接続設定を編集するには、接続設定ワークスペースに移動します。 3点アイコン （![3点アイコン。](/help/assets/icons/more.png)）を選択します 使用可能なアクションを表示するには、**[!UICONTROL 編集]**&#x200B;を選択します。
 
@@ -77,11 +79,11 @@ ht-degree: 1%
 
 オーディエンスアクティベーション設定は、接続内のどの共同作業者が宛先に対してオーディエンスをアクティベートできるかを決定します。 これらの設定を変更するには、**[!UICONTROL オーディエンスアクティベーション]** セクション内の&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-![ オーディエンスのアクティブ化セクションと「編集」オプションを表示する接続設定の編集画面。](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}
+![&#x200B; オーディエンスのアクティブ化セクションと「編集」オプションを表示する接続設定の編集画面。](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}
 
 **[!UICONTROL オーディエンスアクティベーション]** ダイアログで、ドロップダウンメニューを使用してオーディエンスアクティベーション権限を更新します。 1人の共同作業者を選択するか、両方の共同作業者がオーディエンスをアクティブ化できるようにします。
 
-![ オーディエンスのアクティベーション権限を更新するためのドロップダウンメニューが表示されるオーディエンスのアクティベーションダイアログが拡張されました。](/help/assets/connect/manage-connections/audience-activation-dropdown-menu.png){zoomable="yes"}
+![&#x200B; オーディエンスのアクティベーション権限を更新するためのドロップダウンメニューが表示されるオーディエンスのアクティベーションダイアログが拡張されました。](/help/assets/connect/manage-connections/audience-activation-dropdown-menu.png){zoomable="yes"}
 
 完了したら、**[!UICONTROL 保存]**&#x200B;を選択します。
 
@@ -89,11 +91,11 @@ ht-degree: 1%
 
 ### ユースケースを追加 {#add-use-cases}
 
-Collaborationでは、「見つける」、「アクティベート」、「測定」などのユースケースにより、共同作業者と一緒に使用できるプロジェクトセクションと機能を決定します。 今後のプロジェクト用に、既存の接続に追加のユースケースを追加できます。 詳しくは、[ コラボレーションのユースケース ](../overview/use-cases.md)を参照してください。
+Collaborationでは、「見つける」、「アクティベート」、「測定」などのユースケースにより、共同作業者と一緒に使用できるプロジェクトセクションと機能を決定します。 今後のプロジェクト用に、既存の接続に追加のユースケースを追加できます。 詳しくは、[&#x200B; コラボレーションのユースケース &#x200B;](../overview/use-cases.md)を参照してください。
 
 新しいユースケースを追加するには、「**[!UICONTROL ユースケース]**」セクションの「**[!UICONTROL 編集]**」を選択します。
 
-![ ユースケース セクションと「編集」オプションがハイライト表示された接続設定編集画面。](/help/assets/connect/manage-connections/edit-use-cases.png){zoomable="yes"}
+![&#x200B; ユースケース セクションと「編集」オプションがハイライト表示された接続設定編集画面。](/help/assets/connect/manage-connections/edit-use-cases.png){zoomable="yes"}
 
 **[!UICONTROL ユースケース]** ダイアログで、追加する新しいユースケースを切り替え、次に&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 
@@ -101,7 +103,7 @@ Collaborationでは、「見つける」、「アクティベート」、「測�
 
 >[!NOTE]
 >
->「オーディエンスアクティベーション」や「測定」など、新しいユースケース ](#add-use-cases)を[追加すると、接続設定編集画面が更新され、**[!UICONTROL オーディエンスアクティベーション]**&#x200B;と&#x200B;**[!UICONTROL クレジット分割]** セクションが含まれます。 これらの新しいユースケースに適切な設定を行う必要があります。 詳しくは、[ オーディエンスアクティベーション ](../connect/establishing-connections.md#audience-activation)および[ クレジット分割](../connect/establishing-connections.md#credit-split) ガイドを参照してください。
+>「オーディエンスアクティベーション」や「測定」など、新しいユースケース [&#128279;](#add-use-cases)を追加すると、接続設定編集画面が更新され、**[!UICONTROL オーディエンスアクティベーション]**&#x200B;と&#x200B;**[!UICONTROL クレジット分割]** セクションが含まれます。 これらの新しいユースケースに適切な設定を行う必要があります。 詳しくは、[&#x200B; オーディエンスアクティベーション &#x200B;](../connect/establishing-connections.md#audience-activation)および[&#x200B; クレジット分割](../connect/establishing-connections.md#credit-split) ガイドを参照してください。
 >
 >![新しいユースケースが追加された後、オーディエンスのアクティブ化とクレジット分割のセクションを表示する接続設定編集画面](/help/assets/connect/manage-connections/setup-audience-activation-credit-split.png){zoomable="yes"}
 
@@ -111,7 +113,7 @@ Collaborationでは、「見つける」、「アクティベート」、「測�
 
 接続設定の編集画面で、**[!UICONTROL キーの照合]** セクション内の&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-![ キーの一致セクションと編集オプションを強調表示する接続設定の編集画面。](/help/assets/connect/manage-connections/edit-connection-match-keys.png){zoomable="yes"}
+![&#x200B; キーの一致セクションと編集オプションを強調表示する接続設定の編集画面。](/help/assets/connect/manage-connections/edit-connection-match-keys.png){zoomable="yes"}
 
 **[!UICONTROL 一致キー]** ダイアログが表示され、接続に設定された既存の一致キーが表示されます。 追加する照合キーを選択し、その後&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 
@@ -121,11 +123,11 @@ Collaborationでは、「見つける」、「アクティベート」、「測�
 
 クレジット分割設定では、接続の各ユースケースに関連するコストを担当する共同作業者を指定します。 これらの設定を更新するには、**[!UICONTROL クレジット分割]** セクションの&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-![ クレジット分割セクションと「編集」オプションがハイライト表示された接続設定画面。](/help/assets/connect/manage-connections/edit-credit-split.png){zoomable="yes"}
+![&#x200B; クレジット分割セクションと「編集」オプションがハイライト表示された接続設定画面。](/help/assets/connect/manage-connections/edit-credit-split.png){zoomable="yes"}
 
 **[!UICONTROL クレジット分割]** ダイアログで、[!UICONTROL Activation-Matching]および[!UICONTROL Measurement]の優先設定を選択します。 次に、**[!UICONTROL 保存]**&#x200B;を選択して確認します。
 
-![ クレジットの分割ダイアログに、クレジットの分割の設定と保存オプションが表示されます。](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+![&#x200B; クレジットの分割ダイアログに、クレジットの分割の設定と保存オプションが表示されます。](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
 
 ### 変更のレビューと送信 {#review-and-submit-changes}
 
