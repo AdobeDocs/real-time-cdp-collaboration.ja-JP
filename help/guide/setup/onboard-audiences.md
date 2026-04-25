@@ -4,9 +4,16 @@ description: Adobe Real-Time CDP Collaborationでのオーディエンスの調�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: 3680
 ht-degree: 18%
 
 ---
@@ -362,43 +369,43 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 ![2つのオーディエンスが選択され、編集メニューがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
 
-### メタデータの一括編集の可視化 {#bulk-edit-metadata-visibility}
+### Bulk edit metadata visibility {#bulk-edit-metadata-visibility}
 
-オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL メタデータの表示を編集]**」を選択します。
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit metadata visibility]** from the edit menu.
 
-![&#x200B; メタデータの表示を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+![The My audiences workspace with the Edit metadata visibility option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-**[!UICONTROL メタデータの表示]** ダイアログが表示され、選択したオーディエンスの表示設定を設定できます。 デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
+The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the selected audiences. By default, none of options will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
 
 ![使用可能なオプションが表示されたメタデータの表示ダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
-### 接続アクセスの一括編集 {#bulk-edit-connection-access}
+### Bulk edit connection access {#bulk-edit-connection-access}
 
-オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL 接続アクセスを編集]**」を選択します。
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit connection access]** from the edit menu.
 
-![接続アクセスを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![The My audiences workspace with the Edit connection access option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
-**[!UICONTROL 接続アクセス]** ダイアログが表示され、選択したオーディエンスのアクセス設定を構成できます。 デフォルトでは、**[!UICONTROL プライベートオーディエンス]** オプションが選択されます。 選択したすべてのオーディエンスに適用するオプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
+The **[!UICONTROL Connection access]** dialog appears, allowing you to configure the access settings for the selected audiences. By default, the **[!UICONTROL Private audience]** option will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
 
 ![使用可能なオプションが表示された接続アクセス ダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
-### オーディエンス名と説明の一括編集 {#bulk-edit-audience-names-descriptions}
+### Bulk edit audience names and descriptions {#bulk-edit-audience-names-descriptions}
 
-オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL 名前と説明を編集]**」を選択します。
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit name and description]** from the edit menu.
 
-![名前と説明を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+![The My audiences workspace with the Edit name and description option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-**[!UICONTROL 名前と説明]** ダイアログが表示され、選択した各オーディエンスの名前と説明を設定できます。 デフォルトでは、各オーディエンスに現在の名前と説明が表示されます。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
+The **[!UICONTROL Name and description]** dialog appears, allowing you to configure the name and description for each selected audience. By default, the current names and descriptions will be displayed for each audience. Make your changes and then select **[!UICONTROL Save]**.
 
-![使用可能なオプションが表示された名前と説明ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![The Name and description dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
-### カテゴリの一括編集 {#bulk-edit-categories}
+### Bulk edit categories {#bulk-edit-categories}
 
-オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL カテゴリーを編集]**」を選択します。
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit categories]** from the edit menu.
 
-![&#x200B; カテゴリを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![The My audiences workspace with the Edit categories option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-**[!UICONTROL カテゴリ]** ダイアログが表示され、選択した各オーディエンスのカテゴリを設定できます。 デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメインカテゴリを選択し、次に含めるサブカテゴリを選択します。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
+The **[!UICONTROL Categories]** dialog appears, allowing you to configure the categories for each selected audience. デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメインカテゴリを選択し、次に含めるサブカテゴリを選択します。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 ![使用可能なオプションが表示されたカテゴリ ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 

@@ -1,12 +1,20 @@
 ---
 title: オーディエンスをアクティベート
-description: Adobe Real-Time CDP Collaborationでオーディエンスをアクティブ化する方法について説明します。
+description: Adobe Real-Time CDP Collaborationでオーディエンスをアクティベートする方法について説明します。
 audience: admin, publisher
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1016
 ht-degree: 2%
 
 ---
@@ -17,85 +25,85 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL アクティブ化]** ワークスペースは、（接続プロセス中に **&#x200B;**&#x200B;Audience Activation[&#x200B; ユースケースが有効になっている場合にのみ使用でき &#x200B;](../connect/establishing-connections.md#connection-settings) す。 使用例の詳細については、[&#x200B; プロジェクトの管理 &#x200B;](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Activate]** ワークスペースは、接続プロセス [&#128279;](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンスアクティベーション** ユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
-Audience Activation を使用すると、キャンペーンで使用するオーディエンスをアクティブ化できます。 アクティベーションは、オーディエンスアクティベーションの設定 [&#x200B; 接続で設定 &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings) に応じて、いずれかの共同作業者が行うことができます。 [&#x200B; キャンペーンに最適なオーディエンスを見つけた &#x200B;](./discover.md) 後、オーディエンスをアクティブ化して使用可能にします。 オーディエンスをアクティブ化すると、そのオーディエンスは共同作業者の事前設定済みの宛先（Adobe Experience Platformなど）に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[&#x200B; 宛先の概要 &#x200B;](../destinations/overview.md) ガイドを参照してください。
+オーディエンスのアクティベーションを活用すれば、キャンペーンで使用するオーディエンスをアクティベートできます。 ライセンス認証は、接続[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定に応じて、いずれかの共同作業者によって実行できます。 キャンペーンに最適なオーディエンスを[見つけたら](./discover.md)、オーディエンスをアクティブ化して使用できるようにします。 オーディエンスをアクティベートすると、Adobe Experience Platformなど、共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
 
-## 新しいオーディエンスをアクティブ化 {#activate-new-audiences}
+## 新しいオーディエンスを活用 {#activate-new-audiences}
 
 オーディエンスのアクティブ化を開始するには、プロジェクトワークスペースの「**[!UICONTROL アクティブ化]**」タブに移動します。
 
 >[!IMPORTANT]
 >
->**前に** オーディエンスをアクティブ化し、共同作業者が宛先を **必須** 設定できます。 オーディエンスをアクティベートすると、共同作業者の設定された宛先に自動的に送信されます。 宛先が設定されていない場合は、オーディエンスをアクティブ化できません。
+>**オーディエンスをアクティブ化する前**&#x200B;に、共同作業者&#x200B;**は宛先を設定する必要があります。** オーディエンスをアクティベートすると、共同作業者が設定した宛先に自動的に送信されます。 宛先が設定されていない場合、オーディエンスをアクティブ化することはできません。
 >
->![&#x200B; コラボレータに宛先が設定されていない場合の「アクティブ化」ワークスペース &#x200B;](/help/assets/collaborate/activate/no-destination-configured.png)
+>![共同作業者に宛先が設定されていない場合のアクティブ化ワークスペース。](/help/assets/collaborate/activate/no-destination-configured.png)
 
-追加アイコン（![&#x200B; 追加」アイコンを選択します。](/help/assets/icons/plus.png)）、または **[!UICONTROL オーディエンスをアクティブ化]** る前のオーディエンスが送信されていない場合はオプション。
+追加アイコン（![追加アイコン。](/help/assets/icons/plus.png)）を選択するか、以前のオーディエンスがアクティベーション用に送信されていない場合は、**[!UICONTROL オーディエンスをアクティベート]** オプションを選択します。
 
 ![&#x200B; オーディエンスが追加されていないプロジェクトのアクティブ化ワークスペース。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
-オーディエンスをアクティベートワークフローが開き、共同作業者に送信するオーディエンスを選択できます。 ドロップダウンを使用してオーディエンスを選択するか、特定のオーディエンスを検索します。 選択する前にオーディエンスに関する詳細を表示するには、「**[!UICONTROL オーディエンスを参照]**」を選択します。
+オーディエンスをアクティブ化ワークフローが開き、共同作業者に送信するオーディエンスを選択できます。 ドロップダウンを使用してオーディエンスを選択するか、特定のオーディエンスを検索します。 選択する前にオーディエンスに関する詳細を表示するには、**[!UICONTROL オーディエンスを参照]**&#x200B;を選択します
 
-![&#x200B; ドロップダウンオプションと「オーディエンスを参照」オプションがハイライト表示された Audience Activation ワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
+![&#x200B; ドロップダウンと「オーディエンスを参照」オプションがハイライト表示されたオーディエンスのアクティベーションのワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
 
-**[!UICONTROL オーディエンスを参照]** で、各オーディエンスの **[!UICONTROL ID 数]**、**[!UICONTROL 重複する ID]** および **[!UICONTROL 重複 %]** を確認できます。
+**[!UICONTROL オーディエンスを参照]**&#x200B;で、各オーディエンスの&#x200B;**[!UICONTROL ID数]**、**[!UICONTROL 重複ID]**&#x200B;および&#x200B;**[!UICONTROL 重複%]**&#x200B;を確認できます。
 
-![&#x200B; 使用可能なオーディエンスを表示するオーディエンスを参照ダイアログ &#x200B;](/help/assets/collaborate/activate/browse-audiences.png)
+![利用可能なオーディエンスを表示するオーディエンスを参照ダイアログ。](/help/assets/collaborate/activate/browse-audiences.png)
 
 >[!IMPORTANT]
 >
->複数の一致キーが使用されているオーディエンスをアクティブ化する場合、1 つ（または複数）の一致キーの重複がない、オーディエンス数がない、またはしきい値を下回る場合、アクティベーション全体が失敗します。 オーディエンスに十分な重複があり、アクティブ化する前にすべての一致キーで 1000 個の ID の最小しきい値を満たしていることを確認します。
+>複数の照合キーを使用するオーディエンスをアクティブ化する場合、1つ（または複数）の照合キーに重複がないか、オーディエンスサイズがないか、しきい値を下回ると、アクティブ化全体が失敗します。 オーディエンスが十分に重複しており、すべてのマッチキーで最低1,000 IDのしきい値を満たしていることを確認してからアクティベートします。
 
-キャンペーンでアクティブ化するオーディエンスを選択し、「**[!UICONTROL 保存]**」を選択します。 オーディエンスが表示され、選択したオーディエンスの **[!UICONTROL ID 数]**、**[!UICONTROL 重複 ID]** および **[!UICONTROL 重複 %]** を確認できます。
+キャンペーンでアクティブ化するオーディエンスを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。 オーディエンスが表示され、選択したオーディエンスの&#x200B;**[!UICONTROL ID数]**、**[!UICONTROL 重複ID]**&#x200B;および&#x200B;**[!UICONTROL 重複%]**&#x200B;が表示されます。
 
-![&#x200B; 選択したオーディエンスが表示された Audience Activation ワークフロー &#x200B;](/help/assets/collaborate/activate/audience-selected.png)
+![選択したオーディエンスを含むオーディエンスのアクティブ化ワークフローが表示されます。](/help/assets/collaborate/activate/audience-selected.png)
 
 ### 一致キーを編集 {#edit-match-keys}
 
-次に、オーディエンスを選択した範囲内で **[!UICONTROL マッチキーを編集]** を選択して、オーディエンスのマッチキーを編集できます。 これらのオプションは、共同作業者間の接続が最初に設定されたときに、一致キーの選択から継承されます。 選択した一致キーが特定のキャンペーンに適用されない場合は、そのキーを削除できますが、新しい一致キーを追加することはできません。
+次に、選択オーディエンス内の&#x200B;**[!UICONTROL 一致キーを編集]**&#x200B;を選択して、オーディエンスの一致キーを編集できます。 これらのオプションは、共同作業者の接続が最初に設定されたときに、一致キーの選択から継承されます。 特定のキャンペーンに適用されない場合は、選択した照合キーを削除できますが、新しい照合キーを追加することはできません。
 
-![&#x200B; 「一致キーを編集」オプションがハイライト表示された Audience Activation ワークフロー &#x200B;](/help/assets/collaborate/activate/edit-match-keys.png)
+![一致キーを編集オプションがハイライト表示されたオーディエンスのアクティブ化ワークフロー。](/help/assets/collaborate/activate/edit-match-keys.png)
 
-**[!UICONTROL マッチキーを編集]** ダイアログが開き、使用しないマッチキーを切り替えることができます。 「**[!UICONTROL 保存]**」を選択して変更を保存します。
+**[!UICONTROL 一致キーを編集]** ダイアログが開き、使用しない一致キーを切り替えることができます。 **[!UICONTROL 保存]**&#x200B;を選択して、変更を保存します。
 
 >[!NOTE]
 >
->1 つ以上の一致キーを選択する必要があります。 現在のリリースでは、使用できる一致キーは **[!UICONTROL ハッシュ化されたメール]** のみなので、この一致キーを削除することはできません。
+>少なくとも1つの一致キーを選択する必要があります。 現在のリリースでは、使用可能な照合キーは&#x200B;**[!UICONTROL ハッシュ化された電子メール]**&#x200B;のみなので、この照合キーを削除することはできません。
 
-![&#x200B; オーディエンスのアクティベーションワークフローの一致キーを編集ダイアログ &#x200B;](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![&#x200B; オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### オーディエンスの更新頻度を設定 {#set-audience-refresh-frequency}
+### オーディエンスの更新頻度の設定 {#set-audience-refresh-frequency}
 
-最後に、更新するオーディエンスに希望する頻度と日付範囲を設定します。 現在のリリースでサポートされている頻度のオプションは **[!UICONTROL 1 回]** のみです。 **[!UICONTROL 1 回]** の頻度は、オーディエンスが 1 回アクティブ化され、更新されないことを意味します。 **[!UICONTROL 日付]** オプションには、現在の日付が自動入力されます。
+最後に、オーディエンスが更新する頻度と日付範囲を設定します。 現在のリリースでは、サポートされている頻度オプションは&#x200B;**[!UICONTROL 1回]**&#x200B;のみです。 **[!UICONTROL Once]**&#x200B;頻度とは、オーディエンスが1回だけアクティブ化され、更新されないことを意味します。 **[!UICONTROL 日付]** オプションには、現在の日付が自動的に入力されます。
 
-![&#x200B; 「頻度」セクションがハイライト表示された Audience Activation ワークフロー &#x200B;](/help/assets/collaborate/activate/audience-frequency.png)
+![頻度セクションがハイライト表示されたオーディエンスのアクティブ化ワークフロー。](/help/assets/collaborate/activate/audience-frequency.png)
 
-選択が完了したら、「**[!UICONTROL アクティベート]**」を選択してワークフローを完了します。
+選択内容に問題がなければ、**[!UICONTROL アクティブ化]**&#x200B;を選択してワークフローを完了します。
 
-## ダッシュボードをアクティブ化 {#activate-dashboard}
+## ダッシュボードを有効化 {#activate-dashboard}
 
-「**[!UICONTROL アクティブ化]**」タブでは、共同作業者に送信されたすべてのオーディエンスと、共同作業者が宛先に対してアクティブ化されたすべてのオーディエンスを表示できます。
+「**[!UICONTROL アクティブ化]**」タブでは、共同作業者に送信されたすべてのオーディエンスと、共同作業者が宛先に対してアクティブ化したすべてのオーディエンスを表示できます。
 
-![&#x200B; 送信済みオーディエンスとアクティブ化されたオーディエンスを表示するアクティブ化ダッシュボードのセクション &#x200B;](/help/assets/collaborate/activate/activate-dashboard.png)
+![送信されたオーディエンスとアクティブ化されたオーディエンスのセクションを表示するアクティブ化ダッシュボード。](/help/assets/collaborate/activate/activate-dashboard.png)
 
-## 送信済みオーディエンスの表示 {#view-sent-audiences}
+## 送信されたオーディエンスを表示 {#view-sent-audiences}
 
-**[!UICONTROL 共同作業者に送信されたオーディエンス]** セクションには、送信したすべてのオーディエンスが一覧表示されます。 現在、オーディエンスは、送信後、自動的に共同作業者の設定された宛先に送信されます。 共同作業者の表示では、これらのオーディエンスは「アクティブ化されたオーディエンス **[!UICONTROL セクションに表示さ]** ます。
+「**[!UICONTROL 送信済みオーディエンスを]**&#x200B;の共同作業者に送信」セクションには、送信したすべてのオーディエンスが一覧表示されます。 現在、オーディエンスは、共同作業者が設定した宛先に送信した後、自動的に送信されます。 共同作業者のビューでは、これらのオーディエンスが「**[!UICONTROL アクティブ化されたオーディエンス]**」セクションに表示されます。
 
-送信された各オーディエンス内で、次の指標を確認できます。
+送信された各オーディエンス内に、次の指標が表示されます。
 
 | 指標 | 説明 |
 |---------|----------|
 | **[!UICONTROL 名前]** | オーディエンスの名前。 |
 | **[!UICONTROL ステータス]** | 送信されたオーディエンスのステータス。 |
-| **[!UICONTROL ID 数]** | オーディエンスの ID の数。 |
-| **[!UICONTROL 重複する ID]** | 共同作業者のインベントリ全体での、このオーディエンスとプロファイルの総母集団の間で重複している ID の数。 |
+| **[!UICONTROL ID数]** | オーディエンス内のIDの数。 |
+| **[!UICONTROL 重複するID]** | このオーディエンスと共同作業者のインベントリ全体のプロファイルの合計母集団との間の重複IDの数。 |
 | **[!UICONTROL 作成日]** | オーディエンスが最初に送信された日付。 |
-| **[!UICONTROL 最後の送信]** | オーディエンスが最後に共同作業者に送信された日付。 |
-| **[!UICONTROL 一致キー]** | オーディエンスに使用される一致キーを示します。 |
+| **[!UICONTROL 最終送信日]** | オーディエンスが最後に共同作業者に送信された日付。 |
+| **[!UICONTROL キーの一致]** | オーディエンスに使用される一致キーを示します。 |
 
-## アクティブ化されたオーディエンスを表示 {#view-activated-audiences}
+## アクティブなオーディエンスを表示 {#view-activated-audiences}
 
 「**[!UICONTROL アクティブ化されたオーディエンス]**」セクションでは、宛先に対してアクティブ化されたすべてのオーディエンスを表示できます。
 
@@ -105,24 +113,24 @@ Audience Activation を使用すると、キャンペーンで使用するオー
 |---------|----------|
 | **[!UICONTROL 名前]** | オーディエンスの名前。 |
 | **[!UICONTROL ステータス]** | アクティブ化されたオーディエンスのステータス。 |
-| **[!UICONTROL ID 数]** | コラボレーターがオーディエンスを送信した際に、重複する ID に基づいてアクティブ化された ID の数。 |
+| **[!UICONTROL ID数]** | 共同作業者がオーディエンスを送信した際の重複IDに基づいて、アクティブ化されたIDの数。 |
 | **[!UICONTROL 作成日]** | オーディエンスがアクティブ化された日付。 |
-| **[!UICONTROL 前回の更新]** | アクティベーション時に選択した更新スケジュールに基づいて、オーディエンスが最後に更新された日付。 |
-| **[!UICONTROL 宛先]** | オーディエンスがアクティブ化された宛先。 |
-| **[!UICONTROL 一致キー]** | オーディエンスに使用される一致キーを示します。 |
+| **[!UICONTROL 最終更新日]** | アクティブ化中に選択した更新スケジュールに基づいて、オーディエンスが最後に更新された日付。 |
+| **[!UICONTROL 宛先]** | オーディエンスがアクティベートされた宛先。 |
+| **[!UICONTROL キーの一致]** | オーディエンスに使用される一致キーを示します。 |
 
-## 送信済みオーディエンスを削除 {#delete-sent-audiences}
+## 送信したオーディエンスを削除 {#delete-sent-audiences}
 
-アクティブ化する必要がなくなった送信済みオーディエンスを削除できます。 送信済みオーディエンスを削除すると、そのオーディエンスは「**[!UICONTROL 送信済みオーディエンス]** セクションから削除され、共同作業者の宛先に対してアクティブ化されなくなります。
+アクティブ化しなくなった送信済みオーディエンスを削除できます。 送信済みオーディエンスを削除すると、**[!UICONTROL 送信済みオーディエンス]** セクションから削除され、共同作業者の宛先に対してアクティブ化されなくなります。
 
-送信したオーディエンスを削除するには、「**[!UICONTROL 削除]**」アイコン（「![&#x200B; 削除」アイコン](/help/assets/icons/delete.png)） **[!UICONTROL 送信済みオーディエンス]** セクションのオーディエンスの横に表示されます。
+送信されたオーディエンスを削除するには、**[!UICONTROL 削除]** アイコン （![削除アイコン :](/help/assets/icons/delete.png)）を選択します 「**[!UICONTROL 送信済みオーディエンス：]**」セクションのオーディエンスの横。
 
-![&#x200B; 送信済みオーディエンスのセクションの「削除」オプション &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![送信済みオーディエンスのセクションの「削除」オプション。](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-削除を確認する確認ダイアログが表示されます。 「**[!UICONTROL 削除]**」を選択して確定します。
+確認ダイアログが開き、削除の確認を求められます。 「**[!UICONTROL 削除]**」を選択して確定します。
 
-![&#x200B; 削除の確認ダイアログ &#x200B;](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![削除確認ダイアログ。](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## 次の手順 {#next-steps}
 
-オーディエンスをアクティブ化しキャンペーンを実施した後、Adobe イネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する [&#x200B; 測定レポート &#x200B;](/help/guide/collaborate/measure.md) を確認します。
+オーディエンスをアクティブ化してキャンペーンを実行したら、Adobeのイネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する[測定レポート &#x200B;](/help/guide/collaborate/measure.md)を表示します。

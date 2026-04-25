@@ -4,9 +4,16 @@ description: 共同作業パターンに基づいて、Real-Time CDP Collaborati
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
+TQID: https://experienceleague.adobe.com/9edtg5tMbnB3BrdLrDkcHQ-AjBNOqMFGojAja3NCwCs
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: 1738
 ht-degree: 0%
 
 ---
@@ -34,32 +41,32 @@ Adobe Real-Time CDP Collaborationでは、選択した共同作業パターン�
 
 - **[!UICONTROL Luma]**：スポーツ衣料ブランド。 ターゲットマーケティング施策を通じて特定のオーディエンスにリーチしたい広告主です。
 - **[!UICONTROL TV Tube]**: デジタルストリーミングプロバイダー。 広告主が使用するオーディエンスデータを提供するパブリッシャーです。
-- **[!UICONTROL フィットアパレル]**：別のスポーツ衣料ブランド。 マーケティング活動を強化するために、オーディエンスデータとインサイトを共有するために連携したいと考えている、2番目の広告主です。
-- **[!UICONTROL Agency99]**: メディアエージェンシー。 同社は、ワークスペース内で複数の顧客アカウントを管理し、パブリッシャーや広告主とつながっています。
-- **[!UICONTROL DataM8]**：サードパーティのデータプロバイダー。 広告主が利用するためのオーディエンスデータを提供します。
-- **[!UICONTROL Holdco]**：社内の代理店チームがクライアントキャンペーンを管理するために使用する、マーケティングおよび広告サービスプラットフォームを保有する代理店。
+- **[!UICONTROL Fit Apparel]**: Another athletic apparel brand. They are a second advertiser that wants to collaborate to share audience data and insights for enhanced marketing efforts.
+- **[!UICONTROL Agency99]**: A media agency. They manage multiple client accounts within their workspace, and connect with publishers and advertisers.
+- **[!UICONTROL DataM8]**: a third-party data provider. They provide audience data for use by advertisers.
+- **[!UICONTROL Holdco]**: an agency holding company marketing and advertising services platform that&#39;s used by internal agency teams to manage client campaigns.
 
-## 広告主とパブリッシャーのワークフロー {#advertiser-to-publisher-workflow}
+## Advertiser-to-publisher workflow {#advertiser-to-publisher-workflow}
 
-スポーツ小売企業の[!UICONTROL Luma]は、デジタルストリーミングプロバイダーの[!UICONTROL TV Tube]とつながり、ターゲットマーケティングキャンペーンを通じて特定のオーディエンスにリーチしたいと考えています。
+[!UICONTROL Luma], an athletic retail company, wants to form a connection with [!UICONTROL TV Tube], a digital streaming provider, to reach specific audiences through targeted marketing campaigns.
 
-開始するには、[!UICONTROL Luma]が[広告主の役割でアカウント &#x200B;](../setup/onboard-account.md)を作成し、[!UICONTROL TV Tube]がパブリッシャーの役割でアカウントを作成する必要があります。
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL TV Tube] creates an account with the publisher role.
 
-アカウントを設定した後、[!UICONTROL Luma]と[!UICONTROL TV Tube]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 マーケティングキャンペーン用にオーディエンスをアクティブ化するのは[!UICONTROL TV Tube]のみなので、[宛先を設定](../setup/manage-destinations.md)する必要があります。
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
 
-両方の共同作業者がアカウントを設定したら、プラットフォーム内で[接続を形成する](../connect/establishing-connections.md)準備が整います。 [!UICONTROL Luma]は、[共同作業者の検索](../connect/discover-collaborators.md)機能を使用して[!UICONTROL TV Tube]を検索し、接続リクエストを開始します。 [!UICONTROL TV Tube]が接続要求を受け入れた後、[!UICONTROL Luma]は接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL TV Tube]は、2つのブランド間の安全なリンクを確立するための接続要求を受け入れました。
+Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
 
-接続が確立されると、[!UICONTROL Luma] [はプロジェクト &#x200B;](../collaborate/manage-projects.md)を作成し、[!UICONTROL TV Tube]との共同作業を開始します。 プロジェクトのセットアップ中に、目的に最適なコラボレーションユースケースを選択します：[見つける](../collaborate/discover.md)、[&#x200B; アクティブ化](../collaborate/activate.md)、[測定](../collaborate/measure.md)。
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
 
-[!UICONTROL Luma]は、[Discover](../collaborate/discover.md)のユースケースを活用して、[!UICONTROL TV Tube]のオーディエンスデータに関するインサイトを得ます。 [!UICONTROL Luma]がターゲットオーディエンスセグメントを特定すると、これらのオーディエンスを[&#x200B; アクティブ化](../collaborate/activate.md)します。
+[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [Activate](../collaborate/activate.md) these audiences.
 
-オーディエンスをアクティベートした後、[!UICONTROL TV Tube]がターゲットマーケティング施策を実行し、データを[Measure](../collaborate/measure.md)にアップロードして、施策の効果を評価します。
+After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [Measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign.
 
-## ブランド間ワークフロー {#brand-to-brand-workflow}
+## Brand-to-brand workflow {#brand-to-brand-workflow}
 
-アスレティックアパレルブランドの[!UICONTROL Fit Apparel]は、別のアスレティックアパレルブランドの[!UICONTROL Luma]と協力して、オーディエンスデータとインサイトを共有し、マーケティング活動を強化したいと考えています。
+[!UICONTROL Fit Apparel], an athletic apparel brand, wants to collaborate with [!UICONTROL Luma], another athletic apparel brand, to share audience data and insights for enhanced marketing efforts.
 
-アカウントを設定した後、[!UICONTROL Fit Apparel]と[!UICONTROL Luma]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 [!UICONTROL Fit Apparel]と[!UICONTROL Luma]の両方がマーケティングキャンペーンのオーディエンスをアクティブ化するため、両方で[宛先を設定](../setup/manage-destinations.md)する必要があります。
+After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] need to [create a data connection and source audiences](../setup/onboard-audiences.md). Both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] will activate audiences for marketing campaigns, so they both need to [configure a destination](../setup/manage-destinations.md).
 
 オーディエンスをソーシングした後、[!UICONTROL Fit Apparel]と[!UICONTROL Luma] [は、プラットフォーム内で接続](../connect/establishing-connections.md)を形成して、オーディエンスデータを安全に共有します。 そのためには、[&#x200B; プライベート接続の招待](../connect/establishing-connections.md#private-connection-invite)機能を利用する必要があります。 [!UICONTROL Luma]は接続コードを[!UICONTROL Fit Apparel]と共有し、その後、接続コードを使用して接続要求を開始します。 [!UICONTROL Luma]が接続要求を受け入れた後、[!UICONTROL Fit Apparel]は接続設定を設定して、共同作業の方法を定義します。 設定では、[!UICONTROL Fit Apparel]は、両方の共同作業者がマーケティングキャンペーン用にオーディエンスをアクティブ化できることを指定します。 接続を完了するために、[!UICONTROL Luma]は2つのブランド間の安全なリンクを確立するリクエストを受け入れます。
 
