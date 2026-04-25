@@ -2,7 +2,7 @@
 title: ID クロスウォーク
 description: 様々なソースからID クロスウォークを取り込む方法や、ID クロスウォークを管理する方法など、Real-Time CDP CollaborationのID クロスウォークについて説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 TQID: https://experienceleague.adobe.com/0vUk3-vtaZvCoBmzkbrfMQF1NFaFg2NqsjJIje1sVcg

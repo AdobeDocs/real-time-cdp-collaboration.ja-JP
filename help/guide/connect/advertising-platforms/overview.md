@@ -2,7 +2,7 @@
 title: Advertising基盤の概要
 description: Real-Time CDP Collaborationの広告プラットフォームについて詳しく見る。
 audience: publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 9a99fdeb-0cb7-4fa2-a94c-d06ed56dfb5d
 TQID: https://experienceleague.adobe.com/29BckMlqhZfQEBLtnnAFN4WYXusZHcj3-Y08RuvyJPM
 product_v2:

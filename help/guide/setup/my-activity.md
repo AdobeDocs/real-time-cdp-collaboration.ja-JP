@@ -2,7 +2,7 @@
 title: クレジット消費アクティビティの追跡
 description: Real-Time CDP Collaborationで組織のクレジット使用状況を追跡する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -78,6 +78,6 @@ ht-degree: 7%
 
 クレジット消費を効果的に管理するには：
 
-1. **各アクティビティに関連するクレジット消費量を**&#x200B;理解します。 アクティビティごとに使用されるクレジットの表については、[Collaboration製品の説明](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}を確認してください。
+1. **各アクティビティに関連するクレジット消費量を**&#x200B;理解します。 アクティビティごとに使用されるクレジットの表については、[Collaboration製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}を確認してください。
 2. **定期的に監視**：使用状況パターンを理解するために、アクティビティ ダッシュボードを頻繁に確認します。
 3. **接続で追跡**：接続名を使用して、最もクレジットを消費している接続を特定します。

@@ -2,7 +2,7 @@
 title: 概要
 description: Adobe Real-Time Customer Data Platform（CDP）Collaboration を使用して、サードパーティ Cookie に依存せずに高価値オーディエンスを検出、アクティブ化および測定する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 TQID: https://experienceleague.adobe.com/fPHinK-IJUQ0LNel3NRf8wFKFPUejZgeTIXugcDKAOY
 product_v2:
@@ -54,7 +54,7 @@ Collaborationの使用を開始するには、システム管理者が自分自�
 
 ## リソース
 
-製品で使用される用語の詳細については、[用語集](/help/guide/glossary.md)を参照してください。 サポートについては、Adobe [&#x200B; カスタマーサポート &#x200B;](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} ページにアクセスしてください。
+製品で使用される用語の詳細については、[用語集](/help/guide/glossary.md)を参照してください。 サポートについては、Adobe [&#x200B; カスタマーサポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=open-ticket#support){target="_blank"} ページにアクセスしてください。
 
 ## さらに詳しく
 

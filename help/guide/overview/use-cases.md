@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaborationのユースケース
 description: Adobe Real-Time CDP Collaborationの各ユースケースの主な利点を理解します。
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
 product_v2:

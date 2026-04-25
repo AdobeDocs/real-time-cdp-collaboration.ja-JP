@@ -2,7 +2,7 @@
 title: 共同作業者を見つける
 description: 広告主として、Adobe Real-Time CDP Collaborationを使用して潜在的な共同作業者を見つける方法について説明します
 audience: admin, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 TQID: https://experienceleague.adobe.com/ac9-jiDgLNaXcO49M9DB9xHHWExYf9ocdwTMddU5CQs
 product_v2:

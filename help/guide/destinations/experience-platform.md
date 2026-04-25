@@ -2,7 +2,7 @@
 title: Adobe Experience Platformを宛先として設定
 description: Real-Time CDP CollaborationでAdobe Experience Platform as a destinationを設定および管理する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
 product_v2:
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 {{limited-availability-release-note}}
 
-この宛先を設定して、プロジェクトからAdobe Experience Platformにオーディエンスをアクティブ化します。 Adobe Experience Platformでオーディエンスをアクティベートすることで、様々なマーケティングチャネルをまたいでオーディエンスをセグメンテーション、分析、アクティベーションするためのAdobe Marketo Engageの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}を参照してください。
+この宛先を設定して、プロジェクトからAdobe Experience Platformにオーディエンスをアクティブ化します。 Adobe Experience Platformでオーディエンスをアクティベートすることで、様々なマーケティングチャネルをまたいでオーディエンスをセグメンテーション、分析、アクティベーションするためのAdobe Marketo Engageの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"}を参照してください。
 
 >[!WARNING]
 >
@@ -158,4 +158,4 @@ Experience Platformを宛先として設定したら、プロジェクトを通�
 
 ![&#x200B; フィルターオプションのオリジンとしてReal-Time CDP Collaborationを使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-オーディエンスポータルについて詳しくは、[&#x200B; オーディエンスポータルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+オーディエンスポータルについて詳しくは、[&#x200B; オーディエンスポータルの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。

@@ -2,7 +2,7 @@
 title: 共同作業の概要
 description: Real-Time CDP Collaborationにおける共同作業について詳しく見る。
 audience: publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: eb154fbc-258e-42c8-91c8-62435b3d3a55
 TQID: https://experienceleague.adobe.com/hPBn--hYwsYhphCF84-5HFRUuYXHgcbpo730g6uV-dc
 product_v2:
