@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 5%
+source-wordcount: 1253
+ht-degree: 7%
 
 ---
 
@@ -77,7 +77,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="エンリッチメント"
 >abstract="エンリッチメントのオフはサポートされていません。 代わりに、エンリッチメント結合キーを変更できます。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="エンリッチメント"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_jp" text="エンリッチメント"
 
 >[!IMPORTANT]
 >
@@ -115,6 +115,14 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 例えば、プレーンテキストメールのソースフィールドを&#x200B;**[!UICONTROL ハッシュ化されたメール]**&#x200B;のターゲットフィールドにマッピングする場合に、ハッシュ化されていないフィールドをハッシュ化されたターゲットフィールドにソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。
 
 ![新しいソースフィールドとマッピングするために使用可能なすべてのターゲットフィールドを表示するドロップダウンメニュー。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+##### [!DNL Demdex ID (ECID)]を追加 {#add-demdex-id-ecid}
+
+一致キーとして[!DNL Demdex ID (ECID)]を追加する場合は、最初にアカウント設定[&#128279;](../setup/onboard-account.md#set-up-match-keys)で有効になっていることを確認してください。 [!DNL Demdex ID (ECID)]について詳しくは、[&#x200B; サポートされている一致キー](../setup/onboard-account.md#supported-match-keys)を参照してください。
+
+**[!UICONTROL 一致キー]** ダイアログで、新しいマッピングフィールド行を追加します。 次に、ソースフィールドとして&#x200B;**[!UICONTROL ECID]**&#x200B;を選択し、ドロップダウンリストからターゲットフィールドとして&#x200B;**[!UICONTROL Demdex ID （ECID）]**&#x200B;を選択します。
+
+![Demdex ID （ECID）一致キーのマッピングフィールドを含む一致キーダイアログがハイライト表示されます。](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
 
 フィールドのマッピングが完了したら、更新を確認し、**[!UICONTROL 確認]**&#x200B;を選択して変更を適用します。
 
