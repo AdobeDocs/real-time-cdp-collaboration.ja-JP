@@ -5,9 +5,13 @@ audience: admin, publisher
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 997
@@ -21,9 +25,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Activate]** ワークスペースは、接続プロセス ](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンスアクティベーション** ユースケースが[有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[ プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Activate]** ワークスペースは、接続プロセス [&#128279;](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンスアクティベーション** ユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
-オーディエンスのアクティベーションを活用すれば、キャンペーンで使用するオーディエンスをアクティベートできます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定[に応じて、いずれかの共同作業者によって実行できます。 キャンペーンに最適なオーディエンスを[見つけたら](./discover.md)、オーディエンスをアクティブ化して使用できるようにします。 オーディエンスをアクティベートすると、Adobe Experience Platformなど、共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
+オーディエンスのアクティベーションを活用すれば、キャンペーンで使用するオーディエンスをアクティベートできます。 ライセンス認証は、接続[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定に応じて、いずれかの共同作業者によって実行できます。 キャンペーンに最適なオーディエンスを[見つけたら](./discover.md)、オーディエンスをアクティブ化して使用できるようにします。 オーディエンスをアクティベートすると、Adobe Experience Platformなど、共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
 
 ## 新しいオーディエンスを活用 {#activate-new-audiences}
 
@@ -37,11 +41,11 @@ ht-degree: 2%
 
 追加アイコン（![追加アイコン。](/help/assets/icons/plus.png)）を選択するか、以前のオーディエンスがアクティベーション用に送信されていない場合は、**[!UICONTROL オーディエンスをアクティベート]** オプションを選択します。
 
-![ オーディエンスが追加されていないプロジェクトのアクティブ化ワークスペース。](/help/assets/collaborate/activate/activate-new-audiences.png)
+![&#x200B; オーディエンスが追加されていないプロジェクトのアクティブ化ワークスペース。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 オーディエンスをアクティブ化ワークフローが開き、共同作業者に送信するオーディエンスを選択できます。 ドロップダウンを使用してオーディエンスを選択するか、特定のオーディエンスを検索します。 選択する前にオーディエンスに関する詳細を表示するには、**[!UICONTROL オーディエンスを参照]**&#x200B;を選択します
 
-![ ドロップダウンと「オーディエンスを参照」オプションがハイライト表示されたオーディエンスのアクティベーションのワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
+![&#x200B; ドロップダウンと「オーディエンスを参照」オプションがハイライト表示されたオーディエンスのアクティベーションのワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
 
 **[!UICONTROL オーディエンスを参照]**&#x200B;で、各オーディエンスの&#x200B;**[!UICONTROL ID数]**、**[!UICONTROL 重複ID]**&#x200B;および&#x200B;**[!UICONTROL 重複%]**&#x200B;を確認できます。
 
@@ -67,7 +71,7 @@ ht-degree: 2%
 >
 >少なくとも1つの一致キーを選択する必要があります。
 
-![ オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![&#x200B; オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
 ### オーディエンスの更新頻度の設定 {#set-audience-refresh-frequency}
 
@@ -129,4 +133,4 @@ ht-degree: 2%
 
 ## 次の手順 {#next-steps}
 
-オーディエンスをアクティブ化してキャンペーンを実行したら、Adobeのイネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する[測定レポート ](/help/guide/collaborate/measure.md)を表示します。
+オーディエンスをアクティブ化してキャンペーンを実行したら、Adobeのイネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する[測定レポート &#x200B;](/help/guide/collaborate/measure.md)を表示します。
