@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->少なくとも1つの一致キーを選択する必要があります。 現在のリリースでは、使用可能な照合キーは&#x200B;**[!UICONTROL ハッシュ化された電子メール]**&#x200B;のみなので、この照合キーを削除することはできません。
+>少なくとも1つの一致キーを選択する必要があります。
 
 ![&#x200B; オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 

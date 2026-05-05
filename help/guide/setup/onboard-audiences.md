@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
-ht-degree: 18%
+source-wordcount: 3753
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >最初のデータ接続を確立し、最初のオーディエンスをソーシングしたら、既存のデータ接続から複数のオーディエンスをソーシングできます。 追加オーディエンスを追加する場合は、データ接続が既に確立されているため、[&#x200B; オーディエンスの選択](#select-audiences)の手順から開始します。
 
-データ接続は、オーディエンスをCollaborationに取り込むソースです。 サポートされているソースには、Adobe Experience Platform、CSV ファイルのアップロード、[!DNL Amazon S3]、[!DNL Snowflake]および[!DNL Google Cloud Storage]があり、それぞれ独自のワークフローを使用します。
+データ接続は、オーディエンスをCollaborationに取り込むソースです。 サポートされているソースには、Adobe Experience Platform、CSV ファイルのアップロード、[!DNL Amazon S3]、[!DNL Snowflake]および[!DNL Google Cloud Storage]があり、それぞれ独自のワークフローを使用します。 Adobe Audience Managerは間もなく利用可能になります。
 
 以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]または[!DNL Google Cloud Storage]を選択した場合は、そのオプションの[&#x200B; データソースを選択](#select-data-source)の下にリンクされているガイドを使用します。
 
@@ -63,7 +63,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 ![新しいデータ接続を追加オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### データソースを選択
+#### データソースを選択 {#select-data-source}
 
 次に、データ接続のソースを選択します。 利用可能なソースは次のとおりです。
 
@@ -72,12 +72,13 @@ Experience Platform データ接続に対して設定した設定は、その接
 * **Amazon Web Services**: Amazon S3 ストレージに接続して、S3 バケットから直接オーディエンスデータを取得します。 詳しい手順については、「[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ガイド」を参照してください。
 * **Snowflake**: Snowflake データウェアハウスを使用して、オーディエンスデータをシームレスに取り込みます。 オーディエンスのソーシング [&#128279;](./configure-snowflake-audience-sourcing.md)については、設定 [!DNL Snowflake]  ガイドを参照してください。
 * **Google Cloud Storage**:GCS バケットに接続してソースオーディエンスデータを取得します。 詳しい手順については、[&#x200B; オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md) ガイドを参照してください。
+* **Adobe Audience Manager** （_近日リリース予定_）: Adobe Audience ManagerからオーディエンスセグメントをSourceします。
 
 データソースを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
 ![Adobe Experience Platform オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### サンドボックスを選択
+#### サンドボックスを選択 {#select-sandbox}
 
 データソースを選択したら、Collaborationに使用するオーディエンスを含むサンドボックスを選択する必要があります。 使用可能なサンドボックスのリストからサンドボックスを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します
 
@@ -107,7 +108,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 ![&#x200B; チェックボックスと「OK」オプションがハイライト表示されたガバナンスポリシーと履行アクションのダイアログ。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### 詳細を入力
+### 詳細を入力 {#provide-details}
 
 次に、データ接続の名前と説明を入力します。 この情報は、後でデータ接続を特定するのに役立ちます。
 
@@ -142,11 +143,9 @@ Experience Platform データ接続に対して設定した設定は、その接
 >abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
-次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、アカウントの設定中に選択した照合キーに基づきます。
+次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、[&#x200B; アカウントのセットアップ &#x200B;](./onboard-account.md#set-up-match-keys)中に選択した照合キーに基づきます。
 
->[!IMPORTANT]
->
->現在、新しいマップフィールドを含めるようにデータ接続を編集することはできません。 データ接続を作成した後に新しい照合キーをアカウントに追加する場合は、新しいデータ接続を作成してマッピングする必要があります。
+アカウントのセットアップ中に一致キーとして[!DNL Demdex ID (ECID)]を選択した場合、[!DNL Demdex ID]は自動的に抽出され、ECIDからマッピングされるので、何も操作を行う必要はありません。 [!DNL Demdex IDs]について詳しくは、[[!DNL Demdex ID]](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/unified-identity-support) ガイドを参照してください。
 
 ![&#x200B; ソースフィールドをターゲットフィールドにマッピングするオプションを備えたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -177,6 +176,11 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 各ターゲットフィールドのマッピングペアを引き続き追加します。 一致キーを使用しない場合は、フィールドの横にある削除（![削除アイコン &#x200B;](/help/assets/icons/delete.png)）アイコンを使用して削除できます。 一致するキーが削除されると、接続からオーディエンスを取得する際に使用できなくなります。
 
 ![&#x200B; ターゲットフィールドの横に「削除」オプションが表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+新しいフィールドを追加し、ターゲットフィールドとして&#x200B;**[!UICONTROL Demdex ID （ECID）]**&#x200B;を選択すると、**[!UICONTROL ECID]**&#x200B;が対応するソースフィールドとして自動的に選択されます。 これ以上の操作は必要ありません。
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![ECID ソースフィールドを含むオーディエンスを追加ワークスペースは、Demdex ID （ECID） ターゲットフィールドに自動マッピングされます。](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 フィールドのマッピングが完了したら、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。
 
@@ -369,43 +373,43 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 ![2つのオーディエンスが選択され、編集メニューがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
 
-### Bulk edit metadata visibility {#bulk-edit-metadata-visibility}
+### メタデータの一括編集の可視化 {#bulk-edit-metadata-visibility}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit metadata visibility]** from the edit menu.
+オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL メタデータの表示を編集]**」を選択します。
 
-![The My audiences workspace with the Edit metadata visibility option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+![&#x200B; メタデータの表示を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
-The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the selected audiences. By default, none of options will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
+**[!UICONTROL メタデータの表示]** ダイアログが表示され、選択したオーディエンスの表示設定を設定できます。 デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 ![使用可能なオプションが表示されたメタデータの表示ダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
-### Bulk edit connection access {#bulk-edit-connection-access}
+### 接続アクセスの一括編集 {#bulk-edit-connection-access}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit connection access]** from the edit menu.
+オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL 接続アクセスを編集]**」を選択します。
 
-![The My audiences workspace with the Edit connection access option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![接続アクセスを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
-The **[!UICONTROL Connection access]** dialog appears, allowing you to configure the access settings for the selected audiences. By default, the **[!UICONTROL Private audience]** option will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
+**[!UICONTROL 接続アクセス]** ダイアログが表示され、選択したオーディエンスのアクセス設定を構成できます。 デフォルトでは、**[!UICONTROL プライベートオーディエンス]** オプションが選択されます。 選択したすべてのオーディエンスに適用するオプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 ![使用可能なオプションが表示された接続アクセス ダイアログ。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
-### Bulk edit audience names and descriptions {#bulk-edit-audience-names-descriptions}
+### オーディエンス名と説明の一括編集 {#bulk-edit-audience-names-descriptions}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit name and description]** from the edit menu.
+オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL 名前と説明を編集]**」を選択します。
 
-![The My audiences workspace with the Edit name and description option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+![名前と説明を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-The **[!UICONTROL Name and description]** dialog appears, allowing you to configure the name and description for each selected audience. By default, the current names and descriptions will be displayed for each audience. Make your changes and then select **[!UICONTROL Save]**.
+**[!UICONTROL 名前と説明]** ダイアログが表示され、選択した各オーディエンスの名前と説明を設定できます。 デフォルトでは、各オーディエンスに現在の名前と説明が表示されます。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
 
-![The Name and description dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![使用可能なオプションが表示された名前と説明ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
-### Bulk edit categories {#bulk-edit-categories}
+### カテゴリの一括編集 {#bulk-edit-categories}
 
-With your audiences selected in the audience dashboard, select **[!UICONTROL Edit categories]** from the edit menu.
+オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL カテゴリーを編集]**」を選択します。
 
-![The My audiences workspace with the Edit categories option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![&#x200B; カテゴリを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-The **[!UICONTROL Categories]** dialog appears, allowing you to configure the categories for each selected audience. デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメインカテゴリを選択し、次に含めるサブカテゴリを選択します。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
+**[!UICONTROL カテゴリ]** ダイアログが表示され、選択した各オーディエンスのカテゴリを設定できます。 デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメインカテゴリを選択し、次に含めるサブカテゴリを選択します。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 ![使用可能なオプションが表示されたカテゴリ ダイアログ。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
