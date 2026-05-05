@@ -11,10 +11,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 13%
+source-wordcount: 1410
+ht-degree: 9%
 
 ---
 
@@ -77,20 +77,29 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ファーストパーティ人物 ID"
->abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM ID などのファーストパーティ人物 ID は、個々のプロファイルに直接接続されます。"
+>title="ユーザーID"
+>abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM IDなどの人物IDは、個々のプロファイルに直接接続されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="ファーストパーティデバイス ID"
->abstract="ECID や IP アドレスなどのファーストパーティデバイス ID はデバイスに直接接続され、複数の個人間で共有される場合があります。"
+>title="デバイス ID"
+>abstract="ECIDやIP アドレスなどのデバイス IDは、複数の個人で共有される可能性のあるデバイスに直接接続されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="サポートされるパートナー ID"
 >abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。 パートナー ID は、個々のプロファイルに直接接続されません。"
 
-![一致キーをサポートしています。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+次の表に、Collaborationでサポートされている照合キーを示します。
+
+| ユーザーID | デバイス ID | パートナー ID |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +111,16 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 #### サポートされている一致キー {#supported-match-keys}
 
-Collaborationでは、ファーストパーティの人物ID、ファーストパーティデバイス ID、パートナーIDの3種類の照合キーをサポートしています。 すべての一致キーは、次の要件を満たす必要があります。
+Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類の照合キーをサポートしています。 すべての一致キーは、次の要件を満たす必要があります。
 
 * 一致するキーは&#x200B;**trimmed**、**小文字**&#x200B;である必要があります
 * ハッシュ化された一致キーは&#x200B;**SHA256-hashed**&#x200B;である必要があります。
 * 大文字を使用するハッシュ値を指定すると、Collaborationは自動的に小文字に変換します。
 * ソースに&#x200B;**プレーンテキスト識別子**&#x200B;が含まれている場合は、[&#x200B; データ接続のセットアップ &#x200B;](./manage-data-connection.md#match-keys)中に&#x200B;**[!UICONTROL 変換を適用]** オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスをソーシングする場合にのみ使用でき、クラウドベースのソースではサポートされていません。
 
-##### ファーストパーティ人物 ID
+##### ユーザーID
 
-ファーストパーティの人物IDは、個々のプロファイルに直接接続されます。 現在サポートされているIDは次のとおりです。
+人物IDは、個々のプロファイルに直接接続されます。 現在サポートされているIDは次のとおりです。
 
 * **[!UICONTROL ハッシュ化されたメール]**
 * **[!UICONTROL ハッシュ化された電話]**
@@ -119,13 +128,14 @@ Collaborationでは、ファーストパーティの人物ID、ファースト�
 * **[!UICONTROL ロイヤルティ ID]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### ファーストパーティデバイス ID
+##### デバイス ID
 
-ファーストパーティデバイス IDは、特定のデバイスに接続された識別子です。 現在サポートされているIDは次のとおりです。
+デバイス IDは、特定のデバイスに接続された識別子です。 現在サポートされているIDは次のとおりです。
 
-* **[!UICONTROL ハッシュ IPv4]**: ハッシュ IPv4 アドレス
-* **[!UICONTROL IDFA]**: Apple iOS デバイスで使用される広告主向け識別子（IDFA）
-* **[!UICONTROL GAID]**: Android デバイスで使用されているGoogle Advertiser ID
+* **[!UICONTROL ハッシュ化されたIPv4]**
+* **[!UICONTROL IDFA]**: Apple iOS デバイスで使用される広告主向け識別子（IDFA）。
+* **[!UICONTROL GAID]**: Android デバイスでGoogle Advertiser IDが使用されています。
+* **[!UICONTROL Demdex ID （ECID）]**: サードパーティ Cookieが有効になっている場合、ECIDにはAdobeのサードパーティ Cookie [!DNL Demdex ID]が含まれます。 [!DNL Demdex ID]は、Cookie ベースの未認証の訪問者を照合するために使用できます。
 
 ##### パートナー ID
 
