@@ -3,9 +3,9 @@ title: オーディエンスソーシング用に [!DNL Google Cloud Storage] �
 description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,11 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 ![GCS バケットの作成、AdobeのIAM アクセスの設定、Audience Sourcing Specificationの準拠、キャンセルおよび「オンボーディングの開始」オプションなど、「オンボーディング用にGCS バケットを準備する」モーダルの前提条件をリストします。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### [!DNL Google Cloud Storage]接続の詳細を入力 {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Google Cloud Storageからオーディエンスを追加する"
+>abstract="Google Cloud Storageを接続するには、Adobeのサービスユーザーに対して、処理のためにオーディエンスデータを取得することを許可してください。 Experience Leagueで説明されている手順に従って、AdobeにGoogle クラウドストレージへのアクセス権を付与します。"
 
 Collaborationによる[!DNL Google Cloud Storage] バケットへのアクセスを許可するために必要な詳細を入力してください。 必要な情報を入力したら、**[!UICONTROL 次へ]**&#x200B;を選択します。
 

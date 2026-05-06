@@ -8,9 +8,9 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: 1100
+source-wordcount: 1121
 ht-degree: 0%
 
 ---
@@ -58,6 +58,11 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 ![選択可能なオプションとして利用可能なCSV ファイルを含むデータ接続の選択画面。](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
 ### ファイルを選択 {#select-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="CSV ファイルからオーディエンスを追加"
+>abstract="コンピューターからCSV ファイルをアップロードして、オーディエンスをReal-Time CDP Collaborationにソースします。"
 
 **[!UICONTROL コンピューターから選択]**&#x200B;を選択して、ローカルシステムからCSV ファイルをアップロードします。 または、アップロードするCSV ファイルを[!UICONTROL CSV ファイルを] パネルにドラッグ&amp;ドロップすることもできます。
 

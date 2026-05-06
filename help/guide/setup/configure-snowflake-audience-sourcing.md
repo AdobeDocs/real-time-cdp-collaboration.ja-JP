@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationにオーディエンスデータを取�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1586'
 ht-degree: 2%
 
 ---
@@ -153,6 +153,11 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 ![&#x200B; オーディエンスソーシング仕様へのリンクを含むオンボーディングダイアログ用に[!DNL Snowflake Share]を準備します。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### [!DNL Snowflake Share]接続を認証 {#authenticate-snowflake-share-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="Snowflakeからオーディエンスを追加"
+>abstract="Snowflake Shareを接続するには、Adobeのサービスユーザーに対し、処理のためにオーディエンスデータを取得することを許可してください。 Experience Leagueで説明されている手順に従って、AdobeにSnowflake Shareへのアクセス権を付与します。"
 
 この手順では、[!DNL Snowflake Share]をCollaborationに接続するために必要な[!DNL Snowflake Share]資格情報を指定する必要があります。
 
