@@ -3,8 +3,11 @@ title: オーディエンスソーシング用のCSV ファイルのアップロ
 description: セルフサービスのデータソースとしてCSV ファイルをアップロードし、オーディエンスデータをReal-Time CDP Collaborationに取り込む方法について説明します。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
@@ -32,13 +35,13 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 
 オーディエンスのソース用にCSV ファイルをアップロードする前に、次の点を確認してください。
 
-* Real-Time CDP Collaborationでアカウントオンボーディングを完了しました。 詳細な手順については、[ アカウントのオンボーディング ](./onboard-account.md)を参照してください。
+* Real-Time CDP Collaborationでアカウントオンボーディングを完了しました。 詳細な手順については、[&#x200B; アカウントのオンボーディング &#x200B;](./onboard-account.md)を参照してください。
 * 組織にオーディエンスを追加するために必要な権限。
 * 電子メールや電話などのID フィールドを含むオーディエンスデータを含むCSV ファイル。
 
 ## CSV ファイルのアップロード {#upload-csv-file}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加]** オプションを選択することもできます。
 
@@ -67,7 +70,7 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 >
 >CSV ファイルのみがサポートされます。 最大ファイルサイズは&#x200B;**2 GB**&#x200B;です。
 
-![ ローカルシステムのオーディエンスデータを含むCSV ファイルを選択します。](../../assets/setup/csv-audience-sourcing/select-file.png)
+![&#x200B; ローカルシステムのオーディエンスデータを含むCSV ファイルを選択します。](../../assets/setup/csv-audience-sourcing/select-file.png)
 
 アップロードが完了すると、UIには、列数、推定される行数、ファイルの構造、およびデータの最初の10行のプレビューを含む概要が表示されます。
 
@@ -101,7 +104,7 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 
 次に、マッピングされたフィールドを確認し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ マッピングされたソースおよびターゲット ID フィールドを表示するフィールドマッピング画面。](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
+![&#x200B; マッピングされたソースおよびターゲット ID フィールドを表示するフィールドマッピング画面。](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
 
 ### アップロードの確認と完了 {#review-and-complete}
 
@@ -116,13 +119,13 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 
 概要セクションの下にプログレスバーが表示され、アップロードの進行状況が示されます。 アップロードが完了すると、CSV オーディエンスが作成され、オーディエンスのソーシングが進行中であることを確認する確認ダイアログが表示されます。
 
-![ ファイルをアップロードすると、CSV オーディエンスが作成され、オーディエンスのソーシングが進行中であることを示す確認ダイアログが表示されます。](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
+![&#x200B; ファイルをアップロードすると、CSV オーディエンスが作成され、オーディエンスのソーシングが進行中であることを示す確認ダイアログが表示されます。](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
 
 ## ソース別オーディエンスの確認 {#review-sourced-audiences}
 
 CSV ファイルをアップロードすると、Collaborationはファイルからオーディエンスのソーシングを開始します。 このプロセスには数分かかる場合があります。 オーディエンスの取得が完了すると、Experience Platformから取得したオーディエンスと同じ機能と情報を持つ&#x200B;**[!UICONTROL マイオーディエンス]** タブでオーディエンスを利用できるようになります。
 
-![ グリッドビューにソースのオーディエンスのリストが表示されている「オーディエンス」タブ。](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
+![&#x200B; グリッドビューにソースのオーディエンスのリストが表示されている「オーディエンス」タブ。](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
 
 グリッド表示またはテーブル表示で、行アイテムを選択するか、**[!UICONTROL オーディエンスを表示]**&#x200B;して、特定のオーディエンスの概要を表示します。 オーディエンスのステータス、ソース、データ接続名が表示され、次の詳細パネルが表示されます。
 
@@ -137,9 +140,9 @@ CSV ファイルをアップロードすると、Collaborationはファイルか
 
 これで、CollaborationにCSV ファイルが正常にアップロードされました。 ソーシング完了後、次の操作を実行できます。
 
-* 調達先のオーディエンスと共同作業プロジェクトを作成。 [ オーディエンスの発見](../../guide/collaborate/discover.md)を参照してください。
-* 接続された配信先でオーディエンスを活用。 [ オーディエンスのアクティベーション ](../../guide/collaborate/activate.md)を参照してください。
-* オーディエンスの重複とインサイトのレビュー。 [ キャンペーンパフォーマンスの測定](../../guide/collaborate/measure.md)を参照してください。
+* 調達先のオーディエンスと共同作業プロジェクトを作成。 [&#x200B; オーディエンスの発見](../../guide/collaborate/discover.md)を参照してください。
+* 接続された配信先でオーディエンスを活用。 [&#x200B; オーディエンスのアクティベーション &#x200B;](../../guide/collaborate/activate.md)を参照してください。
+* オーディエンスの重複とインサイトのレビュー。 [&#x200B; キャンペーンパフォーマンスの測定](../../guide/collaborate/measure.md)を参照してください。
 * オーディエンスの設定と可視性を管理。 [Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。
 
-その他のオーディエンスのソーシング方法について詳しくは、[ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)または[Experience PlatformからのSource オーディエンス ](./onboard-audiences.md)を参照してください。
+その他のオーディエンスのソーシング方法について詳しくは、[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)または[Experience PlatformからのSource オーディエンス &#x200B;](./onboard-audiences.md)を参照してください。
