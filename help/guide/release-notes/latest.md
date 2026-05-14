@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
-ht-degree: 2%
+source-wordcount: 1903
+ht-degree: 3%
 
 ---
 
@@ -26,9 +26,48 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-**最終更新**: 2026年1月。
+**最終更新**: 2026年4月
 
 このリリースノートでは、Adobe Real-Time CDP Collaborationでリリースされた機能について説明します。 Collaboration リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
+
+## 2026年4月 {#april-2026}
+
+Real-Time CDP Collaborationで新機能が利用可能になりました。 これには、パートナーの招待に関するCollaboration [!DNL Starter]や、[!DNL Snowflake]および[!DNL Google Cloud Storage]からのオーディエンスソーシングの拡張、一致キーとしての[!DNL Demdex ID (ECID)]のサポート、代理店およびデータパートナーという2つの新しい共同作業者の役割が含まれます。
+
+**新機能または更新された機能**
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | Collaboration ライセンスを持たないパートナーを招待して、Collaboration [!DNL Starter]を通じて共同作業を行うことができます。 招待されたパートナーは、オーディエンスを獲得し、重複を発見して、共有された接続でオーディエンスをアクティブ化できます。 開始するには、[Collaboration [!DNL Starter] 概要](../overview/starter-overview.md)を参照してください。 |
+| [!DNL Snowflake]および[!DNL Google Cloud Storage]からのセルフサービスオーディエンスのソーシング | [!DNL Snowflake Secure Data Share]または[!DNL Google Cloud Storage] バケットから直接Collaborationに1st パーティオーディエンスを取得できるようになりました。 設定の手順については、次のガイドを参照してください。 <ul><li>オーディエンスソーシング用[設定 [!DNL Snowflake] &#x200B;](../setup/configure-snowflake-audience-sourcing.md) </li><li> オーディエンスソーシング用[設定 [!DNL Google Cloud Storage] &#x200B;](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID]一致キー | [!DNL Demdex ID] （ECID）は、プラットフォーム間で匿名のCookie ベースのIDを照合するための照合キーとしてサポートされるようになりました。 認証されたユーザーデータに依存することなく、オーディエンスの重複精度を向上できます。 詳しくは、[&#x200B; サポートされている一致キー](../setup/onboard-account.md#supported-match-keys)を参照してください。 |
+| 新しい共同作業者の役割 | Collaborationでは、**代理店**&#x200B;および&#x200B;**データパートナー**&#x200B;を含む、2つの共同作業者ロールが追加でサポートされるようになりました。 これらの役割は、さまざまな組織がプラットフォーム内で参加し、連携する方法を拡大します。 詳細情報： <ul><li>[共同作業者アカウントの役割](../overview/roles.md)</li><li>[Collaboration パターン &#x200B;](../overview/collaboration-patterns.md)</li><li>[&#x200B; エンドツーエンドのワークフロー](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026 年 3 月 {#march-2026}
+
+Real-Time CDP Collaborationでキャンペーン測定レポートを生成し、測定データを管理できるようになりました。
+
+**新機能または更新された機能**
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| 測定の一般提供 | 測定レポートがCollaborationで一般公開されました。 マーケティングキャンペーンに関連付けられたキャンペーン IDをパブリッシャーとして入力し、コンバージョンデータを広告主として取得して、キャンペーン全体の結果に対して&#x200B;**キャンペーン概要**、キャンペーン効果インサイトに対して&#x200B;**アトリビューション**&#x200B;の2種類のレポートを生成できるようになりました。 最初に、次のガイドを参照してください。 <ul><li>[&#x200B; キャンペーン IDの入力](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Source コンバージョンデータ &#x200B;](../setup/onboard-measurement-data.md)</li><li>[測定レポートの作成と表示](../collaborate/measure.md)</li></ul> |
+| 測定ライフサイクル管理 | Collaborationは測定管理にも対応しています。<ul><li> 広告主は、測定データの接続と関連するコンバージョンイベントの両方を編集または削除して、正確で最新のキャンペーン分析を確保できるようになりました。 詳細については、[測定データ接続の管理](../setup/manage-measurement-data-connection.md)および[&#x200B; コンバージョンイベントの管理](../setup/onboard-measurement-data.md#edit-measurement-data)を参照してください。</li><li>また、任意のコラボレーションプロジェクトの「**[!UICONTROL Measure]**」タブから、スケジュールされた測定レポートを直接編集または削除することもできます。 これはすべてのユーザーが利用できます。 詳しくは、[測定レポートの管理ガイド &#x200B;](../collaborate/measure.md)を参照してください。</li></ul> |
+
+{style="table-layout:auto"}
+
+## 2026年2月 {#february-2026}
+
+Real-Time CDP Collaborationでは、既存の接続設定とデータ接続設定をインターフェイスで直接編集できるようになりました。
+
+**新しい機能または更新された機能**
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| 接続設定を編集 | 接続の所有者は、接続が確立された後、ユースケース、照合キー、アクティベーション権限、クレジット分割を更新できるようになりました。 ステップバイステップの手順については、[接続を編集](../connect/manage-connections.md#edit-connection)を参照してください。 |
+| データ接続の編集 | Collaboration内で直接、既存のデータ接続の照合キーとスケジュール設定を更新できます。 詳細な手順については、[&#x200B; データ接続の編集](../setup/manage-data-connection.md#edit-data-connection)を参照してください。 |
 
 ## 2026年1月 {#january-2026}
 
