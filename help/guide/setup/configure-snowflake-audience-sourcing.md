@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -143,7 +143,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="オンボーディング用にデータを準備"
->abstract="Snowflake for Collaborationからオーディエンスデータをフォーマットおよび構造化する方法については、オーディエンスソーシング仕様ガイドを参照してください。"
+>abstract="Snowflake for Collaboration から取り込むオーディエンスデータをフォーマットおよび構造化する方法について詳しくは、オーディエンスソーシング仕様ガイドを参照してください。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="詳しくは、ガイドを参照してください。"
 
 ソーシングを開始する前に、[!DNL Snowflake Share]と[!DNL Snowflake] オーディエンスファイルの要件を説明するダイアログが表示されます。 [!DNL Snowflake Share]が正しい共有名、アカウント ID、スキーマ、ビューで作成されていることを確認してください。 Collaborationで使用するためにオーディエンスデータが正しくフォーマットおよび構造化されていることを確認するには、**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** ガイドを参照してください。

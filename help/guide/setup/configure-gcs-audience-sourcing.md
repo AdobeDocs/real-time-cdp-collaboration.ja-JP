@@ -6,7 +6,7 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -73,13 +73,13 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ![新しいデータ接続を追加オプションがハイライト表示されたオーディエンスを追加ワークスペース。](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### データソースとして[!DNL Google Cloud Storage]を選択 {#select-gcs}
+### データソースとして [!DNL Google Cloud Storage] を選択 {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="オンボーディング用にデータを準備"
->abstract="Google Cloud Storage for Collaborationからオーディエンスデータをフォーマットおよび構造化する方法については、オーディエンスソーシングの仕様ガイドを参照してください。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="オーディエンスソーシングの仕様ガイドを参照してください"
+>abstract="Google Cloud Storage for Collaboration から取り込むオーディエンスデータをフォーマットおよび構造化する方法について詳しくは、オーディエンスソーシング仕様ガイドを参照してください。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="オーディエンスソーシング仕様ガイドを参照してください"
 
 データソース選択画面には、使用可能なすべての接続タイプが一覧表示されます。 「**[!UICONTROL Google Cloud Storage]**」を選択し、「**[!UICONTROL 次へ]**」を選択します。
 

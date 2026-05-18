@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -77,13 +77,13 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ユーザーID"
->abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM IDなどの人物IDは、個々のプロファイルに直接接続されます。"
+>title="人物 ID"
+>abstract="ハッシュ化されたメールアドレス、ハッシュ化された電話番号、CRM ID などの人物 ID は、個々のプロファイルに直接接続されます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="デバイス ID"
->abstract="ECIDやIP アドレスなどのデバイス IDは、複数の個人で共有される可能性のあるデバイスに直接接続されます。"
+>abstract="ECID や IP アドレスなどのデバイス ID はデバイスに直接接続され、複数の個人間で共有される場合があります。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -92,7 +92,7 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 次の表に、Collaborationでサポートされている照合キーを示します。
 
-| ユーザーID | デバイス ID | パートナー ID |
+| 人物 ID | デバイス ID | パートナー ID |
 | ------------- | ------------- | ------------- |
 | [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
 | [!DNL Hashed phone] | [!DNL IDFA] | |
@@ -118,7 +118,7 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 * 大文字を使用するハッシュ値を指定すると、Collaborationは自動的に小文字に変換します。
 * ソースに&#x200B;**プレーンテキスト識別子**&#x200B;が含まれている場合は、[&#x200B; データ接続のセットアップ &#x200B;](./manage-data-connection.md#match-keys)中に&#x200B;**[!UICONTROL 変換を適用]** オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスをソーシングする場合にのみ使用でき、クラウドベースのソースではサポートされていません。
 
-##### ユーザーID
+##### 人物 ID
 
 人物IDは、個々のプロファイルに直接接続されます。 現在サポートされているIDは次のとおりです。
 

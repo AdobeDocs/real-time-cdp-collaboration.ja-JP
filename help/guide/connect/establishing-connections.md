@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -282,7 +282,7 @@ ht-degree: 8%
 
 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
-プロジェクトを作成する際には、接続中に設定された次の設定に基づいて広告主名が事前入力されます    :
+プロジェクトを作成する際には、接続中に設定された次の設定に基づいて広告主名が事前入力されます。
 
 1. **広告主名セットなし**：広告主名が追加されない場合、Collaborationはデフォルトで広告主名を広告主名として使用します。
 2. **1つの広告主名セット**:1つの広告主名が追加された場合、Collaborationはその名前を自動的にプロジェクトの広告主名として使用します。
@@ -333,13 +333,13 @@ ht-degree: 8%
 >
 >別の共同作業者を招待することで、その活動を通じて発生した料金に対して責任を負うことを認めます。 Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)での クレジットの使用状況と使用状況について詳しく見る
 
-### 招待状を送る {#send-invitation}
+### 招待状を送信 {#send-invitation}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="共同作業者を招待"
->abstract="このフォームに記入して、パートナー組織をCollaboration Starterに招待してください。 招待者には招待メールが届きます。登録を完了するには、指定したメールアドレスを使用する必要があります。"
->additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Collaboration Starterについて詳しく見る"
+>abstract="パートナー組織を Collaboration Starter に招待するには、このフォームに入力します。 招待者には招待メールが届きます。登録を完了するには、指定されたメールアドレスを使用する必要があります。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="詳しくは、Collaboration Starter を参照してください"
 
 ユーザーインターフェイスを使用して、パートナー組織をCollaboration [!DNL Starter]に直接参加するように招待します。
 
