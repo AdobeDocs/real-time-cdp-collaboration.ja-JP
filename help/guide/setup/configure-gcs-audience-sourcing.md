@@ -3,7 +3,7 @@ title: オーディエンスソーシング用に [!DNL Google Cloud Storage] �
 description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 3%
@@ -38,7 +38,7 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ### オーディエンスデータの準備 {#prepare-audience-data}
 
-オーディエンスファイルは、ソーシングを開始する前に、**[オーディエンスソーシング仕様（v1.2）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;に準拠している必要があります。 完全なスキーマ定義とフィールドレベルの例については、仕様を確認してください。 主な要件は次の通りです。
+オーディエンスファイルは、ソーシングを開始する前に、**[オーディエンスソーシング仕様（v1.3）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;に準拠している必要があります。 完全なスキーマ定義とフィールドレベルの例については、仕様を確認してください。 主な要件は次の通りです。
 
 * **ファイル形式：** CSV。1つのフィールド内の複数の値の区切り記号としてカンマを使用し、パイプ （`|`）を使用します。
 * **必須フィールド：**&#x200B;すべてのレコードには、`AUDIENCE_ID`列と、サポートされている一致キー列が少なくとも1つ含まれている必要があります。
@@ -85,7 +85,7 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ![Google Cloud Storageを選択し、「次へ」を強調表示したデータソース選択画面を表示する「オーディエンスを追加」ワークフロー。](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-必要な設定手順（GCS バケットの設定やIAM ロールの割り当てなど）の概要を示す前提条件ダイアログが表示され、データが&#x200B;**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;に準拠している必要があることに注意します。 「**[!UICONTROL オンボーディングを開始]**」を選択して、続行する前にコンプライアンスを確認します。
+必要な設定手順（GCS バケットの設定やIAM ロールの割り当てなど）の概要を示す前提条件ダイアログが表示され、データが&#x200B;**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;に準拠している必要があることに注意します。 「**[!UICONTROL オンボーディングを開始]**」を選択して、続行する前にコンプライアンスを確認します。
 
 ![GCS バケットの作成、AdobeのIAM アクセスの設定、Audience Sourcing Specificationの準拠、キャンセルおよび「オンボーディングの開始」オプションなど、「オンボーディング用にGCS バケットを準備する」モーダルの前提条件をリストします。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -130,7 +130,7 @@ Collaborationで処理する前に、オーディエンスデータから同意�
 
 ![AUDIENCE_IDおよびHASHED_EMAIL_SHA_256などの列を持つオーディエンスデータのサンプルテーブルと、右下隅にある「閉じる」ボタンを表示する「GCS データプレビュー」ダイアログ &#x200B;](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-表示されるマッピングが、オーディエンスファイルのフィールドを反映していることを確認します。 そうでない場合は、続行する前にファイルを停止して修正し、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)に準拠させます。 「**[!UICONTROL 次へ]**」をクリックして続行します。
+表示されるマッピングが、オーディエンスファイルのフィールドを反映していることを確認します。 そうでない場合は、続行する前にファイルを停止して修正し、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)に準拠させます。 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
 ![自動マッピングされたソースフィールド（AUDIENCE\_IDおよびHASHED\_EMAIL\_SHA\_256）をターゲット ID フィールドに表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加し、「ソースデータをプレビュー」オプションを表示して、右上隅に「次へ」ボタンを表示します。](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 スケジュールされた更新中に&#x200B;**オーディエンスファイル形式エラーが発生する**
 
-* バケット内の更新されたファイルが、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)の列構造とフィールド要件に準拠していることを確認します。
+* バケット内の更新されたファイルが、[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)の列構造とフィールド要件に準拠していることを確認します。
 * 設定されたフォルダーパス内のすべてのファイルで、同じ列構造が使用されていることを確認します。 同じパス内の混在フォーマットのファイルは、部分的なソーシング失敗を引き起こす可能性があります。
 
 ## [!DNL Google Cloud Storage]権限の設定 {#setup-gcs-permissions}

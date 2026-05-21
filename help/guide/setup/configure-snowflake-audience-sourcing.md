@@ -4,7 +4,7 @@ description: Real-Time CDP Collaborationにオーディエンスデータを取�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
    * **スキーマ**
    * **ビュー**
 
-* [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[&#x200B; オーディエンスソーシング仕様（v1.2） &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
+* [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[&#x200B; オーディエンスソーシング仕様（v1.3） &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
 * [!DNL Snowflake] オーディエンスファイルのすべての一致キーを、Collaboration アカウントに対しても有効にする必要があります。 [一致キーを有効にする](./onboard-account.md#set-up-match-keys)または[新しい一致キー](./onboard-account.md#edit-match-keys)をアカウントに追加する方法について説明します。
 
 ## [!DNL Snowflake]権限の設定 {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 >abstract="Snowflake for Collaboration から取り込むオーディエンスデータをフォーマットおよび構造化する方法について詳しくは、オーディエンスソーシング仕様ガイドを参照してください。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="詳しくは、ガイドを参照してください。"
 
-ソーシングを開始する前に、[!DNL Snowflake Share]と[!DNL Snowflake] オーディエンスファイルの要件を説明するダイアログが表示されます。 [!DNL Snowflake Share]が正しい共有名、アカウント ID、スキーマ、ビューで作成されていることを確認してください。 Collaborationで使用するためにオーディエンスデータが正しくフォーマットおよび構造化されていることを確認するには、**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** ガイドを参照してください。
+ソーシングを開始する前に、[!DNL Snowflake Share]と[!DNL Snowflake] オーディエンスファイルの要件を説明するダイアログが表示されます。 [!DNL Snowflake Share]が正しい共有名、アカウント ID、スキーマ、ビューで作成されていることを確認してください。 Collaborationで使用するためにオーディエンスデータが正しくフォーマットおよび構造化されていることを確認するには、**[[!UICONTROL オーディエンスソーシング仕様]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** ガイドを参照してください。
 
 完了したら、**[!UICONTROL オンボーディングの開始]**&#x200B;を選択します。
 
@@ -186,7 +186,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 ### フィールドのマッピング {#map-fields}
 
-現時点では、**[!UICONTROL マッピング]**&#x200B;画面は読み取り専用です。 変換を追加、削除、または適用することはできません。 Collaborationは、**[オーディエンスソーシング仕様（v1.2）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;に基づいて、ソース ID フィールドを[!DNL Snowflake Share] データからターゲットフィールドに自動的にマッピングします。
+現時点では、**[!UICONTROL マッピング]**&#x200B;画面は読み取り専用です。 変換を追加、削除、または適用することはできません。 Collaborationは、**[オーディエンスソーシング仕様（v1.3）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;に基づいて、ソース ID フィールドを[!DNL Snowflake Share] データからターゲットフィールドに自動的にマッピングします。
 
 マッピングされたフィールドを視覚的に確認し、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。 **[!UICONTROL ソースデータをプレビュー]** オプションを使用して、[!DNL Snowflake Share]からサンプルデータをプレビューすることもできます。
 

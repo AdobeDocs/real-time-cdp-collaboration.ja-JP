@@ -2,7 +2,7 @@
 title: オーディエンスソーシング用に [!DNL Amazon S3] を設定
 description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Amazon S3]  ストレージを設定して接続する方法について説明します。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 8%
@@ -28,7 +28,7 @@ S3を通じてソースされたオーディエンスは、Adobe Experience Plat
 
 S3 データ接続を設定する前に、次の点を確認してください。
 
-* **[Audience Sourcing Specification （v1.1）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;に準拠するオーディエンスファイルを含むアクティブな&#x200B;**[!DNL Amazon S3]バケット**&#x200B;にアクセスできます。
+* **[Audience Sourcing Specification （v1.3）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;に準拠するオーディエンスファイルを含むアクティブな&#x200B;**[!DNL Amazon S3]バケット**&#x200B;にアクセスできます。
 * AWSで&#x200B;**IAM ロール**&#x200B;を作成しました。このロールは、**想定されたロール** メソッド （アクセス/秘密鍵ではありません）を使用してバケットへのアクセス権をAdobeに付与します。 詳しい手順については、**[オーディエンスソーシングに対するAWS権限の設定](./configure-aws-permissions-audience-sourcing.md)**&#x200B;を参照してください。 IAMの役割には、次の権限を含める必要があります。
 
    * `ListBucket`
@@ -71,7 +71,7 @@ S3 データ接続を設定する前に、次の点を確認してください�
 >abstract="Amazon S3 for Collaboration から取り込むオーディエンスデータをフォーマットおよび構造化する方法について詳しくは、オーディエンスソーシング仕様ガイドを参照してください。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="詳しくは、ガイドを参照してください。"
 
-オーディエンスファイルの構造化を説明するダイアログが表示されます。 **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;へのリンクを使用して、Collaborationでオーディエンスデータを正しく読み取るために[!DNL Amazon S3]からオーディエンスデータを書式設定および構造化する方法を説明します。
+オーディエンスファイルの構造化を説明するダイアログが表示されます。 **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;へのリンクを使用して、Collaborationでオーディエンスデータを正しく読み取るために[!DNL Amazon S3]からオーディエンスデータを書式設定および構造化する方法を説明します。
 
 >[!IMPORTANT]
 >
