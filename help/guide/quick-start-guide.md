@@ -53,7 +53,7 @@ Real-Time CDP Collaborationの利用を開始するには、組織の設定、�
 
 Admin ConsoleとExperience Platformを使用して、Collaborationに製品のアクセス権と権限を割り当てる方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452231/?captions=jpn&learn=on&enablevpops)
 
 ## 手順2:Collaboration アカウントの設定 {#set-up-your-account}
 
