@@ -16,7 +16,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 2%
@@ -134,7 +134,7 @@ Collaborationを使用してオーディエンスを調達する方法の詳細�
 
 ### 選択肢B:Snowflake、Amazon S3、またはGoogle Cloud StorageからのSource
 
-[!DNL Snowflake]、[!DNL Amazon S3]、[!DNL Google Cloud Storage]などのクラウドソースを設定するには、[Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)を使用してオーディエンスデータを準備します
+[!DNL Snowflake]、[!DNL Amazon S3]、[!DNL Google Cloud Storage]などのクラウドソースを設定するには、[Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)を使用してオーディエンスデータを準備します。
 
 [!DNL Amazon S3]、[!DNL Google Cloud Storage]または[!DNL Snowflake]をセルフサービスのデータソースとして設定できます。 設定手順については、[Amazon S3 ソーシングガイド &#x200B;](./setup/configure-aws-s3-audience-sourcing.md)、[GCS ソーシングガイド &#x200B;](./setup/configure-gcs-audience-sourcing.md)、または[Snowflake ソーシングガイド &#x200B;](./setup/configure-snowflake-audience-sourcing.md)を参照してください。
 
