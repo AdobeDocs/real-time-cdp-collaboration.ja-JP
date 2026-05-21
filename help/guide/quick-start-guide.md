@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration クイックスタート&セットアップガイド
 description: Real-Time CDP Collaboration のセットアップ、役割とアカウントの設定、オーディエンスの取り込み、データのアクティブ化、パートナーとの安全な接続の方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
 product_v2:
