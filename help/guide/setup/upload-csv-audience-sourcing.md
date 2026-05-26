@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -62,7 +62,7 @@ CSV ファイルのアップロードは、共同作業プロジェクト用に�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
 >title="CSV ファイルからオーディエンスを追加"
->abstract="コンピューターからCSV ファイルをアップロードして、オーディエンスをReal-Time CDP Collaborationにソースします。"
+>abstract="コンピュータから CSV ファイルをアップロードして、オーディエンスを Real-Time CDP 共同作業に取り込みます。"
 
 **[!UICONTROL コンピューターから選択]**&#x200B;を選択して、ローカルシステムからCSV ファイルをアップロードします。 または、アップロードするCSV ファイルを[!UICONTROL CSV ファイルを] パネルにドラッグ&amp;ドロップすることもできます。
 

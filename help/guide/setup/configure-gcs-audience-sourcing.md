@@ -6,7 +6,7 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -89,12 +89,12 @@ GCS バケットをCollaborationに接続すると、エンジニアリングの
 
 ![GCS バケットの作成、AdobeのIAM アクセスの設定、Audience Sourcing Specificationの準拠、キャンセルおよび「オンボーディングの開始」オプションなど、「オンボーディング用にGCS バケットを準備する」モーダルの前提条件をリストします。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### [!DNL Google Cloud Storage]接続の詳細を入力 {#authenticate-gcs-connection}
+### [!DNL Google Cloud Storage] 接続の詳細を入力 {#authenticate-gcs-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_gcs"
->title="Google Cloud Storageからオーディエンスを追加する"
->abstract="Google Cloud Storageを接続するには、Adobeのサービスユーザーに対して、処理のためにオーディエンスデータを取得することを許可してください。 Experience Leagueで説明されている手順に従って、AdobeにGoogle クラウドストレージへのアクセス権を付与します。"
+>title="Google Cloud Storage からオーディエンスを追加"
+>abstract="Google Cloud Storage を接続するには、Adobe サービスユーザーを認証して、処理用のオーディエンスデータを取得します。 Experience League で説明されている手順に従い、アドビに対して、Google Cloud Storage へのアクセスを許可します。"
 
 Collaborationによる[!DNL Google Cloud Storage] バケットへのアクセスを許可するために必要な詳細を入力してください。 必要な情報を入力したら、**[!UICONTROL 次へ]**&#x200B;を選択します。
 

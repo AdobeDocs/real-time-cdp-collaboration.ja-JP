@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -152,12 +152,12 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 ![&#x200B; オーディエンスソーシング仕様へのリンクを含むオンボーディングダイアログ用に[!DNL Snowflake Share]を準備します。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
-### [!DNL Snowflake Share]接続を認証 {#authenticate-snowflake-share-connection}
+### [!DNL Snowflake Share] 接続を認証 {#authenticate-snowflake-share-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
->title="Snowflakeからオーディエンスを追加"
->abstract="Snowflake Shareを接続するには、Adobeのサービスユーザーに対し、処理のためにオーディエンスデータを取得することを許可してください。 Experience Leagueで説明されている手順に従って、AdobeにSnowflake Shareへのアクセス権を付与します。"
+>title="Snowflake からオーディエンスを追加"
+>abstract="Snowflake 共有を接続するには、Adobe サービスユーザーを認証して、処理用のオーディエンスデータを取得します。 Experience League で説明されている手順に従い、アドビに対して、Snowflake 共有へのアクセスを許可します。"
 
 この手順では、[!DNL Snowflake Share]をCollaborationに接続するために必要な[!DNL Snowflake Share]資格情報を指定する必要があります。
 
