@@ -2,18 +2,11 @@
 title: 監査ログ
 description: Real-Time CDP Collaborationの監査ログ機能を使用して、ユーザーのアクティビティと変更を追跡する方法を説明します。
 audience: admin
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 950
@@ -33,7 +26,7 @@ Collaborationの監査ログ機能を使用して、プラットフォーム内�
 
 ![監査ログ機能の概要画面。](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-監査ログの詳細については、[Experience Platform監査ログのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}を参照してください。
+監査ログの詳細については、[Experience Platform監査ログのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}を参照してください。
 
 ## 監査ログへのアクセス
 
@@ -57,10 +50,10 @@ Collaborationの監査ログ機能を使用して、プラットフォーム内�
 監査ログを表示するには：
 
 1. Experience Platformの&#x200B;**[!UICONTROL 監査]** セクションに移動します。
-2. 条件に基づいてログを絞り込むには、[&#x200B; フィルター](#filter-audit-logs)を使用します。
+2. 条件に基づいてログを絞り込むには、[ フィルター](#filter-audit-logs)を使用します。
 3. ログエントリを選択して、タイムスタンプ、リクエスト ID、リソースの詳細、アクションステータスなどの詳細情報を表示します。
 
-![詳細な監査ログ &#x200B;](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
+![詳細な監査ログ ](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
 
 ### キャプチャしたアクティビティ
 
@@ -72,7 +65,7 @@ Collaborationの監査ログ機能を使用して、プラットフォーム内�
 * **アクション**：作成や削除など、実行された特定のアクション。
 * **ユーザー**: アクションを実行したユーザーの電子メールアドレス。
 
-これらのログにより、Collaborationインスタンス内のあらゆるアクティビティを包括的に追跡でき、データガバナンスや規制遵守に役立ちます。 UI[&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)での監査ログの管理について詳しく説明します。
+これらのログにより、Collaborationインスタンス内のあらゆるアクティビティを包括的に追跡でき、データガバナンスや規制遵守に役立ちます。 UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)での監査ログの管理[について詳しく説明します。
 
 ### 監査ログのフィルタリング {#filter-audit-logs}
 
@@ -85,7 +78,7 @@ Collaborationの監査ログ機能を使用して、プラットフォーム内�
 * **ステータス**：許可または拒否など、アクションのステータス。
 * **日付範囲**: ログを表示する日付の範囲。
 
-詳しくは、[監査ログのフィルタリング &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)を参照してください。
+詳しくは、[監査ログのフィルタリング ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)を参照してください。
 
 ## メリット
 
@@ -103,13 +96,13 @@ Collaborationの監査ログ機能を使用して、プラットフォーム内�
 
 | カテゴリ | アクション | 説明 |
 |-------------------------------|------------------------------------------|-------------|
-| **[!UICONTROL Collaboration インスタンス]** | 作成、更新、削除 | アカウントの作成、更新、削除などのアカウント管理。 詳しくは、[&#x200B; アカウントの設定](/help/guide/setup/onboard-account.md) ガイドを参照してください。 |
+| **[!UICONTROL Collaboration インスタンス]** | 作成、更新、削除 | アカウントの作成、更新、削除などのアカウント管理。 詳しくは、[ アカウントの設定](/help/guide/setup/onboard-account.md) ガイドを参照してください。 |
 | **[!UICONTROL Collaboration Connection Invite]** | 作成、更新、削除、承認、却下 | 招待の作成、更新、削除、承認、拒否など、接続への招待を管理します。 詳しくは、[接続の確立](/help/guide/connect/establishing-connections.md) ガイドを参照してください。 |
 | **[!UICONTROL Collaboration Connection]** | 作成、更新、削除、承認、却下、承認のリクエスト | 接続の作成、更新、削除、承認、拒否、承認の要求など、接続を管理します。 |
-| **[!UICONTROL Collaboration Data Connection]** | 作成、更新、削除 | データ接続の作成、更新、削除など、オーディエンスをソースおよび管理する場所からのデータ接続を管理します。 詳しくは、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドを参照してください。 |
-| **[!UICONTROL Collaboration データエンティティ]** | 作成、更新、削除 | データエンティティの作成、更新、削除など、Collaborationのデータエンティティを管理します。 この文脈でのデータエンティティはオーディエンスを指します。 詳しくは、[&#x200B; オーディエンスの取得と管理](/help/guide/setup/onboard-audiences.md) ガイドを参照してください。 |
-| **[!UICONTROL Collaboration プロジェクト]** | 作成、更新、削除 | プロジェクトの作成、更新、削除など、Collaboration内のプロジェクトを管理します。 詳しくは、[&#x200B; プロジェクトの管理](/help/guide/collaborate/manage-projects.md) ガイドを参照してください。 |
-| **[!UICONTROL Collaboration Module]** | 作成、更新、削除 | UIでの様々なモジュールの作成、更新、削除など、プロジェクト内の様々なモジュールを管理します。 例えば、オーディエンスを[&#x200B; アクティブ化](/help/guide/collaborate/activate.md)する機能があります。 |
+| **[!UICONTROL Collaboration Data Connection]** | 作成、更新、削除 | データ接続の作成、更新、削除など、オーディエンスをソースおよび管理する場所からのデータ接続を管理します。 詳しくは、[ データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドを参照してください。 |
+| **[!UICONTROL Collaboration データエンティティ]** | 作成、更新、削除 | データエンティティの作成、更新、削除など、Collaborationのデータエンティティを管理します。 この文脈でのデータエンティティはオーディエンスを指します。 詳しくは、[ オーディエンスの取得と管理](/help/guide/setup/onboard-audiences.md) ガイドを参照してください。 |
+| **[!UICONTROL Collaboration プロジェクト]** | 作成、更新、削除 | プロジェクトの作成、更新、削除など、Collaboration内のプロジェクトを管理します。 詳しくは、[ プロジェクトの管理](/help/guide/collaborate/manage-projects.md) ガイドを参照してください。 |
+| **[!UICONTROL Collaboration Module]** | 作成、更新、削除 | UIでの様々なモジュールの作成、更新、削除など、プロジェクト内の様々なモジュールを管理します。 例えば、オーディエンスを[ アクティブ化](/help/guide/collaborate/activate.md)する機能があります。 |
 
 {style="table-layout:auto"}
 
