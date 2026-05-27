@@ -2,20 +2,12 @@
 title: Real-Time CDP Collaboration クイックスタート&セットアップガイド
 description: Real-Time CDP Collaboration のセットアップ、役割とアカウントの設定、オーディエンスの取り込み、データのアクティブ化、パートナーとの安全な接続の方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
@@ -34,8 +26,8 @@ Real-Time CDP Collaborationの利用を開始するには、組織の設定、�
 始める前に、次の項目を確認してください。
 
 - アクティブなReal-Time CDP Collaborationライセンス。
-- [&#x200B; システム管理者または製品管理者がAdobe Experience Platform](./permissions/overview.md)にアクセスできます。
-- [&#x200B; エンドユーザー用にプロビジョニングされたアクセス &#x200B;](./permissions/manage-user-access.md)。
+- [ システム管理者または製品管理者がAdobe Experience Platform](./permissions/overview.md)にアクセスできます。
+- [ エンドユーザー用にプロビジョニングされたアクセス ](./permissions/manage-user-access.md)。
 - 組織用に作成され、ユーザーに割り当てられた[役割](./permissions/manage-roles.md)。
 - 組織名、ロゴ、バナーなどのブランドアセットにアクセスできます。
 - [定義された一致キー戦略](./setup/onboard-account.md#set-up-match-keys)
@@ -53,7 +45,7 @@ Real-Time CDP Collaborationの利用を開始するには、組織の設定、�
 
 Admin ConsoleとExperience Platformを使用して、Collaborationに製品のアクセス権と権限を割り当てる方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452231/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 手順2:Collaboration アカウントの設定 {#set-up-your-account}
 
@@ -124,19 +116,19 @@ Collaborationでのアカウントの役割を定義し、ブランディング�
 >大文字を使用するハッシュ値を指定すると、Collaborationは自動的に小文字に変換します。\
 >ソースに&#x200B;**プレーンテキスト識別子**&#x200B;が含まれている場合は、**[!UICONTROL 変換を適用]** オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスをソーシングする場合にのみ使用でき、クラウドベースのソースではサポートされていません。
 >
->詳しくは、ソースおよびオーディエンスの管理ガイドの「[&#x200B; マップフィールド &#x200B;](./setup/onboard-audiences.md#map-fields)」セクションを参照してください。
+>詳しくは、ソースおよびオーディエンスの管理ガイドの「[ マップフィールド ](./setup/onboard-audiences.md#map-fields)」セクションを参照してください。
 
 Collaborationを使用してオーディエンスを調達する方法の詳細については、以下の動画をご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-または、[Collaborationでのオーディエンスのソーシングに関するドキュメント &#x200B;](./setup/onboard-audiences.md#source-and-manage-audiences)を参照してください。
+または、[Collaborationでのオーディエンスのソーシングに関するドキュメント ](./setup/onboard-audiences.md#source-and-manage-audiences)を参照してください。
 
 ### 選択肢B:Snowflake、Amazon S3、またはGoogle Cloud StorageからのSource
 
 [!DNL Snowflake]、[!DNL Amazon S3]、[!DNL Google Cloud Storage]などのクラウドソースを設定するには、[Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)を使用してオーディエンスデータを準備します。
 
-[!DNL Amazon S3]、[!DNL Google Cloud Storage]または[!DNL Snowflake]をセルフサービスのデータソースとして設定できます。 設定手順については、[Amazon S3 ソーシングガイド &#x200B;](./setup/configure-aws-s3-audience-sourcing.md)、[GCS ソーシングガイド &#x200B;](./setup/configure-gcs-audience-sourcing.md)、または[Snowflake ソーシングガイド &#x200B;](./setup/configure-snowflake-audience-sourcing.md)を参照してください。
+[!DNL Amazon S3]、[!DNL Google Cloud Storage]または[!DNL Snowflake]をセルフサービスのデータソースとして設定できます。 設定手順については、[Amazon S3 ソーシングガイド ](./setup/configure-aws-s3-audience-sourcing.md)、[GCS ソーシングガイド ](./setup/configure-gcs-audience-sourcing.md)、または[Snowflake ソーシングガイド ](./setup/configure-snowflake-audience-sourcing.md)を参照してください。
 
 その他のクラウドサービスプロバイダーについては、Adobeのアカウント担当者にお問い合わせください。
 
@@ -144,7 +136,7 @@ Collaborationを使用してオーディエンスを調達する方法の詳細�
 >
 >クラウドベースのオーディエンスファイルは、Audience Specification PDFに記載されている必要なスキーマに従う必要があります。 ファイルには、ハッシュ化された識別子（小文字はSHA256）、`segment_name`や`activation_id`などの必須メタデータフィールド、およびCSVやParquetなどのサポートされている形式を使用する必要があります。 Adobeでは、アクティベーション前にデータが正規化されません。 TTLは、オーディエンスのライフスパンに基づいて適用されます。
 >
->アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 [&#x200B; オーディエンスの表示設定](/help/guide/setup/onboard-audiences.md#metadata-visibility)によって、共同作業者がオーディエンスを表示できるかどうかが決まり、Collaboration UIを通じて管理されます。
+>アップロードされたファイル内のすべてのオーディエンスは、この段階で完全にソース化されます。 [ オーディエンスの表示設定](/help/guide/setup/onboard-audiences.md#metadata-visibility)によって、共同作業者がオーディエンスを表示できるかどうかが決まり、Collaboration UIを通じて管理されます。
 
 ## 手順4：オーディエンスのアクティベート（Experience Platformまたはクラウドの宛先） {#activate-audiences}
 
@@ -163,17 +155,17 @@ Collaborationを使用してオーディエンスを調達する方法の詳細�
 
 クラウドの宛先（例：[!DNL AWS S3]または[!DNL Snowflake]）を設定するには、Adobe アカウント担当者に連絡して設定プロセスを開始してください。 クラウドの宛先に応じて、ファイルパス、資格情報、アカウントロケーターなどのクラウドの宛先の詳細を指定する必要があります。必要な情報が提供されると、Adobeはクラウド宛先設定を行います。
 
-クラウド宛先に送信されたオーディエンスデータは、事前定義されたスキーマに従います。 必須フィールドと書式の詳細については、[Collaboration Audience Activation ガイド &#x200B;](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)をダウンロードしてください。
+クラウド宛先に送信されたオーディエンスデータは、事前定義されたスキーマに従います。 必須フィールドと書式の詳細については、[Collaboration Audience Activation ガイド ](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)をダウンロードしてください。
 
 ## ステップ 5：測定の設定（オプション） {#set-up-measurement}
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Measure]** ワークスペースは、接続プロセス [&#128279;](./connect/establishing-connections.md#connection-settings)中に&#x200B;**[!UICONTROL Measurement]** ユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Measure]** ワークスペースは、接続プロセス ](./connect/establishing-connections.md#connection-settings)中に&#x200B;**[!UICONTROL Measurement]** ユースケースが[有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[ プロジェクトの管理](./collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
 Collaborationは、キャンペーンのリーチ、頻度、効果を分析するための様々なレポートを提供します。 **[!UICONTROL Measure]** ワークスペースはUIで使用できますが、完全なレポート機能を使用するには、バックエンドの有効化が必要になる場合があります。
 
-測定レポートの表示および解釈の方法については、[測定ガイド &#x200B;](./collaborate/measure.md)を参照してください。 アトリビューション、キャンペーンの概要指標、リーチカーブや頻度分布などのダッシュボードについて説明します。
+測定レポートの表示および解釈の方法については、[測定ガイド ](./collaborate/measure.md)を参照してください。 アトリビューション、キャンペーンの概要指標、リーチカーブや頻度分布などのダッシュボードについて説明します。
 
 <!-- 
 Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
@@ -228,18 +220,18 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 設定が完了したら、招待を送信または受け入れ、承認のためにプロジェクト設定を送信することで、共同作業者とつながる準備が整います。 この接続プロセスには、招待の送信または受信、接続設定（ユースケースやクレジット消費など）の確認と送信、接続の確認が含まれます。
 
-広告主は、左側のナビゲーションメニューの&#x200B;**[!UICONTROL Connect]** ワークスペースを使用して、使用可能なパブリッシャーを参照します。 また、共同作業者は、[&#x200B; プライベート接続招待](./connect/establishing-connections.md#private-connection-invite){target="_blank"}を通じて直接接続できます。
+広告主は、左側のナビゲーションメニューの&#x200B;**[!UICONTROL Connect]** ワークスペースを使用して、使用可能なパブリッシャーを参照します。 また、共同作業者は、[ プライベート接続招待](./connect/establishing-connections.md#private-connection-invite){target="_blank"}を通じて直接接続できます。
 
 >[!NOTE]
 >
 >現在のところ、パブリッシャーを閲覧できるのは広告主のみです。 パブリッシャーは、広告主との接続を参照または開始できません。
 
-このフローの概要については、[接続の確立ガイド &#x200B;](./connect/establishing-connections.md){target="_blank"}を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的なチュートリアルについては、[広告主アカウント設定ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}をご覧ください。
+このフローの概要については、[接続の確立ガイド ](./connect/establishing-connections.md){target="_blank"}を参照してください。 共同作業者の参照や接続設定の管理など、接続プロセスの視覚的なチュートリアルについては、[広告主アカウント設定ビデオ ](https://experienceleague.adobe.com/ja/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}をご覧ください。
 
 ## 次の手順
 
 これで、最初の設定が完了し、安全なコラボレーション用に組織を設定しました。 次のリソースを確認して、アクティベーション、測定、データガバナンスに関する理解を深めます。
 
-- [&#x200B; オーディエンスのアクティブ化ワークフローのドキュメント &#x200B;](./collaborate/activate.md)
-- [測定ユースケース &#x200B;](./collaborate/measure.md)
+- [ オーディエンスのアクティブ化ワークフローのドキュメント ](./collaborate/activate.md)
+- [測定ユースケース ](./collaborate/measure.md)
 - [Collaborationのガバナンスのベストプラクティス](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)
