@@ -29,7 +29,7 @@ Adobe アカウントが[!DNL Starter] ワークフローを通じて作成さ�
 
 Admin Consoleを使用して、製品管理者に&#x200B;**Experience Platformへのアクセス**&#x200B;とExperience Platform製品への&#x200B;**ユーザーアクセス**&#x200B;の両方を付与し、**[!UICONTROL 権限]**&#x200B;にアクセスできるようにします。
 
-Experience Cloudの役割と製品について詳しくは、[ アクセス制御の概要](../permissions/overview.md)のドキュメントを参照してください。
+Experience Cloudの役割と製品について詳しくは、[&#x200B; アクセス制御の概要](../permissions/overview.md)のドキュメントを参照してください。
 
 >[!TIP]
 >
@@ -73,8 +73,8 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ユーザーアクセスの設定を開始するには、次の手順を実行します。
 
-1. [Adobe Experience Cloud ホームページ ](#access-admin-console)からAdmin Consoleにアクセスします。
-2. [Adobe Experience Platform製品ダッシュボード ](#access-adobe-experience-platform)に移動します。
+1. [Adobe Experience Cloud ホームページ &#x200B;](#access-admin-console)からAdmin Consoleにアクセスします。
+2. [Adobe Experience Platform製品ダッシュボード &#x200B;](#access-adobe-experience-platform)に移動します。
 
 #### 製品にユーザーを追加 {#add-user}
 
@@ -86,9 +86,9 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ![この製品ダイアログにユーザーを追加すると、アカウントの情報と「製品」オプションが強調表示されます。](../../assets/setup/starter/admin-access/add-users-to-product.png){zoomable="yes"}
 
-次に、**[!UICONTROL 製品]**&#x200B;の下にある追加アイコン ![追加アイコン ](../../assets/icons/plus.png)を選択します。
+次に、**[!UICONTROL 製品]**&#x200B;の下にある追加アイコン ![追加アイコン &#x200B;](../../assets/icons/plus.png)を選択します。
 
-使用可能な[製品プロファイル ](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)のリストを含むダイアログが表示されます。 **[!UICONTROL AEP-Default-All-Users]**&#x200B;と&#x200B;**[!UICONTROL Default Production All Access]**&#x200B;を選択します。 次に、**[!UICONTROL 適用]**&#x200B;を選択します。
+使用可能な[製品プロファイル &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)のリストを含むダイアログが表示されます。 **[!UICONTROL AEP-Default-All-Users]**&#x200B;と&#x200B;**[!UICONTROL Default Production All Access]**&#x200B;を選択します。 次に、**[!UICONTROL 適用]**&#x200B;を選択します。
 
 ![製品プロファイルを選択ダイアログには、選択した製品プロファイルと「適用」オプションが強調表示されます。](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 
@@ -98,7 +98,7 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ユーザーアクセス権を取得したら、[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}に戻ります。 **[!UICONTROL 権限]**&#x200B;と&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;が&#x200B;**[!UICONTROL クイックアクセス]**&#x200B;で利用できることを確認します。
 
-![ クイックアクセスとハイライト表示の下に権限とReal-Time CDP Collaborationの両方が表示されているAdobe Experience Cloudのホーム画面。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![&#x200B; クイックアクセスとハイライト表示の下に権限とReal-Time CDP Collaborationの両方が表示されているAdobe Experience Cloudのホーム画面。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -106,4 +106,4 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ## 次の手順 {#next-steps}
 
-**管理者アクセス**&#x200B;と&#x200B;**ユーザーアクセス**&#x200B;の両方にアクセス権を付与し、Collaborationの機能とリソースに対する役割の定義、特定の権限の割り当て、ユーザーアクセスの管理を行えるようになりました。 詳細な手順については、[権限コントロール ガイド ](./starter-permission-controls.md)を参照してください。
+**管理者アクセス**&#x200B;と&#x200B;**ユーザーアクセス**&#x200B;の両方にアクセス権を付与し、Collaborationの機能とリソースに対する役割の定義、特定の権限の割り当て、ユーザーアクセスの管理を行えるようになりました。 詳細な手順については、[権限コントロール ガイド &#x200B;](./starter-permission-controls.md)を参照してください。

@@ -85,7 +85,7 @@ Adobe Real-Time CDP Collaborationでは、オーディエンスの重複を把�
 
 Adobe Real-Time CDP Collaborationの&#x200B;**[!UICONTROL Discover]** モジュールは、オーディエンスデータに関する貴重なインサイトを提供します。 オーディエンスの重複を把握することで、メディア企業と広告主の間の潜在的なコラボレーション機会を特定することができます。 **[!UICONTROL もっと知る]** モジュール内の&#x200B;**[!UICONTROL オーディエンスインサイト]** セクションは、異なるオーディエンス間の重複カウントと割合を分析するのに役立ちます。
 
-![ コラボレーションワークフローの検出モジュール。](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
+![&#x200B; コラボレーションワークフローの検出モジュール。](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
 
 様々な重複シナリオのサンプル計算と式を以下に示します。
 
