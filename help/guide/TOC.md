@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを利用すれば、広告主とパブリッシャーの間でシームレスかつ安全にデータを共有およびコラボレーションし、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略を促進できます。
-source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
+source-git-commit: 07666bc6d001e602c270a611ad1da3ea5f301dbd
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 29%
+source-wordcount: '211'
+ht-degree: 30%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 29%
    * [設定セクションの概要](./setup/setup-overview.md)
    * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
    * Sourceとオーディエンスの管理 {#source-audiences}
+      * [ソースの概要](./setup/source-overview.md)
       * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
       * [オーディエンスソーシングのAWS権限の設定](./setup/configure-aws-permissions-audience-sourcing.md)
       * [オーディエンスソーシング用にAmazon S3を設定する](./setup/configure-aws-s3-audience-sourcing.md)
@@ -33,7 +34,7 @@ ht-degree: 29%
    * [データ接続を管理](./setup/manage-data-connection.md)
    * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
    * [監査ログ](./setup/audit-logs.md)
