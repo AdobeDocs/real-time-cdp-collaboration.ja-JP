@@ -4,9 +4,9 @@ description: Real-Time CDP Collaborationにオーディエンスデータを取�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 
 ## 概要 {#overview}
 
-[!DNL Snowflake]は、1st パーティオーディエンスデータをCollaborationにソーシングするためにサポートされているオプションの1つです。 その他の使用可能な方法には、[Experience Platform](./onboard-audiences.md)からのオーディエンスのソーシング、[[!DNL AWS S3]  バケット &#x200B;](./configure-aws-s3-audience-sourcing.md)の接続、または[CSV ファイル &#x200B;](./upload-csv-audience-sourcing.md)のアップロードがあります。
+[!DNL Snowflake]は、1st パーティオーディエンスデータをCollaborationにソーシングするためにサポートされているオプションの1つです。 その他の使用可能な方法には、[Experience Platform](./onboard-audiences.md)からのオーディエンスのソーシング、[[!DNL AWS S3]  バケット &#x200B;](./configure-aws-s3-audience-sourcing.md)の接続、または[CSV ファイル &#x200B;](./upload-csv-audience-sourcing.md)のアップロードがあります。 Collaborationで使用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
 
 次の手順に従って[!DNL Snowflake Secure Data Share]を接続し、オーディエンスデータをCollaborationにソースします。 設定が完了したら、コラボレーションプロジェクト用にソースされたオーディエンスをレビュー、アクティブ化、管理できます。
 

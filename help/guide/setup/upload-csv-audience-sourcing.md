@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 2%
+source-wordcount: 1070
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ CSV ファイルをアップロードすると、Collaborationはファイルか
 * オーディエンスの重複とインサイトのレビュー。 [&#x200B; キャンペーンパフォーマンスの測定](../../guide/collaborate/measure.md)を参照してください。
 * オーディエンスの設定と可視性を管理。 [Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。
 
-その他のオーディエンスのソーシング方法について詳しくは、[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)または[Experience PlatformからのSource オーディエンス &#x200B;](./onboard-audiences.md)を参照してください。
+Collaborationで使用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
