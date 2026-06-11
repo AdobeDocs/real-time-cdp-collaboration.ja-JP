@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +25,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 共同作業者がキャンペーンで一緒に作業する前に、接続を確立する必要があります。 この連携により、オーディエンスのアクティベーション、プロジェクトの作成、キャンペーンのパフォーマンスに関するレポートの実行が可能になります。
+
+Collaborationでは、次の招待メソッドをサポートしています。
+
+- [&#x200B; パブリック接続の招待](#discover-collaborators): **[!UICONTROL 共同作業者を見つける]** ワークスペースを介してライセンスを取得した別の顧客と接続します。
+- [&#x200B; プライベート接続招待](#private-connection-invite)：接続コードを使用して、ライセンスを取得した別の顧客と直接接続します。
+- [Starter invite](#invite-non-licensed-collaborator): ライセンスを持たない組織に接続します。
+- [認証](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): サポートされているサードパーティの広告プラットフォームに接続します。
 
 選択したコラボレーションパターンに基づいて、接続が確立されます。 Collaborationでは、広告主とパブリッシャー間およびブランドとブランド間の2つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、[&#x200B; ユースケース &#x200B;](/help/guide/overview/use-cases.md) ガイドを参照してください。
 
@@ -55,9 +62,6 @@ ht-degree: 9%
 
 ![&#x200B; ブランド間の接続プロセスの概要ダイアグラム。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->このガイドでは、広告主とパブリッシャー間およびブランドとブランド間のコラボレーション パターンの接続プロセスについて説明します。 広告プラットフォームとの接続について詳しくは、[接続の概要](/help/guide/connect/overview.md) ガイドの[広告主と広告プラットフォームの接続](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) セクションを参照してください。
 
 ## 接続 {#connect}
 
@@ -200,7 +204,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="広告主名"
->abstract="<p>オプションの設定。 発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成の手順で事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Collaboration の広告主アカウント名が事前入力されます。</li></ul>"
+>abstract="<p>オプションの設定。 発行者が認識している広告主の名前と ID を示します。</p><p>ここに追加する広告主名は、プロジェクトを作成ステップで事前入力されます。</p><ul><li>発行者が複数の名前を設定している場合は、リストから 1 つ選択します。</li><li>1 つの名前のみを設定する場合は、自動的に事前選択されます。</li><li>名前が設定されていない場合、このフィールドには、Collaboration の広告主アカウント名が事前入力されます。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/ja/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="プロジェクトの作成"
 
 >[!CONTEXTUALHELP]
@@ -314,9 +318,9 @@ ht-degree: 9%
 
 次に、**[!UICONTROL 同意]**&#x200B;を選択して接続を続行します。 接続ステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;に変更され、プロジェクトの共同作業を開始できるようになります。
 
-## 共同作業者を招待 {#invite-collaborator}
+## ライセンスのない共同作業者を招待（スターター） {#invite-non-licensed-collaborator}
 
-以下の手順に従って、パートナーをReal-Time CDP Collaboration [!DNL Starter]に招待します。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント &#x200B;](../overview/starter-overview.md)を参照してください。
+ライセンスのないパートナーをReal-Time CDP Collaboration [!DNL Starter]に招待するには、次の手順に従います。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント &#x200B;](../overview/starter-overview.md)を参照してください。
 
 招待プロセスを開始する前に、共同作業者から次の情報を収集します。
 

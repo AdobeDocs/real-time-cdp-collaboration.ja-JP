@@ -4,7 +4,7 @@ description: Adobe Real-Time CDP Collaboration Starterを利用して、Real-Tim
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 * 役割（広告主/発行者）：広告主
 * 業界
 
-招待状を受け取り、承認した後、Collaboration [!DNL Starter]にアクセスするには、Adobeで無償の販売注文を確認し、署名する必要があります。 招待プロセスについて詳しくは、[Collaborationへの共同作業者の招待 [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator) ガイドを参照してください。
+招待状を受け取り、承認した後、Collaboration [!DNL Starter]にアクセスするには、Adobeで無償の販売注文を確認し、署名する必要があります。 招待プロセスについて詳しくは、[Collaborationへの共同作業者の招待 [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator) ガイドを参照してください。
 
 ## ガードレール {#guardrails}
 
@@ -53,7 +53,7 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 ## はじめに {#getting-started}
 
-[招待状に同意し、利用条件](../connect/establishing-connections.md#accept-invitation-sign-terms)に同意したら、資格情報を使用して[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}にログインします。 Collaborationを使用する前に、適切なアクセス権と役割をアカウントに付与する必要があります。
+[招待に同意し、利用条件](../connect/establishing-connections.md#accept-invitation-sign-terms)に同意したら、資格情報を使用して[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}にログインします。 Collaborationを使用する前に、適切なアクセス権と役割をアカウントに付与する必要があります。
 
 このワークフローを使用して[!DNL Starter] アカウントを設定し、パートナーとの共同作業を開始します。
 
@@ -61,11 +61,11 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 まず、**管理者アクセス** ワークスペースを使用して、必要なアクセス権を付与します。 これにより、Experience Platform製品に対する管理者権限とユーザーアクセス権の両方が確保されます。 初期アクセスの設定方法について詳しくは、[管理者アクセス手順](../setup/starter-admin-access.md)を参照してください。
 
-完了すると、[Experience Platform](https://experience.adobe.com/){target="_blank"} ホームページの&#x200B;**[!UICONTROL クイックアクセス]** セクション内に&#x200B;**[!UICONTROL 権限]**、**[!UICONTROL Adobe Experience Cloud]**、および&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;が表示されます。
+完了すると、[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} ホームページの&#x200B;**[!UICONTROL クイックアクセス]** セクションに&#x200B;**[!UICONTROL 権限]**、**[!UICONTROL Experience Platform]**、および&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;が表示されます。
 
-![製品管理者がアクセスを設定した後の権限、Experience Platform、Real-Time CDP Collaborationが表示されたAdobe Experience Cloud ワークスペース。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![製品管理者がアクセスを設定すると、権限、Experience Platform、Real-Time CDP Collaborationが表示されるAdobe Experience Cloud ワークスペース。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-アクセス ロールと様々なAdobe Experience Cloud製品について詳しくは、[&#x200B; アクセス制御の概要](../permissions/overview.md)を参照してください。
+アクセス役割と様々なAdobe Experience Cloud製品について詳しくは、[&#x200B; アクセス制御の概要](../permissions/overview.md)を参照してください。
 
 ### 権限の設定 {#configure-permissions}
 
