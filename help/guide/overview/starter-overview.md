@@ -15,7 +15,7 @@ ht-degree: 3%
 
 Adobe Real-Time CDP Collaboration [!DNL Starter]を使用して、プライバシー重視のデータプロジェクトでライセンスを取得したパートナーと共同作業を行います。 ご自身のCollaboration ライセンスは必要ありません。
 
-ライセンスを取得したパートナーがAdobe Collaborationにユーザーを招待し、そのクレジットを広告主とパブリッシャー間およびブランドとブランド間の両方のパターンで共同ワークフローに使用します。 これらのパターンとその仕組みについて詳しくは、[ コラボレーションパターン ](./collaboration-patterns.md)および[ エンドツーエンドのワークフロー](./end-to-end-workflow.md)のガイドを参照してください。
+ライセンスを取得したパートナーがAdobe Collaborationにユーザーを招待し、そのクレジットを広告主とパブリッシャー間およびブランドとブランド間の両方のパターンで共同ワークフローに使用します。 これらのパターンとその仕組みについて詳しくは、[&#x200B; コラボレーションパターン &#x200B;](./collaboration-patterns.md)および[&#x200B; エンドツーエンドのワークフロー](./end-to-end-workflow.md)のガイドを参照してください。
 
 招待された[!DNL Starter] ユーザーとして、次の操作を実行できます。
 
@@ -44,10 +44,10 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 | ガードレール | 説明 |
 |----------| ------------|
-| オーディエンスソース | **[!DNL Amazon S3]**&#x200B;をソースとしてCollaborationにオーディエンスデータを取り込むことができます。 詳細な手順については、[ オーディエンスソーシング用に [!DNL Amazon S3] を設定する方法](../setup/configure-aws-s3-audience-sourcing.md)を参照してください。 |
+| オーディエンスソース | **[!DNL Amazon S3]**&#x200B;をソースとしてCollaborationにオーディエンスデータを取り込むことができます。 詳細な手順については、[&#x200B; オーディエンスソーシング用に [!DNL Amazon S3] を設定する方法](../setup/configure-aws-s3-audience-sourcing.md)を参照してください。 |
 | オーディエンス | お客様の[!DNL Starter] アカウントには、次の上限が設定されています。<ul><li>[!DNL AWS S3] バケットからソースされた10 オーディエンス</li><li>合計5,000万のID （オーディエンスデータの行数で計算）</li><li>オーディエンスごとに6日ごとに1回の更新</li></ul> |
 | オーディエンスの重複とインサイト | オーディエンスの重複やインサイトをオーディエンスをまたいで実行できる頻度に制限はありません。 [重複を発見してオーディエンスを比較](../collaborate/discover.md)する方法について説明します。 |
-| Activation | [!DNL Starter] ユーザーは、招待したパートナーにのみオーディエンスをアクティブ化して共有できます。 外部プラットフォームへの宛先の設定は使用できません。 [ オーディエンスのアクティベーション ](../collaborate/activate.md)の詳細をご覧ください。 |
+| Activation | [!DNL Starter] ユーザーは、招待したパートナーにのみオーディエンスをアクティブ化して共有できます。 外部プラットフォームへの宛先の設定は使用できません。 [&#x200B; オーディエンスのアクティベーション &#x200B;](../collaborate/activate.md)の詳細をご覧ください。 |
 
 {style="table-layout:auto"}
 
@@ -65,7 +65,7 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 ![製品管理者がアクセスを設定すると、権限、Experience Platform、Real-Time CDP Collaborationが表示されるAdobe Experience Cloud ワークスペース。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-アクセス役割と様々なAdobe Experience Cloud製品について詳しくは、[ アクセス制御の概要](../permissions/overview.md)を参照してください。
+アクセス役割と様々なAdobe Experience Cloud製品について詳しくは、[&#x200B; アクセス制御の概要](../permissions/overview.md)を参照してください。
 
 ### 権限の設定 {#configure-permissions}
 
@@ -83,14 +83,14 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 ### クレジット使用について {#understand-credit-usage}
 
-すべてのCollaboration [!DNL Starter] アクティビティでクレジットが使用されます。 ただし、招待ユーザーとして、これらのクレジットを購入または管理する必要はありません。 招待した共同作業者は、アクティビティに関連するすべてのクレジット使用状況をカバーします。 詳しくは、Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)のドキュメントの[ クレジットの使用状況と使用状況を参照してください。
+すべてのCollaboration [!DNL Starter] アクティビティでクレジットが使用されます。 ただし、招待ユーザーとして、これらのクレジットを購入または管理する必要はありません。 招待した共同作業者は、アクティビティに関連するすべてのクレジット使用状況をカバーします。 詳しくは、Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)のドキュメントの クレジットの使用状況と使用状況を参照してください。
 
 ## 次の手順 {#next-steps}
 
 これで、最初の設定が完了し、安全なコラボレーション用に組織を設定しました。 次に、次のリソースを確認して、Collaboration内でのオーディエンスのソーシングと様々なプロジェクトのユースケースについて説明します。
 
 * [Sourceとオーディエンスの管理](../setup/onboard-audiences.md)
-* [ プロジェクトの使用例](../collaborate/overview.md#project-use-cases):
+* [&#x200B; プロジェクトの使用例](../collaborate/overview.md#project-use-cases):
    * [重複を見つけてオーディエンスを比較](../collaborate/discover.md)
    * [オーディエンスをアクティベート](../collaborate/activate.md)
    * [施策のパフォーマンスを測定](../collaborate/measure.md)
