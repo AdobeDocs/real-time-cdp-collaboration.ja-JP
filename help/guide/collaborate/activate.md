@@ -2,19 +2,15 @@
 title: オーディエンスをアクティベート
 description: Adobe Real-Time CDP Collaborationでオーディエンスをアクティベートする方法について説明します。
 audience: admin, publisher
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 2%
 
 ---
@@ -25,9 +21,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Activate]** ワークスペースは、接続プロセス [&#128279;](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンスアクティベーション** ユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Activate]** ワークスペースは、接続プロセス ](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンスアクティベーション** ユースケースが[有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[ プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
-オーディエンスのアクティベーションを活用すれば、キャンペーンで使用するオーディエンスをアクティベートできます。 ライセンス認証は、接続[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定に応じて、いずれかの共同作業者によって実行できます。 キャンペーンに最適なオーディエンスを[見つけたら](./discover.md)、オーディエンスをアクティブ化して使用できるようにします。 オーディエンスをアクティベートすると、Adobe Experience Platformなど、共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
+オーディエンスのアクティベーションを活用すれば、キャンペーンで使用するオーディエンスをアクティベートできます。 ライセンス認証は、接続](/help/guide/connect/establishing-connections.md#configure-connection-settings)で設定されたオーディエンスのライセンス認証設定[に応じて、いずれかの共同作業者によって実行できます。 キャンペーンに最適なオーディエンスを[見つけたら](./discover.md)、オーディエンスをアクティブ化して使用できるようにします。 オーディエンスをアクティベートすると、Adobe Experience Platformなど、共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
 
 ## 新しいオーディエンスを活用 {#activate-new-audiences}
 
@@ -41,11 +37,11 @@ ht-degree: 2%
 
 追加アイコン（![追加アイコン。](/help/assets/icons/plus.png)）を選択するか、以前のオーディエンスがアクティベーション用に送信されていない場合は、**[!UICONTROL オーディエンスをアクティベート]** オプションを選択します。
 
-![&#x200B; オーディエンスが追加されていないプロジェクトのアクティブ化ワークスペース。](/help/assets/collaborate/activate/activate-new-audiences.png)
+![ オーディエンスが追加されていないプロジェクトのアクティブ化ワークスペース。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 オーディエンスをアクティブ化ワークフローが開き、共同作業者に送信するオーディエンスを選択できます。 ドロップダウンを使用してオーディエンスを選択するか、特定のオーディエンスを検索します。 選択する前にオーディエンスに関する詳細を表示するには、**[!UICONTROL オーディエンスを参照]**&#x200B;を選択します
 
-![&#x200B; ドロップダウンと「オーディエンスを参照」オプションがハイライト表示されたオーディエンスのアクティベーションのワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
+![ ドロップダウンと「オーディエンスを参照」オプションがハイライト表示されたオーディエンスのアクティベーションのワークフロー。](/help/assets/collaborate/activate/audience-activation.png)
 
 **[!UICONTROL オーディエンスを参照]**&#x200B;で、各オーディエンスの&#x200B;**[!UICONTROL ID数]**、**[!UICONTROL 重複ID]**&#x200B;および&#x200B;**[!UICONTROL 重複%]**&#x200B;を確認できます。
 
@@ -71,13 +67,15 @@ ht-degree: 2%
 >
 >少なくとも1つの一致キーを選択する必要があります。
 
-![&#x200B; オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![ オーディエンスのアクティブ化ワークフローの一致キーを編集ダイアログ。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
 ### オーディエンスの更新頻度の設定 {#set-audience-refresh-frequency}
 
-最後に、オーディエンスが更新する頻度と日付範囲を設定します。 現在のリリースでは、サポートされている頻度オプションは&#x200B;**[!UICONTROL 1回]**&#x200B;のみです。 **[!UICONTROL Once]**&#x200B;頻度とは、オーディエンスが1回だけアクティブ化され、更新されないことを意味します。 **[!UICONTROL 日付]** オプションには、現在の日付が自動的に入力されます。
+最後に、オーディエンスのアクティベーションに必要な頻度と日付範囲を設定します。 「**[!UICONTROL 頻度]**」ドロップダウンを使用して、オーディエンスを1回アクティブ化するか、定期的なスケジュールで更新するかを選択します。 **[!UICONTROL 1回]**&#x200B;を選択して、オーディエンスを1回だけアクティベートするか、**[!UICONTROL 毎日]**、**[!UICONTROL 2日ごと]**、**[!UICONTROL 3日ごと]**、**[!UICONTROL 4日ごと]**、**[!UICONTROL 5日ごと]**、**[!UICONTROL 6日ごと]**、**[!UICONTROL 2週間ごと]**、**[!UICONTROL 3週間ごと]**、毎月&#x200B;]**などの定期的な頻度を選択します。**[!UICONTROL 
 
-![頻度セクションがハイライト表示されたオーディエンスのアクティブ化ワークフロー。](/help/assets/collaborate/activate/audience-frequency.png)
+![ オーディエンス アクティベーション ワークフローの頻度ドロップダウンに、1回、1日、2～6日ごと、2～3週間ごと、毎月など、利用可能なオプションが表示されます。](/help/assets/collaborate/activate/activation-frequency.png)
+
+アクティブ化スケジュールの開始日と終了日を定義するには、**[!UICONTROL 日付範囲]** フィールドを使用します。
 
 選択内容に問題がなければ、**[!UICONTROL アクティブ化]**&#x200B;を選択してワークフローを完了します。
 
@@ -100,7 +98,7 @@ ht-degree: 2%
 | **[!UICONTROL ID数]** | オーディエンス内のIDの数。 |
 | **[!UICONTROL 重複するID]** | このオーディエンスと共同作業者のインベントリ全体のプロファイルの合計母集団との間の重複IDの数。 |
 | **[!UICONTROL 作成日]** | オーディエンスが最初に送信された日付。 |
-| **[!UICONTROL 最終送信日]** | オーディエンスが最後に共同作業者に送信された日付。 |
+| **[!UICONTROL 最終送信日]** | 1回限りのアクティブ化または定期的なスケジュールから、アクティブ化ワークフローを通じてオーディエンスが共同作業者に最後に利用できるようになった日付。 |
 | **[!UICONTROL キーの一致]** | オーディエンスに使用される一致キーを示します。 |
 
 ## アクティブなオーディエンスを表示 {#view-activated-audiences}
@@ -115,7 +113,7 @@ ht-degree: 2%
 | **[!UICONTROL ステータス]** | アクティブ化されたオーディエンスのステータス。 |
 | **[!UICONTROL ID数]** | 共同作業者がオーディエンスを送信した際の重複IDに基づいて、アクティブ化されたIDの数。 |
 | **[!UICONTROL 作成日]** | オーディエンスがアクティブ化された日付。 |
-| **[!UICONTROL 最終更新日]** | アクティブ化中に選択した更新スケジュールに基づいて、オーディエンスが最後に更新された日付。 |
+| **[!UICONTROL 最終更新日]** | アクティブ化中に選択した頻度に基づいて、オーディエンスが最後に更新された日付。 |
 | **[!UICONTROL 宛先]** | オーディエンスがアクティベートされた宛先。 |
 | **[!UICONTROL キーの一致]** | オーディエンスに使用される一致キーを示します。 |
 
@@ -133,4 +131,4 @@ ht-degree: 2%
 
 ## 次の手順 {#next-steps}
 
-オーディエンスをアクティブ化してキャンペーンを実行したら、Adobeのイネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する[測定レポート &#x200B;](/help/guide/collaborate/measure.md)を表示します。
+オーディエンスをアクティブ化してキャンペーンを実行したら、Adobeのイネーブルメントおよびエンジニアリングチームと協力して測定データをアップロードし、対応する[測定レポート ](/help/guide/collaborate/measure.md)を表示します。
