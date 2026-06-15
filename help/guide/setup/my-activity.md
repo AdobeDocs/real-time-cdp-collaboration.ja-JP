@@ -5,8 +5,12 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 681f4af47a58a2ce66b25b09d793d0b5b127df39
 workflow-type: tm+mt
 source-wordcount: 726
@@ -31,11 +35,11 @@ ht-degree: 2%
 
 クレジットウォレットとクレジット消費アクティビティにアクセスするには、メインナビゲーションの&#x200B;**[!UICONTROL 設定]**&#x200B;に移動し、**[!UICONTROL マイアクティビティ]** タブを選択します。
 
-![ クレジットがプロビジョニングされたクレジットウォレット、クレジットが消費されたクレジット、利用可能なクレジット、およびクレジット消費アクティビティテーブルが表示された「マイアクティビティ」タブ。](/help/assets/setup/my-activity-credits/activity-dashboard.png)
+![&#x200B; クレジットがプロビジョニングされたクレジットウォレット、クレジットが消費されたクレジット、利用可能なクレジット、およびクレジット消費アクティビティテーブルが表示された「マイアクティビティ」タブ。](/help/assets/setup/my-activity-credits/activity-dashboard.png)
 
 >[!TIP]
 >
->**[!UICONTROL 自分のアクティビティ]** ビューには、Real-Time CDP Collaboration インターフェイスの他の領域からのユーザーアクションは含まれていません。 [監査ログ ](/help/guide/setup/audit-logs.md)機能を使用して、その情報を取得します。
+>**[!UICONTROL 自分のアクティビティ]** ビューには、Real-Time CDP Collaboration インターフェイスの他の領域からのユーザーアクションは含まれていません。 [監査ログ &#x200B;](/help/guide/setup/audit-logs.md)機能を使用して、その情報を取得します。
 
 ## マイアクティビティビューについて {#understand-dashboard}
 
@@ -73,11 +77,11 @@ ht-degree: 2%
 
 **[!UICONTROL アクティビティ]**&#x200B;列には、クレジットを消費する操作の種類が表示されます。
 
-* **[!UICONTROL Audience Management]**: オーディエンスがCollaborationに送信されると、クレジットが消費されます。 クレジットは、すべてのオーディエンスに対してCollaboration内でインデックス作成されるIDの数と、そのインデックス作成の頻度（毎日、3日ごと、毎週など）の関数として消費されます。 詳しくは、[ オーディエンスの取得と管理](/help/guide/setup/onboard-audiences.md) ガイドを参照してください。
-* **[!UICONTROL アクティベーション – オーディエンスアクセス （1回）]**: アクティベーションワークフローを通じてオーディエンスアクセスが1回処理されると、クレジットが消費されます。 詳しくは、「[ オーディエンスのアクティベーション ](/help/guide/collaborate/activate.md) ガイド」を参照してください。
-* **[!UICONTROL アクティベーション – オーディエンスアクセス （繰り返し）]**: アクティベーションワークフローを通じて繰り返しスケジュールでオーディエンスアクセスが処理されると、クレジットが消費されます。 詳しくは、「[ オーディエンスのアクティベーション ](/help/guide/collaborate/activate.md) ガイド」を参照してください。
-* **[!UICONTROL アクティベーション – オーディエンスエグレス （1回）]**: アクティベーションワークフローを通じて、宛先へのオーディエンスのエグレスが1回処理されると、クレジットが消費されます。 このアクティビティは、オーディエンスを受信する共同作業者に課金されます。 詳しくは、「[ オーディエンスのアクティベーション ](/help/guide/collaborate/activate.md) ガイド」を参照してください。
-* **[!UICONTROL アクティベーション – オーディエンス エグレス （繰り返し）]**: アクティベーション ワークフローを通じて、繰り返しスケジュールで宛先へのオーディエンス エグレスが処理されると、クレジットが消費されます。 このアクティビティは、オーディエンスを受信する共同作業者に課金されます。 詳しくは、「[ オーディエンスのアクティベーション ](/help/guide/collaborate/activate.md) ガイド」を参照してください。
+* **[!UICONTROL Audience Management]**: オーディエンスがCollaborationに送信されると、クレジットが消費されます。 クレジットは、すべてのオーディエンスに対してCollaboration内でインデックス作成されるIDの数と、そのインデックス作成の頻度（毎日、3日ごと、毎週など）の関数として消費されます。 詳しくは、[&#x200B; オーディエンスの取得と管理](/help/guide/setup/onboard-audiences.md) ガイドを参照してください。
+* **[!UICONTROL アクティベーション – オーディエンスアクセス （1回）]**: アクティベーションワークフローを通じてオーディエンスアクセスが1回処理されると、クレジットが消費されます。 詳しくは、「[&#x200B; オーディエンスのアクティベーション &#x200B;](/help/guide/collaborate/activate.md) ガイド」を参照してください。
+* **[!UICONTROL アクティベーション – オーディエンスアクセス （繰り返し）]**: アクティベーションワークフローを通じて繰り返しスケジュールでオーディエンスアクセスが処理されると、クレジットが消費されます。 詳しくは、「[&#x200B; オーディエンスのアクティベーション &#x200B;](/help/guide/collaborate/activate.md) ガイド」を参照してください。
+* **[!UICONTROL アクティベーション – オーディエンスエグレス （1回）]**: アクティベーションワークフローを通じて、宛先へのオーディエンスのエグレスが1回処理されると、クレジットが消費されます。 このアクティビティは、オーディエンスを受信する共同作業者に課金されます。 詳しくは、「[&#x200B; オーディエンスのアクティベーション &#x200B;](/help/guide/collaborate/activate.md) ガイド」を参照してください。
+* **[!UICONTROL アクティベーション – オーディエンス エグレス （繰り返し）]**: アクティベーション ワークフローを通じて、繰り返しスケジュールで宛先へのオーディエンス エグレスが処理されると、クレジットが消費されます。 このアクティビティは、オーディエンスを受信する共同作業者に課金されます。 詳しくは、「[&#x200B; オーディエンスのアクティベーション &#x200B;](/help/guide/collaborate/activate.md) ガイド」を参照してください。
 * **[!UICONTROL Measurement]**: Collaborationでキャンペーンパフォーマンスレポートとインサイトを生成すると、クレジットが消費されます。 クレジットは、すべてのキャンペーンのキャンペーンレポートの行数と、毎日、3日ごと、毎週などのレポートの頻度にもとづいて消費されます。
 
 ## クレジット消費量の管理 {#manage-credit-consumption}
