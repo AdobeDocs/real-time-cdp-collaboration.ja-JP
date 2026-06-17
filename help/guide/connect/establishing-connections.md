@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
+source-wordcount: 3459
 ht-degree: 9%
 
 ---
@@ -320,7 +320,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ## ライセンスのない共同作業者を招待（スターター） {#invite-non-licensed-collaborator}
 
-ライセンスのないパートナーをReal-Time CDP Collaboration [!DNL Starter]に招待するには、次の手順に従います。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント &#x200B;](../overview/starter-overview.md)を参照してください。
+ライセンスのないパートナーをReal-Time CDP Collaboration [!DNL Starter]に招待するには、次の手順に従います。 招待は共同作業者の電子メールアドレスに直接送信され、接続を確立する前に承認する必要があります。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント &#x200B;](../overview/starter-overview.md)を参照してください。
 
 招待プロセスを開始する前に、共同作業者から次の情報を収集します。
 
@@ -369,9 +369,14 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ![確認ダイアログで、招待が正常に送信されたことを確認します。](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+招待状を送信すると、パートナー組織は、Adobe Real-Time Collaborationの利用条件を確認して署名するための手順を記載したメールを受信します。
+
 ### 招待に同意して条件に署名 {#accept-invitation-sign-terms}
 
-招待状を送信すると、パートナー組織に、Adobe Real-Time Collaborationの利用条件を確認して同意するための手順が記載されたメールが届きます。 また、同意する前にCollaborationの機能を確認することもできます。
+続行するには、招待されたパートナー組織が次の操作を行う必要があります。
+
+- 招待メールを開きます。
+- リンクに従って、Real-Time CDP Collaborationの利用条件を確認し、署名します。
 
 ![Collaboration Starterへの招待メール。](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +384,11 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ### プロビジョニングの確認 {#provisioning-confirmation}
 
-プロビジョニングプロセスが完了すると、招待された組織にウェルカムメールが送信され、Collaboration [!DNL Starter]を使用する準備ができていることを確認します。 このメールでは、次の方法について説明します。
+プロビジョニングプロセスが完了すると、2回目のメールが招待された組織に送信され、Collaboration [!DNL Starter]を使用する準備ができていることを確認します。 このウェルカムメールでは、次の方法について説明します。
 
 - [管理者とユーザーアクセス権の設定](../setup/starter-admin-access.md)
 - [Collaborationにアクセスする権限を設定する](../setup/starter-permission-controls.md)
+- [招待パートナーとのつながりを確立](#connect)
 
 ![招待された組織に、必要なアクセスと権限を設定する手順が記載されたウェルカムメールが送信されました。](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +396,4 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ## 次の手順
 
-共同作業者との接続を確立すると、共同作業者と共同作業者は[&#x200B; プロジェクトを作成できるようになりました](/help/guide/collaborate/manage-projects.md#create-project)。
+接続を確立した後、共同作業者と一緒に[&#x200B; プロジェクトを作成](/help/guide/collaborate/manage-projects.md#create-project)できます。
