@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaborationの [!DNL Azure]  ストレージからのSource オーディエンス
 description: Azure Blob StorageまたはAzure Data Lake Storage Gen2からReal-Time CDP CollaborationへのSource 1st パーティオーディエンスデータ。
 keywords: Real-Time CDP Collaboration; オーディエンスのソーシング； [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'
