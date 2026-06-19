@@ -14,7 +14,7 @@ ht-degree: 3%
 
 [!DNL Azure Blob Storage]または[!DNL Azure Data Lake Storage] （ADLS） Gen2をAdobe Real-Time CDP Collaborationに接続して、1st パーティオーディエンスデータを取得し、アクティベーションと重複分析を行います。
 
-このガイドを使用して、再利用可能な[!DNL Azure] データ接続を作成し、設定されたストレージの場所から1回限りのインポートを実行します。 開始する前に、オーディエンスファイルが[ オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)を満たしていることを確認してください。 設定プロセス中に、AdobeにAzure ストレージへの読み取りアクセス権を付与します。
+このガイドを使用して、再利用可能な[!DNL Azure] データ接続を作成し、設定されたストレージの場所から1回限りのインポートを実行します。 開始する前に、オーディエンスファイルが[&#x200B; オーディエンスソーシング仕様](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)を満たしていることを確認してください。 設定プロセス中に、AdobeにAzure ストレージへの読み取りアクセス権を付与します。
 
 ## [!DNL Azure] ソースの種類を選択 {#choose-source-type}
 
@@ -31,7 +31,7 @@ Collaborationでは、2つの[!DNL Azure]取り込みオプションをサポー
 
 ## 前提条件 {#prerequisites}
 
-このガイドに従う前に、[ アカウントのオンボーディングと設定](./onboard-account.md)を完了してください。 次に、設定ワークフローを開始する前に、この節の前提条件を完了します。
+このガイドに従う前に、[&#x200B; アカウントのオンボーディングと設定](./onboard-account.md)を完了してください。 次に、設定ワークフローを開始する前に、この節の前提条件を完了します。
 
 一部の手順では、**[!DNL Azure]管理者**&#x200B;による操作が必要です。 組織の[!DNL Azure]管理者でない場合は、開始する前に適切なユーザーを特定してください。
 
@@ -84,7 +84,7 @@ Collaborationで接続を設定する前に、ユーザーまたは[!DNL Azure]�
 >
 > ストレージ アカウントまたはコンテナに役割を割り当てる権限が必要です（例：**所有者**&#x200B;または&#x200B;**ユーザーアクセス管理者**&#x200B;または同等の権限）。
 
-1. [[!DNL Azure]  ポータル ](https://portal.azure.com/)で、ストレージアカウントを開き、**[!UICONTROL Containers]**&#x200B;に移動し、オーディエンスファイルを含むコンテナを選択します。
+1. [[!DNL Azure]  ポータル &#x200B;](https://portal.azure.com/)で、ストレージアカウントを開き、**[!UICONTROL Containers]**&#x200B;に移動し、オーディエンスファイルを含むコンテナを選択します。
 2. **[!DNL Access control (IAM)]**&#x200B;を選択してから、**[!DNL Add role assignment]**&#x200B;を選択します。
 3. コンテナスコープのAdobe プリンシパルに&#x200B;**[!DNL Storage Blob Data Reader]** ロールを割り当てます。
 4. 「**保存**」を選択します。
@@ -95,7 +95,7 @@ ADLS Gen2接続の場合、Collaborationの&#x200B;**[!UICONTROL Container]** �
 
 権限を割り当てる前に、ストレージアカウントに&#x200B;**階層名前空間が有効になっており**、ファイアウォールまたはプライベートエンドポイントルールでAdobeへのアクセスが許可されていることを確認してください。
 
-1. [[!DNL Azure]  ポータル ](https://portal.azure.com/)で、ADLS Gen2 ファイルシステムを含むストレージ アカウントを開きます。
+1. [[!DNL Azure]  ポータル &#x200B;](https://portal.azure.com/)で、ADLS Gen2 ファイルシステムを含むストレージ アカウントを開きます。
 2. オーディエンスファイルを含むファイルシステムを開きます。
 3. **[!UICONTROL アクセス制御（IAM）]**&#x200B;を選択し、**[!UICONTROL 役割の割り当てを追加]**&#x200B;を選択します。
 4. ファイルシステムまたはディレクトリスコープのAdobe プリンシパルに&#x200B;**[!DNL Storage Blob Data Reader]** ロールを割り当てます。
@@ -121,7 +121,7 @@ Collaboration設定ワークフローを使用して、[!DNL Azure] ストレー
 
 **[!UICONTROL Azure Blob Storage]**&#x200B;または&#x200B;**[!UICONTROL Azure Data Lake Storage Gen2]**&#x200B;を選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ データ接続タイプとして選択された[!DNL Azure Blob Storage]と、資格情報、同意、フィールドマッピング、レビューのオンボーディングステップを示すオーディエンスの追加ワークフロー](../../assets/setup/azure-sourcing/azure-source-selection-step.png){zoomable="yes"}。
+![&#x200B; データ接続タイプとして選択された[!DNL Azure Blob Storage]と、資格情報、同意、フィールドマッピング、レビューのオンボーディングステップを示すオーディエンスの追加ワークフロー](../../assets/setup/azure-sourcing/azure-source-selection-step.png){zoomable="yes"}。
 
 残りの手順を続行して、Azure接続を検証し、Adobeへのアクセスを確認し、フィールドマッピングを確認して、データ接続を作成します。
 
@@ -198,7 +198,7 @@ Collaboration設定ワークフローを使用して、[!DNL Azure] ストレー
 
 >[!TIP]
 >
->調達時間は、データ量によって異なります。 24時間後にオーディエンスが表示されない場合は、[ トラブルシューティング ](#troubleshooting)を参照してください。
+>調達時間は、データ量によって異なります。 24時間後にオーディエンスが表示されない場合は、[&#x200B; トラブルシューティング &#x200B;](#troubleshooting)を参照してください。
 
 ![新しいオーディエンスがテーブルに強調表示された設定ワークスペースの「マイオーディエンス」タブ。](../../assets/setup/azure-sourcing/view-sourced-audiences.png)
 
@@ -243,7 +243,7 @@ Azure データ接続を作成または管理する前に、次の制限事項�
 
 ## 次の手順 {#next-steps}
 
-ソーシング完了後、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]**&#x200B;で、アクティベーション、重複分析、測定ワークフローに使用できます。 共同作業者と共にソースされたオーディエンスをアクティブ化するには、[ オーディエンスのアクティブ化](../collaborate/activate.md)を参照してください。
+ソーシング完了後、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]**&#x200B;で、アクティベーション、重複分析、測定ワークフローに使用できます。 共同作業者と共にソースされたオーディエンスをアクティブ化するには、[&#x200B; オーディエンスのアクティブ化](../collaborate/activate.md)を参照してください。
 
 その他の使用可能なソーシング方法には、Experience Platform、[!DNL Amazon S3]、[!DNL Google Cloud Storage]、[!DNL Snowflake]、およびCSV ファイルのアップロードがあります。 その他のオーディエンスのソーシング方法については、次を参照してください。
 
