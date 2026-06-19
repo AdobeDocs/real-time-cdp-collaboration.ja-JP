@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaborationを利用すれば、広告主とパブリッシャーの間でシームレスかつ安全にデータを共有およびコラボレーションし、リアルタイムのオーディエンスインサイトとパーソナライズされたマーケティング戦略を促進できます。
-source-git-commit: 07666bc6d001e602c270a611ad1da3ea5f301dbd
+source-git-commit: eeaa3053e4b701d6eac00d8c012c387efb4c3509
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 30%
+source-wordcount: '217'
+ht-degree: 29%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 30%
       * [ソースの概要](./setup/source-overview.md)
       * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
       * [オーディエンスソーシングのAWS権限の設定](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [オーディエンスソーシング用のAzure ストレージの設定](./setup/configure-azure-storage-audience-sourcing.md)
       * [オーディエンスソーシング用にAmazon S3を設定する](./setup/configure-aws-s3-audience-sourcing.md)
       * [オーディエンスソーシング用のGCSの設定](./setup/configure-gcs-audience-sourcing.md)
       * [オーディエンスのソース用にCSV ファイルをアップロード](./setup/upload-csv-audience-sourcing.md)
