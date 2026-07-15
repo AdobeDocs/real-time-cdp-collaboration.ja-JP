@@ -36,7 +36,7 @@ ht-degree: 28%
    * [データ接続を管理](./setup/manage-data-connection.md)
    * [宛先の設定と管理](./setup/manage-destinations.md)
    * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-   * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
    * [測定データの追加と管理](./setup/onboard-measurement-data.md)
    * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
    * [監査ログ](./setup/audit-logs.md)
