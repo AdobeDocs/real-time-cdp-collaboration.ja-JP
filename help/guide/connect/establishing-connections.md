@@ -2,17 +2,12 @@
 title: 共同作業者との関係の確立
 description: 潜在的な共同作業者を見つけた後、つながりを確立し、プロジェクトでの共同作業を開始する方法を学びます。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
 source-wordcount: 3459
@@ -28,12 +23,12 @@ ht-degree: 9%
 
 Collaborationでは、次の招待メソッドをサポートしています。
 
-- [&#x200B; パブリック接続の招待](#discover-collaborators): **[!UICONTROL 共同作業者を見つける]** ワークスペースを介してライセンスを取得した別の顧客と接続します。
-- [&#x200B; プライベート接続招待](#private-connection-invite)：接続コードを使用して、ライセンスを取得した別の顧客と直接接続します。
+- [ パブリック接続の招待](#discover-collaborators): **[!UICONTROL 共同作業者を見つける]** ワークスペースを介してライセンスを取得した別の顧客と接続します。
+- [ プライベート接続招待](#private-connection-invite)：接続コードを使用して、ライセンスを取得した別の顧客と直接接続します。
 - [Starter invite](#invite-non-licensed-collaborator): ライセンスを持たない組織に接続します。
 - [認証](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): サポートされているサードパーティの広告プラットフォームに接続します。
 
-選択したコラボレーションパターンに基づいて、接続が確立されます。 Collaborationでは、広告主とパブリッシャー間およびブランドとブランド間の2つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、[&#x200B; ユースケース &#x200B;](/help/guide/overview/use-cases.md) ガイドを参照してください。
+選択したコラボレーションパターンに基づいて、接続が確立されます。 Collaborationでは、広告主とパブリッシャー間およびブランドとブランド間の2つの主要なコラボレーションパターンをサポートしています。 これらのパターンについて詳しくは、[ ユースケース ](/help/guide/overview/use-cases.md) ガイドを参照してください。
 
 接続を確立する方法については、コラボレーションパターンに対応する以下の節を参照してください。
 
@@ -56,11 +51,11 @@ Collaborationでは、次の招待メソッドをサポートしています。
 1. [接続設定の設定](#configure-connection-settings)：広告主は接続設定を設定し、レビューのためにパブリッシャーに送信します。
 1. [接続設定を確認](#establish-connection)：発行者は接続設定を確認し、それを承認または拒否します。 受け入れたら、接続が確立されます。 拒否された場合、パブリッシャーは製品外のリビジョンに対するフィードバックを提供できます。 その後、広告主は設定を変更し、レビューのために再送信できます。
 
-接続設定が承認されると、接続が確立され、共同作業者は[&#x200B; プロジェクトを作成](/help/guide/collaborate/manage-projects.md#create-project)してキャンペーンでの共同作業を開始する準備が整います。
+接続設定が承認されると、接続が確立され、共同作業者は[ プロジェクトを作成](/help/guide/collaborate/manage-projects.md#create-project)してキャンペーンでの共同作業を開始する準備が整います。
 
 ## ブランドとのつながり {#brand-to-brand-connection}
 
-![&#x200B; ブランド間の接続プロセスの概要ダイアグラム。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
+![ ブランド間の接続プロセスの概要ダイアグラム。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
 
 ## 接続 {#connect}
@@ -71,7 +66,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 >[!IMPORTANT]
 >
->広告主のみが、**[!UICONTROL 共同作業者を見つける]** ワークスペースを使用してパブリッシャーを発見できます。 共同作業者の役割に関係なく共同作業者とつながる方法については、[&#x200B; ブランド間の接続](#brand-to-brand-connection)の節を参照してください。
+>広告主のみが、**[!UICONTROL 共同作業者を見つける]** ワークスペースを使用してパブリッシャーを発見できます。 共同作業者の役割に関係なく共同作業者とつながる方法については、[ ブランド間の接続](#brand-to-brand-connection)の節を参照してください。
 
 パブリッシャーを見つけるには、「**[!UICONTROL Connect]**」タブの「**[!UICONTROL 共同作業者を見つける]**」ワークスペースに移動します。 ここでは、ワークスペースの下部にあるページネーション コントロールを使用して、使用可能なパブリッシャーのリストを参照できます。 **[!UICONTROL 共同作業者を見つける]** ワークスペースについて詳しくは、[共同作業者を見つける](/help/guide/connect/discover-collaborators.md) ガイドを参照してください。
 
@@ -81,7 +76,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 >[!IMPORTANT]
 >
->この節では、広告主が&#x200B;**[!UICONTROL 共同作業者を見つける]** ワークスペースを介してメディア企業に接続招待を送信するプロセスについて説明します。 役割に関係なくブランド間の接続を形成する方法については、[&#x200B; ブランド間の接続](#brand-to-brand-connection) セクションを参照するか、[&#x200B; プライベート接続の招待](#private-connection-invite) セクションにアクセスしてください。
+>この節では、広告主が&#x200B;**[!UICONTROL 共同作業者を見つける]** ワークスペースを介してメディア企業に接続招待を送信するプロセスについて説明します。 役割に関係なくブランド間の接続を形成する方法については、[ ブランド間の接続](#brand-to-brand-connection) セクションを参照するか、[ プライベート接続の招待](#private-connection-invite) セクションにアクセスしてください。
 
 共同作業を行うパブリッシャーを特定したら、パブリッシャーカードの&#x200B;**[!UICONTROL Connect]** オプションを選択します。 このアクションにより、接続プロセスが開始されます。
 
@@ -93,7 +88,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 >[!NOTE]
 >
->製品外でコミュニケーションしたパブリッシャーと接続したい場合は、プライベート接続の招待オプションを利用できます。 詳しくは、「[&#x200B; プライベート接続への招待](#private-connection-invite)」の節を参照してください。
+>製品外でコミュニケーションしたパブリッシャーと接続したい場合は、プライベート接続の招待オプションを利用できます。 詳しくは、「[ プライベート接続への招待](#private-connection-invite)」の節を参照してください。
 
 保留中の招待は、**[!UICONTROL 必要なアクション]** セクションの&#x200B;**[!UICONTROL 自分の接続]** タブに表示されます。 接続ステータスは&#x200B;**[!UICONTROL 招待状が送信されました]**&#x200B;と表示されます。 **[!UICONTROL 接続のプレビュー]**&#x200B;を選択して接続設定をプレビューできますが、パブリッシャーが招待を受け入れるまで編集することはできません。
 
@@ -109,9 +104,9 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ![接続コードがハイライト表示された設定ワークスペース内の「自分のアカウント」タブ。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-コード **[!UICONTROL 接続]**&#x200B;の横にあるコピーアイコン（![&#x200B; コピーアイコン &#x200B;](/help/assets/icons/copy.png)）を選択して、クリップボードにコピーします。 その後、このコードを製品外の共同作業者と共有できます。
+コード **[!UICONTROL 接続]**&#x200B;の横にあるコピーアイコン（![ コピーアイコン ](/help/assets/icons/copy.png)）を選択して、クリップボードにコピーします。 その後、このコードを製品外の共同作業者と共有できます。
 
-![&#x200B; コピーアイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
+![ コピーアイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
 ##### 接続コードの更新 {#refresh-connect-code}
 
@@ -121,7 +116,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 >
 >保留中の招待中に&#x200B;**[!UICONTROL 接続コード]**&#x200B;を更新すると、招待が承認されない可能性があります。 コードを更新した場合、共同作業者は新しいコードを使用してプライベート接続招待を再送信する必要がある場合があります。
 
-**[!UICONTROL Connect コード]**&#x200B;を更新するには、**[!UICONTROL Connect コード]**&#x200B;の横にある更新アイコン（![更新アイコン &#x200B;](/help/assets/icons/refresh.png)）を選択します。
+**[!UICONTROL Connect コード]**&#x200B;を更新するには、**[!UICONTROL Connect コード]**&#x200B;の横にある更新アイコン（![更新アイコン ](/help/assets/icons/refresh.png)）を選択します。
 
 ![更新アイコンがハイライト表示された接続コード。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
 
@@ -131,7 +126,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 #### プライベート接続の招待を送信 {#send-private-connection-invite}
 
-共同作業者から&#x200B;**[!UICONTROL Connect コード]**&#x200B;を取得したら、プライベート接続の招待を送信できます。 これを行うには、**[!UICONTROL Connect]** ワークスペースに移動し、右上隅にあるプラスアイコン（![&#x200B; プラスアイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。
+共同作業者から&#x200B;**[!UICONTROL Connect コード]**&#x200B;を取得したら、プライベート接続の招待を送信できます。 これを行うには、**[!UICONTROL Connect]** ワークスペースに移動し、右上隅にあるプラスアイコン（![ プラスアイコン ](/help/assets/icons/plus.png)）を選択します。
 
 次に、**[!UICONTROL 招待コードで接続]**&#x200B;を選択します。
 
@@ -167,7 +162,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 受信者が招待を受け入れた後、所有者は接続設定を設定できます。 これを行うには、**[!UICONTROL My connections]**&#x200B;に移動し、**[!UICONTROL Action required]** セクションで保留中の接続を見つけます。 **[!UICONTROL 接続を設定]**&#x200B;を選択して、接続設定を構成します。
 
-![&#x200B; アクションが必要なセクションで「接続を設定」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![ アクションが必要なセクションで「接続を設定」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 接続設定ワークスペースが表示され、接続の様々な設定を行うことができます。
 
@@ -232,7 +227,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ##### ユースケース {#use-cases}
 
-ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューとオプションが決まります。 詳しくは、[&#x200B; プロジェクトのユースケース &#x200B;](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
+ユースケースには、使用可能なすべてのオプションが自動的に入力されます。 選択したユースケースによって、プロジェクト内で使用できるビューとオプションが決まります。 詳しくは、[ プロジェクトのユースケース ](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
 
 ユースケースをカスタマイズするには、「**[!UICONTROL ユースケース]**」セクションで「**[!UICONTROL 編集]**」を選択し、共同作業者とのプロジェクトに含めたくない場合はオフにします。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択して変更を保存します。
 
@@ -244,7 +239,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 >
 >複数の照合キーを使用するオーディエンスをアクティブ化する場合、1つ（または複数）の照合キーに重複がないか、オーディエンスサイズがないか、しきい値を下回ると、アクティブ化全体が失敗します。 オーディエンスが十分に重複しており、すべてのマッチキーで最低1,000 IDのしきい値を満たしていることを確認してからアクティベートします。
 
-[&#x200B; アカウントの設定](/help/guide/setup/onboard-account.md#set-up-match-keys)中に、あなたと共同作業者が選択した共通の照合キーが照合キーに自動的に入力されます。 自分と共同作業者が選択した&#x200B;**と**&#x200B;の両方に共通する一致するキーのみが表示されます。
+[ アカウントの設定](/help/guide/setup/onboard-account.md#set-up-match-keys)中に、あなたと共同作業者が選択した共通の照合キーが照合キーに自動的に入力されます。 自分と共同作業者が選択した&#x200B;**と**&#x200B;の両方に共通する一致するキーのみが表示されます。
 
 ![一致キーのセクションがハイライト表示された接続設定ワークスペースで、共通の一致キーが表示されます。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
@@ -260,7 +255,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ##### クレジット分割 {#credit-split}
 
-「クレジットの分割」セクションを使用して、2つの共同作業当事者のうち、活動のコストをカバーする当事者を決定します。 クレジット分割オプションは、接続で選択したユースケースによって決まります。 **[!UICONTROL Measurement]**&#x200B;のユースケースでは、コストをカバーするには1つの関係者が必要ですが、**[!UICONTROL Activation - Matching]**&#x200B;のユースケースでは、各関係者が独自のコストをカバーするように追加オプションが提供されます。 コストの内訳について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
+「クレジットの分割」セクションを使用して、2つの共同作業当事者のうち、活動のコストをカバーする当事者を決定します。 クレジット分割オプションは、接続で選択したユースケースによって決まります。 **[!UICONTROL Measurement]**&#x200B;のユースケースでは、コストをカバーするには1つの関係者が必要ですが、**[!UICONTROL Activation - Matching]**&#x200B;のユースケースでは、各関係者が独自のコストをカバーするように追加オプションが提供されます。 コストの内訳について詳しくは、[ クレジットアクティビティタイプ ](/help/guide/setup/my-activity.md#types-of-activities) ガイドを参照してください。
 
 >[!NOTE]
 >
@@ -320,7 +315,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ## ライセンスのない共同作業者を招待（スターター） {#invite-non-licensed-collaborator}
 
-ライセンスのないパートナーをReal-Time CDP Collaboration [!DNL Starter]に招待するには、次の手順に従います。 招待は共同作業者の電子メールアドレスに直接送信され、接続を確立する前に承認する必要があります。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント &#x200B;](../overview/starter-overview.md)を参照してください。
+ライセンスのないパートナーをReal-Time CDP Collaboration [!DNL Starter]に招待するには、次の手順に従います。 招待は共同作業者の電子メールアドレスに直接送信され、接続を確立する前に承認する必要があります。 Collaboration [!DNL Starter]の詳細とプロセスの手順ごとの概要については、[[!DNL Starter] 概要ドキュメント ](../overview/starter-overview.md)を参照してください。
 
 招待プロセスを開始する前に、共同作業者から次の情報を収集します。
 
@@ -335,7 +330,7 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 >[!IMPORTANT]
 >
->別の共同作業者を招待することで、その活動を通じて発生した料金に対して責任を負うことを認めます。 Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)での クレジットの使用状況と使用状況について詳しく見る
+>別の共同作業者を招待することで、その活動を通じて発生した料金に対して責任を負うことを認めます。 Collaboration Starter](../setup/starter-credit-usage.md)での[ クレジットの使用状況と使用状況について詳しく見る
 
 ### 招待状を送信 {#send-invitation}
 
@@ -347,17 +342,17 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ユーザーインターフェイスを使用して、パートナー組織をCollaboration [!DNL Starter]に直接参加するように招待します。
 
-開始するには、**[!UICONTROL Connect]** ワークスペースに移動し、右上隅にあるプラスアイコン（![&#x200B; プラスアイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 次に、**[!UICONTROL 共同作業者を招待]**&#x200B;を選択します。
+開始するには、**[!UICONTROL Connect]** ワークスペースに移動し、右上隅にあるプラスアイコン（![ プラスアイコン ](/help/assets/icons/plus.png)）を選択します。 次に、**[!UICONTROL 共同作業者を招待]**&#x200B;を選択します。
 
-![&#x200B; プラスアイコンと「共同作業者を招待」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+![ プラスアイコンと「共同作業者を招待」オプションがハイライト表示された接続ワークスペース。](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
 
-**[!UICONTROL 共同作業者を招待]** ダイアログが表示され、招待された共同作業者の情報を入力するよう求められます。 [!UICONTROL 会社名]、[!UICONTROL 名]、[!UICONTROL 姓]、[!UICONTROL 電子メール &#x200B;]の必須フィールドに入力します。
+**[!UICONTROL 共同作業者を招待]** ダイアログが表示され、招待された共同作業者の情報を入力するよう求められます。 [!UICONTROL 会社名]、[!UICONTROL 名]、[!UICONTROL 姓]、[!UICONTROL 電子メール ]の必須フィールドに入力します。
 
 >[!IMPORTANT]
 >
 >招待状は&#x200B;**指定された電子メールアドレスに関連付けられています**。 招待されたユーザーが招待に同意して製品にアクセスするには、その正確な電子メールを使用する必要があるため、電子メールアドレスが正確であることを確認します。
 
-次に、ドロップダウンを使用して、パートナーに適した役割を選択します。 Collaborationで使用可能なロールの種類について詳しくは、[&#x200B; アカウントのロールに関するドキュメント &#x200B;](../overview/roles.md)を参照してください。
+次に、ドロップダウンを使用して、パートナーに適した役割を選択します。 Collaborationで使用可能なロールの種類について詳しくは、[ アカウントのロールに関するドキュメント ](../overview/roles.md)を参照してください。
 
 ![役割ドロップダウンがハイライト表示された「共同作業者を招待」ダイアログ。](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
 
@@ -396,4 +391,4 @@ Collaborationでは、次の招待メソッドをサポートしています。
 
 ## 次の手順
 
-接続を確立した後、共同作業者と一緒に[&#x200B; プロジェクトを作成](/help/guide/collaborate/manage-projects.md#create-project)できます。
+接続を確立した後、共同作業者と一緒に[ プロジェクトを作成](/help/guide/collaborate/manage-projects.md#create-project)できます。
