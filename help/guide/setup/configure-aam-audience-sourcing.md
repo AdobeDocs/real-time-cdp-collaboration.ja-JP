@@ -2,7 +2,7 @@
 title: オーディエンスソーシング用のAdobe Audience Managerの設定
 description: Adobe Audience Managerをデータソースとして接続して、適格な1st パーティオーディエンスをReal-Time CDP Collaborationに調達できるようにする方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
 workflow-type: tm+mt
 source-wordcount: '1901'
