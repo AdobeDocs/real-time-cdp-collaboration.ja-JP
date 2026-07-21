@@ -21,7 +21,7 @@ Adobe Audience Manager（AAM）インスタンスをAdobe Real-Time CDP Collabor
 
 ## 前提条件 {#prerequisites}
 
-設定ワークフローを開始する前に、このセクションのすべての項目を完了してください。 不完全な前提条件は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする最も一般的な理由です。 このガイドに従う前に、[ アカウントのオンボーディングと設定](./onboard-account.md)を完了している必要があります。
+設定ワークフローを開始する前に、このセクションのすべての項目を完了してください。 不完全な前提条件は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする最も一般的な理由です。 このガイドに従う前に、[&#x200B; アカウントのオンボーディングと設定](./onboard-account.md)を完了している必要があります。
 
 ### Adobe Audience Managerへのアクセスと権限 {#aam-access-and-permissions}
 
@@ -57,7 +57,7 @@ CollaborationにソースされたすべてのAAM セグメントは、同意後
 
 ### データ接続の追加 {#add-data-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL オーディエンスを追加]** オプションを選択することもできます。
 
@@ -75,7 +75,7 @@ CollaborationにソースされたすべてのAAM セグメントは、同意後
 
 ### 同意とデータ使用を確認 {#confirm-consent-data-use}
 
-続ける前に、Collaborationに送信するオーディエンスデータに法律で必要なオプトアウトを適用していることを確認してください。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[ ガバナンスポリシーと施行アクション ](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
+続ける前に、Collaborationに送信するオーディエンスデータに法律で必要なオプトアウトを適用していることを確認してください。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[&#x200B; ガバナンスポリシーと施行アクション &#x200B;](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
 
 ![続行する前に確認が必要な同意オプトアウト確認ダイアログ。](../../assets/setup/aam-audience-sourcing/audience-manager-consent-optout-acknowledgement.png)
 
@@ -88,7 +88,7 @@ CollaborationにソースされたすべてのAAM セグメントは、同意後
 
 完了したら、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/aam-audience-sourcing/audience-manager-connection-details.png)
+![&#x200B; データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/aam-audience-sourcing/audience-manager-connection-details.png)
 
 ### ID マッピングの確認 {#review-identity-mapping}
 
@@ -104,7 +104,7 @@ CollaborationにソースされたすべてのAAM セグメントは、同意後
 
 マッピングはレビューできますが、この段階で修正することはできません。 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
-![ ターゲット ID フィールド ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)にマッピングされたソースフィールドを表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加する
+![&#x200B; ターゲット ID フィールド &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)にマッピングされたソースフィールドを表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加する
 
 ### データ更新のスケジュール {#schedule-data-refresh}
 
@@ -114,7 +114,7 @@ CollaborationにソースされたすべてのAAM セグメントは、同意後
 
 >[!IMPORTANT]
 >
->通常、Audience Managerのセグメントは、特性の最新性と頻度のルールにもとづいて、24～48時間ごとに更新されます。 これより短いCollaboration更新間隔を設定すると、更新された結果なしでCollaboration クレジットが使用される場合があります。 クレジットの使用状況を監視するには、[ クレジットの使用状況を追跡](./my-activity.md)を参照してください。
+>通常、Audience Managerのセグメントは、特性の最新性と頻度のルールにもとづいて、24～48時間ごとに更新されます。 これより短いCollaboration更新間隔を設定すると、更新された結果なしでCollaboration クレジットが使用される場合があります。 クレジットの使用状況を監視するには、[&#x200B; クレジットの使用状況を追跡](./my-activity.md)を参照してください。
 
 完了したら、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
@@ -132,7 +132,7 @@ Collaborationに取り込むセグメントを選択します。 名前で検索
 >表示されるセグメントがリストに表示されていない場合は、過去13か月間に更新され、1st パーティデータソース特性のみを使用していることを確認します。 サードパーティまたはAudience Marketplaceの特性を持つセグメントは除外されます。
 
 
-![ セグメントが選択されたオーディエンスの選択画面](../../assets/setup/aam-audience-sourcing/audience-manager-select-audiences-selected.png)
+![&#x200B; セグメントが選択されたオーディエンスの選択画面](../../assets/setup/aam-audience-sourcing/audience-manager-select-audiences-selected.png)
 
 ### 接続を確認して完了 {#review-and-complete}
 
@@ -143,7 +143,7 @@ Collaborationに取り込むセグメントを選択します。 名前で検索
 * **[!UICONTROL マッピング]**: AAM ソースフィールドからCollaboration ID フィールドへのID フィールドマッピング。
 * **[!UICONTROL スケジュール]**：更新頻度とアクティブな日付範囲。
 
-変更が必要な場合は、任意のセクションの横にある鉛筆アイコン（![編集アイコン ](/help/assets/icons/edit.png)）を選択します。 すべてのセクションを確認するには、**[!UICONTROL 完了]**&#x200B;を選択します。
+変更が必要な場合は、任意のセクションの横にある鉛筆アイコン（![編集アイコン &#x200B;](/help/assets/icons/edit.png)）を選択します。 すべてのセクションを確認するには、**[!UICONTROL 完了]**&#x200B;を選択します。
 
 データ接続が作成され、オーディエンスのソーシングが進行中であることを示す確認ダイアログが表示されます。
 
@@ -151,7 +151,7 @@ Collaborationに取り込むセグメントを選択します。 名前で検索
 
 ## ソース別オーディエンスの確認 {#review-sourced-audiences}
 
-ウィザードが完了すると、Collaborationは、選択したAAM セグメントからオーディエンスメンバーシップデータの取得を非同期で開始します。 **[!UICONTROL セットアップ ] / [!UICONTROL  マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。
+ウィザードが完了すると、Collaborationは、選択したAAM セグメントからオーディエンスメンバーシップデータの取得を非同期で開始します。 **[!UICONTROL セットアップ &#x200B;] / [!UICONTROL &#x200B; マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。
 
 ### オーディエンスのソーシングの進捗状況の監視 {#monitor-progress}
 
@@ -173,7 +173,7 @@ CollaborationがAAM セグメントデータを取得している間、**[!UICON
 * **[!UICONTROL メタデータの表示]**：共同作業者に表示されるオーディエンス情報。
 
 
-![ ステータスを示す個々のオーディエンスの詳細ビュー：アクティブ、ソースシステム、およびデータ接続名が上部に表示され、以下の4つのパネルが表示されています。ID数と分類を示すID、適用されたタグを示すカテゴリ、オーディエンスのタイプと可視性を示す接続アクセス、ID数、重複率、オーディエンスインデックスの設定を示すメタデータの可視性](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience-details.png)
+![&#x200B; ステータスを示す個々のオーディエンスの詳細ビュー：アクティブ、ソースシステム、およびデータ接続名が上部に表示され、以下の4つのパネルが表示されています。ID数と分類を示すID、適用されたタグを示すカテゴリ、オーディエンスのタイプと可視性を示す接続アクセス、ID数、重複率、オーディエンスインデックスの設定を示すメタデータの可視性](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience-details.png)
 
 このビューを使用して、コラボレーションプロジェクトでオーディエンスを使用する前に、オーディエンスの設定と表示設定を確認します。 カテゴリ、接続アクセス、またはメタデータの表示を更新するには、[個々のオーディエンスの表示と管理](./onboard-audiences.md#view-individual-audiences)を参照してください。
 
@@ -214,7 +214,7 @@ Audience Manager ソースコネクタを設定して使用する場合は、次
 
 ## 次の手順 {#next-steps}
 
-これで、Audience ManagerをCollaborationのデータソースとして設定しました。 ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースで使用できるようになり、コラボレーションプロジェクトで使用できるようになります。 最初のソーシングプロセスの完了後にオーディエンスが表示されない場合は、このページの「[ トラブルシューティング ](#troubleshooting)」セクションを参照してください。
+これで、Audience ManagerをCollaborationのデータソースとして設定しました。 ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースで使用できるようになり、コラボレーションプロジェクトで使用できるようになります。 最初のソーシングプロセスの完了後にオーディエンスが表示されない場合は、このページの「[&#x200B; トラブルシューティング &#x200B;](#troubleshooting)」セクションを参照してください。
 
 ここから、次の操作を実行できます。
 
