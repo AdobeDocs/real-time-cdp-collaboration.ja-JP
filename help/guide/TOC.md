@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 38%
+source-wordcount: '238'
+ht-degree: 37%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 38%
 * 設定 {#setup}
   * [設定セクションの概要](./setup/setup-overview.md)
   * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
+  * {hide-from-toc}[ オーディエンスの概要](./setup/audiences-overview.md)
   * Sourceとオーディエンスの管理 {#source-audiences}
     * [ソースの概要](./setup/source-overview.md)
     * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
@@ -37,7 +38,7 @@ ht-degree: 38%
   * [データ接続を管理](./setup/manage-data-connection.md)
   * [宛先の設定と管理](./setup/manage-destinations.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-  * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
+  * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
   * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
   * [監査ログ](./setup/audit-logs.md)
@@ -65,6 +66,7 @@ ht-degree: 38%
     * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
   * [概要](/help/guide/destinations/overview.md)
+  * {hide-from-toc}[宛先の設定と管理](./destinations/manage-destinations.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 権限 {#permissions}
   * [概要](/help/guide/permissions/overview.md)
