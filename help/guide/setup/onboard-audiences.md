@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 17%
 
 データ接続は、オーディエンスをCollaborationに取り込むソースです。 利用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
 
-以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]または[!DNL Google Cloud Storage]を選択した場合は、そのオプションの[&#x200B; データソースを選択](#select-data-source)の下にリンクされているガイドを使用します。
+以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]、[!DNL Google Cloud Storage]、Adobe Audience Managerまたは[!DNL Databricks Delta Share]のいずれかを選択した場合は、そのオプションの「[&#x200B; データソースを選択](#select-data-source)」の下にリンクされているガイドを使用します。
 
 Experience Platform データ接続に対して設定した設定は、その接続からソースされたすべてのオーディエンスに適用されます。
 
@@ -72,7 +72,8 @@ Experience Platform データ接続に対して設定した設定は、その接
 * **Amazon Web Services**: Amazon S3 ストレージに接続して、S3 バケットから直接オーディエンスデータを取得します。 詳しい手順については、「[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ガイド」を参照してください。
 * **Snowflake**: Snowflake データウェアハウスを使用して、オーディエンスデータをシームレスに取り込みます。 オーディエンスのソーシング [&#128279;](./configure-snowflake-audience-sourcing.md)については、設定 [!DNL Snowflake]  ガイドを参照してください。
 * **Google Cloud Storage**:GCS バケットに接続してソースオーディエンスデータを取得します。 詳しい手順については、[&#x200B; オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md) ガイドを参照してください。
-* **Adobe Audience Manager** （_近日リリース予定_）: Adobe Audience ManagerからオーディエンスセグメントをSourceします。
+* **[!DNL Databricks Delta Share]**: [!DNL Databricks Delta Share]に接続して、[!DNL Databricks]環境から1st パーティオーディエンスデータを取得します。 オーディエンスのソーシング [&#128279;](./configure-databricks-audience-sourcing.md)については、設定 [!DNL Databricks Delta Share]  ガイドを参照してください。
+* **Adobe Audience Manager**: Adobe Audience ManagerからオーディエンスセグメントをSourceします。 詳しくは、「[&#x200B; オーディエンスソーシング用にAdobe Audience Managerを設定](./configure-aam-audience-sourcing.md) ガイド」を参照してください。
 
 データソースを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 

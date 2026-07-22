@@ -2,10 +2,10 @@
 title: ソースの概要
 description: Adobe Real-Time CDP Collaborationのソースコネクタについて説明します
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,8 @@ Collaborationでは、次のソースを使用できます。 そのソースの
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | [!DNL Snowflake Secure Data Share]を接続して、大規模なオーディエンスデータセットを取り込みます。 | 使用可能 |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | GCS バケットを接続して、[!DNL Google Cloud]環境に保存されているオーディエンスデータを取り込みます。 | 使用可能 |
 | [CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md) | フォーマットされたCSV ファイルをローカルシステムから直接アップロードします。 | 使用可能 |
-| Adobe Audience Manager | 既存のAudience Manager セグメントをCollaboration プロジェクトに取り込みます。 | *近日リリース予定* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | 既存のAudience Manager セグメントをCollaboration プロジェクトに取り込みます。 | 使用可能 |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | [!DNL Databricks Delta Share]を接続して、[!DNL Databricks]環境から大規模なオーディエンスデータセットを取り込みます。 | 使用可能 |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | [!DNL Azure Blob Storage] コンテナーを接続して、[!DNL Microsoft Azure]環境から1st パーティデータセットを取得します。 | 使用可能 |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | [!DNL Azure Data Lake Storage Gen 2] アカウントを接続して、[!DNL Azure] データレイクに保存されているオーディエンスデータを取り込みます。 | 使用可能 |
 

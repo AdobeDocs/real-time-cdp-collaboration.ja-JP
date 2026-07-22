@@ -12,7 +12,7 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 7%
@@ -154,7 +154,7 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 
 ![更新と保存オプションを強調表示するスケジュール ダイアログ。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## データ接続を削除
+## データ接続を削除 {#delete-data-connection}
 
 データ接続を削除すると、Collaboration全体で、基盤となるオーディエンス、関連する設定、使用がすべて削除されます。 このアクションは取り消せません。
 
