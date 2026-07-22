@@ -2,7 +2,7 @@
 title: 最新のReal-Time CDP Collaboration リリースノート
 description: Real-Time CDP Collaborationの最新リリースに従う
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -132,7 +132,7 @@ Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーショ�
 
 * Real-Time CDP Collaborationは、**オーストラリア**&#x200B;および&#x200B;**ニュージーランド**&#x200B;のお客様が利用できるようになりました。 Real-Time CDP PrimeおよびUltimateのお客様は、これらのリージョンで自動的に利用できます。
 * Real-Time CDP Collaborationでは、**[!UICONTROL セットアップ]** セクションの「**[!UICONTROL 自分の宛先]**」タブを通じて[&#x200B; セルフサービスの宛先](../setup/manage-destinations.md)を提供するようになりました。 配信先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化し、様々なチャネルで顧客にリーチできます。 現在、サポートされているのはAdobe Experience Platformの宛先のみです。 別の目的地の設定をご希望の場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
-  * 宛先では、[Collaboration オーディエンスポータル &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)でAdobe Experience Platform オーディエンスを表示するためのサポートも追加されています。
+  * 宛先では、[Collaboration オーディエンスポータル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)でAdobe Experience Platform オーディエンスを表示するためのサポートも追加されています。
 * Collaborationの既存のデータ接続のオーディエンス更新頻度を編集できるようになりました。 現在は、毎日、または2～6日ごとにオーディエンスを更新することができます。 オーディエンスの更新頻度を編集する方法について詳しくは、[&#x200B; データ接続の管理](../setup/manage-data-connection.md#scheduling) ガイドを参照してください。
 * 共同作業者のクレジット分割は、接続内で選択した各ユースケースに対して設定されるようになりました。 ユースケースごとに異なるクレジット消費ルールを設定することで、クレジットの使用方法をより適切に制御できます。 クレジット分割機能について詳しくは、[接続設定](../connect/establishing-connections.md#connection-settings) ガイドを参照してください。 クレジットの利用方法について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](../setup/my-activity.md#types-of-activities) ガイドを参照してください。<br> ![&#x200B; クレジット分割機能を表示する接続設定画面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * パブリッシャーは、広告主から接続設定を受け入れる前に、広告主の名前とIDを設定できるようになりました。 パブリッシャーは、社内システムに沿った名前やIDを設定でき、広告主の名前やIDとは異なる場合があります。 広告主名とIDの追加について詳しくは、[接続設定](../connect/establishing-connections.md#connection-settings.md) ガイドを参照してください。<br> ![広告主名とIDを設定するパブリッシャーを表示する接続設定画面。](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -144,7 +144,7 @@ Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーショ�
 
 ## 2025年3月 {#march-2025}
 
-* [&#x200B; オーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)をCollaborationにソーシングする際に、オーディエンスの更新頻度を&#x200B;**1日ごとに**&#x200B;に設定し、[Audience Managementのクレジットアクティビティ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)をより適切に管理できるようになりました。 詳しくは、[&#x200B; オーディエンスの管理](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) ガイドを参照してください。<br> ![&#x200B; オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png " オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。"){width="250" align="center" zoomable="yes"}
+* [&#x200B; オーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)をCollaborationにソーシングする際に、オーディエンスの更新頻度を&#x200B;**1日ごとに**&#x200B;に設定し、[Audience Managementのクレジットアクティビティ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)をより適切に管理できるようになりました。 詳しくは、[&#x200B; オーディエンスの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) ガイドを参照してください。<br> ![&#x200B; オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png " オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。"){width="250" align="center" zoomable="yes"}
 * 共同作業者との接続を確立する際に、定義済みの&#x200B;**ユースケース**&#x200B;から選択できるようになりました。 選択したユースケースによって、使用可能になるプロジェクトセクションと製品機能が決まります。 詳しくは、[&#x200B; プロジェクトの管理](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
   * *Measurement*&#x200B;は、**Measure** プロジェクトセクションを有効にします。
   * *オーディエンスの発見*&#x200B;により、**発見** プロジェクトセクションが有効になります。
