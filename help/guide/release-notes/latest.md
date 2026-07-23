@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1968
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**最終更新**: 2026年4月
+**最終更新**: 2026年7月。
 
 このリリースノートでは、Adobe Real-Time CDP Collaborationでリリースされた機能について説明します。 Collaboration リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
+
+## 2026年7月 {#july-2026}
+
+Real-Time CDP Collaborationでは、追加のセルフサービスのオーディエンスソーシングオプションをサポートするようになりました。
+
+**新機能または更新された機能**
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| [!DNL Databricks Delta Share]およびAdobe Audience Managerからのセルフサービスのオーディエンスのソーシング | [!DNL Databricks Delta Share]から直接1st パーティオーディエンスを取得したり、適格なAdobe Audience Manager セグメントをCollaborationに取り込んだりできるようになりました。 設定の手順については、次のガイドを参照してください。 <ul><li>オーディエンスソーシング用[設定 [!DNL Databricks Delta Share] &#x200B;](../setup/configure-databricks-audience-sourcing.md)</li><li>[&#x200B; オーディエンスソーシング用にAdobe Audience Managerを設定](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## 2026年4月 {#april-2026}
 
@@ -91,12 +103,12 @@ Real-Time CDP Collaborationは、**ヨーロッパ、中東、アフリカ（EME
 Real-Time CDP Collaborationは、**カナダ**&#x200B;のお客様が利用できるようになりました。 Real-Time CDP PrimeおよびUltimateのお客様は、これらのリージョンで自動的に利用できます。
 
 * Collaborationでは、次の[一致キー](../setup/onboard-account.md#supported-match-keys)がサポートされるようになりました。
-   * ハッシュ化されたメール
-   * ハッシュ化された電話番号
-   * CRM ID
-   * ロイヤルティ ID
-   * ハッシュ化された IPv4
-   * AdFixus ID
+  * ハッシュ化されたメール
+  * ハッシュ化された電話番号
+  * CRM ID
+  * ロイヤルティ ID
+  * ハッシュ化された IPv4
+  * AdFixus ID
 * Collaboration全体で複数のマッチキーが使用できるようになりました。これにより、オーディエンスサイズを拡大し、マッチ率を向上させることができます。 オーディエンスのソーシング、接続の確立、オーディエンスのアクティブ化を行う場合は、複数の照合キーを使用できます。 複数の一致キーの使用について詳しくは、[一致キーの設定](../setup/onboard-account.md)および[&#x200B; オーディエンスのソーシング &#x200B;](../setup/onboard-audiences.md#map-fields)のガイドを参照してください。
 
 >[!IMPORTANT]
@@ -120,7 +132,7 @@ Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーショ�
 
 * Real-Time CDP Collaborationは、**オーストラリア**&#x200B;および&#x200B;**ニュージーランド**&#x200B;のお客様が利用できるようになりました。 Real-Time CDP PrimeおよびUltimateのお客様は、これらのリージョンで自動的に利用できます。
 * Real-Time CDP Collaborationでは、**[!UICONTROL セットアップ]** セクションの「**[!UICONTROL 自分の宛先]**」タブを通じて[&#x200B; セルフサービスの宛先](../setup/manage-destinations.md)を提供するようになりました。 配信先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化し、様々なチャネルで顧客にリーチできます。 現在、サポートされているのはAdobe Experience Platformの宛先のみです。 別の目的地の設定をご希望の場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
-   * 宛先では、[Collaboration オーディエンスポータル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)でAdobe Experience Platform オーディエンスを表示するためのサポートも追加されています。
+  * 宛先では、[Collaboration オーディエンスポータル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)でAdobe Experience Platform オーディエンスを表示するためのサポートも追加されています。
 * Collaborationの既存のデータ接続のオーディエンス更新頻度を編集できるようになりました。 現在は、毎日、または2～6日ごとにオーディエンスを更新することができます。 オーディエンスの更新頻度を編集する方法について詳しくは、[&#x200B; データ接続の管理](../setup/manage-data-connection.md#scheduling) ガイドを参照してください。
 * 共同作業者のクレジット分割は、接続内で選択した各ユースケースに対して設定されるようになりました。 ユースケースごとに異なるクレジット消費ルールを設定することで、クレジットの使用方法をより適切に制御できます。 クレジット分割機能について詳しくは、[接続設定](../connect/establishing-connections.md#connection-settings) ガイドを参照してください。 クレジットの利用方法について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](../setup/my-activity.md#types-of-activities) ガイドを参照してください。<br> ![&#x200B; クレジット分割機能を表示する接続設定画面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * パブリッシャーは、広告主から接続設定を受け入れる前に、広告主の名前とIDを設定できるようになりました。 パブリッシャーは、社内システムに沿った名前やIDを設定でき、広告主の名前やIDとは異なる場合があります。 広告主名とIDの追加について詳しくは、[接続設定](../connect/establishing-connections.md#connection-settings.md) ガイドを参照してください。<br> ![広告主名とIDを設定するパブリッシャーを表示する接続設定画面。](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -134,9 +146,9 @@ Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーショ�
 
 * [&#x200B; オーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)をCollaborationにソーシングする際に、オーディエンスの更新頻度を&#x200B;**1日ごとに**&#x200B;に設定し、[Audience Managementのクレジットアクティビティ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)をより適切に管理できるようになりました。 詳しくは、[&#x200B; オーディエンスの管理](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) ガイドを参照してください。<br> ![&#x200B; オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png " オーディエンスメンバーシップを更新するための異なる頻度の間隔を表示するスケジュール画面。"){width="250" align="center" zoomable="yes"}
 * 共同作業者との接続を確立する際に、定義済みの&#x200B;**ユースケース**&#x200B;から選択できるようになりました。 選択したユースケースによって、使用可能になるプロジェクトセクションと製品機能が決まります。 詳しくは、[&#x200B; プロジェクトの管理](/help/guide/collaborate/manage-projects.md#project-use-cases) ガイドを参照してください。
-   * *Measurement*&#x200B;は、**Measure** プロジェクトセクションを有効にします。
-   * *オーディエンスの発見*&#x200B;により、**発見** プロジェクトセクションが有効になります。
-   * *オーディエンスアクティベーション*&#x200B;により、**アクティベート** プロジェクトセクション <br>が有効になります
+  * *Measurement*&#x200B;は、**Measure** プロジェクトセクションを有効にします。
+  * *オーディエンスの発見*&#x200B;により、**発見** プロジェクトセクションが有効になります。
+  * *オーディエンスアクティベーション*&#x200B;により、**アクティベート** プロジェクトセクション <br>が有効になります
 * 共同作業者との接続を削除できるようになりました。共同作業者との接続は削除できません。 接続を削除する方法については、[接続の削除](/help/guide/connect/establishing-connections.md#delete-connections) ガイドを参照してください。
 
 ## 2025年2月 {#february-2025}
