@@ -2,18 +2,15 @@
 title: プロジェクトの作成と管理
 description: Adobe Real-Time CDP Collaborationでのプロジェクトの作成および管理方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 TQID: https://experienceleague.adobe.com/IZIkK4lv29vqrah48fsJsnMOFtyh7rOo1IT2yLOW9Ec
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 702
 ht-degree: 11%
 
 ---
@@ -23,6 +20,8 @@ ht-degree: 11%
 {{limited-availability-release-note}}
 
 プロジェクトは、Adobe Real-Time CDP Collaborationのワークフローの中核を成す要素です。 共同作業者とつながった後、プロジェクトを作成してオーディエンスの重複を計算し、キャンペーンに適したオーディエンスを見つけます。
+
+オーディエンスがCollaborationにソースされ、Discover、Activate、Measureのプロジェクトで使用される方法の概要については、[ オーディエンスの概要](../setup/audiences-overview.md)を参照してください。
 
 >[!TIP]
 >
@@ -50,7 +49,7 @@ ht-degree: 11%
 
 **[!UICONTROL コラボレーション]**&#x200B;に移動し、**[!UICONTROL マイプロジェクト]**&#x200B;に移動します。 初めてのプロジェクトの場合は、**[!UICONTROL プロジェクトを作成]**&#x200B;を選択できます。 それ以外の場合は、追加アイコン（![追加アイコン。](/help/assets/icons/plus.png)）を選択できます 新しいプロジェクトをいつでも作成できます。
 
-![&#x200B; プラス記号を選択するか、プロジェクトを作成して新しいプロジェクトを設定します。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
+![ プラス記号を選択するか、プロジェクトを作成して新しいプロジェクトを設定します。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
 「**[!UICONTROL プロジェクトを作成]**」ダイアログが表示されます。 ドロップダウンから、プロジェクトを作成する&#x200B;**[!UICONTROL Collaborator]**&#x200B;を選択します。 パブリッシャーで、接続設定中に広告主名を設定した場合は、**[!UICONTROL 広告主名]**&#x200B;を選択できます。
 
@@ -62,22 +61,22 @@ ht-degree: 11%
 
 次に、プロジェクトに&#x200B;**[!UICONTROL プロジェクト名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を追加します。 次に、プロジェクトを表す画像を選択します。 この画像は、プロジェクト概要ページでプロジェクトを区別するのに役立ちます。 完了したら、**[!UICONTROL 作成]**&#x200B;を選択してプロジェクトを作成します。
 
-![新しいプロジェクトを設定するために必要なオプション &#x200B;](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
+![新しいプロジェクトを設定するために必要なオプション ](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
 接続設定時に選択したユースケースに基づいて、新しいプロジェクト、その詳細、および使用可能なセクションを表示できるようになりました。
 
-![&#x200B; プロジェクト概要ワークスペース。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
+![ プロジェクト概要ワークスペース。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## キャンペーン IDの管理 {#manage-campaign-id}
 
-**キャンペーン ID**&#x200B;は、プロジェクトを特定のキャンペーンにリンクし、[測定レポート &#x200B;](./measure.md#create-measurement-report)を生成するために必要です。 同じ共同作業者で複数のキャンペーンを実行する場合は、1つのプロジェクトに複数のキャンペーン IDを追加できます。 これらのキャンペーンはすべて、レポートで選択できます。
+**キャンペーン ID**&#x200B;は、プロジェクトを特定のキャンペーンにリンクし、[測定レポート ](./measure.md#create-measurement-report)を生成するために必要です。 同じ共同作業者で複数のキャンペーンを実行する場合は、1つのプロジェクトに複数のキャンペーン IDを追加できます。 これらのキャンペーンはすべて、レポートで選択できます。
 
 - **パブリッシャー**: レポートを実行する前に、Collaboration UIでCampaign IDと関連名を入力または更新します。
 - **広告主**：必要に応じて、共同作業者（発行者）にキャンペーン IDの追加を依頼します。
 
 キャンペーン IDを追加または更新するには、**[!UICONTROL コラボレーション]** ワークスペースに移動し、関連するプロジェクトカード内の&#x200B;**[!UICONTROL 表示]**&#x200B;を選択します。
 
-![&#x200B; プロジェクトカード内の「表示」オプションを強調表示する共同作業ワークスペース。](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
+![ プロジェクトカード内の「表示」オプションを強調表示する共同作業ワークスペース。](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
 
 対応する&#x200B;**[!UICONTROL プロジェクト概要]** ワークスペースが表示され、プロジェクトにリンクされたすべてのキャンペーンが一覧表示された&#x200B;**[!UICONTROL キャンペーン IDと名前]**&#x200B;のセクションが表示されます。 キャンペーンをまだ追加していない場合は、**[!UICONTROL 追加]**&#x200B;を選択します。 既にキャンペーンが存在する場合は、**[!UICONTROL 編集]**&#x200B;を選択して詳細を更新するか、キャンペーンを追加します。
 
@@ -85,7 +84,7 @@ ht-degree: 11%
 
 **[!UICONTROL キャンペーン IDと名前]** ダイアログで、**[!UICONTROL キャンペーン IDを追加]**&#x200B;を選択して、キャンペーンの詳細を入力できる新しい行を追加します。
 
-![&#x200B; キャンペーン IDを追加オプションを選択した後、空のキャンペーン行を表示するキャンペーン IDと名前ダイアログ。](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
+![ キャンペーン IDを追加オプションを選択した後、空のキャンペーン行を表示するキャンペーン IDと名前ダイアログ。](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
 
 **[!UICONTROL キャンペーン ID]**&#x200B;と&#x200B;**[!UICONTROL キャンペーン名]**&#x200B;を入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
