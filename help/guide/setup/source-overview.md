@@ -11,9 +11,9 @@ ht-degree: 6%
 
 # ソースの概要
 
-Adobe Real-Time CDP Collaborationでは、オーディエンスデータの出所はソース（データ接続）となります。 Adobe アプリケーション、クラウドベースのストレージ、ローカルシステムのファイルなど、様々なソースタイプに接続して、Collaboration プロジェクトのオーディエンスを[ ソースおよび管理](./onboard-audiences.md)できます。 オーディエンスのソーシングワークフローでは、組織のニーズにもとづいて好みのソースを選択し、設定できます。
+Adobe Real-Time CDP Collaborationでは、オーディエンスデータの出所はソース（データ接続）となります。 Adobe アプリケーション、クラウドベースのストレージ、ローカルシステムのファイルなど、様々なソースタイプに接続して、Collaboration プロジェクトのオーディエンスを[&#x200B; ソースおよび管理](./onboard-audiences.md)できます。 オーディエンスのソーシングワークフローでは、組織のニーズにもとづいて好みのソースを選択し、設定できます。
 
-Collaborationでオーディエンス、ソース、データ接続、プロジェクト、および宛先がどのように統合されるかについて概念的な概要については、[ オーディエンスの概要](./audiences-overview.md)を参照してください。
+Collaborationでオーディエンス、ソース、データ接続、プロジェクト、および宛先がどのように統合されるかについて概念的な概要については、[&#x200B; オーディエンスの概要](./audiences-overview.md)を参照してください。
 
 ## ソースを接続 {#connect-a-source}
 
@@ -23,7 +23,7 @@ Collaborationでオーディエンス、ソース、データ接続、プロジ�
 
 ![追加オプションとオーディエンスオプションがハイライト表示された自分のオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
-ワークフロー中に、ソースを選択して新しいデータ接続を追加するように求められます。 選択するソースによって、オーディエンスデータをCollaborationに取り込む方法が決まります。 サポートされているすべてのソースの一覧については、[使用可能なソース ](#available-sources)の表を参照してください。
+ワークフロー中に、ソースを選択して新しいデータ接続を追加するように求められます。 選択するソースによって、オーディエンスデータをCollaborationに取り込む方法が決まります。 サポートされているすべてのソースの一覧については、[使用可能なソース &#x200B;](#available-sources)の表を参照してください。
 
 ![新しいデータ接続を追加オプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 
@@ -39,7 +39,7 @@ Collaborationでは、次のソースを使用できます。 そのソースの
 | [Amazon S3](./configure-aws-s3-audience-sourcing.md) | S3 バケットを接続して、クラウドインフラストラクチャから大規模なファーストパーティデータセットを取得します。 | 使用可能 |
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | [!DNL Snowflake Secure Data Share]を接続して、大規模なオーディエンスデータセットを取り込みます。 | 使用可能 |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | GCS バケットを接続して、[!DNL Google Cloud]環境に保存されているオーディエンスデータを取り込みます。 | 使用可能 |
-| [CSV ファイルのアップロード ](./upload-csv-audience-sourcing.md) | フォーマットされたCSV ファイルをローカルシステムから直接アップロードします。 | 使用可能 |
+| [CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md) | フォーマットされたCSV ファイルをローカルシステムから直接アップロードします。 | 使用可能 |
 | [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | 既存のAudience Manager セグメントをCollaboration プロジェクトに取り込みます。 | 使用可能 |
 | [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | [!DNL Databricks Delta Share]を接続して、[!DNL Databricks]環境から大規模なオーディエンスデータセットを取り込みます。 | 使用可能 |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | [!DNL Azure Blob Storage] コンテナーを接続して、[!DNL Microsoft Azure]環境から1st パーティデータセットを取得します。 | 使用可能 |
@@ -49,4 +49,4 @@ Collaborationでは、次のソースを使用できます。 そのソースの
 
 ## 次の手順
 
-ソースを接続してオーディエンスを取り込んだら、詳細の表示、設定の更新、または既存のソースの削除を行うことができます。 詳しくは、[ データ接続の管理](./manage-data-connection.md) ガイドを参照してください。
+ソースを接続してオーディエンスを取り込んだら、詳細の表示、設定の更新、または既存のソースの削除を行うことができます。 詳しくは、[&#x200B; データ接続の管理](./manage-data-connection.md) ガイドを参照してください。
