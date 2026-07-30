@@ -3,8 +3,11 @@ title: クラウドストレージの宛先の設定と管理
 description: Real-Time CDP Collaborationでクラウドストレージの宛先を設定、表示、削除する方法について説明します。
 audience: admin, publisher
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 60124235569ca9b17b3bb1cef502d57d39e82e1f
 workflow-type: tm+mt
 source-wordcount: 885
@@ -31,7 +34,7 @@ ht-degree: 1%
 * **[!UICONTROL アクティベーション]** ワークスペースにアクセスできます。
 * クラウドストレージプロバイダーに必要な接続情報があります。
 * アカウントを作成する必要がある場合は、必要な資格情報または権限があります。
-* クラウドストレージの宛先](./cloud-storage-destination-requirements.md)の[要件を確認しました。
+* クラウドストレージの宛先[&#128279;](./cloud-storage-destination-requirements.md)の要件を確認しました。
 
 ## 宛先の設定 {#configure-destination}
 
@@ -53,19 +56,19 @@ ht-degree: 1%
 
 既存のアカウントが使用可能な場合は、アカウントセレクターから選択します。 アカウントを作成するには、**[!UICONTROL 新しいアカウント]**&#x200B;を選択します。
 
-認証方法を選択し、必要なアカウント情報を入力します。 使用可能な認証方法とフィールドは、選択した宛先プロバイダーによって異なります。 コネクタ固有の要件については、[ クラウドストレージの宛先の要件](./cloud-storage-destination-requirements.md)を参照してください。
+認証方法を選択し、必要なアカウント情報を入力します。 使用可能な認証方法とフィールドは、選択した宛先プロバイダーによって異なります。 コネクタ固有の要件については、[&#x200B; クラウドストレージの宛先の要件](./cloud-storage-destination-requirements.md)を参照してください。
 
 「**[!UICONTROL Amazon S3]**&#x200B;に接続」を選択します。 他の宛先プロバイダーの場合は、対応するプロバイダー名がボタンに表示されます。
 
 アカウントが正常に検証されたら、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
-![ アカウントの選択と新しいアカウントの作成を表示する認証手順。](/help/assets/destinations/manage-destinations/authenticate-destination-account.png)
+![&#x200B; アカウントの選択と新しいアカウントの作成を表示する認証手順。](/help/assets/destinations/manage-destinations/authenticate-destination-account.png)
 
 ### 宛先を作成 {#create-destination}
 
 **[!UICONTROL 宛先の作成]**&#x200B;手順では、オーディエンス書き出しファイルの配信場所と配信方法を定義します。
 
-宛先名を入力し、必要なストレージと書き出しの設定を完了します。 使用可能なフィールドは、選択した宛先プロバイダーによって異なります。 定義とコネクタ固有の要件については、[ クラウドストレージの宛先の要件](./cloud-storage-destination-requirements.md)からリンクされている宛先ドキュメントを参照してください。
+宛先名を入力し、必要なストレージと書き出しの設定を完了します。 使用可能なフィールドは、選択した宛先プロバイダーによって異なります。 定義とコネクタ固有の要件については、[&#x200B; クラウドストレージの宛先の要件](./cloud-storage-destination-requirements.md)からリンクされている宛先ドキュメントを参照してください。
 
 すべての必須フィールドを完了したら、**[!UICONTROL 次へ]**&#x200B;を選択します。 ガイド付きの設定は、フィールドマッピングの手順に進みます。
 
@@ -81,7 +84,7 @@ Real-Time CDPの標準的な宛先ワークフローとは異なり、Real-Time 
 
 マッピングが完了したら、**[!UICONTROL 次へ]**&#x200B;を選択します。 ガイド付きの設定は、レビューステップに進みます。
 
-![ アクティブ化一致キーマッピング設定を表示するフィールドのマップ手順。](/help/assets/destinations/manage-destinations/map-destination-fields.png)
+![&#x200B; アクティブ化一致キーマッピング設定を表示するフィールドのマップ手順。](/help/assets/destinations/manage-destinations/map-destination-fields.png)
 
 ### レビュー {#review-destination}
 
@@ -121,4 +124,4 @@ Real-Time CDPの標準的な宛先ワークフローとは異なり、Real-Time 
 
 ## 次の手順 {#next-steps}
 
-宛先を設定したら、プロジェクト内で[ オーディエンスのアクティブ化](../collaborate/activate.md)を開始できます。
+宛先を設定したら、プロジェクト内で[&#x200B; オーディエンスのアクティブ化](../collaborate/activate.md)を開始できます。

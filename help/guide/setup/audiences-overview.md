@@ -3,8 +3,11 @@ title: オーディエンスの概要
 description: Real-Time CDP Collaborationのオーディエンスについて、そのソースを含めて説明します。
 audience: admin, publisher
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 160bd29d89d1ce828476d68e917e0271d0852eb6
 workflow-type: tm+mt
 source-wordcount: 707
@@ -82,7 +85,7 @@ Collaborationでは、データ接続を通じてオーディエンスを取得�
 
 あらゆるユースケースですべてのオーディエンスが使用されているわけではありません。 例えば、オーディエンスはアクティブ化されずに&#x200B;**Discover**&#x200B;にソースを取得して使用したり、宛先に送信せずに&#x200B;**Measure** ワークフローで使用したりできます。
 
-オーディエンスの取得と管理について詳しくは、[Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。 データ接続の管理について詳しくは、[ データ接続の管理](./manage-data-connection.md)を参照してください。
+オーディエンスの取得と管理について詳しくは、[Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。 データ接続の管理について詳しくは、[&#x200B; データ接続の管理](./manage-data-connection.md)を参照してください。
 
 ## オーディエンスの流入元 {#supported-sources}
 
@@ -94,23 +97,23 @@ Collaborationは、複数のオーディエンスソースタイプをサポー�
 * Adobe Audience Manager
 * CSV ファイルのアップロード
 
-サポートされているソースとソース固有の設定手順の一覧については、[ ソースの概要](./source-overview.md#available-sources)を参照してください。
+サポートされているソースとソース固有の設定手順の一覧については、[&#x200B; ソースの概要](./source-overview.md#available-sources)を参照してください。
 
 ## オーディエンスとは {#match-keys}
 
 RTCDP Collaborationのオーディエンスは、一致キーで構成されます。 アカウント設定に応じて、サポートされる照合キーには、**人物ID**、**デバイス ID**、**パートナーID**&#x200B;を含めることができます。 一致キーは、**オーディエンス重複**、**アクティブ化**、**測定**&#x200B;などのワークフローをサポートします。
 
-詳細については、[一致キーの設定](../setup/onboard-account.md#set-up-match-keys)および[ データ接続の管理](../setup/manage-data-connection.md#match-keys)を参照してください
+詳細については、[一致キーの設定](../setup/onboard-account.md#set-up-match-keys)および[&#x200B; データ接続の管理](../setup/manage-data-connection.md#match-keys)を参照してください
 
 ## プロジェクトでのオーディエンスの使用 {#audiences-in-projects}
 
 プロジェクトは、他の組織と共同作業するためのコンテキストを提供します。 プロジェクト内では、サポートされているコラボレーションのユースケースに対してオーディエンスを使用できます。
 
-* **もっと知る**: オーディエンスを比較し、重複インサイトをレビューします。 [ オーディエンス重複の検出](../collaborate/discover.md)を参照してください。
-* **アクティブ化**：選択したオーディエンスをキャンペーンで使用するためにアクティブ化します。 アクティベーションは、プロジェクトワークスペースの「[!UICONTROL  アクティベート ]」タブから開始され、接続で設定された宛先にオーディエンスを送信します。 [ オーディエンスのアクティベーション ](../collaborate/activate.md)を参照してください。
-* **測定**: プロジェクトに関連付けられているキャンペーン配信とコンバージョンレポートを確認します。 [ パフォーマンスの測定](../collaborate/measure.md)を参照してください。
+* **もっと知る**: オーディエンスを比較し、重複インサイトをレビューします。 [&#x200B; オーディエンス重複の検出](../collaborate/discover.md)を参照してください。
+* **アクティブ化**：選択したオーディエンスをキャンペーンで使用するためにアクティブ化します。 アクティベーションは、プロジェクトワークスペースの「[!UICONTROL &#x200B; アクティベート &#x200B;]」タブから開始され、接続で設定された宛先にオーディエンスを送信します。 [&#x200B; オーディエンスのアクティベーション &#x200B;](../collaborate/activate.md)を参照してください。
+* **測定**: プロジェクトに関連付けられているキャンペーン配信とコンバージョンレポートを確認します。 [&#x200B; パフォーマンスの測定](../collaborate/measure.md)を参照してください。
 
-プロジェクトの作成と管理について詳しくは、[ プロジェクトの作成と管理](../collaborate/manage-projects.md)を参照してください。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md)を参照してください。
+プロジェクトの作成と管理について詳しくは、[&#x200B; プロジェクトの作成と管理](../collaborate/manage-projects.md)を参照してください。 宛先の設定について詳しくは、[宛先の概要](../destinations/overview.md)を参照してください。
 
 ## 次の手順 {#next-steps}
 

@@ -6,9 +6,18 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
 source-wordcount: 934
@@ -26,11 +35,11 @@ ht-degree: 3%
 
 ### アクティブ化（共同作業者に対して）
 
-共有プロジェクト内の別の共同作業者にオーディエンスを送信するアクションを指します。 オーディエンスを共同作業者にアクティベートすると、その共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 手順については、「[ オーディエンスをアクティブ化](/help/guide/collaborate/activate.md)」を参照してください。 **アクティブ化（宛先）**&#x200B;と混同しないでください。
+共有プロジェクト内の別の共同作業者にオーディエンスを送信するアクションを指します。 オーディエンスを共同作業者にアクティベートすると、その共同作業者の事前設定済みの宛先に送信され、キャンペーンで使用できるようになります。 手順については、「[&#x200B; オーディエンスをアクティブ化](/help/guide/collaborate/activate.md)」を参照してください。 **アクティブ化（宛先）**&#x200B;と混同しないでください。
 
 ### アクティブ化（宛先に）
 
-アクティベートされたオーディエンスが到達する宛先（クラウドストレージプラットフォームやAdobe Experience Platformなど）、および宛先が設定、参照、監視されるワークスペースを指します。 オーディエンスは、プロジェクト内の「[ オーディエンスをアクティブ化](/help/guide/collaborate/activate.md)」アクションを通じて引き続き宛先に到達します。このワークスペースでは、使用可能な宛先とその設定方法を管理します。 手順については、[宛先の概要](/help/guide/destinations/overview.md)を参照してください。 **アクティブ化（共同作業者に対して）**&#x200B;と混同しないでください。
+アクティベートされたオーディエンスが到達する宛先（クラウドストレージプラットフォームやAdobe Experience Platformなど）、および宛先が設定、参照、監視されるワークスペースを指します。 オーディエンスは、プロジェクト内の「[&#x200B; オーディエンスをアクティブ化](/help/guide/collaborate/activate.md)」アクションを通じて引き続き宛先に到達します。このワークスペースでは、使用可能な宛先とその設定方法を管理します。 手順については、[宛先の概要](/help/guide/destinations/overview.md)を参照してください。 **アクティブ化（共同作業者に対して）**&#x200B;と混同しないでください。
 
 ### 広告主
 
@@ -70,7 +79,7 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 ### データ接続
 
-データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[ データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
+データ接続は、Real-Time CDP Collaborationにデータを読み込むソースです。 現在、Experience Platformは利用可能な唯一のデータコネクションです。 詳しくは、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md)を参照してください。
 
 ### データ共有契約
 

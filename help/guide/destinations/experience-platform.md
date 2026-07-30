@@ -5,8 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
 source-wordcount: 1548
@@ -18,7 +23,7 @@ ht-degree: 14%
 
 この宛先を設定して、プロジェクトからAdobe Experience Platformにオーディエンスをアクティブ化します。 Adobe Experience Platformでオーディエンスをアクティベートすることで、様々なマーケティングチャネルをまたいでオーディエンスをセグメンテーション、分析、アクティベーションするためのAdobe Marketo Engageの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"}を参照してください。
 
-Adobe Experience Platformでは、[ クラウドストレージの宛先の設定と管理](./manage-destinations.md)で説明されているクラウドストレージの宛先ワークフローとは異なる、宛先固有の設定ワークフローを使用します。
+Adobe Experience Platformでは、[&#x200B; クラウドストレージの宛先の設定と管理](./manage-destinations.md)で説明されているクラウドストレージの宛先ワークフローとは異なる、宛先固有の設定ワークフローを使用します。
 
 >[!WARNING]
 >
@@ -103,17 +108,17 @@ Retailerは、Experience Platformにアクティベートされているデー�
 
 リンクされたキーを使用するには、代わりに使用する一致キーの横にある「**[!UICONTROL リンクされたキー]**」オプションを切り替えます。 マッピングの作成を求める「**[!UICONTROL リンクされたキー]**」セクションが表示されます。
 
-![ リンクされたキーのオプションとセクションが宛先の作成ワークフローで強調表示されます。](/help/assets/destinations/adobe-experience-platform/linked-key.png)
+![&#x200B; リンクされたキーのオプションとセクションが宛先の作成ワークフローで強調表示されます。](/help/assets/destinations/adobe-experience-platform/linked-key.png)
 
 使用する&#x200B;**[!UICONTROL リンクされたキー]**&#x200B;をドロップダウンメニューから選択します。 上記の例に従って、retailerはリンクされたキーとして&#x200B;**[!UICONTROL CRM ID]**&#x200B;を選択します。
 
-![ リンクされたキーのドロップダウンが宛先の作成ワークフローで強調表示されます。](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
+![&#x200B; リンクされたキーのドロップダウンが宛先の作成ワークフローで強調表示されます。](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
 
 次に、リンクされたキーのターゲット名前空間をまだ指定していない場合は、指定します。 「**[!UICONTROL アクティベーションマッピングを作成]**」セクションで一致キーのターゲット名前空間を既に選択している場合、これは自動生成されます。 リンクされたキーのターゲット名前空間をまだ選択していない場合は、今すぐ選択できます。
 
 リンクされたキーの横にある「**[!UICONTROL ターゲット名前空間]**」フィールドを選択します。 「**[!UICONTROL ソースフィールドを選択]**」ダイアログが表示されます。 リストでターゲット名前空間を検索するか、特定の名前空間を検索します。 リンクされたキーに使用するターゲット名前空間を選択し、**[!UICONTROL 選択]**&#x200B;を選択します。
 
-![ ソースフィールドを選択ダイアログ。](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
+![&#x200B; ソースフィールドを選択ダイアログ。](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
 
 これで、リンクされたキーが設定されました。
 
@@ -127,19 +132,19 @@ Retailerは、Experience Platformにアクティベートされているデー�
 
 >[!IMPORTANT]
 >
->現在、各一致キーは、個別のオーディエンスとしてExperience Platformに対してアクティブ化されます。 例えば、一致キーとして[!UICONTROL  ハッシュ化された電子メール ]と[!UICONTROL  ハッシュ化された電話]を使用している場合、オーディエンスがアクティブ化されると、2つの個別のオーディエンスがAudience Portalに作成されます。
+>現在、各一致キーは、個別のオーディエンスとしてExperience Platformに対してアクティブ化されます。 例えば、一致キーとして[!UICONTROL &#x200B; ハッシュ化された電子メール &#x200B;]と[!UICONTROL &#x200B; ハッシュ化された電話]を使用している場合、オーディエンスがアクティブ化されると、2つの個別のオーディエンスがAudience Portalに作成されます。
 
 設定に問題がなければ、**[!UICONTROL 宛先を作成]**&#x200B;を選択します。 宛先が正常に作成されたことを示す確認メッセージが表示されます。
 
 ## Adobe Experience Platformを宛先として使用する
 
-Experience Platformを宛先として設定したら、プロジェクトを通じて[ オーディエンスのプラットフォームへのアクティベーション ](../collaborate/activate.md)を開始できます。 現在、アクティベーションプロセスは、共同作業者によって開始されるシングルステップのプロセスです。 例えば、広告主がオーディエンスをアクティベートすると、そのオーディエンスはパブリッシャーの事前設定された宛先（Experience Platform）に送信されます。 パブリッシャーは、オーディエンスを宛先に送信するために追加の手順を実行する必要はありません。 同じことが、ブランドとブランドのコラボレーションのパターンにも当てはまります。
+Experience Platformを宛先として設定したら、プロジェクトを通じて[&#x200B; オーディエンスのプラットフォームへのアクティベーション &#x200B;](../collaborate/activate.md)を開始できます。 現在、アクティベーションプロセスは、共同作業者によって開始されるシングルステップのプロセスです。 例えば、広告主がオーディエンスをアクティベートすると、そのオーディエンスはパブリッシャーの事前設定された宛先（Experience Platform）に送信されます。 パブリッシャーは、オーディエンスを宛先に送信するために追加の手順を実行する必要はありません。 同じことが、ブランドとブランドのコラボレーションのパターンにも当てはまります。
 
 >[!IMPORTANT]
 >
 >共同作業者がオーディエンスをアクティブ化する&#x200B;*前に、**Experience Platformを宛先*として設定する必要があります**。 宛先が設定されていない場合、オーディエンスは自分に送信され、プロジェクトレベルの「**[!UICONTROL アクティブ化]**」タブに表示されますが、Experience Platformにはアクティブ化されません。
 
-オーディエンスがアクティブ化されると、Real-Time CDP CollaborationをオリジンとしてExperience Platformの[ オーディエンスポータル ](#audience-portal)で利用できるようになります。 これらのオーディエンスは、施策や顧客エンゲージメントに活用できます。
+オーディエンスがアクティブ化されると、Real-Time CDP CollaborationをオリジンとしてExperience Platformの[&#x200B; オーディエンスポータル &#x200B;](#audience-portal)で利用できるようになります。 これらのオーディエンスは、施策や顧客エンゲージメントに活用できます。
 
 ### オーディエンスポータル {#audience-portal}
 
@@ -147,8 +152,8 @@ Experience Platformを宛先として設定したら、プロジェクトを通�
 
 >[!IMPORTANT]
 >
->お客様は、Adobe Experience Platformにアクティベートするオーディエンスに必要なデータ使用ラベルを適用する責任があります。 詳しくは、[ データ使用ラベル ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} ガイドを参照してください。
+>お客様は、Adobe Experience Platformにアクティベートするオーディエンスに必要なデータ使用ラベルを適用する責任があります。 詳しくは、[&#x200B; データ使用ラベル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} ガイドを参照してください。
 
-![ フィルターオプションのオリジンとしてReal-Time CDP Collaborationを使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
+![&#x200B; フィルターオプションのオリジンとしてReal-Time CDP Collaborationを使用するオーディエンスポータル。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-オーディエンスポータルについて詳しくは、[ オーディエンスポータルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。
+オーディエンスポータルについて詳しくは、[&#x200B; オーディエンスポータルの概要](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} ガイドを参照してください。

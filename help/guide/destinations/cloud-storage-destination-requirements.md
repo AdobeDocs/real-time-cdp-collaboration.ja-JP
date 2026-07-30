@@ -23,12 +23,12 @@ Real-Time CDP Collaborationで宛先を設定する前に、宛先プロバイ�
 
 | 宛先 | 認証または接続方法 | 始める前に準備する | 詳細な要件 |
 |---|---|---|---|
-| [!DNL Amazon S3] | アクセスキーと秘密鍵、または想定される役割 | AWS アクセスキーのペアまたはIAM ロール ARN、バケットおよびフォルダーの情報 | [[!DNL Amazon S3] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3) |
-| SFTP | パスワードまたはSSH キー | サーバードメイン、ポート、ユーザー名、認証資格情報、フォルダーパス | [SFTP宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/sftp) |
-| [!DNL Azure Blob Storage] | 接続文字列 | Azure storageの接続文字列、コンテナ、フォルダーの情報 | [[!DNL Azure Blob Storage] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob) |
-| [!DNL Google Cloud Storage] | アクセスキーIDとシークレットアクセスキー | [!DNL Google Cloud Storage]相互運用性の資格情報、バケット、およびフォルダー情報 | [[!DNL Google Cloud Storage] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage) |
-| [!DNL Snowflake Batch] | [!DNL Snowflake] データ共有 | [!DNL Snowflake] アカウント ID、地域、プライベートリンクのステータス、およびプライベートリストへのアクセス | [[!DNL Snowflake Batch] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/warehouse/snowflake-batch) |
-| [!DNL Data Landing Zone] | 別途認証は必要ありません | 保存先フォルダーのパスとファイル出力の環境設定 | [[!DNL Data Landing Zone] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone) |
+| [!DNL Amazon S3] | アクセスキーと秘密鍵、または想定される役割 | AWS アクセスキーのペアまたはIAM ロール ARN、バケットおよびフォルダーの情報 | [[!DNL Amazon S3] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3) |
+| SFTP | パスワードまたはSSH キー | サーバードメイン、ポート、ユーザー名、認証資格情報、フォルダーパス | [SFTP宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/sftp) |
+| [!DNL Azure Blob Storage] | 接続文字列 | Azure storageの接続文字列、コンテナ、フォルダーの情報 | [[!DNL Azure Blob Storage] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob) |
+| [!DNL Google Cloud Storage] | アクセスキーIDとシークレットアクセスキー | [!DNL Google Cloud Storage]相互運用性の資格情報、バケット、およびフォルダー情報 | [[!DNL Google Cloud Storage] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage) |
+| [!DNL Snowflake Batch] | [!DNL Snowflake] データ共有 | [!DNL Snowflake] アカウント ID、地域、プライベートリンクのステータス、およびプライベートリストへのアクセス | [[!DNL Snowflake Batch] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/warehouse/snowflake-batch) |
+| [!DNL Data Landing Zone] | 別途認証は必要ありません | 保存先フォルダーのパスとファイル出力の環境設定 | [[!DNL Data Landing Zone] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone) |
 
 ## コネクターのメモ {#connector-notes}
 
@@ -62,7 +62,7 @@ Collaborationには、[!DNL Google Cloud Storage]の相互運用性の設定を�
 
 [!DNL Snowflake Batch]は、ファイルを顧客管理ストレージに書き出す代わりに、[!DNL Snowflake] データ共有を使用します。 Collaborationでは、個別の認証手順はありません。 宛先の作成時に、Snowflake アカウント ID、リージョン、プライベートリンクのステータス、アカウントの所有権の確認を入力します。
 
-アカウントの準備とプライベートリストの要件については、[[!DNL Snowflake Batch] 宛先ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/warehouse/snowflake-batch)を参照してください。
+アカウントの準備とプライベートリストの要件については、[[!DNL Snowflake Batch] 宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/warehouse/snowflake-batch)を参照してください。
 
 ### [!DNL Data Landing Zone] {#data-landing-zone}
 
