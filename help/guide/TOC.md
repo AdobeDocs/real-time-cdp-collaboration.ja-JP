@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
+source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 37%
+source-wordcount: '243'
+ht-degree: 35%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 37%
     * [オーディエンスソーシング用Databricks Delta Shareの設定](./setup/configure-databricks-audience-sourcing.md)
     * [オーディエンスソーシング用にAdobe Audience Managerを設定する](./setup/configure-aam-audience-sourcing.md)
   * [データ接続を管理](./setup/manage-data-connection.md)
-  * [宛先の設定と管理](./setup/manage-destinations.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
@@ -66,8 +65,9 @@ ht-degree: 37%
     * {hide-from-toc}[AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
 * 宛先 {#destinations}
   * [概要](/help/guide/destinations/overview.md)
-  * {hide-from-toc}[宛先の設定と管理](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [クラウドストレージの宛先の設定と管理](./destinations/manage-destinations.md)
+  * [クラウドストレージの宛先の要件](./destinations/cloud-storage-destination-requirements.md)
+  * [Adobe Experience Platformを宛先として設定](./destinations/experience-platform.md)
 * 権限 {#permissions}
   * [概要](/help/guide/permissions/overview.md)
   * [ユーザーアクセスの管理](./permissions/manage-user-access.md)

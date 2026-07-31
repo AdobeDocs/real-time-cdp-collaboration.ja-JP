@@ -9,10 +9,10 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 20%
+source-wordcount: 119
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaborationの「設定」セクションには、アカウントの設定と設定を管理するための一元化されたワークスペースが用意されています。 以下のガイドを使用して、アカウントの設定、オーディエンスのソース、データ接続の管理、宛先の設定、クレジット消費アクティビティのトラッキング方法を確認します。
+Adobe Real-Time CDP Collaborationの「設定」セクションには、アカウントの設定と設定を管理するための一元化されたワークスペースが用意されています。 アカウントの設定方法、オーディエンスの調達方法、データ接続の管理方法、クレジット消費量の追跡方法について、次のガイドでご確認ください。
 
 ![&#x200B; アカウントの設定ワークスペース。現在の設定の概要を表示します。](/help/assets/setup/overview.png){zoomable="yes"}
 
@@ -29,6 +29,5 @@ Adobe Real-Time CDP Collaborationの「設定」セクションには、アカ�
 * [アカウントの設定と管理](/help/guide/setup/onboard-account.md)
 * [Sourceとオーディエンスの管理](/help/guide/setup/onboard-audiences.md)
 * [データ接続を管理](/help/guide/setup/manage-data-connection.md)
-* [宛先の設定と管理](/help/guide/setup/manage-destinations.md)
 * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
 * [監査ログの表示](/help/guide/setup/audit-logs.md)

@@ -11,7 +11,7 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -29,11 +29,11 @@ Adobe Real-Time CDP Collaborationでは、選択した共同作業パターン�
 まず、次の重要な概念をしっかりと理解していることを確認してください。
 
 - **Collaboration パターン**：これらのパターンは、共同作業者の共同作業の方法を定義します。 5つの異なるパターンがあります。
-   - [広告主とパブリッシャー](./collaboration-patterns.md#advertiser-to-publisher)
-   - [ブランド間](./collaboration-patterns.md#brand-to-brand)
-   - [広告主とデータのパートナー](./collaboration-patterns.md#advertiser-to-data-partner)
-   - [agency-to-publisher](./collaboration-patterns.md#agency-to-publisher)
-   - [広告主と代理店のプラットフォーム](./collaboration-patterns.md#advertiser-to-agency-platform)
+  - [広告主とパブリッシャー](./collaboration-patterns.md#advertiser-to-publisher)
+  - [ブランド間](./collaboration-patterns.md#brand-to-brand)
+  - [広告主とデータのパートナー](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [agency-to-publisher](./collaboration-patterns.md#agency-to-publisher)
+  - [広告主と代理店のプラットフォーム](./collaboration-patterns.md#advertiser-to-agency-platform)
 - **アカウントの役割**: アカウントの役割によって、プラットフォーム内での機能が決まります。 作成するコンテンツは、組織の目標、ブランド、目的に合わせる必要があります。 アカウントには、[広告主](./roles.md#advertiser)、[発行者](./roles.md#publisher)、[代理店](./roles.md#agency)、[&#x200B; データパートナー](./roles.md#data-partner)の4つの役割があります。
 - **ユースケース**：ユースケースは、Collaborationを活用してマーケティング目標を達成する方法を定義します。 コラボレーションの使用例は3つあります：[Discover](./use-cases.md#discover)、[Activate](./use-cases.md#activate)、[Measure](./use-cases.md#measure)。
 
@@ -41,32 +41,32 @@ Adobe Real-Time CDP Collaborationでは、選択した共同作業パターン�
 
 - **[!UICONTROL Luma]**：スポーツ衣料ブランド。 ターゲットマーケティング施策を通じて特定のオーディエンスにリーチしたい広告主です。
 - **[!UICONTROL TV Tube]**: デジタルストリーミングプロバイダー。 広告主が使用するオーディエンスデータを提供するパブリッシャーです。
-- **[!UICONTROL Fit Apparel]**: Another athletic apparel brand. They are a second advertiser that wants to collaborate to share audience data and insights for enhanced marketing efforts.
-- **[!UICONTROL Agency99]**: A media agency. They manage multiple client accounts within their workspace, and connect with publishers and advertisers.
-- **[!UICONTROL DataM8]**: a third-party data provider. They provide audience data for use by advertisers.
-- **[!UICONTROL Holdco]**: an agency holding company marketing and advertising services platform that&#39;s used by internal agency teams to manage client campaigns.
+- **[!UICONTROL フィットアパレル]**：別のスポーツ衣料ブランド。 マーケティング活動を強化するために、オーディエンスデータとインサイトを共有するために連携したいと考えている、2番目の広告主です。
+- **[!UICONTROL Agency99]**: メディアエージェンシー。 同社は、ワークスペース内で複数の顧客アカウントを管理し、パブリッシャーや広告主とつながっています。
+- **[!UICONTROL DataM8]**：サードパーティのデータプロバイダー。 広告主が利用するためのオーディエンスデータを提供します。
+- **[!UICONTROL Holdco]**：社内の代理店チームがクライアントキャンペーンを管理するために使用する、マーケティングおよび広告サービスプラットフォームを保有する代理店。
 
-## Advertiser-to-publisher workflow {#advertiser-to-publisher-workflow}
+## 広告主とパブリッシャーのワークフロー {#advertiser-to-publisher-workflow}
 
-[!UICONTROL Luma], an athletic retail company, wants to form a connection with [!UICONTROL TV Tube], a digital streaming provider, to reach specific audiences through targeted marketing campaigns.
+スポーツ小売企業の[!UICONTROL Luma]は、デジタルストリーミングプロバイダーの[!UICONTROL TV Tube]とつながり、ターゲットマーケティングキャンペーンを通じて特定のオーディエンスにリーチしたいと考えています。
 
-To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL TV Tube] creates an account with the publisher role.
+開始するには、[!UICONTROL Luma]が[広告主の役割でアカウント &#x200B;](../setup/onboard-account.md)を作成し、[!UICONTROL TV Tube]がパブリッシャーの役割でアカウントを作成する必要があります。
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
+アカウントを設定した後、[!UICONTROL Luma]と[!UICONTROL TV Tube]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 マーケティングキャンペーン用にオーディエンスをアクティブ化するのは[!UICONTROL TV Tube]のみなので、[宛先を設定](../destinations/manage-destinations.md)する必要があります。
 
-Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
+両方の共同作業者がアカウントを設定したら、プラットフォーム内で[接続を形成する](../connect/establishing-connections.md)準備が整います。 [!UICONTROL Luma]は、[共同作業者の検索](../connect/discover-collaborators.md)機能を使用して[!UICONTROL TV Tube]を検索し、接続リクエストを開始します。 [!UICONTROL TV Tube]が接続要求を受け入れた後、[!UICONTROL Luma]は接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL TV Tube]は、2つのブランド間の安全なリンクを確立するための接続要求を受け入れました。
 
-After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
+接続が確立されると、[!UICONTROL Luma] [はプロジェクト &#x200B;](../collaborate/manage-projects.md)を作成し、[!UICONTROL TV Tube]との共同作業を開始します。 プロジェクトのセットアップ中に、目的に最適なコラボレーションユースケースを選択します：[見つける](../collaborate/discover.md)、[&#x200B; アクティブ化](../collaborate/activate.md)、[測定](../collaborate/measure.md)。
 
-[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [Activate](../collaborate/activate.md) these audiences.
+[!UICONTROL Luma]は、[Discover](../collaborate/discover.md)のユースケースを活用して、[!UICONTROL TV Tube]のオーディエンスデータに関するインサイトを得ます。 [!UICONTROL Luma]がターゲットオーディエンスセグメントを特定すると、これらのオーディエンスを[&#x200B; アクティブ化](../collaborate/activate.md)します。
 
-After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [Measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign.
+オーディエンスをアクティベートした後、[!UICONTROL TV Tube]がターゲットマーケティング施策を実行し、データを[Measure](../collaborate/measure.md)にアップロードして、施策の効果を評価します。
 
-## Brand-to-brand workflow {#brand-to-brand-workflow}
+## ブランド間ワークフロー {#brand-to-brand-workflow}
 
-[!UICONTROL Fit Apparel], an athletic apparel brand, wants to collaborate with [!UICONTROL Luma], another athletic apparel brand, to share audience data and insights for enhanced marketing efforts.
+アスレティックアパレルブランドの[!UICONTROL Fit Apparel]は、別のアスレティックアパレルブランドの[!UICONTROL Luma]と協力して、オーディエンスデータとインサイトを共有し、マーケティング活動を強化したいと考えています。
 
-After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] need to [create a data connection and source audiences](../setup/onboard-audiences.md). Both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] will activate audiences for marketing campaigns, so they both need to [configure a destination](../setup/manage-destinations.md).
+アカウントを設定した後、[!UICONTROL Fit Apparel]と[!UICONTROL Luma]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 [!UICONTROL Fit Apparel]と[!UICONTROL Luma]の両方がマーケティングキャンペーンのオーディエンスをアクティブ化するため、両方で[宛先を設定](../destinations/manage-destinations.md)する必要があります。
 
 オーディエンスをソーシングした後、[!UICONTROL Fit Apparel]と[!UICONTROL Luma] [は、プラットフォーム内で接続](../connect/establishing-connections.md)を形成して、オーディエンスデータを安全に共有します。 そのためには、[&#x200B; プライベート接続の招待](../connect/establishing-connections.md#private-connection-invite)機能を利用する必要があります。 [!UICONTROL Luma]は接続コードを[!UICONTROL Fit Apparel]と共有し、その後、接続コードを使用して接続要求を開始します。 [!UICONTROL Luma]が接続要求を受け入れた後、[!UICONTROL Fit Apparel]は接続設定を設定して、共同作業の方法を定義します。 設定では、[!UICONTROL Fit Apparel]は、両方の共同作業者がマーケティングキャンペーン用にオーディエンスをアクティブ化できることを指定します。 接続を完了するために、[!UICONTROL Luma]は2つのブランド間の安全なリンクを確立するリクエストを受け入れます。
 
@@ -80,7 +80,7 @@ After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL
 
 [!DNL AMC]のID解決とターゲティングツールを活用してマーケティング機能を向上させるために、[!DNL Amazon Marketing Cloud] （[!DNL AMC]）と連携したいと考えているスポーツ用小売り企業[!UICONTROL Luma]です。 Lumaは既にアクティブな[!DNL Amazon Advertising] アカウントを持っており、[!DNL AMC]の使用が承認されています。
 
-開始するには、[!UICONTROL Luma]が広告主の役割を持つアカウント [&#128279;](../setup/onboard-account.md)を作成する必要があります。 アカウントを確立した後、[!UICONTROL Luma]は[&#x200B; データ接続とソースオーディエンス &#x200B;](../setup/onboard-audiences.md)を作成する必要があります。 [!UICONTROL Luma]はマーケティングキャンペーン用にオーディエンスをアクティブ化するので、[宛先を設定](../setup/manage-destinations.md)する必要があります。
+開始するには、[!UICONTROL Luma]が広告主の役割を持つアカウント [&#128279;](../setup/onboard-account.md)を作成する必要があります。 アカウントを確立した後、[!UICONTROL Luma]は[&#x200B; データ接続とソースオーディエンス &#x200B;](../setup/onboard-audiences.md)を作成する必要があります。 [!UICONTROL Luma]はマーケティングキャンペーン用にオーディエンスをアクティブ化するので、[宛先を設定](../destinations/manage-destinations.md)する必要があります。
 
 [!UICONTROL Luma]がアカウントを設定したら、プラットフォーム内で[!DNL AMC]との接続[&#128279;](../connect/establishing-connections.md)を形成する準備が整います。 [!UICONTROL Luma]は、[共同作業者を見つける](../connect/discover-collaborators.md)機能を使用して、[!UICONTROL Amazon Marketing Cloud]および[接続リクエストを開始](../connect/advertising-platforms/amc.md)します。 [!DNL Amazon] サインインページを介して接続を認証および承認した後、[!DNL AMC]との接続が確立されます。
 
@@ -94,7 +94,7 @@ After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL
 
 開始するには、[!UICONTROL Luma]が[広告主の役割でアカウント &#x200B;](../setup/onboard-account.md)を作成し、[!UICONTROL DataM8]がデータパートナーの役割でアカウントを作成する必要があります。
 
-アカウントを確立した後、[!UICONTROL Luma]と[!UICONTROL DataM8]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 両方の共同作業者は、マーケティングキャンペーンのオーディエンスをアクティブ化できるため、それぞれ[宛先を設定](../setup/manage-destinations.md)する必要があります。
+アカウントを確立した後、[!UICONTROL Luma]と[!UICONTROL DataM8]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 両方の共同作業者は、マーケティングキャンペーンのオーディエンスをアクティブ化できるため、それぞれ[宛先を設定](../destinations/manage-destinations.md)する必要があります。
 
 両方の共同作業者がアカウントを設定したら、プラットフォーム内で[接続を形成する](../connect/establishing-connections.md)準備が整います。 [!UICONTROL Luma]は、[共同作業者の検索](../collaborate/discover.md)機能を使用して[!UICONTROL DataM8]を検索し、接続要求を開始します。 [!UICONTROL DataM8]が接続要求を受け入れた後、[!UICONTROL Luma]は接続設定を設定して、共同作業の方法を定義します。 [!UICONTROL DataM8]は、2人の共同作業者の間に安全なリンクを確立するための接続要求を受け入れました。
 
@@ -110,7 +110,7 @@ After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL
 
 開始するには、[!UICONTROL Agency99]が[&#x200B; エージェンシーの役割でアカウント &#x200B;](../setup/onboard-account.md)を作成し、[!UICONTROL TV Tube]がパブリッシャーの役割でアカウントを作成する必要があります。
 
-アカウントを設定した後、[!UICONTROL Agency99]と[!UICONTROL TV Tube]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 [!UICONTROL Agency99]は、ワークスペース内でクライアント サブアカウントとソース クライアント データを設定します。 マーケティングキャンペーン用にオーディエンスをアクティブ化するのは[!UICONTROL TV Tube]のみなので、[宛先を設定](../setup/manage-destinations.md)する必要があります。
+アカウントを設定した後、[!UICONTROL Agency99]と[!UICONTROL TV Tube]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 [!UICONTROL Agency99]は、ワークスペース内でクライアント サブアカウントとソース クライアント データを設定します。 マーケティングキャンペーン用にオーディエンスをアクティブ化するのは[!UICONTROL TV Tube]のみなので、[宛先を設定](../destinations/manage-destinations.md)する必要があります。
 
 両方の共同作業者がアカウントを設定したら、プラットフォーム内で[接続を形成する](../connect/establishing-connections.md)準備が整います。 [!UICONTROL Agency99]は、[共同作業者の検索](../collaborate/discover.md)機能を使用して[!UICONTROL TV Tube]を検索し、接続要求を開始します。 [!UICONTROL Agency99]は、[!UICONTROL TV Tube]と共同作業を行う1人または複数のクライアントに対してこれを行います。 [!UICONTROL TV Tube]が接続要求を受け入れた後、[!UICONTROL Agency99]は接続設定を設定して、各コラボレーション方法を定義します。 [!UICONTROL TV Tube]は、2つのブランド間の安全なリンクを確立するための接続要求を受け入れました。
 
@@ -126,7 +126,7 @@ After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL
 
 開始するには、[!UICONTROL Luma]が[広告主の役割でアカウント &#x200B;](../setup/onboard-account.md)を作成し、[!UICONTROL Holdco]が代理店の役割でアカウントを作成する必要があります。 
 
-アカウントを確立した後、[!UICONTROL Luma]と[!UICONTROL Holdco]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 両方の共同作業者は、マーケティングキャンペーンのオーディエンスをアクティブ化できるため、それぞれ[宛先を設定](../setup/manage-destinations.md)する必要があります。 
+アカウントを確立した後、[!UICONTROL Luma]と[!UICONTROL Holdco]の両方が[&#x200B; データ接続とソースオーディエンスを作成する必要があります](../setup/onboard-audiences.md)。 両方の共同作業者は、マーケティングキャンペーンのオーディエンスをアクティブ化できるため、それぞれ[宛先を設定](../destinations/manage-destinations.md)する必要があります。 
 
 両方の共同作業者がアカウントを設定したら、プラットフォーム内で[接続を形成する](../connect/establishing-connections.md)準備が整います。 [!UICONTROL Luma]は、[共同作業者の検索](../collaborate/discover.md)機能を使用して、[!UICONTROL Holdco]を検索し、接続要求を開始します。 [!UICONTROL Holdco]が接続要求を受け入れた後、[!UICONTROL Luma]は接続設定を設定して、共同作業の方法を定義します。
 

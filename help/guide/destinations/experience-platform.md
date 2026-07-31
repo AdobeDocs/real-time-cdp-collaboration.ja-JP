@@ -12,18 +12,18 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1548
 ht-degree: 14%
 
 ---
 
 # Adobe Experience Platformを宛先として設定
 
-{{limited-availability-release-note}}
-
 この宛先を設定して、プロジェクトからAdobe Experience Platformにオーディエンスをアクティブ化します。 Adobe Experience Platformでオーディエンスをアクティベートすることで、様々なマーケティングチャネルをまたいでオーディエンスをセグメンテーション、分析、アクティベーションするためのAdobe Marketo Engageの機能を活用できます。 Adobe Experience Platformについて詳しくは、[Experience Platformの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home){target="_blank"}を参照してください。
+
+Adobe Experience Platformでは、[&#x200B; クラウドストレージの宛先の設定と管理](./manage-destinations.md)で説明されているクラウドストレージの宛先ワークフローとは異なる、宛先固有の設定ワークフローを使用します。
 
 >[!WARNING]
 >
@@ -31,13 +31,11 @@ ht-degree: 14%
 
 ## 宛先の設定 {#configure-destination}
 
-Adobe Experience Platformを宛先として設定するには、**[!UICONTROL セットアップ]**&#x200B;に移動し、「**[!UICONTROL My destinations]**」タブを選択します。 「**[!UICONTROL Adobe Experience Platform用に設定]**」を選択します。
+Adobe Experience Platformを宛先として設定するには、**[!UICONTROL アクティベーション]** ワークスペースに移動し、「**[!UICONTROL カタログ]**」タブを選択し、「**[!UICONTROL Adobe Experience Platform用に設定]**」を選択します。
 
-![Adobe Experience Platformの宛先に対して「設定」オプションが強調表示されたMy destinations ワークスペース。](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![Adobe Experience Platform カードがハイライト表示された宛先プロバイダーカードを表示する「カタログ」タブ。](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 **[!UICONTROL 宛先の作成]** ワークフローが表示されます。
-
-![Adobe Experience Platformの宛先を作成ワークフロー。](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### サンドボックスの設定 {#configure-sandbox}
 
@@ -126,7 +124,7 @@ Retailerは、Experience Platformにアクティベートされているデー�
 
 >[!NOTE]
 >
->アクティベーションマッピングごとに、1つのリンクされたキーターゲット名前空間のみを使用できます。 例えば、ハッシュ化されたIDをCRM IDにリンクする場合、別のフィールドの「リンクされたキー」オプションを切り替えると、CRM IDにもリンクされます。
+>アクティベーションマッピングごとに1つのリンクされたキーターゲット名前空間のみを使用できます。 例えば、ハッシュ化されたIDをCRM IDにリンクする場合、別のフィールドの「リンクされたキー」オプションを切り替えると、CRM IDにもリンクされます。
 
 すべての一致キーのマッピングが完了したら、設定を確認します。 「**[!UICONTROL プレビュー]**」セクションには、設定の概要が表示されます。
 
@@ -144,9 +142,9 @@ Experience Platformを宛先として設定したら、プロジェクトを通�
 
 >[!IMPORTANT]
 >
->共同作業者がオーディエンスをアクティブ化する&#x200B;*前に、**Experience Platformを宛先*として設定する必要があります**。 宛先が設定されていない場合、オーディエンスは送信され、プロジェクト内の「**[!UICONTROL アクティブ化]**」タブに表示されますが、Experience Platformにはアクティブ化されません。
+>共同作業者がオーディエンスをアクティブ化する&#x200B;*前に、**Experience Platformを宛先*として設定する必要があります**。 宛先が設定されていない場合、オーディエンスは自分に送信され、プロジェクトレベルの「**[!UICONTROL アクティブ化]**」タブに表示されますが、Experience Platformにはアクティブ化されません。
 
-オーディエンスがアクティブ化されると、Real-Time CDP CollaborationをオリジンとしてExperience Platformの[&#x200B; オーディエンスポータル &#x200B;](#audience-portal)で利用できるようになります。  これらのオーディエンスは、施策や顧客エンゲージメントに活用できます。
+オーディエンスがアクティブ化されると、Real-Time CDP CollaborationをオリジンとしてExperience Platformの[&#x200B; オーディエンスポータル &#x200B;](#audience-portal)で利用できるようになります。 これらのオーディエンスは、施策や顧客エンゲージメントに活用できます。
 
 ### オーディエンスポータル {#audience-portal}
 

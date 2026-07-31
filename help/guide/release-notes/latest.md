@@ -15,7 +15,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
+source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
 workflow-type: tm+mt
 source-wordcount: 1968
 ht-degree: 3%
@@ -123,7 +123,7 @@ Real-Time CDP Collaborationは、**カナダ**&#x200B;のお客様が利用で�
 Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーションをサポートするようになりました。 共同作業者は、広告主かパブリッシャーかに関係なく、接続を形成できるようになりました。 これにより、より柔軟なコラボレーション機会が可能になり、互いのデータとインサイトを活用できるようになります。 ブランド間の共同作業と広告主とパブリッシャー間の共同作業の違いについて詳しくは、[共同作業パターン &#x200B;](../overview/collaboration-patterns.md) ガイドを参照してください。
 
 * 共同作業者は、[&#x200B; プライベート接続の招待](../connect/establishing-connections.md#private-connection-invites)を使用して互いに接続できるようになりました。 アカウントの一意の接続コードを共同作業者と共有すると、共同作業者がそれを使用して直接接続できます。 これは、ブランド間のコラボレーションの主な機能であり、共同作業者は、**[!UICONTROL 共同作業者を見つける]** ディレクトリを探索する広告主の枠を超えてつながりを確立できます。
-* [&#x200B; セルフサービスの宛先](../setup/manage-destinations.md)が、広告主とパブリッシャーの両方で利用できるようになりました。
+* [&#x200B; セルフサービスの宛先](../destinations/overview.md)が、広告主とパブリッシャーの両方で利用できるようになりました。
 * オーディエンスのアクティブ化は、アカウントの役割[に関係なく、接続の両方の共同作業者に対して利用できるようになりました。 &#x200B;](../overview/roles.md)オーディエンスのアクティブ化の設定は、[接続の確立中](../connect/establishing-connections.md#configure-connection-settings)に設定され、どの共同作業者がオーディエンスをアクティブ化できるかを指定できます。 オーディエンスのアクティベーションについて詳しくは、[&#x200B; オーディエンスのアクティベーション &#x200B;](../collaborate/activate.md) ガイドを参照してください。
 * ブランド間のコラボレーションをサポートするために、**[!UICONTROL Activate]**&#x200B;のユースケースが再構成されました。 プロジェクト内の「**[!UICONTROL アクティブ化]**」タブに、共同作業者に送信されたオーディエンスと、共同作業者によって宛先にアクティブ化されたオーディエンスが表示されるようになりました。 詳しくは、[&#x200B; オーディエンスのアクティベーション &#x200B;](../collaborate/activate.md) ガイドを参照してください。<br> ![&#x200B; オーディエンスが送信済みおよびオーディエンスがアクティブ化されたセクションを含むアクティブ化ダッシュボード。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * オーディエンスインデックススコアが、プロジェクトの「**[!UICONTROL もっと知る]**」タブで利用できるようになりました。 オーディエンスインデックススコアは、オーディエンスが共同作業者のオーディエンスにどの程度合致しているのかを示す指標です。 このスコアは、基礎となるオーディエンスサイズと重複にもとづいて計算されます。 オーディエンスインデックススコアについて詳しくは、[&#x200B; オーディエンスインデックススコア &#x200B;](../collaborate/discover.md#audience-index-score) ガイドを参照してください。
@@ -131,7 +131,7 @@ Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーショ�
 ## 2025年5月 {#may-2025}
 
 * Real-Time CDP Collaborationは、**オーストラリア**&#x200B;および&#x200B;**ニュージーランド**&#x200B;のお客様が利用できるようになりました。 Real-Time CDP PrimeおよびUltimateのお客様は、これらのリージョンで自動的に利用できます。
-* Real-Time CDP Collaborationでは、**[!UICONTROL セットアップ]** セクションの「**[!UICONTROL 自分の宛先]**」タブを通じて[&#x200B; セルフサービスの宛先](../setup/manage-destinations.md)を提供するようになりました。 配信先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化し、様々なチャネルで顧客にリーチできます。 現在、サポートされているのはAdobe Experience Platformの宛先のみです。 別の目的地の設定をご希望の場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
+* Real-Time CDP Collaborationでは、**[!UICONTROL セットアップ]** セクションの「**[!UICONTROL 自分の宛先]**」タブを通じて[&#x200B; セルフサービスの宛先](../destinations/overview.md)を提供するようになりました。 配信先を使用すると、広告ネットワークやデータ管理プラットフォームなどのサードパーティプラットフォームでオーディエンスをアクティブ化し、様々なチャネルで顧客にリーチできます。 現在、サポートされているのはAdobe Experience Platformの宛先のみです。 別の目的地の設定をご希望の場合は、Adobe担当者にお問い合わせください。 宛先について詳しくは、[宛先の概要](../destinations/overview.md) ガイドを参照してください。
   * 宛先では、[Collaboration オーディエンスポータル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)でAdobe Experience Platform オーディエンスを表示するためのサポートも追加されています。
 * Collaborationの既存のデータ接続のオーディエンス更新頻度を編集できるようになりました。 現在は、毎日、または2～6日ごとにオーディエンスを更新することができます。 オーディエンスの更新頻度を編集する方法について詳しくは、[&#x200B; データ接続の管理](../setup/manage-data-connection.md#scheduling) ガイドを参照してください。
 * 共同作業者のクレジット分割は、接続内で選択した各ユースケースに対して設定されるようになりました。 ユースケースごとに異なるクレジット消費ルールを設定することで、クレジットの使用方法をより適切に制御できます。 クレジット分割機能について詳しくは、[接続設定](../connect/establishing-connections.md#connection-settings) ガイドを参照してください。 クレジットの利用方法について詳しくは、[&#x200B; クレジットアクティビティタイプ &#x200B;](../setup/my-activity.md#types-of-activities) ガイドを参照してください。<br> ![&#x200B; クレジット分割機能を表示する接続設定画面。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
