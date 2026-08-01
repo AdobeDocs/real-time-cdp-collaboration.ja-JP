@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
+source-wordcount: 2054
 ht-degree: 3%
 
 ---
@@ -32,13 +32,15 @@ ht-degree: 3%
 
 ## 2026年7月 {#july-2026}
 
-Real-Time CDP Collaborationでは、追加のセルフサービスのオーディエンスソーシングオプションをサポートするようになりました。
+Real-Time CDP Collaborationでは、簡単なアクティベーションおよび宛先設定ワークフローに加えて、追加のセルフサービスのオーディエンスソーシングオプションがサポートされるようになりました。
 
 **新機能または更新された機能**
 
 | 機能 | 説明 |
 | ------- | ----------- |
 | [!DNL Databricks Delta Share]およびAdobe Audience Managerからのセルフサービスのオーディエンスのソーシング | [!DNL Databricks Delta Share]から直接1st パーティオーディエンスを取得したり、適格なAdobe Audience Manager セグメントをCollaborationに取り込んだりできるようになりました。 設定の手順については、次のガイドを参照してください。 <ul><li>オーディエンスソーシング用[設定 [!DNL Databricks Delta Share] &#x200B;](../setup/configure-databricks-audience-sourcing.md)</li><li>[&#x200B; オーディエンスソーシング用にAdobe Audience Managerを設定](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| 受信したオーディエンスの手動でのアクティブ化 | 共同作業者から受信したオーディエンスを手動で設定された宛先にアクティベートし、アクティベーションの実行時間を選択できるようになりました。 これにより、受信者はオーディエンスの配信をより詳細に制御できます。 詳細な手順については、[&#x200B; オーディエンスのアクティベーション &#x200B;](../collaborate/activate.md)を参照してください。 |
+| セルフサービスのクラウドストレージ宛先 | アクティベーションワークスペースから直接、サポートされているクラウドストレージの宛先を設定および管理し、それを使用して受信オーディエンスをアクティベートできるようになりました。 設定手順については、[&#x200B; クラウドストレージの宛先の設定と管理](../destinations/manage-destinations.md)を参照してください。 |
 
 {style="table-layout:auto"}
 
