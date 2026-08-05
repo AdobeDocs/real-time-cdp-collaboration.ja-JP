@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
 source-wordcount: 2132
@@ -21,17 +25,17 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Discover]** ワークスペースは、接続プロセス ](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンス検出**&#x200B;のユースケースが[有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[ プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
+>**[!UICONTROL Discover]** ワークスペースは、接続プロセス [&#128279;](../connect/establishing-connections.md#connection-settings)中に&#x200B;**オーディエンス検出**&#x200B;のユースケースが有効になった場合にのみ使用できます。 ユースケースについて詳しくは、[&#x200B; プロジェクトの管理](./manage-projects.md#project-use-cases) ガイドを参照してください。
 
 プロジェクトを[作成](/help/guide/collaborate/manage-projects.md)した後、共同作業者とオーディエンスを比較できます。 これにより、施策に関連するオーディエンスを特定し、どのオーディエンスを共同作業者に送信して活用するかを決定することができます。
 
 >[!IMPORTANT]
 >
->更新または更新されていない[ データスケッチ ](/help/guide/glossary.md#sketches)は、7日後に削除されます。 この場合、このページの様々な重複レポートに表示される数値はゼロになり、これらの期限切れのオーディエンスに対してオーディエンスの共有が使用できなくなります。 データ スケッチは、[ アクティブな更新スケジュール ](/help/guide/setup/onboard-audiences.md#schedule)を持つオーディエンスに対して自動的に更新されます。
+>更新または更新されていない[&#x200B; データスケッチ &#x200B;](/help/guide/glossary.md#sketches)は、7日後に削除されます。 この場合、このページの様々な重複レポートに表示される数値はゼロになり、これらの期限切れのオーディエンスに対してオーディエンスの共有が使用できなくなります。 データ スケッチは、[&#x200B; アクティブな更新スケジュール &#x200B;](/help/guide/setup/onboard-audiences.md#schedule)を持つオーディエンスに対して自動的に更新されます。
 
-オーディエンスの検索と比較に使用される照合キーは、接続プロセス ](/help/guide/connect/establishing-connections.md#connection-settings)中に[設定されます。 マッチキーは、オーディエンス間の重複を計算するために使用され、オンとオフを切り替えることができます。 一致キーを編集するには、**[!UICONTROL 一致キーを編集]** オプションを選択します。
+オーディエンスの検索と比較に使用される照合キーは、接続プロセス [&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)中に設定されます。 マッチキーは、オーディエンス間の重複を計算するために使用され、オンとオフを切り替えることができます。 一致キーを編集するには、**[!UICONTROL 一致キーを編集]** オプションを選択します。
 
-![ オーディエンスインサイトを表示する「発見」タブのワークスペース。](/help/assets/collaborate/discover/discover-overview.png)
+![&#x200B; オーディエンスインサイトを表示する「発見」タブのワークスペース。](/help/assets/collaborate/discover/discover-overview.png)
 
 **[!UICONTROL 一致キーを編集]** ダイアログが開き、使用しない一致キーを切り替えることができます。 **[!UICONTROL 保存]**&#x200B;を選択して、変更を保存します。
 
@@ -41,9 +45,9 @@ ht-degree: 16%
 
 プロジェクト内で「**[!UICONTROL もっと知る]**」タブの使用を開始するには、次の操作を行う必要があります。
 
-* アカウントに[ ソースオーディエンス ](/help/guide/setup/onboard-audiences.md)
-* [ オーディエンスの発見&#x200B;**のユースケースが有効になっている共同作業者を](/help/guide/connect/establishing-connections.md)に接続しました**
-* [自分と共同作業者の間でプロジェクト ](/help/guide/collaborate/manage-projects.md)を作成しました
+* アカウントに[&#x200B; ソースオーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)
+* [&#x200B; オーディエンスの発見&#x200B;**のユースケースが有効になっている共同作業者を](/help/guide/connect/establishing-connections.md)に接続しました**
+* [自分と共同作業者の間でプロジェクト &#x200B;](/help/guide/collaborate/manage-projects.md)を作成しました
 
 これらの前提条件が満たされると、共同作業者のオーディエンスとの重複の調査と比較を開始できます。
 
@@ -84,7 +88,7 @@ ht-degree: 16%
 
 「オーディエンスを比較」セクションを使用して、自社と共同作業者のオーディエンスの重複に関する詳細な情報を取得します。 オーディエンスの選択を変更するには、**[!UICONTROL オーディエンスの比較]** セクションの上部にあるドロップダウンセレクターを使用します。 オーディエンスの1つまたは全部と、共同作業者の1つまたは全部のオーディエンスを選択して、比較できます。
 
-![ オーディエンスの比較セクションでオーディエンスセレクターが強調表示された検索ワークスペース。](/help/assets/collaborate/discover/compare-audiences-selector.png)
+![&#x200B; オーディエンスの比較セクションでオーディエンスセレクターが強調表示された検索ワークスペース。](/help/assets/collaborate/discover/compare-audiences-selector.png)
 
 
 
@@ -96,14 +100,14 @@ ht-degree: 16%
 | **[!UICONTROL ID数]** （共同作業者） | 共同作業者のオーディエンス内の一意のIDの数。 |
 | **[!UICONTROL 重複するID]** | ユーザーと共同作業者の両方のオーディエンスに存在する一意のIDの数。 |
 | **[!UICONTROL 重複%]** | ユーザーと共同作業者の選択したオーディエンス間でプロファイルが重複している割合。 |
-| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[ オーディエンスインデックススコア ](#audience-index-score)」の節を参照してください。 共同作業者のベースライン（すべてのオーディエンス）と比較する場合、オーディエンスインデックススコアは使用できません。 |
+| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[&#x200B; オーディエンスインデックススコア &#x200B;](#audience-index-score)」の節を参照してください。 共同作業者のベースライン（すべてのオーディエンス）と比較する場合、オーディエンスインデックススコアは使用できません。 |
 | **[!UICONTROL 一致キーによるIDの分類]** | 各共同作業者の選択オーディエンスに基づいて、プロジェクトで選択された各一致キーに一致するIDの内訳。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->重複パーセンテージの数値とオーディエンスインデックススコアは、すべてのオーディエンスが常に利用できるとは限りません。 重複率とオーディエンスインデックススコアの表示は、共同作業者が[ メタデータの表示セクション ](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。
+>重複パーセンテージの数値とオーディエンスインデックススコアは、すべてのオーディエンスが常に利用できるとは限りません。 重複率とオーディエンスインデックススコアの表示は、共同作業者が[&#x200B; メタデータの表示セクション &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。
 
 共同作業者がオーディエンスインデックスまたは重複率を有効にしていない場合、オーディエンスには利用可能な比較データはありません。
 
@@ -120,7 +124,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->共同作業者のオーディエンスの表示は、共同作業者が[接続アクセス セクション ](/help/guide/setup/onboard-audiences.md#connection-access)および[ メタデータ表示セクション ](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。 共同作業者がすべてのオーディエンスを非公開に設定している場合、このセクションにはオーディエンスは表示されません。
+>共同作業者のオーディエンスの表示は、共同作業者が[接続アクセス セクション &#x200B;](/help/guide/setup/onboard-audiences.md#connection-access)および[&#x200B; メタデータ表示セクション &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。 共同作業者がすべてのオーディエンスを非公開に設定している場合、このセクションにはオーディエンスは表示されません。
 
 **[!UICONTROL 関連オーディエンス]** セクションには、推奨オーディエンスごとに次の情報が表示されます。
 
@@ -129,7 +133,7 @@ ht-degree: 16%
 | **[!UICONTROL ID数]** | オーディエンス内の一意のIDの数。 |
 | **[!UICONTROL 重複するID]** | 推奨オーディエンスとすべてのオーディエンス間で重複する一意のIDの数。 |
 | **[!UICONTROL 重複%]** | 推奨オーディエンスとすべてのオーディエンス間の重複IDの割合。 |
-| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[ オーディエンスインデックススコア ](#audience-index-score)」の節を参照してください。 |
+| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[&#x200B; オーディエンスインデックススコア &#x200B;](#audience-index-score)」の節を参照してください。 |
 | **[!UICONTROL オーディエンスカテゴリ]** | 共同作業者がオーディエンスに割り当てたカテゴリ。 |
 | **[!UICONTROL キーの一致]** | 共同作業者がオーディエンス用に選択した照合キー。 |
 
@@ -150,13 +154,13 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->共同作業者のオーディエンスの表示は、共同作業者が[接続アクセス セクション ](/help/guide/setup/onboard-audiences.md#connection-access)および[ メタデータ表示セクション ](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。 共同作業者がすべてのオーディエンスを非公開に設定している場合、このセクションにはオーディエンスは表示されません。
+>共同作業者のオーディエンスの表示は、共同作業者が[接続アクセス セクション &#x200B;](/help/guide/setup/onboard-audiences.md#connection-access)および[&#x200B; メタデータ表示セクション &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility)でオーディエンスに対して選択した設定によって異なります。 共同作業者がすべてのオーディエンスを非公開に設定している場合、このセクションにはオーディエンスは表示されません。
 
 共同作業者がオーディエンスインデックスまたは重複率を有効にしていない場合、オーディエンスは表示されません。
 
 オーディエンスの選択を変更するには、**[!UICONTROL オーディエンスの変更]**&#x200B;を選択します。
 
-![ 「オーディエンスを変更」オプションが強調表示された「見つける」ワークスペース。](/help/assets/collaborate/discover/change-audience.png)
+![&#x200B; 「オーディエンスを変更」オプションが強調表示された「見つける」ワークスペース。](/help/assets/collaborate/discover/change-audience.png)
 
 **[!UICONTROL オーディエンスの変更]** ダイアログが開き、特定のオーディエンスを選択して共同作業者のオーディエンスと比較できます。 目的のオーディエンスを選択するか、選択範囲をクリアしてすべてのオーディエンスを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
@@ -169,7 +173,7 @@ ht-degree: 16%
 | **[!UICONTROL ID数]** | オーディエンス内の一意のIDの数。 |
 | **[!UICONTROL 重複するID]** | 推奨オーディエンスとすべてのオーディエンス間で重複する一意のIDの数。 |
 | **[!UICONTROL 重複%]** | 推奨オーディエンスとすべてのオーディエンス間の重複IDの割合。 |
-| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[ オーディエンスインデックススコア ](#audience-index-score)」の節を参照してください。 |
+| **[!UICONTROL オーディエンスインデックス]** | スコアは、基礎となるオーディエンスサイズと重複にもとづいて、あるオーディエンスが別のオーディエンスとどの程度強く関連しているかを示します。 スコアの意味について詳しくは、「[&#x200B; オーディエンスインデックススコア &#x200B;](#audience-index-score)」の節を参照してください。 |
 | **[!UICONTROL オーディエンスカテゴリ]** | 共同作業者がオーディエンスに割り当てたカテゴリ。 |
 | **[!UICONTROL キーの一致]** | 共同作業者がオーディエンス用に選択した照合キー。 |
 
@@ -224,4 +228,4 @@ ht-degree: 16%
 
 ## 次の手順
 
-目的のオーディエンスを探索して見つけたら、キャンペーンで使用するオーディエンスを[ アクティブ化](/help/guide/collaborate/activate.md)します。
+目的のオーディエンスを探索して見つけたら、キャンペーンで使用するオーディエンスを[&#x200B; アクティブ化](/help/guide/collaborate/activate.md)します。
