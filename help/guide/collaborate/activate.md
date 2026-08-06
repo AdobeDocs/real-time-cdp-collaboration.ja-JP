@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 2%
 ![&#x200B; オーディエンスが送信されていない場合のプロジェクトレベルの「アクティブ化」タブ。 空の表示メッセージは、オーディエンスを送信していないことを説明し、「オーディエンスを送信」ボタンを表示します。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 「**[!UICONTROL オーディエンスを送信]**」ワークフローが開きます。 オーディエンスセレクターを使用してオーディエンスを検索するか、**[!UICONTROL オーディエンスを参照]**&#x200B;を選択して使用可能なオーディエンスを比較します。
+
+>[!IMPORTANT]
+>
+>アクティブ化できるのは、重複IDが1,000を超えるオーディエンスのみです。 オーディエンスの重複が1000 IDのしきい値に近い場合、アクティベーションが失敗する可能性があります。
 
 ![&#x200B; オーディエンスセレクターと「オーディエンスを参照」ボタンを使用したオーディエンス送信ワークフロー。 このワークフローを使用すると、送信者は一致キーとアクセス設定を設定する前にオーディエンスを選択できます。](/help/assets/collaborate/activate/audience-activation.png)
 

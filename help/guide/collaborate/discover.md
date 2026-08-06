@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 17%
+source-wordcount: 2132
+ht-degree: 16%
 
 ---
 
@@ -51,6 +51,10 @@ ht-degree: 17%
 
 これらの前提条件が満たされると、共同作業者のオーディエンスとの重複の調査と比較を開始できます。
 
+>[!IMPORTANT]
+>
+>重複IDが1,000未満のオーディエンス比較では、結果は返されません。
+
 >[!NOTE]
 >
 >この&#x200B;**[!UICONTROL もっと知る]** ワークスペースは、広告プラットフォームとのコラボレーションには関係ありません。 現在、Amazon Marketing Cloudは、Real-Time CDP Collaborationで唯一の利用可能な広告プラットフォームです。 [!DNL AMC] **[!UICONTROL もっと知る]** ワークスペースについて詳しくは、[Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) ガイドを参照してください。
@@ -85,6 +89,8 @@ ht-degree: 17%
 「オーディエンスを比較」セクションを使用して、自社と共同作業者のオーディエンスの重複に関する詳細な情報を取得します。 オーディエンスの選択を変更するには、**[!UICONTROL オーディエンスの比較]** セクションの上部にあるドロップダウンセレクターを使用します。 オーディエンスの1つまたは全部と、共同作業者の1つまたは全部のオーディエンスを選択して、比較できます。
 
 ![&#x200B; オーディエンスの比較セクションでオーディエンスセレクターが強調表示された検索ワークスペース。](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 「オーディエンスを比較」セクションには、プロジェクトで自分と共同作業者が合意した照合キーに基づく次の指標が表示されます。
 
