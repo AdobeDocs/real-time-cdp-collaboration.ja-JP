@@ -4,25 +4,161 @@ description: Real-Time CDP CollaborationでAmazon Marketing Cloud キャンペ�
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud，測定レポート，キャンペーン概要，アトリビューション，Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hide: true
-exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
-source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 46%
+source-wordcount: '1574'
+ht-degree: 5%
 
 ---
 
+
 # [!DNL Amazon Marketing Cloud]測定レポートの作成 {#amc-measurement-reports}
 
-ドキュメントのこのセクションは現在開発中です。
+{{limited-availability-release-note}}
 
-詳細なガイダンスと実装情報については、後でもう一度ご確認ください。
+[!DNL Amazon Marketing Cloud] （[!DNL AMC]） プロジェクトの&#x200B;**[!UICONTROL Measure]** タブを使用して、オーディエンスのリーチ、頻度、コンバージョンの結果を確認します。 AMC プロジェクトを作成したら、[!DNL AMC] インスタンスで使用可能なデータを使用して、既に実行されているキャンペーンの測定レポートを作成します。
 
-## コンバージョンイベント（アトリビューションのみ） {#conversion-events}
+>[!IMPORTANT]
+>
+>バックグラウンド データの設定クエリが完了するまで、**[!UICONTROL Measure]** タブには「測定データは使用できません」と表示されます。 このプロセスには最大で24時間かかる場合があります。 メッセージが24時間後も持続する場合は、「[ トラブルシューティング ](#troubleshooting)」の節を参照してください。
+
+
+## レポートの作成 {#create-report}
+
+[!DNL AMC]測定レポートを作成するには、[ キャンペーン概要レポートの作成](../measure.md#create-campaign-summary-report-create-campaign-summary-report)の手順に従います。
+
+![広告主ID、キャンペーン ID ドロップダウン、レポート日付範囲、レポート実行日、レポート名、レポートタイプフィールドを表示する測定レポートフォーム。](../../../assets/collaborate/advertising-platforms/create-measurement-report.png){zoomable="yes"}
+
+### キャンペーンの詳細 {#campaign}
+
+**[!UICONTROL 広告主ID]**&#x200B;は、[!DNL AMC] インスタンスに関連付けられている[!DNL Amazon Advertising] アカウントを識別します。 [!DNL AMC]は、このアカウントコンテキストを使用して、測定用のキャンペーンを取得します。
+
+**[!UICONTROL キャンペーン ID]** リストには、接続された[!DNL AMC] インスタンスで利用可能なキャンペーンが自動的に入力されます。 キャンペーンは、デフォルトの検出ルックバックウィンドウ内にあり、[!DNL AMC]の最小集計しきい値を満たすのに十分な一意のユーザーを持つ場合にのみ表示されます。 [!DNL Amazon Ads] アクティビティを測定するキャンペーンを選択します。
+
+必要なキャンペーンがリストにない場合は、接続されている[!DNL Amazon Ads] アカウントに属していることを確認し、[ トラブルシューティング ](#troubleshooting)を確認してください。 しきい値について詳しくは、[AMC集計しきい値ドキュメント ](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold)を参照してください。
+
+#### 日付範囲、実行日、レポート名 {#dates}
 
 >[!CONTEXTUALHELP]
-> id="rtcdp_collaboration_amc_attribution_lookback_period"
-> title="アトリビューションのルックバック期間"
-> abstract="AMC では、30 日間の固定アトリビューションウィンドウを適用します。つまり、最後のインプレッションから最大 30 日後に発生したコンバージョンは、レポートの日付範囲内のインプレッションに起因する場合があります。 この値は編集できません。実施要件を満たすすべてのコンバージョンの取得を確保するために、レポートの実行日は範囲の終了日から 30 日以降にスケジュールします。"
+>id="rtcdp_collaboration_amc_measure_report_date_range"
+>title="日付範囲"
+>abstract="レポートに含めるキャンペーンデータの開始日と終了日を設定します。 日付範囲は、最大90日間の365日間のルックバックウィンドウに制限されています。 過去の施策のレポートのみ作成できます。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_measure_report_run_date"
+>title="実行日"
+>abstract="レポートが実行される日付。 レポート終了日から少なくとも1日後で、46日後までである必要があります。"
+
+>[!NOTE]
+>
+>既に実行されたキャンペーンのみをレポートできます。
+
+**[!UICONTROL レポートの日付範囲]**&#x200B;を、選択した[!DNL AMC] キャンペーンが実行された期間に設定します。 [!DNL AMC]は、最大90日間の365日間のルックバックウィンドウをサポートしています。
+
+**[!UICONTROL レポート実行日]**&#x200B;を設定します。 レポートの実行日です。 実行日は、レポート終了日から少なくとも1日後で、46日後までである必要があります。 日付制約の完全なセットについては、[AMC制約リファレンス ](#constraints)を参照してください。
+
+>[!TIP]
+>
+>日付範囲が現在の日付から30日以内のアトリビューションレポートの場合は、30日後の実行日を設定して、固定の30日間のルックバックウィンドウ内のすべてのコンバージョンがレポートの実行前に取得されるようにします。
+
+#### レポートタイプ {#report-type}
+
+すべての[!DNL AMC] レポートには、**[!UICONTROL キャンペーンの概要]**&#x200B;が含まれています。 オプションで、**[!UICONTROL アトリビューション]** データを含めて、広告露出から30日以内に、キャンペーンのインプレッションが購入やサインアップなどの顧客のアクションにつながったかどうかを測定できます。 アトリビューションでは、関連するコンバージョンイベントを[!DNL AMC] インスタンスで利用できる必要があります。 リーチまたは認知度に焦点を当てたキャンペーンの場合、**[!UICONTROL キャンペーンの概要]**&#x200B;には、必要な配信指標が表示されます。
+
+| レポートタイプ | 説明 |
+| --- | --- |
+| **[!UICONTROL キャンペーンの概要]** | 選択したキャンペーンのリーチ、頻度、インプレッションの指標を提供します。 常に含める。 |
+| **[!UICONTROL アトリビューション]** | レポートにコンバージョンデータを追加します。 コンバージョンイベントが[!DNL AMC] インスタンスに存在する場合にのみ使用できます。 [ コンバージョンイベント ](#conversion-events)を参照してください。 |
+
+#### コンバージョンイベント（アトリビューションのみ） {#conversion-events}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_attribution_lookback_period"
+>title="アトリビューションのルックバック期間"
+>abstract="AMC では、30 日間の固定アトリビューションウィンドウを適用します。つまり、最後のインプレッションから最大 30 日後に発生したコンバージョンは、レポートの日付範囲内のインプレッションに起因する場合があります。 この値は編集できません。実施要件を満たすすべてのコンバージョンの取得を確保するために、レポートの実行日は範囲の終了日から 30 日以降にスケジュールします。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_measure_conversion_events"
+>title="コンバージョンイベント"
+>abstract="アトリビューションレポートに含めるコンバージョンイベントを3つまで選択します。 使用可能なイベントは、[!DNL AMC] インスタンスから自動的に検出されます。 イベントが表示されない場合、[!DNL AMC] インスタンスに記録されたコンバージョンイベントがない可能性があり、アトリビューションは使用できません。"
+
+>[!NOTE]
+>
+>アトリビューションデータでは、コンバージョンイベントを[!DNL AMC] インスタンスで設定する必要があります。 [!UICONTROL 属性]が使用できない場合、または選択されていない場合は、このセクションをスキップし、**[!UICONTROL 作成]**&#x200B;を選択してフォームを送信します。
+
+[!UICONTROL  アトリビューション ] レポートの場合、[!DNL AMC]は固定の30日間のアトリビューションルックバックウィンドウを適用します。 この設定は調整できません。
+
+![測定レポートフォームのコンバージョンイベント セクションがアクティブ状態で、ルックバックウィンドウ フィールドが30日に設定され、コンバージョンイベントが利用可能なイベントを含む複数選択リストが表示されます。](../../../assets/collaborate/advertising-platforms/conversion-events-active.png){zoomable="yes"}
+
+コンバージョンイベントは、購入、ウィッシュリストの追加、ショッピングカートのアクション、製品詳細ビューなど、[!DNL Amazon Ads]によって追跡されたオンサイトの顧客アクションを表します。 アトリビューションレポートでは、最大3つのイベントをサポートします。 測定したいキャンペーン成果に合致するイベントを選択します。 [!UICONTROL 属性] オプションが利用できない場合は、[ トラブルシューティング ](#troubleshooting)を参照してください。
+
+レポートを作成すると、スケジュール済みまたは保留中のステータスの「**[!UICONTROL Measure]**」タブに表示されます。 設定された実行日に、[!DNL AMC]はレポートクエリを処理し、24時間以内に結果を返します。
+
+![新しく作成された測定レポートカードを示す「測定」タブ。スケジュールされたステータスインジケーター、レポート名、実行日、レポートタイプが表示されます。](../../../assets/collaborate/advertising-platforms/measurement-report-pending.png){zoomable="yes"}
+
+
+## レポートを読む {#view-report}
+
+レポートが実行されると、結果は[!DNL AMC] プロジェクトの&#x200B;**[!UICONTROL Measure]** タブで確認できます。 レポートを探し、**[!UICONTROL レポート全体を表示]**&#x200B;を選択して結果を確認します。
+
+![完了済みのレポートカードが表示されている[!DNL AMC] プロジェクトの「測定」タブ。実行日、レポートタイプ、および「レポート全体を表示」ボタンがハイライト表示されている](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}。
+
+レポートには、選択したレポートタイプで使用可能な結果が表示されます。 **[!UICONTROL キャンペーンの概要]**&#x200B;件のレポートには、選択したAmazon キャンペーンの配信結果が表示されます。
+
+![概要の合計、インプレッションの分布、頻度の分布、リーチカーブ、プレースメントごとのインプレッションを示すキャンペーン概要のビジュアライゼーション。](../../../assets/collaborate/advertising-platforms/campaign-summary-widgets.png){zoomable="yes"}
+
+**[!UICONTROL アトリビューション]**&#x200B;を含むレポートには、選択したAmazon Ads コンバージョンイベントに関連付けられたコンバージョンアクティビティも表示されます。
+
+
+![日別の累積コンバージョンとコンバージョンを示すアトリビューションビジュアライゼーション。](../../../assets/collaborate/advertising-platforms/attribution-report-conversion-widgets.png){zoomable="yes"}
+
+レポート結果の解釈について詳しくは、[ パフォーマンスの測定](../measure.md#view-reports-view-reports)を参照してください。
+
+## [!DNL AMC]制約リファレンス {#constraints}
+
+次の制約は、すべての[!DNL AMC]測定レポートに適用されます。
+
+| 制約 | 値 |
+| --- | --- |
+| 最も早いレポート日付範囲の開始 | 現在の日付の365日前 |
+| 最新のレポート日付範囲の終了 | 現在の日付から45日後。 この機能を使用すると、キャンペーンが実行中で、次の45日以内に終了するキャンペーンのレポートを事前設定できます。キャンペーンが終了した後、レポートはスケジュールされた実行日に自動的に実行されます。 |
+| 最大レポート日付範囲 | 90 日 |
+| アトリビューションルックバックウィンドウ | 30日間（固定：[!DNL AMC]） |
+| 実行日の最小値 | レポート終了日から少なくとも1日後 |
+| 実行日（最大） | 46日間の未来 |
+| レポートごとの最大コンバージョンイベント | 3 |
+| キャンペーンの選択 | レポートごとの単体キャンペーン |
+| レポート編集 | 連携なし。 既存のレポートは保持されます。 [変更が必要な場合は、新しいレポート ](#create-report)を作成します |
+
+## トラブルシューティング {#troubleshooting}
+
+**測定データはありません**
+
+「**[!UICONTROL Measure]**」タブには、プロジェクト作成時にトリガーされたバックグラウンド データ設定クエリが完了するまで、「測定データは使用できません」と表示されます。 これには最大で24時間かかる場合があります。 「測定データが利用できません」というメッセージが24時間後も続く場合は、キャンペーンの発見時に使用されるデフォルトのルックバックウィンドウであるため、[!DNL AMC] インスタンスに過去3か月以内に実行されたキャンペーンがあることを確認します。 対象となるキャンペーンが存在し、メッセージが保持される場合は、[Amazon Ads アカウント ](https://advertising.amazon.com/sign-in){target="_blank"}でキャンペーンのステータスを確認してください。
+
+**キャンペーン ID ] ドロップダウンにキャンペーンが表示されない**[!UICONTROL 
+
+「**[!UICONTROL Measure]**」タブが表示されている場合でも、キャンペーンが存在しない場合があります。 [!DNL AMC]は、キャンペーンデータに最小ユーザーしきい値を適用します。 一意のユーザーの最小値のしきい値を満たさないキャンペーンは除外され、レポートクエリでは結果は返されません。 レポートするキャンペーンが十分にリーチされていることを確認します。 [!DNL AMC]の集計しきい値について詳しくは、[AMC集計しきい値ドキュメント ](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold){target="_blank"}を参照してください。
+
+**実行日**&#x200B;以降は結果が表示されません
+
+[!DNL AMC]のスケジュールされた実行日から最大24時間後に、レポートクエリを処理し、結果を返します。 その期間が経過してもレポートが保留中のままである場合は、実行日が経過し、レポートのステータスが「保留中」として表示されなくなっていることを確認します。
+
+**コンバージョンイベントは利用できません。[!UICONTROL 属性]がグレー表示されています**
+
+この問題は、次の3つの理由で発生する可能性があります。
+
+1. **コンバージョン追跡は有効になっていません。** お使いの[!DNL AMC]広告主アカウントでは、コンバージョン トラッキングが設定されていない可能性があります。 [Amazon Ads アカウント ](https://advertising.amazon.com/sign-in){target="_blank"}に移動し、関連するキャンペーンのコンバージョンイベントが追跡されていることを確認します。
+2. **コンバージョンイベントは記録されていません。** トラッキングを有効にしても、[!DNL AMC] インスタンスはまだコンバージョンイベントを記録していない可能性があります。
+3. **集計しきい値が満たされていません。** [!DNL AMC]は、コンバージョンデータに最小しきい値を適用します。 コンバージョンイベントタイプの発生回数が十分でない場合は、返されず、リストに表示されません。
+
+**コンバージョンが予想より低く表示されます**
+
+レポート実行日が日付範囲の終了から30日未満の場合、[!DNL AMC]はアトリビューションウィンドウ内のすべてのコンバージョンをキャプチャしていない可能性があります。 [実行日が日付範囲の終了から少なくとも30日後の新しいレポート ](#create-report)を作成します。
+
+## 次の手順 {#next-steps}
+
+レポート結果を使用して、キャンペーンのパフォーマンスを評価し、[!DNL Amazon Advertising]での今後のキャンペーン計画に役立てることができます。 例えば、ターゲティングを調整したり、頻度分布で特定された露出の多いオーディエンスを除外したり、支出をパフォーマンスの高いプレースメントに再配分したりできます。 別のキャンペーンまたはレポート期間を分析するには、適切な設定を使用して別の測定レポートを作成します。
+
+使用可能なすべての[!DNL AMC] コラボレーション機能の概要については、[[!DNL Amazon Marketing Cloud]](./amc.md)を参照してください。
