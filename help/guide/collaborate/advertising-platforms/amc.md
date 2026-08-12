@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 20%
+source-wordcount: 699
+ht-degree: 9%
 
 ---
 
@@ -23,11 +23,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-[!DNL Amazon Marketing Cloud] （[!DNL AMC]）との接続を確立した後、広告主は[&#x200B; プロジェクトを作成](../manage-projects.md#create-project)して[!DNL AMC]と共同作業を行い、高度な分析機能を活用することができます。 プロジェクトを作成したら、**[!UICONTROL もっと知る]** セクションを使用してオーディエンスインサイトを比較し、キャンペーンに関連するオーディエンスを見つけることができます。
-
->[!IMPORTANT]
->
->[!DNL AMC]でサポートされているユースケースは、**オーディエンスの検出**&#x200B;と&#x200B;**測定**&#x200B;のみです。 現在、[!DNL AMC]のプロジェクト内で利用できるのは、**[!UICONTROL もっと知る]** セクションのみです。
+[!DNL Amazon Marketing Cloud] （[!DNL AMC]）との接続を確立した後、広告主は[&#x200B; プロジェクトを作成](../manage-projects.md#create-project)して[!DNL AMC]と共同作業を行うことができます。 [!DNL AMC] プロジェクト内では、2つのユースケースがサポートされています。**[!UICONTROL もっと知る]** セクションを使用する&#x200B;**オーディエンスの発見**、**[!UICONTROL 測定]** タブを使用する&#x200B;**測定**。
 
 ## 最新情報 {#discover}
 
@@ -44,22 +40,22 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="解決済み ID"
->abstract="Amazon の ID 解決がオーディエンスデータを使用して解決できた ID の数。"
+>abstract="AmazonのID解決がオーディエンスデータを使用して解決できたIDの数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="重複する広告表示 ID"
->abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも表示された「解決済み ID」の数を表します。"
+>abstract="これは、アップロードされたオーディエンスから、Amazon Adsを介して広告に公開された「解決済みID」の数を表します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重複率"
->abstract="Amazon Ads 経由で広告に表示された「解決済み ID」の割合。"
+>abstract="Amazon Adsを介して広告に公開された「解決済みID」の割合。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Amazon 広告商品ごとの分類"
->abstract="Amazon Ads スポンサー商品または Amazon Ads DSP がリーチした「重複広告表示 ID」の分類。"
+>abstract="Amazon Ads Sponsored ProductまたはAmazon Ads DSPのいずれかによって達成された「重複する広告露出ID」の内訳。"
 
 「**[!UICONTROL もっと知る]**」セクションでは、AMC オーディエンスを、Amazon Adsがリーチしたすべてのコンシューマーと比較できます。 また、DSPのインプレッションのみを考慮して、オーディエンスの重なりが最も大きいAmazon ターゲティングセグメントを表示することもできます（これらのセグメントはDSPでのみターゲットにできます）。
 
@@ -75,7 +71,7 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 解決済みID] | ID [!DNL Amazon’s Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
+| [!UICONTROL 解決済みID] | ID [!DNL Amazon's Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
 | [!UICONTROL 重複する広告露出ID] | [!DNL Amazon Ads]経由で広告に公開された、アップロードされたオーディエンスからの[!UICONTROL 解決済みID]の数。 |
 | [!UICONTROL 重複%] | [!DNL Amazon Ads]経由で広告に公開された[!UICONTROL 解決済みID]の割合。 |
 | [!UICONTROL Amazon広告の商品別の分類] | [!UICONTROL &#x200B; スポンサー製品]または[!UICONTROL DSP]のいずれかによって、[!UICONTROL 重複する広告露出ID]の内訳に達しました。 各IDは、広告で公開されたIDの総数に対する個別の割合として表されます。 IDは[!UICONTROL &#x200B; スポンサー製品]と[!UICONTROL DSP]の両方に属することができるため、合計が100%にならない場合があります。 |
@@ -87,7 +83,7 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 解決済みID] | ID [!DNL Amazon’s Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
+| [!UICONTROL 解決済みID] | ID [!DNL Amazon's Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
 | [!UICONTROL 重複する広告露出ID] | これは、[!DNL Amazon Ads]を介して広告に公開された、アップロードされたオーディエンスからの[!UICONTROL 解決済みID]の数を表します。 これは、DSP インプレッションのみを考慮します。 |
 | [!UICONTROL 重複%] | [!DNL Amazon Ads]経由で広告に公開された[!UICONTROL 解決済みID]の割合。 |
 | [!UICONTROL &#x200B; カテゴリ &#x200B;] | オーディエンスが属するカテゴリ。 オーディエンスは複数のカテゴリに属することができます。 |
@@ -98,6 +94,12 @@ ht-degree: 20%
 
 | 指標 | 説明 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL 解決済みID] | ID [!DNL Amazon’s Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
+| [!UICONTROL 解決済みID] | ID [!DNL Amazon's Identity Resolution]の数は、オーディエンスデータを使用して解決できました。 |
 | [!UICONTROL 重複する広告露出ID] | これは、[!DNL Amazon Ads]を介して広告に公開された、アップロードされたオーディエンスからの[!UICONTROL 解決済みID]の数を表します。 これは、DSP インプレッションのみを考慮します。 |
 | [!UICONTROL 重複%] | [!DNL Amazon Ads]経由で広告に公開された[!UICONTROL 解決済みID]の割合。 |
+
+## 測定 {#measure}
+
+**[!UICONTROL Measure]** タブは、[!DNL AMC] インスタンスにキャンペーン IDが含まれている場合に使用できます。 プロジェクトを作成すると、Real-Time CDP Collaborationは[!DNL AMC] データに対してバックグラウンドクエリを実行し、[!UICONTROL もっと知る] セクションと、測定レポートの設定に使用されるキャンペーンおよびコンバージョンイベントリストの両方を入力します。
+
+[!DNL AMC]測定レポートの作成と解釈の手順については、[AMC測定レポートの作成](./amc-measure.md) ガイドを参照してください。
