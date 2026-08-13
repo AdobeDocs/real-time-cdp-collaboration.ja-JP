@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: 2131
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**最終更新**: 2026年7月。
+**最終更新**: 2026年8月。
 
 このリリースノートでは、Adobe Real-Time CDP Collaborationでリリースされた機能について説明します。 Collaboration リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
+
+## 2026年8月 {#august-2026}
+
+Real-Time CDP Collaborationでは、[!DNL Amazon Marketing Cloud] （AMC）測定レポートをサポートするようになり、[!DNL AMC] プロジェクト内からAmazon Ads キャンペーンのパフォーマンスを測定できるようになりました。
+
+**新機能または更新された機能**
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| [!DNL AMC]測定レポート | Collaborationで直接[!DNL AMC] データを使用して、Amazon Ads キャンペーンのパフォーマンスを測定します。 [!DNL AMC] プロジェクトの「[!UICONTROL Measure]」タブから、**キャンペーンサマリー**&#x200B;および&#x200B;**アトリビューション** レポートを作成して、キャンペーンのパフォーマンスを評価し、コンバージョンのアトリビューションを理解できます。 詳しくは、[Amazon Marketing Cloud測定レポートの作成](../collaborate/advertising-platforms/amc-measure.md)を参照してください。 |
+
+{style="table-layout:auto"}
 
 ## 2026年7月 {#july-2026}
 
