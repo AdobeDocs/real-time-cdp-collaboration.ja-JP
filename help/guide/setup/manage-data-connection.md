@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -109,6 +109,8 @@ Real-Time CDP Collaborationのデータ接続を使用して、様々なプラ�
 必要なソースフィールドを選択し、続いて&#x200B;**[!UICONTROL 選択]**&#x200B;します。
 
 ![GAID オプションを選択したソースフィールドを選択ダイアログ。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+**[!UICONTROL プロファイル属性]** オプションでは、一部のソースフィールドが、オブジェクトの配列であるリスト内でモデル化されます。 これらのリストフィールドを展開し、その中にネストされたフィールドを選択して、一致キーにマッピングできます。 詳しくは、[&#x200B; マップフィールド &#x200B;](./onboard-audiences.md#map-fields) ガイドを参照してください。
 
 **[!UICONTROL キーを一致]** ダイアログで、ドロップダウンメニューを使用して、新しいソースフィールドをターゲットフィールドにマッピングします。 使用可能なすべてのターゲットフィールドは、共同作業者アカウントに設定された一致キーです。 必要なターゲットフィールドが表示されない場合は、[&#x200B; アカウントの照合キー](./onboard-account.md#edit-match-keys)を編集して追加します。
 
