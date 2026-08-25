@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
+source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3970
 ht-degree: 16%
 
 ---
@@ -43,7 +43,7 @@ Collaborationのオーディエンスの概念的な説明については、[&#x
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="マーケティングアクション"
->abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。 <strong>データ共同作業</strong>マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。 <strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックスを<em>無効</em>にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータがソースとされます。</li></ul></p>"
+>abstract="<p>マーケティングアクションを使用して、Experience Platform から Real-Time CDP Collaboration に読み込むオーディエンスデータを制御します。 <strong>Data Collaboration</strong> マーケティングアクションは、C4、C5、C9、S1、S2、PSPDおよびRHD データ使用ラベルをサポートしています。 <strong>データサイエンス</strong>マーケティングアクションは、C9 データ使用ラベルをサポートしています。</p> <p> <ul><li> チェックボックスを<em>有効</em>にすると、Experience Platform で上記のラベルが付いているデータは除外され、Real-Time CDP Collaboration には取り込まれ<strong>ません</strong>。</li><li> チェックボックスを<em>無効</em>にすると、Experience Platform から Real-Time CDP Collaboration にすべてのデータがソースとされます。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja" text="データ使用ラベルの概要"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=ja" text="データ使用ラベルの用語集"
 
@@ -91,9 +91,9 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 次に、ソースとなるデータに対して適切なマーケティング施策を設定する必要があります。 また、データコラボレーションに使用するために、Experience Platformから取得したデータに対して同意を得る必要もあります。
 
-マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9 データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
+マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL Data Collaboration]** マーケティングアクションは、C4、C5、C9、S1、S2、PSPDおよびRHD データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-[C4、C5、およびC9 データ使用ラベル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご確認ください。
+[C4、C5、C9、S1、S2、PSPDおよびRHD データ使用ラベル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご覧ください。
 
 * チェックボックスが&#x200B;***enabled***&#x200B;の場合、上記のようにExperience Platformでラベル付けされたデータは除外され、**not**&#x200B;がCollaborationに取り込まれます。
 * チェックボックス ***disabled***&#x200B;を使用すると、Experience Platformから取得したデータに制限はありません。
