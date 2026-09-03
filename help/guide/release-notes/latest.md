@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 3%
 
 ---
@@ -38,7 +38,9 @@ Real-Time CDP Collaborationでは、[!DNL Amazon Marketing Cloud] （AMC）測�
 
 | 機能 | 説明 |
 | ------- | ----------- |
-| [!DNL AMC]測定レポート | Collaborationで直接[!DNL AMC] データを使用して、Amazon Ads キャンペーンのパフォーマンスを測定します。 [!DNL AMC] プロジェクトの「[!UICONTROL Measure]」タブから、**キャンペーンサマリー**&#x200B;および&#x200B;**アトリビューション** レポートを作成して、キャンペーンのパフォーマンスを評価し、コンバージョンのアトリビューションを理解できます。 詳しくは、[Amazon Marketing Cloud測定レポートの作成](../collaborate/advertising-platforms/amc-measure.md)を参照してください。 |
+| [!DNL AMC]測定レポート | Collaborationで直接[!DNL AMC] データを使用して、Amazon Ads キャンペーンのパフォーマンスを測定します。 [!DNL AMC] プロジェクトの「**[!UICONTROL Measure]**」タブから、**キャンペーンサマリー**&#x200B;および&#x200B;**アトリビューション** レポートを作成して、キャンペーンのパフォーマンスを評価し、コンバージョンのアトリビューションを理解できます。 詳しくは、[Amazon Marketing Cloud測定レポートの作成](../collaborate/advertising-platforms/amc-measure.md)を参照してください。 |
+| ネストされたプロファイル属性のキーマッピングの一致 | 事前にデータを統合または再構築することなく、一致キーを`devices`配列内のデバイス IDなど、リストベースのプロファイルフィールド内にネストされたフィールドにマッピングできるようになりました。 Collaborationは、ネストされたフィールド内の各値を個別に一致させてカウントします。 ネストされたフィールドは、現在、プロファイル属性としてではなく、一致キーに対してのみサポートされています。 詳しくは、[&#x200B; フィールドのマッピング &#x200B;](../setup/onboard-audiences.md#map-fields)を参照してください。 |
+| プレースメントレベルのコンバージョンレポート | アトリビューションレポートに、Campaign ID内の各プレースメント IDのコンバージョン数とコンバージョン値を示す&#x200B;**個のプレースメント別コンバージョン** テーブルが含まれるようになりました。 これにより、複数の配置を持つキャンペーンに対して個別の結果を得ることができます。 わかりやすくするため、以前の&#x200B;**[!UICONTROL 売上予測]**&#x200B;指標ラベルが&#x200B;**[!UICONTROL コンバージョン値]**&#x200B;に更新されました。 詳しくは、[&#x200B; プレースメント別コンバージョン &#x200B;](../collaborate/measure.md#conversions-by-placement)を参照してください。 |
 
 {style="table-layout:auto"}
 

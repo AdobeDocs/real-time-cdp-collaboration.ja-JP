@@ -6,7 +6,7 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -88,12 +88,12 @@ ht-degree: 1%
 
 ![Databricks Delta Shareが選択され、次にハイライト表示されたデータソース選択画面を表示するオーディエンスの追加ワークフロー。](../../assets/setup/databricks-audience-sourcing/databricks-data-source-selection.png)
 
-### [!DNL Delta Share]を接続 {#connect-delta-share}
+### [!DNL Delta Share] を接続 {#connect-delta-share}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="オーディエンスソーシング用に共有を設定する手順については、[!DNL Databricks Delta Share] ソーシングガイドを参照してください"
+>abstract="オーディエンスソーシング用に共有を設定する手順について詳しくは、[!DNL Databricks Delta Share] ソーシングガイドを参照してください"
 
 Collaborationによる[!DNL Delta Share]へのアクセスを許可するために必要な詳細を入力してください。 プロバイダー、共有、スキーマ、テーブルの詳細を[!DNL Databricks Delta Share]から入力します。 必要なメンバーシップテーブルは、共有スキーマで使用できる必要があります。 メタデータテーブルを使用する場合は、同じ共有スキーマでも使用できる必要があります。
 必要な情報を入力したら、**[!UICONTROL Connect]**&#x200B;を選択します。
