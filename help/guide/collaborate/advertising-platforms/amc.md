@@ -7,18 +7,20 @@ exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 9%
-
+source-wordcount: '699'
+ht-degree: 19%
 ---
-
 # Amazon Marketing Cloud
 
 {{limited-availability-release-note}}
@@ -40,22 +42,22 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="解決済み ID"
->abstract="AmazonのID解決がオーディエンスデータを使用して解決できたIDの数。"
+>abstract="Amazon の ID 解決がオーディエンスデータを使用して解決できた ID の数。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="重複する広告表示 ID"
->abstract="これは、アップロードされたオーディエンスから、Amazon Adsを介して広告に公開された「解決済みID」の数を表します。"
+>abstract="これは、アップロードされたオーディエンスのうち、Amazon Ads 経由で広告にも表示された「解決済み ID」の数を表します。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重複率"
->abstract="Amazon Adsを介して広告に公開された「解決済みID」の割合。"
+>abstract="Amazon Ads 経由で広告に表示された「解決済み ID」の割合。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Amazon 広告商品ごとの分類"
->abstract="Amazon Ads Sponsored ProductまたはAmazon Ads DSPのいずれかによって達成された「重複する広告露出ID」の内訳。"
+>abstract="Amazon Ads スポンサー商品または Amazon Ads DSP がリーチした「重複広告表示 ID」の分類。"
 
 「**[!UICONTROL もっと知る]**」セクションでは、AMC オーディエンスを、Amazon Adsがリーチしたすべてのコンシューマーと比較できます。 また、DSPのインプレッションのみを考慮して、オーディエンスの重なりが最も大きいAmazon ターゲティングセグメントを表示することもできます（これらのセグメントはDSPでのみターゲットにできます）。
 

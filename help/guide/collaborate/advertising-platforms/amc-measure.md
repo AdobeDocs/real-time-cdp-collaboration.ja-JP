@@ -8,10 +8,8 @@ badgelimitedavailability: label="限定提供" type="Informative" url="https://h
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # [!DNL Amazon Marketing Cloud]測定レポートの作成 {#amc-measurement-reports}
 
@@ -43,12 +41,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="日付範囲"
->abstract="レポートに含めるキャンペーンデータの開始日と終了日を設定します。 日付範囲は、最大90日間の365日間のルックバックウィンドウに制限されています。 過去の施策のレポートのみ作成できます。"
+>abstract="レポートに含めるキャンペーンデータの開始日と終了日を設定します。 日付の範囲は、過去 365 日間のルックバックウィンドウに制限され、最大期間は 90 日間です。 過去のキャンペーンにのみレポートできます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="実行日"
->abstract="レポートが実行される日付。 レポート終了日から少なくとも1日後で、46日後までである必要があります。"
+>abstract="レポートが実行される日付。 レポート終了日の翌日以降にする必要があり、最大で 46 日先まで指定できます。"
 
 >[!NOTE]
 >
@@ -81,7 +79,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="コンバージョンイベント"
->abstract="アトリビューションレポートに含めるコンバージョンイベントを3つまで選択します。 使用可能なイベントは、[!DNL AMC] インスタンスから自動的に検出されます。 イベントが表示されない場合、[!DNL AMC] インスタンスに記録されたコンバージョンイベントがない可能性があり、アトリビューションは使用できません。"
+>abstract="アトリビューションレポートに含めるコンバージョンイベントを最大 3 つ選択します。 使用可能なイベントは、[!DNL AMC] インスタンスから自動的に検出されます。 イベントが表示されない場合、[!DNL AMC] インスタンスに記録されたコンバージョンイベントが存在せず、アトリビューションを使用できないことがあります。"
 
 >[!NOTE]
 >
