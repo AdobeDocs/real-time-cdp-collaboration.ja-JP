@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ### 必要な情報
 
-次の手順を実行する際は、次の情報に注意してください。 これらの詳細は、[[!DNL Amazon S3]  オーディエンスのソーシング UI ガイド ](./configure-aws-s3-audience-sourcing.md)で使用されています。
+次の手順を実行する際は、次の情報に注意してください。 これらの詳細は、[[!DNL Amazon S3]  オーディエンスのソーシング UI ガイド &#x200B;](./configure-aws-s3-audience-sourcing.md)で使用されています。
 
 * オーディエンスファイルが保存されるS3 バケット名。
 * オーディエンスファイルが配置されているフォルダーのパス（プレフィックス）。
@@ -125,12 +125,12 @@ Amazon S3 Management Consoleの「**[!DNL IAM]**」タブで、**[!DNL Roles]** 
 
 >[!IMPORTANT]
 >
->ロールを作成した後、Amazon リソース名（ARN）を記録する必要があります。 [ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ワークフローの&#x200B;**S3接続の認証**&#x200B;手順で、IAM ロール ARNを指定する必要があります。
+>ロールを作成した後、Amazon リソース名（ARN）を記録する必要があります。 [&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ワークフローの&#x200B;**S3接続の認証**&#x200B;手順で、IAM ロール ARNを指定する必要があります。
 
 ## 次の手順 {#next-steps}
 
 この設定により、AdobeにS3 バケットへの読み取り専用アクセス権が付与され、AdobeのIAM ロールとの信頼関係が確立されます。
 
-次に、[ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)に進み、S3 バケットをCollaborationに接続します。
+次に、[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)に進み、S3 バケットをCollaborationに接続します。
 
 オーディエンスのソーシングについて詳しくは、[Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。
