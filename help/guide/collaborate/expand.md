@@ -14,9 +14,9 @@ ht-degree: 2%
 
 「**[!UICONTROL 展開]**」タブを使用する前に、次の操作を行う必要があります。
 
-* シードオーディエンスとして使用する[ ソース ](/help/guide/setup/onboard-audiences.md)の少なくとも1人のオーディエンス
+* シードオーディエンスとして使用する[&#x200B; ソース &#x200B;](/help/guide/setup/onboard-audiences.md)の少なくとも1人のオーディエンス
 * [共同作業者と接続](/help/guide/connect/establishing-connections.md)
-* [その共同作業者と共にプロジェクト ](/help/guide/collaborate/manage-projects.md)を作成しました
+* [その共同作業者と共にプロジェクト &#x200B;](/help/guide/collaborate/manage-projects.md)を作成しました
 * 拡張オーディエンスを受信している場合は、アクティブなオーディエンスを受信するように[宛先](/help/guide/destinations/overview.md)が設定されています
 
 ## さらに詳しく {#expand-overview}
@@ -32,7 +32,7 @@ ht-degree: 2%
 | 列 | 説明 |
 |---|---|
 | **[!UICONTROL 名前]** | 拡張オーディエンスの名前。 編集するまで、シードオーディエンス名がデフォルトになります。 |
-| **[!UICONTROL ステータス]** | 拡張オーディエンスの現在のステータス。 詳しくは、[拡張オーディエンスのステータス ](#expansion-audience-status)を参照してください。 |
+| **[!UICONTROL ステータス]** | 拡張オーディエンスの現在のステータス。 詳しくは、[拡張オーディエンスのステータス &#x200B;](#expansion-audience-status)を参照してください。 |
 | **[!UICONTROL モデルサイズ]** | 生成された拡張オーディエンスのサイズ。 モデルの処理が完了するまで使用できません。 |
 | **[!UICONTROL オーディエンスリーチ]** | 拡張オーディエンスに使用されるオーディエンスリーチ設定。 |
 | **[!UICONTROL 最終更新日]** | 拡張オーディエンスが最後に更新された日時。 |
@@ -62,13 +62,13 @@ ht-degree: 2%
 
 **[!UICONTROL 拡張オーディエンスの生成]** ダイアログが表示されます。 拡張オーディエンスを生成するには、すべてのフィールドを完了します。
 
-![ シードオーディエンス、オーディエンスのリーチ、一致キー、シードオーディエンスメンバーのフィールドを含むオーディエンス拡張を生成ダイアログ。](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}
+![&#x200B; シードオーディエンス、オーディエンスのリーチ、一致キー、シードオーディエンスメンバーのフィールドを含むオーディエンス拡張を生成ダイアログ。](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}
 
 ### シードオーディエンスを選択 {#select-seed-audience}
 
 「**[!UICONTROL シードオーディエンスを選択]**」ドロップダウンから、独自のオーディエンスのいずれかを選択します。 Collaborationでは、このオーディエンスを、共同作業者の母集団の類似プロファイルを見つけるためのベースとして使用します。
 
-![ オーディエンス拡張を生成ダイアログのシードオーディエンス フィールド。](/help/assets/collaborate/expand/select-seed-audience.png){zoomable="yes"}
+![&#x200B; オーディエンス拡張を生成ダイアログのシードオーディエンス フィールド。](/help/assets/collaborate/expand/select-seed-audience.png){zoomable="yes"}
 
 ### 一致キーを選択 {#select-match-key}
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 「**[!UICONTROL オーディエンスリーチ]**」ドロップダウンを使用して、シードオーディエンスとの類似性とリーチ全体のバランスを取ります。 シードオーディエンスに対する類似性と全体的なリーチの中間の接点として、**[!UICONTROL バランス]**&#x200B;を選択します。
 
-![ バランスオプションとその下の説明テキストを選択したオーディエンス拡張を生成ダイアログの「オーディエンスへのリーチ」フィールド。](/help/assets/collaborate/expand/select-audience-reach.png){zoomable="yes"}
+![&#x200B; バランスオプションとその下の説明テキストを選択したオーディエンス拡張を生成ダイアログの「オーディエンスへのリーチ」フィールド。](/help/assets/collaborate/expand/select-audience-reach.png){zoomable="yes"}
 
 ### シードオーディエンスを含める、または除外する {#include-exclude-seed-audience}
 
@@ -132,10 +132,10 @@ ht-degree: 2%
 
 拡張オーディエンスを送信する場合、Collaborationは、接続に設定されたアクティブ化設定に従って、そのオーディエンスを共同作業者に配信します。
 
-* **自動アクティブ化**&#x200B;が有効になっている場合、Collaborationは拡張オーディエンスを共同作業者が設定した宛先に自動的にアクティブ化し、[ アクティブ化タブ ](./activate.md#activated-audiences)に表示されます。
+* **自動アクティブ化**&#x200B;が有効になっている場合、Collaborationは拡張オーディエンスを共同作業者が設定した宛先に自動的にアクティブ化し、[&#x200B; アクティブ化タブ &#x200B;](./activate.md#activated-audiences)に表示されます。
 <!-- Beta release: automatic activation is the only available activation setting. Uncomment the manual activation guidance below when manual activation is introduced with the GA release. -->
 <!-- * If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it. -->
 
 ## 次の手順
 
-拡張オーディエンスを送信したら、[もっと知るタブ ](./discover.md)を使用して他のオーディエンスと比較するか、[ タブをアクティブ化](./activate.md)を使用してアクティブ化を追跡します。
+拡張オーディエンスを送信したら、[もっと知るタブ &#x200B;](./discover.md)を使用して他のオーディエンスと比較するか、[&#x200B; タブをアクティブ化](./activate.md)を使用してアクティブ化を追跡します。
