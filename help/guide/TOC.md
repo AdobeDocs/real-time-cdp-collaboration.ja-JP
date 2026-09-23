@@ -21,7 +21,7 @@ ht-degree: 35%
 * 設定 {#setup}
   * [設定セクションの概要](./setup/setup-overview.md)
   * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
-  * {hide-from-toc}[ オーディエンスの概要](./setup/audiences-overview.md)
+  * {hide-from-toc}[&#x200B; オーディエンスの概要](./setup/audiences-overview.md)
   * Sourceとオーディエンスの管理 {#source-audiences}
     * [ソースの概要](./setup/source-overview.md)
     * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
@@ -35,7 +35,7 @@ ht-degree: 35%
     * [オーディエンスソーシング用にAdobe Audience Managerを設定する](./setup/configure-aam-audience-sourcing.md)
   * [データ接続を管理](./setup/manage-data-connection.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-  * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
+  * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
   * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
   * [監査ログ](./setup/audit-logs.md)
@@ -56,7 +56,7 @@ ht-degree: 35%
   * [プロジェクトの管理](./collaborate/manage-projects.md)
   * 共同作業者の接続 {#collaborator-connections}
     * [最新情報](./collaborate/discover.md)
-    * {hide-from-toc}[ （Beta）展開](./collaborate/expand.md)
+    * {hide-from-toc}[&#x200B; （Beta）展開](./collaborate/expand.md)
     * [アクティブ化](./collaborate/activate.md)
     * [測定](./collaborate/measure.md)
   * Advertising platformとの連携 {#ad-platform-connections}
