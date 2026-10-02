@@ -1,21 +1,21 @@
 ---
 title: 接続の管理
-description: Real-Time CDP Collaborationで接続を管理する方法について説明します。
+description: Real-Time CDP Collaborationで接続を管理し、自動アクティベーションを設定する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 1%
-
 ---
-
 # 接続の管理 {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ ht-degree: 1%
 接続設定ワークスペースが表示され、ユーザーと共同作業者の間の接続の詳細が表示されます。 ここでは、接続プロセス中に選択したすべての設定、接続の現在のステータス、接続所有者、共同作業者の連絡先情報を表示できます。 特定の接続設定について詳しくは、[接続設定](/help/guide/connect/establishing-connections.md#connection-settings) ガイドを参照してください。
 
 ![接続の詳細を表示する接続設定ワークスペース。](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### 自動アクティベーションの宛先の設定 {#configure-auto-activation-destination}
+
+受信者は、Collaborationが接続を介して送信されたオーディエンスを自動的にアクティブ化するために使用する宛先を選択できます。 開始する前に、少なくとも1つのアクティブな宛先を所有していることを確認してください。 宛先の設定方法については、[宛先の概要](../destinations/overview.md)を参照してください。
+
+接続設定ワークスペースで、**[!UICONTROL アクティベーションコントロール]**&#x200B;に移動し、**[!UICONTROL 編集]**&#x200B;を選択します。 次に、ドロップダウンから&#x200B;**[!UICONTROL 自動アクティベーションの宛先]**&#x200B;を選択し、**[!UICONTROL 保存]**&#x200B;を選択して確認します。
+
+>[!NOTE]
+>
+>自動アクティベーションは、すべての宛先で使用できます。
+
+![自動アクティベーションの宛先として選択され、保存ボタンがハイライト表示されたNorthstar Audience Exportsを含むアクティベーション制御ダイアログ。](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+宛先を保存すると、オーディエンスを送信する共同作業者がアクティベーションスケジュールを選択します。 宛先は、送信ワークフローに読み取り専用として表示されます。 オーディエンスを受け取ると、Collaborationはそのスケジュールに従ってアクティベーションを作成します。 つまり、受信者は宛先を選択し、送信者はスケジュールを選択し、Collaborationはアクティベーションを作成します。
+
+自動アクティベーション宛先への変更は、変更後に共有されたオーディエンスにのみ適用されます。 既存の自動作成されたアクティベーションは、引き続き元の宛先を使用します。 今後の共有の自動アクティベーションをオフにするには、自動アクティベーションの宛先をクリアし、変更を保存します。
 
 ## 接続を削除 {#delete-connection}
 
