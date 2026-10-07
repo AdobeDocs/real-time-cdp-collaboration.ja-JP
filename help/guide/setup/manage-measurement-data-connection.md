@@ -2,7 +2,7 @@
 title: 測定データ接続の管理
 description: Real-Time CDP Collaborationの詳細キーや一致キーなど、測定データの接続を管理する方法について説明します
 audience: administrator, data engineer
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10

@@ -2,7 +2,7 @@
 title: Collaboration [!DNL Starter] オンボーディングの権限コントロールの設定
 description: Adobe Experience Cloudの権限を使用して、Adobe Real-Time CDP Collaboration [!DNL Starter]の権限を設定する方法について説明します。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
@@ -59,7 +59,7 @@ Collaborationに必要な権限を設定するには、次の手順に従いま�
 
 {style="table-layout:auto"}
 
-特定の役割とその権限について詳しくは、[役割の権限の管理](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイドを参照してください。
+特定の役割とその権限について詳しくは、[役割の権限の管理](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions) ガイドを参照してください。
 
 情報を確認し、アカウントに割り当てる役割を選択します。 完了したら、**[!UICONTROL 保存]**&#x200B;を選択します。
 

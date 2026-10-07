@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration [!DNL Starter]でのクレジット使用状況と利用状況
 description: Adobe Real-Time CDP Collaboration [!DNL Starter]でのクレジットの使用状況と使用状況の仕組みを説明します。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10

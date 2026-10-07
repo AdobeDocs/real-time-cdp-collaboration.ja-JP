@@ -4,7 +4,7 @@ description: Real-Time CDP CollaborationでAmazon Marketing Cloud キャンペ�
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud，測定レポート，キャンペーン概要，アトリビューション，Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
     internal-label: Real-Time Customer Data Platform Collaboration
