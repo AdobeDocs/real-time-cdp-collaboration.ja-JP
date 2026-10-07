@@ -1,14 +1,15 @@
 ---
-title: オーディエンスソーシング用に [!DNL Amazon S3] を設定
-description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Amazon S3]  ストレージを設定して接続する方法について説明します。
+title: オーディエンスソーシング用に[!DNL Amazon S3]を設定
+description: '[!DNL Amazon S3] ストレージをセルフサービスのデータソースとして設定して接続し、オーディエンスデータをReal-Time CDP Collaborationに取り込む方法について説明します。'
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # オーディエンスソーシング用に[!DNL Amazon S3]を設定
 
 Adobe Real-Time CDP Collaboration UIで[!DNL Amazon S3] ストレージを設定し、ソースオーディエンスデータに接続してアクティベーションおよび重複分析を行う方法について説明します。
@@ -31,15 +32,15 @@ S3 データ接続を設定する前に、次の点を確認してください�
 * **[Audience Sourcing Specification （v1.3）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;に準拠するオーディエンスファイルを含むアクティブな&#x200B;**[!DNL Amazon S3]バケット**&#x200B;にアクセスできます。
 * AWSで&#x200B;**IAM ロール**&#x200B;を作成しました。このロールは、**想定されたロール** メソッド （アクセス/秘密鍵ではありません）を使用してバケットへのアクセス権をAdobeに付与します。 詳しい手順については、**[オーディエンスソーシングに対するAWS権限の設定](./configure-aws-permissions-audience-sourcing.md)**&#x200B;を参照してください。 IAMの役割には、次の権限を含める必要があります。
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * 次の値を用意しています。
 
-   * **IAM ロール Amazon リソース名（ARN）**
-   * **S3 バケット名**
-   * **フォルダーパス** （オーディエンスファイルを含むディレクトリ接頭辞）
+  * **IAM ロール Amazon リソース名（ARN）**
+  * **S3 バケット名**
+  * **フォルダーパス** （オーディエンスファイルを含むディレクトリ接頭辞）
 
 >[!NOTE]
 >
@@ -47,7 +48,7 @@ S3 データ接続を設定する前に、次の点を確認してください�
 
 ## [!DNL Amazon S3]接続の設定 {#configure-aws-s3-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加]** オプションを選択することもできます。
 
@@ -86,7 +87,7 @@ S3 データ接続を設定する前に、次の点を確認してください�
 * 各オーディエンスレコードには`AUDIENCE_ID`と、少なくとも`HASHED_EMAIL_SHA_256`、`HASHED_PHONE_SHA_256`、`HASHED_IPV4_SHA_256`、`CRM_ID`、`LOYALTY_ID`、`ADFIXUS_ID`などの一致キーが含まれている必要があります。
 * Collaborationのソーシング設定時に、選択した内容に基づいて1～6日ごとにデータが更新されます。
 
-![&#x200B; オーディエンスソーシング仕様へのリンクを含む「ソーシング用にデータを準備」ダイアログ。](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
+![ オーディエンスソーシング仕様へのリンクを含む「ソーシング用にデータを準備」ダイアログ。](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
 ### S3 接続の認証 {#authenticate-s3-connection}
 
@@ -102,7 +103,7 @@ S3 データ接続を設定する前に、次の点を確認してください�
 
 次に、S3 バケットをCollaborationに接続するための[!DNL Amazon S3]資格情報を入力します。
 
-**[オーディエンスソーシングに対するAWS権限の設定](./configure-aws-permissions-audience-sourcing.md)**&#x200B;で説明されている手順に従って、Adobeにユーザーへのアクセス権を付与します。
+**[オーディエンスソーシングに対するAWS権限の設定](./configure-aws-permissions-audience-sourcing.md)**で説明されている手順に従って、Adobeにユーザーへのアクセス権を付与します。
 [!DNL Amazon S3] ストレージ。 完了したら、次のUI フィールドに値を入力します。
 
 * IAM 役割
@@ -169,7 +170,7 @@ S3 データ接続のわかりやすい名前とオプションの説明を入�
 
 セクションを編集する必要がある場合は、鉛筆アイコンを選択します。 すべてのセクションを確認するには、**[!UICONTROL 完了]**&#x200B;を選択します。
 
-![&#x200B; データ接続、詳細、マッピング、スケジュールのセクションを表示するレビューの概要画面。](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
+![ データ接続、詳細、マッピング、スケジュールのセクションを表示するレビューの概要画面。](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
 データ接続が正常に作成され、オーディエンスのソーシングが進行中であることを示すダイアログ確認が表示されます。
 
@@ -179,7 +180,7 @@ S3 データ接続のわかりやすい名前とオプションの説明を入�
 
 オーディエンスのソーシングが進行中の場合は、画面の上部にバナーが表示されます。 個々のオーディエンスは、ソーシング完了後にのみ表示されます。
 
-![&#x200B; 「オーディエンス」タブには、[!DNL Amazon S3]人のオーディエンスのソーシングが進行中であることが表示されます。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
+![ 「オーディエンス」タブには、[!DNL Amazon S3]人のオーディエンスのソーシングが進行中であることが表示されます。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
 S3 オーディエンスがソースされると、利用可能なオーディエンスのリストが表形式またはカードビューで提供されます。
 
@@ -187,7 +188,7 @@ S3 オーディエンスがソースされると、利用可能なオーディ�
 >
 >オーディエンスのソーシング時間は、S3 データのサイズと設定した更新頻度によって異なります。 データセットが大きい場合や更新スケジュールの頻度が低い場合は、**[!UICONTROL 自分のオーディエンス]** ワークスペースに表示されるまでに時間がかかる場合があります。
 
-![&#x200B; ソース別オーディエンスの表形式のリストを表示する「オーディエンス」タブ。](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
+![ ソース別オーディエンスの表形式のリストを表示する「オーディエンス」タブ。](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
 グリッド表示またはテーブル表示で、行アイテムを選択するか、**[!UICONTROL オーディエンスを表示]**&#x200B;して、特定のオーディエンスの概要を表示します。 オーディエンスのステータス、ソース、データ接続名が表示され、次の詳細パネルが表示されます。
 
@@ -198,7 +199,7 @@ S3 オーディエンスがソースされると、利用可能なオーディ�
 
 このビューを使用して、コラボレーションプロジェクトでオーディエンスを使用する前に、オーディエンスの設定と表示設定を確認します。
 
-詳しくは、[&#x200B; オーディエンスダッシュボードの表示ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)を参照してください。
+詳しくは、[ オーディエンスダッシュボードの表示ドキュメント ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)を参照してください。
 
 ## S3 データ接続の表示 {#view-s3-connection}
 
@@ -210,12 +211,12 @@ S3 データ接続には、他のオーディエンスデータ接続と同じ�
 >
 >[!DNL Amazon S3] データ接続は編集できません。 接続が作成されると、更新頻度などの設定を変更することはできません。 設定を更新するには、既存の接続を削除し、新しい接続を作成する必要があります。
 
-![&#x200B; ソーシングステータス情報を含む[!DNL Amazon S3] データ接続を示す「My data connections」タブ。](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
+![ ソーシングステータス情報を含む[!DNL Amazon S3] データ接続を示す「My data connections」タブ。](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## 次の手順 {#next-steps}
 
 これで、Collaborationのデータソースとして[!DNL Amazon S3] ストレージを正常に設定および接続しました。 このワークフローを完了することで、アクティベーションや重複分析のために、ファーストパーティのオーディエンスデータを安全にソーシングすることが可能になりました。
 
-ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示され、コラボレーションとアクティベーションの準備が整います。 管理オプションについて詳しくは、[&#x200B; オーディエンスのソースと管理に関するドキュメント &#x200B;](./onboard-audiences.md)を参照してください。
+ソーシングが完了すると、オーディエンスは&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示され、コラボレーションとアクティベーションの準備が整います。 管理オプションについて詳しくは、[ オーディエンスのソースと管理に関するドキュメント ](./onboard-audiences.md)を参照してください。
 
-Collaborationで使用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
+Collaborationで使用可能なすべてのソースについて詳しくは、[ ソースの概要](./source-overview.md)を参照してください。

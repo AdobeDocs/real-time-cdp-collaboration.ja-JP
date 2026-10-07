@@ -2,7 +2,10 @@
 title: オーディエンスソーシング用のAWS権限の設定
 description: AWS Identity and Access Management （IAM）権限を設定して、Real-Time CDP Collaborationでオーディエンスソーシング用の[!DNL Amazon S3] バケットにAdobeの安全で読み取り専用のアクセス権を付与する方法を説明します。
 exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -21,7 +24,7 @@ ht-degree: 1%
 
 ### 必要な情報
 
-次の手順を実行する際は、次の情報に注意してください。 これらの詳細は、[[!DNL Amazon S3]  オーディエンスのソーシング UI ガイド &#x200B;](./configure-aws-s3-audience-sourcing.md)で使用されています。
+次の手順を実行する際は、次の情報に注意してください。 これらの詳細は、[[!DNL Amazon S3]  オーディエンスのソーシング UI ガイド ](./configure-aws-s3-audience-sourcing.md)で使用されています。
 
 * オーディエンスファイルが保存されるS3 バケット名。
 * オーディエンスファイルが配置されているフォルダーのパス（プレフィックス）。
@@ -125,12 +128,12 @@ Amazon S3 Management Consoleの「**[!DNL IAM]**」タブで、**[!DNL Roles]** 
 
 >[!IMPORTANT]
 >
->ロールを作成した後、Amazon リソース名（ARN）を記録する必要があります。 [&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ワークフローの&#x200B;**S3接続の認証**&#x200B;手順で、IAM ロール ARNを指定する必要があります。
+>ロールを作成した後、Amazon リソース名（ARN）を記録する必要があります。 [ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ワークフローの&#x200B;**S3接続の認証**&#x200B;手順で、IAM ロール ARNを指定する必要があります。
 
 ## 次の手順 {#next-steps}
 
 この設定により、AdobeにS3 バケットへの読み取り専用アクセス権が付与され、AdobeのIAM ロールとの信頼関係が確立されます。
 
-次に、[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)に進み、S3 バケットをCollaborationに接続します。
+次に、[ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md)に進み、S3 バケットをCollaborationに接続します。
 
 オーディエンスのソーシングについて詳しくは、[Sourceとオーディエンスの管理](./onboard-audiences.md)を参照してください。

@@ -2,14 +2,15 @@
 title: 重複の数と割合の計算
 description: Adobe Real-Time CDP Collaborationの様々な領域で重複カウントと割合がどのように計算されるかを理解します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 6%
-
 ---
-
 
 # 重複の数と割合の計算
 
@@ -85,7 +86,7 @@ Adobe Real-Time CDP Collaborationでは、オーディエンスの重複を把�
 
 Adobe Real-Time CDP Collaborationの&#x200B;**[!UICONTROL Discover]** モジュールは、オーディエンスデータに関する貴重なインサイトを提供します。 オーディエンスの重複を把握することで、メディア企業と広告主の間の潜在的なコラボレーション機会を特定することができます。 **[!UICONTROL もっと知る]** モジュール内の&#x200B;**[!UICONTROL オーディエンスインサイト]** セクションは、異なるオーディエンス間の重複カウントと割合を分析するのに役立ちます。
 
-![&#x200B; コラボレーションワークフローの検出モジュール。](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
+![ コラボレーションワークフローの検出モジュール。](/help/assets/reference/overlap-calculations/discover-module-overlap-calculations.png)
 
 様々な重複シナリオのサンプル計算と式を以下に示します。
 
