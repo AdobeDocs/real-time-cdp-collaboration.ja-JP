@@ -35,6 +35,6 @@ Collaborationでは、**not**&#x200B;がクレジットの使用状況または�
 >
 > Adobeは、組織間の信用共有を管理または調停しません。 すべての使用上の期待は、お客様と招待パートナーの間で直接合意する必要があります。
 
-組織間でのクレジットの割り当て方法について詳しくは、[接続設定ガイド ](../connect/establishing-connections.md)の[ クレジット分割設定](../connect/establishing-connections.md#credit-split) セクションを参照してください。
+組織間でのクレジットの割り当て方法について詳しくは、[接続設定ガイド &#x200B;](../connect/establishing-connections.md)の[&#x200B; クレジット分割設定](../connect/establishing-connections.md#credit-split) セクションを参照してください。
 
-どのアクティビティがクレジットを消費するか、クレジットの使用状況を追跡または管理する方法について詳しくは、[ クレジットの使用状況を追跡](./my-activity.md)を参照してください。
+どのアクティビティがクレジットを消費するか、クレジットの使用状況を追跡または管理する方法について詳しくは、[&#x200B; クレジットの使用状況を追跡](./my-activity.md)を参照してください。
