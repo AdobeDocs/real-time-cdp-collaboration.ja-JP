@@ -2,7 +2,10 @@
 title: オーディエンスソーシング用のAWS権限の設定
 description: AWS Identity and Access Management （IAM）権限を設定して、Real-Time CDP Collaborationでオーディエンスソーシング用の[!DNL Amazon S3] バケットにAdobeの安全で読み取り専用のアクセス権を付与する方法を説明します。
 exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%

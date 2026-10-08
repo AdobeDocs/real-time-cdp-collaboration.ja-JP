@@ -1,15 +1,16 @@
 ---
-title: オーディエンスソーシング用に [!DNL Databricks Delta Share] を設定
-description: Real-Time CDP Collaborationでオーディエンス ソーシング用に [!DNL Databricks Delta Share] を設定および接続する方法について説明します。
+title: オーディエンスソーシング用に[!DNL Databricks Delta Share]を設定
+description: Real-Time CDP Collaborationでオーディエンス ソーシング用に[!DNL Databricks Delta Share]を設定および接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2816'
+source-wordcount: '2818'
 ht-degree: 2%
-
 ---
-
 
 # オーディエンスソーシング用に[!DNL Databricks Delta Share]を設定
 

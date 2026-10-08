@@ -2,13 +2,14 @@
 title: ソースの概要
 description: Adobe Real-Time CDP Collaborationのソースコネクタについて説明します
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 6%
-
 ---
-
 # ソースの概要
 
 Adobe Real-Time CDP Collaborationでは、オーディエンスデータの出所はソース（データ接続）となります。 Adobe アプリケーション、クラウドベースのストレージ、ローカルシステムのファイルなど、様々なソースタイプに接続して、Collaboration プロジェクトのオーディエンスを[&#x200B; ソースおよび管理](./onboard-audiences.md)できます。 オーディエンスのソーシングワークフローでは、組織のニーズにもとづいて好みのソースを選択し、設定できます。

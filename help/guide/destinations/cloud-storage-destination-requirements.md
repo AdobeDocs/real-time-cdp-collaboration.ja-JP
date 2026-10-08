@@ -2,13 +2,14 @@
 title: 宛先の接続要件
 description: Real-Time CDP Collaborationでサポートされる宛先を設定するために必要な接続情報を確認します。
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # 宛先の接続要件
 
 Real-Time CDP Collaborationで宛先を設定する前に、宛先プロバイダーが必要とする資格情報と接続情報を取得します。

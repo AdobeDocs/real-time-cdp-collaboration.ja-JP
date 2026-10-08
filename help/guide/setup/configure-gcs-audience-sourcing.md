@@ -1,15 +1,16 @@
 ---
-title: オーディエンスソーシング用に [!DNL Google Cloud Storage] を設定
-description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationでセルフサービスのオーディエンスソースとして [!DNL Google Cloud Storage]  バケットを接続する方法について説明します。
+title: オーディエンスソーシング用に[!DNL Google Cloud Storage]を設定
+description: 前提条件、認証、フィールドマッピング、スケジューリング、検証など、Real-Time CDP Collaborationで[!DNL Google Cloud Storage] バケットをセルフサービスのオーディエンスソースとして接続する方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2912'
 ht-degree: 4%
-
 ---
-
 
 # オーディエンスソーシング用に[!DNL Google Cloud Storage]を設定
 
@@ -244,7 +245,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 開始するには、お住まいの地域に一致するAdobeの[!DNL Google Service Account]に注意してください。 後の手順でAdobeへのアクセス権を付与するには、この情報が必要です。
 
-| 領域 | [!DNL Google Service Account] |
+| 地域 | [!DNL Google Service Account] |
 | ------------- | --------------- |
 | 北米 | `kk9930000@va3-22da.iam.gserviceaccount.com` |
 | EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |

@@ -4,13 +4,14 @@ description: Adobe Real-Time CDP Collaboration Starterを利用して、Real-Tim
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
-
 ---
-
 # Adobe Real-Time CDP Collaboration [!DNL Starter]の概要
 
 Adobe Real-Time CDP Collaboration [!DNL Starter]を使用して、プライバシー重視のデータプロジェクトでライセンスを取得したパートナーと共同作業を行います。 ご自身のCollaboration ライセンスは必要ありません。
@@ -83,7 +84,7 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 ### クレジット使用について {#understand-credit-usage}
 
-すべてのCollaboration [!DNL Starter] アクティビティでクレジットが使用されます。 ただし、招待ユーザーとして、これらのクレジットを購入または管理する必要はありません。 招待した共同作業者は、アクティビティに関連するすべてのクレジット使用状況をカバーします。 詳しくは、Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)のドキュメントの クレジットの使用状況と使用状況を参照してください。
+すべてのCollaboration [!DNL Starter] アクティビティでクレジットが使用されます。 ただし、招待ユーザーとして、これらのクレジットを購入または管理する必要はありません。 招待した共同作業者は、アクティビティに関連するすべてのクレジット使用状況をカバーします。 詳しくは、Collaboration [!DNL Starter]&#x200B;[&#128279;](../setup/starter-credit-usage.md)のドキュメントの クレジットの使用状況と使用状況を参照してください。
 
 ## 次の手順 {#next-steps}
 
@@ -91,6 +92,6 @@ Collaboration [!DNL Starter]を使い始めるには、お客様の組織とラ�
 
 * [Sourceとオーディエンスの管理](../setup/onboard-audiences.md)
 * [&#x200B; プロジェクトの使用例](../collaborate/overview.md#project-use-cases):
-   * [重複を見つけてオーディエンスを比較](../collaborate/discover.md)
-   * [オーディエンスをアクティベート](../collaborate/activate.md)
-   * [施策のパフォーマンスを測定](../collaborate/measure.md)
+  * [重複を見つけてオーディエンスを比較](../collaborate/discover.md)
+  * [オーディエンスをアクティベート](../collaborate/activate.md)
+  * [施策のパフォーマンスを測定](../collaborate/measure.md)

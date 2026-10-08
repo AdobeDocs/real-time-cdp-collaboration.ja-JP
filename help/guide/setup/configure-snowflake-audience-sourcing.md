@@ -1,16 +1,17 @@
 ---
-title: オーディエンスソーシング用に [!DNL Snowflake] を設定
-description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Snowflake Secure Data Share] を設定して接続する方法について説明します。
+title: オーディエンスソーシング用に[!DNL Snowflake]を設定
+description: セルフサービスのデータソースとして[!DNL Snowflake Secure Data Share]を設定して接続し、オーディエンスデータをReal-Time CDP Collaborationに取り込む方法について説明します。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 6%
-
 ---
-
 # オーディエンスソーシング用に[!DNL Snowflake]を設定
 
 Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設定してソースオーディエンスデータに接続し、アクティベーションと重複分析を行う方法について説明します。
@@ -28,10 +29,10 @@ Adobe Real-Time CDP Collaboration UIで[!DNL Snowflake Secure Data Share]を設�
 * [!DNL Snowflake Share]を作成し、[!DNL Snowflake] アカウントで必要な権限を設定して、Adobeに[!DNL Snowflake Secure Data Share]へのアクセス権を付与しました。 [権限の設定方法 [!DNL Snowflake] について説明します](#set-up-snowflake-permissions)。
 * 次の[!DNL Snowflake Share]個の値を準備しています：
 
-   * **共有名**
-   * **アカウント ID**
-   * **スキーマ**
-   * **ビュー**
+  * **共有名**
+  * **アカウント ID**
+  * **スキーマ**
+  * **ビュー**
 
 * [!DNL Snowflake Secure Data Share]のオーディエンスデータは、[&#x200B; オーディエンスソーシング仕様（v1.3） &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) ガイドで説明されているフォーマット要件を満たしている必要があります。
 * [!DNL Snowflake] オーディエンスファイルのすべての一致キーを、Collaboration アカウントに対しても有効にする必要があります。 [一致キーを有効にする](./onboard-account.md#set-up-match-keys)または[新しい一致キー](./onboard-account.md#edit-match-keys)をアカウントに追加する方法について説明します。

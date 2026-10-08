@@ -1,14 +1,15 @@
 ---
-title: オーディエンスソーシング用に [!DNL Amazon S3] を設定
-description: Real-Time CDP Collaborationにオーディエンスデータを取り込むために、セルフサービスのデータソースとして [!DNL Amazon S3]  ストレージを設定して接続する方法について説明します。
+title: オーディエンスソーシング用に[!DNL Amazon S3]を設定
+description: '[!DNL Amazon S3] ストレージをセルフサービスのデータソースとして設定して接続し、オーディエンスデータをReal-Time CDP Collaborationに取り込む方法について説明します。'
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # オーディエンスソーシング用に[!DNL Amazon S3]を設定
 
 Adobe Real-Time CDP Collaboration UIで[!DNL Amazon S3] ストレージを設定し、ソースオーディエンスデータに接続してアクティベーションおよび重複分析を行う方法について説明します。
@@ -31,15 +32,15 @@ S3 データ接続を設定する前に、次の点を確認してください�
 * **[Audience Sourcing Specification （v1.3）](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;に準拠するオーディエンスファイルを含むアクティブな&#x200B;**[!DNL Amazon S3]バケット**&#x200B;にアクセスできます。
 * AWSで&#x200B;**IAM ロール**&#x200B;を作成しました。このロールは、**想定されたロール** メソッド （アクセス/秘密鍵ではありません）を使用してバケットへのアクセス権をAdobeに付与します。 詳しい手順については、**[オーディエンスソーシングに対するAWS権限の設定](./configure-aws-permissions-audience-sourcing.md)**&#x200B;を参照してください。 IAMの役割には、次の権限を含める必要があります。
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * 次の値を用意しています。
 
-   * **IAM ロール Amazon リソース名（ARN）**
-   * **S3 バケット名**
-   * **フォルダーパス** （オーディエンスファイルを含むディレクトリ接頭辞）
+  * **IAM ロール Amazon リソース名（ARN）**
+  * **S3 バケット名**
+  * **フォルダーパス** （オーディエンスファイルを含むディレクトリ接頭辞）
 
 >[!NOTE]
 >

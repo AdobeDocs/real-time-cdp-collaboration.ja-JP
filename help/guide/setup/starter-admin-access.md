@@ -1,16 +1,17 @@
 ---
-title: Collaboration [!DNL Starter]  オンボーディングの管理者アクセス権の設定
-description: Adobe Experience CloudのAdmin Consoleを使用して、Adobe Real-Time CDP Collaboration [!DNL Starter] の管理者アクセス権を設定する方法について説明します。
+title: Collaboration [!DNL Starter] オンボーディングの管理者アクセス権の設定
+description: Adobe Experience CloudのAdmin Consoleを使用して、Adobe Real-Time CDP Collaboration [!DNL Starter]の管理者アクセス権を設定する方法について説明します。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 2%
-
 ---
-
 # Collaboration [!DNL Starter] オンボーディングの管理者アクセス権の設定
 
 Collaboration [!DNL Starter]を通じてAdobe Experience Platformにアクセスする最初のユーザーは、チームのアクセス権を設定および管理する責任があります。 Real-Time CDP Collaborationで作業を開始するには、必要な管理者およびユーザー権限を付与する必要があります。 このガイドでは、Admin Consoleで必要なアクセス権を設定し、権限インターフェイスで共同作業の権限を管理する方法について説明します。
@@ -43,7 +44,7 @@ Experience Cloudの役割と製品について詳しくは、[&#x200B; アクセ
 
 最初に、資格情報を使用して[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}にログインします。 利用可能な製品のリストは、**[!UICONTROL クイックアクセス]** セクション内に表示されます。 「**[!UICONTROL Admin Console]**」を選択します。
 
-![Admin Consoleがハイライト表示されたAdobe Experience Cloudのホームページ。](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
+Admin Consoleがハイライト表示された![Adobe Experience Cloudのホームページ。](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
 #### Adobe Experience Platform製品ダッシュボードへのアクセス {#access-adobe-experience-platform}
 
@@ -73,7 +74,7 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ユーザーアクセスの設定を開始するには、次の手順を実行します。
 
-1. [Adobe Experience Cloud ホームページ &#x200B;](#access-admin-console)からAdmin Consoleにアクセスします。
+1. [Adobe Experience Cloudのホームページ &#x200B;](#access-admin-console)からAdmin Consoleにアクセスします。
 2. [Adobe Experience Platform製品ダッシュボード &#x200B;](#access-adobe-experience-platform)に移動します。
 
 #### 製品にユーザーを追加 {#add-user}
@@ -96,7 +97,7 @@ Collaboration権限を管理するには、管理者アクセス権に加えて�
 
 ![保存オプションがハイライト表示されたこの製品ダイアログにユーザーを追加します。](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
 
-ユーザーアクセス権を取得したら、[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}に戻ります。 **[!UICONTROL 権限]**&#x200B;と&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;が&#x200B;**[!UICONTROL クイックアクセス]**&#x200B;で利用できることを確認します。
+ユーザーアクセスができたら、[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}に戻ります。 **[!UICONTROL 権限]**&#x200B;と&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;が&#x200B;**[!UICONTROL クイックアクセス]**&#x200B;で利用できることを確認します。
 
 ![&#x200B; クイックアクセスとハイライト表示の下に権限とReal-Time CDP Collaborationの両方が表示されているAdobe Experience Cloudのホーム画面。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
