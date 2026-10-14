@@ -2,7 +2,7 @@
 title: オーディエンスソーシング用に[!DNL Snowflake]を設定
 description: セルフサービスのデータソースとして[!DNL Snowflake Secure Data Share]を設定して接続し、オーディエンスデータをReal-Time CDP Collaborationに取り込む方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
