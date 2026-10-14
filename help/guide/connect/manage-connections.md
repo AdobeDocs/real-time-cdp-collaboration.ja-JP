@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 1%
 ---
 # 接続の管理 {#manage-connections}
@@ -38,7 +38,9 @@ ht-degree: 1%
 
 ### 自動アクティベーションの宛先の設定 {#configure-auto-activation-destination}
 
-受信者は、Collaborationが接続を介して送信されたオーディエンスを自動的にアクティブ化するために使用する宛先を選択できます。 開始する前に、少なくとも1つのアクティブな宛先を所有していることを確認してください。 宛先の設定方法については、[宛先の概要](../destinations/overview.md)を参照してください。
+受信者は、Collaborationが接続を介して送信されたオーディエンスを自動的にアクティブ化するために使用する宛先を選択できます。 自動アクティベーションの宛先を設定しない場合は、受信したオーディエンスを手動でアクティベートする必要があります。
+
+開始する前に、少なくとも1つのアクティブな宛先を所有していることを確認してください。 宛先の設定方法については、[宛先の概要](../destinations/overview.md)を参照してください。
 
 接続設定ワークスペースで、**[!UICONTROL アクティベーションコントロール]**&#x200B;に移動し、**[!UICONTROL 編集]**&#x200B;を選択します。 次に、ドロップダウンから&#x200B;**[!UICONTROL 自動アクティベーションの宛先]**&#x200B;を選択し、**[!UICONTROL 保存]**&#x200B;を選択して確認します。
 
