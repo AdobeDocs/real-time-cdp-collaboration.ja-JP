@@ -2,7 +2,7 @@
 title: 広告露出のソーシング用に[!DNL Azure] ストレージを設定します
 description: Azure Data Lake StorageまたはBlob StorageからReal-Time CDP CollaborationへのSource広告露出（広告ログ）データは、プライバシーを重視した測定に役立ちます。
 keywords: Real-Time CDP Collaboration；広告ログのソーシング；[!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

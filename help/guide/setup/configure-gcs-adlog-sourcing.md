@@ -2,7 +2,7 @@
 title: 広告露出のソーシング用に[!DNL Google Cloud Storage]を設定
 description: Real-Time CDP Collaboration measurementで広告露出のセルフサービス広告ログソースとして[!DNL Google Cloud Storage] バケットを接続する方法を説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
