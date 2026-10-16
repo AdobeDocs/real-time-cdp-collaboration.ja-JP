@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 35%
+source-wordcount: '263'
+ht-degree: 33%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -37,6 +37,9 @@ ht-degree: 35%
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
+  * Sourceの広告露出（広告ログ） {#source-adlogs}
+    * [広告露出のソーシング用にGCSを設定する](./setup/configure-gcs-adlog-sourcing.md)
+    * [広告露出のソーシング用にAzure ストレージを設定する](./setup/configure-azure-adlog-sourcing.md)
   * [測定データ接続の管理](./setup/manage-measurement-data-connection.md)
   * [監査ログ](./setup/audit-logs.md)
   * Real-Time CDP Collaboration Starterの設定 {#starter-setup}
