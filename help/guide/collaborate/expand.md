@@ -4,9 +4,9 @@ description: Adobe Real-Time CDP Collaborationで共同作業者のオーディ�
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 2%
 ---
 # （Beta） Expandでの拡張オーディエンスの作成
@@ -15,12 +15,14 @@ ht-degree: 2%
 
 ## 前提条件 {#prerequisites}
 
-「**[!UICONTROL 展開]**」タブを使用する前に、次の操作を行う必要があります。
+「**[!UICONTROL 拡張]**」タブを使用する前に、次の前提条件を満たしてください。
 
-* シードオーディエンスとして使用する[&#x200B; ソース &#x200B;](/help/guide/setup/onboard-audiences.md)の少なくとも1人のオーディエンス
-* [共同作業者と接続](/help/guide/connect/establishing-connections.md)
-* [その共同作業者と共にプロジェクト &#x200B;](/help/guide/collaborate/manage-projects.md)を作成しました
-* 拡張オーディエンスを受信している場合は、アクティブなオーディエンスを受信するように[宛先](/help/guide/destinations/overview.md)が設定されています
+* シードオーディエンスとして使用する[Sourceは、少なくとも1人のオーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)です。
+* [共同作業者とつながる](/help/guide/connect/establishing-connections.md)。
+* [その共同作業者と一緒にプロジェクト &#x200B;](/help/guide/collaborate/manage-projects.md)を作成します。
+* 拡張オーディエンスを受け取った場合、[接続の自動アクティブ化宛先](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)を設定します。 自動アクティベーションを設定する前に、アクティブな宛先を所有する必要があります。
+
+オーディエンスの送信と受信オーディエンスのアクティブ化について詳しくは、[&#x200B; オーディエンスのアクティブ化](/help/guide/collaborate/activate.md)を参照してください。
 
 ## さらに詳しく {#expand-overview}
 
