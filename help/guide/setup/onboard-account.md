@@ -2,7 +2,7 @@
 title: アカウントの設定と管理
 description: Real-Time CDP Collaborationでアカウントのさまざまな側面を設定および管理する方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # アカウントの設定と管理
 
 {{limited-availability-release-note}}
@@ -32,11 +30,11 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 ## アカウントの設定 {#set-up-account}
 
-最初にCollaborationにアクセスすると、アカウントの設定を求めるメッセージが表示されます。 これは、アカウントの詳細を設定し、キーを照合するための1回限りのプロセスです。 これが組織の最初のアカウントの場合は、すぐにオンボーディングプロセスを介して、[&#x200B; アカウントの詳細](#set-up-details)の設定を開始します。
+最初にCollaborationにアクセスすると、アカウントの設定を求めるメッセージが表示されます。 これは、アカウントの詳細を設定し、キーを照合するための1回限りのプロセスです。 これが組織の最初のアカウントの場合は、すぐにオンボーディングプロセスを介して、[ アカウントの詳細](#set-up-details)の設定を開始します。
 
-組織を追加するには、左側のパネルの&#x200B;**[!UICONTROL 設定]**&#x200B;に移動し、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 右上隅にあります。 次に、**[!UICONTROL アカウント]**&#x200B;を選択します。
+組織を追加するには、左側のパネルの&#x200B;**[!UICONTROL 設定]**&#x200B;に移動し、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 右上隅にあります。 次に、**[!UICONTROL アカウント]**&#x200B;を選択します。
 
-![&#x200B; マイアカウントタブとアカウントオプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![ マイアカウントタブとアカウントオプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### 詳細の設定 {#set-up-details}
 
@@ -59,7 +57,7 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 * **[!UICONTROL 地域]**&#x200B;は、Adobe Experience Cloud アカウントに基づいて自動的に設定されます。 この設定はいつでも変更できません。
 * アカウントの&#x200B;**[!UICONTROL お問い合わせメール]**&#x200B;を追加します。 これは、チームまたは役割ベースのメールアドレスである必要があります。 個人のメールアドレスは提供しないでください。
 * アカウントの&#x200B;**[!UICONTROL ロゴ]**&#x200B;をアップロードします。 現在、SVG型の画像がサポートされています。 これはオプションですが、ロゴをアップロードすると、Collaboration インターフェイスでブランドを視覚的に表現するのに役立ちます
-* アカウントヘッダー画像の画像を選択します。
+* アカウントのヘッダー写真の画像を選択します。
 
 >[!NOTE]
 >
@@ -67,12 +65,12 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 ![詳細セクションが表示され、次のオプションがハイライト表示されたアカウント設定ワークスペース。](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
-### 一致キーの設定 {#set-up-match-keys}
+### マッチキーの設定 {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
->abstract="一致キーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。 ブランドで使用できる一致キーを含めます。"
+>abstract="マッチキーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。 ブランドで使用できるマッチキーを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_setup_match_keys"
@@ -92,7 +90,7 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="サポートされるパートナー ID"
->abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。 パートナー ID は、個々のプロファイルに直接接続されません。"
+>abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。 パートナー ID は、個人のプロファイルに直接接続されません。"
 
 次の表に、Collaborationでサポートされている照合キーを示します。
 
@@ -105,13 +103,17 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>[!DNL Epsilon Core ID]のID解決に使用される名前と住所のフィールドは、アカウントレベルの照合キーとして設定されていません。 オーディエンスデータ接続を設定する際に、これらのフィールドをマッピングします。 詳しくは、[ フィールドのマッピング ](./onboard-audiences.md#map-fields)を参照してください。
+
 >[!IMPORTANT]
 >
 >アカウントの設定中に選択した照合キーによって、接続内で使用可能な照合キーが決まります。 接続設定中に[不要な一致キー](../connect/establishing-connections.md#connection-settings)を削除できますが、接続が確立された後に一致キーを追加することはできません。 アカウントの設定中に、今後のキャンペーンで使用する予定の&#x200B;**all**&#x200B;一致キーを選択することが重要です。
 
-マッチキーは、正確でプライバシーを重視したデータ同期を可能にすることで、共同作業者が協力して作業するのに役立ち、より正確なオーディエンスのターゲティングと測定が可能になります。 アカウントの設定中に選択した照合キーによって、今後の接続で使用できる照合キーが決まります。 また、オーディエンスのソーシング時に、データ接続からCollaborationのターゲットフィールドに[&#x200B; フィールド &#x200B;](./onboard-audiences.md#map-fields)をマッピングするためにも使用されます。
+マッチキーは、正確でプライバシーを重視したデータ同期を可能にすることで、共同作業者が協力して作業するのに役立ち、より正確なオーディエンスのターゲティングと測定が可能になります。 アカウントの設定中に選択した照合キーによって、今後の接続で使用できる照合キーが決まります。 また、オーディエンスのソーシング時に、データ接続からCollaborationのターゲットフィールドに[ フィールド ](./onboard-audiences.md#map-fields)をマッピングするためにも使用されます。
 
-オーディエンスプロファイルを紐付ける際に使用する一致キーを選択します。 将来の計画を立て、今後のキャンペーンで使用できる照合キーを含めます。 後でアカウントに追加の一致キーを選択する必要がある場合は、[&#x200B; アカウントを編集](#edit-account) ワークフローで選択できます。 ただし、初期設定後に追加された一致キーは、既存の接続では使用できません。
+オーディエンスプロファイルを紐付ける際に使用する一致キーを選択します。 将来の計画を立て、今後のキャンペーンで使用できる照合キーを含めます。 後でアカウントに追加の一致キーを選択する必要がある場合は、[ アカウントを編集](#edit-account) ワークフローで選択できます。 ただし、初期設定後に追加された一致キーは、既存の接続では使用できません。
 
 #### サポートされている一致キー {#supported-match-keys}
 
@@ -120,7 +122,7 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 * 一致するキーは&#x200B;**trimmed**、**小文字**&#x200B;である必要があります
 * ハッシュ化された一致キーは&#x200B;**SHA256-hashed**&#x200B;である必要があります。
 * 大文字を使用するハッシュ値を指定すると、Collaborationは自動的に小文字に変換します。
-* ソースに&#x200B;**プレーンテキスト識別子**&#x200B;が含まれている場合は、[&#x200B; データ接続のセットアップ &#x200B;](./manage-data-connection.md#match-keys)中に&#x200B;**[!UICONTROL 変換を適用]** オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスをソーシングする場合にのみ使用でき、クラウドベースのソースではサポートされていません。
+* ソースに&#x200B;**プレーンテキスト識別子**&#x200B;が含まれている場合は、[ データ接続のセットアップ ](./manage-data-connection.md#match-keys)中に&#x200B;**[!UICONTROL 変換を適用]** オプションを使用してハッシュを適用します。 このオプションは、Experience Platformからオーディエンスをソーシングする場合にのみ使用でき、クラウドベースのソースではサポートされていません。
 
 ##### 人物 ID
 
@@ -130,7 +132,6 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 * **[!UICONTROL ハッシュ化された電話]**
 * **[!UICONTROL CRM ID]**
 * **[!UICONTROL ロイヤルティ ID]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### デバイス ID
 
@@ -151,13 +152,9 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 >
 >Adobeと[!DNL AdFixus]の統合により、各アカウントの一意の[!UICONTROL AdFixus ID]が、Adobeでエンコードされた共通のフォーマットにマッピングされます。 これらのマッピングは、共同作業者の重複を識別するために使用されます。 **[!UICONTROL AdFixus ID]**&#x200B;を使用してオーディエンスをアクティブ化する場合、元のIDが使用されます。 Adobeでエンコードされたフォーマットは、Collaborationから離れることはありません。
 
-**[!UICONTROL AdFixus ID]**&#x200B;を選択する場合、**[!UICONTROL アカウント資格情報]** セクションで、外部パートナーから対応するIDを指定する必要があります。 このオプションは、**[!UICONTROL AdFixus ID]**&#x200B;で&#x200B;*切り替え後*&#x200B;にのみ使用できます。 AdFixus IDを&#x200B;**[!UICONTROL アカウント ID]** フィールドに入力し、値が正確かどうかを再確認してください。
+**[!UICONTROL AdFixus ID]**&#x200B;を選択する場合、**[!UICONTROL アカウント資格情報]** セクションで、外部パートナーから対応するIDを指定する必要があります。 このオプションは、**[!UICONTROL AdFixus ID]**&#x200B;で&#x200B;*切り替え後*&#x200B;にのみ使用できます。 AdFixus IDを&#x200B;**[!UICONTROL アカウント ID]** フィールドに入力し、値が正確かどうかを再確認してください。 必要なすべての一致キーを選択したら、**[!UICONTROL 完了]**&#x200B;を選択して、アカウント設定ワークフローを完了します。
 
 ![AdFixus IDを含むキーマッチダイアログがオンになり、アカウント資格情報セクションが強調表示されます。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-必要なすべての一致キーを選択したら、**[!UICONTROL 完了]**&#x200B;を選択して、アカウント設定ワークフローを完了します。
-
-![一致するキーを含むアカウント ワークスペースの設定セクションが表示されます。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## アカウントを編集 {#edit-account}
 
@@ -165,15 +162,15 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 
 ### 詳細を編集 {#edit-details}
 
-**[!UICONTROL 役割]**&#x200B;を除き、いつでもアカウントの詳細情報を編集できます。 リージョンはAdobe Experience Cloud アカウントに基づいて自動的に設定され、変更することはできません。
+**[!UICONTROL 役割]**&#x200B;を除き、いつでもアカウントの詳細情報を編集できます。 リージョンは、Adobe Experience Cloud アカウントに基づいて自動的に設定され、変更できません。
 
 アカウントを編集するには、**[!UICONTROL セットアップ]** ワークスペースの&#x200B;**[!UICONTROL マイアカウント]** セクションで&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-![&#x200B; マイアカウント タブと編集オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
+![ マイアカウント タブと編集オプションがハイライト表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
 アカウントの詳細を編集できるようになりました。 変更するフィールドを更新し、**[!UICONTROL 保存]**&#x200B;を選択して変更を確認します。
 
-![&#x200B; アカウントの詳細を編集ダイアログ。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
+![ アカウントの詳細を編集ダイアログ。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
 ### 一致キーを編集 {#edit-match-keys}
 
@@ -181,13 +178,13 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 
 「**[!UICONTROL キーの一致]**」セクションで「**[!UICONTROL 編集]**」を選択します。
 
-![&#x200B; アカウントの「キーの一致」セクション内で「編集」オプションが強調表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+![ アカウントの「キーの一致」セクション内で「編集」オプションが強調表示された設定ワークスペース。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
 「**[!UICONTROL 一致キー]**」ダイアログが表示されます。 任意の一致キーを切り替えるか、[!UICONTROL AdFixus ID]の&#x200B;**[!UICONTROL アカウント ID]**&#x200B;を更新し、**[!UICONTROL 保存]**&#x200B;を選択して変更を確認します。
 
 >[!IMPORTANT]
 >
->[!UICONTROL AdFixus ID]を変更しても、一致キーを使用した既存のデータ接続の[&#x200B; データスケッチ &#x200B;](../glossary.md#sketches)の更新はトリガーされません。 データがスケッチされると、[&#x200B; データ接続スケジュール &#x200B;](./manage-data-connection.md#scheduling)の設定に従って次のオーディエンスが更新されるまで、[!UICONTROL AdFixus ID]に対する変更は反映されません。 次の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
+>[!UICONTROL AdFixus ID]を変更しても、一致キーを使用した既存のデータ接続の[ データスケッチ ](../glossary.md#sketches)の更新はトリガーされません。 データがスケッチされると、[ データ接続スケジュール ](./manage-data-connection.md#scheduling)の設定に従って次のオーディエンスが更新されるまで、[!UICONTROL AdFixus ID]に対する変更は反映されません。 次の更新の前に変更が必要な場合は、データ接続を削除して再作成できます。
 >
 >現時点では、アカウントに追加した照合キーは削除できません。
 
@@ -195,8 +192,8 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 
 成功ダイアログは、アカウントの照合キーが正常に更新されたことを確認します。
 
-![&#x200B; アカウントの照合キーが正常に更新されたことを確認する成功ダイアログが表示されます。](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
+![ アカウントの照合キーが正常に更新されたことを確認する成功ダイアログが表示されます。](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## 次の手順
 
-アカウントを設定したら、[&#x200B; ソースオーディエンス &#x200B;](/help/guide/setup/onboard-audiences.md)をReal-Time CDP Collaborationに登録できます。
+アカウントを設定したら、[ ソースオーディエンス ](/help/guide/setup/onboard-audiences.md)をReal-Time CDP Collaborationに登録できます。

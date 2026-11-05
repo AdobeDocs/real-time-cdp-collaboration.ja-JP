@@ -2,7 +2,7 @@
 title: Sourceとオーディエンスの管理
 description: Adobe Real-Time CDP Collaborationでのオーディエンスの調達方法と管理方法について説明します
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Sourceとオーディエンスの管理
 
@@ -26,17 +26,17 @@ ht-degree: 16%
 
 オーディエンスとは、さまざまな属性にもとづいてセグメント化された、特定のユーザーや顧客のグループのことです。 これにより、共同作業者は協力して、より効果的な広告キャンペーンを実現するための、ターゲットマーケティングとパーソナライズされたエクスペリエンスに取り組むことができます。 このガイドでは、Real-Time CDP Collaborationでオーディエンスを取得する方法、オーディエンスダッシュボードを表示する方法、個々のオーディエンスを管理する方法について説明します。
 
-Collaborationのオーディエンスの概念的な説明については、[&#x200B; オーディエンスの概要](../setup/audiences-overview.md)を参照してください。
+Collaborationのオーディエンスの概念的な説明については、[ オーディエンスの概要](../setup/audiences-overview.md)を参照してください。
 
 ## SourceからCollaborationへのオーディエンス {#source-audiences}
 
 >[!IMPORTANT]
 >
->オーディエンスを取得するには、2つのプロファイル管理権限&#x200B;**[!UICONTROL プロファイルの表示]**&#x200B;と&#x200B;**[!UICONTROL セグメントの表示]**&#x200B;を含む役割にユーザーを割り当てる必要があります。 必要な権限の割り当てについて詳しくは、「権限」の「[&#x200B; オーディエンスソーシング &#x200B;](../permissions/overview.md#audience-sourcing) ガイド」を参照してください。
+>オーディエンスを取得するには、2つのプロファイル管理権限&#x200B;**[!UICONTROL プロファイルの表示]**&#x200B;と&#x200B;**[!UICONTROL セグメントの表示]**&#x200B;を含む役割にユーザーを割り当てる必要があります。 必要な権限の割り当てについて詳しくは、「権限」の「[ オーディエンスソーシング ](../permissions/overview.md#audience-sourcing) ガイド」を参照してください。
 
 共同作業者とのオーディエンスをアクティブ化し、重複の計算を実行する前に、オーディエンスをCollaborationにソースする必要があります。 オーディエンスを取得するには、以下のセクションのワークフロー手順に従います。
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加] オプション**&#x200B;を選択することもできます。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加] オプション**&#x200B;を選択することもできます。
 
 ![追加オプションとオーディエンスオプションがハイライト表示された自分のオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
@@ -51,17 +51,17 @@ Collaborationのオーディエンスの概念的な説明については、[&#x
 
 >[!IMPORTANT]
 >
->最初のデータ接続を確立し、最初のオーディエンスをソーシングしたら、既存のデータ接続から複数のオーディエンスをソーシングできます。 追加オーディエンスを追加する場合は、データ接続が既に確立されているため、[&#x200B; オーディエンスの選択](#select-audiences)の手順から開始します。
+>最初のデータ接続を確立し、最初のオーディエンスをソーシングしたら、既存のデータ接続から複数のオーディエンスをソーシングできます。 追加オーディエンスを追加する場合は、データ接続が既に確立されているため、[ オーディエンスの選択](#select-audiences)の手順から開始します。
 
-データ接続は、オーディエンスをCollaborationに取り込むソースです。 利用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
+データ接続は、オーディエンスをCollaborationに取り込むソースです。 利用可能なすべてのソースについて詳しくは、[ ソースの概要](./source-overview.md)を参照してください。
 
-以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]、[!DNL Google Cloud Storage]、Adobe Audience Managerまたは[!DNL Databricks Delta Share]のいずれかを選択した場合は、そのオプションの「[&#x200B; データソースを選択](#select-data-source)」の下にリンクされているガイドを使用します。
+以下のセクションでは、**Adobe Experience Platform**&#x200B;を選択し、Experience Platform固有の手順（サンドボックス、ガバナンス、同意）を完了する方法について説明します。 CSV、[!DNL Amazon S3]、[!DNL Snowflake]、[!DNL Google Cloud Storage]、Adobe Audience Managerまたは[!DNL Databricks Delta Share]のいずれかを選択した場合は、そのオプションの「[ データソースを選択](#select-data-source)」の下にリンクされているガイドを使用します。
 
 Experience Platform データ接続に対して設定した設定は、その接続からソースされたすべてのオーディエンスに適用されます。
 
 >[!TIP]
 >
->データ接続を表示および編集できる別のワークフローがあります。 詳細については、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドを参照してください。
+>データ接続を表示および編集できる別のワークフローがあります。 詳細については、[ データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドを参照してください。
 
 データ接続の追加を開始するには、**[!UICONTROL 新しいデータ接続を追加]**&#x200B;を選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
@@ -72,12 +72,12 @@ Experience Platform データ接続に対して設定した設定は、その接
 次に、データ接続のソースを選択します。 利用可能なソースは次のとおりです。
 
 * **Adobe Experience Platform**: Adobe Experience Platformからオーディエンスを取り込むには、このオプションを選択します。
-* **CSV ファイル**: オーディエンスデータを含むCSV ファイルをアップロードして、すばやく簡単にデータを取り込みます。 開始するには、「[&#x200B; オーディエンスソーシング用CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md)」ガイドを参照してください。
-* **Amazon Web Services**: Amazon S3 ストレージに接続して、S3 バケットから直接オーディエンスデータを取得します。 詳しい手順については、「[&#x200B; オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ガイド」を参照してください。
-* **Snowflake**: Snowflake データウェアハウスを使用して、オーディエンスデータをシームレスに取り込みます。 オーディエンスのソーシング [&#128279;](./configure-snowflake-audience-sourcing.md)については、設定 [!DNL Snowflake]  ガイドを参照してください。
-* **Google Cloud Storage**:GCS バケットに接続してソースオーディエンスデータを取得します。 詳しい手順については、[&#x200B; オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md) ガイドを参照してください。
-* **[!DNL Databricks Delta Share]**: [!DNL Databricks Delta Share]に接続して、[!DNL Databricks]環境から1st パーティオーディエンスデータを取得します。 オーディエンスのソーシング [&#128279;](./configure-databricks-audience-sourcing.md)については、設定 [!DNL Databricks Delta Share]  ガイドを参照してください。
-* **Adobe Audience Manager**: Adobe Audience ManagerからオーディエンスセグメントをSourceします。 詳しくは、「[&#x200B; オーディエンスソーシング用にAdobe Audience Managerを設定](./configure-aam-audience-sourcing.md) ガイド」を参照してください。
+* **CSV ファイル**: オーディエンスデータを含むCSV ファイルをアップロードして、すばやく簡単にデータを取り込みます。 開始するには、「[ オーディエンスソーシング用CSV ファイルのアップロード ](./upload-csv-audience-sourcing.md)」ガイドを参照してください。
+* **Amazon Web Services**: Amazon S3 ストレージに接続して、S3 バケットから直接オーディエンスデータを取得します。 詳しい手順については、「[ オーディエンスソーシング用にAWS S3を設定](./configure-aws-s3-audience-sourcing.md) ガイド」を参照してください。
+* **Snowflake**: Snowflake データウェアハウスを使用して、オーディエンスデータをシームレスに取り込みます。 オーディエンスのソーシング ](./configure-snowflake-audience-sourcing.md)については、[設定 [!DNL Snowflake]  ガイドを参照してください。
+* **Google Cloud Storage**:GCS バケットに接続してソースオーディエンスデータを取得します。 詳しい手順については、[ オーディエンスソーシング用GCSの設定](./configure-gcs-audience-sourcing.md) ガイドを参照してください。
+* **[!DNL Databricks Delta Share]**: [!DNL Databricks Delta Share]に接続して、[!DNL Databricks]環境から1st パーティオーディエンスデータを取得します。 オーディエンスのソーシング ](./configure-databricks-audience-sourcing.md)については、[設定 [!DNL Databricks Delta Share]  ガイドを参照してください。
+* **Adobe Audience Manager**: Adobe Audience ManagerからオーディエンスセグメントをSourceします。 詳しくは、「[ オーディエンスソーシング用にAdobe Audience Managerを設定](./configure-aam-audience-sourcing.md) ガイド」を参照してください。
 
 データソースを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します。
 
@@ -87,7 +87,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 データソースを選択したら、Collaborationに使用するオーディエンスを含むサンドボックスを選択する必要があります。 使用可能なサンドボックスのリストからサンドボックスを選択し、**[!UICONTROL 次へ]**&#x200B;を選択します
 
-![&#x200B; サンドボックスを選択したオーディエンスの追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
+![ サンドボックスを選択したオーディエンスの追加ワークスペース。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### ガバナンスポリシーと適用アクション {#governance-policy-and-enforcement-actions}
 
@@ -95,7 +95,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 マーケティングアクションを使用して、Experience PlatformからCollaborationに取り込むオーディエンスデータを制御します。 **[!UICONTROL データ共同作業]**&#x200B;マーケティングアクションは、C4、C5、C9、S1、S2、PSPD、RHD データ使用ラベルをサポートしています。 **[!UICONTROL データサイエンス]**&#x200B;マーケティングアクションは、C9 データ使用ラベルをサポートしています。
 
-[C4、C5、C9、S1、S2、PSPDおよびRHD データ使用ラベル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご覧ください。
+[C4、C5、C9、S1、S2、PSPDおよびRHD データ使用ラベル ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}の詳細をご覧ください。
 
 * チェックボックスが&#x200B;***enabled***&#x200B;の場合、上記のようにExperience Platformでラベル付けされたデータは除外され、**not**&#x200B;がCollaborationに取り込まれます。
 * チェックボックス ***disabled***&#x200B;を使用すると、Experience Platformから取得したデータに制限はありません。
@@ -107,11 +107,11 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 さらに、Collaborationに取り込むデータに適用する同意ルールを選択します。
 
-![&#x200B; ガバナンスポリシーと履行アクションのセクションにある「オーディエンスを追加」ワークスペース。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
+![ ガバナンスポリシーと履行アクションのセクションにある「オーディエンスを追加」ワークスペース。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 マーケティング活動と同意ルールを選択したら、**[!UICONTROL 次]**&#x200B;を選択して次の手順に進みます。 条件に同意するよう求める確認ダイアログが表示されます。 チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して確認します。
 
-![&#x200B; チェックボックスと「OK」オプションがハイライト表示されたガバナンスポリシーと履行アクションのダイアログ。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
+![ チェックボックスと「OK」オプションがハイライト表示されたガバナンスポリシーと履行アクションのダイアログ。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### 詳細を入力 {#provide-details}
 
@@ -129,7 +129,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。"
+>abstract="ターゲットフィールドは、マッピングされたソースデータがCollaborationでどのように使用されるかを識別します。 アカウントレベルの照合キーは、デフォルトで使用できます。 ID解決に使用される「名前」フィールドと「住所」フィールドは、データ接続の設定中に使用でき、アカウントレベルの有効化は必要ありません。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,11 +148,24 @@ Experience Platform データ接続に対して設定した設定は、その接
 >abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
-次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、[&#x200B; アカウントのセットアップ &#x200B;](./onboard-account.md#set-up-match-keys)中に選択した照合キーに基づきます。
+次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、[ アカウントのセットアップ ](./onboard-account.md#set-up-match-keys)中に選択した照合キーに基づいています。 ID解決に使用される[!UICONTROL 名前]および[!UICONTROL 郵便アドレス ] フィールドは、データ接続の設定中に使用でき、アカウントレベルで有効にする必要はありません。
 
-アカウントのセットアップ中に一致キーとして[!DNL Demdex ID (ECID)]を選択した場合、[!DNL Demdex ID]は自動的に抽出され、ECIDからマッピングされるので、何も操作を行う必要はありません。 [!DNL Demdex IDs]について詳しくは、[[!DNL Demdex ID]](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/unified-identity-support) ガイドを参照してください。
+#### Epsilon Core IDのマップ名と住所フィールド {#map-name-postal-address}
 
-![&#x200B; ソースフィールドをターゲットフィールドにマッピングするオプションを備えたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
+ID解決に&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 郵便アドレス]**&#x200B;を使用するには、両方のフィールドに少なくとも1つのサブコンポーネントをマッピングします。
+
+* **[!UICONTROL 名前]:** [!UICONTROL 名]、[!UICONTROL 姓]、または[!UICONTROL 氏名]。
+* **[!UICONTROL 住所]:** [!UICONTROL 住所]、[!UICONTROL 都市]、[!UICONTROL 州]、[!UICONTROL 郵便番号]、または[!UICONTROL 国]。
+
+Adobe Experience Platformがデータソースである場合、Collaborationは、選択したサンドボックスから使用可能なプロファイル属性を[!UICONTROL 名前]および[!UICONTROL 郵便アドレス ] サブコンポーネントに自動的にマッピングします。 提案されたマッピングを確認し、欠けているフィールドや誤ってマッピングされたフィールドを修正します。
+
+すべてのサブコンポーネントをマッピングする必要はありません。 データを持たないサブコンポーネントを除外するには、そのマッピング行を削除します。 [!UICONTROL 名前]と[!UICONTROL 郵便アドレス ]の値はハッシュ化されていません。
+
+これらのフィールドの使用について詳しくは、[ID解決の設定と管理](./identity-resolution.md)を参照してください。
+
+アカウントのセットアップ中に一致キーとして[!DNL Demdex ID (ECID)]を選択した場合、[!DNL Demdex ID]は自動的に抽出され、ECIDからマッピングされるので、何も操作を行う必要はありません。 [!DNL Demdex IDs]について詳しくは、[[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) ガイドを参照してください。
+
+![ ソースフィールドをターゲットフィールドにマッピングするオプションを備えたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -160,13 +173,13 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source フィールド]**&#x200B;は、Experience PlatformのID名前空間と属性です。 これには、[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}と[&#x200B; カスタム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#create-namespaces){target="_blank"}の両方のID名前空間が含まれます。 また、[union スキーマ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
+**[!UICONTROL Source フィールド]**&#x200B;は、Experience PlatformのID名前空間と属性です。 これには、[標準](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=ja#standard){target="_blank"}と[ カスタム ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}の両方のID名前空間が含まれます。 また、[union スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja){target="_blank"}に存在し、XDM Individual Profile クラスに属するプロファイル属性も含まれます。
 
 Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
 
-**[!UICONTROL ターゲットフィールド]**&#x200B;は、CollaborationでのIDの参照方法を示します。 ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
+**[!UICONTROL ターゲットフィールド]**&#x200B;は、マッピングされたソースデータがCollaborationでどのように使用されるかを示します。 ほとんどのターゲットフィールドは、アカウントの設定中に選択された一致キーです。 ID解決用の&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 郵便アドレス]** フィールドは、データ接続の設定中に提供されます。アカウントレベルの有効化は必要ありません。
 
-ハッシュ化されたフィールドに&#x200B;*非ハッシュ化された* フィールドをソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。 Collaborationがハッシュ化を適用し、フィールドを変換します。 Adobeで使用されるハッシュアルゴリズムはSHA256です。
+ハッシュ化されていないフィールドをハッシュ化されたフィールドにソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。 Collaborationでは、SHA256 ハッシュを適用してフィールドを変換します。 [!UICONTROL 名前]と[!UICONTROL 郵便アドレス ]の値はハッシュ化されていません。
 
 >[!ENDSHADEBOX]
 
@@ -180,7 +193,7 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 プロファイルがネストされたフィールドに複数の値を持つ場合、Collaborationは各値を個別に照合してカウントします。 事前にデータを統合したり、再構築したりする必要はありません。
 
-![&#x200B; デバイス リストが展開され、マッピング用にデバイス ID フィールドが選択されたソース フィールドを選択ダイアログ &#x200B;](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+![ デバイス リストが展開され、マッピング用にデバイス ID フィールドが選択されたソース フィールドを選択ダイアログ ](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -194,9 +207,9 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 ![電子メールソースフィールドがターゲットフィールドにマッピングされ、変換の適用が1つに対してオンに切り替えられたオーディエンスの追加ワークスペース。](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-各ターゲットフィールドのマッピングペアを引き続き追加します。 一致キーを使用しない場合は、フィールドの横にある削除（![削除アイコン &#x200B;](/help/assets/icons/delete.png)）アイコンを使用して削除できます。 一致するキーが削除されると、接続からオーディエンスを取得する際に使用できなくなります。
+各ターゲットフィールドのマッピングペアを引き続き追加します。 一致キーを使用しない場合は、フィールドの横にある削除（![削除アイコン ](/help/assets/icons/delete.png)）アイコンを使用して削除できます。 一致するキーが削除されると、接続からオーディエンスを取得する際に使用できなくなります。
 
-![&#x200B; ターゲットフィールドの横に「削除」オプションが表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+![ ターゲットフィールドの横に「削除」オプションが表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
 新しいフィールドを追加し、ターゲットフィールドとして&#x200B;**[!UICONTROL Demdex ID （ECID）]**&#x200B;を選択すると、**[!UICONTROL ECID]**&#x200B;が対応するソースフィールドとして自動的に選択されます。 これ以上の操作は必要ありません。
 
@@ -205,17 +218,17 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 フィールドのマッピングが完了したら、**[!UICONTROL 次へ]**&#x200B;を選択して続行します。
 
-![&#x200B; マップフィールドが入力され、次のオプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
+![ マップフィールドが入力され、次のオプションがハイライト表示されたオーディエンスを追加ワークスペース。](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### スケジュール {#schedule}
 
 次に、オーディエンスの入力を開始および終了するタイミングをスケジュールします。 このスケジュールに従ってオーディエンスが更新されます。
 
-![&#x200B; スケジュール設定オプションが表示されたオーディエンスの追加ワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
+![ スケジュール設定オプションが表示されたオーディエンスの追加ワークスペース。](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->オーディエンスの更新頻度を調整すると、オーディエンスの更新ごとに計算される[&#x200B; オーディエンス管理クレジットアクティビティ &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)を管理するのに役立ちます。 より高い頻度を選択すると、オーディエンス発見レポートやオーディエンスのアクティベーションで利用できるデータの鮮度に影響を与える可能性があります。
+>オーディエンスの更新頻度を調整すると、オーディエンスの更新ごとに計算される[ オーディエンス管理クレジットアクティビティ ](/help/guide/setup/my-activity.md#types-of-activities)を管理するのに役立ちます。 より高い頻度を選択すると、オーディエンス発見レポートやオーディエンスのアクティベーションで利用できるデータの鮮度に影響を与える可能性があります。
 
 **[!UICONTROL 頻度]** ドロップダウンから、オーディエンスの更新の頻度を選択します。
 
@@ -227,7 +240,7 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 >[!IMPORTANT]
 >
->日付範囲の終了日の後、このデータ接続からソースされたすべてのオーディエンスが更新を停止します。 接続を更新するには、[&#x200B; データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドに従ってください。
+>日付範囲の終了日の後、このデータ接続からソースされたすべてのオーディエンスが更新を停止します。 接続を更新するには、[ データ接続の管理](/help/guide/setup/manage-data-connection.md) ガイドに従ってください。
 
 ### オーディエンスを選択 {#select-audiences}
 
@@ -246,11 +259,11 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="ID の欠落"
->abstract="ID 数は、設定されたスケジュールに従って次回データ接続を更新した後に使用できます。 最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。"
+>abstract="ID 数は、設定されたスケジュールに従った次回のデータ接続の更新後に利用可能になります。 最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。"
 
 オーディエンスのソーシング後、**[!UICONTROL マイオーディエンス]** ワークスペースには、現在Collaborationにソーシングされているすべてのオーディエンスが表示されます。
 
-![&#x200B; マイオーディエンスワークスペースに、ソースされたすべてのオーディエンスが表示されます。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+![ マイオーディエンスワークスペースに、ソースされたすべてのオーディエンスが表示されます。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 各オーディエンスには、次の情報の概要が含まれます。
 
@@ -265,11 +278,11 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 | **[!UICONTROL 作成日]** | オーディエンスが最初にCollaborationに送信された日付を示します。 |
 | **[!UICONTROL 最終更新日]** | Collaborationでオーディエンスが更新された最後の日時を示します。 これは、オーディエンスが最後に更新された時期ではなく、オーディエンスの設定やメタデータが最後に変更された時期を指します。 |
 
-![&#x200B; マイオーディエンスワークスペースに、ソースされたすべてのオーディエンスが表示されます。](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+![ マイオーディエンスワークスペースに、ソースされたすべてのオーディエンスが表示されます。](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
 
 オーディエンスに対してクイックアクションを実行するには、オーディエンス名の横にある省略記号&#x200B;**...**&#x200B;を選択します。 次のオプションがあります。
 
-* **[!UICONTROL カテゴリを編集]**&#x200B;すると、異なるカテゴリタグをオーディエンスに追加できます。 詳しくは、以下の「[&#x200B; カテゴリ &#x200B;](#categories)」の節を参照してください。
+* **[!UICONTROL カテゴリを編集]**&#x200B;すると、異なるカテゴリタグをオーディエンスに追加できます。 詳しくは、以下の「[ カテゴリ ](#categories)」の節を参照してください。
 * **[!UICONTROL 削除]**&#x200B;は、データ接続からオーディエンスを削除します。
 
 ![省略記号メニューが表示されているマイオーディエンスワークスペースが開き、「カテゴリを編集」および「削除」オプションがハイライト表示されている](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}。
@@ -345,9 +358,9 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 **[!UICONTROL 接続アクセス]** ダイアログが表示され、使用可能な3つの接続アクセス オプションが表示されます。
 
-* **[!UICONTROL プライベートオーディエンス]**。 これらのオーディエンスは、*not*&#x200B;です。重複レポートで使用したり、共同作業者との接続でアクティブ化したりできます。 共同作業者がオーディエンスを表示または使用することはできませんが、オーディエンスの母集団は、[&#x200B; オーディエンスの比較セクション &#x200B;](/help/guide/collaborate/discover.md#compare-audiences)の&#x200B;**[!UICONTROL すべてのオーディエンス]** ビューの合計母集団に引き続き貢献します。 設定をパブリックまたはカスタムに変更して、共同作業者との接続でオーディエンスを使用します。
+* **[!UICONTROL プライベートオーディエンス]**。 これらのオーディエンスは、*not*&#x200B;です。重複レポートで使用したり、共同作業者との接続でアクティブ化したりできます。 共同作業者がオーディエンスを表示または使用することはできませんが、オーディエンスの母集団は、[ オーディエンスの比較セクション ](/help/guide/collaborate/discover.md#compare-audiences)の&#x200B;**[!UICONTROL すべてのオーディエンス]** ビューの合計母集団に引き続き貢献します。 設定をパブリックまたはカスタムに変更して、共同作業者との接続でオーディエンスを使用します。
 * **[!UICONTROL 公開オーディエンス]**。 これらのオーディエンスは、重複レポートで使用したり、共同作業者との接続でアクティブ化したりできます。
-* **[!UICONTROL カスタムオーディエンス]**。 これらのオーディエンスは、重複レポートで使用したり、指定した接続でのみアクティブ化したりできます。 共同作業者がオーディエンスを表示または使用することはできませんが、オーディエンスの母集団は、[&#x200B; オーディエンスの比較セクション &#x200B;](/help/guide/collaborate/discover.md#compare-audiences)の&#x200B;**[!UICONTROL すべてのオーディエンス]** ビューの合計母集団に引き続き貢献します。
+* **[!UICONTROL カスタムオーディエンス]**。 これらのオーディエンスは、重複レポートで使用したり、指定した接続でのみアクティブ化したりできます。 共同作業者がオーディエンスを表示または使用することはできませんが、オーディエンスの母集団は、[ オーディエンスの比較セクション ](/help/guide/collaborate/discover.md#compare-audiences)の&#x200B;**[!UICONTROL すべてのオーディエンス]** ビューの合計母集団に引き続き貢献します。
 
 目的の接続アクセス オプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択して変更を適用します。
 
@@ -376,11 +389,11 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 **[!UICONTROL メタデータの表示]** ダイアログが表示され、オーディエンスの表示設定を設定できます。 各オーディエンスに対して設定できるメタデータの表示設定は2つあります。
 
-**[!UICONTROL ID数を表示]**：この設定は、プロジェクト内の「検出」タブ [&#128279;](/help/guide/collaborate/discover.md#discover-overlaps)で重複レポートを表示する際に、共同作業者がオーディエンスのID数を表示できるかどうかを制御します。
+**[!UICONTROL ID数を表示]**：この設定は、プロジェクト内の「検出」タブ ](/help/guide/collaborate/discover.md#discover-overlaps)で[重複レポートを表示する際に、共同作業者がオーディエンスのID数を表示できるかどうかを制御します。
 
-**[!UICONTROL オーディエンスの重複を表示%]**：この設定は、共同作業者がオーディエンスとオーディエンス間の重複パーセンテージ [&#128279;](/help/guide/collaborate/discover.md#compare-audiences)を見つけることができるかどうかを制御します。
+**[!UICONTROL オーディエンスの重複を表示%]**：この設定は、共同作業者がオーディエンスとオーディエンス間の重複パーセンテージ ](/help/guide/collaborate/discover.md#compare-audiences)を[見つけることができるかどうかを制御します。
 
-**[!UICONTROL オーディエンスインデックス]**:trueに設定すると、共同作業者はプロジェクト内の[&#x200B; オーディエンスインデックス &#x200B;](/help/guide/collaborate/discover.md#audience-index-score)を表示できます。 この機能は、3 つ以上のアクティブオーディエンスがある場合にのみ使用できます。
+**[!UICONTROL オーディエンスインデックス]**:trueに設定すると、共同作業者はプロジェクト内の[ オーディエンスインデックス ](/help/guide/collaborate/discover.md#audience-index-score)を表示できます。 この機能は、3 つ以上のアクティブオーディエンスがある場合にのみ使用できます。
 
 >[!NOTE]
 >
@@ -398,7 +411,7 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL メタデータの表示を編集]**」を選択します。
 
-![&#x200B; メタデータの表示を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+![ メタデータの表示を編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
 **[!UICONTROL メタデータの表示]** ダイアログが表示され、選択したオーディエンスの表示設定を設定できます。 デフォルトでは、どのオプションも選択されません。 選択したすべてのオーディエンスに適用するオプションを選択し、**[!UICONTROL 保存]**&#x200B;を選択します。
 
@@ -428,7 +441,7 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 
 オーディエンスダッシュボードでオーディエンスを選択した状態で、編集メニューから「**[!UICONTROL カテゴリーを編集]**」を選択します。
 
-![&#x200B; カテゴリを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+![ カテゴリを編集オプションがハイライト表示されたマイオーディエンスワークスペース。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
 **[!UICONTROL カテゴリ]** ダイアログが表示され、選択した各オーディエンスのカテゴリを設定できます。 デフォルトでは、カテゴリは選択されません。 カテゴリを選択するには、まずメインカテゴリを選択し、次に含めるサブカテゴリを選択します。 変更を加え、**[!UICONTROL 保存]**&#x200B;を選択します。
 

@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
+source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '269'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -21,7 +21,7 @@ ht-degree: 33%
 * 設定 {#setup}
   * [設定セクションの概要](./setup/setup-overview.md)
   * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
-  * {hide-from-toc}[&#x200B; オーディエンスの概要](./setup/audiences-overview.md)
+  * {hide-from-toc}[ オーディエンスの概要](./setup/audiences-overview.md)
   * Sourceとオーディエンスの管理 {#source-audiences}
     * [ソースの概要](./setup/source-overview.md)
     * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
@@ -34,8 +34,9 @@ ht-degree: 33%
     * [オーディエンスソーシング用Databricks Delta Shareの設定](./setup/configure-databricks-audience-sourcing.md)
     * [オーディエンスソーシング用にAdobe Audience Managerを設定する](./setup/configure-aam-audience-sourcing.md)
   * [データ接続を管理](./setup/manage-data-connection.md)
+  * [ID解決の設定と管理](./setup/identity-resolution.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-  * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
+  * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
   * Sourceの広告露出（広告ログ） {#source-adlogs}
     * [広告露出のソーシング用にGCSを設定する](./setup/configure-gcs-adlog-sourcing.md)
@@ -59,7 +60,7 @@ ht-degree: 33%
   * [プロジェクトの管理](./collaborate/manage-projects.md)
   * 共同作業者の接続 {#collaborator-connections}
     * [最新情報](./collaborate/discover.md)
-    * {hide-from-toc}[&#x200B; （Beta）展開](./collaborate/expand.md)
+    * {hide-from-toc}[ （Beta）展開](./collaborate/expand.md)
     * [アクティブ化](./collaborate/activate.md)
     * [測定](./collaborate/measure.md)
   * Advertising platformとの連携 {#ad-platform-connections}
