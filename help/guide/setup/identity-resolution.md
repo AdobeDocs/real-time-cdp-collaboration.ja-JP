@@ -2,13 +2,13 @@
 title: ID解決の設定と管理
 description: Real-Time CDP CollaborationでID解決を設定および管理する方法について説明します。
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: ff233017fb78a63b2e911dc0dc94d67f2b18af04
+source-git-commit: 7554535fc7e29879d982b928e1b78d8ebb9c61f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1095'
 ht-degree: 1%
 ---
 # ID解決の設定と管理
@@ -19,18 +19,14 @@ IDの解決は、組織が様々なIDを使用している場合でも、共同�
 
 >[!NOTE]
 >
->このガイドの手順とスクリーンショットでは、[!DNL Epsilon Core ID]を例として使用しています。 要件と利用可能なオプションは、ID プロバイダーによって異なります。
-
->[!AVAILABILITY]
->
->起動時に、設定に使用できるのは[!DNL Epsilon Core ID]のみです。 Epsilon Core ID解決は、米国でプロビジョニングされたReal-Time CDP Collaboration アカウントでのみ使用できます。
+>現在、設定に使用できるのはEpsilon Core IDのみであり、米国でプロビジョニングされたReal-Time CDP Collaboration アカウントでのみ使用できます。 このガイドの手順とスクリーンショットでは、Epsilon Core IDを使用しています。
 
 ## 前提条件 {#prerequisites}
 
 始める前に、次の項目を確認してください。
 
 * **アカウント管理権限。** **[!UICONTROL Manage Account]**&#x200B;および&#x200B;**[!UICONTROL Manage Collaboration Instances]**&#x200B;権限が必要です。
-* **少なくとも1つのオーディエンスデータ接続。** ID解決を設定するには、既存のオーディエンスデータ接続が必要です。 [必要に応じてオーディエンスソーシング &#x200B;](./source-overview.md)を設定します。 測定データの接続はサポートされていません。
+* **少なくとも1つのオーディエンスデータ接続。** ID解決を設定するには、既存のオーディエンスデータ接続が必要です。 [必要に応じてオーディエンスソーシング ](./source-overview.md)を設定します。 測定データの接続はサポートされていません。
 * **一致するキーとフィールドをサポートしています。** ID解決に使用する各オーディエンスデータ接続には、ID プロバイダーでサポートされているフィールドが含まれている必要があります。 Epsilon Core IDの場合、ハッシュ化された電子メール、ハッシュ化された電話、または名前を郵送先住所と組み合わせて使用できます。
 
   ハッシュ化された電子メールやハッシュ化された電話などのアカウントレベルの照合キーは、アカウントに対して有効にし、オーディエンスデータにマッピングする必要があります。 名前フィールドと住所フィールドは、オーディエンスデータ接続の設定中にマッピングされ、アカウントレベルの有効化は必要ありません。
@@ -40,7 +36,7 @@ IDの解決は、組織が様々なIDを使用している場合でも、共同�
   * **名前：**&#x200B;名、姓、または氏名。
   * **住所：**&#x200B;住所、市区町村、郵便番号、都道府県、国。
 
-  名前と住所の値はハッシュ化されません。 ハッシュ化された電子メールやハッシュ化された電話など、アカウントレベルの照合キーを有効にする方法については、[照合キーの編集](./onboard-account.md#edit-match-keys)を参照してください。 サポートされている照合キーまたは名前と住所のフィールドをオーディエンスデータにマッピングするには、[&#x200B; フィールドのマッピング &#x200B;](./onboard-audiences.md#map-fields)を参照してください。
+  名前と住所の値はハッシュ化されません。 ハッシュ化された電子メールやハッシュ化された電話など、アカウントレベルの照合キーを有効にする方法については、[照合キーの編集](./onboard-account.md#edit-match-keys)を参照してください。 サポートされている照合キーまたは名前と住所のフィールドをオーディエンスデータにマッピングするには、[ フィールドのマッピング ](./onboard-audiences.md#map-fields)を参照してください。
 * **Epsilon アカウント番号。** Epsilon アカウント番号は、Epsilon アカウント担当者から入手してください。
 
 ## ID解決の設定 {#configure-identity-resolution}
@@ -57,7 +53,7 @@ Epsilon Core ID カードとそのセットアップ アクションを含む![I
 
 設定ワークフローを開始する前に、Collaborationはデータ接続と互換性のある照合キーをチェックします。 要件がない場合は、プロセスをガイドするダイアログが表示されます。 ダイアログのアクションに従います。
 
-* **[!UICONTROL データ接続が必要です]:** 「**[!UICONTROL データ接続を設定]**」を選択して、オーディエンスデータ接続を設定します。 [&#x200B; ソースの接続](./source-overview.md#connect-a-source)を参照してください。
+* **[!UICONTROL データ接続が必要です]:** 「**[!UICONTROL データ接続を設定]**」を選択して、オーディエンスデータ接続を設定します。 [ ソースの接続](./source-overview.md#connect-a-source)を参照してください。
 * **[!UICONTROL 一致キーが必要です]:** **[!UICONTROL 一致キーを編集]**&#x200B;を選択して、サポートされているキーを有効にします。 [一致キーの編集](./onboard-account.md#edit-match-keys)を参照してください。
 
 両方が見つからない場合は、最初にデータ接続ダイアログが表示されます。 前提条件を修正した後、**[!UICONTROL ID解決]**&#x200B;に戻り、**[!UICONTROL セットアップ]**&#x200B;をもう一度選択します。
@@ -75,7 +71,7 @@ Epsilon Core ID カードとそのセットアップ アクションを含む![I
 
 IDの解決は、後で追加されるオーディエンスを含め、選択したデータ接続ごとにすべてのオーディエンスに適用されます。 現時点では、個々のオーディエンスを選択することはできません。
 
-目的の接続がリストにない場合は、続行する前に[&#x200B; オーディエンスデータ接続を設定](./source-overview.md)します。
+目的の接続がリストにない場合は、続行する前に[ オーディエンスデータ接続を設定](./source-overview.md)します。
 
 **[!UICONTROL データソース]**&#x200B;で、**[!UICONTROL オーディエンスソース]**&#x200B;に含める各接続のチェックボックスを選択します。 少なくとも1つの接続を選択してください。 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
@@ -111,7 +107,7 @@ IDの解決は、後で追加されるオーディエンスを含め、選択し
 
 認証の詳細、選択したオーディエンスデータ接続、日付範囲を確認します。 設定の詳細に表示される照合キーと、設定のステータス、作成および更新情報を表示することもできます。
 
-![ID解決設定の詳細（ステータス、一致キー、スケジュール、関連するオーディエンス接続を表示） &#x200B;](../../assets/setup/identity-resolution/view-connection-details.png){zoomable="yes"}
+![ID解決設定の詳細（ステータス、一致キー、スケジュール、関連するオーディエンス接続を表示） ](../../assets/setup/identity-resolution/view-connection-details.png){zoomable="yes"}
 
 ### 既存の設定の変更 {#edit-configuration}
 
