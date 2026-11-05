@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # アカウントの設定と管理
 
 {{limited-availability-release-note}}
@@ -59,7 +57,7 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 * **[!UICONTROL 地域]**&#x200B;は、Adobe Experience Cloud アカウントに基づいて自動的に設定されます。 この設定はいつでも変更できません。
 * アカウントの&#x200B;**[!UICONTROL お問い合わせメール]**&#x200B;を追加します。 これは、チームまたは役割ベースのメールアドレスである必要があります。 個人のメールアドレスは提供しないでください。
 * アカウントの&#x200B;**[!UICONTROL ロゴ]**&#x200B;をアップロードします。 現在、SVG型の画像がサポートされています。 これはオプションですが、ロゴをアップロードすると、Collaboration インターフェイスでブランドを視覚的に表現するのに役立ちます
-* アカウントヘッダー画像の画像を選択します。
+* アカウントのヘッダー写真の画像を選択します。
 
 >[!NOTE]
 >
@@ -67,12 +65,12 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 
 ![詳細セクションが表示され、次のオプションがハイライト表示されたアカウント設定ワークスペース。](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
-### 一致キーの設定 {#set-up-match-keys}
+### マッチキーの設定 {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="一致キー"
->abstract="一致キーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。 ブランドで使用できる一致キーを含めます。"
+>abstract="マッチキーは、様々なデータソースからのオーディエンスプロファイルを紐付けるために使用される識別子です。 ブランドで使用できるマッチキーを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_setup_match_keys"
@@ -92,7 +90,7 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="サポートされるパートナー ID"
->abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。 パートナー ID は、個々のプロファイルに直接接続されません。"
+>abstract="パートナー ID は、オーディエンスの紐付けのために外部パートナーによって提供される識別子です。 パートナー ID は、個人のプロファイルに直接接続されません。"
 
 次の表に、Collaborationでサポートされている照合キーを示します。
 
@@ -104,6 +102,10 @@ Real-Time CDP Collaborationでアカウントを設定して、他の共同作�
 | [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>[!DNL Epsilon Core ID]のID解決に使用される名前と住所のフィールドは、アカウントレベルの照合キーとして設定されていません。 オーディエンスデータ接続を設定する際に、これらのフィールドをマッピングします。 詳しくは、[&#x200B; フィールドのマッピング &#x200B;](./onboard-audiences.md#map-fields)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -130,7 +132,6 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 * **[!UICONTROL ハッシュ化された電話]**
 * **[!UICONTROL CRM ID]**
 * **[!UICONTROL ロイヤルティ ID]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### デバイス ID
 
@@ -151,13 +152,9 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 >
 >Adobeと[!DNL AdFixus]の統合により、各アカウントの一意の[!UICONTROL AdFixus ID]が、Adobeでエンコードされた共通のフォーマットにマッピングされます。 これらのマッピングは、共同作業者の重複を識別するために使用されます。 **[!UICONTROL AdFixus ID]**&#x200B;を使用してオーディエンスをアクティブ化する場合、元のIDが使用されます。 Adobeでエンコードされたフォーマットは、Collaborationから離れることはありません。
 
-**[!UICONTROL AdFixus ID]**&#x200B;を選択する場合、**[!UICONTROL アカウント資格情報]** セクションで、外部パートナーから対応するIDを指定する必要があります。 このオプションは、**[!UICONTROL AdFixus ID]**&#x200B;で&#x200B;*切り替え後*&#x200B;にのみ使用できます。 AdFixus IDを&#x200B;**[!UICONTROL アカウント ID]** フィールドに入力し、値が正確かどうかを再確認してください。
+**[!UICONTROL AdFixus ID]**&#x200B;を選択する場合、**[!UICONTROL アカウント資格情報]** セクションで、外部パートナーから対応するIDを指定する必要があります。 このオプションは、**[!UICONTROL AdFixus ID]**&#x200B;で&#x200B;*切り替え後*&#x200B;にのみ使用できます。 AdFixus IDを&#x200B;**[!UICONTROL アカウント ID]** フィールドに入力し、値が正確かどうかを再確認してください。 必要なすべての一致キーを選択したら、**[!UICONTROL 完了]**&#x200B;を選択して、アカウント設定ワークフローを完了します。
 
 ![AdFixus IDを含むキーマッチダイアログがオンになり、アカウント資格情報セクションが強調表示されます。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-必要なすべての一致キーを選択したら、**[!UICONTROL 完了]**&#x200B;を選択して、アカウント設定ワークフローを完了します。
-
-![一致するキーを含むアカウント ワークスペースの設定セクションが表示されます。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## アカウントを編集 {#edit-account}
 
@@ -165,7 +162,7 @@ Collaborationでは、人物ID、デバイス ID、パートナーIDの3種類�
 
 ### 詳細を編集 {#edit-details}
 
-**[!UICONTROL 役割]**&#x200B;を除き、いつでもアカウントの詳細情報を編集できます。 リージョンはAdobe Experience Cloud アカウントに基づいて自動的に設定され、変更することはできません。
+**[!UICONTROL 役割]**&#x200B;を除き、いつでもアカウントの詳細情報を編集できます。 リージョンは、Adobe Experience Cloud アカウントに基づいて自動的に設定され、変更できません。
 
 アカウントを編集するには、**[!UICONTROL セットアップ]** ワークスペースの&#x200B;**[!UICONTROL マイアカウント]** セクションで&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 

@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
+source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '269'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -34,6 +34,7 @@ ht-degree: 33%
     * [オーディエンスソーシング用Databricks Delta Shareの設定](./setup/configure-databricks-audience-sourcing.md)
     * [オーディエンスソーシング用にAdobe Audience Managerを設定する](./setup/configure-aam-audience-sourcing.md)
   * [データ接続を管理](./setup/manage-data-connection.md)
+  * [ID解決の設定と管理](./setup/identity-resolution.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)

@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Sourceとオーディエンスの管理
 
@@ -129,7 +129,7 @@ Experience Platform データ接続に対して設定した設定は、その接
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="ターゲットフィールド"
->abstract="ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。"
+>abstract="ターゲットフィールドは、マッピングされたソースデータがCollaborationでどのように使用されるかを識別します。 アカウントレベルの照合キーは、デフォルトで使用できます。 ID解決に使用される「名前」フィールドと「住所」フィールドは、データ接続の設定中に使用でき、アカウントレベルの有効化は必要ありません。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,7 +148,20 @@ Experience Platform データ接続に対して設定した設定は、その接
 >abstract="Experience Platform のプロファイルクラスの結合スキーマから属性を選択します。 このビューには、結合スキーマに存在し、XDM 個人プロファイルクラスに属する属性が表示されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=ja" text="Experience Platform の結合スキーマ"
 
-次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、[&#x200B; アカウントのセットアップ &#x200B;](./onboard-account.md#set-up-match-keys)中に選択した照合キーに基づきます。
+次に、ソースフィールドを選択して、Collaborationのターゲットフィールドにマッピングします。 使用可能なターゲットフィールドは、[&#x200B; アカウントのセットアップ &#x200B;](./onboard-account.md#set-up-match-keys)中に選択した照合キーに基づいています。 ID解決に使用される[!UICONTROL 名前]および[!UICONTROL 郵便アドレス &#x200B;] フィールドは、データ接続の設定中に使用でき、アカウントレベルで有効にする必要はありません。
+
+#### Epsilon Core IDのマップ名と住所フィールド {#map-name-postal-address}
+
+ID解決に&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 郵便アドレス]**&#x200B;を使用するには、両方のフィールドに少なくとも1つのサブコンポーネントをマッピングします。
+
+* **[!UICONTROL 名前]:** [!UICONTROL 名]、[!UICONTROL 姓]、または[!UICONTROL 氏名]。
+* **[!UICONTROL 住所]:** [!UICONTROL 住所]、[!UICONTROL 都市]、[!UICONTROL 州]、[!UICONTROL 郵便番号]、または[!UICONTROL 国]。
+
+Adobe Experience Platformがデータソースである場合、Collaborationは、選択したサンドボックスから使用可能なプロファイル属性を[!UICONTROL 名前]および[!UICONTROL 郵便アドレス &#x200B;] サブコンポーネントに自動的にマッピングします。 提案されたマッピングを確認し、欠けているフィールドや誤ってマッピングされたフィールドを修正します。
+
+すべてのサブコンポーネントをマッピングする必要はありません。 データを持たないサブコンポーネントを除外するには、そのマッピング行を削除します。 [!UICONTROL 名前]と[!UICONTROL 郵便アドレス &#x200B;]の値はハッシュ化されていません。
+
+これらのフィールドの使用について詳しくは、[ID解決の設定と管理](./identity-resolution.md)を参照してください。
 
 アカウントのセットアップ中に一致キーとして[!DNL Demdex ID (ECID)]を選択した場合、[!DNL Demdex ID]は自動的に抽出され、ECIDからマッピングされるので、何も操作を行う必要はありません。 [!DNL Demdex IDs]について詳しくは、[[!DNL Demdex ID]](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/unified-identity-support) ガイドを参照してください。
 
@@ -164,9 +177,9 @@ Experience Platform データ接続に対して設定した設定は、その接
 
 Source フィールドは、Collaborationで定義されたターゲットフィールドにマッピングされます。
 
-**[!UICONTROL ターゲットフィールド]**&#x200B;は、CollaborationでのIDの参照方法を示します。 ターゲットフィールドは、アカウント設定時に選択した一致キーです。 デフォルトでは、選択したすべての一致キーを使用できます。
+**[!UICONTROL ターゲットフィールド]**&#x200B;は、マッピングされたソースデータがCollaborationでどのように使用されるかを示します。 ほとんどのターゲットフィールドは、アカウントの設定中に選択された一致キーです。 ID解決用の&#x200B;**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 郵便アドレス]** フィールドは、データ接続の設定中に提供されます。アカウントレベルの有効化は必要ありません。
 
-ハッシュ化されたフィールドに&#x200B;*非ハッシュ化された* フィールドをソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。 Collaborationがハッシュ化を適用し、フィールドを変換します。 Adobeで使用されるハッシュアルゴリズムはSHA256です。
+ハッシュ化されていないフィールドをハッシュ化されたフィールドにソーシングする場合は、**[!UICONTROL 変換を適用]** オプションを使用します。 Collaborationでは、SHA256 ハッシュを適用してフィールドを変換します。 [!UICONTROL 名前]と[!UICONTROL 郵便アドレス &#x200B;]の値はハッシュ化されていません。
 
 >[!ENDSHADEBOX]
 
@@ -246,7 +259,7 @@ Source フィールドは、Collaborationで定義されたターゲットフィ
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="ID の欠落"
->abstract="ID 数は、設定されたスケジュールに従って次回データ接続を更新した後に使用できます。 最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。"
+>abstract="ID 数は、設定されたスケジュールに従った次回のデータ接続の更新後に利用可能になります。 最初の更新は通常、データ接続を設定してから 24 時間以内に行われます。 継続的な更新は、設定されたスケジュールに従います。"
 
 オーディエンスのソーシング後、**[!UICONTROL マイオーディエンス]** ワークスペースには、現在Collaborationにソーシングされているすべてのオーディエンスが表示されます。
 

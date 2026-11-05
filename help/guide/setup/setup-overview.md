@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 21%
-
+source-wordcount: '125'
+ht-degree: 20%
 ---
-
 # 「設定」セクションの概要
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Adobe Real-Time CDP Collaborationの「設定」セクションには、アカ�
 * [アカウントの設定と管理](/help/guide/setup/onboard-account.md)
 * [Sourceとオーディエンスの管理](/help/guide/setup/onboard-audiences.md)
 * [データ接続を管理](/help/guide/setup/manage-data-connection.md)
+* [ID解決の設定と管理](/help/guide/setup/identity-resolution.md)
 * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
 * [監査ログの表示](/help/guide/setup/audit-logs.md)
