@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
+source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 32%
+source-wordcount: '275'
+ht-degree: 31%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -66,6 +66,7 @@ ht-degree: 32%
   * Advertising platformとの連携 {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
+    * {hide-from-toc}[The Trade Desk profile enrichment （Alpha） &#x200B;](./collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
 * 宛先 {#destinations}
   * [概要](/help/guide/destinations/overview.md)
   * [クラウドストレージの宛先の設定と管理](./destinations/manage-destinations.md)
