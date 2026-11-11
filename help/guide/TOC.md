@@ -2,9 +2,9 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration は、広告主とパブリッシャーの間でシームレスで安全なデータ共有と共同作業を可能にし、リアルタイムなオーディエンスインサイトとパーソナライズされたマーケティング戦略を推進します。
-source-git-commit: 93deabac566aef3a0231cc8872c9348d7e62d3a2
+source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 31%
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 31%
 * 設定 {#setup}
   * [設定セクションの概要](./setup/setup-overview.md)
   * [アカウントのオンボーディングと管理](./setup/onboard-account.md)
-  * {hide-from-toc}[&#x200B; オーディエンスの概要](./setup/audiences-overview.md)
+  * {hide-from-toc}[ オーディエンスの概要](./setup/audiences-overview.md)
   * Sourceとオーディエンスの管理 {#source-audiences}
     * [ソースの概要](./setup/source-overview.md)
     * [オーディエンスソーシング用にAEPを設定する](./setup/onboard-audiences.md)
@@ -36,7 +36,7 @@ ht-degree: 31%
   * [データ接続を管理](./setup/manage-data-connection.md)
   * [ID解決の設定と管理](./setup/identity-resolution.md)
   * [クレジット消費アクティビティの追跡](/help/guide/setup/my-activity.md)
-  * {hide-from-toc}[ID クロスウォーク &#x200B;](./setup/identity-crosswalk.md)
+  * {hide-from-toc}[ID クロスウォーク ](./setup/identity-crosswalk.md)
   * [測定データの追加と管理](./setup/onboard-measurement-data.md)
   * Sourceの広告露出（広告ログ） {#source-adlogs}
     * [広告露出のソーシング用にGCSを設定する](./setup/configure-gcs-adlog-sourcing.md)
@@ -60,13 +60,13 @@ ht-degree: 31%
   * [プロジェクトの管理](./collaborate/manage-projects.md)
   * 共同作業者の接続 {#collaborator-connections}
     * [最新情報](./collaborate/discover.md)
-    * {hide-from-toc}[&#x200B; （Beta）展開](./collaborate/expand.md)
+    * {hide-from-toc}[ （Beta）展開](./collaborate/expand.md)
     * [アクティブ化](./collaborate/activate.md)
     * [測定](./collaborate/measure.md)
   * Advertising platformとの連携 {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [AMC測定レポートの作成](./collaborate/advertising-platforms/amc-measure.md)
-    * {hide-from-toc}[Paid-to-owned enrichment （Beta） &#x200B;](./collaborate/advertising-platforms/paid-to-owned-enrichment.md)
+    * {hide-from-toc}[The Trade Desk profile enrichment （Alpha） ](./collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
 * 宛先 {#destinations}
   * [概要](/help/guide/destinations/overview.md)
   * [クラウドストレージの宛先の設定と管理](./destinations/manage-destinations.md)
