@@ -178,6 +178,6 @@ Do not treat example formats or supported input match keys as confirmed output r
 
 ## 次の手順 {#next-steps}
 
-属性を取り込んで検証した後、エンリッチメントシグナルとファーストパーティデータを組み合わせることで、[!DNL Adobe Real-Time CDP]でオーディエンスを構築します。 詳しくは、[Audience Builder ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}を参照してください。
+属性を取り込んで検証した後、エンリッチメントシグナルとファーストパーティデータを組み合わせることで、[!DNL Adobe Real-Time CDP]でオーディエンスを構築します。 詳しくは、[Audience Builder ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}を参照してください。
 
-宛先、パーソナライゼーション、またはカスタマージャーニーに対してオーディエンスをアクティブ化するには、[&#x200B; オーディエンスアクティベーションガイド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}を参照してください。
+宛先、パーソナライゼーション、またはカスタマージャーニーに対してオーディエンスをアクティブ化するには、[&#x200B; オーディエンスアクティベーションガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}を参照してください。
