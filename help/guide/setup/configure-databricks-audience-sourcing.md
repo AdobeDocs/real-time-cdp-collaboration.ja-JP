@@ -1,15 +1,15 @@
 ---
 title: オーディエンスソーシング用に[!DNL Databricks Delta Share]を設定
-description: Real-Time CDP Collaborationでオーディエンス ソーシング用に[!DNL Databricks Delta Share]を設定および接続する方法について説明します。
+description: 履歴の共有を含め、Real-Time CDP Collaborationでオーディエンスのソーシング用に[!DNL Databricks Delta Share]を設定して接続する方法について説明します。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 2%
+source-wordcount: '3294'
+ht-degree: 1%
 ---
 
 # オーディエンスソーシング用に[!DNL Databricks Delta Share]を設定
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 [!DNL Databricks Delta Share]を接続すると、CollaborationはUnity カタログ共有からオーディエンスデータを直接読み取ります。 ソーシング完了後は、コラボレーションプロジェクトでオーディエンスをアクティベーションおよび重複分析に使用できます。
 
-このガイドでは、前提条件の準備方法、[!DNL Delta Share]の接続方法、ソーステーブルの指定方法、ID フィールドのマッピング方法、オーディエンスのソーシングが正常に開始されたことを確認する方法について説明します。
+このガイドでは、前提条件を完了する方法、[!DNL Delta Share]を接続する方法、ソーステーブルを指定する方法、ID フィールドをマッピングする方法、オーディエンスのソーシングが正常に開始されることを確認する方法について説明します。
 
 [!DNL Databricks]から取得したオーディエンスは、Adobe Experience Platformやその他のサポートされているクラウドソースから取得したオーディエンスと同じガバナンスとデータ処理ルールに従います。
 
@@ -44,17 +44,18 @@ ht-degree: 2%
 
 オーディエンステーブルを構成して、Collaborationがオーディエンスを発見し、IDを正しくマッピングできるようにします。
 
-* **メンバーシップテーブル （必須）:** プロファイルとオーディエンスのペアごとに1行を含む、共有スキーマ内のテーブル。 このテーブルには、`AUDIENCE_ID`にマッピング可能な列と、少なくとも1つのサポートされている一致キー列が含まれている必要があります。 Collaborationでは、このテーブルをソースデータのプレビューとフィールドマッピングに使用します。
+* **メンバーシップテーブル （必須）:** プロファイルとオーディエンスのペアごとに1行を含む、共有スキーマ内のテーブル。 このテーブルには、`AUDIENCE_ID`列と、サポートされている一致キー列が少なくとも1つ含まれている必要があります。 Collaborationでは、このテーブルをソースデータのプレビューとフィールドマッピングに使用します。
 * **メタデータテーブル （オプション）:** オーディエンスのカタログを個別に管理する場合（オーディエンス ID、名前、カウント、または類似のメタデータを持つオーディエンスごとに1行）、このテーブルを指定すると、Collaborationがメンバーシップテーブルのみから異なるオーディエンス IDを推測するのではなく、オーディエンス定義を読み取ることができます。
 * **サポートされている照合キー：** `HASHED_EMAIL_SHA_256`、`HASHED_PHONE_SHA_256`、`HASHED_IPV4_SHA_256`、`CRM_ID`、`LOYALTY_ID`、`ADFIXUS_ID`およびその他の照合キーが、お使いのCollaboration アカウントに対して有効になっています。
 * **ハッシュ化要件：**&#x200B;一致するキー値はすべて、[!DNL Databricks]に保存する前に、トリミング、小文字、およびSHA256 ハッシュ化する必要があります。 Collaborationでは、取り込み前にデータをハッシュ化または正規化しません。
 * **列の一貫性：** メンバーシップテーブルは、Collaborationが有効な一致キーにマッピングできる安定した列名を公開する必要があります。
+* **履歴共有（推奨）:** ソーシングパフォーマンスを向上させるために、特に大きなテーブルの場合は、オーディエンステーブルを共有する際に履歴共有を有効にします。 履歴の共有により、Collaborationは一貫性のあるテーブルバージョンを使用してデータを並行して読み取ることができます。 履歴を共有しない場合、オーディエンスのソーシングは、時間のかかる単一のクエリプロセスを使用して完了します。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 
 メンバーシップテーブルに存在するすべての照合キーも、Collaboration アカウントに対して有効にする必要があります。 一致キーを追加または有効にするには、[一致キーの設定](./onboard-account.md#set-up-match-keys)を参照してください。
 
 ### 開始する前に必要な値 {#required-values}
 
-設定ウィザードを開始する前に、次の値を準備しておく必要があります。
+設定ワークフローを開始する前に、次の値を準備しておきます。
 
 
 | 値 | 説明 |
@@ -69,7 +70,7 @@ ht-degree: 2%
 
 ## [!DNL Databricks]接続の設定 {#configure-databricks-connection}
 
-設定ワークフローは、**[!UICONTROL セットアップ]** ワークスペース内のマルチステップ ウィザードです。 各ステップを順番に進めていきます。
+設定ワークフローには、**[!UICONTROL セットアップ]** ワークスペースに複数の手順が含まれています。 各ステップを順番に進めていきます。
 
 ### 新しいデータ接続を追加 {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 | **[!UICONTROL プロバイダー名]** | Adobeが共有を利用するために使用するUnity カタログプロバイダー名。 開始する前に必要な[値](#required-values)を参照してください。 |
 | **[!UICONTROL 共有名]** | Adobeに公開された[!DNL Delta Share]の名前。 |
 | **[!UICONTROL スキーマ]** | オーディエンステーブルを含む共有内のスキーマ。 |
-| **[!UICONTROL データテーブル]** | オーディエンスメンバーシップ行（オーディエンスのプロファイルごとに1行）を保持するスキーマ内のテーブル名。 |
+| **[!UICONTROL メンバーシップテーブル]** | オーディエンスメンバーシップ行（オーディエンスのプロファイルごとに1行）を保持するスキーマ内のテーブル名。 |
 | **[!UICONTROL メタデータテーブル]** | オーディエンスを一覧表示するテーブル（オーディエンスごとに1行）。 |
 
 
-![Databricks connect-share フォームに、プロバイダー名、共有名、スキーマ、データテーブル、メタデータテーブルのフィールドおよび使用可能な「次へ」ボタンが表示されているオーディエンスを追加ワークフロー。](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![Databricks connect-share フォームに、プロバイダー名、共有名、スキーマ、メンバーシップテーブル、メタデータテーブルのフィールドおよび使用可能な「次へ」ボタンが表示されているオーディエンスを追加ワークフロー](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)。
 
 共有が見つからないか、スキーマがまだ表示されていない場合は、エラーメッセージが表示されます。 [!DNL Databricks]管理者で値を確認して、もう一度試してください。
 
@@ -171,7 +172,7 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 
 ## ソース別オーディエンスの確認 {#review-sourced-audiences}
 
-コンフィギュレーションウィザードが完了すると、Collaborationは[!DNL Databricks] テーブルからオーディエンスのソーシングを非同期で開始します。 **[!UICONTROL セットアップ &#x200B;] / [!UICONTROL &#x200B; マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。 必要な時間は、データのサイズによって異なります。
+設定ワークフローが完了すると、Collaborationは[!DNL Databricks] テーブルからのオーディエンスのソーシングを非同期で開始します。 **[!UICONTROL セットアップ &#x200B;] / [!UICONTROL &#x200B; マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。 必要な時間は、データのサイズによって異なります。
 
 ### オーディエンスのソーシングの進捗状況の監視 {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 >[!TIP]
 >
->オーディエンスのソーシング時間は、メンバーシップテーブルのサイズと、オーディエンスの発見にメタデータテーブルを使用するかどうかによって異なります。 大きなデータセットが&#x200B;**[!UICONTROL マイオーディエンス]** ワークスペースに表示されるまでに時間がかかる場合があります。
+>オーディエンスのソーシングパフォーマンスを向上させ、特に大きなテーブルの場合は、履歴の共有を有効にします。 これにより、Collaborationは、一貫性のあるテーブルバージョンからデータを並行して読み取ることができます。 ただし、クロスクラウド共有では、履歴の共有が有効になっている場合でも、単一のクエリプロセスを使用します。
+>
+>オーディエンスのソーシング時間は、メンバーシップテーブルのサイズや、メタデータにもとづいたオーディエンスの発見などの要因にも左右されます。 大きなデータセットが&#x200B;**[!UICONTROL マイオーディエンス]**&#x200B;に表示されるまでに時間がかかる場合があります。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 
 ### ソースされたオーディエンスの詳細の表示 {#view-audience-details}
 
@@ -216,11 +219,13 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 [!DNL Databricks Delta Share] オーディエンスソーシングを設定して使用する場合は、次の制約に注意してください。
 
-* **ネイティブ共有のみ：** UIでは、ネイティブ DatabricksからDatabricksへの[!DNL Delta Sharing]のみがサポートされます。 Bearer-tokenおよびOIDC認証フローは、設定ウィザードでは使用できません。
-* **ウィザードテーブルブラウザーがありません：** テーブル名を手動で入力する必要があります。 Collaborationでは、テーブルをプレビューする際にテーブル名が検証されます。共有されているすべてのテーブルが自動的に一覧表示されるわけではありません。
+* **ネイティブ共有のみ：** UIでは、ネイティブ DatabricksからDatabricksへの[!DNL Delta Sharing]のみがサポートされます。 Bearer-tokenおよびOIDC認証フローは、設定ワークフローでは使用できません。
+* **テーブル名の手動入力：** テーブル名を手動で入力する必要があります。 Collaborationでは、テーブルをプレビューする際にテーブル名が検証されます。共有されているすべてのテーブルが自動的に一覧表示されるわけではありません。
 * **メタデータテーブルの行制限：** オーディエンスの検出にメタデータテーブルを使用すると、Collaborationはそのテーブルから最大100,000個のオーディエンス行をインポートします。 カタログがこの制限を超える場合は、Adobe サポートにお問い合わせください。
 * **一致キーの制約：** データ接続で一致キーが有効になると、削除できません。 既存の接続に一致するキーを追加することはできますが、無効にしたり削除したりすることはできません。 アクティブな一致キーを変更するには、[&#x200B; データ接続](./manage-data-connection.md#delete-data-connection)を削除して新しい接続を作成する必要があります。
 * **メンバーシップテーブルが必要：** オーディエンスの検出にメタデータテーブルを使用する場合でも、メンバーシップテーブルを指定する必要があります。 Collaborationは、取り込み中にメンバーシップテーブルからID行を読み取ります。
+* **大きなテーブルに対する履歴共有の推奨：**&#x200B;大きなテーブルのソーシングパフォーマンスを向上させるには、履歴共有を有効にします。 これにより、Collaborationはデータを並行して読み取ることができます。 履歴を共有しない場合、ソーシングでは、遅い単一クエリのプロセスが使用されます。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
+* **クロスクラウド共有：** [!DNL Databricks] プロバイダーとAdobe ワークスペースが異なるクラウド環境を使用している場合、ソーシングでは、履歴の共有が有効になっているかどうかに関係なく、シングルクエリ プロセスが使用されます。 例えば、これは、プロバイダーが[!DNL Azure]を使用し、Adobe WorkspaceがAWSを使用する場合に適用されます。 追加の設定は必要ありません。
 
 ## トラブルシューティング {#troubleshooting}
 
@@ -240,16 +245,32 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 **フィールドマッピング検証ブロックの進行状況**
 
-* メンバーシップ テーブルに&#x200B;**`AUDIENCE_ID`**&#x200B;にマッピング可能な列が含まれていることを確認してください。
-* 少なくとも2つのID フィールド（ソースとターゲット）が完全にマッピングされていることを確認します。
+* メンバーシップ テーブルに`AUDIENCE_ID`列と、サポートされている一致キー列が少なくとも1つ含まれていることを確認してください。
+* 少なくとも1つのサポートされている一致キーに、ソースフィールドとターゲットフィールドの両方がマッピングされていることを確認します。
 * **[!UICONTROL ソースデータのプレビュー]**&#x200B;を使用して、有効な照合キーに一致する列名を確認します。
 
 **オーディエンスが表示されていないか、ソーシングに予想以上の時間がかかっています**
 
+* テーブルが履歴と共有されていることを確認します。 `SHOW ALL IN SHARE <share_name>;`を実行し、`history_sharing`が`ENABLED`であることを確認します。 履歴の共有が無効になっている場合は、`WITH HISTORY`を含むテーブルを再追加します。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 * データ量に合わせてソーシング時間を拡大： 大規模なメンバーシップテーブルの処理時間が延長されています。
 * オーディエンスが24時間以内に表示されない場合は、**[!UICONTROL データ接続]** タブで、接続のエラーインジケーターを確認してください。
 * メンバーシップ テーブルの構造とフィールド マッピングが、[&#x200B; オーディエンス データの準備](#prepare-audience-data)の要件に一致することを確認します。
 * 問題が解決しない場合は、Adobe カスタマーサポートにお問い合わせいただき、データ接続名とテーブルの詳細を入力してください。
+
+**履歴の共有の有効化に失敗しました**
+
+ワークスペースが`ALTER TABLE` コマンドを拒否した場合は、共有からテーブルを削除し、履歴を含むテーブルを追加します。 `<share_name>`、`<catalog>`、`<schema>`および`<table>`を共有名とテーブル識別子に置き換えます。
+
+>[!IMPORTANT]
+>
+> Adobe ソーシングの実行中にテーブルを削除して再追加しないでください。
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+テーブルを再追加した後、[履歴の共有が有効になっていることを確認します](#enable-history-sharing)。
 
 **最初に成功した後、データ接続に失敗したステータスが表示される**
 
@@ -273,28 +294,62 @@ Adobeの担当者またはオンボーディング担当者に問い合わせる
 * Collaborationのスキーマとテーブルを含む[!DNL Delta Share]が読み取られます。
 * プロファイルとオーディエンスのペアごとに1行、および&#x200B;**`AUDIENCE_ID`**&#x200B;と照合キーの列を含むメンバーシップテーブル。
 * メタデータ駆動型オーディエンス検出を使用する場合は、オプションのメタデータテーブル。
+* 共有内の各テーブルに対して履歴の共有が有効になっています（推奨）。
 
 ### 共有を公開 {#publish}
 
 組織の[!DNL Databricks Delta Sharing]手順に従って、Adobeのコンシューマーアカウントに共有へのアクセス権を付与します。 正確な手順は、[!DNL Databricks]のデプロイメントとガバナンス モデルによって異なります。 一般：
 
 1. Unity Catalogで、オーディエンススキーマとテーブルを含む共有を作成または特定します。
-2. 共有にスキーマ（または個々のテーブル）を追加します。
+2. スキーマまたは個々のテーブルをDatabricks共有に追加します。 Adobeでは、各テーブルの履歴の共有を有効にすることをお勧めします。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 3. ネイティブのDatabricks間の共有を使用して、Adobeの[!DNL Databricks] コンシューマーアカウントに共有を付与します。
-4. Adobeの連絡先に確認し、共有がコンシューマサイドに表示されていることを確認し、Collaboration設定ウィザードのプロバイダー名と共有名をメモします。
-5. [!DNL Delta Sharing]の[!DNL Databricks]製品ドキュメントについては、[Databricks Delta Sharing ドキュメント &#x200B;](https://docs.databricks.com/aws/en/delta-sharing)を参照してください。
+4. Adobeの連絡先に、共有がコンシューマー側に表示されていることを確認し、Collaboration設定ワークフローのプロバイダー名と共有名をメモします。
+
+>[!NOTE]
+>
+> 製品の手順については、[Databricks Delta Sharing ドキュメント &#x200B;](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}を参照してください。
+
+### 履歴の共有を有効にする {#enable-history-sharing}
+
+大きなテーブルのソーシングパフォーマンスを向上させるには、各オーディエンステーブルの履歴共有を有効にします。 これにより、Collaborationは一貫性のあるテーブルバージョンを使用してデータを並行して読み取ることができます。 履歴を共有しない場合、Collaborationでは、時間のかかるシングルクエリ処理が使用されます。
+
+クロスクラウド共有では、履歴が有効になっている場合でも、単一クエリの読み取りを使用します。 詳しくは、[既知の制限事項](#known-limitations)を参照してください。
+
+履歴の共有により、Adobeは、共有するテーブルの以前のバージョンにアクセスできますが、他のテーブルにはアクセスできません。 既にAdobeと共有しているテーブルの履歴共有を有効にする場合、追加のアクセス権を付与する必要はありません。
+
+[!DNL Databricks] ワークスペースで次のSQL コマンドを使用します。 `<share_name>`、`<catalog>`、`<schema>`および`<table>`を共有名とテーブル識別子に置き換えます。
+
+履歴を含むテーブルを追加するには、次を実行します。
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+既に共有中のテーブルの履歴共有を有効にするには、次を実行します。
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+履歴の共有を確認するには、以下を実行します。
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+`history_sharing`が各オーディエンステーブルの`ENABLED`であることを確認します。メタデータテーブルを使用している場合は、メタデータテーブルも含まれます。 履歴の共有は、次のソーシング実行で有効になります。
 
 ### Collaborationの[!DNL Databricks]の詳細を収集 {#collect-databricks-details}
 
 共有を公開したら、Collaboration設定ワークフローで使用可能なプロバイダー名、共有名、スキーマおよびテーブル名があることを確認します。
 
-Collaboration Configuration Wizardを起動する前に、以下の詳細を収集します。
+Collaboration設定ワークフローを開始する前に、以下の詳細を収集してください。
 
 | フィールド | 説明 | 例 |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | プロバイダー名 | AdobeのUnity カタログメタストアのプロバイダー識別子（Adobe オンボーディングから） | `your_org_provider` |
 | 共有名 | 公開済み[!DNL Delta Share]の名前 | `audience_share_prod` |
-| スキーマ | スキーマ | `collaboration_audiences` |
+| スキーマ | オーディエンステーブルを含む共有内のスキーマ。 | `collaboration_audiences` |
 | メンバーシップテーブル | profile-audience メンバーシップ行を含むテーブル | `audience_members` |
 | メタデータテーブル （オプション） | オーディエンスを一覧表示する表（オーディエンスごとに1行） | `audience_catalog` |
 
