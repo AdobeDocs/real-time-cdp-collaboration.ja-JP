@@ -22,11 +22,11 @@ ht-degree: 1%
 
 [!DNL Databricks]から取得したオーディエンスは、Adobe Experience Platformやその他のサポートされているクラウドソースから取得したオーディエンスと同じガバナンスとデータ処理ルールに従います。
 
-その他の利用可能なソーシング方法には、[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Google Cloud Storage](./configure-gcs-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)、[Azure storage](./configure-azure-storage-audience-sourcing.md)、および[CSV ファイルのアップロード ](./upload-csv-audience-sourcing.md)があります。 Collaborationで使用可能なすべてのソースについて詳しくは、[ ソースの概要](./source-overview.md)を参照してください。
+その他の利用可能なソーシング方法には、[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Google Cloud Storage](./configure-gcs-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)、[Azure storage](./configure-azure-storage-audience-sourcing.md)、および[CSV ファイルのアップロード &#x200B;](./upload-csv-audience-sourcing.md)があります。 Collaborationで使用可能なすべてのソースについて詳しくは、[&#x200B; ソースの概要](./source-overview.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
-設定ワークフローを開始する前に、このセクションの前提条件を完了してください。 前提条件が見つからない場合は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする一般的な理由です。 このガイドに従う前に、[ アカウントのオンボーディングと設定](./onboard-account.md)を完了してください。
+設定ワークフローを開始する前に、このセクションの前提条件を完了してください。 前提条件が見つからない場合は、設定が失敗したり、オーディエンスがソーシング後に表示されなかったりする一般的な理由です。 このガイドに従う前に、[&#x200B; アカウントのオンボーディングと設定](./onboard-account.md)を完了してください。
 
 このガイドの一部のタスクでは、[!DNL Databricks]管理者の支援が必要です。 組織の[!DNL Databricks]を管理しない場合は、開始する前に適切な管理者と協力してください。
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 ### 新しいデータ接続を追加 {#add-data-connection}
 
-**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン ](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
+**[!UICONTROL セットアップ]** ワークスペース内の&#x200B;**[!UICONTROL マイオーディエンス]** タブから、追加アイコン（![追加アイコン &#x200B;](/help/assets/icons/plus.png)）を選択します。 **[!UICONTROL Audience]**&#x200B;を選択します。
 
 これが初めてのオーディエンスの場合は、**[!UICONTROL 追加]** オプションを選択することもできます。
 
@@ -117,7 +117,7 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 
 ### 同意とデータ使用の確認 {#confirm-consent}
 
-続ける前に、Collaborationに送信するオーディエンスデータに法律で必要なオプトアウトを適用していることを確認してください。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[ ガバナンスポリシーと施行アクション ](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
+続ける前に、Collaborationに送信するオーディエンスデータに法律で必要なオプトアウトを適用していることを確認してください。 データがこの要件を満たしているかどうかわからない場合は、続行する前に、[&#x200B; ガバナンスポリシーと施行アクション &#x200B;](./onboard-audiences.md#governance-policy-and-enforcement-actions) ガイドを確認してください。 確認チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択して続行します。
 
 ![続行する前に確認が必要な同意オプトアウト確認ダイアログ。](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
@@ -130,7 +130,7 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 
 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
-![ データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/databricks-audience-sourcing/databricks-connection-details.png)
+![&#x200B; データ接続名とデータ接続の説明のフィールドを表示する「詳細を提供」ステップにオーディエンスワークフローを追加し、右上隅に「次へ」が表示されます。](../../assets/setup/databricks-audience-sourcing/databricks-connection-details.png)
 
 ### ID フィールドのマッピング {#map-identity-fields}
 
@@ -144,7 +144,7 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 
 表示されるマッピングが、メンバーシップテーブルの列を反映していることを確認します。 「**[!UICONTROL 次へ]**」をクリックして続行します。
 
-![ ターゲット ID フィールドにマッピングされたソースフィールドを表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加し、「ソースデータをプレビュー」オプションを表示して、右上隅に「次へ」ボタンを表示します。](../../assets/setup/databricks-audience-sourcing/databricks-field-mapping.png)
+![&#x200B; ターゲット ID フィールドにマッピングされたソースフィールドを表示する「フィールドをマップ」ステップにオーディエンスワークフローを追加し、「ソースデータをプレビュー」オプションを表示して、右上隅に「次へ」ボタンを表示します。](../../assets/setup/databricks-audience-sourcing/databricks-field-mapping.png)
 
 ### スケジュール更新頻度と日付範囲 {#schedule-refresh}
 
@@ -172,13 +172,13 @@ Collaborationは、共有を検証し、Adobeのワークスペースにマウ�
 
 ## ソース別オーディエンスの確認 {#review-sourced-audiences}
 
-設定ワークフローが完了すると、Collaborationは[!DNL Databricks] テーブルからのオーディエンスのソーシングを非同期で開始します。 **[!UICONTROL セットアップ ] / [!UICONTROL  マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。 必要な時間は、データのサイズによって異なります。
+設定ワークフローが完了すると、Collaborationは[!DNL Databricks] テーブルからのオーディエンスのソーシングを非同期で開始します。 **[!UICONTROL セットアップ &#x200B;] / [!UICONTROL &#x200B; マイオーディエンス]**&#x200B;に移動して、進行状況を監視します。 必要な時間は、データのサイズによって異なります。
 
 ### オーディエンスのソーシングの進捗状況の監視 {#monitor-sourcing-progress}
 
 Collaborationがオーディエンスデータを取得している間、**[!UICONTROL My audiences]** ワークスペースの上部にあるバナーは、ソーシングが進行中であることを示します。 個々のオーディエンスは、各オーディエンスのソーシング完了後にのみリストに表示されます。
 
-「My audiences」タブの![ ワークスペースを設定すると、「Audience sourcing in progress」バナーが表示され、オーディエンスがDatabricks データ接続からソースされていることを示します。オーディエンスのリストは以下に表示されます。](../../assets/setup/databricks-audience-sourcing/databricks-audience-sourcing-in-progress-banner.png)
+「My audiences」タブの![&#x200B; ワークスペースを設定すると、「Audience sourcing in progress」バナーが表示され、オーディエンスがDatabricks データ接続からソースされていることを示します。オーディエンスのリストは以下に表示されます。](../../assets/setup/databricks-audience-sourcing/databricks-audience-sourcing-in-progress-banner.png)
 
 >[!TIP]
 >
@@ -213,7 +213,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 
 一致キーを含む接続自体を確認するには、**[!UICONTROL 設定]** > **[!UICONTROL データ接続]**&#x200B;に移動します。 新しい[!DNL Databricks]接続がそこで使用できます。 オーディエンスソースは&#x200B;**[!UICONTROL Databricks Delta Share]**&#x200B;として表示されます。
 
-![ ソーシングステータス情報を含む[!DNL Databricks Delta Share] データ接続を示す「My data connections」タブ。](../../assets/setup/databricks-audience-sourcing/databricks-my-data-connections-tab.png)
+![&#x200B; ソーシングステータス情報を含む[!DNL Databricks Delta Share] データ接続を示す「My data connections」タブ。](../../assets/setup/databricks-audience-sourcing/databricks-my-data-connections-tab.png)
 
 ## 既知の制限事項 {#known-limitations}
 
@@ -222,7 +222,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 * **ネイティブ共有のみ：** UIでは、ネイティブ DatabricksからDatabricksへの[!DNL Delta Sharing]のみがサポートされます。 Bearer-tokenおよびOIDC認証フローは、設定ワークフローでは使用できません。
 * **テーブル名の手動入力：** テーブル名を手動で入力する必要があります。 Collaborationでは、テーブルをプレビューする際にテーブル名が検証されます。共有されているすべてのテーブルが自動的に一覧表示されるわけではありません。
 * **メタデータテーブルの行制限：** オーディエンスの検出にメタデータテーブルを使用すると、Collaborationはそのテーブルから最大100,000個のオーディエンス行をインポートします。 カタログがこの制限を超える場合は、Adobe サポートにお問い合わせください。
-* **一致キーの制約：** データ接続で一致キーが有効になると、削除できません。 既存の接続に一致するキーを追加することはできますが、無効にしたり削除したりすることはできません。 アクティブな一致キーを変更するには、[ データ接続](./manage-data-connection.md#delete-data-connection)を削除して新しい接続を作成する必要があります。
+* **一致キーの制約：** データ接続で一致キーが有効になると、削除できません。 既存の接続に一致するキーを追加することはできますが、無効にしたり削除したりすることはできません。 アクティブな一致キーを変更するには、[&#x200B; データ接続](./manage-data-connection.md#delete-data-connection)を削除して新しい接続を作成する必要があります。
 * **メンバーシップテーブルが必要：** オーディエンスの検出にメタデータテーブルを使用する場合でも、メンバーシップテーブルを指定する必要があります。 Collaborationは、取り込み中にメンバーシップテーブルからID行を読み取ります。
 * **大きなテーブルに対する履歴共有の推奨：**&#x200B;大きなテーブルのソーシングパフォーマンスを向上させるには、履歴共有を有効にします。 これにより、Collaborationはデータを並行して読み取ることができます。 履歴を共有しない場合、ソーシングでは、遅い単一クエリのプロセスが使用されます。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 * **クロスクラウド共有：** [!DNL Databricks] プロバイダーとAdobe ワークスペースが異なるクラウド環境を使用している場合、ソーシングでは、履歴の共有が有効になっているかどうかに関係なく、シングルクエリ プロセスが使用されます。 例えば、これは、プロバイダーが[!DNL Azure]を使用し、Adobe WorkspaceがAWSを使用する場合に適用されます。 追加の設定は必要ありません。
@@ -254,7 +254,7 @@ Collaborationがオーディエンスデータを取得している間、**[!UIC
 * テーブルが履歴と共有されていることを確認します。 `SHOW ALL IN SHARE <share_name>;`を実行し、`history_sharing`が`ENABLED`であることを確認します。 履歴の共有が無効になっている場合は、`WITH HISTORY`を含むテーブルを再追加します。 詳しくは、[履歴の共有を有効にする](#enable-history-sharing)を参照してください。
 * データ量に合わせてソーシング時間を拡大： 大規模なメンバーシップテーブルの処理時間が延長されています。
 * オーディエンスが24時間以内に表示されない場合は、**[!UICONTROL データ接続]** タブで、接続のエラーインジケーターを確認してください。
-* メンバーシップ テーブルの構造とフィールド マッピングが、[ オーディエンス データの準備](#prepare-audience-data)の要件に一致することを確認します。
+* メンバーシップ テーブルの構造とフィールド マッピングが、[&#x200B; オーディエンス データの準備](#prepare-audience-data)の要件に一致することを確認します。
 * 問題が解決しない場合は、Adobe カスタマーサポートにお問い合わせいただき、データ接続名とテーブルの詳細を入力してください。
 
 **履歴の共有の有効化に失敗しました**
@@ -307,7 +307,7 @@ Adobeの担当者またはオンボーディング担当者に問い合わせる
 
 >[!NOTE]
 >
-> 製品の手順については、[Databricks Delta Sharing ドキュメント ](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}を参照してください。
+> 製品の手順については、[Databricks Delta Sharing ドキュメント &#x200B;](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}を参照してください。
 
 ### 履歴の共有を有効にする {#enable-history-sharing}
 
