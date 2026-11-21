@@ -2,7 +2,7 @@
 title: 最新のReal-Time CDP Collaboration リリースノート
 description: Real-Time CDP Collaborationの最新リリースに従う
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="限定提供" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/jp/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2587'
 ht-degree: 3%
-
 ---
-
 # 最新のReal-Time CDP Collaboration リリースノート
 
 {{limited-availability-release-note}}
 
-**最終更新**: 2026年8月。
+**最終更新**: 2026年11月。
 
 このリリースノートでは、Adobe Real-Time CDP Collaborationでリリースされた機能について説明します。 Collaboration リリースは継続的な配信モデルで動作します。これにより、ほぼ毎月のリリース頻度を把握できます。 これらのリリースノートは頻繁に更新されるので、定期的に確認してください。
+
+## 2026年11月 {#november-2026}
+
+[!DNL The Trade Desk]からファーストパーティプロファイルに有料メディアのコンテキストを追加し、大規模な[!DNL Databricks] オーディエンステーブルのソーシングパフォーマンスを向上できるようになりました。
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk] プロファイルの強化 | オーディエンスの構築とパーソナライゼーションのために、[!DNL The Trade Desk]からファーストパーティプロファイルに有料メディアのコンテキストを追加できるようになりました。 詳しくは、[The Trade Desk プロファイルの強化](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md)を参照してください。 |
+| [!DNL Databricks] オーディエンス ソーシングの履歴の共有 | 履歴の共有を有効にすることで、大きな[!DNL Databricks] テーブルのオーディエンスのソーシングパフォーマンスを向上できるようになりました。 このパフォーマンスの向上は、クロスクラウド共有には適用されません。 詳しくは、[履歴の共有を有効にする](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing)を参照してください。 |
+
+{style="table-layout:auto"}
+
+## 2026年10月 {#october-2026}
+
+Real-Time CDP CollaborationでID解決の管理、拡張オーディエンスの作成、セルフサービスとログのソーシングを使用できるようになりました。
+
+| 機能 | 説明 |
+| ------- | ----------- |
+| Epsilon Core ID ID解決 | 組織で様々な識別子を使用している場合でも、共同作業者と共通する人物を特定できるようになりました。 Epsilon Core IDを使用して、各パートナーのカスタム統合を構築することなく、適格なオーディエンスデータ接続をまたいでIDを解決します。 この機能は、米国でプロビジョニングされたCollaboration アカウントでのみ使用できます。 詳しくは、[ID解決の設定と管理](../setup/identity-resolution.md)を参照してください。 |
+| セルフサービスとログの取得 | [!DNL Google Cloud Storage]、[!DNL Azure Blob Storage]または[!DNL Azure Data Lake Storage Gen2]から広告露出（広告ログ）データを直接取得して、キャンペーンのパフォーマンスを測定できるようになりました。 これにより、Adobe Experience Platformを通じて最初に広告ログを取得する必要がなくなります。 詳しくは、[Google Cloud Storage setup](../setup/configure-gcs-adlog-sourcing.md)および[Azure storage setup](../setup/configure-azure-adlog-sourcing.md)を参照してください。 |
+| [!BADGE Beta]{type=Informative} オーディエンスの拡張 | 元となるオーディエンスデータを公開することなく、ソースオーディエンスに類似した共同作業者の母集団の中でプロファイルを検索できるようになりました。 これらのプロファイルを活用して、新規見込み顧客向けの拡張オーディエンスを作成できます。 詳しくは、[拡張オーディエンスの作成](../collaborate/expand.md)を参照してください。 |
+
+{style="table-layout:auto"}
 
 ## 2026年8月 {#august-2026}
 
@@ -45,6 +66,7 @@ Real-Time CDP Collaborationでは、[!DNL Amazon Marketing Cloud] （AMC）測�
 
 | 機能 | 説明 |
 | ------- | ----------- |
+| [!UICONTROL Data Collaboration]の追加のデータ使用ラベル | オーディエンスのソーシング中にデータ使用の制限を適用して、ラベル付きの機密性の高い規制されたヘルスデータがCollaborationにソースされるのを防ぐことができます。 [!UICONTROL Data Collaboration] マーケティングアクションで、S1、S2、PSPD、およびRHD データ使用ラベルがサポートされるようになりました。 既存のC4、C5、およびC9 ラベルのサポートは変更されません。 詳しくは、「[&#x200B; オーディエンスのソーシングガバナンス &#x200B;](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions)」を参照してください。 |
 | [!DNL AMC]測定レポート | Collaborationで直接[!DNL AMC] データを使用して、Amazon Ads キャンペーンのパフォーマンスを測定します。 [!DNL AMC] プロジェクトの「**[!UICONTROL Measure]**」タブから、**キャンペーンサマリー**&#x200B;および&#x200B;**アトリビューション** レポートを作成して、キャンペーンのパフォーマンスを評価し、コンバージョンのアトリビューションを理解できます。 詳しくは、[Amazon Marketing Cloud測定レポートの作成](../collaborate/advertising-platforms/amc-measure.md)を参照してください。 |
 | ネストされたプロファイル属性のキーマッピングの一致 | 事前にデータを統合または再構築することなく、一致キーを`devices`配列内のデバイス IDなど、リストベースのプロファイルフィールド内にネストされたフィールドにマッピングできるようになりました。 Collaborationは、ネストされたフィールド内の各値を個別に一致させてカウントします。 ネストされたフィールドは、現在、プロファイル属性としてではなく、一致キーに対してのみサポートされています。 詳しくは、[&#x200B; フィールドのマッピング &#x200B;](../setup/onboard-audiences.md#map-fields)を参照してください。 |
 | プレースメントレベルのコンバージョンレポート | アトリビューションレポートに、Campaign ID内の各プレースメント IDのコンバージョン数とコンバージョン値を示す&#x200B;**個のプレースメント別コンバージョン** テーブルが含まれるようになりました。 これにより、複数の配置を持つキャンペーンに対して個別の結果を得ることができます。 わかりやすくするため、以前の&#x200B;**[!UICONTROL 売上予測]**&#x200B;指標ラベルが&#x200B;**[!UICONTROL コンバージョン値]**&#x200B;に更新されました。 詳しくは、[&#x200B; プレースメント別コンバージョン &#x200B;](../collaborate/measure.md#conversions-by-placement)を参照してください。 |
@@ -143,7 +165,7 @@ Real-Time CDP Collaborationは、**カナダ**&#x200B;のお客様が利用で�
 
 ## 2025年7月 {#july-2025}
 
-Adobe Real-Time CDP Collaborationは、ブランド間のコラボレーションをサポートするようになりました。 共同作業者は、広告主かパブリッシャーかに関係なく、接続を形成できるようになりました。 これにより、より柔軟なコラボレーション機会が可能になり、互いのデータとインサイトを活用できるようになります。 ブランド間の共同作業と広告主とパブリッシャー間の共同作業の違いについて詳しくは、[共同作業パターン &#x200B;](../overview/collaboration-patterns.md) ガイドを参照してください。
+Real-Time CDP Collaborationは、ブランド間のコラボレーションをサポートするようになりました。 共同作業者は、広告主かパブリッシャーかに関係なく、接続を形成できるようになりました。 これにより、より柔軟なコラボレーション機会が可能になり、互いのデータとインサイトを活用できるようになります。 ブランド間の共同作業と広告主とパブリッシャー間の共同作業の違いについて詳しくは、[共同作業パターン &#x200B;](../overview/collaboration-patterns.md) ガイドを参照してください。
 
 * 共同作業者は、[&#x200B; プライベート接続の招待](../connect/establishing-connections.md#private-connection-invites)を使用して互いに接続できるようになりました。 アカウントの一意の接続コードを共同作業者と共有すると、共同作業者がそれを使用して直接接続できます。 これは、ブランド間のコラボレーションの主な機能であり、共同作業者は、**[!UICONTROL 共同作業者を見つける]** ディレクトリを探索する広告主の枠を超えてつながりを確立できます。
 * [&#x200B; セルフサービスの宛先](../destinations/overview.md)が、広告主とパブリッシャーの両方で利用できるようになりました。
